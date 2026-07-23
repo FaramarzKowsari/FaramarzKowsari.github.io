@@ -31,25 +31,46 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://faramarzkowsari.github.io/#person",
-    "name": "Faramarz Kowsari",
-    "url": "https://faramarzkowsari.github.io/",
-    "image": "https://github.com/FaramarzKowsari.png",
-    "description": "Author, software engineer and AI researcher based in Istanbul.",
-    "jobTitle": [
-      "Author",
-      "Software Engineer",
-      "AI Researcher"
-    ],
-    "sameAs": [
-      "https://github.com/FaramarzKowsari",
-      "https://orcid.org/0000-0003-1692-0453",
-      "https://www.wikidata.org/wiki/Q140389378",
-      "https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en",
-      "https://www.linkedin.com/in/faramarzkowsari",
-      "https://play.google.com/store/search?q=Faramarz%20Kowsari&c=books",
-      "https://zenodo.org/search?q=Faramarz%20Kowsari"
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://faramarzkowsari.github.io/#person",
+        "name": "Faramarz Kowsari",
+        "url": "https://faramarzkowsari.github.io/",
+        "image": "https://github.com/FaramarzKowsari.png",
+        "description": "Author, software engineer and AI researcher based in Istanbul.",
+        "jobTitle": [
+          "Author",
+          "Software Engineer",
+          "AI Researcher"
+        ],
+        "sameAs": [
+          "https://github.com/FaramarzKowsari",
+          "https://orcid.org/0000-0003-1692-0453",
+          "https://www.wikidata.org/wiki/Q140389378",
+          "https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en",
+          "https://www.linkedin.com/in/faramarzkowsari",
+          "https://play.google.com/store/search?q=Faramarz%20Kowsari&c=books",
+          "https://zenodo.org/search?q=Faramarz%20Kowsari"
+        ],
+        "subjectOf": {
+          "@id": "https://faramarzkowsari.github.io/sql-visual-optimizer/#software"
+        }
+      },
+      {
+        "@type": ["SoftwareApplication", "SoftwareSourceCode"],
+        "@id": "https://faramarzkowsari.github.io/sql-visual-optimizer/#software",
+        "name": "SQL Visual Optimizer",
+        "alternateName": "SQL Visual Optimizer — Interactive Query Planning and Performance Laboratory",
+        "url": "https://faramarzkowsari.github.io/sql-visual-optimizer/",
+        "codeRepository": "https://github.com/FaramarzKowsari/sql-visual-optimizer",
+        "citation": "https://doi.org/10.5281/zenodo.21501361",
+        "softwareVersion": "1.0.0",
+        "license": "https://opensource.org/licenses/MIT",
+        "author": {
+          "@id": "https://faramarzkowsari.github.io/#person"
+        }
+      }
     ]
   }
   </script>
@@ -159,6 +180,14 @@
         <h2>GitHub repositories</h2>
 
         <div class="project-list">
+          <article class="project">
+            <div>
+              <h3>SQL Visual Optimizer</h3>
+              <p>An interactive browser-first laboratory for SQL parsing, query planning, cost analysis, EXPLAIN JSON, and index hypotheses. Archived release DOI: <a href="https://doi.org/10.5281/zenodo.21501361">10.5281/zenodo.21501361</a>.</p>
+            </div>
+            <a href="https://faramarzkowsari.github.io/sql-visual-optimizer/">SQL Visual Optimizer — Interactive Query Planning and Performance Laboratory →</a>
+          </article>
+
           <article class="project">
             <div>
               <h3>Verified Bibliography</h3>
