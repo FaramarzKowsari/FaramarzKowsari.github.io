@@ -1,0 +1,21 @@
+FARAMARZKOWSARI.GITHUB.IO — SCALABLE PROJECT HUB UPDATE
+
+Files:
+1. index.html                         -> replace root index.html
+2. styles.css                        -> replace root styles.css
+3. app.js                            -> add at repository root
+4. scripts/update_project_index.py   -> add this path
+5. .github/workflows/update-project-index.yml -> add this path
+
+What it does:
+- Keeps eight important GitHub Pages projects as static crawlable links.
+- Automatically displays all public non-fork GitHub repositories.
+- Uses projects.json when available; falls back to the public GitHub API.
+- A daily GitHub Action regenerates projects.json and the root sitemap.xml.
+- Future GitHub Pages repositories are automatically added to the master sitemap.
+- Search and sort controls scale to a large repository catalogue.
+
+After uploading:
+- Go to Actions > Update project hub index > Run workflow once.
+- The workflow will create/update projects.json and sitemap.xml.
+- GitHub Pages will then publish the new hub.
