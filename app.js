@@ -1,5 +1,79 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
+// Instagram ↔ official website tracking bridge.
+// GA4 page views remain on the existing direct Google tag.
+// Instagram-specific events are pushed to dataLayer for GTM to send to GA4.
+(() => {
+  const instagramProfileUrl = "https://www.instagram.com/faramarzkowsari/";
+  const instagramBioUrl = "https://faramarzkowsari.github.io/?utm_source=instagram&utm_medium=social&utm_campaign=official_profile&utm_content=bio_link";
+
+  const pushInstagramEvent = (eventName, parameters = {}) => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: eventName,
+      ...parameters
+    });
+  };
+
+  // Add a visible official Instagram profile card to the Official Profiles section.
+  const profileGrid = document.querySelector("#profiles .grid");
+  if (profileGrid && !profileGrid.querySelector('[data-social-platform="instagram"]')) {
+    const instagramCard = document.createElement("a");
+    instagramCard.className = "card";
+    instagramCard.href = instagramProfileUrl;
+    instagramCard.target = "_blank";
+    instagramCard.rel = "me noopener noreferrer";
+    instagramCard.dataset.socialPlatform = "instagram";
+    instagramCard.innerHTML = "<h3>Instagram</h3><p>Official public profile, short-form videos and project updates.</p>";
+    profileGrid.appendChild(instagramCard);
+  }
+
+  // Detect visits coming from the Instagram bio UTM link or an Instagram referrer.
+  const query = new URLSearchParams(window.location.search);
+  const utmSource = (query.get("utm_source") || "").toLowerCase();
+  const utmMedium = query.get("utm_medium") || "";
+  const utmCampaign = query.get("utm_campaign") || "";
+  const utmContent = query.get("utm_content") || "";
+
+  let referrerHost = "";
+  try {
+    referrerHost = document.referrer ? new URL(document.referrer).hostname.toLowerCase() : "";
+  } catch {
+    referrerHost = "";
+  }
+
+  const instagramReferrer = referrerHost === "instagram.com" || referrerHost.endsWith(".instagram.com");
+  const instagramInbound = utmSource === "instagram" || instagramReferrer;
+
+  if (instagramInbound) {
+    pushInstagramEvent("instagram_inbound_visit", {
+      traffic_source: "instagram",
+      traffic_medium: utmMedium || "social",
+      campaign_name: utmCampaign || "official_profile",
+      campaign_content: utmContent || "unspecified",
+      landing_page: window.location.pathname,
+      page_location: window.location.href,
+      referrer_host: referrerHost || "not_available"
+    });
+  }
+
+  // Track clicks from the official website to the official Instagram profile.
+  document.addEventListener("click", (event) => {
+    const link = event.target.closest('a[href*="instagram.com/faramarzkowsari"]');
+    if (!link) return;
+
+    pushInstagramEvent("instagram_outbound_click", {
+      social_platform: "instagram",
+      link_url: link.href,
+      link_text: (link.textContent || "Instagram").trim().slice(0, 120),
+      page_location: window.location.href
+    });
+  });
+
+  // Expose the exact tracked bio URL for easy verification in the browser console.
+  window.FARAMARZ_INSTAGRAM_BIO_TRACKING_URL = instagramBioUrl;
+})();
+
 (() => {
   const username = "FaramarzKowsari";
   const rootRepo = `${username}.github.io`;
