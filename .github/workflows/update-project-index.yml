@@ -14,14 +14,15 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7.0.1
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7.0.0
         with:
           python-version: "3.12"
 
@@ -31,13 +32,17 @@ jobs:
         run: python scripts/update_project_index.py
 
       - name: Commit changes if needed
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add projects.json sitemap.xml
+          git add -- projects.json sitemap.xml
+
           if git diff --cached --quiet; then
             echo "No project-index changes."
-          else
-            git commit -m "chore: refresh project hub index"
-            git push
+            exit 0
           fi
+
+          git commit -m "chore: refresh project hub index"
+          git push
