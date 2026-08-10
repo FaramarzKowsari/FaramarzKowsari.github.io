@@ -6,11 +6,11 @@
     "topics": [],
     "archived": false,
     "fork": false,
-    "has_pages": false,
+    "has_pages": true,
     "homepage": "",
     "html_url": "https://github.com/FaramarzKowsari/turkiye-disaster-intelligence-digital-twin",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-10T19:54:59Z"
+    "pushed_at": "2026-08-10T20:20:10Z"
   },
   {
     "name": "turkiye-seismic-intelligence-resilience-platform",
