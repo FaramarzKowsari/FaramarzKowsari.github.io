@@ -1,5 +1,18 @@
 [
   {
+    "name": "istanbul-graphtraffic-ai",
+    "description": "Initial research-grade İstanbul GraphTraffic AI implementation",
+    "language": "Python",
+    "topics": [],
+    "archived": false,
+    "fork": false,
+    "has_pages": true,
+    "homepage": "",
+    "html_url": "https://github.com/FaramarzKowsari/istanbul-graphtraffic-ai",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-13T09:24:03Z"
+  },
+  {
     "name": "ai-api-playbook",
     "description": "Companion source code for AI APIs in Practice, a visual engineering book on multimodal AI, agents, RAG, evaluation, governance, and production-ready products. Book DOI: 10.5281/zenodo.21431944 · Software DOI: 10.5281/zenodo.21419466",
     "language": "Python",
