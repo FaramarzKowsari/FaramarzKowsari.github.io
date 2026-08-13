@@ -1,16 +1,28 @@
 [
   {
     "name": "istanbul-graphtraffic-ai",
-    "description": "Initial research-grade İstanbul GraphTraffic AI implementation",
+    "description": " Dynamic, uncertainty-aware spatiotemporal graph learning for multi-horizon traffic forecasting in Istanbul.",
     "language": "Python",
-    "topics": [],
+    "topics": [
+      "faramarz-kowsari",
+      "graph-neural-networks",
+      "graph-transformer",
+      "intelligent-transportation-systems",
+      "istanbul",
+      "openstreetmap",
+      "spatiotemporal-learning",
+      "traffic-forecasting",
+      "turkey",
+      "uncertainty-quantification",
+      "urban-ai"
+    ],
     "archived": false,
     "fork": false,
     "has_pages": true,
-    "homepage": "",
+    "homepage": "https://faramarzkowsari.github.io/istanbul-graphtraffic-ai/",
     "html_url": "https://github.com/FaramarzKowsari/istanbul-graphtraffic-ai",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-13T09:24:03Z"
+    "pushed_at": "2026-08-13T10:40:49Z"
   },
   {
     "name": "ai-api-playbook",
