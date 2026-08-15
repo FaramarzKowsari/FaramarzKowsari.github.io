@@ -1,5 +1,32 @@
 [
   {
+    "name": "turkiye-disaster-intelligence-digital-twin",
+    "description": "Reproducible disaster-response digital twin for Türkiye using AFAD/OSM data, graph optimization, coupled Monte Carlo simulation and bootstrap reliability-boundary inference. DOI: 10.5281/zenodo.21903850",
+    "language": "Python",
+    "topics": [
+      "digital-twin",
+      "disaster-response",
+      "earthquake-response",
+      "emergency-management",
+      "faramarz-kowsari",
+      "geospatial-analysis",
+      "graph-optimization",
+      "istanbul",
+      "monte-carlo",
+      "network-reliability",
+      "python",
+      "reproducible-research",
+      "turkey"
+    ],
+    "archived": false,
+    "fork": false,
+    "has_pages": true,
+    "homepage": "https://faramarzkowsari.github.io/turkiye-disaster-intelligence-digital-twin/",
+    "html_url": "https://github.com/FaramarzKowsari/turkiye-disaster-intelligence-digital-twin",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-15T14:49:00Z"
+  },
+  {
     "name": "istanbul-graphtraffic-ai",
     "description": " Dynamic, uncertainty-aware spatiotemporal graph learning for multi-horizon traffic forecasting in Istanbul.",
     "language": "Python",
@@ -57,33 +84,6 @@
     "html_url": "https://github.com/FaramarzKowsari/ai-api-playbook",
     "stargazers_count": 3,
     "pushed_at": "2026-07-19T01:32:05Z"
-  },
-  {
-    "name": "turkiye-disaster-intelligence-digital-twin",
-    "description": "Reproducible disaster-response digital twin for Türkiye using AFAD/OSM data, graph optimization, coupled Monte Carlo simulation and bootstrap reliability-boundary inference. DOI: 10.5281/zenodo.21903850",
-    "language": "Python",
-    "topics": [
-      "digital-twin",
-      "disaster-response",
-      "earthquake-response",
-      "emergency-management",
-      "faramarz-kowsari",
-      "geospatial-analysis",
-      "graph-optimization",
-      "istanbul",
-      "monte-carlo",
-      "network-reliability",
-      "python",
-      "reproducible-research",
-      "turkey"
-    ],
-    "archived": false,
-    "fork": false,
-    "has_pages": true,
-    "homepage": "https://faramarzkowsari.github.io/turkiye-disaster-intelligence-digital-twin/",
-    "html_url": "https://github.com/FaramarzKowsari/turkiye-disaster-intelligence-digital-twin",
-    "stargazers_count": 0,
-    "pushed_at": "2026-08-12T16:49:14Z"
   },
   {
     "name": "turkiye-seismic-intelligence-resilience-platform",
