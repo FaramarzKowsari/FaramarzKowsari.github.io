@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://faramarzkowsari.github.io/</loc>
   </url>
+
+  <!-- İstanbul GraphTraffic AI -->
   <url>
     <loc>https://faramarzkowsari.github.io/istanbul-graphtraffic-ai/</loc>
   </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/istanbul-graphtraffic-ai/tr/</loc>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/istanbul-graphtraffic-ai/es/</loc>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/istanbul-graphtraffic-ai/registered-confirmatory-study.html</loc>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/istanbul-graphtraffic-ai/confirmatory-results.html</loc>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/istanbul-graphtraffic-ai/research-findings.html</loc>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/istanbul-graphtraffic-ai/st-gnn-istanbul.html</loc>
+  </url>
+
+  <!-- Other projects -->
   <url>
     <loc>https://faramarzkowsari.github.io/turkiye-disaster-intelligence-digital-twin/</loc>
   </url>
@@ -84,4 +107,5 @@
   <url>
     <loc>https://faramarzkowsari.github.io/computational-pathology-ai-lab/</loc>
   </url>
+
 </urlset>
