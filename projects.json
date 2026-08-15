@@ -1,5 +1,30 @@
 [
   {
+    "name": "istanbul-graphtraffic-ai",
+    "description": " Dynamic, uncertainty-aware spatiotemporal graph learning for multi-horizon traffic forecasting in Istanbul.",
+    "language": "Python",
+    "topics": [
+      "faramarz-kowsari",
+      "graph-neural-networks",
+      "graph-transformer",
+      "intelligent-transportation-systems",
+      "istanbul",
+      "openstreetmap",
+      "spatiotemporal-learning",
+      "traffic-forecasting",
+      "turkey",
+      "uncertainty-quantification",
+      "urban-ai"
+    ],
+    "archived": false,
+    "fork": false,
+    "has_pages": true,
+    "homepage": "https://faramarzkowsari.github.io/istanbul-graphtraffic-ai/",
+    "html_url": "https://github.com/FaramarzKowsari/istanbul-graphtraffic-ai",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-15T15:43:15Z"
+  },
+  {
     "name": "turkiye-disaster-intelligence-digital-twin",
     "description": "Reproducible disaster-response digital twin for Türkiye using AFAD/OSM data, graph optimization, coupled Monte Carlo simulation and bootstrap reliability-boundary inference. DOI: 10.5281/zenodo.21903850",
     "language": "Python",
@@ -25,31 +50,6 @@
     "html_url": "https://github.com/FaramarzKowsari/turkiye-disaster-intelligence-digital-twin",
     "stargazers_count": 0,
     "pushed_at": "2026-08-15T14:49:00Z"
-  },
-  {
-    "name": "istanbul-graphtraffic-ai",
-    "description": " Dynamic, uncertainty-aware spatiotemporal graph learning for multi-horizon traffic forecasting in Istanbul.",
-    "language": "Python",
-    "topics": [
-      "faramarz-kowsari",
-      "graph-neural-networks",
-      "graph-transformer",
-      "intelligent-transportation-systems",
-      "istanbul",
-      "openstreetmap",
-      "spatiotemporal-learning",
-      "traffic-forecasting",
-      "turkey",
-      "uncertainty-quantification",
-      "urban-ai"
-    ],
-    "archived": false,
-    "fork": false,
-    "has_pages": true,
-    "homepage": "https://faramarzkowsari.github.io/istanbul-graphtraffic-ai/",
-    "html_url": "https://github.com/FaramarzKowsari/istanbul-graphtraffic-ai",
-    "stargazers_count": 0,
-    "pushed_at": "2026-08-15T14:31:43Z"
   },
   {
     "name": "ai-api-playbook",
