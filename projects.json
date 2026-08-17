@@ -1,5 +1,18 @@
 [
   {
+    "name": "seismicshield-rl",
+    "description": "Preregistered multi-fidelity research platform for multi-agent reinforcement learning and seismic friction-damper co-design under earthquake uncertainty.",
+    "language": "Python",
+    "topics": [],
+    "archived": false,
+    "fork": false,
+    "has_pages": false,
+    "homepage": "",
+    "html_url": "https://github.com/FaramarzKowsari/seismicshield-rl",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-17T22:55:34Z"
+  },
+  {
     "name": "istanbul-graphtraffic-ai",
     "description": " Dynamic, uncertainty-aware spatiotemporal graph learning for multi-horizon traffic forecasting in Istanbul.",
     "language": "Python",
