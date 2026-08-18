@@ -1,5 +1,32 @@
 [
   {
+    "name": "turkiye-disaster-intelligence-digital-twin",
+    "description": "Reproducible disaster-response digital twin for Türkiye using AFAD/OSM data, graph optimization, coupled Monte Carlo simulation and bootstrap reliability-boundary inference. DOI: 10.5281/zenodo.21903850",
+    "language": "Python",
+    "topics": [
+      "digital-twin",
+      "disaster-response",
+      "earthquake-response",
+      "emergency-management",
+      "faramarz-kowsari",
+      "geospatial-analysis",
+      "graph-optimization",
+      "istanbul",
+      "monte-carlo",
+      "network-reliability",
+      "python",
+      "reproducible-research",
+      "turkey"
+    ],
+    "archived": false,
+    "fork": false,
+    "has_pages": true,
+    "homepage": "https://faramarzkowsari.github.io/turkiye-disaster-intelligence-digital-twin/",
+    "html_url": "https://github.com/FaramarzKowsari/turkiye-disaster-intelligence-digital-twin",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-18T08:55:55Z"
+  },
+  {
     "name": "seismicshield-rl",
     "description": "Preregistered multi-fidelity research platform for multi-agent reinforcement learning and seismic friction-damper co-design under earthquake uncertainty.",
     "language": "Python",
@@ -36,33 +63,6 @@
     "html_url": "https://github.com/FaramarzKowsari/istanbul-graphtraffic-ai",
     "stargazers_count": 0,
     "pushed_at": "2026-08-16T13:41:04Z"
-  },
-  {
-    "name": "turkiye-disaster-intelligence-digital-twin",
-    "description": "Reproducible disaster-response digital twin for Türkiye using AFAD/OSM data, graph optimization, coupled Monte Carlo simulation and bootstrap reliability-boundary inference. DOI: 10.5281/zenodo.21903850",
-    "language": "Python",
-    "topics": [
-      "digital-twin",
-      "disaster-response",
-      "earthquake-response",
-      "emergency-management",
-      "faramarz-kowsari",
-      "geospatial-analysis",
-      "graph-optimization",
-      "istanbul",
-      "monte-carlo",
-      "network-reliability",
-      "python",
-      "reproducible-research",
-      "turkey"
-    ],
-    "archived": false,
-    "fork": false,
-    "has_pages": true,
-    "homepage": "https://faramarzkowsari.github.io/turkiye-disaster-intelligence-digital-twin/",
-    "html_url": "https://github.com/FaramarzKowsari/turkiye-disaster-intelligence-digital-twin",
-    "stargazers_count": 0,
-    "pushed_at": "2026-08-15T16:32:40Z"
   },
   {
     "name": "ai-api-playbook",
