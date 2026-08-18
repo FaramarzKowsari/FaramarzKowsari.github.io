@@ -1,5 +1,18 @@
 [
   {
+    "name": "seismicshield-rl",
+    "description": "Preregistered multi-fidelity research platform for multi-agent reinforcement learning and seismic friction-damper co-design under earthquake uncertainty.",
+    "language": "Python",
+    "topics": [],
+    "archived": false,
+    "fork": false,
+    "has_pages": false,
+    "homepage": "",
+    "html_url": "https://github.com/FaramarzKowsari/seismicshield-rl",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-18T19:16:17Z"
+  },
+  {
     "name": "turkiye-disaster-intelligence-digital-twin",
     "description": "Reproducible disaster-response digital twin for Türkiye using AFAD/OSM data, graph optimization, coupled Monte Carlo simulation and bootstrap reliability-boundary inference. DOI: 10.5281/zenodo.21903850",
     "language": "Python",
@@ -25,19 +38,6 @@
     "html_url": "https://github.com/FaramarzKowsari/turkiye-disaster-intelligence-digital-twin",
     "stargazers_count": 0,
     "pushed_at": "2026-08-18T09:38:07Z"
-  },
-  {
-    "name": "seismicshield-rl",
-    "description": "Preregistered multi-fidelity research platform for multi-agent reinforcement learning and seismic friction-damper co-design under earthquake uncertainty.",
-    "language": "Python",
-    "topics": [],
-    "archived": false,
-    "fork": false,
-    "has_pages": false,
-    "homepage": "",
-    "html_url": "https://github.com/FaramarzKowsari/seismicshield-rl",
-    "stargazers_count": 0,
-    "pushed_at": "2026-08-18T18:15:40Z"
   },
   {
     "name": "istanbul-graphtraffic-ai",
