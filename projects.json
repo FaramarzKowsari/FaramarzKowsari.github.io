@@ -6,11 +6,11 @@
     "topics": [],
     "archived": false,
     "fork": false,
-    "has_pages": false,
-    "homepage": "",
+    "has_pages": true,
+    "homepage": "https://faramarzkowsari.github.io/agentmesh-gateway/",
     "html_url": "https://github.com/FaramarzKowsari/agentmesh-gateway",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-23T15:05:06Z"
+    "pushed_at": "2026-08-23T17:12:11Z"
   },
   {
     "name": "seismicshield-rl",
