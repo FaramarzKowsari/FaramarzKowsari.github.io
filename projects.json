@@ -1,5 +1,18 @@
 [
   {
+    "name": "turkiye-grid-foundation-model",
+    "description": "A reproducible multi-task foundation model for Türkiye's electricity grid using public EPİAŞ data, forecasting load, generation, renewables and market dynamics with calibrated uncertainty.",
+    "language": "",
+    "topics": [],
+    "archived": false,
+    "fork": false,
+    "has_pages": false,
+    "homepage": "",
+    "html_url": "https://github.com/FaramarzKowsari/turkiye-grid-foundation-model",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-23T20:36:49Z"
+  },
+  {
     "name": "agentmesh-gateway",
     "description": "",
     "language": "Python",
