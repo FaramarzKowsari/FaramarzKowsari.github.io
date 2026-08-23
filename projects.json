@@ -1,5 +1,38 @@
 [
   {
+    "name": "seismicshield-rl",
+    "description": "Preregistered, reproducible research infrastructure for RL/MARL and multi-objective seismic friction-damper co-design under earthquake and structural uncertainty, with OpenSeesPy.",
+    "language": "Python",
+    "topics": [
+      "earthquake-engineering",
+      "earthquake-simulation",
+      "faramarz-kowsari",
+      "friction-damper",
+      "machine-learning",
+      "multi-agent-reinforcement-learning",
+      "multiobjective-optimization",
+      "openseespy",
+      "pareto-optimization",
+      "preregistration",
+      "python",
+      "reinforcement-learning",
+      "reproducible-research",
+      "research-software",
+      "seismic-control",
+      "seismic-retrofit",
+      "structural-dynamics",
+      "structural-engineering",
+      "uncertainty-quantification"
+    ],
+    "archived": false,
+    "fork": false,
+    "has_pages": true,
+    "homepage": "https://faramarzkowsari.github.io/seismicshield-rl/",
+    "html_url": "https://github.com/FaramarzKowsari/seismicshield-rl",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-23T13:50:20Z"
+  },
+  {
     "name": "agentmesh-gateway",
     "description": "",
     "language": "Python",
@@ -11,19 +44,6 @@
     "html_url": "https://github.com/FaramarzKowsari/agentmesh-gateway",
     "stargazers_count": 0,
     "pushed_at": "2026-08-23T12:15:38Z"
-  },
-  {
-    "name": "seismicshield-rl",
-    "description": "Preregistered multi-fidelity research platform for multi-agent reinforcement learning and seismic friction-damper co-design under earthquake uncertainty.",
-    "language": "Python",
-    "topics": [],
-    "archived": false,
-    "fork": false,
-    "has_pages": true,
-    "homepage": "",
-    "html_url": "https://github.com/FaramarzKowsari/seismicshield-rl",
-    "stargazers_count": 0,
-    "pushed_at": "2026-08-23T12:04:32Z"
   },
   {
     "name": "istanbul-graphtraffic-ai",
