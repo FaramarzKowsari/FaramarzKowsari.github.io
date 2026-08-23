@@ -1,18 +1,5 @@
 [
   {
-    "name": "seismicshield-rl",
-    "description": "Preregistered multi-fidelity research platform for multi-agent reinforcement learning and seismic friction-damper co-design under earthquake uncertainty.",
-    "language": "Python",
-    "topics": [],
-    "archived": false,
-    "fork": false,
-    "has_pages": false,
-    "homepage": "",
-    "html_url": "https://github.com/FaramarzKowsari/seismicshield-rl",
-    "stargazers_count": 0,
-    "pushed_at": "2026-08-23T11:53:54Z"
-  },
-  {
     "name": "agentmesh-gateway",
     "description": "",
     "language": "Python",
@@ -23,7 +10,20 @@
     "homepage": "",
     "html_url": "https://github.com/FaramarzKowsari/agentmesh-gateway",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-23T11:56:11Z"
+    "pushed_at": "2026-08-23T12:15:38Z"
+  },
+  {
+    "name": "seismicshield-rl",
+    "description": "Preregistered multi-fidelity research platform for multi-agent reinforcement learning and seismic friction-damper co-design under earthquake uncertainty.",
+    "language": "Python",
+    "topics": [],
+    "archived": false,
+    "fork": false,
+    "has_pages": true,
+    "homepage": "",
+    "html_url": "https://github.com/FaramarzKowsari/seismicshield-rl",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-23T12:04:32Z"
   },
   {
     "name": "istanbul-graphtraffic-ai",
