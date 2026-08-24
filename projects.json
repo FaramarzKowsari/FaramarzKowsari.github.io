@@ -1,5 +1,34 @@
 [
   {
+    "name": "turkiye-grid-foundation-model",
+    "description": "A reproducible multi-task foundation model for Türkiye's electricity grid using public EPİAŞ data, forecasting load, generation, renewables and market dynamics with calibrated uncertainty.",
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "electricity-grid",
+      "energy-ai",
+      "epias",
+      "faramarz-kowsari",
+      "foundation-models",
+      "machine-learning",
+      "probabilistic-forecasting",
+      "renewable-energy",
+      "reproducible-research",
+      "time-series",
+      "transformers",
+      "turkiye",
+      "uncertainty-quantification"
+    ],
+    "archived": false,
+    "fork": false,
+    "has_pages": true,
+    "homepage": "",
+    "html_url": "https://github.com/FaramarzKowsari/turkiye-grid-foundation-model",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-24T21:28:17Z"
+  },
+  {
     "name": "agentmesh-gateway",
     "description": "Protocol-aware AI model & agent gateway with feasibility-first routing, failover, OpenAI/Anthropic/Responses compatibility, deterministic simulation, adaptive routing research, and reproducible cost/latency evidence.",
     "language": "Python",
@@ -32,35 +61,6 @@
     "html_url": "https://github.com/FaramarzKowsari/agentmesh-gateway",
     "stargazers_count": 0,
     "pushed_at": "2026-08-24T20:47:54Z"
-  },
-  {
-    "name": "turkiye-grid-foundation-model",
-    "description": "A reproducible multi-task foundation model for Türkiye's electricity grid using public EPİAŞ data, forecasting load, generation, renewables and market dynamics with calibrated uncertainty.",
-    "language": "Python",
-    "topics": [
-      "artificial-intelligence",
-      "deep-learning",
-      "electricity-grid",
-      "energy-ai",
-      "epias",
-      "faramarz-kowsari",
-      "foundation-models",
-      "machine-learning",
-      "probabilistic-forecasting",
-      "renewable-energy",
-      "reproducible-research",
-      "time-series",
-      "transformers",
-      "turkiye",
-      "uncertainty-quantification"
-    ],
-    "archived": false,
-    "fork": false,
-    "has_pages": true,
-    "homepage": "",
-    "html_url": "https://github.com/FaramarzKowsari/turkiye-grid-foundation-model",
-    "stargazers_count": 0,
-    "pushed_at": "2026-08-24T19:51:38Z"
   },
   {
     "name": "seismicshield-rl",
