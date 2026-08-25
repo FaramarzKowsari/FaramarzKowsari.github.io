@@ -1,5 +1,18 @@
 [
   {
+    "name": "gemini-youtube-dubber",
+    "description": "AI-powered YouTube and video dubbing into Persian and other languages using Google Gemini, Smart Chunk TTS and FFmpeg.",
+    "language": "",
+    "topics": [],
+    "archived": false,
+    "fork": false,
+    "has_pages": false,
+    "homepage": "",
+    "html_url": "https://github.com/FaramarzKowsari/gemini-youtube-dubber",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-25T08:02:40Z"
+  },
+  {
     "name": "turkiye-grid-foundation-model",
     "description": "A reproducible multi-task foundation model for Türkiye's electricity grid using public EPİAŞ data, forecasting load, generation, renewables and market dynamics with calibrated uncertainty.",
     "language": "Python",
