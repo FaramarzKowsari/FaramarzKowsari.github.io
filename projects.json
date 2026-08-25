@@ -2,7 +2,7 @@
   {
     "name": "gemini-youtube-dubber",
     "description": "AI-powered YouTube and video dubbing into Persian and other languages using Google Gemini, Smart Chunk TTS and FFmpeg.",
-    "language": "",
+    "language": "Python",
     "topics": [],
     "archived": false,
     "fork": false,
@@ -10,7 +10,7 @@
     "homepage": "",
     "html_url": "https://github.com/FaramarzKowsari/gemini-youtube-dubber",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-25T08:02:40Z"
+    "pushed_at": "2026-08-25T08:26:40Z"
   },
   {
     "name": "turkiye-grid-foundation-model",
