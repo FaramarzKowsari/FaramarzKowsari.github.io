@@ -1,5 +1,18 @@
 [
   {
+    "name": "gemini-youtube-dubber",
+    "description": "AI-powered YouTube and video dubbing into Persian and other languages using Google Gemini, Smart Chunk TTS and FFmpeg.",
+    "language": "Python",
+    "topics": [],
+    "archived": false,
+    "fork": false,
+    "has_pages": false,
+    "homepage": "",
+    "html_url": "https://github.com/FaramarzKowsari/gemini-youtube-dubber",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-26T13:30:11Z"
+  },
+  {
     "name": "turkiye-grid-foundation-model",
     "description": "A reproducible multi-task foundation model for Türkiye's electricity grid using public EPİAŞ data, forecasting load, generation, renewables and market dynamics with calibrated uncertainty.",
     "language": "Python",
@@ -27,19 +40,6 @@
     "html_url": "https://github.com/FaramarzKowsari/turkiye-grid-foundation-model",
     "stargazers_count": 0,
     "pushed_at": "2026-08-25T21:53:16Z"
-  },
-  {
-    "name": "gemini-youtube-dubber",
-    "description": "AI-powered YouTube and video dubbing into Persian and other languages using Google Gemini, Smart Chunk TTS and FFmpeg.",
-    "language": "Python",
-    "topics": [],
-    "archived": false,
-    "fork": false,
-    "has_pages": false,
-    "homepage": "",
-    "html_url": "https://github.com/FaramarzKowsari/gemini-youtube-dubber",
-    "stargazers_count": 0,
-    "pushed_at": "2026-08-25T21:51:04Z"
   },
   {
     "name": "agentmesh-gateway",
