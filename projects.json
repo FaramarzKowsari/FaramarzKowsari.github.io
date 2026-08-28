@@ -10,7 +10,40 @@
     "homepage": "",
     "html_url": "https://github.com/FaramarzKowsari/gemini-youtube-dubber",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-27T20:53:00Z"
+    "pushed_at": "2026-08-28T12:45:00Z"
+  },
+  {
+    "name": "seismicshield-rl",
+    "description": "Preregistered, reproducible research infrastructure for RL/MARL and multi-objective seismic friction-damper co-design under earthquake and structural uncertainty, with OpenSeesPy.",
+    "language": "Python",
+    "topics": [
+      "earthquake-engineering",
+      "earthquake-simulation",
+      "faramarz-kowsari",
+      "friction-damper",
+      "machine-learning",
+      "multi-agent-reinforcement-learning",
+      "multiobjective-optimization",
+      "openseespy",
+      "pareto-optimization",
+      "preregistration",
+      "python",
+      "reinforcement-learning",
+      "reproducible-research",
+      "research-software",
+      "seismic-control",
+      "seismic-retrofit",
+      "structural-dynamics",
+      "structural-engineering",
+      "uncertainty-quantification"
+    ],
+    "archived": false,
+    "fork": false,
+    "has_pages": true,
+    "homepage": "https://faramarzkowsari.github.io/seismicshield-rl/",
+    "html_url": "https://github.com/FaramarzKowsari/seismicshield-rl",
+    "stargazers_count": 0,
+    "pushed_at": "2026-08-28T12:42:05Z"
   },
   {
     "name": "turkiye-grid-foundation-model",
@@ -39,7 +72,7 @@
     "homepage": "https://faramarzkowsari.github.io/turkiye-grid-foundation-model/",
     "html_url": "https://github.com/FaramarzKowsari/turkiye-grid-foundation-model",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-27T20:54:02Z"
+    "pushed_at": "2026-08-28T12:36:34Z"
   },
   {
     "name": "agentmesh-gateway",
@@ -74,39 +107,6 @@
     "html_url": "https://github.com/FaramarzKowsari/agentmesh-gateway",
     "stargazers_count": 0,
     "pushed_at": "2026-08-24T20:47:54Z"
-  },
-  {
-    "name": "seismicshield-rl",
-    "description": "Preregistered, reproducible research infrastructure for RL/MARL and multi-objective seismic friction-damper co-design under earthquake and structural uncertainty, with OpenSeesPy.",
-    "language": "Python",
-    "topics": [
-      "earthquake-engineering",
-      "earthquake-simulation",
-      "faramarz-kowsari",
-      "friction-damper",
-      "machine-learning",
-      "multi-agent-reinforcement-learning",
-      "multiobjective-optimization",
-      "openseespy",
-      "pareto-optimization",
-      "preregistration",
-      "python",
-      "reinforcement-learning",
-      "reproducible-research",
-      "research-software",
-      "seismic-control",
-      "seismic-retrofit",
-      "structural-dynamics",
-      "structural-engineering",
-      "uncertainty-quantification"
-    ],
-    "archived": false,
-    "fork": false,
-    "has_pages": true,
-    "homepage": "https://faramarzkowsari.github.io/seismicshield-rl/",
-    "html_url": "https://github.com/FaramarzKowsari/seismicshield-rl",
-    "stargazers_count": 0,
-    "pushed_at": "2026-08-23T13:55:45Z"
   },
   {
     "name": "istanbul-graphtraffic-ai",
