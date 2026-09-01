@@ -6,11 +6,11 @@
     "topics": [],
     "archived": false,
     "fork": false,
-    "has_pages": false,
-    "homepage": "",
+    "has_pages": true,
+    "homepage": "https://faramarzkowsari.github.io/gemini-youtube-dubber/",
     "html_url": "https://github.com/FaramarzKowsari/gemini-youtube-dubber",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-31T23:24:30Z"
+    "pushed_at": "2026-09-01T09:57:53Z"
   },
   {
     "name": "seismicshield-rl",
@@ -539,7 +539,7 @@
     "homepage": "https://faramarzkowsari.github.io/turkiye-energy-intelligence-platform/",
     "html_url": "https://github.com/FaramarzKowsari/turkiye-energy-intelligence-platform",
     "stargazers_count": 0,
-    "pushed_at": "2026-08-02T22:37:33Z"
+    "pushed_at": "2026-09-01T11:12:05Z"
   },
   {
     "name": "heatsafe-climate-air-quality-lab",
@@ -662,7 +662,7 @@
     "homepage": "https://faramarzkowsari.github.io/crisis-signal-ai/",
     "html_url": "https://github.com/FaramarzKowsari/crisis-signal-ai",
     "stargazers_count": 1,
-    "pushed_at": "2026-08-01T07:37:50Z"
+    "pushed_at": "2026-09-01T07:40:57Z"
   },
   {
     "name": "FaramarzKowsari",
