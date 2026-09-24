@@ -38,5 +38,6 @@
   "l-argent-suit-l-argent":{"language":"Français","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
   "geld-folgt-geld":{"language":"Deutsch","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
   "el-dinero-sigue-al-dinero":{"language":"Español","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
-  "para-paran-n-pesinden-gider":{"title":"Para Paranın Peşinden Gider","language":"Türkçe","category":"Business & Entrepreneurship","translation_group":"money-follows-money"}
+  "para-paran-n-pesinden-gider":{"title":"Para Paranın Peşinden Gider","language":"Türkçe","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
+  "earthquake-survival-in-california":{"language":"English","category":"Emergency Preparedness & Earthquake Safety","translation_group":"earthquake-survival-california"}
 }
