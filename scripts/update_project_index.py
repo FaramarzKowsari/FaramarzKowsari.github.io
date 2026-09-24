@@ -11,6 +11,7 @@ ROOT_URL = f"https://{USERNAME.lower()}.github.io/"
 API = f"https://api.github.com/users/{USERNAME}/repos"
 TOKEN = os.getenv("GITHUB_TOKEN", "")
 
+
 def api_get(url):
     headers = {
         "Accept": "application/vnd.github+json",
@@ -22,6 +23,7 @@ def api_get(url):
     request = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(request, timeout=30) as response:
         return json.load(response)
+
 
 def fetch_repositories():
     repos = []
@@ -44,6 +46,7 @@ def fetch_repositories():
         if not repo.get("fork") and repo.get("name") != ROOT_REPO
     ]
 
+
 def project_record(repo):
     return {
         "name": repo.get("name", ""),
@@ -59,12 +62,41 @@ def project_record(repo):
         "pushed_at": repo.get("pushed_at") or repo.get("updated_at") or ""
     }
 
+
+def completed_book_urls():
+    """Return only source-reviewed book landing pages that are ready to index."""
+    completed_path = Path("books/completed.json")
+    if not completed_path.exists():
+        return []
+
+    try:
+        completed = json.loads(completed_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"Warning: could not read {completed_path}: {exc}")
+        return []
+
+    if not isinstance(completed, dict):
+        print(f"Warning: {completed_path} is not a JSON object; skipping book URLs.")
+        return []
+
+    urls = [f"{ROOT_URL}books/"]
+    for slug in completed:
+        if isinstance(slug, str) and slug.strip():
+            urls.append(f"{ROOT_URL}books/{slug.strip('/')}/")
+    return urls
+
+
 def build_sitemap(repos):
     urls = [ROOT_URL]
 
     for repo in repos:
         if repo.get("has_pages"):
             urls.append(f"{ROOT_URL}{repo['name']}/")
+
+    # The root repository also contains the scalable book library. Only
+    # source-reviewed books listed in completed.json are added so unfinished
+    # placeholder pages remain out of the sitemap until their PDFs are reviewed.
+    urls.extend(completed_book_urls())
 
     # De-duplicate while preserving order.
     urls = list(dict.fromkeys(urls))
@@ -84,6 +116,7 @@ def build_sitemap(repos):
     lines.append("</urlset>")
     return "\n".join(lines) + "\n"
 
+
 def main():
     repos = fetch_repositories()
 
@@ -96,13 +129,12 @@ def main():
         encoding="utf-8"
     )
 
-    Path("sitemap.xml").write_text(
-        build_sitemap(repos),
-        encoding="utf-8"
-    )
+    sitemap = build_sitemap(repos)
+    Path("sitemap.xml").write_text(sitemap, encoding="utf-8")
 
     print(f"Indexed {len(repos)} public non-fork repositories.")
-    print(f"Included {sum(1 for r in repos if r.get('has_pages')) + 1} URLs in sitemap.xml.")
+    print(f"Included {sitemap.count('<url>')} URLs in sitemap.xml.")
+
 
 if __name__ == "__main__":
     main()

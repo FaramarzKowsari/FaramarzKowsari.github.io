@@ -32,5 +32,11 @@
   "e-ticaret-sat-c-lar-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & E-Ticaret"},
   "kucuk-isletme-sahipleri-icin-yapay-zeka-promptlar":{"title":"Küçük İşletme Sahipleri İçin Yapay Zekâ Promptları","language":"Türkçe","category":"AI & İşletme"},
   "instagram-ve-tiktok-icerik-ureticileri-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & İçerik Üretimi"},
-  "youtube-icerik-ureticileri-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & İçerik Üretimi"}
+  "youtube-icerik-ureticileri-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & İçerik Üretimi"},
+  "mavi-tikten-sonra":{"language":"Türkçe","category":"Fiction & Romance","translation_group":"istanbul-asklari-mavi-tikten-sonra"},
+  "money-follows-money":{"title":"Money Follows Money","language":"English","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
+  "l-argent-suit-l-argent":{"language":"Français","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
+  "geld-folgt-geld":{"language":"Deutsch","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
+  "el-dinero-sigue-al-dinero":{"language":"Español","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
+  "para-paran-n-pesinden-gider":{"title":"Para Paranın Peşinden Gider","language":"Türkçe","category":"Business & Entrepreneurship","translation_group":"money-follows-money"}
 }
