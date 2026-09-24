@@ -27,5 +27,10 @@
   "inducement-trading":{"language":"English","category":"Trading"},
   "market-structure-shift-mss":{"language":"English","category":"Trading"},
   "ai-prompts-for-social-media-marketing":{"language":"English","category":"AI & Marketing"},
-  "ai-prompts-for-small-business-owners":{"language":"English","category":"AI & Business"}
+  "ai-prompts-for-small-business-owners":{"language":"English","category":"AI & Business"},
+  "sosyal-medya-pazarlamas-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & Pazarlama"},
+  "e-ticaret-sat-c-lar-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & E-Ticaret"},
+  "kucuk-isletme-sahipleri-icin-yapay-zeka-promptlar":{"title":"Küçük İşletme Sahipleri İçin Yapay Zekâ Promptları","language":"Türkçe","category":"AI & İşletme"},
+  "instagram-ve-tiktok-icerik-ureticileri-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & İçerik Üretimi"},
+  "youtube-icerik-ureticileri-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & İçerik Üretimi"}
 }

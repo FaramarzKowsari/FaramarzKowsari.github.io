@@ -11,6 +11,11 @@ async function loadBooks(){
   const q=document.getElementById('q');
   const grid=document.getElementById('grid');
   const count=document.getElementById('count');
+  const featuredCount=document.querySelector('#featured-books-heading + .count');
+  if(featuredCount){
+    const n=Object.keys(completed).length;
+    featuredCount.textContent=`${n} source-reviewed pages are ready for search indexing.`;
+  }
   function render(){
     const term=(q.value||'').trim().toLowerCase();
     const rows=all.filter(b=>!term || b.title.toLowerCase().includes(term) || (b.category||'').toLowerCase().includes(term) || (b.language||'').toLowerCase().includes(term));
