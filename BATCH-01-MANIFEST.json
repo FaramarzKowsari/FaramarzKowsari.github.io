@@ -1,0 +1,29 @@
+{
+  "batch": 1,
+  "completed_books": 10,
+  "google_books_ids": [
+    "ndIKEgAAQBAJ",
+    "RS0LEgAAQBAJ",
+    "rS0LEgAAQBAJ",
+    "KzQLEgAAQBAJ",
+    "gDkLEgAAQBAJ",
+    "9UILEgAAQBAJ",
+    "YNMLEgAAQBAJ",
+    "StMLEgAAQBAJ",
+    "LNMLEgAAQBAJ",
+    "DNMLEgAAQBAJ"
+  ],
+  "slugs": [
+    "beyond-the-single-candle",
+    "confluence-trading",
+    "mastering-renko-trading",
+    "the-heikin-ashi-trading-strategy",
+    "liquidity-sweep",
+    "order-blocks-trading",
+    "fair-value-gaps",
+    "market-structure-trading",
+    "smart-money-concepts",
+    "xauusd-scalping"
+  ],
+  "instructions": "Copy the books folder into the repository root while on books-library-v1 and choose Replace/Overwrite for existing files. Then commit and push."
+}

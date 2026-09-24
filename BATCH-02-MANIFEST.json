@@ -1,0 +1,21 @@
+{
+  "batch": 2,
+  "completed_books": 6,
+  "google_books_ids": [
+    "vtoMEgAAQBAJ",
+    "Ep0MEgAAQBAJ",
+    "hakMEgAAQBAJ",
+    "oJwMEgAAQBAJ",
+    "KtsMEgAAQBAJ",
+    "QJ0MEgAAQBAJ"
+  ],
+  "slugs": [
+    "inverse-fair-value-gaps-ifvg",
+    "volume-profile-trading",
+    "ict-silver-bullet",
+    "prop-firm-funded-account-trading",
+    "turtle-soup-strategy",
+    "0dte-options"
+  ],
+  "instructions": "Copy the books folder into the repository root while on books-library-v1 and choose Replace/Overwrite for existing files. Then commit and push."
+}
