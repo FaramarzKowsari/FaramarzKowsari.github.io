@@ -1,0 +1,105 @@
+{
+  "nwgQEgAAQBAJ": {
+    "subtitle": "A Practical Guide to Accumulation, Distribution, Springs, Upthrusts, and Market Structure",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading",
+    "summary": "The Wyckoff Method is a practical manual for reading market ranges, transitions, and trend health through observable evidence rather than memorized ideal diagrams. It develops the three Wyckoff laws, price-volume relationships, accumulation and distribution phases, springs, upthrusts, reaccumulation, redistribution, structural failure, entries, stops, position sizing, trade management, and multi-timeframe context. Case studies, checklists, and the C-R-E-S-T decision protocol turn the framework into a repeatable process while explicitly addressing ambiguous charts and the hindsight trap.",
+    "seo_description": "A practical Wyckoff guide to accumulation, distribution, springs, upthrusts, price-volume analysis, market structure, entries, risk, and decision rules.",
+    "key_topics": ["Wyckoff method", "Accumulation and distribution", "Springs and upthrusts", "Price and volume", "Market structure", "Reaccumulation and redistribution", "Entries and risk", "Case studies and checklists"],
+    "learning": ["Read ranges and transitions using evidence instead of idealized diagrams.", "Apply the three Wyckoff laws to price, volume, spread, and result.", "Distinguish accumulation, distribution, reaccumulation, and redistribution.", "Plan entries, invalidation, stops, sizing, management, and exits.", "Use multi-timeframe context, case studies, and checklists to reduce hindsight bias."],
+    "target_audience": "For serious beginner and intermediate discretionary traders in stocks, futures, forex, crypto, price action, or SMC who want a structured Wyckoff process."
+  },
+  "xXAMEgAAQBAJ": {
+    "subtitle": "A Practical Guide to Market Structure, Precision Entries, Fast Trade Management, and Risk Control",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading",
+    "summary": "The 1-Minute & 5-Minute Scalping Playbook assigns different jobs to the two timeframes: the 5-minute chart provides context, structure, and location, while the 1-minute chart is used as an execution lens. It develops precision entries, transaction-cost awareness, stops, position sizing, targets, fast trade management, no-trade conditions, journaling, replay, and backtesting. Eight setup playbooks cover trend pullbacks, liquidity sweeps and reclaims, breakouts and retests, failed breakouts, opening-range momentum, VWAP reactions, compression-to-expansion, and 5-minute reversal with 1-minute confirmation.",
+    "seo_description": "A practical 1-minute and 5-minute scalping guide to market structure, precision entries, eight setup playbooks, costs, risk, journaling, and testing.",
+    "key_topics": ["1-minute scalping", "5-minute market context", "Precision entries", "Liquidity sweep and reclaim", "Breakout and retest", "VWAP and opening range", "Risk and daily loss limits", "Replay and backtesting"],
+    "learning": ["Separate context and execution by assigning distinct jobs to 5-minute and 1-minute charts.", "Use defined setup rules instead of reacting to every fast candle.", "Account for spread, slippage, fees, stops, sizing, and daily loss limits.", "Recognize abnormal, news-driven, and overtrading conditions where no trade is justified.", "Test and journal setups through replay, simulation, metrics, and a 30-session practice program."],
+    "target_audience": "For active short-term traders who want a rules-based scalping process rather than improvised one-minute entries."
+  },
+  "jP0HEgAAQBAJ": {
+    "subtitle": "200 Profitable Side Hustles: Visual Step-by-Step High-Income Ideas, Money-Making Services & Fast-Start Offers",
+    "language": "English",
+    "language_code": "en",
+    "category": "AI & Business",
+    "summary": "Claude AI Side Hustle is a visual catalog of 200 service and product ideas organized around content creation, AI writing, business support, design, online courses, automation, marketing, and digital products. Its recurring five-stage funnel moves from discovering an opportunity to creating, delivering, marketing, and scaling it. Each visual idea identifies what can be sold, who may buy it, how Claude can assist, a possible pricing model, a first-sale action, startup effort, cash-speed and repeatability indicators, plus a reality check against exaggerated promises.",
+    "seo_description": "A visual guide to 200 Claude AI side hustles with what to sell, who buys, AI-assisted delivery, pricing models, first-sale steps, and reality checks.",
+    "key_topics": ["Claude AI side hustles", "Freelance services", "Content creation", "AI writing services", "Business support", "Automation and tools", "Marketing and digital products", "First-sale workflows"],
+    "learning": ["Scan 200 concrete side-hustle formats across multiple service and product categories.", "Define a sellable deliverable and a plausible buyer before building an offer.", "Use Claude to accelerate research, drafting, customization, and delivery without inventing client facts.", "Compare startup effort, cash speed, repeatability, and per-project or package models.", "Move from opportunity discovery to delivery, marketing, referrals, and scaling."],
+    "target_audience": "For freelancers, creators, job seekers, solo operators, and small-business builders looking for concrete AI-assisted offer ideas."
+  },
+  "MbsGEgAAQBAJ": {
+    "subtitle": "Open Weights, Million-Token Context, Agent Swarms, and a Practical Comparison with Claude, ChatGPT Work, and Codex",
+    "language": "English",
+    "language_code": "en",
+    "category": "Artificial Intelligence",
+    "summary": "Kimi K3 and the Agentic Frontier examines modern agentic AI by separating the model, harness, agent, product, and infrastructure layers that are often conflated. The book studies long context versus memory and compaction, sparse mixture-of-experts design, native vision, open weights, serving and self-hosting, agent swarms, sandboxed execution, economics, failure modes, benchmarks, and product-level comparisons with Claude, ChatGPT Work, and Codex. Time-sensitive specifications and vendor claims are treated as dated evidence rather than timeless facts.",
+    "seo_description": "A practical technical guide to Kimi K3, open weights, long context, agent swarms, serving, benchmarks, and comparisons with Claude, ChatGPT Work, and Codex.",
+    "key_topics": ["Kimi K3", "Agentic AI", "Open weights", "Long context and memory", "Agent swarms", "Serving and self-hosting", "Sandboxes and durable execution", "Benchmarks and product comparisons"],
+    "learning": ["Distinguish a foundation model from its harness, agent layer, product surface, and infrastructure.", "Evaluate long-context claims separately from memory, retrieval, and compaction strategies.", "Understand open-weight deployment, serving constraints, and swarm economics.", "Compare agent products through controlled tasks, latency, cost, and human-attention requirements.", "Read vendor specifications and benchmark claims with explicit dates, evidence, and limitations."],
+    "target_audience": "For AI engineers, researchers, developers, and technical decision-makers comparing agentic systems and deployment models."
+  },
+  "a8L1EQAAQBAJ": {
+    "subtitle": "Advanced Trading, Deep Quantitative Insight, and Professional Applications",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading",
+    "summary": "The Mathematical Anatomy of Moving Averages treats moving averages as filters that estimate a slower market state rather than as predictive lines. Its visual explanations connect observed price, latent trend, noise, memory length, weighting schemes, responsiveness, smoothness, and lag. SMA, EMA, WMA, HMA, and adaptive ideas are compared through the signal-noise trade-off, convolution and weighting kernels, while causal versus centered averages expose look-ahead bias, repainting, and the difference between a beautiful historical line and a calculation that was actually available in real time.",
+    "seo_description": "A quantitative visual guide to moving averages as filters, covering SMA, EMA, WMA, HMA, adaptive methods, lag, noise, convolution, causality, and look-ahead bias.",
+    "key_topics": ["Moving averages", "Signal and noise", "Lag versus smoothness", "SMA EMA WMA HMA KAMA", "Convolution and weights", "Causal filters", "Look-ahead bias", "Repainting and real-time validity"],
+    "learning": ["Interpret moving averages as state estimates with explicit memory rather than prediction lines.", "Compare filter length and weighting schemes through the trade-off between responsiveness and noise.", "Understand convolution as the mathematical engine behind weighted moving averages.", "Distinguish causal, live-usable averages from centered or future-dependent calculations.", "Audit indicators for data provenance, real-time calculability, repainting, and informational delay."],
+    "target_audience": "For technically minded traders, quantitative learners, and strategy developers who want to understand what moving averages actually compute.",
+    "doi": "10.5281/zenodo.21412298"
+  },
+  "nx_2EQAAQBAJ": {
+    "subtitle": "A Visual Engineering Guide to Multimodal AI, Agents, RAG, Evaluation, Governance, and Real-World Products",
+    "language": "English",
+    "language_code": "en",
+    "category": "Artificial Intelligence",
+    "summary": "AI APIs in Practice is a visual engineering guide to building with text, tool, retrieval, voice, video, and multimodal AI APIs. It breaks an API call into endpoint, authentication, payload, limits, request identity, and destination, then connects those mechanics to agents, RAG, evaluation, observability, governance, and production products. Security is treated as part of product design: secrets stay server-side, leaked credentials are rotated, least privilege and spend limits are applied, and payloads keep instructions, user data, constraints, and metadata clearly separated.",
+    "seo_description": "A visual engineering guide to AI APIs, multimodal systems, agents, RAG, secure authentication, payload design, evaluation, observability, and governance.",
+    "key_topics": ["AI APIs", "Multimodal AI", "Agents", "RAG and retrieval", "API authentication", "Payload design", "Evaluation and observability", "Governance and security"],
+    "learning": ["Understand the roles of text, media, tool, retrieval, voice, and video APIs in an AI product.", "Design reliable API requests with explicit endpoints, authentication, payloads, limits, and request IDs.", "Protect API keys with server-side secret handling, rotation, least privilege, and environment separation.", "Separate instructions, user data, constraints, and metadata for clearer model behavior.", "Connect API mechanics to agents, RAG, evaluation, monitoring, audit, and real-world product design."],
+    "target_audience": "For software engineers, AI builders, product developers, and technical learners building production-oriented AI systems.",
+    "doi": "10.5281/zenodo.21431944"
+  },
+  "C1PsEQAAQBAJ": {
+    "subtitle": "80 Practical Visual Infographics for Reading Levels, Entries, Exits, Breakouts, Retests, and Traps",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading",
+    "summary": "Mastering Support & Resistance is a visual guide to reading support and resistance as behavioral zones rather than perfect single-price lines. It develops demand and supply zones, liquidity references, role reversal after a breakout, bounce setups, breakout-and-retest structures, fake-breakout traps, wick-versus-body interpretation, repeated closes, round-number reactions, invalidation, position sizing, and journaling. The visual framework emphasizes confirmation and risk control instead of assuming that any marked level must hold.",
+    "seo_description": "A visual support and resistance guide covering zones, breakouts, retests, fakeouts, wick-versus-body confirmation, round numbers, entries, exits, and risk.",
+    "key_topics": ["Support and resistance", "Supply and demand zones", "Breakout and retest", "Fake breakouts", "Wick versus body", "Round numbers", "Invalidation and stops", "Risk and journaling"],
+    "learning": ["Draw support and resistance as reaction zones rather than demanding exact-price precision.", "Read rejection wicks, closes, repeated acceptance, and role reversal after breakouts.", "Differentiate bounce, breakout-retest, and fake-breakout scenarios.", "Use round numbers and liquidity references as context rather than automatic signals.", "Define confirmation, invalidation, position size, and risk before committing capital."],
+    "target_audience": "For visual price-action traders who want a practical framework for levels, reactions, breakouts, retests, and traps."
+  },
+  "LKDxEQAAQBAJ": {
+    "subtitle": "Modern Aşkın Sessiz İhanetleri",
+    "language": "Türkçe",
+    "language_code": "tr",
+    "category": "İlişkiler",
+    "summary": "Mikro Aldatma, modern ilişkilerde güveni büyük bir olaydan önce aşındırabilen küçük ama tekrarlanan davranışları inceler. Kitap; mahremiyet ile gizlilik, arkadaşlık ile duygusal yön değiştirme, bir insanî hata ile güveni kemiren örüntü arasındaki farkı araştırır. Telefon, mesajlar, beğeniler, eski partnerler, iş ilişkileri, sınırlar, itiraf, onarım, duygusal ilişki, kalmak ya da ayrılmak gibi alanları ele alırken amacı gözetim değil, daha açık bir dil ve daha dürüst sınırlar kurmaktır.",
+    "seo_description": "Modern ilişkilerde mikro aldatma, gizlilik, dijital yakınlık, duygusal sınırlar, güven kaybı, onarım ve olgun sadakat üzerine kapsamlı bir rehber.",
+    "key_topics": ["Mikro aldatma", "Mahremiyet ve gizlilik", "Dijital yakınlık", "Duygusal sınırlar", "Eski partnerler ve iş ilişkileri", "Güven ve onarım", "Duygusal ilişki", "Olgun sadakat"],
+    "learning": ["Mahremiyet ile gizliliği ve sıradan sosyal temas ile duygusal yer değiştirmeyi ayırt etmek.", "Küçük davranışların tekrar, niyet, etki ve saklama ihtiyacıyla nasıl anlam değiştirdiğini görmek.", "Dijital davranışlar, mesajlar ve eski ilişkiler için açık sınırlar konuşmak.", "Gözetim yerine erken ve dürüst konuşma ile güven sorunlarını ele almak.", "Onarımın mümkün olduğu durumlarla ayrılmanın daha sağlıklı olabileceği örüntüleri ayırt etmek."],
+    "target_audience": "Modern ilişkilerde güven, sınır, dijital davranış ve duygusal sadakat üzerine daha net düşünmek isteyen okurlar için.",
+    "translation_group": "micro-cheating"
+  },
+  "COvkEQAAQBAJ": {
+    "subtitle": "Hayatını Yoran Şeyleri Çıkararak Huzuru, Netliği ve İç Özgürlüğü Geri Kazanmak",
+    "language": "Türkçe",
+    "language_code": "tr",
+    "category": "Kişisel Gelişim",
+    "summary": "Silmenin Gücü, hayatı sadeleştirmeyi sertlik ya da intikam olarak değil, huzuru tekrar tekrar bozan erişimleri, alışkanlıkları ve içsel döngüleri bilinçli biçimde azaltmak olarak ele alır. Kitap dikkat, ilişkiler, aile, arkadaşlık, aşk, iş ve statü, sosyal medya, suçluluk, standartlar, bedensel sinyaller ve temiz sınırlar üzerinden hem dışarıdaki hem içerideki fazlalığı inceler. Amaç, insanları cezalandırmak değil, kurulmakta olan hayatı sürekli yaralayan şeylere sınırsız erişim vermemektir.",
+    "seo_description": "Huzuru bozan insanları, alışkanlıkları ve zihinsel döngüleri sınırlandırmak; dikkat, suçluluk, ilişkiler ve iç özgürlük üzerine pratik bir rehber.",
+    "key_topics": ["Sınırlar", "Dikkat ve erişim", "İlişkiler", "Sosyal medya", "Suçluluk", "İçsel sadeleşme", "Standartlar", "Yedi günlük uygulama"],
+    "learning": ["Silme fikrini intikamdan ayırarak bir erişim ve dikkat kararı olarak görmek.", "İnsanların, alışkanlıkların ve dijital gürültünün gizli maliyetini fark etmek.", "Aile, aşk, arkadaşlık ve işte daha temiz sınırlar kurmak.", "Suçluluk ile öz-koruma arasındaki farkı ayırt etmek.", "Çıkarılan şeylerin ardından daha sakin ve tutarlı bir hayat inşa etmek."],
+    "target_audience": "Huzurunu korumak, sınırlarını netleştirmek ve hayatındaki gereksiz zihinsel yükü azaltmak isteyen okurlar için.",
+    "translation_group": "power-of-deletion"
+  }
+}
