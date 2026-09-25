@@ -1,43 +1,1699 @@
 {
-  "beyond-the-single-candle":{"language":"English","category":"Trading"},
-  "confluence-trading":{"language":"English","category":"Trading"},
-  "mastering-renko-trading":{"language":"English","category":"Trading"},
-  "the-heikin-ashi-trading-strategy":{"language":"English","category":"Trading"},
-  "liquidity-sweep":{"language":"English","category":"Trading"},
-  "order-blocks-trading":{"language":"English","category":"Trading"},
-  "fair-value-gaps":{"language":"English","category":"Trading"},
-  "market-structure-trading":{"language":"English","category":"Trading"},
-  "smart-money-concepts":{"language":"English","category":"Trading"},
-  "xauusd-scalping":{"language":"English","category":"Trading"},
-  "inverse-fair-value-gaps-ifvg":{"language":"English","category":"Trading"},
-  "volume-profile-trading":{"language":"English","category":"Trading"},
-  "ict-silver-bullet":{"language":"English","category":"Trading"},
-  "prop-firm-funded-account-trading":{"language":"English","category":"Trading"},
-  "turtle-soup-strategy":{"language":"English","category":"Trading"},
-  "0dte-options":{"language":"English","category":"Trading"},
-  "breaker-block-trading":{"language":"English","category":"Trading"},
-  "multi-timeframe-analysis":{"language":"English","category":"Trading"},
-  "breakout-and-retest-trading":{"language":"English","category":"Trading"},
-  "false-breakouts-fakeouts":{"language":"English","category":"Trading"},
-  "supply-and-demand-zones":{"language":"English","category":"Trading"},
-  "crypto-liquidation-heatmaps":{"language":"English","category":"Trading"},
-  "choch-and-bos":{"language":"English","category":"Trading"},
-  "ict-kill-zones-trading-the-ict-kill-zones":{"language":"English","category":"Trading"},
-  "premium-and-discount-zones":{"language":"English","category":"Trading"},
-  "inducement-trading":{"language":"English","category":"Trading"},
-  "market-structure-shift-mss":{"language":"English","category":"Trading"},
-  "ai-prompts-for-social-media-marketing":{"language":"English","category":"AI & Marketing"},
-  "ai-prompts-for-small-business-owners":{"language":"English","category":"AI & Business"},
-  "sosyal-medya-pazarlamas-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & Pazarlama"},
-  "e-ticaret-sat-c-lar-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & E-Ticaret"},
-  "kucuk-isletme-sahipleri-icin-yapay-zeka-promptlar":{"title":"Küçük İşletme Sahipleri İçin Yapay Zekâ Promptları","language":"Türkçe","category":"AI & İşletme"},
-  "instagram-ve-tiktok-icerik-ureticileri-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & İçerik Üretimi"},
-  "youtube-icerik-ureticileri-icin-yapay-zeka-promptlar":{"language":"Türkçe","category":"AI & İçerik Üretimi"},
-  "mavi-tikten-sonra":{"language":"Türkçe","category":"Fiction & Romance","translation_group":"istanbul-asklari-mavi-tikten-sonra"},
-  "money-follows-money":{"title":"Money Follows Money","language":"English","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
-  "l-argent-suit-l-argent":{"language":"Français","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
-  "geld-folgt-geld":{"language":"Deutsch","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
-  "el-dinero-sigue-al-dinero":{"language":"Español","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
-  "para-paran-n-pesinden-gider":{"title":"Para Paranın Peşinden Gider","language":"Türkçe","category":"Business & Entrepreneurship","translation_group":"money-follows-money"},
-  "earthquake-survival-in-california":{"language":"English","category":"Emergency Preparedness & Earthquake Safety","translation_group":"earthquake-survival-california"}
+  "0dte-options": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "ai-apis-in-practice": {
+    "category": "Artificial Intelligence",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "doi": "10.5281/zenodo.21431944",
+    "key_topics": [
+      "AI APIs",
+      "Multimodal AI",
+      "Agents",
+      "RAG and retrieval",
+      "API authentication",
+      "Payload design",
+      "Evaluation and observability",
+      "Governance and security"
+    ],
+    "language": "English",
+    "learning": [
+      "Understand the roles of text, media, tool, retrieval, voice, and video APIs in an AI product.",
+      "Design reliable API requests with explicit endpoints, authentication, payloads, limits, and request IDs.",
+      "Protect API keys with server-side secret handling, rotation, least privilege, and environment separation.",
+      "Separate instructions, user data, constraints, and metadata for clearer model behavior.",
+      "Connect API mechanics to agents, RAG, evaluation, monitoring, audit, and real-world product design."
+    ],
+    "related_ids": [
+      "MbsGEgAAQBAJ",
+      "wDHbEQAAQBAJ",
+      "UXTxEQAAQBAJ"
+    ],
+    "seo_description": "A visual engineering guide to AI APIs, multimodal systems, agents, RAG, secure authentication, payload design, evaluation, observability, and governance.",
+    "source_reviewed": true,
+    "subtitle": "A Visual Engineering Guide to Multimodal AI, Agents, RAG, Evaluation, Governance, and Real-World Products",
+    "summary": "AI APIs in Practice is a visual engineering guide to building with text, tool, retrieval, voice, video, and multimodal AI APIs. It breaks an API call into endpoint, authentication, payload, limits, request identity, and destination, then connects those mechanics to agents, RAG, evaluation, observability, governance, and production products. Security is treated as part of product design: secrets stay server-side, leaked credentials are rotated, least privilege and spend limits are applied, and payloads keep instructions, user data, constraints, and metadata clearly separated.",
+    "target_audience": "For software engineers, AI builders, product developers, and technical learners building production-oriented AI systems.",
+    "title": "AI APIs in Practice"
+  },
+  "ai-assisted-crypto-futures": {
+    "category": "Trading",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Crypto futures",
+      "Three-screenshot method",
+      "Multi-timeframe analysis",
+      "Market structure",
+      "Liquidity and FVGs",
+      "Prompt engineering",
+      "Position sizing and leverage",
+      "Execution and no-trade rules"
+    ],
+    "language": "English",
+    "learning": [
+      "Capture evidence consistently across multiple timeframes before asking AI for analysis.",
+      "Define market structure, liquidity, invalidation, and setup logic from the screenshots.",
+      "Write prompts that separate bias, zones, triggers, conflicts, stops, and targets.",
+      "Audit position size, leverage, liquidation risk, and order details before clicking.",
+      "Use AI as a review assistant while keeping execution authority and responsibility human."
+    ],
+    "related_ids": [
+      "QGDjEQAAQBAJ",
+      "C1PsEQAAQBAJ",
+      "a8L1EQAAQBAJ"
+    ],
+    "seo_description": "A practical three-screenshot method for AI-assisted crypto futures analysis, covering multi-timeframe structure, liquidity, FVGs, prompts, risk, leverage, and execution.",
+    "source_reviewed": true,
+    "subtitle": "The Smart Three-Screenshot Method for Multi-Timeframe Futures Trading",
+    "summary": "AI-Assisted Crypto Futures presents a three-screenshot workflow for turning multi-timeframe chart evidence into a written futures plan before an order is placed. It covers futures mechanics, safe account setup, screenshot quality, timeframe hierarchy, market structure, invalidation, liquidity, Fair Value Gaps, prompt design, position sizing, leverage, stops, take-profit logic, execution, and no-trade decisions. AI is positioned as a structured assistant for evidence review and risk auditing, while the order screen and written plan remain subject to human verification.",
+    "target_audience": "For crypto futures traders who want a structured AI-assisted workflow centered on evidence and risk rather than prediction.",
+    "title": "AI-Assisted Crypto Futures"
+  },
+  "ai-prompts-for-small-business-owners": {
+    "category": "AI & Business",
+    "language": "English"
+  },
+  "ai-prompts-for-social-media-marketing": {
+    "category": "AI & Marketing",
+    "language": "English"
+  },
+  "antes-de-que-tu-mente-le-ponga-nombre": {
+    "category": "Mindfulness",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Mindfulness",
+      "Hechos e historias",
+      "Conciencia corporal",
+      "Ansiedad e ira",
+      "Incertidumbre",
+      "Atención digital",
+      "Silencio",
+      "Prácticas de retorno"
+    ],
+    "language": "Español",
+    "learning": [
+      "Distinguir lo que ocurrió de la interpretación automática que aparece después.",
+      "Reconocer señales corporales antes de que se conviertan en una historia completa.",
+      "Trabajar con ansiedad, ira, vergüenza y duelo sin forzar una calma artificial.",
+      "Observar el efecto de mensajes, notificaciones y distracción sobre la atención.",
+      "Practicar pequeños retornos al espacio anterior al nombre y a la reacción."
+    ],
+    "related_ids": [
+      "IcrzEQAAQBAJ",
+      "28rzEQAAQBAJ",
+      "4zX1EQAAQBAJ"
+    ],
+    "seo_description": "Mindfulness para distinguir hechos de historias mentales y trabajar con ansiedad, ira, cuerpo, incertidumbre, silencio y distracción cuando la calma no llega.",
+    "source_reviewed": true,
+    "subtitle": "Mindfulness para los momentos en que la calma no llega",
+    "summary": "Antes de que tu mente le ponga nombre presenta el mindfulness como la capacidad de ver el espacio entre un hecho y la historia que la mente construye sobre él, no como una obligación de sentirse tranquilo. El libro explora cuerpo, memoria, ansiedad, ira, vergüenza, duelo, incertidumbre, silencio, mensajes, notificaciones, aburrimiento y distracción. Su hilo conductor es el «espacio sin nombre»: el instante en que todavía es posible observar antes de convertir una sensación en una identidad, un juicio o una reacción automática.",
+    "target_audience": "Para lectores que buscan una práctica de mindfulness realista para momentos en los que la calma no aparece por voluntad.",
+    "title": "Antes de que tu mente le ponga nombre",
+    "translation_group": "before-your-mind-names-it"
+  },
+  "art-k-bir-sebep-istemedigin-gun": {
+    "category": "Kişisel Gelişim",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Cevapsız sonlar",
+      "Kabullenme",
+      "Kapanış",
+      "Sessizlik",
+      "Özdeğer",
+      "Mesafe",
+      "Yeniden güven",
+      "30 uygulama"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Eksik bir açıklamanın hayatı nasıl askıda tuttuğunu fark etmek.",
+      "Sessizliği sonsuz yorum üretme zorunluluğundan ayırmak.",
+      "Kabullenmeyi onaylamak ya da yapılanı haklı çıkarmak sanmamak.",
+      "Kapanışı yalnızca karşı taraftan gelecek bir cevap olarak görmemek.",
+      "Küçük uygulamalarla hayatı cevapsızlığın çevresinde değil, yeniden kendi merkezinde kurmak."
+    ],
+    "related_ids": [
+      "2mTzEQAAQBAJ",
+      "ihrkEQAAQBAJ",
+      "R53kEQAAQBAJ"
+    ],
+    "seo_description": "Cevapsız sonlar, kabullenme, kapanış, sessizlik, özdeğer, mesafe ve açıklama gelmeden ileriye hareket etmek için şiirsel ve pratik rehber.",
+    "source_reviewed": true,
+    "subtitle": "Kabullenme, sakinleşme ve cevapsız sonların içinden geçmek için şiirsel ve uygulanabilir bir rehber",
+    "summary": "Artık Bir Sebep İstemediğin Gün, bir ilişkinin, kaybın ya da yarım kalmış hikâyenin ardından gelmeyen açıklamayı beklerken hayatın nasıl askıda kalabildiğini inceler. Kitap cevapsız sonlar, zihnin mahkemesi, mesaj bekleyen beden, boş sandalye, seçilmemek, sessizliği yorumlama, onaylamadan kabullenme, mesafe, kendi kapanışını kurma ve yeniden güvenme üzerine ilerler. Otuz kısa uygulama, cevabın yokluğunda bile hayatı yeniden hareket ettirmeyi hedefler.",
+    "target_audience": "Açıklaması gelmemiş ayrılık, kayıp veya yarım kalmış bir hikâyenin içinden geçmeye çalışan okurlar için.",
+    "title": "Artık Bir Sebep İstemediğin Gün:",
+    "translation_group": "day-you-stop-needing-a-reason"
+  },
+  "aynadaki-canavar": {
+    "category": "Psikoloji ve Özfarkındalık",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Korku ve algı",
+      "Yargı",
+      "Projeksiyon",
+      "Şeytanlaştırma",
+      "Sınırlar",
+      "Dedikodu",
+      "Özfarkındalık",
+      "21 günlük ayna pratiği"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Olgular ile korkunun eklediği yorumları birbirinden ayırmak.",
+      "Tehlikeyi ciddiye alırken insanları tek bir etikete indirgememek.",
+      "Ödünç alınmış korkuları, dedikoduyu ve projeksiyonu fark etmek.",
+      "Kendi acımızın ve karanlık yanımızın yargıyı nasıl etkilediğini görmek.",
+      "Ayırt etme, sınır ve merhameti aynı anda taşıyabilen daha temiz bir bakış geliştirmek."
+    ],
+    "related_ids": [
+      "Y0jsEQAAQBAJ",
+      "LV7yEQAAQBAJ",
+      "qr7yEQAAQBAJ"
+    ],
+    "seo_description": "Korku, yargı, projeksiyon ve şeytanlaştırmanın algıyı nasıl bozduğunu; sınırları korurken hakikati ve insan yüzünü yeniden görmeyi ele alan kitap.",
+    "source_reviewed": true,
+    "subtitle": "Korku Başkalarının Yüzünü Kararttığında Hakikati Yeniden Görmek",
+    "summary": "Aynadaki Canavar, korku ve yargının başka insanları zihnimizde nasıl tek boyutlu 'canavarlar'a dönüştürebildiğini inceler. Kitap tehlikeyi inkâr etmeyi ya da sınırları kaldırmayı savunmaz; olgularla korku hikâyesini, ayırt etmeyle şeytanlaştırmayı, öz-korumayla projeksiyonu birbirinden ayırmaya çalışır. On dört bölüm ve yirmi bir günlük ayna pratiği; dedikodu, ödünç alınmış korkular, acı, yargı, duraklama, kendi karanlık yanımız ve yeniden insan yüzünü görebilme kapasitesi üzerinde çalışır.",
+    "target_audience": "Korku, öfke ve yargının insan algısını nasıl değiştirdiğini anlamak isteyen özfarkındalık ve psikoloji okurları için.",
+    "title": "Aynadaki Canavar",
+    "translation_group": "monster-in-the-mirror"
+  },
+  "b-rak-karma-isini-yaps-n": {
+    "category": "Kişisel Gelişim",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Karma",
+      "İntikam",
+      "İhanet",
+      "Öfke",
+      "Sınırlar",
+      "Affetme",
+      "Enerji ve bolluk",
+      "30 günlük uygulama"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Karmayı tehdit ve pasiflikten ayırarak dönüş ve denge fikri olarak okumak.",
+      "İntikamın dikkat ve enerji maliyetini fark etmek.",
+      "Sınır koymayı cezalandırma gösterisine dönüştürmeden uygulamak.",
+      "Affetme ile yeniden erişim vermenin aynı şey olmadığını görmek.",
+      "Hayatı kanıt ve karşılık beklemek yerine kendi davranışın etrafında yeniden kurmak."
+    ],
+    "related_ids": [
+      "R53kEQAAQBAJ",
+      "ihrkEQAAQBAJ",
+      "2mTzEQAAQBAJ"
+    ],
+    "seo_description": "İntikam, ihanet, sınırlar, affetme, karma, iç huzur, enerji ve ileriye doğru yaşamak üzerine pratik ve düşünsel bir rehber.",
+    "source_reviewed": true,
+    "subtitle": "Huzur, Neşe, Bolluk ve İntikamsız Güç İçin Kozmik Dönüş Yasası",
+    "summary": "Bırak Karma İşini Yapsın, karmayı tehdit, batıl inanç ya da pasiflik bahanesi olarak değil; insanın intikam, kanıt peşinde koşma ve başkalarının cezasını bizzat yönetme ihtiyacından çekilebilmesi için bir dönüş ve denge dili olarak ele alır. İhanet, öfke, sessizlik, sınırlar, affetme, bolluk, neşe ve otuz günlük uygulama haritası boyunca temel soru şudur: başkasının yaptığının karşılığını yönetmeye çalışmak yerine kendi davranışını, enerjini ve yönünü koruyabilir misin?",
+    "target_audience": "İhanet, öfke veya intikam düşüncesinden çıkmak isteyen ama sınırlarından vazgeçmek istemeyen okurlar için.",
+    "title": "Bırak Karma İşini Yapsın",
+    "translation_group": "let-karma-handle-it"
+  },
+  "before-your-mind-names-it": {
+    "category": "Mindfulness",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Mindfulness",
+      "Event versus story",
+      "Body awareness",
+      "Anxiety and anger",
+      "Grief and uncertainty",
+      "Digital distraction",
+      "Silence",
+      "Return protocols"
+    ],
+    "language": "English",
+    "learning": [
+      "Separate observable events from the stories and labels that rapidly follow them.",
+      "Notice body signals before they are absorbed into automatic interpretations.",
+      "Work with anxiety, anger, shame, grief, and uncertainty without forcing calm.",
+      "Recognize when meditation or distraction is being used to avoid experience.",
+      "Use short return practices to widen the space between stimulus and response."
+    ],
+    "related_ids": [
+      "2svzEQAAQBAJ",
+      "28rzEQAAQBAJ",
+      "4zX1EQAAQBAJ"
+    ],
+    "seo_description": "A practical mindfulness guide to the space between experience and interpretation, covering body awareness, anxiety, anger, uncertainty, digital distraction, and return practices.",
+    "source_reviewed": true,
+    "subtitle": "Mindfulness for the Moments When Calm Does Not Come",
+    "summary": "Before Your Mind Names It treats mindfulness as the ability to notice the interval between an event and the name, judgment, or story the mind gives it. Rather than demanding calm, the book works with body signals, memory, anxiety, anger, shame, grief, uncertainty, silence, messages, notifications, boredom, distraction, and the temptation to use meditation as escape. Its recurring practice is to return to the unnamed space where experience can be observed before reaction becomes identity.",
+    "target_audience": "For readers who want mindfulness that remains usable during emotionally noisy moments rather than only when calm is already present.",
+    "title": "Before Your Mind Names It",
+    "translation_group": "before-your-mind-names-it"
+  },
+  "beyond-the-single-candle": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "breaker-block-trading": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "breakout-and-retest-trading": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "choch-and-bos": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "claude-agent-skills-playbook": {
+    "category": "Artificial Intelligence",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Claude agent skills",
+      "Reusable procedures",
+      "Prompt design",
+      "Business operations",
+      "Developer workflows",
+      "Research and documentation",
+      "Evaluation and safety",
+      "50 skill templates"
+    ],
+    "language": "English",
+    "learning": [
+      "Distinguish a reusable agent skill from a prompt, MCP connector, and end-to-end workflow.",
+      "Define clear inputs, procedures, outputs, checks, and boundaries for specialized skills.",
+      "Adapt reusable skills to business, developer, research, support, and sales work.",
+      "Evaluate skill quality and add safety, review, and governance controls.",
+      "Compose multiple skills into larger workflows while keeping responsibilities explicit."
+    ],
+    "related_ids": [
+      "1XHxEQAAQBAJ",
+      "D3HxEQAAQBAJ",
+      "b3TxEQAAQBAJ"
+    ],
+    "seo_description": "A practical playbook for Claude agent skills with 50 reusable templates covering prompts, procedures, business operations, development, research, evaluation, safety, and governance.",
+    "source_reviewed": true,
+    "subtitle": "Reusable Skills, Prompts, and Workflows for Building Specialized AI Agents",
+    "summary": "Claude Agent Skills Playbook explains how reusable agent skills differ from one-off prompts, MCP connections, and larger workflows. It breaks a skill into purpose, instructions, procedures, inputs, outputs, checks, and reusable context, then applies the pattern to business operations, development, research, documentation, customer support, sales, testing, evaluation, safety, governance, and distribution. The book includes fifty ready-to-use skill templates and practical blueprints for recurring organizational work.",
+    "target_audience": "For AI builders, teams, consultants, and knowledge workers designing repeatable specialized-agent capabilities.",
+    "title": "Claude Agent Skills Playbook"
+  },
+  "claude-ai-side-hustle": {
+    "category": "AI & Business",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Claude AI side hustles",
+      "Freelance services",
+      "Content creation",
+      "AI writing services",
+      "Business support",
+      "Automation and tools",
+      "Marketing and digital products",
+      "First-sale workflows"
+    ],
+    "language": "English",
+    "learning": [
+      "Scan 200 concrete side-hustle formats across multiple service and product categories.",
+      "Define a sellable deliverable and a plausible buyer before building an offer.",
+      "Use Claude to accelerate research, drafting, customization, and delivery without inventing client facts.",
+      "Compare startup effort, cash speed, repeatability, and per-project or package models.",
+      "Move from opportunity discovery to delivery, marketing, referrals, and scaling."
+    ],
+    "related_ids": [
+      "MbsGEgAAQBAJ",
+      "920KEgAAQBAJ",
+      "YG4KEgAAQBAJ"
+    ],
+    "seo_description": "A visual guide to 200 Claude AI side hustles with what to sell, who buys, AI-assisted delivery, pricing models, first-sale steps, and reality checks.",
+    "source_reviewed": true,
+    "subtitle": "200 Profitable Side Hustles: Visual Step-by-Step High-Income Ideas, Money-Making Services & Fast-Start Offers",
+    "summary": "Claude AI Side Hustle is a visual catalog of 200 service and product ideas organized around content creation, AI writing, business support, design, online courses, automation, marketing, and digital products. Its recurring five-stage funnel moves from discovering an opportunity to creating, delivering, marketing, and scaling it. Each visual idea identifies what can be sold, who may buy it, how Claude can assist, a possible pricing model, a first-sale action, startup effort, cash-speed and repeatability indicators, plus a reality check against exaggerated promises.",
+    "target_audience": "For freelancers, creators, job seekers, solo operators, and small-business builders looking for concrete AI-assisted offer ideas.",
+    "title": "Claude AI Side Hustle"
+  },
+  "claude-code-for-non-coders": {
+    "category": "Artificial Intelligence",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Claude Code",
+      "Prompt-driven development",
+      "Context management",
+      "Git and rewind",
+      "MCP and tools",
+      "Hooks and subagents",
+      "Automation and QA",
+      "Safe shipping"
+    ],
+    "language": "English",
+    "learning": [
+      "Set up Claude Code with permissions and checkpoints appropriate to the task.",
+      "Use CLAUDE.md, context management, plan mode, and clear prompts to make intent explicit.",
+      "Apply Git, rewind, review, and testing so AI-generated changes remain reversible.",
+      "Use skills, MCP, custom commands, hooks, subagents, and worktrees for larger workflows.",
+      "Build practical websites, research tasks, automations, and QA processes without blindly accepting output."
+    ],
+    "related_ids": [
+      "UXTxEQAAQBAJ",
+      "1XHxEQAAQBAJ",
+      "D3HxEQAAQBAJ"
+    ],
+    "seo_description": "A practical Claude Code handbook for non-coders covering setup, context, prompts, Git, MCP, commands, hooks, subagents, automation, testing, and shipping.",
+    "source_reviewed": true,
+    "subtitle": "A Practical Prompt-Driven Handbook for Building, Automating, Testing, and Shipping with Confidence",
+    "summary": "Claude Code for Non-Coders translates software work into prompt-driven workflows that can be supervised by people without a traditional programming background. It covers installation, permissions, Plan mode, CLAUDE.md, context management, rewind and Git, prompt systems, skills, few-shot examples, adversarial review, MCP, command-line tools, custom commands, hooks, subagents, teams, worktrees, loops, scheduling, and practical blueprints for websites, research, automation, and QA. The recurring discipline is to make intent concrete, review outputs, and keep reversible checkpoints.",
+    "target_audience": "For creators, founders, freelancers, researchers, solo operators, and nontechnical professionals who want to direct coding work through Claude Code.",
+    "title": "Claude Code for Non-Coders"
+  },
+  "claude-code-mastery": {
+    "category": "Artificial Intelligence",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Claude Code",
+      "Repository context",
+      "Feature planning",
+      "Debugging",
+      "Refactoring",
+      "Testing and QA",
+      "Code review and security",
+      "Git releases and rollback"
+    ],
+    "language": "English",
+    "learning": [
+      "Set up Claude Code with safe permissions, clean working trees, and secret-handling rules.",
+      "Map a repository and give the model enough context without flooding the task.",
+      "Plan features with acceptance criteria and make small, reviewable changes.",
+      "Debug root causes, refactor safely, and build regression tests around fixes.",
+      "Use code review, security checks, Git, releases, and rollback before shipping."
+    ],
+    "related_ids": [
+      "1XHxEQAAQBAJ",
+      "b3TxEQAAQBAJ",
+      "UXTxEQAAQBAJ"
+    ],
+    "seo_description": "A practical Claude Code guide to planning, coding, debugging, refactoring, testing, review, Git, releases, rollback, projects, and 75 ready-to-use prompts.",
+    "source_reviewed": true,
+    "subtitle": "Practical Prompts, Workflows, and Projects for Building, Debugging, and Shipping Software with Claude",
+    "summary": "Claude Code Mastery treats AI-assisted coding as supervised software engineering rather than unrestricted code generation. It covers safe setup, working-tree hygiene, permissions, secrets, repository mapping, context, feature planning, acceptance criteria, small code changes, debugging and root-cause analysis, refactoring, testing, documentation, code review, security gates, Git, releases, rollback, projects, and a bank of seventy-five prompts. The emphasis stays on evidence, reversibility, and human review before shipping.",
+    "target_audience": "For software developers and technical teams who want a disciplined, reviewable way to use Claude Code across the development lifecycle.",
+    "title": "Claude Code Mastery"
+  },
+  "claude-cowork-mastery": {
+    "category": "Artificial Intelligence",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Claude Cowork",
+      "Knowledge work",
+      "Files and project context",
+      "Research and synthesis",
+      "Reports and briefs",
+      "Meetings and operations",
+      "Data and spreadsheets",
+      "Human review and safety"
+    ],
+    "language": "English",
+    "learning": [
+      "Organize project context and files so Claude can work from the right material.",
+      "Turn research and reading into traceable synthesis rather than disconnected summaries.",
+      "Use reusable workflows for writing, reports, meetings, follow-up, and operations.",
+      "Apply Claude to customer, sales, spreadsheet, and decision-support tasks with review checkpoints.",
+      "Build a personal or team knowledge workflow while protecting sensitive information."
+    ],
+    "related_ids": [
+      "b3TxEQAAQBAJ",
+      "D3HxEQAAQBAJ",
+      "1XHxEQAAQBAJ"
+    ],
+    "seo_description": "A practical Claude Cowork guide to files, research, writing, reports, meetings, operations, customers, spreadsheets, knowledge management, safety, and 60 prompts.",
+    "source_reviewed": true,
+    "subtitle": "Practical Prompts and Workflows for AI-Powered Knowledge Work, Files, Reports, and Operations",
+    "summary": "Claude Cowork Mastery presents Claude as a supervised partner for practical knowledge work rather than a chat window for isolated questions. It develops workflows for project context, files and folders, research and synthesis, writing and editing, reports and executive briefs, meetings and follow-up, administrative operations, customer and sales work, data and spreadsheets, decision support, personal knowledge management, and safety. Sixty ready-to-use prompts provide reusable starting points while human review remains central for sensitive or consequential work.",
+    "target_audience": "For knowledge workers, managers, analysts, consultants, and teams using Claude for substantial file- and workflow-based work.",
+    "title": "Claude Cowork Mastery"
+  },
+  "claude-mcp-mastery": {
+    "category": "Artificial Intelligence",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Model Context Protocol",
+      "MCP tools and resources",
+      "Connectors",
+      "Claude Code",
+      "Business workflows",
+      "Permissions and approval gates",
+      "Prompt injection and safety",
+      "Testing and deployment"
+    ],
+    "language": "English",
+    "learning": [
+      "Understand the roles of tools, resources, and prompts inside MCP-based systems.",
+      "Design connectors and workflows for files, knowledge, business tools, data, and development.",
+      "Apply least privilege, approval gates, and prompt-injection defenses to connected agents.",
+      "Test MCP systems with evaluation, regression, and failure-oriented checks.",
+      "Use prompt libraries and project blueprints to move from isolated connectors to real workflows."
+    ],
+    "related_ids": [
+      "UXTxEQAAQBAJ",
+      "D3HxEQAAQBAJ",
+      "b3TxEQAAQBAJ"
+    ],
+    "seo_description": "A practical Model Context Protocol guide for Claude covering tools, resources, connectors, business systems, Claude Code, security, evaluation, deployment, and 50 MCP prompts.",
+    "source_reviewed": true,
+    "subtitle": "Practical Prompts, Workflows, and Connectors for Building Real-World AI Systems with Claude",
+    "summary": "Claude MCP Mastery turns the Model Context Protocol into practical design patterns for tools, resources, prompts, files, knowledge bases, business systems, developer environments, data workflows, and reporting. It covers connector design, Claude Code integration, permissions, approval gates, prompt-injection risks, testing, evaluation, regression checks, and deployment. Fifty ready-to-use MCP prompts and three project blueprints provide reusable starting points for personal knowledge, business operations, and developer assistance.",
+    "target_audience": "For developers, AI engineers, consultants, and technical operators building Claude systems that interact with external tools and data.",
+    "title": "Claude MCP Mastery"
+  },
+  "confluence-trading": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "context-engineering-with-claude": {
+    "category": "Artificial Intelligence",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Context engineering",
+      "System instructions",
+      "Task and user intent",
+      "Project and domain context",
+      "Retrieval and evidence",
+      "Tool context",
+      "Long-context compression",
+      "Structured outputs and approvals"
+    ],
+    "language": "English",
+    "learning": [
+      "Map the layers of context an agent needs instead of relying on a single oversized prompt.",
+      "Separate durable instructions from task-specific intent, evidence, and tool state.",
+      "Evaluate retrieval sources and build evidence-first context packs.",
+      "Compress and prioritize long context without silently discarding critical constraints.",
+      "Design structured outputs, handoffs, and approval gates that keep work reviewable."
+    ],
+    "related_ids": [
+      "D3HxEQAAQBAJ",
+      "Y3TxEQAAQBAJ",
+      "1XHxEQAAQBAJ"
+    ],
+    "seo_description": "A practical context-engineering guide for Claude covering instructions, task intent, project context, retrieval, evidence, tool state, long-context compression, outputs, and 50 templates.",
+    "source_reviewed": true,
+    "subtitle": "Practical Frameworks, Prompts, and Workflows for Building Reliable AI Agents",
+    "summary": "Context Engineering with Claude focuses on the information architecture that makes an AI agent reliable. It organizes context into durable instructions, user and task intent, project and domain packs, retrieval and evidence, tool state, long-context prioritization and compression, structured outputs, handoffs, and approval points. Fifty templates help inventory context, detect gaps, define constraints, evaluate sources, interpret tool results, structure workflows, and create reviewable outputs while preserving human oversight for sensitive work.",
+    "target_audience": "For AI engineers, agent designers, product teams, and advanced users building reliable Claude workflows.",
+    "title": "Context Engineering with Claude"
+  },
+  "crypto-liquidation-heatmaps": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "day-trading-from-zero": {
+    "category": "Trading",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Day trading basics",
+      "Candlesticks and timeframes",
+      "Market structure",
+      "Support resistance and volume",
+      "Liquidity and FVGs",
+      "Risk and position sizing",
+      "Leverage and margin",
+      "AI-assisted review and journaling"
+    ],
+    "language": "English",
+    "learning": [
+      "Understand the practical differences between day trading and longer-term investing.",
+      "Read basic chart structure, candles, timeframes, levels, volume, trends, ranges, and liquidity.",
+      "Calculate risk, position size, reward-to-risk, expectancy, and leverage exposure.",
+      "Use simulation, testing, and journaling before relying on live capital.",
+      "Use AI to organize learning and review evidence without treating it as a trading oracle."
+    ],
+    "related_ids": [
+      "nzniEQAAQBAJ",
+      "C1PsEQAAQBAJ",
+      "a8L1EQAAQBAJ"
+    ],
+    "seo_description": "A beginner day-trading guide to markets, chart reading, structure, risk, leverage, testing, journaling, and disciplined AI-assisted learning.",
+    "source_reviewed": true,
+    "subtitle": "A Practical AI-Assisted Roadmap for Beginners",
+    "summary": "Day Trading from Zero builds a beginner’s roadmap around chart reading, market structure, risk, testing, and disciplined use of AI. It distinguishes day trading from investing, introduces markets, instruments, spreads, slippage, fees, sessions, watchlists, candlesticks, timeframes, support and resistance, volume, trend, range, liquidity, and Fair Value Gaps, then connects them to position sizing, expectancy, leverage, margin, and liquidation. AI is used for learning, chart review, journaling, and structured thinking rather than as an oracle or permission to trade.",
+    "target_audience": "For serious beginners who want a structured, risk-aware introduction to day trading with AI used as a learning and review assistant.",
+    "title": "Day Trading from Zero"
+  },
+  "decision-trees-in-machine-learning-and-data-science": {
+    "category": "Data Science",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Decision trees",
+      "Entropy",
+      "Gini impurity",
+      "Information gain",
+      "ID3 C4.5 CART",
+      "Pruning",
+      "Python and scikit-learn",
+      "Interpretability and overfitting"
+    ],
+    "language": "English",
+    "learning": [
+      "Understand how a tree transforms features and thresholds into recursive decisions.",
+      "Calculate and interpret entropy, Gini impurity, and information gain.",
+      "Compare major tree-building ideas such as ID3, C4.5, and CART.",
+      "Recognize overfitting and control complexity through pre-pruning and post-pruning.",
+      "Implement trees in Python and explain their behavior through projects and interview-style problems."
+    ],
+    "related_ids": [
+      "LV7yEQAAQBAJ",
+      "VYn1EQAAQBAJ",
+      "dL7jEQAAQBAJ"
+    ],
+    "seo_description": "A visual decision-tree guide covering entropy, Gini, information gain, ID3, C4.5, CART, pruning, Python, interpretability, projects, and interview preparation.",
+    "source_reviewed": true,
+    "subtitle": "A Visual Infographic Guide from Entropy and Gini to Python, Pruning, and Interpretable AI",
+    "summary": "Decision Trees in Machine Learning and Data Science explains tree models visually from first split to production-minded practice. It builds intuition for nodes, thresholds, entropy, Gini impurity, information gain, and split selection, then moves through ID3, C4.5, CART, overfitting, pruning, Python and scikit-learn, projects, interview questions, and reference material. Each concept is reinforced with definitions, formulas, numerical examples, code, outputs, common traps, model warnings, and mini cases, keeping interpretability and variance control visible throughout.",
+    "target_audience": "For machine-learning students, data-science practitioners, interview candidates, and readers who value visual explanations and interpretable models.",
+    "title": "Decision Trees in Machine Learning and Data Science"
+  },
+  "deja-de-explicarte": {
+    "category": "Desarrollo Personal",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Sobreexplicación",
+      "Aprobación",
+      "Límites",
+      "Familia",
+      "Relaciones",
+      "Trabajo y valor personal",
+      "Redes sociales",
+      "Silencio consciente"
+    ],
+    "language": "Español",
+    "learning": [
+      "Distinguir una explicación útil de una justificación compulsiva.",
+      "Reconocer cuándo la necesidad de ser comprendido termina borrando la propia posición.",
+      "Dejar de alimentar discusiones con oyentes que no buscan comprender.",
+      "Usar límites más limpios en familia, amor, trabajo y espacios digitales.",
+      "Elegir el silencio cuando añadir palabras ya no añade claridad."
+    ],
+    "related_ids": [
+      "ITT2EQAAQBAJ",
+      "VYn1EQAAQBAJ",
+      "IcrzEQAAQBAJ"
+    ],
+    "seo_description": "Guía práctica sobre sobreexplicación, necesidad de aprobación, límites, redes sociales y cómo salir del tribunal de las opiniones ajenas.",
+    "source_reviewed": true,
+    "subtitle": "Cómo salir del tribunal de las opiniones ajenas",
+    "summary": "Deja de explicarte examina la diferencia entre una explicación necesaria y la defensa compulsiva de la propia existencia. El libro sigue la necesidad de ser comprendido a través de la familia, el amor, el trabajo, el dinero, las redes sociales, los límites y el hábito de convertir cada decisión en un expediente. No propone dejar de asumir responsabilidades; propone reconocer cuándo explicar aclara y cuándo solo prolonga un juicio que no terminará con más palabras.",
+    "target_audience": "Para personas cansadas de justificarse, demostrar su valor y vivir pendientes de la opinión ajena.",
+    "title": "Deja de explicarte",
+    "translation_group": "stop-explaining-yourself"
+  },
+  "e-ticaret-sat-c-lar-icin-yapay-zeka-promptlar": {
+    "category": "AI & E-Ticaret",
+    "language": "Türkçe"
+  },
+  "earthquake-survival-in-california": {
+    "category": "Emergency Preparedness & Earthquake Safety",
+    "language": "English",
+    "translation_group": "earthquake-survival-california"
+  },
+  "el-dinero-sigue-al-dinero": {
+    "category": "Business & Entrepreneurship",
+    "language": "Español",
+    "translation_group": "money-follows-money"
+  },
+  "fair-value-gaps": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "false-breakouts-fakeouts": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "geld-folgt-geld": {
+    "category": "Business & Entrepreneurship",
+    "language": "Deutsch",
+    "translation_group": "money-follows-money"
+  },
+  "hayat-kontrol-edemezsin": {
+    "category": "Kişisel Gelişim",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Kontrol yanılsaması",
+      "Duygusal disiplin",
+      "Duraklama",
+      "Dikkat ve beden",
+      "Sınırlar",
+      "Belirsizlik",
+      "İlişkiler",
+      "Kişisel tepki protokolü"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Kontrol edilemeyen olaylarla seçilebilir tepkileri birbirinden ayırmak.",
+      "Duyguyu emir olarak değil, bilgi taşıyan geçici bir hava olarak okumak.",
+      "Duraklama, gecikmiş yanıt, dikkat ve beden pratikleriyle otomatik tepkiyi yavaşlatmak.",
+      "Kayıp, başarısızlık, iş, para ve ilişkilerde daha esnek planlar kurmak.",
+      "Kendi kişisel tepki protokolünü ve zor gün denetimini oluşturmak."
+    ],
+    "related_ids": [
+      "KmnkEQAAQBAJ",
+      "ihrkEQAAQBAJ",
+      "2mTzEQAAQBAJ"
+    ],
+    "seo_description": "Kontrol edilemeyen olaylar karşısında duygusal disiplin, duraklama, beden, dikkat, sınırlar ve eğitilebilir tepkiler üzerine pratik rehber.",
+    "source_reviewed": true,
+    "subtitle": "Öngörülemez Bir Dünyada Duygusal Disiplin, İç Denge ve Bilgece Hareket Etmek",
+    "summary": "Hayatı Kontrol Edemezsin; Ama Tepkini Eğitebilirsin, kontrol yanılsaması çöktüğünde geriye kalan gerçek gücü inceler: tepkiyi seçme ve eğitme kapasitesi. Kitap duyguları bastırmak yerine duygusal hava olarak okumayı; duraklama, dikkat, beden, dil, sınırlar, gecikmiş yanıt, başarısızlık, kayıp, para, iş, ilişkiler ve dijital uyarılma içinde daha bilinçli hareket etmeyi ele alır. Son bölümler kişisel bir tepki protokolü ve zor gün denetimi oluşturur.",
+    "target_audience": "Belirsizlikte daha sakin, esnek ve bilinçli davranmak isteyen kişisel gelişim okurları için.",
+    "title": "Hayatı Kontrol Edemezsin",
+    "translation_group": "you-cant-control-life"
+  },
+  "ict-kill-zones-trading-the-ict-kill-zones": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "ict-silver-bullet": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "inducement-trading": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "instagram-ve-tiktok-icerik-ureticileri-icin-yapay-zeka-promptlar": {
+    "category": "AI & İçerik Üretimi",
+    "language": "Türkçe"
+  },
+  "inverse-fair-value-gaps-ifvg": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "kendini-ac-klamay-b-rak": {
+    "category": "Kişisel Gelişim",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Fazla açıklama",
+      "Onay arayışı",
+      "Sınırlar",
+      "Aile rolleri",
+      "İlişkiler",
+      "İş ve değer",
+      "Sosyal medya yargısı",
+      "Temiz hayır"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Gerekli açıklamayı kompulsif kendini savunmadan ayırmak.",
+      "Anlaşılma ihtiyacının ne zaman öz-erimeye dönüştüğünü fark etmek.",
+      "İsteksiz dinleyiciler ve bitmeyen tartışmalarda açıklama döngüsünü sonlandırmak.",
+      "Aile, aşk, iş ve sosyal medyada daha temiz sınırlar kullanmak.",
+      "Sessizliği kaçış olarak değil, gerektiğinde bilinçli bir seçim olarak kurmak."
+    ],
+    "related_ids": [
+      "COvkEQAAQBAJ",
+      "KmnkEQAAQBAJ",
+      "R53kEQAAQBAJ"
+    ],
+    "seo_description": "Fazla açıklama, onay arayışı, sınırlar, temiz hayır, sosyal medya yargısı ve başkalarının fikirleri karşısında özsaygıyı koruma üzerine bir rehber.",
+    "source_reviewed": true,
+    "subtitle": "Başkalarının Yargılarının Mahkeme Salonundan Nasıl Çıkılır",
+    "summary": "Kendini Açıklamayı Bırak, gerekli açıklama, sorumluluk ve onarım ile insanın varlığını sürekli savunma dosyasına çevirmesi arasındaki farkı inceler. Kitap, anlaşılma açlığını, fazla açıklama alışkanlığını, aile rollerini, aşkı, işi, parayı, sosyal medya yargısını, temiz bir 'hayır' demeyi ve sessizliğin güçten doğduğu anları ele alır. Amaç daha az konuşmak değil; her yanlış anlaşılmada kendini mahkemeye çıkarmaktan vazgeçmektir.",
+    "target_audience": "Sürekli yanlış anlaşılmaktan, kendini kanıtlamaktan ve başkalarının yargılarına cevap yetiştirmekten yorulan okurlar için.",
+    "title": "Kendini Açıklamayı Bırak",
+    "translation_group": "stop-explaining-yourself"
+  },
+  "kimi-k3-and-the-agentic-frontier": {
+    "category": "Artificial Intelligence",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Kimi K3",
+      "Agentic AI",
+      "Open weights",
+      "Long context and memory",
+      "Agent swarms",
+      "Serving and self-hosting",
+      "Sandboxes and durable execution",
+      "Benchmarks and product comparisons"
+    ],
+    "language": "English",
+    "learning": [
+      "Distinguish a foundation model from its harness, agent layer, product surface, and infrastructure.",
+      "Evaluate long-context claims separately from memory, retrieval, and compaction strategies.",
+      "Understand open-weight deployment, serving constraints, and swarm economics.",
+      "Compare agent products through controlled tasks, latency, cost, and human-attention requirements.",
+      "Read vendor specifications and benchmark claims with explicit dates, evidence, and limitations."
+    ],
+    "related_ids": [
+      "nx_2EQAAQBAJ",
+      "wDHbEQAAQBAJ",
+      "UXTxEQAAQBAJ"
+    ],
+    "seo_description": "A practical technical guide to Kimi K3, open weights, long context, agent swarms, serving, benchmarks, and comparisons with Claude, ChatGPT Work, and Codex.",
+    "source_reviewed": true,
+    "subtitle": "Open Weights, Million-Token Context, Agent Swarms, and a Practical Comparison with Claude, ChatGPT Work, and Codex",
+    "summary": "Kimi K3 and the Agentic Frontier examines modern agentic AI by separating the model, harness, agent, product, and infrastructure layers that are often conflated. The book studies long context versus memory and compaction, sparse mixture-of-experts design, native vision, open weights, serving and self-hosting, agent swarms, sandboxed execution, economics, failure modes, benchmarks, and product-level comparisons with Claude, ChatGPT Work, and Codex. Time-sensitive specifications and vendor claims are treated as dated evidence rather than timeless facts.",
+    "target_audience": "For AI engineers, researchers, developers, and technical decision-makers comparing agentic systems and deployment models.",
+    "title": "Kimi K3 and the Agentic Frontier"
+  },
+  "kotu-gun-disiplini": {
+    "category": "Kişisel Gelişim",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Kötü gün disiplini",
+      "Minimum eylem",
+      "Direnç ve tükenme",
+      "Geri dönüş ritüeli",
+      "Enerji yönetimi",
+      "Dinlenme ve kaçınma",
+      "Sınırlar",
+      "Tutarlılık"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Zor gün, acil durum, tükenme ve direnç arasındaki farkı görmek.",
+      "Kapasite düşünce işi küçültmek ama tamamen terk etmemek.",
+      "Minimum eylem, çevre tasarımı ve geri dönüş ritüelleri kullanmak.",
+      "Dinlenmeyi iyileşme için kullanırken kaçınmaya dönüşmesini fark etmek.",
+      "Disiplini kendine şiddet değil, tekrar tekrar geri dönebilme becerisi olarak kurmak."
+    ],
+    "related_ids": [
+      "ihrkEQAAQBAJ",
+      "R53kEQAAQBAJ",
+      "qbrjEQAAQBAJ"
+    ],
+    "seo_description": "Motivasyon düşükken minimum eylem, geri dönüş ritüeli, enerji, dinlenme, sınır ve sürdürülebilir disiplin üzerine pratik rehber.",
+    "source_reviewed": true,
+    "subtitle": "Daha İyi Hissetmeyi Beklemeden İşi Bitir",
+    "summary": "Kötü Gün Disiplini, zor bir günde kapasite azalırken insanın kendisini terk etmeden nasıl çalışabileceğini araştırır. Kitap gerçek acil durum ve tükenme ile direnci birbirinden ayırır; mükemmel motivasyon yerine küçük minimum eylemler, geri dönüş ritüelleri, çevre tasarımı, enerji yönetimi, temiz hayır, dinlenme ve utançtan sonra yeniden başlama üzerinde durur. Disiplin burada kendine şiddet değil, kötü günde bile ilişkiyi tamamen koparmamaktır.",
+    "target_audience": "Yazarlık, üretim, çalışma ya da öğrenme süreçlerinde motivasyona fazla bağımlı kalmak istemeyen okurlar için.",
+    "title": "Kötü Gün Disiplini",
+    "translation_group": "discipline-of-bad-days"
+  },
+  "kucuk-isletme-sahipleri-icin-yapay-zeka-promptlar": {
+    "category": "AI & İşletme",
+    "language": "Türkçe",
+    "title": "Küçük İşletme Sahipleri İçin Yapay Zekâ Promptları"
+  },
+  "l-argent-suit-l-argent": {
+    "category": "Business & Entrepreneurship",
+    "language": "Français",
+    "translation_group": "money-follows-money"
+  },
+  "let-karma-handle-it": {
+    "category": "Personal Development",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Karma and return",
+      "Revenge and rumination",
+      "Betrayal",
+      "Boundaries",
+      "Anger and silence",
+      "Forgiveness",
+      "Prosperity and energy",
+      "30-day practice"
+    ],
+    "language": "English",
+    "learning": [
+      "Separate karma from threats, magical thinking, and passive avoidance.",
+      "Recognize the attention and energy cost of revenge and constant proof-seeking.",
+      "Use boundaries and distance without turning them into punishment theatre.",
+      "Distinguish forgiveness from renewed access or denial of harm.",
+      "Build a life organized around conduct, peace, joy, and forward movement."
+    ],
+    "related_ids": [
+      "ITT2EQAAQBAJ",
+      "cGTzEQAAQBAJ",
+      "3urkEQAAQBAJ"
+    ],
+    "seo_description": "A reflective practical guide to karma, revenge, betrayal, boundaries, forgiveness, peace, prosperity, and reclaiming energy from the need to punish.",
+    "source_reviewed": true,
+    "subtitle": "A Cosmic Law of Return for Peace, Joy, Prosperity, and Life Beyond Revenge",
+    "summary": "Let Karma Handle It reframes karma as a language of return and balance rather than a threat, superstition, or excuse for passivity. Its practical concern is what happens when a person stops spending attention on revenge, proving, surveillance, and the wish to administer consequences personally. Across themes of betrayal, anger, boundaries, silence, forgiveness, prosperity, joy, and a thirty-day practice map, the book asks the reader to protect conduct and energy without becoming an assistant to punishment.",
+    "target_audience": "For readers trying to move beyond betrayal, resentment, or revenge without surrendering boundaries or self-respect.",
+    "title": "Let Karma Handle It",
+    "translation_group": "let-karma-handle-it"
+  },
+  "linear-regression-in-machine-learning-and-data-science": {
+    "category": "Data Science",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Linear regression",
+      "Least squares",
+      "Residuals and error",
+      "Model assumptions",
+      "Diagnostics",
+      "Regularization",
+      "Python and scikit-learn",
+      "Interpretation and case studies"
+    ],
+    "language": "English",
+    "learning": [
+      "Build intuition for simple and multiple linear regression before relying on formulas.",
+      "Understand coefficients, residuals, least squares, and common error measures.",
+      "Prepare data and diagnose assumptions, outliers, multicollinearity, and overfitting.",
+      "Use regularization and model-improvement methods appropriately.",
+      "Implement, interpret, communicate, and apply regression models in Python and real projects."
+    ],
+    "related_ids": [
+      "qr7yEQAAQBAJ",
+      "VYn1EQAAQBAJ",
+      "dL7jEQAAQBAJ"
+    ],
+    "seo_description": "A visual guide to linear regression covering intuition, least squares, diagnostics, regularization, Python, real-world case studies, and model interpretation.",
+    "source_reviewed": true,
+    "subtitle": "From Fundamentals to Real-World Applications",
+    "summary": "Linear Regression in Machine Learning and Data Science is a visual path from intuition to implementation. It introduces simple and multiple linear regression, the best-fit line, coefficients, residuals, error measures, and least-squares reasoning before moving into data preparation, assumptions, diagnostics, regularization, multicollinearity, Python implementation, case studies, interpretation, and communication. Its recurring learning flow combines definitions, formulas, warnings, examples, code, outputs, and takeaways so that mathematical ideas remain connected to actual modeling decisions.",
+    "target_audience": "For students, analysts, data scientists, machine-learning learners, and practitioners who want regression explained visually and implemented practically.",
+    "title": "Linear Regression in Machine Learning and Data Science"
+  },
+  "liquidity-sweep": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "market-structure-shift-mss": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "market-structure-trading": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "mastering-renko-trading": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "mastering-support-and-resistance": {
+    "category": "Trading",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Support and resistance",
+      "Supply and demand zones",
+      "Breakout and retest",
+      "Fake breakouts",
+      "Wick versus body",
+      "Round numbers",
+      "Invalidation and stops",
+      "Risk and journaling"
+    ],
+    "language": "English",
+    "learning": [
+      "Draw support and resistance as reaction zones rather than demanding exact-price precision.",
+      "Read rejection wicks, closes, repeated acceptance, and role reversal after breakouts.",
+      "Differentiate bounce, breakout-retest, and fake-breakout scenarios.",
+      "Use round numbers and liquidity references as context rather than automatic signals.",
+      "Define confirmation, invalidation, position size, and risk before committing capital."
+    ],
+    "related_ids": [
+      "a8L1EQAAQBAJ",
+      "ndIKEgAAQBAJ",
+      "RS0LEgAAQBAJ"
+    ],
+    "seo_description": "A visual support and resistance guide covering zones, breakouts, retests, fakeouts, wick-versus-body confirmation, round numbers, entries, exits, and risk.",
+    "source_reviewed": true,
+    "subtitle": "80 Practical Visual Infographics for Reading Levels, Entries, Exits, Breakouts, Retests, and Traps",
+    "summary": "Mastering Support & Resistance is a visual guide to reading support and resistance as behavioral zones rather than perfect single-price lines. It develops demand and supply zones, liquidity references, role reversal after a breakout, bounce setups, breakout-and-retest structures, fake-breakout traps, wick-versus-body interpretation, repeated closes, round-number reactions, invalidation, position sizing, and journaling. The visual framework emphasizes confirmation and risk control instead of assuming that any marked level must hold.",
+    "target_audience": "For visual price-action traders who want a practical framework for levels, reactions, breakouts, retests, and traps.",
+    "title": "Mastering Support & Resistance"
+  },
+  "mavi-tikten-sonra": {
+    "category": "Fiction & Romance",
+    "language": "Türkçe",
+    "translation_group": "istanbul-asklari-mavi-tikten-sonra"
+  },
+  "micro-cheating": {
+    "category": "Relationships",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Micro-cheating",
+      "Privacy versus secrecy",
+      "Digital intimacy",
+      "Emotional boundaries",
+      "Former partners",
+      "Trust and repair",
+      "Emotional affairs",
+      "Mature fidelity"
+    ],
+    "language": "English",
+    "learning": [
+      "Distinguish privacy from secrecy and friendship from emotional displacement.",
+      "Assess small behaviors through repetition, concealment, intention, and impact rather than labels alone.",
+      "Talk about digital boundaries before mistrust becomes surveillance.",
+      "Recognize the difference between a repairable mistake and a recurring pattern.",
+      "Protect self-respect while deciding whether trust can be rebuilt or a relationship should end."
+    ],
+    "related_ids": [
+      "qbrjEQAAQBAJ",
+      "2mTzEQAAQBAJ",
+      "ihrkEQAAQBAJ"
+    ],
+    "seo_description": "A relationship guide to micro-cheating, secrecy, digital intimacy, emotional boundaries, trust erosion, repair, and mature fidelity.",
+    "source_reviewed": true,
+    "subtitle": "The Quiet Betrayals of Modern Love",
+    "summary": "Micro Cheating examines small, repeated behaviors that can erode trust before a relationship reaches the territory of a conventional affair. It distinguishes privacy from secrecy, friendship from emotional outsourcing, ordinary human error from recurring concealment, and forgiveness from self-abandonment. Across phones, messages, likes, former partners, workplace closeness, emotional backup relationships, boundaries, confession, repair, staying, leaving, and mature fidelity, the book seeks clarity rather than surveillance.",
+    "target_audience": "For readers navigating trust, boundaries, digital behavior, and emotional fidelity in modern relationships.",
+    "title": "Micro Cheating",
+    "translation_group": "micro-cheating"
+  },
+  "microinfidelidad": {
+    "category": "Relaciones",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Microinfidelidad",
+      "Privacidad y secreto",
+      "Intimidad digital",
+      "Límites emocionales",
+      "Exparejas",
+      "Confianza y reparación",
+      "Infidelidad emocional",
+      "Fidelidad madura"
+    ],
+    "language": "Español",
+    "learning": [
+      "Distinguir privacidad de secreto y amistad de desplazamiento emocional.",
+      "Evaluar conductas pequeñas por repetición, ocultación, intención e impacto.",
+      "Hablar de límites digitales antes de convertir la relación en vigilancia.",
+      "Diferenciar un error reparable de un patrón que sigue erosionando la confianza.",
+      "Proteger la dignidad personal al decidir si la confianza puede reconstruirse."
+    ],
+    "related_ids": [
+      "Y3TxEQAAQBAJ",
+      "b3TxEQAAQBAJ",
+      "D3HxEQAAQBAJ"
+    ],
+    "seo_description": "Guía sobre microinfidelidad, secretos, intimidad digital, límites emocionales, exparejas, confianza, reparación y fidelidad madura.",
+    "source_reviewed": true,
+    "subtitle": "Pequeñas traiciones que erosionan la confianza en las relaciones modernas",
+    "summary": "Microinfidelidad examina conductas pequeñas y repetidas que pueden erosionar la confianza antes de convertirse en una infidelidad convencional. La edición en español de España distingue intimidad de secreto, amistad de desplazamiento emocional, error puntual de patrón oculto y perdón de autoabandono. Mensajes, redes sociales, exparejas, cercanía laboral, personas de reserva, límites digitales, confesión, reparación, quedarse, marcharse y fidelidad madura se estudian con una pregunta constante: qué está ocurriendo realmente y qué necesita la relación para seguir siendo honesta.",
+    "target_audience": "Para lectores que quieren comprender mejor la confianza, los límites y la fidelidad emocional en las relaciones modernas.",
+    "title": "Microinfidelidad",
+    "translation_group": "micro-cheating"
+  },
+  "mikro-aldatma": {
+    "category": "İlişkiler",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Mikro aldatma",
+      "Mahremiyet ve gizlilik",
+      "Dijital yakınlık",
+      "Duygusal sınırlar",
+      "Eski partnerler ve iş ilişkileri",
+      "Güven ve onarım",
+      "Duygusal ilişki",
+      "Olgun sadakat"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Mahremiyet ile gizliliği ve sıradan sosyal temas ile duygusal yer değiştirmeyi ayırt etmek.",
+      "Küçük davranışların tekrar, niyet, etki ve saklama ihtiyacıyla nasıl anlam değiştirdiğini görmek.",
+      "Dijital davranışlar, mesajlar ve eski ilişkiler için açık sınırlar konuşmak.",
+      "Gözetim yerine erken ve dürüst konuşma ile güven sorunlarını ele almak.",
+      "Onarımın mümkün olduğu durumlarla ayrılmanın daha sağlıklı olabileceği örüntüleri ayırt etmek."
+    ],
+    "related_ids": [
+      "COvkEQAAQBAJ",
+      "sDoBEgAAQBAJ",
+      "4mjkEQAAQBAJ"
+    ],
+    "seo_description": "Modern ilişkilerde mikro aldatma, gizlilik, dijital yakınlık, duygusal sınırlar, güven kaybı, onarım ve olgun sadakat üzerine kapsamlı bir rehber.",
+    "source_reviewed": true,
+    "subtitle": "Modern Aşkın Sessiz İhanetleri",
+    "summary": "Mikro Aldatma, modern ilişkilerde güveni büyük bir olaydan önce aşındırabilen küçük ama tekrarlanan davranışları inceler. Kitap; mahremiyet ile gizlilik, arkadaşlık ile duygusal yön değiştirme, bir insanî hata ile güveni kemiren örüntü arasındaki farkı araştırır. Telefon, mesajlar, beğeniler, eski partnerler, iş ilişkileri, sınırlar, itiraf, onarım, duygusal ilişki, kalmak ya da ayrılmak gibi alanları ele alırken amacı gözetim değil, daha açık bir dil ve daha dürüst sınırlar kurmaktır.",
+    "target_audience": "Modern ilişkilerde güven, sınır, dijital davranış ve duygusal sadakat üzerine daha net düşünmek isteyen okurlar için.",
+    "title": "Mikro Aldatma",
+    "translation_group": "micro-cheating"
+  },
+  "money-follows-money": {
+    "category": "Business & Entrepreneurship",
+    "language": "English",
+    "title": "Money Follows Money",
+    "translation_group": "money-follows-money"
+  },
+  "multi-timeframe-analysis": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "order-blocks-trading": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "para-paran-n-pesinden-gider": {
+    "category": "Business & Entrepreneurship",
+    "language": "Türkçe",
+    "title": "Para Paranın Peşinden Gider",
+    "translation_group": "money-follows-money"
+  },
+  "premium-and-discount-zones": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "prop-firm-funded-account-trading": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "sen-daha-az-icin-fazla-degerlisin": {
+    "category": "Kişisel Gelişim",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Özdeğer",
+      "Standartlar",
+      "Beden ve sağlık",
+      "Dikkat ve enerji",
+      "İnançlar",
+      "Aşk ve arzu",
+      "Seçicilik",
+      "Yapay zekâ kaldıraçları"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Özdeğeri kibirden ayırarak davranış ve seçim düzeyinde tanımlamak.",
+      "İnsanların, alışkanlıkların ve dikkat tüketiminin değeri nasıl düşürdüğünü görmek.",
+      "Beden, enerji, inanç ve zihinsel beslenmeyi standartların parçası yapmak.",
+      "Aşk ve arzuyu öz-terk etmeden yaşamak için seçicilik geliştirmek.",
+      "Yapay zekâyı karar otoritesi değil, daha az israf için akıllı bir yardımcı olarak kullanmak."
+    ],
+    "related_ids": [
+      "R53kEQAAQBAJ",
+      "2mTzEQAAQBAJ",
+      "KmnkEQAAQBAJ"
+    ],
+    "seo_description": "Özdeğer, yüksek standartlar, sağlık, dikkat, aşk, seçicilik ve yapay zekâ kaldıraçlarıyla daha az israf ve daha yüksek yaşam kalitesi üzerine.",
+    "source_reviewed": true,
+    "subtitle": "Özdeğer, yüksek standartlar, sağlık, aşk, inanç ve yapay zekâ kaldıraçlarıyla daha az israf, daha fazla sonuç üzerine insani bir kitap",
+    "summary": "Sen Daha Azı İçin Fazla Değerlisin, özdeğeri üstünlük iddiası olarak değil, hayatın hangi alanlarında kendini sessizce ucuzlattığını görme yeteneği olarak ele alır. İlişkiler, dikkat, beden, sağlık, enerji, inançlar, zihinsel beslenme, aşk, arzu, seçicilik ve gereksiz acı üzerinden standartların nasıl kurulduğunu inceler. Yapay zekâ ise peygamber ya da otorite değil, düşünmeyi hızlandıran ve israfı azaltabilen bir kaldıraç olarak çerçevelenir.",
+    "target_audience": "Özdeğerini daha somut standartlara çevirmek ve hayatındaki gereksiz israfı azaltmak isteyen okurlar için.",
+    "title": "Sen Daha Azı İçin Fazla Değerlisin",
+    "translation_group": "you-are-too-valuable-for-less"
+  },
+  "silmenin-gucu": {
+    "category": "Kişisel Gelişim",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Sınırlar",
+      "Dikkat ve erişim",
+      "İlişkiler",
+      "Sosyal medya",
+      "Suçluluk",
+      "İçsel sadeleşme",
+      "Standartlar",
+      "Yedi günlük uygulama"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Silme fikrini intikamdan ayırarak bir erişim ve dikkat kararı olarak görmek.",
+      "İnsanların, alışkanlıkların ve dijital gürültünün gizli maliyetini fark etmek.",
+      "Aile, aşk, arkadaşlık ve işte daha temiz sınırlar kurmak.",
+      "Suçluluk ile öz-koruma arasındaki farkı ayırt etmek.",
+      "Çıkarılan şeylerin ardından daha sakin ve tutarlı bir hayat inşa etmek."
+    ],
+    "related_ids": [
+      "azT2EQAAQBAJ",
+      "KmnkEQAAQBAJ",
+      "R53kEQAAQBAJ"
+    ],
+    "seo_description": "Huzuru bozan insanları, alışkanlıkları ve zihinsel döngüleri sınırlandırmak; dikkat, suçluluk, ilişkiler ve iç özgürlük üzerine pratik bir rehber.",
+    "source_reviewed": true,
+    "subtitle": "Hayatını Yoran Şeyleri Çıkararak Huzuru, Netliği ve İç Özgürlüğü Geri Kazanmak",
+    "summary": "Silmenin Gücü, hayatı sadeleştirmeyi sertlik ya da intikam olarak değil, huzuru tekrar tekrar bozan erişimleri, alışkanlıkları ve içsel döngüleri bilinçli biçimde azaltmak olarak ele alır. Kitap dikkat, ilişkiler, aile, arkadaşlık, aşk, iş ve statü, sosyal medya, suçluluk, standartlar, bedensel sinyaller ve temiz sınırlar üzerinden hem dışarıdaki hem içerideki fazlalığı inceler. Amaç, insanları cezalandırmak değil, kurulmakta olan hayatı sürekli yaralayan şeylere sınırsız erişim vermemektir.",
+    "target_audience": "Huzurunu korumak, sınırlarını netleştirmek ve hayatındaki gereksiz zihinsel yükü azaltmak isteyen okurlar için.",
+    "title": "Silmenin Gücü",
+    "translation_group": "power-of-deletion"
+  },
+  "smart-money-concepts": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "sosyal-medya-pazarlamas-icin-yapay-zeka-promptlar": {
+    "category": "AI & Pazarlama",
+    "language": "Türkçe"
+  },
+  "sql-for-data-analysis": {
+    "category": "Data Science",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Relational databases",
+      "SELECT and filtering",
+      "Joins",
+      "Aggregation",
+      "CTEs and subqueries",
+      "Window functions",
+      "Data integrity and transactions",
+      "Projects and interview problems"
+    ],
+    "language": "English",
+    "learning": [
+      "Build a reliable relational foundation with tables, keys, schemas, and relationships.",
+      "Write clean queries using filtering, sorting, joins, grouping, aggregation, CTEs, and windows.",
+      "Handle data types, imports, constraints, integrity, DDL, DML, and transactions safely.",
+      "Interpret query results as business evidence rather than stopping at syntax.",
+      "Practice interview patterns, real projects, optimization, and portfolio delivery across SQL dialects."
+    ],
+    "related_ids": [
+      "LV7yEQAAQBAJ",
+      "qr7yEQAAQBAJ",
+      "IcrzEQAAQBAJ"
+    ],
+    "seo_description": "A visual SQL guide from relational foundations and joins to CTEs, window functions, interview problems, business projects, optimization, dashboards, and portfolio work.",
+    "source_reviewed": true,
+    "subtitle": "A Visual, Practical Guide with Real Business Projects, Interview Problems, CTEs, Window Functions, Dashboards, and Portfolio Workflows",
+    "summary": "SQL for Data Analysis is a visual, practice-oriented path from relational foundations to portfolio-ready analytics. It covers database structure, schema design, SELECT queries, filtering, sorting, joins, aggregation, data types, import and export, constraints and integrity, DDL and DML, transactions, CTEs, subqueries, views, temporary logic, window functions, ranking, interview problems, projects, optimization, and business interpretation. The book is dialect-aware and repeatedly emphasizes safe execution: destructive statements are tested in controlled environments, rows are verified, transactions are used, and SELECT comes before change.",
+    "target_audience": "For aspiring data analysts, data scientists, business analysts, and developers who want practical SQL skills tied to real analytical work.",
+    "title": "SQL for Data Analysis"
+  },
+  "stop-explaining-yourself": {
+    "category": "Personal Development",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Over-explaining",
+      "Approval seeking",
+      "Boundaries",
+      "Family roles",
+      "Relationships",
+      "Work and self-worth",
+      "Social media judgment",
+      "Clean refusal"
+    ],
+    "language": "English",
+    "learning": [
+      "Distinguish useful explanation from compulsive self-justification.",
+      "Recognize when the hunger to be understood becomes self-erasure.",
+      "Stop feeding arguments with people who are unwilling to listen in good faith.",
+      "Use cleaner boundaries in family, love, work, and online spaces.",
+      "Choose silence deliberately when more explanation would not create clarity."
+    ],
+    "related_ids": [
+      "cGTzEQAAQBAJ",
+      "4mjkEQAAQBAJ",
+      "3urkEQAAQBAJ"
+    ],
+    "seo_description": "A practical guide to over-explaining, approval seeking, boundaries, clean refusals, social judgment, and leaving the courtroom of other people's opinions.",
+    "source_reviewed": true,
+    "subtitle": "How to Leave the Courtroom of Other People's Opinions",
+    "summary": "Stop Explaining Yourself examines the difference between responsible explanation and compulsive self-defense. It follows the urge to be understood through family roles, relationships, work, money, social media, boundaries, and the endless internal courtroom where every choice seems to require a case. The book does not argue for silence or avoidance of accountability; it asks when explanation stops clarifying and starts erasing the person who is explaining.",
+    "target_audience": "For readers exhausted by proving, defending, and translating themselves to people whose judgment has become an internal courtroom.",
+    "title": "Stop Explaining Yourself",
+    "translation_group": "stop-explaining-yourself"
+  },
+  "supply-and-demand-zones": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "the-1-minute-and-5-minute-scalping-playbook": {
+    "category": "Trading",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "1-minute scalping",
+      "5-minute market context",
+      "Precision entries",
+      "Liquidity sweep and reclaim",
+      "Breakout and retest",
+      "VWAP and opening range",
+      "Risk and daily loss limits",
+      "Replay and backtesting"
+    ],
+    "language": "English",
+    "learning": [
+      "Separate context and execution by assigning distinct jobs to 5-minute and 1-minute charts.",
+      "Use defined setup rules instead of reacting to every fast candle.",
+      "Account for spread, slippage, fees, stops, sizing, and daily loss limits.",
+      "Recognize abnormal, news-driven, and overtrading conditions where no trade is justified.",
+      "Test and journal setups through replay, simulation, metrics, and a 30-session practice program."
+    ],
+    "related_ids": [
+      "LNMLEgAAQBAJ",
+      "YNMLEgAAQBAJ",
+      "oJwMEgAAQBAJ"
+    ],
+    "seo_description": "A practical 1-minute and 5-minute scalping guide to market structure, precision entries, eight setup playbooks, costs, risk, journaling, and testing.",
+    "source_reviewed": true,
+    "subtitle": "A Practical Guide to Market Structure, Precision Entries, Fast Trade Management, and Risk Control",
+    "summary": "The 1-Minute & 5-Minute Scalping Playbook assigns different jobs to the two timeframes: the 5-minute chart provides context, structure, and location, while the 1-minute chart is used as an execution lens. It develops precision entries, transaction-cost awareness, stops, position sizing, targets, fast trade management, no-trade conditions, journaling, replay, and backtesting. Eight setup playbooks cover trend pullbacks, liquidity sweeps and reclaims, breakouts and retests, failed breakouts, opening-range momentum, VWAP reactions, compression-to-expansion, and 5-minute reversal with 1-minute confirmation.",
+    "target_audience": "For active short-term traders who want a rules-based scalping process rather than improvised one-minute entries.",
+    "title": "The 1-Minute & 5-Minute Scalping Playbook"
+  },
+  "the-day-you-stop-needing-a-reason": {
+    "category": "Personal Development",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Unanswered endings",
+      "Acceptance",
+      "Closure",
+      "Silence",
+      "Self-worth",
+      "Distance",
+      "Rebuilding trust",
+      "30 practices"
+    ],
+    "language": "English",
+    "learning": [
+      "Recognize how waiting for an explanation can keep a life psychologically suspended.",
+      "Stop treating silence as a puzzle that must be solved indefinitely.",
+      "Understand acceptance without confusing it with approval of what happened.",
+      "Build closure through your own actions when no final answer is available.",
+      "Use small practices to rebuild movement, trust, and attention after an unanswered ending."
+    ],
+    "related_ids": [
+      "PhrkEQAAQBAJ",
+      "P5zkEQAAQBAJ",
+      "3urkEQAAQBAJ"
+    ],
+    "seo_description": "A practical guide to unanswered endings, acceptance, closure, silence, distance, self-worth, rebuilding, and moving forward without receiving an explanation.",
+    "source_reviewed": true,
+    "subtitle": "A Practical Guide to Acceptance, Calm, and Moving Through Unanswered Endings",
+    "summary": "The Day You Stop Needing a Reason examines what happens when life remains suspended beside an explanation that never arrives. Through unanswered endings, the courtroom of memory, the body waiting for a message, the empty chair, not being chosen, silence, distance, acceptance without approval, self-made closure, rebuilding, and trust after ambiguity, the book offers a way to move without pretending that unanswered questions do not hurt. Thirty practices turn the idea of closure into small acts rather than a final speech from someone else.",
+    "target_audience": "For readers moving through a breakup, loss, rejection, or unfinished story that did not provide a satisfying explanation.",
+    "title": "The Day You Stop Needing a Reason",
+    "translation_group": "day-you-stop-needing-a-reason"
+  },
+  "the-discipline-of-bad-days": {
+    "category": "Personal Development",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Bad-day discipline",
+      "Minimum viable action",
+      "Resistance and exhaustion",
+      "Return rituals",
+      "Energy and workspace",
+      "Rest versus avoidance",
+      "Boundaries",
+      "Consistency without self-violence"
+    ],
+    "language": "English",
+    "learning": [
+      "Distinguish a hard day from an emergency, exhaustion, or simple resistance.",
+      "Scale work down without abandoning it completely when capacity is reduced.",
+      "Use minimum actions, return rituals, logs, and environment design to lower friction.",
+      "Rest without converting recovery into indefinite avoidance.",
+      "Build consistency around returning to the work rather than waiting for the right feeling."
+    ],
+    "related_ids": [
+      "ITT2EQAAQBAJ",
+      "3urkEQAAQBAJ",
+      "P5zkEQAAQBAJ"
+    ],
+    "seo_description": "A practical guide to discipline on bad days: minimum actions, return rituals, energy, boundaries, rest, resistance, shame, and finishing work without waiting for motivation.",
+    "source_reviewed": true,
+    "subtitle": "Finish the Work Without Waiting to Feel Better",
+    "summary": "The Discipline of Bad Days is about continuing meaningful work without pretending that every difficult day is ordinary. It distinguishes emergencies and genuine exhaustion from resistance, then replaces the demand for perfect motivation with smaller, humane minimum actions, return rituals, clean boundaries, rest that does not become desertion, and systems that reduce dependence on mood. Across forty-two chapters and a field manual, the book treats consistency as the ability to return rather than the ability to perform at maximum intensity every day.",
+    "target_audience": "For writers, creators, professionals, students, and anyone who wants a humane system for continuing through low-motivation or difficult days.",
+    "title": "The Discipline of Bad Days",
+    "translation_group": "discipline-of-bad-days"
+  },
+  "the-heikin-ashi-trading-strategy": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "the-high-resolution-mind": {
+    "category": "Psychology & Self-Awareness",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "High-IQ psychology",
+      "Limits of IQ",
+      "Asynchronous development",
+      "Overthinking",
+      "Emotional and sensory intensity",
+      "Social masking",
+      "Perfectionism",
+      "Work relationships and ethics"
+    ],
+    "language": "English",
+    "learning": [
+      "Separate measured IQ from human value and from the full range of cognitive ability.",
+      "Recognize how high cognitive intensity may interact with solitude, understimulation, and overthinking.",
+      "Understand emotional intensity, sensory sensitivity, and the cost of social masking.",
+      "Develop healthier approaches to perfectionism, work, authority, and relationships.",
+      "Read research on gifted populations with attention to sample limitations and uncertainty."
+    ],
+    "related_ids": [
+      "27vjEQAAQBAJ",
+      "Y0jsEQAAQBAJ",
+      "UXTxEQAAQBAJ"
+    ],
+    "seo_description": "A cautious guide to the psychology of extremely high-IQ minds, covering overthinking, solitude, sensitivity, masking, perfectionism, work, relationships, and cognitive design.",
+    "source_reviewed": true,
+    "subtitle": "The Hidden Psychology of Extremely High-IQ Minds",
+    "summary": "The High-Resolution Mind examines very high cognitive ability without turning IQ into a measure of human worth or a mythology of genius. It explores the limits of IQ scores, cognitive speed and depth, asynchronous development, solitude, overthinking, emotional intensity, sensory sensitivity, social masking, understimulation, perfectionism, intellectual humility, memory, love, work, authority, twice-exceptionality, darker failure modes, and the ethics of designing a life around unusual cognitive needs. Research claims are framed with attention to sampling and generalization limits.",
+    "target_audience": "For readers interested in giftedness, very high cognitive ability, and the psychological and social patterns that may accompany it.",
+    "title": "The High-Resolution Mind",
+    "translation_group": "high-resolution-mind"
+  },
+  "the-mathematical-anatomy-of-moving-averages": {
+    "category": "Trading",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "doi": "10.5281/zenodo.21412298",
+    "key_topics": [
+      "Moving averages",
+      "Signal and noise",
+      "Lag versus smoothness",
+      "SMA EMA WMA HMA KAMA",
+      "Convolution and weights",
+      "Causal filters",
+      "Look-ahead bias",
+      "Repainting and real-time validity"
+    ],
+    "language": "English",
+    "learning": [
+      "Interpret moving averages as state estimates with explicit memory rather than prediction lines.",
+      "Compare filter length and weighting schemes through the trade-off between responsiveness and noise.",
+      "Understand convolution as the mathematical engine behind weighted moving averages.",
+      "Distinguish causal, live-usable averages from centered or future-dependent calculations.",
+      "Audit indicators for data provenance, real-time calculability, repainting, and informational delay."
+    ],
+    "related_ids": [
+      "C1PsEQAAQBAJ",
+      "ndIKEgAAQBAJ",
+      "RS0LEgAAQBAJ"
+    ],
+    "seo_description": "A quantitative visual guide to moving averages as filters, covering SMA, EMA, WMA, HMA, adaptive methods, lag, noise, convolution, causality, and look-ahead bias.",
+    "source_reviewed": true,
+    "subtitle": "Advanced Trading, Deep Quantitative Insight, and Professional Applications",
+    "summary": "The Mathematical Anatomy of Moving Averages treats moving averages as filters that estimate a slower market state rather than as predictive lines. Its visual explanations connect observed price, latent trend, noise, memory length, weighting schemes, responsiveness, smoothness, and lag. SMA, EMA, WMA, HMA, and adaptive ideas are compared through the signal-noise trade-off, convolution and weighting kernels, while causal versus centered averages expose look-ahead bias, repainting, and the difference between a beautiful historical line and a calculation that was actually available in real time.",
+    "target_audience": "For technically minded traders, quantitative learners, and strategy developers who want to understand what moving averages actually compute.",
+    "title": "The Mathematical Anatomy of Moving Averages:"
+  },
+  "the-monster-in-the-mirror": {
+    "category": "Psychology & Self-Awareness",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Fear and perception",
+      "Judgment",
+      "Projection",
+      "Demonization",
+      "Boundaries",
+      "Gossip",
+      "Shadow work",
+      "21-day mirror practice"
+    ],
+    "language": "English",
+    "learning": [
+      "Separate observable danger from stories amplified by fear and projection.",
+      "Use discernment without reducing a whole person to a single frightening label.",
+      "Recognize borrowed fears, gossip, and unresolved pain in judgment.",
+      "Examine one's own shadow before assigning all darkness to others.",
+      "Hold boundaries and clarity while restoring a more human view of reality."
+    ],
+    "related_ids": [
+      "FUjsEQAAQBAJ",
+      "abrjEQAAQBAJ",
+      "QGDjEQAAQBAJ"
+    ],
+    "seo_description": "A reflective guide to fear, judgment, projection, demonization, boundaries, gossip, self-awareness, and restoring clearer perception.",
+    "source_reviewed": true,
+    "subtitle": "How Fear Turns Other People Into Shadows, and How Awareness Restores the Face of Truth",
+    "summary": "The Monster in the Mirror explores how fear, pain, rumor, and judgment can flatten another person into a frightening symbol. It does not ask readers to deny danger or abandon boundaries; it asks them to separate fact from fear, discernment from demonization, and protection from projection. Fourteen chapters and a twenty-one-day mirror practice examine borrowed monsters, gossip, hidden wounds, the pause before judgment, one’s own shadow, and the possibility of restoring a human face without surrendering clarity.",
+    "target_audience": "For readers interested in self-awareness, fear, judgment, and the ethics of seeing other people more accurately.",
+    "title": "The Monster in the Mirror",
+    "translation_group": "monster-in-the-mirror"
+  },
+  "the-power-of-deletion": {
+    "category": "Personal Development",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Boundaries",
+      "Attention and access",
+      "Relationships",
+      "Digital clutter",
+      "Guilt",
+      "Standards",
+      "Gradual deletion",
+      "7-day practice"
+    ],
+    "language": "English",
+    "learning": [
+      "Treat deletion as a decision about access and attention rather than revenge.",
+      "Identify the hidden tax of repeated disturbance in relationships, habits, and digital life.",
+      "Use cleaner boundaries in family, friendship, love, and work.",
+      "Distinguish guilt from a genuine obligation to keep harmful access open.",
+      "Build a calmer life after removal instead of leaving an empty space."
+    ],
+    "related_ids": [
+      "P5zkEQAAQBAJ",
+      "PhrkEQAAQBAJ",
+      "abrjEQAAQBAJ"
+    ],
+    "seo_description": "A practical guide to boundaries, attention, access, relationships, digital clutter, guilt, standards, and removing what repeatedly breaks inner peace.",
+    "source_reviewed": true,
+    "subtitle": "Removing What Breaks Your Peace from the Life You Are Still Building",
+    "summary": "The Power of Deletion treats removal as an act of attention and access management rather than cruelty. It explores the hidden cost of keeping people, habits, digital noise, guilt, status games, and internal loops that repeatedly disturb the life a person is trying to build. Family, friendship, love, work, social media, body signals, standards, gradual deletion, returning people, and clean boundary language are examined alongside a seven-day practice for creating space after removal.",
+    "target_audience": "For readers who want clearer boundaries and less repeated disruption without turning self-protection into hostility.",
+    "title": "The Power of Deletion",
+    "translation_group": "power-of-deletion"
+  },
+  "the-published-works-of-faramarz-kowsari": {
+    "category": "Bibliography",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Authorship portfolio",
+      "Bibliography",
+      "ISBN records",
+      "National Library and Archives of Iran",
+      "Verification links",
+      "Editorial transparency",
+      "De-duplication",
+      "Publishing history"
+    ],
+    "language": "English",
+    "learning": [
+      "Understand the scope and verification method used to assemble the authorship portfolio.",
+      "Read reconstructed English synopses as editorial descriptions rather than verbatim publisher abstracts.",
+      "Use ISBN and National Library record identifiers to distinguish and verify archival entries.",
+      "See how duplicate records and author order are handled in the portfolio.",
+      "Navigate a publishing history spanning technology, business, education, psychology, relationships, and literature."
+    ],
+    "related_ids": [
+      "2svzEQAAQBAJ",
+      "IcrzEQAAQBAJ",
+      "VYn1EQAAQBAJ"
+    ],
+    "seo_description": "Verified bibliography and authorship portfolio of Faramarz Kowsari, consolidating Iranian ISBN and National Library records with verification methodology and archival context.",
+    "source_reviewed": true,
+    "subtitle": "Verified Bibliography & Authorship Portfolio",
+    "summary": "The Published Works of Faramarz Kowsari is an authorship portfolio designed to make a Persian-language publishing record accessible to international professional readers. It consolidates ISBN-registered publications and records associated with the National Library and Archives of Iran, explains an editorial transparency method for reconstructed English titles and synopses, documents de-duplication by ISBN and record identifiers, preserves author order, and provides verification links where available. The selected edition organizes archival works across technology and AI, business, education, psychology and mindfulness, personal development, relationships, and creative literature.",
+    "target_audience": "For employers, academic partners, media organizations, professional reviewers, and readers who need an English-accessible overview of Faramarz Kowsari's documented publishing record.",
+    "title": "The Published Works of Faramarz Kowsari"
+  },
+  "the-wyckoff-method": {
+    "category": "Trading",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Wyckoff method",
+      "Accumulation and distribution",
+      "Springs and upthrusts",
+      "Price and volume",
+      "Market structure",
+      "Reaccumulation and redistribution",
+      "Entries and risk",
+      "Case studies and checklists"
+    ],
+    "language": "English",
+    "learning": [
+      "Read ranges and transitions using evidence instead of idealized diagrams.",
+      "Apply the three Wyckoff laws to price, volume, spread, and result.",
+      "Distinguish accumulation, distribution, reaccumulation, and redistribution.",
+      "Plan entries, invalidation, stops, sizing, management, and exits.",
+      "Use multi-timeframe context, case studies, and checklists to reduce hindsight bias."
+    ],
+    "related_ids": [
+      "KtsMEgAAQBAJ",
+      "vtoMEgAAQBAJ",
+      "hakMEgAAQBAJ"
+    ],
+    "seo_description": "A practical Wyckoff guide to accumulation, distribution, springs, upthrusts, price-volume analysis, market structure, entries, risk, and decision rules.",
+    "source_reviewed": true,
+    "subtitle": "A Practical Guide to Accumulation, Distribution, Springs, Upthrusts, and Market Structure",
+    "summary": "The Wyckoff Method is a practical manual for reading market ranges, transitions, and trend health through observable evidence rather than memorized ideal diagrams. It develops the three Wyckoff laws, price-volume relationships, accumulation and distribution phases, springs, upthrusts, reaccumulation, redistribution, structural failure, entries, stops, position sizing, trade management, and multi-timeframe context. Case studies, checklists, and the C-R-E-S-T decision protocol turn the framework into a repeatable process while explicitly addressing ambiguous charts and the hindsight trap.",
+    "target_audience": "For serious beginner and intermediate discretionary traders in stocks, futures, forex, crypto, price action, or SMC who want a structured Wyckoff process.",
+    "title": "The Wyckoff Method"
+  },
+  "turtle-soup-strategy": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "volume-profile-trading": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "xauusd-scalping": {
+    "category": "Trading",
+    "language": "English"
+  },
+  "you-are-too-valuable-for-less": {
+    "category": "Personal Development",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Self-worth",
+      "Standards",
+      "Health and body",
+      "Attention and energy",
+      "Beliefs",
+      "Love and desire",
+      "Selectivity",
+      "AI leverage"
+    ],
+    "language": "English",
+    "learning": [
+      "Define self-worth through behavior and standards rather than superiority.",
+      "Find where time, health, attention, and relationships are being sold too cheaply.",
+      "Raise standards without confusing them with perfectionism or needless pain.",
+      "Practice selectivity in love, desire, habits, and mental diet.",
+      "Use AI as leverage for clearer work and less waste while keeping human judgment in charge."
+    ],
+    "related_ids": [
+      "P5zkEQAAQBAJ",
+      "abrjEQAAQBAJ",
+      "3urkEQAAQBAJ"
+    ],
+    "seo_description": "A practical book on self-worth, standards, health, attention, love, selectivity, intelligent leverage, and using AI without outsourcing judgment.",
+    "source_reviewed": true,
+    "subtitle": "How to Protect Your Worth, Raise Your Standards, and Use Intelligent Leverage to Build a Higher Life",
+    "summary": "You Are Too Valuable for Less defines self-worth through standards and choices rather than superiority. It asks where a person privately discounts time, health, attention, relationships, beliefs, appetite, and energy, then develops a framework for raising standards without turning life into perfectionism. Love and desire are examined alongside selectivity, unnecessary suffering, and intelligent leverage; AI is framed as a tool for reducing waste and accelerating thought, not as an authority over human judgment.",
+    "target_audience": "For readers who want to translate self-respect into concrete standards and a less wasteful, higher-quality life.",
+    "title": "You Are Too Valuable for Less",
+    "translation_group": "you-are-too-valuable-for-less"
+  },
+  "you-can-t-control-life-but-you-can-train-your-response": {
+    "category": "Personal Development",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Control and uncertainty",
+      "Emotional discipline",
+      "Pause",
+      "Attention and body",
+      "Boundaries",
+      "Failure and loss",
+      "Relationships",
+      "Response protocol"
+    ],
+    "language": "English",
+    "learning": [
+      "Separate uncontrollable events from trainable responses.",
+      "Read emotions as information without treating them as automatic instructions.",
+      "Use pause, delayed response, attention, and body awareness to slow reaction.",
+      "Apply flexible plans and boundaries in work, money, relationships, and loss.",
+      "Create a personal response protocol for difficult and unpredictable days."
+    ],
+    "related_ids": [
+      "3urkEQAAQBAJ",
+      "PhrkEQAAQBAJ",
+      "abrjEQAAQBAJ"
+    ],
+    "seo_description": "A practical guide to emotional discipline, pause, attention, body awareness, boundaries, uncertainty, flexible planning, and training responses instead of controlling life.",
+    "source_reviewed": true,
+    "subtitle": "Emotional Discipline, Inner Stability, and Wise Action in an Unpredictable World",
+    "summary": "You Can’t Control Life, But You Can Train Your Response focuses on the agency that remains when events refuse to obey plans. It treats emotions as weather rather than commands and develops pause, attention, body awareness, language, boundaries, delayed response, flexible planning, and wise action across failure, delay, loss, work, money, relationships, and digital overstimulation. The closing framework helps the reader build a personal response protocol for difficult days and unpredictable situations.",
+    "target_audience": "For readers who want greater stability and wiser action without pretending that life itself can be fully controlled.",
+    "title": "You Can’t Control Life, But You Can Train Your Response",
+    "translation_group": "you-cant-control-life"
+  },
+  "youtube-icerik-ureticileri-icin-yapay-zeka-promptlar": {
+    "category": "AI & İçerik Üretimi",
+    "language": "Türkçe"
+  },
+  "yuksek-cozunurluklu-zihin": {
+    "category": "Psikoloji ve Özfarkındalık",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Yüksek IQ psikolojisi",
+      "IQ'nun sınırları",
+      "Asenkron gelişim",
+      "Aşırı düşünme",
+      "Duygusal ve duyusal hassasiyet",
+      "Sosyal maskeleme",
+      "Mükemmeliyetçilik",
+      "İş ilişkiler ve etik"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "IQ puanını insan değerinden ve tüm bilişsel kapasiteden ayırmak.",
+      "Yüksek bilişsel hızın yalnızlık, aşırı düşünme ve yetersiz uyarılmayla nasıl birleşebildiğini görmek.",
+      "Duygusal ve duyusal yoğunluk ile sosyal maskelemenin maliyetlerini anlamak.",
+      "Mükemmeliyetçilik, iş, otorite ve ilişkilerde daha işlevsel stratejiler geliştirmek.",
+      "Yüksek yetenek araştırmalarını örneklem ve genelleme sınırlarıyla birlikte okumak."
+    ],
+    "related_ids": [
+      "dL7jEQAAQBAJ",
+      "FUjsEQAAQBAJ",
+      "UXTxEQAAQBAJ"
+    ],
+    "seo_description": "Çok yüksek IQ'lu zihinlerin bilişsel, duygusal ve sosyal psikolojisini; yalnızlık, aşırı düşünme, hassasiyet, maskeleme, iş ve ilişkiler bağlamında inceleyen kitap.",
+    "source_reviewed": true,
+    "subtitle": "Son Derece Yüksek IQ’ya Sahip Zihinlerin Gizli Psikolojisi",
+    "summary": "Yüksek Çözünürlüklü Zihin, çok yüksek bilişsel kapasiteyi ne yüceltir ne de tek başına bir üstünlük ölçüsü sayar. Kitap IQ'nun sınırları, bilişsel hız ve derinlik, asenkron gelişim, yalnızlık, aşırı düşünme, duygusal yoğunluk, duyusal hassasiyet, sosyal maskeleme, yetersiz uyarılma, mükemmeliyetçilik, entelektüel tevazu, hafıza, aşk, iş, otorite, iki kez farklılık ve etik sorumluluk gibi alanları inceler. Bilimsel bulgular aktarılırken örneklem ve genelleme sınırlarına dikkat edilir.",
+    "target_audience": "Üstün yetenek, yüksek bilişsel kapasite ve bunun psikolojik-sosyal sonuçlarıyla ilgilenen okurlar için.",
+    "title": "Yüksek Çözünürlüklü Zihin",
+    "translation_group": "high-resolution-mind"
+  },
+  "zihnin-ona-ad-vermeden-once": {
+    "category": "Mindfulness",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Mindfulness",
+      "Olay ve hikâye",
+      "Beden farkındalığı",
+      "Kaygı ve öfke",
+      "Belirsizlik",
+      "Dijital dikkat",
+      "Sessizlik",
+      "Geri dönüş pratikleri"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Olan şey ile zihin tarafından eklenen yorumları birbirinden ayırmak.",
+      "Beden sinyallerini otomatik hikâyeden önce fark etmek.",
+      "Kaygı, öfke, utanç ve yasla sakinliği zorlamadan çalışmak.",
+      "Bildirimler, mesajlar ve dikkat dağınıklığı karşısında farkındalık geliştirmek.",
+      "Kısa geri dönüş protokolleriyle olay ve tepki arasındaki alanı büyütmek."
+    ],
+    "related_ids": [
+      "2svzEQAAQBAJ",
+      "IcrzEQAAQBAJ",
+      "azT2EQAAQBAJ"
+    ],
+    "seo_description": "Olay ile zihnin hikâyesi arasındaki aralığı görmek; kaygı, öfke, beden, belirsizlik, dikkat ve dijital gürültüyle çalışmak için mindfulness rehberi.",
+    "source_reviewed": true,
+    "subtitle": "Sakinliğin Gelmediği Anlar İçin Mindfulness",
+    "summary": "Zihnin Ona Ad Vermeden Önce, mindfulness'ı zorla sakinleşmek olarak değil, olay ile zihnin o olaya verdiği isim ve hikâye arasındaki küçük aralığı görebilmek olarak ele alır. Kitap veri ile hikâyeyi, beden sinyallerini, kaygı, öfke, utanç, yas, belirsizlik, bildirimler, dikkat dağınıklığı ve sessizliği inceler. Güvenlik sınırlarını koruyarak okuyucuyu 'isimsiz alan'a, yani tepkinin otomatikleşmeden önce gözlemlenebildiği yere geri çağırır.",
+    "target_audience": "Sakinleşmeye çalıştıkça daha çok zorlanan ve mindfulness'ı günlük hayatın gerçek anlarında kullanmak isteyen okurlar için.",
+    "title": "Zihnin Ona Ad Vermeden Önce",
+    "translation_group": "before-your-mind-names-it"
+  }
 }
