@@ -44,5 +44,85 @@
       "rS0LEgAAQBAJ"
     ],
     "crossref_status": "not_registered"
+  },
+  "ai-prompts-for-e-commerce-sellers": {
+    "title": "AI Prompts for E-Commerce Sellers",
+    "subtitle": "A Copy-and-Adapt Prompt Library for Product Research, Listings, Ads, Customer Messages, Conversion & Store Operations",
+    "language": "English",
+    "language_code": "en",
+    "category": "AI & E-Commerce",
+    "content_status": "complete",
+    "source_reviewed": true,
+    "translation_group": "ai-prompts-ecommerce",
+    "seo_description": "A practical 278-prompt e-commerce AI library for product research, listings, SEO, ads, customer messaging, conversion, retention, catalog operations, analytics and scalable workflows.",
+    "summary": "AI Prompts for E-Commerce Sellers treats generative AI as a decision-support layer for a store rather than merely a copywriter. Its 278 prompts connect verified evidence, constraints, structured outputs and human review to store goals, customer insight, product research, catalog positioning, listings, search intent, product pages, conversion, offers, advertising, lifecycle messaging, support, social proof, cart recovery, retention, merchandising, localization, analytics and reusable master workflows.",
+    "key_topics": [
+      "E-commerce prompt engineering",
+      "Store goals and data discipline",
+      "Customer research and purchase intent",
+      "Product research and demand evidence",
+      "Catalog positioning",
+      "Listings and product pages",
+      "SEO and search intent",
+      "Conversion and trust",
+      "Offers and advertising",
+      "Lifecycle messaging",
+      "Customer service",
+      "Retention and merchandising",
+      "Localization and multichannel selling",
+      "Analytics and A/B testing",
+      "Master prompt workflows"
+    ],
+    "learning": [
+      "Turn store goals, constraints and available data into reusable AI briefs.",
+      "Separate facts, assumptions, estimates and open questions before AI output is used.",
+      "Analyze customers, demand and product opportunities without fabricating evidence.",
+      "Build listings, product pages, search-aligned content and conversion briefs from verified facts.",
+      "Create structured workflows for ads, lifecycle messaging, support, retention and catalog operations.",
+      "Design localization, analytics and A/B testing workflows with explicit human review points.",
+      "Maintain reusable prompts with owners, variables, versioning and review triggers."
+    ],
+    "target_audience": "For store owners, marketplace sellers, e-commerce teams, product and merchandising managers, marketers and entrepreneurs who want AI integrated into daily store operations with evidence and human review.",
+    "crossref_status": "not_registered"
+  },
+  "footprint-charts": {
+    "title": "Footprint Charts",
+    "subtitle": "Reading Buyers and Sellers Inside the Candle",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading",
+    "content_status": "complete",
+    "source_reviewed": true,
+    "seo_description": "A practical guide to footprint charts, bid × ask, delta, imbalances, absorption, trapped traders, POC, VWAP, market structure, execution, risk and backtesting.",
+    "summary": "Footprint Charts expands the information hidden inside a candlestick into executed volume at price, then places that detail inside a disciplined Context → Location → Order Flow → Trigger → Risk hierarchy. It covers data-source limitations, bid × ask, delta, imbalances, absorption, exhaustion, trapped traders, delta divergence, candle POC, Volume Profile, VWAP, market structure, liquidity, volatility, reversals, breakouts, retests, invalidation, slippage, replay and backtesting without treating footprint detail as certainty.",
+    "key_topics": [
+      "Footprint chart anatomy",
+      "Order flow",
+      "Bid × Ask",
+      "Delta",
+      "Imbalances",
+      "Absorption",
+      "Exhaustion",
+      "Trapped traders",
+      "Delta divergence",
+      "Candle POC",
+      "Volume Profile",
+      "VWAP",
+      "Market structure and liquidity",
+      "Execution and slippage",
+      "Risk and invalidation",
+      "Replay and backtesting"
+    ],
+    "learning": [
+      "Understand what footprint charts add to OHLC candles and what they still cannot reveal.",
+      "Interpret aggressive execution, bid × ask, delta and imbalances without inventing trader motives.",
+      "Recognize absorption, exhaustion, trapped traders and effort-versus-result divergence.",
+      "Combine footprint evidence with Volume Profile, VWAP, market structure, liquidity and regime context.",
+      "Build triggers, invalidation, stops, targets and no-trade rules around order-flow evidence.",
+      "Account for feed, venue, platform, slippage and execution differences.",
+      "Use replay and backtesting to test interpretations rather than memorizing ideal screenshots."
+    ],
+    "target_audience": "For discretionary futures, crypto, forex and short-term traders who understand basic candlesticks and want a rigorous introduction to footprint and order-flow analysis.",
+    "crossref_status": "not_registered"
   }
 }
