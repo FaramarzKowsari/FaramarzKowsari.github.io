@@ -11,6 +11,7 @@ SITE_BASE = "https://faramarzkowsari.github.io/books"
 AUTHOR = "Faramarz Kowsari"
 
 EMPTY = ("", None, [], {})
+CONTROL_KEYS = {"preserve_page"}
 LANG_CODES = {
     "English": "en",
     "Türkçe": "tr",
@@ -91,6 +92,8 @@ if unknown:
 for gid, review in reviews.items():
     book = by_id[gid]
     for key, value in review.items():
+        if key in CONTROL_KEYS:
+            continue
         if nonempty(value):
             book[key] = value
     book["status"] = "active"
@@ -288,9 +291,13 @@ for gid in reviews:
     related = choose_related(by_id[gid])
     by_id[gid]["related_ids"] = [item["google_books_id"] for item in related]
 
-for gid in reviews:
+preserved_pages = 0
+for gid, review in reviews.items():
     book = by_id[gid]
     completed[book["slug"]] = compact_completed_record(book)
+    if review.get("preserve_page"):
+        preserved_pages += 1
+        continue
     output_dir = BOOKS_DIR / book["slug"]
     output_dir.mkdir(parents=True, exist_ok=True)
     (output_dir / "index.html").write_text(render_page(book), encoding="utf-8")
@@ -300,5 +307,6 @@ COMPLETED.write_text(json.dumps(completed, ensure_ascii=False, indent=2, sort_ke
 
 print(f"Loaded {len(books)} book records")
 print(f"Loaded {len(reviews)} source-reviewed Library records from {len(review_files)} files")
-print(f"Published/updated {len(reviews)} rich book pages")
+print(f"Published/updated {len(reviews) - preserved_pages} generated book pages")
+print(f"Preserved {preserved_pages} custom editorial pages")
 print(f"completed.json now contains {len(completed)} source-reviewed/live entries")
