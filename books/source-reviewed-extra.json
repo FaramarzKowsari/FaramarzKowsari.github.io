@@ -1,0 +1,48 @@
+{
+  "candlestick-patterns-from-zero": {
+    "title": "Candlestick Patterns From Zero",
+    "subtitle": "A Visual Trading Course for Beginners",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading",
+    "content_status": "complete",
+    "source_reviewed": true,
+    "seo_description": "A 100-page visual beginner course on candlestick anatomy, OHLC, candle psychology, reversal and continuation patterns, confirmation, context, risk, entries, stops and targets.",
+    "summary": "Candlestick Patterns From Zero is a 100-page visual course that teaches candlestick reading from basic OHLC anatomy through pattern recognition, market context, confirmation and risk-aware execution. The book treats candle patterns as clues rather than guarantees: readers learn to interpret bodies and wicks, bullish and bearish candles, doji structures, hammers, shooting stars, engulfing patterns, harami patterns, morning and evening stars, multi-candle formations and gaps while checking trend, support and resistance, volume, volatility and higher-level context. Later lessons connect recognition to practical decision rules for entry triggers, stop-loss placement, targets, risk-reward, invalidation and confirmation.",
+    "key_topics": [
+      "Candlestick anatomy",
+      "OHLC",
+      "Body and wick psychology",
+      "Doji",
+      "Hammer and inverted hammer",
+      "Shooting star and hanging man",
+      "Engulfing patterns",
+      "Harami patterns",
+      "Morning and evening stars",
+      "Multi-candle patterns",
+      "Market context",
+      "Confirmation",
+      "Entry triggers",
+      "Stop-loss placement",
+      "Targets",
+      "Risk-reward",
+      "Invalidation"
+    ],
+    "learning": [
+      "Read open, high, low and close structure and interpret candle bodies and wicks.",
+      "Recognize common bullish, bearish and neutral candlestick formations without treating them as automatic signals.",
+      "Judge patterns in relation to trend, support and resistance, volume, volatility and market location.",
+      "Wait for confirmation and define an entry trigger instead of entering solely because a pattern appears.",
+      "Place stops beyond logical invalidation points and map targets from chart structure.",
+      "Evaluate risk-reward and know when a technically attractive pattern is still a poor trade.",
+      "Use a confirmation ladder and reliability checklist to turn pattern literacy into a repeatable process."
+    ],
+    "target_audience": "For beginner and early-intermediate traders who want a highly visual introduction to candlestick reading, pattern context, confirmation and risk-aware execution.",
+    "related_ids": [
+      "ndIKEgAAQBAJ",
+      "C1PsEQAAQBAJ",
+      "rS0LEgAAQBAJ"
+    ],
+    "crossref_status": "not_registered"
+  }
+}
