@@ -321,6 +321,53 @@
     "category": "Trading",
     "language": "English"
   },
+  "chatgpt-6-astra": {
+    "category": "Artificial Intelligence",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "GPT-6 Astra",
+      "Outcome-based delegation",
+      "Computer use",
+      "Browser workflows",
+      "Documents spreadsheets and presentations",
+      "ChatGPT Sites",
+      "End-to-end coding and testing",
+      "3D CAD and games",
+      "Long-context research",
+      "Real-world web work",
+      "Mid-turn steering",
+      "Approval gates and restraint",
+      "Model routing",
+      "GPT-5.6 comparison",
+      "Gemini and Grok comparison",
+      "API quickstart",
+      "Launch labs",
+      "Cost and task economics"
+    ],
+    "language": "English",
+    "learning": [
+      "Understand the practical difference between a stronger answer model and a system designed to carry multi-step work toward a finished artifact.",
+      "Delegate outcomes with goals, context, boundaries, freedom, a definition of done and explicit stop conditions.",
+      "Test computer use, artifact creation, steering and restraint with observable tasks rather than trivia or prose-only demos.",
+      "Use AI for documents, spreadsheets, presentations, websites, code and visual or spatial work while keeping verification in the workflow.",
+      "Treat long context as working capacity rather than perfect memory and structure evidence accordingly.",
+      "Choose a cheaper model when it already meets the acceptance standard and reserve Astra for tasks where integrated capabilities reduce repair or iteration.",
+      "Design approval gates before granting consequential or irreversible permissions.",
+      "Interpret launch benchmarks and vendor-reported evaluations with attention to harnesses, task design, price and the limits of generalization."
+    ],
+    "related_ids": [
+      "D3HxEQAAQBAJ",
+      "Y3TxEQAAQBAJ",
+      "1XHxEQAAQBAJ"
+    ],
+    "seo_description": "A practical September 2026 launch guide to GPT-6 Astra covering computer use, professional artifacts, Sites, coding, 3D, long-context research, delegation, model routing, costs, limitations and hands-on labs.",
+    "source_reviewed": true,
+    "subtitle": "The New Things You Can Do: What Changed, What It Can Build, and When to Choose It Over Gemini and Grok",
+    "summary": "ChatGPT 6 Astra is a September 2026 launch-edition guide focused on the practical shift from asking an AI for advice to delegating reviewable end-to-end work. The book examines computer use, browser-based workflows, finished documents, spreadsheets and presentations, websites and lightweight apps, coding and testing, 3D and CAD work, games, long-context research, real-world web tasks, and multi-step delegation. It emphasizes outcome-based instructions, explicit boundaries, definitions of done, mid-course steering, approval gates, testing, and human judgment rather than treating benchmark scores or model confidence as proof. Later chapters compare Astra with GPT-5.6, Gemini and Grok, discuss when a frontier model is worth the extra cost, and provide a delegation card, developer quickstart, twenty before-and-after request patterns, seven launch labs, a buyer’s guide and time-bounded verified source notes.",
+    "target_audience": "For creators, developers, office and knowledge workers, AI power users, technical teams, and buyers who want a practical, time-bounded guide to what GPT-6 Astra changes, what to test, where human judgment still matters, and when a lower-cost model may be the better choice.",
+    "title": "ChatGPT 6 Astra"
+  },
   "choch-and-bos": {
     "category": "Trading",
     "language": "English"
@@ -1695,6 +1742,53 @@
   "volume-profile-trading": {
     "category": "Trading",
     "language": "English"
+  },
+  "when-money-runs-short": {
+    "category": "Personal Finance & Everyday Life",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Structural budget shortfalls",
+      "Saving substitution and model change",
+      "Need versus method",
+      "Expense prioritization by harm",
+      "Dignity floor",
+      "Food and cost per meal",
+      "Housing and total living cost",
+      "Transport and car ownership",
+      "Healthcare and medication",
+      "Financial anxiety",
+      "Cost per use",
+      "Energy and internet",
+      "Education and family decisions",
+      "Emergency funds",
+      "Debt mapping",
+      "Financial recovery",
+      "Thirty-day absence experiment"
+    ],
+    "language": "English",
+    "learning": [
+      "Distinguish a small frugality problem from a structural monthly shortfall that requires larger changes.",
+      "Separate the underlying need from the current way of paying for or meeting that need.",
+      "Classify expenses by what breaks if they disappear rather than by price alone.",
+      "Protect health, safety, the ability to work, children’s future, and a realistic dignity floor while cutting costs.",
+      "Compare the true cost of food, housing, transport, automatic payments and ownership rather than relying on headline prices.",
+      "Use cost-per-meal, cost-per-use and total-cost thinking to compare alternatives more accurately.",
+      "Create clearer rules for emergency reserves, debt, savings and family decision-making under pressure.",
+      "Test whether a non-essential expense is truly needed by pausing it and observing the real consequences before deciding permanently."
+    ],
+    "related_ids": [
+      "uAIKEgAAQBAJ",
+      "md4JEgAAQBAJ",
+      "SnEJEgAAQBAJ"
+    ],
+    "seo_description": "A practical guide to surviving financial pressure by redesigning food, housing, healthcare, transport and everyday costs while protecting health, safety, work, family, future and dignity.",
+    "source_reviewed": true,
+    "subtitle": "How to change the cost of food, housing, healthcare, transport, and everyday life when finances are tight—without damaging what matters most",
+    "summary": "When Money Runs Short is a practical decision guide for periods when income no longer covers the real cost of living and small frugality tips are not enough. It distinguishes three levels of response—saving, substitution, and changing the model of daily life—then applies them to food, housing, transport, healthcare, clothing, education, family life, debt, savings, and recovery. The book asks readers to separate needs from the expensive ways those needs are currently met, rank expenses by the harm caused if they disappear, protect a realistic dignity floor, and examine large structural costs before exhausting themselves over tiny purchases. Its workbook turns the framework into concrete tools for mapping the monthly shortfall, comparing the real cost of a car or home, calculating cost per meal and cost per use, reviewing automatic payments, mapping debt, defining emergency-reserve rules, and testing non-essential expenses through a thirty-day absence experiment.",
+    "target_audience": "For general readers facing a period in which income no longer comfortably covers the real cost of living and who need to restructure essential and everyday expenses without causing unnecessary damage to health, safety, work, relationships, future capacity or self-respect.",
+    "title": "When Money Runs Short",
+    "translation_group": "when-money-runs-short"
   },
   "xauusd-scalping": {
     "category": "Trading",
