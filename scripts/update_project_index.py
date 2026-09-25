@@ -63,26 +63,37 @@ def project_record(repo):
     }
 
 
+def reviewed_book_slugs():
+    """Return all source-reviewed book slugs from the primary and supplemental manifests."""
+    slugs = []
+    for reviewed_path in (
+        Path("books/completed.json"),
+        Path("books/source-reviewed-extra.json"),
+    ):
+        if not reviewed_path.exists():
+            continue
+        try:
+            reviewed = json.loads(reviewed_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            print(f"Warning: could not read {reviewed_path}: {exc}")
+            continue
+        if not isinstance(reviewed, dict):
+            print(f"Warning: {reviewed_path} is not a JSON object; skipping it.")
+            continue
+        for slug in reviewed:
+            if isinstance(slug, str) and slug.strip():
+                slugs.append(slug.strip('/'))
+    return list(dict.fromkeys(slugs))
+
+
 def completed_book_urls():
-    """Return only source-reviewed book landing pages that are ready to index."""
-    completed_path = Path("books/completed.json")
-    if not completed_path.exists():
-        return []
-
-    try:
-        completed = json.loads(completed_path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
-        print(f"Warning: could not read {completed_path}: {exc}")
-        return []
-
-    if not isinstance(completed, dict):
-        print(f"Warning: {completed_path} is not a JSON object; skipping book URLs.")
+    """Return source-reviewed book landing pages that are ready to index."""
+    slugs = reviewed_book_slugs()
+    if not slugs:
         return []
 
     urls = [f"{ROOT_URL}books/"]
-    for slug in completed:
-        if isinstance(slug, str) and slug.strip():
-            urls.append(f"{ROOT_URL}books/{slug.strip('/')}/")
+    urls.extend(f"{ROOT_URL}books/{slug}/" for slug in slugs)
     return urls
 
 
@@ -94,7 +105,7 @@ def build_sitemap(repos):
             urls.append(f"{ROOT_URL}{repo['name']}/")
 
     # The root repository also contains the scalable book library. Only
-    # source-reviewed books listed in completed.json are added so unfinished
+    # source-reviewed books from the review manifests are added so unfinished
     # placeholder pages remain out of the sitemap until their PDFs are reviewed.
     urls.extend(completed_book_urls())
 

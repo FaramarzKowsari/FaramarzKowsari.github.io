@@ -1,12 +1,15 @@
 async function loadBooks(){
-  const [booksResponse,completedResponse]=await Promise.all([
+  const [booksResponse,completedResponse,extraResponse]=await Promise.all([
     fetch('./books.json'),
-    fetch('./completed.json').catch(()=>null)
+    fetch('./completed.json').catch(()=>null),
+    fetch('./source-reviewed-extra.json').catch(()=>null)
   ]);
   const completed=completedResponse&&completedResponse.ok?await completedResponse.json():{};
+  const extra=extraResponse&&extraResponse.ok?await extraResponse.json():{};
+  const reviewed={...completed,...extra};
   const all=(await booksResponse.json()).filter(b=>b.status==='active').map(b=>{
-    const overlay=completed[b.slug]||{};
-    return {...b,...overlay,source_reviewed:Boolean(completed[b.slug])};
+    const overlay=reviewed[b.slug]||{};
+    return {...b,...overlay,source_reviewed:Boolean(reviewed[b.slug])};
   });
 
   const q=document.getElementById('q');
