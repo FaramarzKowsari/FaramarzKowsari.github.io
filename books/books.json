@@ -7,9 +7,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=wSIPEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=wSIPEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -33,9 +33,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=7SIPEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=7SIPEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -59,9 +59,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=rQcQEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=rQcQEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -124,7 +124,8 @@
       "KtsMEgAAQBAJ",
       "vtoMEgAAQBAJ",
       "hakMEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 5,
@@ -134,15 +135,31 @@
     "google_books_url": "https://play.google.com/store/books/details?id=ph4PEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=ph4PEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
-    "translation_group": "",
-    "subtitle": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "AI & E-Commerce",
+    "translation_group": "ai-prompts-ecommerce",
+    "subtitle": "A Copy-and-Adapt Prompt Library for Product Research, Listings, Ads, Customer Messages, Conversion & Store Operations",
     "description": "",
-    "summary": "",
-    "key_topics": [],
-    "target_audience": "",
+    "summary": "AI Prompts for E-Commerce Sellers treats generative AI as a decision-support layer for a store rather than merely a copywriter. Its 278 prompts connect verified evidence, constraints, structured outputs and human review to store goals, customer insight, product research, catalog positioning, listings, search intent, product pages, conversion, offers, advertising, lifecycle messaging, support, social proof, cart recovery, retention, merchandising, localization, analytics and reusable master workflows.",
+    "key_topics": [
+      "E-commerce prompt engineering",
+      "Store goals and data discipline",
+      "Customer research and purchase intent",
+      "Product research and demand evidence",
+      "Catalog positioning",
+      "Listings and product pages",
+      "SEO and search intent",
+      "Conversion and trust",
+      "Offers and advertising",
+      "Lifecycle messaging",
+      "Customer service",
+      "Retention and merchandising",
+      "Localization and multichannel selling",
+      "Analytics and A/B testing",
+      "Master prompt workflows"
+    ],
+    "target_audience": "For store owners, marketplace sellers, e-commerce teams, product and merchandising managers, marketers and entrepreneurs who want AI integrated into daily store operations with evidence and human review.",
     "publisher": "",
     "published_date": "",
     "isbn": "",
@@ -150,7 +167,19 @@
     "podcast_url": "",
     "slides_url": "",
     "doi": "",
-    "crossref_status": "not_registered"
+    "crossref_status": "not_registered",
+    "language_code": "en",
+    "source_reviewed": true,
+    "seo_description": "A practical 278-prompt e-commerce AI library for product research, listings, SEO, ads, customer messaging, conversion, retention, catalog operations, analytics and scalable workflows.",
+    "learning": [
+      "Turn store goals, constraints and available data into reusable AI briefs.",
+      "Separate facts, assumptions, estimates and open questions before AI output is used.",
+      "Analyze customers, demand and product opportunities without fabricating evidence.",
+      "Build listings, product pages, search-aligned content and conversion briefs from verified facts.",
+      "Create structured workflows for ads, lifecycle messaging, support, retention and catalog operations.",
+      "Design localization, analytics and A/B testing workflows with explicit human review points.",
+      "Maintain reusable prompts with owners, variables, versioning and review triggers."
+    ]
   },
   {
     "sequence": 6,
@@ -160,9 +189,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=Vh8PEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=Vh8PEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "AI & Business",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -186,9 +215,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=gSIPEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=gSIPEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -212,9 +241,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=ZB4PEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=ZB4PEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "AI & Marketing",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -238,9 +267,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=--0OEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=--0OEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "Türkçe",
+    "category": "AI & İçerik Üretimi",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -264,9 +293,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=1O0OEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=1O0OEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "Türkçe",
+    "category": "AI & İçerik Üretimi",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -285,14 +314,14 @@
   {
     "sequence": 11,
     "google_books_id": "su0OEgAAQBAJ",
-    "title": "Küçük İşletme Sahipleri İçin Yapay Zekâ Promptları:",
+    "title": "Küçük İşletme Sahipleri İçin Yapay Zekâ Promptları",
     "slug": "kucuk-isletme-sahipleri-icin-yapay-zeka-promptlar",
     "google_books_url": "https://play.google.com/store/books/details?id=su0OEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=su0OEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "Türkçe",
+    "category": "AI & İşletme",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -316,9 +345,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=jO0OEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=jO0OEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "Türkçe",
+    "category": "AI & E-Ticaret",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -342,9 +371,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=wnQOEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=wnQOEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "Türkçe",
+    "category": "AI & Pazarlama",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -368,9 +397,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=eScOEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=eScOEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -394,9 +423,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=aScOEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=aScOEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -420,9 +449,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=WScOEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=WScOEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -446,9 +475,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=SycOEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=SycOEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -472,15 +501,32 @@
     "google_books_url": "https://play.google.com/store/books/details?id=5ewMEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=5ewMEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
-    "subtitle": "",
+    "subtitle": "Reading Buyers and Sellers Inside the Candle",
     "description": "",
-    "summary": "",
-    "key_topics": [],
-    "target_audience": "",
+    "summary": "Footprint Charts expands the information hidden inside a candlestick into executed volume at price, then places that detail inside a disciplined Context → Location → Order Flow → Trigger → Risk hierarchy. It covers data-source limitations, bid × ask, delta, imbalances, absorption, exhaustion, trapped traders, delta divergence, candle POC, Volume Profile, VWAP, market structure, liquidity, volatility, reversals, breakouts, retests, invalidation, slippage, replay and backtesting without treating footprint detail as certainty.",
+    "key_topics": [
+      "Footprint chart anatomy",
+      "Order flow",
+      "Bid × Ask",
+      "Delta",
+      "Imbalances",
+      "Absorption",
+      "Exhaustion",
+      "Trapped traders",
+      "Delta divergence",
+      "Candle POC",
+      "Volume Profile",
+      "VWAP",
+      "Market structure and liquidity",
+      "Execution and slippage",
+      "Risk and invalidation",
+      "Replay and backtesting"
+    ],
+    "target_audience": "For discretionary futures, crypto, forex and short-term traders who understand basic candlesticks and want a rigorous introduction to footprint and order-flow analysis.",
     "publisher": "",
     "published_date": "",
     "isbn": "",
@@ -488,7 +534,19 @@
     "podcast_url": "",
     "slides_url": "",
     "doi": "",
-    "crossref_status": "not_registered"
+    "crossref_status": "not_registered",
+    "language_code": "en",
+    "source_reviewed": true,
+    "seo_description": "A practical guide to footprint charts, bid × ask, delta, imbalances, absorption, trapped traders, POC, VWAP, market structure, execution, risk and backtesting.",
+    "learning": [
+      "Understand what footprint charts add to OHLC candles and what they still cannot reveal.",
+      "Interpret aggressive execution, bid × ask, delta and imbalances without inventing trader motives.",
+      "Recognize absorption, exhaustion, trapped traders and effort-versus-result divergence.",
+      "Combine footprint evidence with Volume Profile, VWAP, market structure, liquidity and regime context.",
+      "Build triggers, invalidation, stops, targets and no-trade rules around order-flow evidence.",
+      "Account for feed, venue, platform, slippage and execution differences.",
+      "Use replay and backtesting to test interpretations rather than memorizing ideal screenshots."
+    ]
   },
   {
     "sequence": 19,
@@ -498,9 +556,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=1OsMEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=1OsMEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -524,9 +582,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=w-oMEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=w-oMEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -721,9 +779,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=aakMEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=aakMEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
     "subtitle": "",
     "description": "",
@@ -985,7 +1043,8 @@
       "Ep0MEgAAQBAJ",
       "oJwMEgAAQBAJ",
       "QJ0MEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 29,
@@ -1150,7 +1209,8 @@
       "LNMLEgAAQBAJ",
       "YNMLEgAAQBAJ",
       "oJwMEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 32,
@@ -1649,7 +1709,8 @@
       "920KEgAAQBAJ",
       "YG4KEgAAQBAJ",
       "SW4KEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 41,
@@ -1708,7 +1769,8 @@
       "920KEgAAQBAJ",
       "YG4KEgAAQBAJ",
       "7cMKEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 42,
@@ -1767,7 +1829,8 @@
       "920KEgAAQBAJ",
       "YG4KEgAAQBAJ",
       "SW4KEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 43,
@@ -1826,7 +1889,8 @@
       "920KEgAAQBAJ",
       "SW4KEgAAQBAJ",
       "7cMKEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 44,
@@ -1886,7 +1950,8 @@
       "YG4KEgAAQBAJ",
       "SW4KEgAAQBAJ",
       "7cMKEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 45,
@@ -1897,7 +1962,7 @@
     "cover_url": "https://books.google.com/books/content?id=uAIKEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
     "content_status": "complete",
-    "language": "Español",
+    "language": "Español (España)",
     "category": "Finanzas personales & Vida cotidiana",
     "translation_group": "when-money-runs-short",
     "subtitle": "Cómo cambiar los gastos de alimentación, vivienda, salud, transporte y vida cotidiana en épocas de presión económica sin dañar lo que de verdad importa",
@@ -1947,7 +2012,8 @@
       "920KEgAAQBAJ",
       "md4JEgAAQBAJ",
       "YG4KEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 46,
@@ -2008,7 +2074,8 @@
       "uAIKEgAAQBAJ",
       "920KEgAAQBAJ",
       "YG4KEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 47,
@@ -2069,7 +2136,8 @@
       "uAIKEgAAQBAJ",
       "md4JEgAAQBAJ",
       "SnEJEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 48,
@@ -2131,7 +2199,8 @@
       "D3HxEQAAQBAJ",
       "Y3TxEQAAQBAJ",
       "1XHxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 49,
@@ -2223,7 +2292,8 @@
       "D3HxEQAAQBAJ",
       "b3TxEQAAQBAJ",
       "UXTxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 51,
@@ -2292,7 +2362,8 @@
       "SnEJEgAAQBAJ",
       "zpwMEgAAQBAJ",
       "D3HxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 52,
@@ -2341,7 +2412,8 @@
       "MbsGEgAAQBAJ",
       "920KEgAAQBAJ",
       "YG4KEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 53,
@@ -2442,7 +2514,8 @@
       "nx_2EQAAQBAJ",
       "wDHbEQAAQBAJ",
       "UXTxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 56,
@@ -2529,7 +2602,8 @@
       "tKAEEgAAQBAJ",
       "X6IEEgAAQBAJ",
       "DqneEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 58,
@@ -2589,7 +2663,8 @@
       "tKAEEgAAQBAJ",
       "f6IEEgAAQBAJ",
       "YKjeEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 59,
@@ -2651,7 +2726,8 @@
       "f6IEEgAAQBAJ",
       "X6IEEgAAQBAJ",
       "YKjeEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 60,
@@ -2661,15 +2737,33 @@
     "google_books_url": "https://play.google.com/store/books/details?id=_3_jEQAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=_3_jEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
     "translation_group": "",
-    "subtitle": "",
+    "subtitle": "A Visual Trading Course for Beginners",
     "description": "",
-    "summary": "",
-    "key_topics": [],
-    "target_audience": "",
+    "summary": "Candlestick Patterns From Zero is a 100-page visual course that teaches candlestick reading from basic OHLC anatomy through pattern recognition, market context, confirmation and risk-aware execution. The book treats candle patterns as clues rather than guarantees: readers learn to interpret bodies and wicks, bullish and bearish candles, doji structures, hammers, shooting stars, engulfing patterns, harami patterns, morning and evening stars, multi-candle formations and gaps while checking trend, support and resistance, volume, volatility and higher-level context. Later lessons connect recognition to practical decision rules for entry triggers, stop-loss placement, targets, risk-reward, invalidation and confirmation.",
+    "key_topics": [
+      "Candlestick anatomy",
+      "OHLC",
+      "Body and wick psychology",
+      "Doji",
+      "Hammer and inverted hammer",
+      "Shooting star and hanging man",
+      "Engulfing patterns",
+      "Harami patterns",
+      "Morning and evening stars",
+      "Multi-candle patterns",
+      "Market context",
+      "Confirmation",
+      "Entry triggers",
+      "Stop-loss placement",
+      "Targets",
+      "Risk-reward",
+      "Invalidation"
+    ],
+    "target_audience": "For beginner and early-intermediate traders who want a highly visual introduction to candlestick reading, pattern context, confirmation and risk-aware execution.",
     "publisher": "",
     "published_date": "",
     "isbn": "",
@@ -2677,7 +2771,24 @@
     "podcast_url": "",
     "slides_url": "",
     "doi": "",
-    "crossref_status": "not_registered"
+    "crossref_status": "not_registered",
+    "language_code": "en",
+    "source_reviewed": true,
+    "seo_description": "A 100-page visual beginner course on candlestick anatomy, OHLC, candle psychology, reversal and continuation patterns, confirmation, context, risk, entries, stops and targets.",
+    "learning": [
+      "Read open, high, low and close structure and interpret candle bodies and wicks.",
+      "Recognize common bullish, bearish and neutral candlestick formations without treating them as automatic signals.",
+      "Judge patterns in relation to trend, support and resistance, volume, volatility and market location.",
+      "Wait for confirmation and define an entry trigger instead of entering solely because a pattern appears.",
+      "Place stops beyond logical invalidation points and map targets from chart structure.",
+      "Evaluate risk-reward and know when a technically attractive pattern is still a poor trade.",
+      "Use a confirmation ladder and reliability checklist to turn pattern literacy into a repeatable process."
+    ],
+    "related_ids": [
+      "ndIKEgAAQBAJ",
+      "C1PsEQAAQBAJ",
+      "rS0LEgAAQBAJ"
+    ]
   },
   {
     "sequence": 61,
@@ -2726,7 +2837,8 @@
       "C1PsEQAAQBAJ",
       "ndIKEgAAQBAJ",
       "RS0LEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 62,
@@ -2801,7 +2913,8 @@
       "MbsGEgAAQBAJ",
       "wDHbEQAAQBAJ",
       "UXTxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 64,
@@ -2850,7 +2963,8 @@
       "a8L1EQAAQBAJ",
       "ndIKEgAAQBAJ",
       "RS0LEgAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 65,
@@ -2860,10 +2974,10 @@
     "google_books_url": "https://play.google.com/store/books/details?id=TckBEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=TckBEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
-    "translation_group": "",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Emergency Preparedness & Earthquake Safety",
+    "translation_group": "earthquake-survival-california",
     "subtitle": "",
     "description": "",
     "summary": "",
@@ -2886,10 +3000,10 @@
     "google_books_url": "https://play.google.com/store/books/details?id=sDoBEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=sDoBEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "status": "active",
-    "content_status": "pending_pdf",
-    "language": "",
-    "category": "",
-    "translation_group": "",
+    "content_status": "complete",
+    "language": "Türkçe",
+    "category": "Fiction & Romance",
+    "translation_group": "istanbul-asklari-mavi-tikten-sonra",
     "subtitle": "",
     "description": "",
     "summary": "",
@@ -2977,7 +3091,8 @@
       "COvkEQAAQBAJ",
       "sDoBEgAAQBAJ",
       "4mjkEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 69,
@@ -3026,7 +3141,8 @@
       "azT2EQAAQBAJ",
       "KmnkEQAAQBAJ",
       "R53kEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 70,
@@ -3075,7 +3191,8 @@
       "ITT2EQAAQBAJ",
       "cGTzEQAAQBAJ",
       "3urkEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 71,
@@ -3124,7 +3241,8 @@
       "COvkEQAAQBAJ",
       "KmnkEQAAQBAJ",
       "R53kEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 72,
@@ -3183,7 +3301,8 @@
       "DqneEQAAQBAJ",
       "tKAEEgAAQBAJ",
       "BsTZEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 73,
@@ -3232,7 +3351,8 @@
       "2svzEQAAQBAJ",
       "IcrzEQAAQBAJ",
       "azT2EQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 74,
@@ -3291,7 +3411,8 @@
       "YKjeEQAAQBAJ",
       "f6IEEgAAQBAJ",
       "BsTZEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 75,
@@ -3354,7 +3475,8 @@
       "dc78EQAAQBAJ",
       "mc78EQAAQBAJ",
       "lnLbEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 76,
@@ -3417,7 +3539,8 @@
       "lc78EQAAQBAJ",
       "mc78EQAAQBAJ",
       "lnLbEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 77,
@@ -3506,7 +3629,8 @@
       "dc78EQAAQBAJ",
       "lc78EQAAQBAJ",
       "lnLbEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 79,
@@ -3555,7 +3679,8 @@
       "IcrzEQAAQBAJ",
       "28rzEQAAQBAJ",
       "4zX1EQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 80,
@@ -3604,7 +3729,8 @@
       "2svzEQAAQBAJ",
       "IcrzEQAAQBAJ",
       "VYn1EQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 81,
@@ -3653,7 +3779,8 @@
       "2svzEQAAQBAJ",
       "28rzEQAAQBAJ",
       "4zX1EQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 82,
@@ -3702,7 +3829,8 @@
       "LV7yEQAAQBAJ",
       "qr7yEQAAQBAJ",
       "IcrzEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 83,
@@ -3751,7 +3879,8 @@
       "cGTzEQAAQBAJ",
       "4mjkEQAAQBAJ",
       "3urkEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 84,
@@ -3800,7 +3929,8 @@
       "ITT2EQAAQBAJ",
       "VYn1EQAAQBAJ",
       "IcrzEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 85,
@@ -3906,7 +4036,8 @@
       "bozdEQAAQBAJ",
       "qbrjEQAAQBAJ",
       "2mTzEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 88,
@@ -3955,7 +4086,8 @@
       "qr7yEQAAQBAJ",
       "VYn1EQAAQBAJ",
       "dL7jEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 89,
@@ -4004,7 +4136,8 @@
       "Y0jsEQAAQBAJ",
       "LV7yEQAAQBAJ",
       "qr7yEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 90,
@@ -4053,7 +4186,8 @@
       "LV7yEQAAQBAJ",
       "VYn1EQAAQBAJ",
       "dL7jEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 91,
@@ -4102,7 +4236,8 @@
       "ITT2EQAAQBAJ",
       "3urkEQAAQBAJ",
       "P5zkEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 92,
@@ -4151,7 +4286,8 @@
       "R53kEQAAQBAJ",
       "ihrkEQAAQBAJ",
       "2mTzEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 93,
@@ -4200,7 +4336,8 @@
       "KmnkEQAAQBAJ",
       "ihrkEQAAQBAJ",
       "2mTzEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 94,
@@ -4249,7 +4386,8 @@
       "R53kEQAAQBAJ",
       "2mTzEQAAQBAJ",
       "KmnkEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 95,
@@ -4298,7 +4436,8 @@
       "ihrkEQAAQBAJ",
       "R53kEQAAQBAJ",
       "qbrjEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 96,
@@ -4352,7 +4491,8 @@
       "IcrzEQAAQBAJ",
       "2mTzEQAAQBAJ",
       "qbrjEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 97,
@@ -4401,7 +4541,8 @@
       "2mTzEQAAQBAJ",
       "ihrkEQAAQBAJ",
       "R53kEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 98,
@@ -4487,7 +4628,8 @@
       "D8HcEQAAQBAJ",
       "Y0jsEQAAQBAJ",
       "COvkEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 100,
@@ -4536,7 +4678,8 @@
       "qbrjEQAAQBAJ",
       "2mTzEQAAQBAJ",
       "ihrkEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 101,
@@ -4674,7 +4817,8 @@
       "QMHcEQAAQBAJ",
       "FUjsEQAAQBAJ",
       "PhrkEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 105,
@@ -4740,7 +4884,8 @@
       "Y3TxEQAAQBAJ",
       "gTnbEQAAQBAJ",
       "UXTxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 106,
@@ -4789,7 +4934,8 @@
       "P5zkEQAAQBAJ",
       "PhrkEQAAQBAJ",
       "abrjEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 107,
@@ -4838,7 +4984,8 @@
       "3urkEQAAQBAJ",
       "PhrkEQAAQBAJ",
       "abrjEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 108,
@@ -4887,7 +5034,8 @@
       "P5zkEQAAQBAJ",
       "abrjEQAAQBAJ",
       "3urkEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 109,
@@ -4936,7 +5084,8 @@
       "PhrkEQAAQBAJ",
       "P5zkEQAAQBAJ",
       "3urkEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 110,
@@ -4985,7 +5134,8 @@
       "FUjsEQAAQBAJ",
       "abrjEQAAQBAJ",
       "QGDjEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 111,
@@ -5034,7 +5184,8 @@
       "nzniEQAAQBAJ",
       "C1PsEQAAQBAJ",
       "a8L1EQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 112,
@@ -5083,7 +5234,8 @@
       "QGDjEQAAQBAJ",
       "C1PsEQAAQBAJ",
       "a8L1EQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 113,
@@ -5189,7 +5341,8 @@
       "4IzdEQAAQBAJ",
       "abrjEQAAQBAJ",
       "3urkEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 116,
@@ -5381,7 +5534,8 @@
       "GvDZEQAAQBAJ",
       "BsTZEQAAQBAJ",
       "YKjeEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 122,
@@ -5444,7 +5598,8 @@
       "GvDZEQAAQBAJ",
       "YKjeEQAAQBAJ",
       "S7fZEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 123,
@@ -5504,7 +5659,8 @@
       "BsTZEQAAQBAJ",
       "S7fZEQAAQBAJ",
       "YKjeEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 124,
@@ -5579,7 +5735,8 @@
       "UXTxEQAAQBAJ",
       "1XHxEQAAQBAJ",
       "D3HxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 126,
@@ -5643,7 +5800,8 @@
       "lnLbEQAAQBAJ",
       "wDHbEQAAQBAJ",
       "D3HxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 127,
@@ -5709,7 +5867,8 @@
       "wDHbEQAAQBAJ",
       "D3HxEQAAQBAJ",
       "Y3TxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 128,
@@ -5810,7 +5969,8 @@
       "dL7jEQAAQBAJ",
       "FUjsEQAAQBAJ",
       "UXTxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 131,
@@ -5859,7 +6019,8 @@
       "27vjEQAAQBAJ",
       "Y0jsEQAAQBAJ",
       "UXTxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 132,
@@ -5908,7 +6069,8 @@
       "1XHxEQAAQBAJ",
       "D3HxEQAAQBAJ",
       "b3TxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 133,
@@ -5957,7 +6119,8 @@
       "UXTxEQAAQBAJ",
       "D3HxEQAAQBAJ",
       "b3TxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 134,
@@ -6006,7 +6169,8 @@
       "1XHxEQAAQBAJ",
       "b3TxEQAAQBAJ",
       "UXTxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 135,
@@ -6055,7 +6219,8 @@
       "D3HxEQAAQBAJ",
       "Y3TxEQAAQBAJ",
       "1XHxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 136,
@@ -6104,7 +6269,8 @@
       "b3TxEQAAQBAJ",
       "D3HxEQAAQBAJ",
       "1XHxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 137,
@@ -6153,7 +6319,8 @@
       "Y3TxEQAAQBAJ",
       "b3TxEQAAQBAJ",
       "D3HxEQAAQBAJ"
-    ]
+    ],
+    "source_reviewed": true
   },
   {
     "sequence": 138,
