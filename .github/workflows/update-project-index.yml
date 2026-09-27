@@ -2,6 +2,16 @@ name: Update project hub index
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "books/completed.json"
+      - "books/source-reviewed-extra.json"
+      - "books/index.html"
+      - "books/*/index.html"
+      - "scripts/update_project_index.py"
+      - "scripts/seo_sitemaps.py"
+      - "scripts/seo_root.py"
+      - ".github/workflows/update-project-index.yml"
   schedule:
     - cron: "*/15 * * * *"
 
@@ -20,16 +30,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v7.0.0
         with:
           python-version: "3.12"
 
-      - name: Generate repository index and master sitemap
+      - name: Generate repository index and SEO sitemaps
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/update_project_index.py
+        run: |
+          python scripts/update_project_index.py
+          python scripts/seo_sitemaps.py
+          python scripts/seo_root.py
 
       - name: Commit changes if needed
         shell: bash
@@ -37,12 +52,12 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- projects.json sitemap.xml
+          git add -- projects.json sitemap.xml books/sitemap.xml index.html
 
           if git diff --cached --quiet; then
-            echo "No project-index changes."
+            echo "No project-index or SEO changes."
             exit 0
           fi
 
-          git commit -m "chore: refresh project hub index"
+          git commit -m "chore: refresh project hub and SEO sitemaps"
           git push
