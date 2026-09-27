@@ -13,7 +13,7 @@ input{flex:1;min-width:260px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.04);display:flex;flex-direction:column}
 .cover{aspect-ratio:2/3;background:#ececef;display:block;width:100%;object-fit:cover}
 .card-body{padding:16px;display:flex;flex-direction:column;gap:9px;flex:1}
-.card h2{font-size:17px;line-height:1.3;margin:0}
+.card h2{font-size:17px;line-height:1.3;margin:0}.card h2 a{text-decoration:none}.card h2 a:hover{text-decoration:underline}
 .meta{font-size:13px;color:var(--muted)}
 .btn{display:inline-block;text-decoration:none;background:var(--accent);color:#fff;padding:10px 12px;border-radius:10px;font-weight:650;text-align:center;margin-top:auto}
 .count{color:var(--muted);margin:8px 0 18px}
@@ -30,4 +30,6 @@ input{flex:1;min-width:260px}
 .section p,.section li{font-size:17px;line-height:1.75}
 .pending{background:#fff8dc;border:1px solid #f0df9b;padding:14px 16px;border-radius:12px;color:#66551c}
 .small{font-size:13px;color:var(--muted)}
+.breadcrumbs{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:0 0 22px;color:var(--muted);font-size:14px}.breadcrumbs a{text-decoration:none}.breadcrumbs a:hover{text-decoration:underline}
+[hidden]{display:none!important}
 @media(max-width:700px){.book-top{grid-template-columns:1fr}.book-top img{max-width:280px}}
