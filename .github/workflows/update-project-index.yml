@@ -60,4 +60,5 @@ jobs:
           fi
 
           git commit -m "chore: refresh project hub and SEO sitemaps"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
