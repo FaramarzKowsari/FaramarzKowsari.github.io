@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://faramarzkowsari.github.io/sitemap.xml
+Sitemap: https://faramarzkowsari.github.io/books/sitemap.xml
 Sitemap: https://faramarzkowsari.github.io/turkiye-disaster-intelligence-digital-twin/sitemap.xml
