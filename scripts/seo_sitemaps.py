@@ -29,10 +29,19 @@ def write_map(path,rows):
 projects=load(ROOT/"projects.json",[])
 completed=load(BOOKS/"completed.json",{})
 extra=load(BOOKS/"source-reviewed-extra.json",{})
-slugs=list(dict.fromkeys([s.strip('/') for s in list(completed)+list(extra) if isinstance(s,str) and s.strip()]))
+
+# Include every real, published book landing page. completed/extra remain useful
+# sources, but newly published catalog pages must never disappear from the sitemap
+# just because their full PDF source review is still pending.
+slugs=[]
+for s in list(completed)+list(extra):
+    if isinstance(s,str) and s.strip(): slugs.append(s.strip('/'))
+for p in BOOKS.glob("*/index.html"):
+    if p.parent.name and p.parent.name not in {".",".."}: slugs.append(p.parent.name)
+slugs=list(dict.fromkeys(slugs))
 
 book_rows=[(SITE+"books/",lastmod("books/index.html"))]
-for slug in slugs:
+for slug in sorted(slugs):
     p=f"books/{slug}/index.html"
     if (ROOT/p).exists():book_rows.append((SITE+f"books/{slug}/",lastmod(p)))
 write_map(BOOKS/"sitemap.xml",book_rows)
