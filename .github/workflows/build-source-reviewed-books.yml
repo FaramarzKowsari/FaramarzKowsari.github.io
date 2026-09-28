@@ -4,8 +4,10 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - "books/catalog-additions.json"
       - "books/source_reviews/**"
       - "books/source-reviewed-extra.json"
+      - "scripts/merge_catalog_additions.py"
       - "scripts/build_books.py"
       - "scripts/seo_books.py"
       - ".github/workflows/build-source-reviewed-books.yml"
@@ -31,8 +33,9 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Build reviewed book pages
+      - name: Merge catalog additions and build reviewed book pages
         run: |
+          python scripts/merge_catalog_additions.py
           python scripts/build_books.py
           python scripts/seo_books.py
 
