@@ -7,9 +7,13 @@ async function loadBooks(){
   const completed=completedResponse&&completedResponse.ok?await completedResponse.json():{};
   const extra=extraResponse&&extraResponse.ok?await extraResponse.json():{};
   const reviewed={...completed,...extra};
+  const coverOverrides={
+    'turkish-a1-visual-grammar':'https://play.google.com/books/publisher/content/images/frontcover/5TjbEQAAQBAJ?fife=w480-h690',
+    'turkish-a2-visual-grammar':'https://play.google.com/books/publisher/content/images/frontcover/F-TaEQAAQBAJ?fife=w480-h690'
+  };
   const all=(await booksResponse.json()).filter(b=>b.status==='active').map(b=>{
     const overlay=reviewed[b.slug]||{};
-    return {...b,...overlay,source_reviewed:Boolean(reviewed[b.slug])};
+    return {...b,...overlay,cover_url:coverOverrides[b.slug]||overlay.cover_url||b.cover_url,source_reviewed:Boolean(reviewed[b.slug])};
   });
 
   const q=document.getElementById('q');
