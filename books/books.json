@@ -6403,6 +6403,9 @@
     "google_books_url": "https://play.google.com/store/books/details?id=F-TaEQAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=F-TaEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "language_code": "en",
-    "sequence": 140
+    "sequence": 140,
+    "source_review_status": "partial",
+    "source_pages_reviewed": 150,
+    "source_scope": "Books 6-8 reviewed; Books 9-11 still required"
   }
 ]
