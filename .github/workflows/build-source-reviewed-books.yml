@@ -1,4 +1,4 @@
-name: Build source-reviewed book pages
+name: Build public book pages
 
 on:
   workflow_dispatch:
@@ -10,13 +10,14 @@ on:
       - "scripts/merge_catalog_additions.py"
       - "scripts/build_books.py"
       - "scripts/seo_books.py"
+      - "scripts/clean_public_book_pages.py"
       - ".github/workflows/build-source-reviewed-books.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: source-reviewed-books
+  group: public-book-pages
   cancel-in-progress: true
 
 jobs:
@@ -33,11 +34,12 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Merge catalog additions and build reviewed book pages
+      - name: Build SEO book pages and public-facing copy
         run: |
           python scripts/merge_catalog_additions.py
           python scripts/build_books.py
           python scripts/seo_books.py
+          python scripts/clean_public_book_pages.py
 
       - name: Commit generated book files
         shell: bash
@@ -50,6 +52,6 @@ jobs:
             echo "No generated changes."
             exit 0
           fi
-          git commit -m "build: publish SEO-optimized book pages"
+          git commit -m "build: publish public-facing SEO book pages"
           git pull --rebase origin main
           git push origin HEAD:main
