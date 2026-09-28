@@ -22,42 +22,12 @@ LOCALES = {"en": "en_US", "tr": "tr_TR", "es": "es_ES", "fr": "fr_FR", "de": "de
 RTL = {"fa"}
 
 LABELS = {
-    "en": {
-        "all": "All books", "about": "About this book", "benefits": "Why this book is useful",
-        "learn": "What you will learn", "topics": "Key topics", "audience": "Who this book is for",
-        "related": "Related books", "buy": "View / Buy on Google Books", "buy_bottom": "Read / Buy on Google Books",
-        "browse": "Browse all books", "benefit_intro": "The book is designed to turn its subject into a clear learning path, with emphasis on the practical outcomes below.",
-    },
-    "tr": {
-        "all": "Tüm kitaplar", "about": "Kitap hakkında", "benefits": "Bu kitap neden faydalı?",
-        "learn": "Neler öğreneceksiniz", "topics": "Temel konular", "audience": "Bu kitap kimler için?",
-        "related": "İlgili kitaplar", "buy": "Google Books'ta İncele / Satın Al", "buy_bottom": "Google Books'ta Oku / Satın Al",
-        "browse": "Tüm kitaplara göz at", "benefit_intro": "Kitap, konuyu açık bir öğrenme yoluna dönüştürür ve aşağıdaki pratik kazanımlara odaklanır.",
-    },
-    "es": {
-        "all": "Todos los libros", "about": "Sobre este libro", "benefits": "Por qué este libro puede ser útil",
-        "learn": "Lo que aprenderás", "topics": "Temas clave", "audience": "Para quién es este libro",
-        "related": "Libros relacionados", "buy": "Ver / Comprar en Google Books", "buy_bottom": "Leer / Comprar en Google Books",
-        "browse": "Ver todos los libros", "benefit_intro": "El libro convierte su tema en una ruta de aprendizaje clara y se centra en los resultados prácticos que aparecen a continuación.",
-    },
-    "fr": {
-        "all": "Tous les livres", "about": "À propos de ce livre", "benefits": "Pourquoi ce livre peut être utile",
-        "learn": "Ce que vous apprendrez", "topics": "Thèmes clés", "audience": "À qui s'adresse ce livre ?",
-        "related": "Livres associés", "buy": "Voir / Acheter sur Google Books", "buy_bottom": "Lire / Acheter sur Google Books",
-        "browse": "Voir tous les livres", "benefit_intro": "Le livre transforme son sujet en un parcours d'apprentissage clair et met l'accent sur les acquis pratiques ci-dessous.",
-    },
-    "de": {
-        "all": "Alle Bücher", "about": "Über dieses Buch", "benefits": "Warum dieses Buch nützlich sein kann",
-        "learn": "Was Sie lernen", "topics": "Zentrale Themen", "audience": "Für wen dieses Buch gedacht ist",
-        "related": "Verwandte Bücher", "buy": "Auf Google Books ansehen / kaufen", "buy_bottom": "Auf Google Books lesen / kaufen",
-        "browse": "Alle Bücher ansehen", "benefit_intro": "Das Buch ordnet sein Thema als klaren Lernweg und konzentriert sich auf die folgenden praktischen Lernergebnisse.",
-    },
-    "fa": {
-        "all": "همه کتاب‌ها", "about": "درباره این کتاب", "benefits": "این کتاب چه کمکی می‌کند؟",
-        "learn": "چه چیزهایی یاد می‌گیرید", "topics": "موضوعات کلیدی", "audience": "این کتاب برای چه کسانی است؟",
-        "related": "کتاب‌های مرتبط", "buy": "مشاهده / خرید در Google Books", "buy_bottom": "مطالعه / خرید در Google Books",
-        "browse": "مشاهده همه کتاب‌ها", "benefit_intro": "این کتاب موضوع خود را به یک مسیر یادگیری روشن تبدیل می‌کند و بر دستاوردهای عملی زیر تمرکز دارد.",
-    },
+    "en": {"all": "All books", "about": "About this book", "learn": "What you will learn", "topics": "Key topics", "audience": "Who this book is for", "related": "Related books", "buy": "View / Buy on Google Books", "buy_bottom": "Read / Buy on Google Books", "browse": "Browse all books"},
+    "tr": {"all": "Tüm kitaplar", "about": "Kitap hakkında", "learn": "Neler öğreneceksiniz", "topics": "Temel konular", "audience": "Bu kitap kimler için?", "related": "İlgili kitaplar", "buy": "Google Books'ta İncele / Satın Al", "buy_bottom": "Google Books'ta Oku / Satın Al", "browse": "Tüm kitaplara göz at"},
+    "es": {"all": "Todos los libros", "about": "Sobre este libro", "learn": "Lo que aprenderás", "topics": "Temas clave", "audience": "Para quién es este libro", "related": "Libros relacionados", "buy": "Ver / Comprar en Google Books", "buy_bottom": "Leer / Comprar en Google Books", "browse": "Ver todos los libros"},
+    "fr": {"all": "Tous les livres", "about": "À propos de ce livre", "learn": "Ce que vous apprendrez", "topics": "Thèmes clés", "audience": "À qui s'adresse ce livre ?", "related": "Livres associés", "buy": "Voir / Acheter sur Google Books", "buy_bottom": "Lire / Acheter sur Google Books", "browse": "Voir tous les livres"},
+    "de": {"all": "Alle Bücher", "about": "Über dieses Buch", "learn": "Was Sie lernen", "topics": "Zentrale Themen", "audience": "Für wen dieses Buch gedacht ist", "related": "Verwandte Bücher", "buy": "Auf Google Books ansehen / kaufen", "buy_bottom": "Auf Google Books lesen / kaufen", "browse": "Alle Bücher ansehen"},
+    "fa": {"all": "همه کتاب‌ها", "about": "درباره این کتاب", "learn": "چه چیزهایی یاد می‌گیرید", "topics": "موضوعات کلیدی", "audience": "این کتاب برای چه کسانی است؟", "related": "کتاب‌های مرتبط", "buy": "مشاهده / خرید در Google Books", "buy_bottom": "مطالعه / خرید در Google Books", "browse": "مشاهده همه کتاب‌ها"},
 }
 
 PROCESS_MARKERS = (
@@ -101,6 +71,18 @@ def first_sentences(text, count=2):
     return " ".join(p for p in parts[:count] if p).strip()
 
 
+def extract_meta_description(text):
+    m = re.search(r'<meta\s+name=["\']description["\']\s+content=["\']([^"\']*)["\']', text, re.I)
+    return html.unescape(m.group(1)).strip() if m else ""
+
+
+def extract_subtitle(text):
+    m = re.search(r'<p\s+class=["\']subtitle["\']>(.*?)</p>', text, re.S | re.I)
+    if not m:
+        return ""
+    return html.unescape(re.sub(r'<[^>]+>', ' ', m.group(1))).strip()
+
+
 def merge_book_data():
     books = load(DATA, [])
     completed = load(COMPLETED, {})
@@ -130,31 +112,26 @@ def choose_related(book, by_slug, ready, by_id, limit=3):
         seen.add(gid)
         if len(chosen) >= limit:
             return chosen
-
     category = book.get("category")
-    pool = [
-        b for b in by_slug.values()
-        if b.get("slug") in ready
-        and b.get("google_books_id") not in seen
-        and b.get("category") == category
-        and category
-    ]
+    pool = [b for b in by_slug.values() if b.get("slug") in ready and b.get("google_books_id") not in seen and b.get("category") == category and category]
     pool.sort(key=lambda b: (abs((b.get("sequence") or 0) - (book.get("sequence") or 0)), b.get("sequence") or 0))
     for candidate in pool:
         chosen.append(candidate)
         seen.add(candidate.get("google_books_id"))
         if len(chosen) >= limit:
-            return chosen
+            break
     return chosen
 
 
-def render_standard_page(book, related):
+def render_standard_page(book, related, existing_text=""):
     code = lang_code(book)
     labels = LABELS.get(code, LABELS["en"])
     title = book.get("title") or "Untitled"
-    subtitle = book.get("subtitle") or ""
-    summary = book.get("summary") or ""
-    seo = book.get("seo_description") or first_sentences(summary, 2)[:300]
+    subtitle = book.get("subtitle") or extract_subtitle(existing_text)
+    seo = book.get("seo_description") or extract_meta_description(existing_text)
+    summary = book.get("summary") or seo
+    if not seo:
+        seo = first_sentences(summary, 2)[:300]
     cover = book.get("cover_url") or ""
     google_url = book.get("google_books_url") or ""
     slug = book.get("slug") or ""
@@ -170,16 +147,7 @@ def render_standard_page(book, related):
     meta_bits = [AUTHOR] + [str(x) for x in (language, category, published) if x]
     meta_line = " · ".join(meta_bits)
 
-    schema = {
-        "@context": "https://schema.org",
-        "@type": "Book",
-        "name": title,
-        "author": {"@type": "Person", "name": AUTHOR, "url": "https://faramarzkowsari.github.io/"},
-        "inLanguage": code,
-        "description": seo,
-        "url": canonical,
-        "sameAs": google_url,
-    }
+    schema = {"@context": "https://schema.org", "@type": "Book", "name": title, "author": {"@type": "Person", "name": AUTHOR, "url": "https://faramarzkowsari.github.io/"}, "inLanguage": code, "description": seo or summary, "url": canonical, "sameAs": google_url}
     if subtitle:
         schema["alternateName"] = subtitle
     if cover:
@@ -191,69 +159,19 @@ def render_standard_page(book, related):
     if audience:
         schema["audience"] = {"@type": "Audience", "audienceType": audience}
 
-    breadcrumb = {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"},
-            {"@type": "ListItem", "position": 2, "name": "Books", "item": f"{BASE}/"},
-            {"@type": "ListItem", "position": 3, "name": title, "item": canonical},
-        ],
-    }
+    breadcrumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"},
+        {"@type": "ListItem", "position": 2, "name": "Books", "item": f"{BASE}/"},
+        {"@type": "ListItem", "position": 3, "name": title, "item": canonical},
+    ]}
 
-    related_html = "\n".join(
-        f'      <li><a href="../{esc(item["slug"])}/">{esc(item.get("title") or "Untitled")}</a></li>'
-        for item in related
-    )
-
+    related_html = "\n".join(f'      <li><a href="../{esc(item["slug"])}/">{esc(item.get("title") or "Untitled")}</a></li>' for item in related)
     cover_html = f'    <img src="{esc(cover)}" alt="{esc(title)} book cover" loading="eager" decoding="async">\n' if cover else ""
     subtitle_html = f'      <p class="subtitle">{esc(subtitle)}</p>\n' if subtitle else ""
-
-    benefit_items = learning[:4]
-    benefits_html = ""
-    if benefit_items:
-        benefits_html = f'''\n  <section class="section">
-    <h2>{esc(labels["benefits"])}</h2>
-    <p>{esc(labels["benefit_intro"])}</p>
-    <ul>
-{list_html(benefit_items)}
-    </ul>
-  </section>\n'''
-
-    learn_html = ""
-    if learning:
-        learn_html = f'''\n  <section class="section">
-    <h2>{esc(labels["learn"])}</h2>
-    <ul>
-{list_html(learning)}
-    </ul>
-  </section>\n'''
-
-    topics_html = ""
-    if topics:
-        topics_html = f'''\n  <section class="section">
-    <h2>{esc(labels["topics"])}</h2>
-    <ul>
-{list_html(topics)}
-    </ul>
-  </section>\n'''
-
-    audience_html = ""
-    if audience:
-        audience_html = f'''\n  <section class="section">
-    <h2>{esc(labels["audience"])}</h2>
-    <p>{esc(audience)}</p>
-  </section>\n'''
-
-    related_section = ""
-    if related_html:
-        related_section = f'''\n  <section class="section">
-    <h2>{esc(labels["related"])}</h2>
-    <ul>
-{related_html}
-    </ul>
-  </section>\n'''
-
+    learn_html = f'''\n  <section class="section"><h2>{esc(labels["learn"])}</h2><ul>\n{list_html(learning)}\n    </ul></section>\n''' if learning else ""
+    topics_html = f'''\n  <section class="section"><h2>{esc(labels["topics"])}</h2><ul>\n{list_html(topics)}\n    </ul></section>\n''' if topics else ""
+    audience_html = f'''\n  <section class="section"><h2>{esc(labels["audience"])}</h2><p>{esc(audience)}</p></section>\n''' if audience else ""
+    related_section = f'''\n  <section class="section"><h2>{esc(labels["related"])}</h2><ul>\n{related_html}\n    </ul></section>\n''' if related_html else ""
     buy_top = f'<a class="action primary" href="{esc(google_url)}" target="_blank" rel="noopener noreferrer">{esc(labels["buy"])}</a>' if google_url else ""
     buy_bottom = f'<a class="action primary" href="{esc(google_url)}" target="_blank" rel="noopener noreferrer">{esc(labels["buy_bottom"])}</a>' if google_url else ""
 
@@ -265,20 +183,20 @@ def render_standard_page(book, related):
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="author" content="{AUTHOR}">
 <title>{esc(title)} | {AUTHOR}</title>
-<meta name="description" content="{esc(seo)}">
+<meta name="description" content="{esc(seo or summary)}">
 <link rel="canonical" href="{esc(canonical)}">
 <link rel="sitemap" type="application/xml" href="../sitemap.xml">
 <meta property="og:type" content="book">
 <meta property="og:site_name" content="Faramarz Kowsari Books">
 <meta property="og:title" content="{esc(title)}">
-<meta property="og:description" content="{esc(seo)}">
+<meta property="og:description" content="{esc(seo or summary)}">
 <meta property="og:url" content="{esc(canonical)}">
 <meta property="og:image" content="{esc(cover)}">
 <meta property="og:image:alt" content="Cover of {esc(title)} by {AUTHOR}">
 <meta property="og:locale" content="{esc(LOCALES.get(code, 'en_US'))}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{esc(title)}">
-<meta name="twitter:description" content="{esc(seo)}">
+<meta name="twitter:description" content="{esc(seo or summary)}">
 <meta name="twitter:image" content="{esc(cover)}">
 <link rel="stylesheet" href="../styles.css">
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
@@ -296,14 +214,11 @@ def render_standard_page(book, related):
     </div>
   </section>
 
-  <section class="section">
-    <h2>{esc(labels["about"])}</h2>
-{paragraph_html(summary or seo)}
+  <section class="section"><h2>{esc(labels["about"])}</h2>
+{paragraph_html(summary)}
   </section>
-{benefits_html}{learn_html}{topics_html}{audience_html}{related_section}
-  <section class="section">
-    <div class="actions">{buy_bottom}<a class="action" href="../">{esc(labels["browse"])}</a></div>
-  </section>
+{learn_html}{topics_html}{audience_html}{related_section}
+  <section class="section"><div class="actions">{buy_bottom}<a class="action" href="../">{esc(labels["browse"])}</a></div></section>
 </main>
 </body>
 </html>'''
@@ -351,10 +266,8 @@ def clean_catalog(path):
 
 books, by_slug, ready = merge_book_data()
 by_id = {b.get("google_books_id"): b for b in by_slug.values() if b.get("google_books_id")}
-
 standardized = 0
 preserved = 0
-missing_metadata = []
 
 for slug in sorted(ready):
     book = by_slug.get(slug)
@@ -363,31 +276,16 @@ for slug in sorted(ready):
     path = BOOKS / slug / "index.html"
     if not path.exists():
         continue
-
     if slug in {A1_SLUG, A2_SLUG}:
         preserved += int(sanitize_custom_page(path))
         continue
-
-    summary = book.get("summary") or ""
-    learning = book.get("learning") or []
-    topics = book.get("key_topics") or []
-    audience = book.get("target_audience") or ""
-
-    if not summary or (not learning and not topics and not audience):
-        missing_metadata.append(slug)
-        preserved += int(sanitize_custom_page(path))
-        continue
-
-    related = choose_related(book, by_slug, ready, by_id)
-    rendered = render_standard_page(book, related)
     current = path.read_text(encoding="utf-8")
+    related = choose_related(book, by_slug, ready, by_id)
+    rendered = render_standard_page(book, related, current)
     if rendered != current:
         path.write_text(rendered, encoding="utf-8")
         standardized += 1
 
 clean_catalog(BOOKS / "index.html")
-
-print(f"Standardized {standardized} public book landing pages to the sales/SEO template.")
-print(f"Preserved and sanitized {preserved} custom pages, including the Turkish A1/A2 flagship pages.")
-if missing_metadata:
-    print("Pages preserved because their structured metadata was insufficient: " + ", ".join(missing_metadata))
+print(f"Applied the public sales/SEO template to {standardized} book pages in this run.")
+print("Turkish A1 and A2 remain custom flagship landing pages and are sanitized for public presentation.")
