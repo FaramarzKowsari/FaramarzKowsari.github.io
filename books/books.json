@@ -6373,7 +6373,10 @@
     "google_books_url": "https://play.google.com/store/books/details?id=5TjbEQAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=5TjbEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "language_code": "en",
-    "sequence": 139
+    "sequence": 139,
+    "source_review_status": "partial",
+    "source_pages_reviewed": 150,
+    "source_scope": "Books 1-3 reviewed; Books 4-5 and A1 Booster still required"
   },
   {
     "status": "active",
