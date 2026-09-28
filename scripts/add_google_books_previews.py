@@ -15,30 +15,38 @@ END = "<!-- google-books-preview:end -->"
 
 COPY = {
     "en": (
+        "Free Google Books Preview",
         "Read a free sample of this book on Google Books before you buy.",
         "Read the free preview on Google Books",
     ),
     "tr": (
+        "Ücretsiz Google Books Önizlemesi",
         "Satın almadan önce kitabın ücretsiz örnek sayfalarını Google Books'ta okuyun.",
         "Google Books'ta ücretsiz önizlemeyi oku",
     ),
     "es": (
+        "Vista previa gratuita en Google Books",
         "Lee gratis una muestra de este libro en Google Books antes de comprarlo.",
         "Leer la vista previa gratis en Google Books",
     ),
     "fr": (
+        "Aperçu gratuit sur Google Books",
         "Lisez gratuitement un extrait de ce livre sur Google Books avant de l’acheter.",
         "Lire l’aperçu gratuit sur Google Books",
     ),
     "de": (
+        "Kostenlose Google-Books-Vorschau",
         "Lesen Sie vor dem Kauf eine kostenlose Vorschau dieses Buches bei Google Books.",
         "Kostenlose Vorschau bei Google Books lesen",
     ),
     "fa": (
+        "پیش‌نمایش رایگان در Google Books",
         "پیش از خرید، نمونهٔ رایگان این کتاب را در Google Books بخوانید.",
         "مطالعهٔ پیش‌نمایش رایگان در Google Books",
     ),
 }
+
+PREVIEW_ICON = """<div class=\"preview-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 48 48\" focusable=\"false\"><rect x=\"3\" y=\"3\" width=\"42\" height=\"42\" rx=\"12\" fill=\"currentColor\" opacity=\".08\"/><path d=\"M10.5 14.5c4.8-1.8 9-1.3 13.5 1.4v20.8c-4.5-2.7-8.7-3.2-13.5-1.4V14.5Zm27 0c-4.8-1.8-9-1.3-13.5 1.4v20.8c4.5-2.7 8.7-3.2 13.5-1.4V14.5Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"32\" cy=\"26.5\" r=\"5.2\" fill=\"white\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"m35.8 30.3 4.2 4.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linecap=\"round\"/></svg></div>"""
 
 
 def load_json(path, default):
@@ -103,12 +111,14 @@ def remove_existing_block(text):
 
 
 def preview_block(gid, lang):
-    note, label = COPY.get(lang, COPY["en"])
+    title, note, label = COPY.get(lang, COPY["en"])
     preview_url = f"https://play.google.com/books/reader?id={gid}&hl=en"
     return (
         f"\n{START}\n"
         f'<section class="section google-books-preview" aria-label="Google Books preview">\n'
-        f'  <p>{html.escape(note)}</p>\n'
+        f'  {PREVIEW_ICON}\n'
+        f'  <p class="preview-title">{html.escape(title)}</p>\n'
+        f'  <p class="preview-note">{html.escape(note)}</p>\n'
         f'  <div class="actions"><a class="action" href="{html.escape(preview_url, quote=True)}" '
         f'target="_blank" rel="noopener noreferrer">{html.escape(label)}</a></div>\n'
         f"</section>\n"
