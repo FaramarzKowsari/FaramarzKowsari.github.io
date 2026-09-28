@@ -48,18 +48,20 @@ def clean_section(match):
 
 
 def clean_a1(html):
-    html = html.replace(
-        '<title>Turkish A1 Visual Grammar | Complete Combined A1 Turkish Course</title>',
-        '<title>Turkish A1 Visual Grammar | Complete 6-Book A1 Turkish Course</title>'
-    )
-    html = html.replace(
-        'Turkish A1 Visual Grammar is the single combined A1 Google Books edition containing the original Books 1-5 plus the A1 Booster in one 307-page illustrated beginner Turkish course.',
-        'Turkish A1 Visual Grammar is a 307-page illustrated beginner course combining Books 1-5 and the A1 Booster to teach grammar, vocabulary, sentence building, tenses, cases and everyday Turkish.'
-    )
-    html = html.replace(
-        'One combined A1 edition: the original Books 1-5 plus the A1 Booster in a single 307-page Google Books product.',
-        'A complete 307-page visual A1 Turkish course combining Books 1-5 and the A1 Booster for grammar, vocabulary, sentence building and everyday Turkish.'
-    )
+    replacements = {
+        '<title>Turkish A1 Visual Grammar | Complete Combined A1 Turkish Course</title>':
+            '<title>Turkish A1 Visual Grammar | Complete 6-Book A1 Turkish Course</title>',
+        'Turkish A1 Visual Grammar is the single combined A1 Google Books edition containing the original Books 1-5 plus the A1 Booster in one 307-page illustrated beginner Turkish course.':
+            'Turkish A1 Visual Grammar is a 307-page illustrated beginner course combining Books 1-5 and the A1 Booster to teach grammar, vocabulary, sentence building, tenses, cases and everyday Turkish.',
+        'One combined A1 edition: the original Books 1-5 plus the A1 Booster in a single 307-page Google Books product.':
+            'A complete 307-page visual A1 Turkish course combining Books 1-5 and the A1 Booster for grammar, vocabulary, sentence building and everyday Turkish.',
+        'The complete combined A1 Turkish grammar edition: original Books 1-5 + A1 Booster in one illustrated course.':
+            'A complete illustrated A1 Turkish grammar course with Books 1-5 plus the A1 Booster in one 307-page collection.',
+        'The single combined A1 Google Books edition containing the original Books 1-5 plus the A1 Booster in one 307-page illustrated beginner Turkish course.':
+            'A 307-page illustrated A1 Turkish course covering grammar, vocabulary, sentence building, tenses, cases and everyday Turkish through Books 1-5 plus the A1 Booster.',
+    }
+    for old, new in replacements.items():
+        html = html.replace(old, new)
     html = re.sub(
         r'<section class="section">\s*<h2>About this combined A1 edition</h2>.*?</section>',
         A1_ABOUT,
@@ -72,18 +74,30 @@ def clean_a1(html):
 
 
 def clean_a2(html):
-    html = html.replace(
-        '<title>Turkish A2 Visual Grammar | Complete Combined A2 Turkish Course</title>',
-        '<title>Turkish A2 Visual Grammar | Complete 6-Book A2 Turkish Course</title>'
-    )
-    html = html.replace(
-        'Turkish A2 Visual Grammar is the single combined A2 Google Books edition containing the original Books 6-11 in one illustrated intermediate Turkish course.',
-        'Turkish A2 Visual Grammar is a 306-page illustrated A2 Turkish course combining Books 6-11 for grammar, sentence building, everyday communication and confident intermediate-level progress.'
-    )
-    html = html.replace(
-        'One combined A2 edition: the original Books 6-11 in a single illustrated Google Books product for intermediate Turkish grammar and communication.',
-        'A complete 306-page visual A2 Turkish course combining Books 6-11 for intermediate grammar, sentence building, communication and real-life Turkish.'
-    )
+    replacements = {
+        '<title>Turkish A2 Visual Grammar | Complete Combined A2 Turkish Course</title>':
+            '<title>Turkish A2 Visual Grammar | Complete 6-Book A2 Turkish Course</title>',
+        'Turkish A2 Visual Grammar is the single combined A2 Google Books edition containing the original Books 6-11 in one illustrated intermediate Turkish course.':
+            'Turkish A2 Visual Grammar is a 306-page illustrated A2 Turkish course combining Books 6-11 for grammar, sentence building, everyday communication and confident intermediate-level progress.',
+        'One combined A2 edition: the original Books 6-11 in a single illustrated Google Books product for intermediate Turkish grammar and communication.':
+            'A complete 306-page visual A2 Turkish course combining Books 6-11 for intermediate grammar, sentence building, communication and real-life Turkish.',
+        'The complete combined A2 Turkish grammar edition: original Books 6-11 in one illustrated Google Books course.':
+            'A complete illustrated A2 Turkish grammar course bringing Books 6-11 together in one 306-page collection.',
+        'The single combined A2 Google Books edition containing the original Books 6-11 in one illustrated intermediate Turkish course.':
+            'A 306-page illustrated A2 Turkish course covering intermediate grammar, sentence building, communication, clauses, verbals and reported speech through Books 6-11.',
+        'What learners practice in the reviewed portion':
+            'What learners practice',
+        'The Book 6 portion develops the noun system beyond beginner-level forms.':
+            'Book 6 develops the noun system beyond beginner-level forms.',
+        'The Book 7 portion organizes modal meanings into a practical progression.':
+            'Book 7 organizes modal meanings into a practical progression.',
+        'The Book 8 portion introduces the Turkish <strong>aorist / geniş zaman</strong> as a system for habits, routines, repeated actions and general truths.':
+            'Book 8 introduces the Turkish <strong>aorist / geniş zaman</strong> as a system for habits, routines, repeated actions and general truths.',
+        'Mini stories, family habits, café routines, review charts and a final boss-style review consolidate the material before it continues into the original Book 9 section of the combined A2 edition.':
+            'Mini stories, family habits, café routines, review charts and a final boss-style review consolidate the material and prepare learners for the later A2 units.',
+    }
+    for old, new in replacements.items():
+        html = html.replace(old, new)
     html = re.sub(
         r'<section class="section">\s*<h2>About this combined A2 edition</h2>.*?</section>',
         A2_ABOUT,
