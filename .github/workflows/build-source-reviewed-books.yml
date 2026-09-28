@@ -11,6 +11,7 @@ on:
       - "scripts/build_books.py"
       - "scripts/seo_books.py"
       - "scripts/clean_public_book_pages.py"
+      - "scripts/add_google_books_previews.py"
       - ".github/workflows/build-source-reviewed-books.yml"
 
 permissions:
@@ -40,6 +41,7 @@ jobs:
           python scripts/build_books.py
           python scripts/seo_books.py
           python scripts/clean_public_book_pages.py
+          python scripts/add_google_books_previews.py
 
       - name: Commit generated book files
         shell: bash
