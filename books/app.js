@@ -24,20 +24,22 @@ async function loadBooks(){
   const sourceReviewed=all.filter(b=>b.source_reviewed);
 
   function card(b,featured=false){
-    const details=[b.source_reviewed?'Source-reviewed':'',b.language,b.category]
-      .filter(Boolean).map(escapeHtml).join(' · ') || 'Details being enriched';
+    const title=escapeHtml(b.title);
+    const href=`./${encodeURIComponent(b.slug)}/`;
+    const details=[b.language,b.category]
+      .filter(Boolean).map(escapeHtml).join(' · ') || 'Book details';
     return `<article class="card">
-      <img class="cover" src="${b.cover_url}" alt="${escapeHtml(b.title)} book cover" loading="lazy" decoding="async">
+      <a href="${href}" aria-label="Open the book page for ${title}"><img class="cover" src="${escapeHtml(b.cover_url)}" alt="Book cover of ${title} by Faramarz Kowsari" loading="lazy" decoding="async"></a>
       <div class="card-body">
-        <h2>${escapeHtml(b.title)}</h2>
+        <h2><a href="${href}">${title}</a></h2>
         <div class="meta">${details}</div>
-        <a class="btn" href="./${encodeURIComponent(b.slug)}/">${featured?'View source-reviewed page':'View book'}</a>
+        <a class="btn" href="${href}" aria-label="View book: ${title}">${featured?'View book':'View book'}</a>
       </div>
     </article>`;
   }
 
   if(featuredCount){
-    featuredCount.textContent=`${sourceReviewed.length} source-reviewed pages are ready for search indexing.`;
+    featuredCount.textContent=`${sourceReviewed.length} books`;
   }
   if(completedGrid){
     completedGrid.innerHTML=sourceReviewed.map(b=>card(b,true)).join('');
@@ -62,6 +64,6 @@ function escapeHtml(s=''){
 }
 
 loadBooks().catch(err=>{
-  document.getElementById('grid').innerHTML='<p>Could not load the library data.</p>';
+  document.getElementById('grid').innerHTML='<p role="status">Could not load the library data.</p>';
   console.error(err);
 });
