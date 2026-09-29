@@ -86,7 +86,9 @@ def update_root() -> bool:
     text = ensure_style(text)
     text = strip_banner(text)
     # Keep the branded image outside the JS-enhanced .container so app.js never replaces it.
-    section_match = re.search(r'(<section\s+id="books"\b.*?</section>)', text, flags=re.S | re.I)
+    # Do not use a word boundary after the closing quote: both the quote and following space
+    # are non-word characters, so that boundary would never match normal HTML.
+    section_match = re.search(r'(<section\s+id="books"[^>]*>.*?</section>)', text, flags=re.S | re.I)
     if section_match:
         section = section_match.group(1)
         section = section.rsplit("</section>", 1)[0] + "\n      " + ROOT_BANNER + "\n    </section>"
