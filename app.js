@@ -67,6 +67,86 @@ document.getElementById("year").textContent = new Date().getFullYear();
     </div>`;
 })();
 
+// Zenodo DOI and machine-readable citation metadata for the website/books project.
+(() => {
+  const conceptDoi = "10.5281/zenodo.23046366";
+  const versionDoi = "10.5281/zenodo.23046367";
+  const badgeUrl = "https://zenodo.org/badge/1305358280.svg";
+
+  if (!document.getElementById("doi-citation-style")) {
+    const style = document.createElement("style");
+    style.id = "doi-citation-style";
+    style.textContent = `
+      .doi-card{position:relative;overflow:hidden;border-color:rgba(52,87,213,.32);background:linear-gradient(145deg,#fff,#f2f5ff)}
+      .doi-card::after{content:"DOI";position:absolute;right:16px;bottom:4px;font-size:3.4rem;font-weight:950;letter-spacing:-.08em;color:rgba(52,87,213,.07)}
+      .doi-card img{width:auto;max-width:100%;height:20px;margin:2px 0 14px}
+      .doi-card p{position:relative;z-index:1}
+      .doi-mini-link{display:inline-flex;align-items:center;min-height:44px;padding:9px 13px;border:1px solid var(--line);border-radius:12px;background:var(--surface);text-decoration:none;font-weight:800;color:var(--accent)}
+    `;
+    document.head.appendChild(style);
+  }
+
+  const profileGrid = document.querySelector("#profiles .grid");
+  if (profileGrid && !profileGrid.querySelector('[data-project-doi="concept"]')) {
+    const card = document.createElement("a");
+    card.className = "card doi-card";
+    card.href = `https://doi.org/${conceptDoi}`;
+    card.target = "_blank";
+    card.rel = "noopener noreferrer";
+    card.dataset.projectDoi = "concept";
+    card.setAttribute("aria-label", `Open the Zenodo Concept DOI ${conceptDoi} for the official website and books library`);
+    card.innerHTML = `<img src="${badgeUrl}" alt="Zenodo DOI badge for the Faramarz Kowsari official website and books library" loading="lazy" decoding="async"><h3>Project DOI</h3><p>Permanent citable archive for all versions: ${conceptDoi}</p>`;
+    profileGrid.appendChild(card);
+  }
+
+  const booksActions = document.querySelector("#books .books-actions");
+  if (booksActions && !booksActions.querySelector('[data-project-doi-link]')) {
+    const link = document.createElement("a");
+    link.className = "doi-mini-link";
+    link.href = `https://doi.org/${conceptDoi}`;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.dataset.projectDoiLink = "true";
+    link.textContent = `Citable DOI: ${conceptDoi} ↗`;
+    booksActions.appendChild(link);
+  }
+
+  const footerLinks = document.querySelector(".footer-links");
+  if (footerLinks && !footerLinks.querySelector('[data-footer-doi]')) {
+    const link = document.createElement("a");
+    link.href = `https://doi.org/${conceptDoi}`;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.dataset.footerDoi = "true";
+    link.textContent = "DOI";
+    footerLinks.appendChild(link);
+  }
+
+  if (!document.getElementById("zenodo-project-schema")) {
+    const script = document.createElement("script");
+    script.id = "zenodo-project-schema";
+    script.type = "application/ld+json";
+    script.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "SoftwareSourceCode",
+      "@id": "https://faramarzkowsari.github.io/#source-code",
+      "name": "Faramarz Kowsari Official Website and Multilingual Books Library",
+      "url": "https://faramarzkowsari.github.io/",
+      "codeRepository": "https://github.com/FaramarzKowsari/FaramarzKowsari.github.io",
+      "version": "1.0.0",
+      "datePublished": "2026-09-29",
+      "author": {"@type": "Person", "name": "Faramarz Kowsari", "sameAs": "https://orcid.org/0000-0003-1692-0453"},
+      "identifier": [
+        {"@type": "PropertyValue", "propertyID": "DOI", "name": "Zenodo Concept DOI — all versions", "value": conceptDoi},
+        {"@type": "PropertyValue", "propertyID": "DOI", "name": "Zenodo Version DOI — v1.0.0", "value": versionDoi}
+      ],
+      "citation": `https://doi.org/${versionDoi}`,
+      "sameAs": `https://doi.org/${conceptDoi}`
+    });
+    document.head.appendChild(script);
+  }
+})();
+
 // Instagram ↔ official website tracking bridge.
 // GA4 page views remain on the existing direct Google tag.
 // Instagram-specific events are pushed to dataLayer for GTM to send to GA4.
