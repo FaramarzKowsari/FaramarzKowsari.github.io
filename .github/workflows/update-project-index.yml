@@ -64,5 +64,18 @@ jobs:
           fi
 
           git commit -m "chore: refresh project hub, SEO, accessibility and social preview"
-          git pull --rebase origin main
-          git push origin HEAD:main
+
+          # Other automated Books builds may update main at the same moment. Rebase and
+          # retry instead of failing on a transient cannot-lock-ref race.
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Concurrent update detected; retrying push ($attempt/4)..."
+            sleep $((attempt * 2))
+          done
+
+          echo "Could not publish project-hub changes after retries."
+          exit 1
