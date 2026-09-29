@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Faramarz Kowsari Official Website and Multilingual Books Library"
+version: 1.0.0
+type: software
+abstract: "Official GitHub Pages website and multilingual books library of Faramarz Kowsari. The repository contains structured book metadata, permanent book landing pages, topic-based navigation, author pages, Google Books integration, SEO tooling, accessibility improvements, and automated publishing workflows."
+message: "If you use or reference this repository, please cite it using the metadata below."
+authors:
+  - given-names: Faramarz
+    family-names: Kowsari
+    orcid: "https://orcid.org/0000-0003-1692-0453"
+keywords:
+  - digital publishing
+  - multilingual books
+  - artificial intelligence
+  - prompt engineering
+  - trading
+  - data science
+  - machine learning
+  - personal development
+  - mindfulness
+  - Google Books
+  - GitHub Pages
+repository-code: "https://github.com/FaramarzKowsari/FaramarzKowsari.github.io"
+url: "https://faramarzkowsari.github.io/books/"
