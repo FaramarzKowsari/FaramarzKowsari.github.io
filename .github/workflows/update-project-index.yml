@@ -48,7 +48,7 @@ jobs:
           python scripts/seo_sitemaps.py
           python scripts/seo_root.py
           python scripts/wcag_root.py
-          python scripts/brand_social_preview.py
+          python scripts/brand_social_preview.py --root-only
 
       - name: Commit changes if needed
         shell: bash
@@ -56,7 +56,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- projects.json sitemap.xml books/sitemap.xml index.html app.js books/index.html books/topics/index.html
+          git add -- projects.json sitemap.xml books/sitemap.xml index.html app.js
 
           if git diff --cached --quiet; then
             echo "No project-index, SEO or accessibility changes."
