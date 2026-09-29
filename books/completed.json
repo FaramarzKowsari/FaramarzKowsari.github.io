@@ -69,42 +69,96 @@
     "content_status": "complete",
     "crossref_status": "not_registered",
     "key_topics": [
+      "AI-assisted futures",
       "Crypto futures",
       "Three-screenshot method",
-      "Multi-timeframe analysis",
+      "1H / 15M / 5M analysis",
       "Market structure",
-      "Liquidity and FVGs",
-      "Prompt engineering",
-      "Position sizing and leverage",
-      "Execution and no-trade rules"
+      "Liquidity sweeps",
+      "Fair Value Gaps",
+      "Position sizing",
+      "Leverage discipline",
+      "No-trade rules"
     ],
     "language": "English",
     "learning": [
-      "Capture evidence consistently across multiple timeframes before asking AI for analysis.",
-      "Define market structure, liquidity, invalidation, and setup logic from the screenshots.",
-      "Write prompts that separate bias, zones, triggers, conflicts, stops, and targets.",
-      "Audit position size, leverage, liquidation risk, and order details before clicking.",
-      "Use AI as a review assistant while keeping execution authority and responsibility human."
+      "Use a three-screen hierarchy with 1H for direction, 15M for the working zone and 5M for execution timing.",
+      "Capture screenshots that contain enough visible evidence for analysis instead of forcing the model to guess from the last candle.",
+      "Prompt for invalidation, position size, target realism, conflict and explicit reasons not to trade.",
+      "Integrate structure, liquidity, FVGs, funding and volatility without turning any single concept into permission to enter.",
+      "Keep leverage, margin mode, stops and capital protection inside the same written process as AI-assisted analysis."
     ],
     "related_ids": [
       "QGDjEQAAQBAJ",
       "C1PsEQAAQBAJ",
       "a8L1EQAAQBAJ"
     ],
-    "seo_description": "A practical three-screenshot method for AI-assisted crypto futures analysis, covering multi-timeframe structure, liquidity, FVGs, prompts, risk, leverage, and execution.",
+    "seo_description": "A practical AI-assisted crypto futures guide built around a three-screenshot 1H/15M/5M workflow, evidence-based prompts, market structure, invalidation, liquidity, FVGs, sizing, leverage discipline and no-trade rules.",
     "source_reviewed": true,
     "subtitle": "The Smart Three-Screenshot Method for Multi-Timeframe Futures Trading",
-    "summary": "AI-Assisted Crypto Futures presents a three-screenshot workflow for turning multi-timeframe chart evidence into a written futures plan before an order is placed. It covers futures mechanics, safe account setup, screenshot quality, timeframe hierarchy, market structure, invalidation, liquidity, Fair Value Gaps, prompt design, position sizing, leverage, stops, take-profit logic, execution, and no-trade decisions. AI is positioned as a structured assistant for evidence review and risk auditing, while the order screen and written plan remain subject to human verification.",
-    "target_audience": "For crypto futures traders who want a structured AI-assisted workflow centered on evidence and risk rather than prediction.",
+    "summary": "AI-Assisted Crypto Futures builds a disciplined workflow around three clean screenshots: 1H for direction, 15M for the working zone and 5M for timing. Screenshots are treated as evidence rather than decoration, so each one must show the timeframe, recent swing points, active price area and enough history for the AI assistant to evaluate whether price is extended, balanced or structurally unclear. The prompt must ask for visible evidence, invalidation, risk and a reason to stand aside.\n\nThe book combines multi-timeframe analysis with market structure, liquidity sweeps, Fair Value Gaps, funding awareness, trend and range filters, stop audits, position sizing, take-profit checks and no-trade defenses. It repeatedly emphasizes modest leverage, isolated margin, fixed stop-loss logic and capital protection. AI is one structured input inside the risk process, not a gambling voice or a substitute for the trader's written plan and final execution decision.",
+    "target_audience": "For crypto futures beginners and developing traders who want to use AI as a structured chart-review assistant while keeping risk, leverage and execution decisions under human control.",
     "title": "AI-Assisted Crypto Futures"
   },
   "ai-prompts-for-small-business-owners": {
     "category": "AI & Business",
-    "language": "English"
+    "content_status": "complete",
+    "key_topics": [
+      "AI for small business",
+      "Prompt engineering",
+      "Business strategy",
+      "Customer evidence",
+      "Marketing",
+      "Sales",
+      "Operations",
+      "Customer experience",
+      "Finance and growth",
+      "Human review"
+    ],
+    "language": "English",
+    "learning": [
+      "Turn vague business requests into evidence-based decision questions with clear owners and constraints.",
+      "Separate facts, assumptions, estimates and missing information before asking AI for recommendations.",
+      "Use prompts across strategy, customers, marketing, sales, operations, finance and growth without losing business context.",
+      "Build reusable prompt templates with versioning, review criteria and explicit human checkpoints.",
+      "Protect sensitive data and keep consequential legal, financial, employment and customer decisions under appropriate human review."
+    ],
+    "seo_description": "A practical prompt library for small business owners covering strategy, customer evidence, marketing, sales, operations, customer experience, finance and growth with human review, privacy and decision-quality guardrails.",
+    "source_reviewed": true,
+    "subtitle": "A Copy-and-Adapt Prompt Library for Strategy, Marketing, Sales, Operations, Customer Experience, Finance, and Growth",
+    "summary": "AI Prompts for Small Business Owners is designed to make generative AI useful inside the constraints of a real small business. Instead of asking what AI can do in the abstract, the book starts with the decision or work product that needs to improve, then fills prompts with concrete business context, evidence, constraints, risk and a named human decision owner. It repeatedly separates facts, assumptions and estimates and treats missing information as something to expose rather than silently invent.\n\nThe prompt library spans connecting AI to the business, business models and priorities, customer and demand evidence, marketing and local visibility, sales, operations, customer experience, finance and growth. Reusable templates include auditability, version ownership, sensitive-data removal, human review and measurable next steps. Legal, tax, accounting, employment, privacy and other consequential decisions are explicitly kept under professional and human responsibility rather than delegated to the model.",
+    "target_audience": "For founders, owners and small teams who want practical, reusable AI prompts tied to real business decisions rather than generic content generation.",
+    "title": "AI Prompts for Small Business Owners"
   },
   "ai-prompts-for-social-media-marketing": {
     "category": "AI & Marketing",
-    "language": "English"
+    "content_status": "complete",
+    "key_topics": [
+      "Social media strategy",
+      "AI prompts",
+      "Audience research",
+      "Content creation",
+      "Campaigns",
+      "Engagement",
+      "Community building",
+      "Conversion",
+      "Experiment design",
+      "Reporting and workflows"
+    ],
+    "language": "English",
+    "learning": [
+      "Translate business goals into clear social-media roles, priorities and measurable decisions.",
+      "Build audience segments from evidence without turning fictional personas or stereotypes into research.",
+      "Use AI for content, campaigns, engagement, community and conversion while preserving brand and legal review.",
+      "Design tests, critiques and reports that expose assumptions instead of hiding uncertainty behind polished output.",
+      "Create reusable workflows and master prompts that support a consistent social-media operating system."
+    ],
+    "seo_description": "A 297-prompt social media marketing system for strategy, audience research, content, campaigns, engagement, community, conversion, critique, reporting and workflows with evidence and human review.",
+    "source_reviewed": true,
+    "subtitle": "A Copy-and-Customize Prompt Library for Strategy, Content, Campaigns, Engagement & Conversion",
+    "summary": "AI Prompts for Social Media Marketing is built as a decision system rather than a list of writing tricks. Its 297 reusable prompts connect business goals, audience evidence, channel roles, resources, brand constraints and measurement before asking AI to create content. The book avoids claims about hidden platform algorithms and guaranteed reach, followers, leads or sales, and it requires human review for accuracy, brand fit, legal and rights considerations and changing platform conditions.\n\nThe library moves from AI foundations and strategy into audience insight, personas, content, campaigns, engagement, community, conversion, testing, critique, reporting and workflow design. Prompts make assumptions visible, use evidence from customer questions, comments, interviews and performance data, and encourage explicit tradeoffs when resources are limited. The final master prompts help turn separate tasks into a maintainable social-media operating system.",
+    "target_audience": "For marketers, creators, founders and social-media teams who want a large reusable prompt library grounded in strategy, evidence, brand fit and human judgment.",
+    "title": "AI Prompts for Social Media Marketing"
   },
   "ai-trading-agents-and-ai-trading-bots": {
     "category": "AI & Algorithmic Trading",
@@ -1144,32 +1198,34 @@
     "crossref_status": "not_registered",
     "key_topics": [
       "Day trading basics",
-      "Candlesticks and timeframes",
-      "Market structure",
-      "Support resistance and volume",
-      "Liquidity and FVGs",
-      "Risk and position sizing",
-      "Leverage and margin",
-      "AI-assisted review and journaling"
+      "Risk discipline",
+      "Chart reading",
+      "Trading plan",
+      "Minimum viable strategy",
+      "Entry and invalidation",
+      "Targets and management",
+      "Backtesting",
+      "Trading journal",
+      "AI-assisted learning"
     ],
     "language": "English",
     "learning": [
-      "Understand the practical differences between day trading and longer-term investing.",
-      "Read basic chart structure, candles, timeframes, levels, volume, trends, ranges, and liquidity.",
-      "Calculate risk, position size, reward-to-risk, expectancy, and leverage exposure.",
-      "Use simulation, testing, and journaling before relying on live capital.",
-      "Use AI to organize learning and review evidence without treating it as a trading oracle."
+      "Build day-trading knowledge from risk, chart reading and repeatable process rather than from promises of quick profit.",
+      "Use AI for learning, review and structured questioning without delegating trading responsibility to the model.",
+      "Create a written trading plan with market, session, trigger, stop, target, management and no-trade rules.",
+      "Turn vague strategy language into observable conditions that can be backtested and reviewed.",
+      "Practice in simulation and journal evidence before increasing exposure or complexity."
     ],
     "related_ids": [
       "nzniEQAAQBAJ",
       "C1PsEQAAQBAJ",
       "a8L1EQAAQBAJ"
     ],
-    "seo_description": "A beginner day-trading guide to markets, chart reading, structure, risk, leverage, testing, journaling, and disciplined AI-assisted learning.",
+    "seo_description": "A beginner-focused day trading roadmap covering essential principles, risk discipline, chart reading, testable strategies, trading plans, journaling and responsible use of AI as a learning and review assistant.",
     "source_reviewed": true,
     "subtitle": "A Practical AI-Assisted Roadmap for Beginners",
-    "summary": "Day Trading from Zero builds a beginner’s roadmap around chart reading, market structure, risk, testing, and disciplined use of AI. It distinguishes day trading from investing, introduces markets, instruments, spreads, slippage, fees, sessions, watchlists, candlesticks, timeframes, support and resistance, volume, trend, range, liquidity, and Fair Value Gaps, then connects them to position sizing, expectancy, leverage, margin, and liquidation. AI is used for learning, chart review, journaling, and structured thinking rather than as an oracle or permission to trade.",
-    "target_audience": "For serious beginners who want a structured, risk-aware introduction to day trading with AI used as a learning and review assistant.",
+    "summary": "Day Trading from Zero is a beginner roadmap built around essential market principles, risk discipline, chart reading, strategy testing and prompt engineering. It explicitly treats AI as a learning assistant, chart-review partner, journaling coach and structured-thinking tool—not as an oracle or permission to risk money. The book encourages simulation, journaling and evidence before live trading and repeatedly warns that leverage and day trading can produce rapid losses.\n\nA central goal is to build a written trading plan that can actually be tested. The plan defines what to trade, when to trade, why to enter, where the thesis fails, how much to risk, how to exit and which conditions require standing aside. The book develops a minimum viable strategy with observable rules for market condition, location, trigger, stop, target, time of day and management, helping beginners replace strategy shopping and emotional improvisation with one repeatable learning process.",
+    "target_audience": "For serious beginners who want to learn day trading from the ground up with clear risk rules, testable strategies and responsible AI-assisted study.",
     "title": "Day Trading from Zero"
   },
   "decision-trees-in-machine-learning-and-data-science": {
@@ -1291,7 +1347,33 @@
   },
   "e-ticaret-sat-c-lar-icin-yapay-zeka-promptlar": {
     "category": "AI & E-Ticaret",
-    "language": "Türkçe"
+    "content_status": "complete",
+    "key_topics": [
+      "E-ticarette yapay zekâ",
+      "Mağaza bağlamı",
+      "Ürün ve kategori",
+      "Hedef kitle",
+      "İçerik ve açıklama",
+      "Kanal kararları",
+      "Kanıt ve veri",
+      "Prompt tasarımı",
+      "İnsan kararı",
+      "Operasyon"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Mağaza, ürün, kategori, hedef kitle, kanal, veri ve kısıtları tek bir e-ticaret çalışma brief'inde toplamak.",
+      "Kritik bağlam eksiklerini az sayıda yüksek değerli soruyla belirlemek.",
+      "Doğrulanmış ürün ve mağaza gerçekleriyle net ve taranabilir çıktılar üretmek.",
+      "Güncel platform kuralları, ücretler, pazar büyüklüğü ve performans verileri bilinmiyorsa bunları uydurmamak.",
+      "Önerileri kanıt veya test planıyla ilişkilendirip son kararı insan kullanıcıda tutmak."
+    ],
+    "seo_description": "E-ticaret satıcıları için mağaza bağlamı, ürün ve kategori, hedef kitle, kanal, veri, içerik, karar desteği ve operasyon süreçlerine yönelik doğrulanabilir yapay zekâ promptları.",
+    "source_reviewed": true,
+    "subtitle": "Mağaza, Ürün, Müşteri, İçerik, Karar ve Operasyon İçin Kopyala-Uyarla Yapay Zekâ Promptları",
+    "summary": "E-Ticaret Satıcıları İçin Yapay Zekâ Promptları, mağaza, iş modeli, ürün veya kategori, hedef, hedef kitle, kanal, mevcut veri ve kısıtları aynı çalışma bağlamında toplar. Promptlar önce kritik bilgi açığını bulur; eksik bilgi kararın yönünü değiştirecekse bunu açıkça işaretler ve en fazla birkaç yüksek değerli soru ile bağlamı tamamlar. Amaç, güçlü görünen fakat yanlış varsayıma dayanan çıktıları azaltmaktır.\n\nKitap doğrudan kullanılabilir ve taranabilir çıktılarda yalnızca doğrulanmış ürün ve mağaza gerçeklerini kullanmayı, bilinmeyen güncel platform kuralı, ücret, pazar büyüklüğü veya performans sonucunu uydurmamayı ister. Her önerinin hangi kanıta dayandığını veya nasıl test edileceğini görünür kılar ve AI çıktısını nihai karar yerine bir sonraki insan kararını kolaylaştıran çalışma malzemesi olarak konumlandırır.",
+    "target_audience": "Ürün, içerik, mağaza ve operasyon kararlarında yapay zekâyı daha kontrollü kullanmak isteyen e-ticaret satıcıları ve küçük ekipler için.",
+    "title": "E-Ticaret Satıcıları İçin Yapay Zekâ Promptları"
   },
   "earthquake-survival-in-california": {
     "category": "Emergency Preparedness & Earthquake Safety",
@@ -1716,7 +1798,33 @@
   },
   "instagram-ve-tiktok-icerik-ureticileri-icin-yapay-zeka-promptlar": {
     "category": "AI & İçerik Üretimi",
-    "language": "Türkçe"
+    "content_status": "complete",
+    "key_topics": [
+      "Instagram içerik üretimi",
+      "TikTok içerik üretimi",
+      "Kişisel marka sesi",
+      "İzleyici dili",
+      "Kısa video",
+      "Hikâye anlatımı",
+      "Arama niyeti",
+      "İçerik fikirleri",
+      "CTA",
+      "İçerik revizyonu"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Kişisel marka sesini, sınırlarını ve ayırt edici konumunu gerçek bağlamla tanımlamak.",
+      "İzleyici dilini, sorusunu ve ihtiyacını genellemeler yerine gözlenebilir sinyallerle çalışmak.",
+      "Instagram ve TikTok için doğal kısa video akışları, açılışlar ve hikâye omurgaları geliştirmek.",
+      "Arama niyeti ve içerik fikrini seçenek, kontrol listesi ve uygulanabilirlik üzerinden değerlendirmek.",
+      "Uydurma deneyim, doğrulanmamış performans iddiası ve yapay clickbait yerine özgün ve denetlenebilir içerik üretmek."
+    ],
+    "seo_description": "Instagram ve TikTok üreticileri için kişisel marka sesi, izleyici dili, kısa video, hikâye, arama niyeti, içerik fikirleri, revizyon ve özgünlük odaklı yapay zekâ promptları.",
+    "source_reviewed": true,
+    "subtitle": "Kısa Video, Kişisel Marka, İzleyici, Hikâye, İçerik Fikri ve Uygulama İçin Kopyala-Uyarla Prompt Kütüphanesi",
+    "summary": "Instagram ve TikTok İçerik Üreticileri İçin Yapay Zekâ Promptları, kısa format üretimini yalnızca daha çok metin yazdırma işi olarak görmez. Promptlar; kişisel marka sesini tanımlama, izleyicinin gerçek dilini ve ihtiyacını anlama, kısa video akışı kurma, sıradan bir olayı anlamlı hikâyeye dönüştürme, arama niyeti için içerik tasarlama ve takipçi sorularının arkasındaki gerçek ihtiyacı teşhis etme gibi görevleri bağlama duyarlı hâle getirir.\n\nKitap, içeriğin yapay görünmesini azaltmak için kısa ve konuşulabilir cümleleri, somut örnekleri, doğal Türkçeyi ve kişiselleştirilebilir değişkenleri öne çıkarır. Uydurma kişisel deneyim, doğrulanmamış algoritma genellemesi, boş vaat ve gereksiz clickbait'ten kaçınır; platform değiştiğinde metni körlemesine kopyalamak yerine tempo, açılış ve görsel dil değişkenlerini yeniden tanımlamayı teşvik eder.",
+    "target_audience": "Instagram ve TikTok'ta daha doğal, bağlama uygun ve tekrar kullanılabilir bir içerik sistemi kurmak isteyen creator'lar ve kişisel markalar için.",
+    "title": "Instagram ve TikTok İçerik Üreticileri İçin Yapay Zekâ Promptları"
   },
   "inverse-fair-value-gaps-ifvg": {
     "category": "Trading",
@@ -1854,7 +1962,32 @@
   },
   "kucuk-isletme-sahipleri-icin-yapay-zeka-promptlar": {
     "category": "AI & İşletme",
+    "content_status": "complete",
+    "key_topics": [
+      "Küçük işletmelerde yapay zekâ",
+      "Prompt mühendisliği",
+      "İşletme stratejisi",
+      "Müşteri kanıtı",
+      "Pazarlama",
+      "Satış",
+      "Operasyon",
+      "Müşteri deneyimi",
+      "Finans ve büyüme",
+      "İnsan kontrolü"
+    ],
     "language": "Türkçe",
+    "learning": [
+      "İşletme problemini gerçekler, varsayımlar, kanıt ve kısıtlarla birlikte tanımlamak.",
+      "Strateji, müşteri, pazarlama, satış ve operasyon görevlerini tekrar kullanılabilir prompt akışlarına dönüştürmek.",
+      "Eksik bilgiyi modelin tahminiyle doldurmak yerine kritik soruları ve doğrulama ihtiyacını görünür tutmak.",
+      "Hassas veri, müşteri hakları, çalışan bilgisi ve finansal kararlarda koruma kuralları ve insan onayı kullanmak.",
+      "Promptları sahiplik, kalite kriteri, sürüm ve gözden geçirme tarihi olan yaşayan iş şablonları gibi yönetmek."
+    ],
+    "seo_description": "Küçük işletmeler için strateji, müşteri kanıtı, pazarlama, satış, operasyon, müşteri deneyimi, finans ve büyüme kararlarını destekleyen uygulanabilir yapay zekâ promptları.",
+    "source_reviewed": true,
+    "subtitle": "Strateji, Pazarlama, Satış, Operasyon, Müşteri Deneyimi, Finans ve Büyüme İçin Kopyala-Uyarla Prompt Kütüphanesi",
+    "summary": "Küçük İşletme Sahipleri İçin Yapay Zekâ Promptları, yapay zekâyı yalnızca metin yazan bir araç değil; bağlam, kanıt, kısıt ve insan kararıyla çalışan bir karar desteği olarak kullanır. Promptlar işletmenin gerçek problemini tanımlamayı, eksik bilgiyi görünür kılmayı, gerçeklerle varsayımları ayırmayı ve tek seferlik bir isteği tekrar kullanılabilir iş akışına çevirmeyi amaçlar.\n\nKitap strateji, değer önerisi, müşteri ve talep kanıtı, pazarlama, satış, operasyon, müşteri deneyimi, finans ve büyüme gibi alanlarda kopyala-uyarla şablonlar sunar. Müşteri ve çalışan mahremiyeti, yanlış aciliyet, kanıtsız satış iddiaları ve hassas veriler için koruma kuralları vardır; para, sözleşme, personel, mahremiyet veya geri döndürülemez sonuç içeren kararlarda insan kontrolü açıkça korunur.",
+    "target_audience": "Yapay zekâyı günlük işletme kararlarına güvenli ve uygulanabilir biçimde bağlamak isteyen küçük işletme sahipleri, kurucular ve küçük ekipler için.",
     "title": "Küçük İşletme Sahipleri İçin Yapay Zekâ Promptları"
   },
   "l-argent-suit-l-argent": {
@@ -2235,37 +2368,65 @@
     "crossref_status": "not_registered",
     "key_topics": [
       "Support and resistance",
-      "Supply and demand zones",
-      "Breakout and retest",
+      "Price zones",
+      "Breakouts",
+      "Retests",
       "Fake breakouts",
-      "Wick versus body",
-      "Round numbers",
-      "Invalidation and stops",
-      "Risk and journaling"
+      "Bounce setups",
+      "Liquidity",
+      "Confirmation",
+      "Invalidation",
+      "Risk management"
     ],
     "language": "English",
     "learning": [
-      "Draw support and resistance as reaction zones rather than demanding exact-price precision.",
-      "Read rejection wicks, closes, repeated acceptance, and role reversal after breakouts.",
-      "Differentiate bounce, breakout-retest, and fake-breakout scenarios.",
-      "Use round numbers and liquidity references as context rather than automatic signals.",
-      "Define confirmation, invalidation, position size, and risk before committing capital."
+      "Turn support and resistance lines into practical price zones rather than treating one exact price as magical.",
+      "Wait for observable reaction and confirmation before using a level as an entry location.",
+      "Distinguish bounces, breakouts, retests and fake-breakout traps.",
+      "Define invalidation, exits and risk alongside the level instead of after entering.",
+      "Use visual checklists and chart examples to build a repeatable support-and-resistance process."
     ],
     "related_ids": [
       "a8L1EQAAQBAJ",
       "ndIKEgAAQBAJ",
       "RS0LEgAAQBAJ"
     ],
-    "seo_description": "A visual support and resistance guide covering zones, breakouts, retests, fakeouts, wick-versus-body confirmation, round numbers, entries, exits, and risk.",
+    "seo_description": "A visual support and resistance trading guide with 80 practical infographics on levels and zones, reactions, entries, exits, breakouts, retests, fakeouts, liquidity, confirmation, invalidation and risk.",
     "source_reviewed": true,
     "subtitle": "80 Practical Visual Infographics for Reading Levels, Entries, Exits, Breakouts, Retests, and Traps",
-    "summary": "Mastering Support & Resistance is a visual guide to reading support and resistance as behavioral zones rather than perfect single-price lines. It develops demand and supply zones, liquidity references, role reversal after a breakout, bounce setups, breakout-and-retest structures, fake-breakout traps, wick-versus-body interpretation, repeated closes, round-number reactions, invalidation, position sizing, and journaling. The visual framework emphasizes confirmation and risk control instead of assuming that any marked level must hold.",
-    "target_audience": "For visual price-action traders who want a practical framework for levels, reactions, breakouts, retests, and traps.",
+    "summary": "Mastering Support & Resistance is designed as an 80-page visual field guide for turning vague horizontal lines into usable trading decisions. It teaches the reader to identify a meaningful level, convert the line into a realistic zone, wait for price behavior at that area and enter only when the planned confirmation and invalidation logic are present. The book treats support and resistance as maps of probability rather than guaranteed predictions.\n\nThe visual lessons cover bounces, entries, exits, breakouts, retests, failed breaks and traps with candlestick examples, support and resistance zones, supply and demand context, liquidity references, checklists and risk reminders. Its practical emphasis is on reading reaction first, separating a level from a signal and making the trade plan clear enough that patience, confirmation and risk can override the temptation to buy or sell blindly at a line.",
+    "target_audience": "For beginner and intermediate price-action traders who want a visual, practical method for reading support and resistance without assuming every touch must reverse.",
     "title": "Mastering Support & Resistance"
   },
   "mavi-tikten-sonra": {
     "category": "Fiction & Romance",
+    "content_status": "complete",
+    "key_topics": [
+      "Çağdaş İstanbul romanı",
+      "Modern ilişkiler",
+      "Mesajlaşma ve sessizlik",
+      "Mavi tik",
+      "Bekleyiş",
+      "İletişim kopukluğu",
+      "Yüzleşme",
+      "Özür",
+      "İkinci şans",
+      "İstanbul Aşkları"
+    ],
     "language": "Türkçe",
+    "learning": [
+      "Dijital iletişimde görüldü bilgisi, bekleyiş ve sessizliğin ilişki üzerindeki duygusal ağırlığını izlemek.",
+      "Defne ve Aras'ın aynı olayları farklı zamanlarda ve farklı sorumluluk duygularıyla nasıl yaşadığını görmek.",
+      "Modern İstanbul ilişkilerinde mesaj, iptal, çevrimiçi olma ve yüz yüze konuşma arasındaki gerilimi takip etmek.",
+      "Niyet ile davranış arasındaki farkın ve özrün tek başına neden her şeyi düzeltmediğinin roman içindeki karşılığını görmek.",
+      "İlişkinin geleceğini telefon ekranından çıkarıp doğrudan konuşmaya taşıyan dönüşümü takip etmek."
+    ],
+    "seo_description": "Faramarz Kowsari'nin İstanbul Aşkları serisinin ilk romanı: Defne ve Aras'ın mesajlar, sessizlik, bekleyiş, kırılma, yüzleşme ve yeniden konuşmayı öğrenme üzerinden ilerleyen çağdaş İstanbul ilişkisi.",
+    "source_reviewed": true,
+    "subtitle": "İstanbul Aşkları — 1",
+    "summary": "Mavi Tikten Sonra, İstanbul Aşkları serisinin ilk romanıdır ve Defne'nin gece 02:17'de gönderdiği bir mesajın okunup cevapsız kalmasıyla açılır. İki mavi tik, sıradan bir telefon ayrıntısı olmaktan çıkıp bekleyişin, belirsizliğin ve bir ilişkinin içinde söylenmeyenlerin ağırlığını taşıyan merkeze dönüşür. Bölümler; 'Yazıyor…', kırk sekiz saat, iptal edilen buluşmalar, Pazar günleri, Karaköy'de yarım kalan bir gece ve çevrimiçi sessizlik gibi modern şehir ilişkilerinin küçük ama belirleyici anlarını izler.\n\nRoman Defne ile Aras'ı yalnızca mesaj ekranında bırakmaz. On iki günlük mesafe ve cevapsızlığın ardından roller tersine döner; Aras'ın mesajı bu kez okunur ve bekleyen taraf o olur. Sonunda ikisi aynı masaya oturup niyetlerden önce yapılanları konuşmak, özrün arkasına saklanmadan yüzleşmek ve ilişkinin devam edip etmeyeceğini bir ekranın belirlemesine izin vermemek zorunda kalır. Kitap, dijital iletişimin hızına karşı gerçek konuşmanın yavaşlığını ve iki insanın yeniden birbirini duymayı öğrenmesini çağdaş İstanbul fonunda işler.",
+    "target_audience": "Mesajlaşma çağındaki ilişkiler, İstanbul atmosferi, duygusal belirsizlik ve gerçekçi yüzleşmeler üzerine çağdaş romantik kurgu okumayı seven okurlar için.",
+    "title": "Mavi Tikten Sonra",
     "translation_group": "istanbul-asklari-mavi-tikten-sonra"
   },
   "meta-mevcudiyet": {
@@ -2866,7 +3027,33 @@
   },
   "sosyal-medya-pazarlamas-icin-yapay-zeka-promptlar": {
     "category": "AI & Pazarlama",
-    "language": "Türkçe"
+    "content_status": "complete",
+    "key_topics": [
+      "Sosyal medya stratejisi",
+      "Kanal rolleri",
+      "Hedef kitle",
+      "İçerik üretimi",
+      "Kampanyalar",
+      "Etkileşim",
+      "Topluluk",
+      "Dönüşüm",
+      "Deney ve ölçüm",
+      "Raporlama"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "İş hedeflerini platform ve kanal rollerine dönüştürüp sınırlı kaynaklar altında önceliklendirmek.",
+      "İzleyici segmentlerini gerçek soru, itiraz, davranış ve veri sinyallerinden üretmek.",
+      "İçerik, kampanya, etkileşim ve dönüşüm promptlarını marka bağlamı ve insan kontrolüyle kullanmak.",
+      "Varsayım, kanıt ve belirsizliği ayırarak deney ve raporlama kararlarını daha denetlenebilir yapmak.",
+      "Tek seferlik promptları sürdürülebilir sosyal medya iş akışları ve master promptlara dönüştürmek."
+    ],
+    "seo_description": "Sosyal medya pazarlaması için strateji, kanal rolleri, hedef kitle, içerik, kampanya, etkileşim, topluluk, dönüşüm, test ve raporlama odaklı yapay zekâ promptları.",
+    "source_reviewed": true,
+    "subtitle": "Strateji, İçerik, Kampanya, Etkileşim ve Dönüşüm İçin Kopyala-Uyarla Prompt Kütüphanesi",
+    "summary": "Sosyal Medya Pazarlaması İçin Yapay Zekâ Promptları, platformlarda daha çok içerik üretmekten önce hangi iş hedefinin, hangi izleyicinin ve hangi kanal rolünün önemli olduğunu netleştirir. Kitap sosyal medya planını kanıta, marka bağlamına, kaynaklara ve kısıtlara bağlar; platformların gizli algoritmalarına erişim veya garanti edilmiş erişim, takipçi, lead ve satış iddiasında bulunmaz.\n\nPromptlar strateji ve kanal önceliklerinden izleyici içgörüsü, içerik, kampanya, etkileşim, topluluk, dönüşüm, deney tasarımı, eleştiri, raporlama ve iş akışlarına kadar uzanır. Varsayımların açıkça etiketlenmesi, marka ve hukuki uygunluk için insan kontrolü, değişen platform koşullarının doğrulanması ve performans kararlarının gerçek veriyle sınanması kitabın temel çalışma disiplinidir.",
+    "target_audience": "Sosyal medya çalışmalarını daha sistemli, kanıta dayalı ve marka bağlamına uygun hâle getirmek isteyen pazarlamacılar, girişimciler ve içerik ekipleri için.",
+    "title": "Sosyal Medya Pazarlaması İçin Yapay Zekâ Promptları"
   },
   "sql-for-data-analysis": {
     "category": "Data Science",
@@ -2973,32 +3160,34 @@
     "crossref_status": "not_registered",
     "key_topics": [
       "1-minute scalping",
-      "5-minute market context",
-      "Precision entries",
-      "Liquidity sweep and reclaim",
-      "Breakout and retest",
-      "VWAP and opening range",
-      "Risk and daily loss limits",
-      "Replay and backtesting"
+      "5-minute scalping",
+      "Timeframe hierarchy",
+      "Market structure",
+      "Liquidity and volatility",
+      "VWAP",
+      "Position sizing",
+      "Overtrading control",
+      "Backtesting and replay",
+      "Trading journal"
     ],
     "language": "English",
     "learning": [
-      "Separate context and execution by assigning distinct jobs to 5-minute and 1-minute charts.",
-      "Use defined setup rules instead of reacting to every fast candle.",
-      "Account for spread, slippage, fees, stops, sizing, and daily loss limits.",
-      "Recognize abnormal, news-driven, and overtrading conditions where no trade is justified.",
-      "Test and journal setups through replay, simulation, metrics, and a 30-session practice program."
+      "Use the five-minute chart for context and location and the one-minute chart for execution rather than letting both timeframes compete for direction.",
+      "Evaluate liquidity, volatility, transaction costs and execution risk before treating speed as an advantage.",
+      "Apply eight defined scalping playbooks including pullbacks, sweeps, breakout-retests, failed breakouts, opening momentum, VWAP reactions and compression-expansion.",
+      "Control fast-market risk with explicit stops, position sizing, daily loss limits and no-trade conditions.",
+      "Develop a personal scalping process through journaling, metrics, backtesting, replay and a staged 30-session practice program."
     ],
     "related_ids": [
       "LNMLEgAAQBAJ",
       "YNMLEgAAQBAJ",
       "oJwMEgAAQBAJ"
     ],
-    "seo_description": "A practical 1-minute and 5-minute scalping guide to market structure, precision entries, eight setup playbooks, costs, risk, journaling, and testing.",
+    "seo_description": "A practical 1-minute and 5-minute scalping guide covering timeframe hierarchy, market structure, liquidity, execution costs, eight playbooks, stops, sizing, journaling, backtesting, replay and a 30-session development program.",
     "source_reviewed": true,
     "subtitle": "A Practical Guide to Market Structure, Precision Entries, Fast Trade Management, and Risk Control",
-    "summary": "The 1-Minute & 5-Minute Scalping Playbook assigns different jobs to the two timeframes: the 5-minute chart provides context, structure, and location, while the 1-minute chart is used as an execution lens. It develops precision entries, transaction-cost awareness, stops, position sizing, targets, fast trade management, no-trade conditions, journaling, replay, and backtesting. Eight setup playbooks cover trend pullbacks, liquidity sweeps and reclaims, breakouts and retests, failed breakouts, opening-range momentum, VWAP reactions, compression-to-expansion, and 5-minute reversal with 1-minute confirmation.",
-    "target_audience": "For active short-term traders who want a rules-based scalping process rather than improvised one-minute entries.",
+    "summary": "The 1-Minute & 5-Minute Scalping Playbook is built around a strict division of labor between timeframes: the five-minute chart supplies context, structure and location, while the one-minute chart is primarily an execution lens. It covers the cost of trading fast, liquidity and volatility, market structure, session mapping, no-trade conditions, trigger quality, candle sequences, precision entries and stop placement before introducing eight distinct playbooks.\n\nThe second half turns setups into a repeatable operating process through reward-to-risk, position sizing, overtrading controls, daily loss limits, abnormal-news conditions, pre-market routines, journaling, meaningful metrics, backtesting and replay. Complete case sets include good trades, bad trades and losing trades that still followed the rules, followed by a personal 1M/5M playbook, one-page trading plan, 30-session development program and practical appendices for sizing, R-multiples, checklists and review.",
+    "target_audience": "For active intraday traders and serious scalping beginners who want a structured 1M/5M framework with defined setups, risk limits and a measurable development process.",
     "title": "The 1-Minute & 5-Minute Scalping Playbook"
   },
   "the-day-you-stop-needing-a-reason": {
@@ -3198,32 +3387,34 @@
     "doi": "10.5281/zenodo.21412298",
     "key_topics": [
       "Moving averages",
-      "Signal and noise",
-      "Lag versus smoothness",
-      "SMA EMA WMA HMA KAMA",
-      "Convolution and weights",
-      "Causal filters",
-      "Look-ahead bias",
-      "Repainting and real-time validity"
+      "SMA and EMA",
+      "Weighted averages",
+      "Adaptive smoothers",
+      "Signal processing",
+      "Statistical mathematics",
+      "Parameter engineering",
+      "Scalping and day trading",
+      "Swing and position trading",
+      "System validation"
     ],
     "language": "English",
     "learning": [
-      "Interpret moving averages as state estimates with explicit memory rather than prediction lines.",
-      "Compare filter length and weighting schemes through the trade-off between responsiveness and noise.",
-      "Understand convolution as the mathematical engine behind weighted moving averages.",
-      "Distinguish causal, live-usable averages from centered or future-dependent calculations.",
-      "Audit indicators for data provenance, real-time calculability, repainting, and informational delay."
+      "Understand what a moving average estimates and why smoothing necessarily trades responsiveness against noise.",
+      "Compare formulas, weighting schemes, core averages and adaptive smoothers by their assumptions and failure modes.",
+      "Connect moving averages to signal-processing and statistical ideas instead of treating them only as chart decorations.",
+      "Engineer type, length and price source for different horizons including scalping, day trading, swing and position trading.",
+      "Design and validate moving-average systems without presenting simulated examples or indicator lines as guaranteed market truth."
     ],
     "related_ids": [
       "C1PsEQAAQBAJ",
       "ndIKEgAAQBAJ",
       "RS0LEgAAQBAJ"
     ],
-    "seo_description": "A quantitative visual guide to moving averages as filters, covering SMA, EMA, WMA, HMA, adaptive methods, lag, noise, convolution, causality, and look-ahead bias.",
+    "seo_description": "A 100-part visual and quantitative guide to moving averages covering foundations, formulas, weighting, adaptive smoothers, signal processing, parameter engineering, scalping, day trading, swing trading and system validation.",
     "source_reviewed": true,
-    "subtitle": "Advanced Trading, Deep Quantitative Insight, and Professional Applications",
-    "summary": "The Mathematical Anatomy of Moving Averages treats moving averages as filters that estimate a slower market state rather than as predictive lines. Its visual explanations connect observed price, latent trend, noise, memory length, weighting schemes, responsiveness, smoothness, and lag. SMA, EMA, WMA, HMA, and adaptive ideas are compared through the signal-noise trade-off, convolution and weighting kernels, while causal versus centered averages expose look-ahead bias, repainting, and the difference between a beautiful historical line and a calculation that was actually available in real time.",
-    "target_audience": "For technically minded traders, quantitative learners, and strategy developers who want to understand what moving averages actually compute.",
+    "subtitle": "Quantitative Trading, Signal Processing, and Practical Market Execution",
+    "summary": "The Mathematical Anatomy of Moving Averages treats a moving average as a model of market memory and a filter that estimates a slower market state rather than as a predictive line or guaranteed support level. Its 100-part architecture begins with foundations, then studies core moving averages, formulas, weights and failure modes before moving into advanced and adaptive smoothers, signal processing, statistical mathematics and parameter engineering.\n\nThe practical sections connect type, length, source and robustness to scalping, day trading, swing trading, position trading and market-specific applications. Each concept is designed around mathematical explanation, a worked market example, a key insight and an explicit limitation, ending with system design, validation and synthesis so indicator behavior is linked to assumptions, lag, noise and execution rather than reduced to simplistic crossover rules.",
+    "target_audience": "For technical and quantitative traders who want to understand moving averages mathematically, evaluate their limitations and use them more deliberately across trading horizons.",
     "title": "The Mathematical Anatomy of Moving Averages:"
   },
   "the-monster-in-the-mirror": {
@@ -3766,7 +3957,33 @@
   },
   "youtube-icerik-ureticileri-icin-yapay-zeka-promptlar": {
     "category": "AI & İçerik Üretimi",
-    "language": "Türkçe"
+    "content_status": "complete",
+    "key_topics": [
+      "YouTube kanal stratejisi",
+      "İzleyici niyeti",
+      "İçerik sütunları",
+      "Konu araştırması",
+      "Başlık stratejisi",
+      "Thumbnail",
+      "Senaryo ve retention",
+      "YouTube Shorts",
+      "Topluluk ve repurposing",
+      "Kanal analizi"
+    ],
+    "language": "Türkçe",
+    "learning": [
+      "Kanal kimliğini, tek cümlelik vaadi ve içerik sınırlarını netleştirmek.",
+      "İzleyiciyi yalnızca demografiyle değil, soru, durum, niyet ve beklenen ilerleme üzerinden tanımlamak.",
+      "Başlık, thumbnail, açılış, senaryo, retention ve CTA'yı tek bir dürüst izleme vaadi etrafında tasarlamak.",
+      "Shorts, seri, oynatma listesi, topluluk ve repurposing kararlarını kanal mimarisine bağlamak.",
+      "Kendi YouTube Studio verilerini kullanmak ve güncel platform özelliklerini yayın öncesi resmî kaynaklardan doğrulamak."
+    ],
+    "seo_description": "YouTube üreticileri için kanal stratejisi, izleyici niyeti, araştırma, başlık, thumbnail, senaryo, retention, Shorts, topluluk, repurposing ve analitik odaklı uygulanabilir yapay zekâ promptları.",
+    "source_reviewed": true,
+    "subtitle": "Kanal Stratejisi, Araştırma, Başlık, Thumbnail, Senaryo, Retention, Shorts, Topluluk, Repurposing ve Kanal Analizi İçin Kopyala-Uyarla Prompt Kütüphanesi",
+    "summary": "YouTube İçerik Üreticileri İçin Yapay Zekâ Promptları, tek tek video metni üretmek yerine kanalı bir sistem olarak ele alır. Kitap; kanal kimliği ve konumlandırma, izleyici problemi ve izleme niyeti, içerik sütunları, araştırma ve konu doğrulama, başlık-thumbnail paketi, senaryo, retention, Shorts, seri ve oynatma listeleri, topluluk, repurposing ve kanal analizi gibi kararları gerçek kanal bağlamıyla birlikte çalıştırmak için tasarlanmıştır.\n\nPromptlar, modelin kişisel deneyim, performans verisi veya güncel platform kuralı uydurmasını engelleyen koruma kuralları içerir. YouTube Studio verileri, gerçek yorumlar, üretim kapasitesi, süre, ekipman ve marka sınırları gibi değişkenler bağlama eklenir; başlık, thumbnail, açılış, senaryo ve CTA'nın aynı cümleyi tekrar etmek yerine videonun vaadini birlikte taşıması hedeflenir. Shorts ayrı bir araçtır; kitabın odağı bütün kanal mimarisidir.",
+    "target_audience": "YouTube kanalını rastgele videolar yerine sürdürülebilir bir sistem olarak kurmak isteyen içerik üreticileri, eğitimciler, uzmanlar ve küçük ekipler için.",
+    "title": "YouTube İçerik Üreticileri İçin Yapay Zekâ Promptları"
   },
   "yuksek-cozunurluklu-zihin": {
     "category": "Psikoloji ve Özfarkındalık",
