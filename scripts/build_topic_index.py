@@ -17,12 +17,12 @@ END = "<!-- topic-index-link:end -->"
 
 GROUPS = [
     ("Trading & Markets", "trading-markets", ("trading", "smart money", "wyckoff", "forex", "futures", "options trading", "market structure", "scalping", "volume profile", "macd", "liquidity", "order block", "fair value gap", "ict", "silver bullet", "turtle soup", "smt")),
-    ("Artificial Intelligence & Prompt Engineering", "ai-prompt-engineering", ("artificial intelligence", "ai &", "ai ", "prompt", "machine learning", "generative ai", "llm", "chatgpt", "claude", "gemini", "agent", "rag")),
+    ("Artificial Intelligence & Prompt Engineering", "ai-prompt-engineering", ("artificial intelligence", "ai", "prompt", "machine learning", "generative ai", "llm", "chatgpt", "claude", "gemini", "agent", "rag")),
     ("Business, Marketing & E-Commerce", "business-marketing-ecommerce", ("business", "marketing", "e-commerce", "ecommerce", "entrepreneur", "sales", "seller", "commerce")),
     ("Turkish Language Learning", "turkish-language", ("turkish language", "turkish a1", "turkish a2", "visual grammar", "grammar book booster", "language learning")),
     ("Technology, Software & Data", "technology-software-data", ("software", "programming", "developer", "web development", "data science", "technology", "api", "coding")),
     ("Literature, Poetry & Classics", "literature-poetry-classics", ("literature", "poetry", "poem", "classic", "fiction", "novel", "shahnameh", "rumi", "hafez", "khayyam")),
-    ("Mindfulness, Psychology & Personal Growth", "mindfulness-psychology-growth", ("mindfulness", "psychology", "personal growth", "self-help", "meditation", "zen", "mental", "habit", "motivation")),
+    ("Mindfulness, Psychology & Personal Growth", "mindfulness-psychology-growth", ("mindfulness", "psychology", "personal growth", "self-help", "meditation", "zen", "mental", "habit", "motivation", "productivity")),
     ("Money, Economics & Financial Life", "money-economics", ("economics", "economic", "money", "poverty", "financial life", "personal finance", "wealth")),
 ]
 FALLBACK = ("Other Books", "other-books")
@@ -72,19 +72,24 @@ def merged_books():
 
 
 def searchable_text(book):
-    # Classify from explicit catalog metadata first. Avoid long summaries here because
-    # incidental words such as "options" or "market" can put an unrelated book in
-    # the wrong subject. Title + key topics provide a controlled fallback for legacy
-    # records whose category is still General.
+    # Prefer controlled catalog metadata. Long summaries are intentionally excluded
+    # because incidental words can otherwise move unrelated books into the wrong topic.
     values = [book.get("category"), book.get("title")]
     values.extend(book.get("key_topics") or [])
     return " ".join(str(v or "") for v in values).lower()
 
 
+def has_term(text, term):
+    # Match complete words/phrases rather than arbitrary substrings. This prevents
+    # short labels such as ICT, AI, RAG or API from matching inside unrelated words.
+    pattern = r"(?<![a-z0-9])" + re.escape(term.lower()) + r"(?![a-z0-9])"
+    return re.search(pattern, text) is not None
+
+
 def classify(book):
     text = searchable_text(book)
     for label, anchor, needles in GROUPS:
-        if any(needle in text for needle in needles):
+        if any(has_term(text, needle) for needle in needles):
             return label, anchor
     return FALLBACK
 
