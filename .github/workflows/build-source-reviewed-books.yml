@@ -7,7 +7,9 @@ on:
       - "books/catalog-additions.json"
       - "books/source_reviews/**"
       - "books/source-reviewed-extra.json"
+      - "books/library-source-enriched.json"
       - "scripts/merge_catalog_additions.py"
+      - "scripts/apply_library_source_enrichment.py"
       - "scripts/build_books.py"
       - "scripts/seo_books.py"
       - "scripts/clean_public_book_pages.py"
@@ -44,6 +46,7 @@ jobs:
           python scripts/merge_catalog_additions.py
           python scripts/build_books.py
           python scripts/seo_books.py
+          python scripts/apply_library_source_enrichment.py
           python scripts/clean_public_book_pages.py
           python scripts/add_google_books_previews.py
           python scripts/add_author_links.py
