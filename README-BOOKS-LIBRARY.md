@@ -2,6 +2,16 @@
 
 Initial scalable library generated from 138 unique Google Books links.
 
+## DOI and citation
+
+This books-library project is archived as part of the official `FaramarzKowsari.github.io` repository on Zenodo.
+
+- **Concept DOI — all versions:** https://doi.org/10.5281/zenodo.23046366
+- **Version DOI — v1.0.0:** https://doi.org/10.5281/zenodo.23046367
+- **Author ORCID:** https://orcid.org/0000-0003-1692-0453
+
+Use the Concept DOI when referring to the evolving website/books-library project as a whole, and the version DOI when citing the archived `v1.0.0` release specifically.
+
 ## What is included
 - Searchable `/books/` index
 - 138 unique book URLs
