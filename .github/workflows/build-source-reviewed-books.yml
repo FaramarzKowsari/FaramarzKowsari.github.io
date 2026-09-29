@@ -7,7 +7,7 @@ on:
       - "books/catalog-additions.json"
       - "books/source_reviews/**"
       - "books/source-reviewed-extra.json"
-      - "books/library-source-enriched.json"
+      - "books/library-source-enriched*.json"
       - "scripts/merge_catalog_additions.py"
       - "scripts/apply_library_source_enrichment.py"
       - "scripts/build_books.py"
