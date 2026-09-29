@@ -6,23 +6,23 @@
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="author" content="Faramarz Kowsari">
 <title>CRYPTO LIQUIDATION HEATMAPS | Faramarz Kowsari</title>
-<meta name="description" content="A practical crypto liquidation heatmap guide covering realized and projected liquidations, clusters, open interest, funding, order-book depth, cascades, setups and risk.">
+<meta name="description" content="A practical guide to crypto liquidation heatmaps covering realized versus projected liquidations, cluster interpretation, open interest, funding, CVD, market structure, cascades, setups, risk and testing.">
 <link rel="canonical" href="https://faramarzkowsari.github.io/books/crypto-liquidation-heatmaps/">
 <link rel="sitemap" type="application/xml" href="../sitemap.xml">
 <meta property="og:type" content="book">
 <meta property="og:site_name" content="Faramarz Kowsari Books">
 <meta property="og:title" content="CRYPTO LIQUIDATION HEATMAPS">
-<meta property="og:description" content="A practical crypto liquidation heatmap guide covering realized and projected liquidations, clusters, open interest, funding, order-book depth, cascades, setups and risk.">
+<meta property="og:description" content="A practical guide to crypto liquidation heatmaps covering realized versus projected liquidations, cluster interpretation, open interest, funding, CVD, market structure, cascades, setups, risk and testing.">
 <meta property="og:url" content="https://faramarzkowsari.github.io/books/crypto-liquidation-heatmaps/">
 <meta property="og:image" content="https://books.google.com/books/content?id=eScOEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
 <meta property="og:image:alt" content="Cover of CRYPTO LIQUIDATION HEATMAPS by Faramarz Kowsari">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="CRYPTO LIQUIDATION HEATMAPS">
-<meta name="twitter:description" content="A practical crypto liquidation heatmap guide covering realized and projected liquidations, clusters, open interest, funding, order-book depth, cascades, setups and risk.">
+<meta name="twitter:description" content="A practical guide to crypto liquidation heatmaps covering realized versus projected liquidations, cluster interpretation, open interest, funding, CVD, market structure, cascades, setups, risk and testing.">
 <meta name="twitter:image" content="https://books.google.com/books/content?id=eScOEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
 <link rel="stylesheet" href="../styles.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "CRYPTO LIQUIDATION HEATMAPS", "author": {"@type": "Person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/"}, "inLanguage": "en", "description": "A practical crypto liquidation heatmap guide covering realized and projected liquidations, clusters, open interest, funding, order-book depth, cascades, setups and risk.", "url": "https://faramarzkowsari.github.io/books/crypto-liquidation-heatmaps/", "sameAs": "https://play.google.com/store/books/details?id=eScOEgAAQBAJ", "alternateName": "Trading with Liquidation Heatmaps", "image": "https://books.google.com/books/content?id=eScOEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "CRYPTO LIQUIDATION HEATMAPS", "author": {"@type": "Person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/"}, "inLanguage": "en", "description": "A practical guide to crypto liquidation heatmaps covering realized versus projected liquidations, cluster interpretation, open interest, funding, CVD, market structure, cascades, setups, risk and testing.", "url": "https://faramarzkowsari.github.io/books/crypto-liquidation-heatmaps/", "sameAs": "https://play.google.com/store/books/details?id=eScOEgAAQBAJ", "alternateName": "Trading with Liquidation Heatmaps", "image": "https://books.google.com/books/content?id=eScOEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api", "about": ["Liquidation heatmaps", "Projected liquidation levels", "Realized liquidations", "Open interest", "Funding rates", "CVD and volume", "Liquidation cascades", "Market structure", "Risk management", "Backtesting and journaling"], "audience": {"@type": "Audience", "audienceType": "For crypto futures and perpetual traders who use liquidation maps and want to integrate them with structure, positioning and risk rather than trade heatmap colors in isolation."}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Books", "item": "https://faramarzkowsari.github.io/books/"}, {"@type": "ListItem", "position": 3, "name": "CRYPTO LIQUIDATION HEATMAPS", "item": "https://faramarzkowsari.github.io/books/crypto-liquidation-heatmaps/"}]}</script>
 </head>
 <body>
@@ -55,8 +55,32 @@
 
 
   <section class="section"><h2>About this book</h2>
-    <p>A practical crypto liquidation heatmap guide covering realized and projected liquidations, clusters, open interest, funding, order-book depth, cascades, setups and risk.</p>
+    <p>Crypto Liquidation Heatmaps explains what a liquidation heatmap can and cannot tell a trader. It separates realized liquidations from model-projected liquidation levels and from ordinary order-book liquidity, then examines how heatmap providers construct estimates from leverage assumptions, price paths and incomplete public information. Bright clusters are treated as conditional stress zones rather than guaranteed magnets or future price targets.</p>
+    <p>The book develops a full trading workflow around cluster distance, density, open interest, funding, volume and CVD, market structure, cascades, continuation and reversal hypotheses. It includes setup logic, no-trade conditions, stops, position sizing, case studies, a checklist, journaling and playbook construction. The aim is to use heatmaps as one evidence layer in a risk-controlled process while keeping model uncertainty visible.</p>
   </section>
+
+  <section class="section"><h2>What you will learn</h2><ul>
+      <li>Distinguish realized liquidations, projected liquidation levels and order-book liquidity.</li>
+      <li>Understand why different heatmap providers can show different clusters for the same market.</li>
+      <li>Read cluster distance and density alongside open interest, funding, volume, CVD and market structure.</li>
+      <li>Separate cascade, continuation, reversal and no-trade hypotheses instead of assuming every bright area is a magnet.</li>
+      <li>Build risk-controlled setups with explicit invalidation, sizing, journaling and review.</li>
+    </ul></section>
+
+  <section class="section"><h2>Key topics</h2><ul>
+      <li>Liquidation heatmaps</li>
+      <li>Projected liquidation levels</li>
+      <li>Realized liquidations</li>
+      <li>Open interest</li>
+      <li>Funding rates</li>
+      <li>CVD and volume</li>
+      <li>Liquidation cascades</li>
+      <li>Market structure</li>
+      <li>Risk management</li>
+      <li>Backtesting and journaling</li>
+    </ul></section>
+
+  <section class="section"><h2>Who this book is for</h2><p>For crypto futures and perpetual traders who use liquidation maps and want to integrate them with structure, positioning and risk rather than trade heatmap colors in isolation.</p></section>
 
   <section class="section"><h2>Related books</h2><ul>
       <li><a href="../supply-and-demand-zones/">SUPPLY AND DEMAND ZONES</a></li>

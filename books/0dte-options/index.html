@@ -6,23 +6,23 @@
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="author" content="Faramarz Kowsari">
 <title>0DTE Options: Trading the Same-Day Market | Faramarz Kowsari</title>
-<meta name="description" content="A practical 0DTE options guide covering the option chain, Delta, Gamma, Theta, Vega, market structure, spreads, volatility strategies, execution, expiration risk, sizing and review.">
+<meta name="description" content="A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools.">
 <link rel="canonical" href="https://faramarzkowsari.github.io/books/0dte-options/">
 <link rel="sitemap" type="application/xml" href="../sitemap.xml">
 <meta property="og:type" content="book">
 <meta property="og:site_name" content="Faramarz Kowsari Books">
 <meta property="og:title" content="0DTE Options: Trading the Same-Day Market">
-<meta property="og:description" content="A practical 0DTE options guide covering the option chain, Delta, Gamma, Theta, Vega, market structure, spreads, volatility strategies, execution, expiration risk, sizing and review.">
+<meta property="og:description" content="A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools.">
 <meta property="og:url" content="https://faramarzkowsari.github.io/books/0dte-options/">
 <meta property="og:image" content="https://books.google.com/books/content?id=QJ0MEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
 <meta property="og:image:alt" content="Cover of 0DTE Options: Trading the Same-Day Market by Faramarz Kowsari">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="0DTE Options: Trading the Same-Day Market">
-<meta name="twitter:description" content="A practical 0DTE options guide covering the option chain, Delta, Gamma, Theta, Vega, market structure, spreads, volatility strategies, execution, expiration risk, sizing and review.">
+<meta name="twitter:description" content="A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools.">
 <meta name="twitter:image" content="https://books.google.com/books/content?id=QJ0MEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
 <link rel="stylesheet" href="../styles.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "0DTE Options: Trading the Same-Day Market", "author": {"@type": "Person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/"}, "inLanguage": "en", "description": "A practical 0DTE options guide covering the option chain, Delta, Gamma, Theta, Vega, market structure, spreads, volatility strategies, execution, expiration risk, sizing and review.", "url": "https://faramarzkowsari.github.io/books/0dte-options/", "sameAs": "https://play.google.com/store/books/details?id=QJ0MEgAAQBAJ", "alternateName": "A Practical Guide to Same-Day Options, Greeks, Market Structure, Execution, Risk Control, and High-Speed Decision-Making", "image": "https://books.google.com/books/content?id=QJ0MEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api", "datePublished": "2026", "about": ["0DTE options", "Option chains", "Delta", "Gamma", "Theta", "Vega", "Implied volatility", "Market structure", "Directional calls and puts", "Debit spreads", "Credit spreads", "Iron condors", "Butterflies", "Straddles and strangles", "Momentum and mean reversion", "Execution and slippage", "Assignment and settlement", "Position sizing", "Backtesting and journaling"], "audience": {"@type": "Audience", "audienceType": "For options traders who understand basic calls and puts and want a structured guide to the mechanics, strategy choices, execution constraints and risk discipline specific to same-day expiration."}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "0DTE Options: Trading the Same-Day Market", "author": {"@type": "Person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/"}, "inLanguage": "en", "description": "A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools.", "url": "https://faramarzkowsari.github.io/books/0dte-options/", "sameAs": "https://play.google.com/store/books/details?id=QJ0MEgAAQBAJ", "alternateName": "A Practical Guide to Same-Day Options, Greeks, Market Structure, Execution, Risk Control, and High-Speed Decision-Making", "image": "https://books.google.com/books/content?id=QJ0MEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api", "datePublished": "2026", "about": ["0DTE options", "Same-day expiration", "Option Greeks", "Market structure", "Options execution", "Risk control", "Trade structures", "Expiration mechanics", "Decision-making", "Session review"], "audience": {"@type": "Audience", "audienceType": "For options traders who want a structured introduction to same-day expiration, including mechanics, execution and risk rather than a collection of high-speed trade calls."}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Books", "item": "https://faramarzkowsari.github.io/books/"}, {"@type": "ListItem", "position": 3, "name": "0DTE Options: Trading the Same-Day Market", "item": "https://faramarzkowsari.github.io/books/0dte-options/"}]}</script>
 </head>
 <body>
@@ -55,44 +55,32 @@
 
 
   <section class="section"><h2>About this book</h2>
-    <p>0DTE Options: Trading the Same-Day Market treats zero-days-to-expiration options as a compressed decision environment in which market, execution and behavioral risk unfold quickly. The first part builds the mechanics of same-day contracts, the option chain and the Greeks—Delta, Gamma, Theta and Vega—before connecting option selection to the underlying market structure and the changing character of the trading day from the opening phase through the final hour and expiration.</p>
-    <p>The strategy chapters cover directional calls and puts, debit and credit spreads, iron condors, butterflies and broken-wing butterflies, straddles, strangles, event-day volatility, momentum, breakout, continuation and mean-reversion setups. Later sections treat execution as part of the strategy, including bid-ask spread and slippage, as well as exercise, assignment, settlement, position sizing, daily loss limits, backtesting, expectancy, drawdown, MAE/MFE, psychology and journaling. The book’s operating principle is that the shortest expiration does not simplify the trade; it removes the time that can hide weak decisions.</p>
+    <p>0DTE Options: Trading the Same-Day Market explains how same-day expiration compresses option mechanics, market movement, execution risk and behavioral pressure into a very short decision horizon. The first part builds the language of 0DTE and the Greeks; the middle converts those mechanics into structures and market contexts; the final part integrates execution, risk, evidence and trader behavior rather than treating them as separate subjects.</p>
+    <p>The book emphasizes that the shortest expiration does not simplify trading—it removes time that might otherwise hide weak decisions. Hypothetical examples are presented as educational mechanics rather than expected returns, while changing contract specifications, settlement conventions, trading hours and broker rules are flagged for verification. Reusable appendices support preparation, execution and post-session review.</p>
   </section>
 
   <section class="section"><h2>What you will learn</h2><ul>
-      <li>Understand what changes when an option is opened and expires on the same trading day.</li>
-      <li>Read an option chain without losing sight of liquidity, spread and the underlying market.</li>
-      <li>Use Delta, Gamma, Theta and Vega as interacting exposures rather than isolated definitions.</li>
-      <li>Match directional, spread, range and event-volatility structures to a clearly stated market thesis.</li>
-      <li>Account for the way opening conditions, midday decay and the final hour change the decision environment.</li>
-      <li>Treat execution quality, bid-ask spread, slippage, exercise, assignment and settlement as part of the strategy.</li>
-      <li>Size risk and enforce daily loss limits in a market where exposure can change rapidly.</li>
-      <li>Evaluate strategies with realistic fills, costs, expectancy, drawdown, MAE/MFE and post-session review.</li>
+      <li>Understand the mechanics and Greeks that become especially important as expiration approaches within the same day.</li>
+      <li>Connect option structures to underlying market context instead of evaluating contracts in isolation.</li>
+      <li>Account for rapid changes in execution quality, spread, slippage and decision speed.</li>
+      <li>Build risk controls appropriate to premium loss and strategy-specific exposure.</li>
+      <li>Use repeatable pre-session, live-session and post-session review tools rather than improvising under time pressure.</li>
     </ul></section>
 
   <section class="section"><h2>Key topics</h2><ul>
       <li>0DTE options</li>
-      <li>Option chains</li>
-      <li>Delta</li>
-      <li>Gamma</li>
-      <li>Theta</li>
-      <li>Vega</li>
-      <li>Implied volatility</li>
+      <li>Same-day expiration</li>
+      <li>Option Greeks</li>
       <li>Market structure</li>
-      <li>Directional calls and puts</li>
-      <li>Debit spreads</li>
-      <li>Credit spreads</li>
-      <li>Iron condors</li>
-      <li>Butterflies</li>
-      <li>Straddles and strangles</li>
-      <li>Momentum and mean reversion</li>
-      <li>Execution and slippage</li>
-      <li>Assignment and settlement</li>
-      <li>Position sizing</li>
-      <li>Backtesting and journaling</li>
+      <li>Options execution</li>
+      <li>Risk control</li>
+      <li>Trade structures</li>
+      <li>Expiration mechanics</li>
+      <li>Decision-making</li>
+      <li>Session review</li>
     </ul></section>
 
-  <section class="section"><h2>Who this book is for</h2><p>For options traders who understand basic calls and puts and want a structured guide to the mechanics, strategy choices, execution constraints and risk discipline specific to same-day expiration.</p></section>
+  <section class="section"><h2>Who this book is for</h2><p>For options traders who want a structured introduction to same-day expiration, including mechanics, execution and risk rather than a collection of high-speed trade calls.</p></section>
 
   <section class="section"><h2>Related books</h2><ul>
       <li><a href="../prop-firm-funded-account-trading/">Prop Firm / Funded Account Trading</a></li>

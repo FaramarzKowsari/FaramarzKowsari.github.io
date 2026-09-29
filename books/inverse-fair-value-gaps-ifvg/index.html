@@ -6,23 +6,23 @@
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="author" content="Faramarz Kowsari">
 <title>Inverse Fair Value Gaps (iFVG) | Faramarz Kowsari</title>
-<meta name="description" content="A practical guide to inverse Fair Value Gaps (iFVG), covering FVG failure, inversion, structure, liquidity, multi-timeframe analysis, entries, invalidation, risk, backtesting and case studies.">
+<meta name="description" content="A practical iFVG trading guide covering FVG anatomy, inversion, structure, liquidity sweeps, displacement, premium/discount, multi-timeframe analysis, entry models, risk, failures and testing.">
 <link rel="canonical" href="https://faramarzkowsari.github.io/books/inverse-fair-value-gaps-ifvg/">
 <link rel="sitemap" type="application/xml" href="../sitemap.xml">
 <meta property="og:type" content="book">
 <meta property="og:site_name" content="Faramarz Kowsari Books">
 <meta property="og:title" content="Inverse Fair Value Gaps (iFVG)">
-<meta property="og:description" content="A practical guide to inverse Fair Value Gaps (iFVG), covering FVG failure, inversion, structure, liquidity, multi-timeframe analysis, entries, invalidation, risk, backtesting and case studies.">
+<meta property="og:description" content="A practical iFVG trading guide covering FVG anatomy, inversion, structure, liquidity sweeps, displacement, premium/discount, multi-timeframe analysis, entry models, risk, failures and testing.">
 <meta property="og:url" content="https://faramarzkowsari.github.io/books/inverse-fair-value-gaps-ifvg/">
 <meta property="og:image" content="https://books.google.com/books/content?id=vtoMEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
 <meta property="og:image:alt" content="Cover of Inverse Fair Value Gaps (iFVG) by Faramarz Kowsari">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Inverse Fair Value Gaps (iFVG)">
-<meta name="twitter:description" content="A practical guide to inverse Fair Value Gaps (iFVG), covering FVG failure, inversion, structure, liquidity, multi-timeframe analysis, entries, invalidation, risk, backtesting and case studies.">
+<meta name="twitter:description" content="A practical iFVG trading guide covering FVG anatomy, inversion, structure, liquidity sweeps, displacement, premium/discount, multi-timeframe analysis, entry models, risk, failures and testing.">
 <meta name="twitter:image" content="https://books.google.com/books/content?id=vtoMEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
 <link rel="stylesheet" href="../styles.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "Inverse Fair Value Gaps (iFVG)", "author": {"@type": "Person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/"}, "inLanguage": "en", "description": "A practical guide to inverse Fair Value Gaps (iFVG), covering FVG failure, inversion, structure, liquidity, multi-timeframe analysis, entries, invalidation, risk, backtesting and case studies.", "url": "https://faramarzkowsari.github.io/books/inverse-fair-value-gaps-ifvg/", "sameAs": "https://play.google.com/store/books/details?id=vtoMEgAAQBAJ", "alternateName": "Inverse Fair Value Gap Trading", "image": "https://books.google.com/books/content?id=vtoMEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api", "datePublished": "2026", "about": ["Fair Value Gaps", "Inverse Fair Value Gaps (iFVG)", "FVG violation and role reversal", "Bullish and bearish iFVGs", "Market structure", "Liquidity sweeps", "Premium and discount", "Dealing ranges", "Multi-timeframe analysis", "Entry models", "Invalidation and targets", "Confluence", "Failure modes", "Backtesting and case studies"], "audience": {"@type": "Audience", "audienceType": "For SMC, ICT-style and price-action traders who already understand basic Fair Value Gaps and want a stricter framework for role reversal, multi-timeframe execution, failure analysis and risk-defined testing."}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "Inverse Fair Value Gaps (iFVG)", "author": {"@type": "Person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/"}, "inLanguage": "en", "description": "A practical iFVG trading guide covering FVG anatomy, inversion, structure, liquidity sweeps, displacement, premium/discount, multi-timeframe analysis, entry models, risk, failures and testing.", "url": "https://faramarzkowsari.github.io/books/inverse-fair-value-gaps-ifvg/", "sameAs": "https://play.google.com/store/books/details?id=vtoMEgAAQBAJ", "alternateName": "Inverse Fair Value Gap Trading", "image": "https://books.google.com/books/content?id=vtoMEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api", "datePublished": "2026", "about": ["Inverse Fair Value Gaps", "Fair Value Gap anatomy", "Market structure", "Liquidity sweeps", "Displacement", "Premium and discount", "Multi-timeframe analysis", "Entry models", "Failure modes", "Backtesting"], "audience": {"@type": "Audience", "audienceType": "For SMC and ICT-style traders who already understand basic FVGs and want a structured approach to inversion, execution and failure analysis."}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Books", "item": "https://faramarzkowsari.github.io/books/"}, {"@type": "ListItem", "position": 3, "name": "Inverse Fair Value Gaps (iFVG)", "item": "https://faramarzkowsari.github.io/books/inverse-fair-value-gaps-ifvg/"}]}</script>
 </head>
 <body>
@@ -55,38 +55,32 @@
 
 
   <section class="section"><h2>About this book</h2>
-    <p>Inverse Fair Value Gaps (iFVG) begins where an ordinary Fair Value Gap fails. The book defines the original three-candle FVG geometry, then follows the sequence that can turn a violated imbalance into an inverse zone. A bullish iFVG is treated as a former bearish FVG reclaimed to the upside and evaluated from above; a bearish iFVG is the mirror case. The emphasis is on observable sequence rather than storytelling: what formed, what violated it, whether price accepted on the other side, and what would invalidate the new interpretation.</p>
-    <p>The framework then adds market structure, liquidity references, premium and discount location, dealing ranges and timeframe hierarchy. Higher timeframes are used for context while execution timeframes answer the narrower entry question. Three entry models, stops, targets, failure modes, backtesting, a complete process and eight case studies turn the visual pattern into a falsifiable trading rule rather than a colored rectangle.</p>
+    <p>Inverse Fair Value Gaps (iFVG) starts with ordinary Fair Value Gap geometry and asks what changes when the original imbalance loses its role and price establishes itself on the opposite side. The useful information is the failed expectation, not merely a rectangle changing color. The book defines bullish and bearish iFVGs, then connects inversion to market structure, liquidity sweeps, displacement, premium/discount and dealing-range location.</p>
+    <p>Multi-timeframe analysis leads into three practical entry models, stops, invalidation, targets, risk and confluence without indicator overload. Four market environments, false iFVGs, failure modes, backtesting, a complete process and eight case studies keep the framework testable. FVG, iFVG, MSS and BOS are treated as practitioner terms whose exact conventions must be stated rather than assumed universal.</p>
   </section>
 
   <section class="section"><h2>What you will learn</h2><ul>
-      <li>Define bullish and bearish FVGs before deciding whether an inversion has occurred.</li>
-      <li>Identify the exact violation and acceptance sequence that can turn a prior imbalance into an inverse zone.</li>
-      <li>Connect iFVGs to market structure, liquidity, dealing-range location and premium or discount context.</li>
-      <li>Assign different jobs to higher, execution and lower timeframes without changing the controlling thesis after entry.</li>
-      <li>Use pre-defined entry models with explicit cancellation and invalidation conditions.</li>
-      <li>Separate zone quality from trade quality when nearby objectives, repeated tests, volatility or range location weaken the setup.</li>
-      <li>Backtest iFVGs with fixed definitions, failure examples and case-study comparison instead of hindsight.</li>
+      <li>Define ordinary FVG geometry before deciding whether an imbalance has truly inverted.</li>
+      <li>Read an iFVG as a failed prior expectation plus new observable price behavior.</li>
+      <li>Combine iFVGs with structure, liquidity, displacement and premium/discount without treating confluence as certainty.</li>
+      <li>Compare three entry models with explicit stops, invalidation, targets and risk.</li>
+      <li>Backtest false iFVGs and failure modes as carefully as successful examples.</li>
     </ul></section>
 
   <section class="section"><h2>Key topics</h2><ul>
-      <li>Fair Value Gaps</li>
-      <li>Inverse Fair Value Gaps (iFVG)</li>
-      <li>FVG violation and role reversal</li>
-      <li>Bullish and bearish iFVGs</li>
+      <li>Inverse Fair Value Gaps</li>
+      <li>Fair Value Gap anatomy</li>
       <li>Market structure</li>
       <li>Liquidity sweeps</li>
+      <li>Displacement</li>
       <li>Premium and discount</li>
-      <li>Dealing ranges</li>
       <li>Multi-timeframe analysis</li>
       <li>Entry models</li>
-      <li>Invalidation and targets</li>
-      <li>Confluence</li>
       <li>Failure modes</li>
-      <li>Backtesting and case studies</li>
+      <li>Backtesting</li>
     </ul></section>
 
-  <section class="section"><h2>Who this book is for</h2><p>For SMC, ICT-style and price-action traders who already understand basic Fair Value Gaps and want a stricter framework for role reversal, multi-timeframe execution, failure analysis and risk-defined testing.</p></section>
+  <section class="section"><h2>Who this book is for</h2><p>For SMC and ICT-style traders who already understand basic FVGs and want a structured approach to inversion, execution and failure analysis.</p></section>
 
   <section class="section"><h2>Related books</h2><ul>
       <li><a href="../fair-value-gaps/">Fair Value Gaps</a></li>
