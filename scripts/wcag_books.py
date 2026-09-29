@@ -19,6 +19,9 @@ def improve_cover_alts(text):
             return tag
         old_alt = html.unescape(alt_match.group(1)).strip()
         title = re.sub(r'\s+book cover$', '', old_alt, flags=re.I).strip()
+        if old_alt.lower().startswith("book cover of "):
+            title = re.sub(r'^Book cover of\s+', '', old_alt, flags=re.I)
+            title = re.sub(r'\s+by Faramarz Kowsari$', '', title, flags=re.I).strip()
         if not title:
             return tag
         new_alt = html.escape(f"Book cover of {title} by Faramarz Kowsari", quote=True)
@@ -30,7 +33,7 @@ def improve_cover_alts(text):
 def label_cover_links(text):
     # Give the linked cover a functional accessible name distinct from its image description.
     pattern = re.compile(
-        r'<a href="(\./[^\"]+/)"><img class="cover"([^>]*)alt="([^"]+)"([^>]*)></a>',
+        r'<a href="(\./[^\"]+/)"(?:\s+aria-label="[^"]*")?><img class="cover"([^>]*)alt="([^"]+)"([^>]*)></a>',
         re.I,
     )
 
@@ -51,6 +54,20 @@ def update_index():
     text = INDEX.read_text(encoding="utf-8")
     original = text
 
+    # Social preview image descriptions.
+    if 'property="og:image:alt"' not in text:
+        text = text.replace(
+            '<meta property="og:image" content="https://github.com/FaramarzKowsari.png">',
+            '<meta property="og:image" content="https://github.com/FaramarzKowsari.png"><meta property="og:image:alt" content="Portrait of Faramarz Kowsari, author of the books in this catalog">',
+            1,
+        )
+    if 'name="twitter:image:alt"' not in text:
+        text = text.replace(
+            '<meta name="twitter:image" content="https://github.com/FaramarzKowsari.png">',
+            '<meta name="twitter:image" content="https://github.com/FaramarzKowsari.png"><meta name="twitter:image:alt" content="Portrait of Faramarz Kowsari, author of the books in this catalog">',
+            1,
+        )
+
     # Keyboard bypass and programmatic main target.
     if 'class="skip-link"' not in text:
         text = text.replace('<body>', '<body><a class="skip-link" href="#main-content">Skip to book catalog</a>', 1)
@@ -58,8 +75,8 @@ def update_index():
 
     # Named catalog section and an explicit form label for search.
     text = re.sub(
-        r'<section><h2>Source-reviewed book pages</h2>',
-        '<section aria-labelledby="book-catalog-title"><h2 id="book-catalog-title">Book catalog</h2>',
+        r'<section><h2>(?:Source-reviewed book pages|Explore the book collection|Book catalog)</h2>',
+        '<section aria-labelledby="book-catalog-title"><h2 id="book-catalog-title">Explore the book collection</h2>',
         text,
         count=1,
     )
@@ -84,18 +101,12 @@ def update_index():
     text = improve_cover_alts(text)
     text = label_cover_links(text)
 
-    # Make button/link text more specific when repeated across many cards.
-    def button_repl(match):
-        href, title = match.groups()
-        safe_title = html.escape(html.unescape(title), quote=True)
-        return f'<a class="btn" href="{href}" aria-label="View book: {safe_title}">View book</a>'
-
-    # Use the card heading to infer each repeated button's accessible name.
+    # Use the card heading to give each repeated button a unique accessible name.
     card_pattern = re.compile(r'(<article class="card".*?</article>)', re.S)
     def card_repl(match):
         block = match.group(1)
         h = re.search(r'<h2><a href="[^"]+">(.*?)</a></h2>', block, re.S)
-        b = re.search(r'<a class="btn" href="([^"]+)">View book</a>', block)
+        b = re.search(r'<a class="btn" href="([^"]+)"(?: aria-label="[^"]*")?>View book</a>', block)
         if not h or not b:
             return block
         title = re.sub(r'<[^>]+>', ' ', h.group(1))
