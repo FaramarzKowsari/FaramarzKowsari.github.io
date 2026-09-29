@@ -177,8 +177,8 @@ document.getElementById("year").textContent = new Date().getFullYear();
           <p>${escapeHtml(repo.description || "Public GitHub repository by Faramarz Kowsari.")}</p>
           ${topics ? `<div class="tags">${topics}</div>` : ""}
           <div class="project-links">
-            ${live ? `<a href="${escapeHtml(live)}">Live site →</a>` : ""}
-            <a href="${escapeHtml(repo.html_url)}">Repository</a>
+            ${live ? `<a href="${escapeHtml(live)}" aria-label="Open live site for ${escapeHtml(prettyName(repo.name))}">Live site →</a>` : ""}
+            <a href="${escapeHtml(repo.html_url)}" aria-label="Open GitHub repository for ${escapeHtml(prettyName(repo.name))}">Repository</a>
           </div>
         </article>`;
     }).join("");
