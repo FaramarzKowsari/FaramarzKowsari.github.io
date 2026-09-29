@@ -2,12 +2,18 @@ cff-version: 1.2.0
 title: "Faramarz Kowsari Official Website and Multilingual Books Library"
 version: 1.0.0
 type: software
+doi: "10.5281/zenodo.23046367"
+date-released: "2026-09-29"
 abstract: "Official GitHub Pages website and multilingual books library of Faramarz Kowsari. The repository contains structured book metadata, permanent book landing pages, topic-based navigation, author pages, Google Books integration, SEO tooling, accessibility improvements, and automated publishing workflows."
-message: "If you use or reference this repository, please cite it using the metadata below."
+message: "If you use or reference release v1.0.0 of this repository, please cite the version DOI 10.5281/zenodo.23046367. For the evolving project across all versions, use the Concept DOI 10.5281/zenodo.23046366."
 authors:
   - given-names: Faramarz
     family-names: Kowsari
     orcid: "https://orcid.org/0000-0003-1692-0453"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23046366"
+    description: "Zenodo Concept DOI for all versions of this project"
 keywords:
   - digital publishing
   - multilingual books
