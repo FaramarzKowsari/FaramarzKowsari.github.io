@@ -15,6 +15,7 @@ on:
       - "scripts/add_author_links.py"
       - "scripts/build_topic_index.py"
       - "scripts/wcag_books.py"
+      - "scripts/brand_social_preview.py"
       - ".github/workflows/build-source-reviewed-books.yml"
 
 permissions:
@@ -48,6 +49,7 @@ jobs:
           python scripts/add_author_links.py
           python scripts/build_topic_index.py
           python scripts/wcag_books.py
+          python scripts/brand_social_preview.py
 
       - name: Commit generated book files
         shell: bash
