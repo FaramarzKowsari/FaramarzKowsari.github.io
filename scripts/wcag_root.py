@@ -64,6 +64,20 @@ def update_index():
         count=1,
     )
 
+    # Social image alternatives help link-preview systems understand the image purpose.
+    if 'property="og:image:alt"' not in text:
+        text = text.replace(
+            '<meta property="og:image" content="https://github.com/FaramarzKowsari.png">',
+            '<meta property="og:image" content="https://github.com/FaramarzKowsari.png">\n  <meta property="og:image:alt" content="Portrait of Faramarz Kowsari, author, software engineer and AI researcher">',
+            1,
+        )
+    if 'name="twitter:image:alt"' not in text:
+        text = text.replace(
+            '<meta name="twitter:image" content="https://github.com/FaramarzKowsari.png">',
+            '<meta name="twitter:image" content="https://github.com/FaramarzKowsari.png">\n  <meta name="twitter:image:alt" content="Portrait of Faramarz Kowsari, author, software engineer and AI researcher">',
+            1,
+        )
+
     # The homepage currently has one meaningful content image: the author portrait.
     text = text.replace(
         'alt="Portrait of Faramarz Kowsari"',
@@ -75,7 +89,8 @@ def update_index():
         1,
     )
 
-    # Associate major regions with their headings.
+    # Make the skip-link destination focusable and associate major regions with headings.
+    text = text.replace('<main id="main">', '<main id="main" tabindex="-1">', 1)
     text = re.sub(
         r'<section class="hero container">',
         '<section class="hero container" aria-labelledby="page-title">',
