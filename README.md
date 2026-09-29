@@ -1,5 +1,7 @@
 # Faramarz Kowsari — Official Website & Books Library
 
+[![DOI](https://zenodo.org/badge/1305358280.svg)](https://doi.org/10.5281/zenodo.23046366)
+
 This repository powers the official website and multilingual book catalog of **Faramarz Kowsari**, an Istanbul-based author, researcher, software engineer, and AI-focused educator.
 
 The project publishes permanent, crawlable pages for books across artificial intelligence, trading, data science, business, personal finance, psychology, mindfulness, personal development, language learning, and related subjects.
@@ -11,6 +13,19 @@ The project publishes permanent, crawlable pages for books across artificial int
 - Browse books by topic: https://faramarzkowsari.github.io/books/topics/
 - Author profile: https://faramarzkowsari.github.io/books/author/
 - Google Books catalog: https://play.google.com/store/search?q=Faramarz%20Kowsari&c=books
+
+## DOI and Citation
+
+This repository is archived on Zenodo and has persistent DOI identifiers.
+
+- **Concept DOI — all versions:** https://doi.org/10.5281/zenodo.23046366
+- **Version DOI — v1.0.0:** https://doi.org/10.5281/zenodo.23046367
+- **GitHub release — v1.0.0:** https://github.com/FaramarzKowsari/FaramarzKowsari.github.io/releases/tag/v1.0.0
+- **Author ORCID:** https://orcid.org/0000-0003-1692-0453
+
+For reproducible citation of the archived `v1.0.0` release, use the version DOI. For references to the evolving project across versions, use the Concept DOI.
+
+Machine-readable citation metadata is provided in [`CITATION.cff`](./CITATION.cff).
 
 ## About the Books Library
 
@@ -97,4 +112,5 @@ https://faramarzkowsari.github.io/books/
 
 **Official Books Library:** https://faramarzkowsari.github.io/books/  
 **Browse by Topic:** https://faramarzkowsari.github.io/books/topics/  
-**Author Profile:** https://faramarzkowsari.github.io/books/author/
+**Author Profile:** https://faramarzkowsari.github.io/books/author/  
+**Zenodo Concept DOI:** https://doi.org/10.5281/zenodo.23046366
