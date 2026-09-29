@@ -73,6 +73,23 @@ def update_index():
         text = text.replace('<body>', '<body><a class="skip-link" href="#main-content">Skip to book catalog</a>', 1)
     text = text.replace('<main class="wrap">', '<main class="wrap" id="main-content" tabindex="-1">', 1)
 
+    # Keep the two important internal discovery links prominent at the top of /books/.
+    # This is applied after seo_books.py, so future catalog rebuilds retain the navigation.
+    hero_actions = (
+        '<div class="actions">'
+        '<a class="action primary" href="./topics/" aria-label="Browse Faramarz Kowsari books by topic">Browse books by topic</a>'
+        '<a class="action" href="./author/" aria-label="Read the author profile of Faramarz Kowsari">About the author</a>'
+        '<a class="action" href="https://play.google.com/store/search?q=Faramarz%20Kowsari&c=books" target="_blank" rel="noopener noreferrer">Find Faramarz Kowsari on Google Books</a>'
+        '</div>'
+    )
+    text = re.sub(
+        r'<div class="actions">.*?</div>(?=</header>)',
+        hero_actions,
+        text,
+        count=1,
+        flags=re.S,
+    )
+
     # Named catalog section and an explicit form label for search.
     text = re.sub(
         r'<section><h2>(?:Source-reviewed book pages|Explore the book collection|Book catalog)</h2>',
