@@ -72,6 +72,10 @@ def update_index():
             1,
         )
 
+    # Load the small, dedicated DOI component stylesheet without disturbing the main books CSS.
+    if 'href="./doi.css"' not in text:
+        text = text.replace('</head>', '<link rel="stylesheet" href="./doi.css"></head>', 1)
+
     # Keyboard bypass and programmatic main target.
     if 'class="skip-link"' not in text:
         text = text.replace('<body>', '<body><a class="skip-link" href="#main-content">Skip to book catalog</a>', 1)
