@@ -1,0 +1,64 @@
+.zenodo-doi-card{
+  display:grid;
+  grid-template-columns:auto 1fr;
+  gap:16px 20px;
+  align-items:center;
+  max-width:900px;
+  margin:26px 0 4px;
+  padding:18px 20px;
+  border:1px solid #c7d2fe;
+  border-radius:18px;
+  background:linear-gradient(135deg,#eef2ff 0%,#ffffff 52%,#f0fdf4 100%);
+  box-shadow:0 12px 30px rgba(15,23,42,.07);
+}
+.zenodo-doi-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:44px;
+  padding:8px 10px;
+  border:1px solid #dbe4f0;
+  border-radius:12px;
+  background:#fff;
+  text-decoration:none;
+}
+.zenodo-doi-badge img{
+  display:block;
+  width:auto;
+  max-width:210px;
+  height:20px;
+}
+.zenodo-doi-copy strong{
+  display:block;
+  margin-bottom:3px;
+  color:#111827;
+  font-size:16px;
+}
+.zenodo-doi-copy p{
+  margin:0;
+  color:#4b5563;
+  font-size:14px;
+  line-height:1.6;
+}
+.zenodo-doi-copy a{
+  color:#1d4ed8;
+  font-weight:750;
+  overflow-wrap:anywhere;
+  text-underline-offset:.16em;
+}
+@media(max-width:700px){
+  .zenodo-doi-card{
+    grid-template-columns:1fr;
+    text-align:center;
+    padding:17px;
+  }
+  .zenodo-doi-badge{justify-self:center}
+  .doi-version{display:block;margin-top:3px}
+  .zenodo-doi-copy p>span[aria-hidden="true"]{display:none}
+}
+@media(prefers-contrast:more){
+  .zenodo-doi-card,.zenodo-doi-badge{border-width:2px}
+}
+@media(forced-colors:active){
+  .zenodo-doi-card,.zenodo-doi-badge{forced-color-adjust:auto}
+}
