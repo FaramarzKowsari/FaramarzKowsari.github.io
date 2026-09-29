@@ -11,6 +11,7 @@ on:
       - "scripts/update_project_index.py"
       - "scripts/seo_sitemaps.py"
       - "scripts/seo_root.py"
+      - "scripts/wcag_root.py"
       - ".github/workflows/update-project-index.yml"
   schedule:
     - cron: "*/15 * * * *"
@@ -38,13 +39,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate repository index and SEO sitemaps
+      - name: Generate repository index, SEO and accessibility hardening
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/update_project_index.py
           python scripts/seo_sitemaps.py
           python scripts/seo_root.py
+          python scripts/wcag_root.py
 
       - name: Commit changes if needed
         shell: bash
@@ -52,13 +54,13 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- projects.json sitemap.xml books/sitemap.xml index.html
+          git add -- projects.json sitemap.xml books/sitemap.xml index.html app.js
 
           if git diff --cached --quiet; then
-            echo "No project-index or SEO changes."
+            echo "No project-index, SEO or accessibility changes."
             exit 0
           fi
 
-          git commit -m "chore: refresh project hub and SEO sitemaps"
+          git commit -m "chore: refresh project hub, SEO and accessibility"
           git pull --rebase origin main
           git push origin HEAD:main
