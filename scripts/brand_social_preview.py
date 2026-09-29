@@ -4,9 +4,13 @@
 The repository Social Preview image itself is configured in GitHub Settings by the owner.
 This script reuses the same uploaded image on the public website for Open Graph/Twitter
 sharing metadata and as a visible, accessible gateway to the Books library.
+
+Use --root-only from the project-hub workflow and --books-only from the Books workflow.
+Keeping those scopes separate avoids concurrent workflows leaving unrelated files dirty.
 """
 
 from pathlib import Path
+import argparse
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -125,13 +129,20 @@ def update_topics() -> bool:
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    scope = parser.add_mutually_exclusive_group()
+    scope.add_argument("--root-only", action="store_true", help="Update only the main website entry page")
+    scope.add_argument("--books-only", action="store_true", help="Update only /books/ and /books/topics/")
+    args = parser.parse_args()
+
     changed = []
-    if update_root():
+    if not args.books_only and update_root():
         changed.append("index.html")
-    if update_books_index():
-        changed.append("books/index.html")
-    if update_topics():
-        changed.append("books/topics/index.html")
+    if not args.root_only:
+        if update_books_index():
+            changed.append("books/index.html")
+        if update_topics():
+            changed.append("books/topics/index.html")
     print("Social preview branding updated: " + (", ".join(changed) if changed else "no changes needed"))
 
 
