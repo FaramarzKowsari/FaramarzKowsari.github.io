@@ -72,6 +72,26 @@ def update_index():
             1,
         )
 
+    # Machine-readable metadata for the citable repository/project archive.
+    if 'id="zenodo-project-schema"' not in text:
+        project_schema = (
+            '<script id="zenodo-project-schema" type="application/ld+json">'
+            '{"@context":"https://schema.org","@type":"SoftwareSourceCode",'
+            '"@id":"https://faramarzkowsari.github.io/#source-code",'
+            '"name":"Faramarz Kowsari Official Website and Multilingual Books Library",'
+            '"url":"https://faramarzkowsari.github.io/",'
+            '"codeRepository":"https://github.com/FaramarzKowsari/FaramarzKowsari.github.io",'
+            '"version":"1.0.0","datePublished":"2026-09-29",'
+            '"author":{"@type":"Person","name":"Faramarz Kowsari","sameAs":"https://orcid.org/0000-0003-1692-0453"},'
+            '"identifier":['
+            '{"@type":"PropertyValue","propertyID":"DOI","name":"Zenodo Concept DOI — all versions","value":"' + CONCEPT_DOI + '"},'
+            '{"@type":"PropertyValue","propertyID":"DOI","name":"Zenodo Version DOI — v1.0.0","value":"' + VERSION_DOI + '"}],'
+            '"citation":"https://doi.org/' + VERSION_DOI + '",'
+            '"sameAs":"https://doi.org/' + CONCEPT_DOI + '"}'
+            '</script>'
+        )
+        text = text.replace('</head>', project_schema + '</head>', 1)
+
     # Load the small, dedicated DOI component stylesheet without disturbing the main books CSS.
     if 'href="./doi.css"' not in text:
         text = text.replace('</head>', '<link rel="stylesheet" href="./doi.css"></head>', 1)
