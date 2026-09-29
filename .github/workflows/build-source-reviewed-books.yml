@@ -49,7 +49,7 @@ jobs:
           python scripts/add_author_links.py
           python scripts/build_topic_index.py
           python scripts/wcag_books.py
-          python scripts/brand_social_preview.py
+          python scripts/brand_social_preview.py --books-only
 
       - name: Commit generated book files
         shell: bash
