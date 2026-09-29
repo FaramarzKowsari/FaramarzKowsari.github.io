@@ -64,7 +64,7 @@ def insert_after_breadcrumbs(text, block):
 def main():
     updated = 0
     for path in sorted(BOOKS.glob("*/index.html")):
-        if path.parent.name == "author":
+        if path.parent.name in {"author", "topics"}:
             continue
         text = path.read_text(encoding="utf-8")
         clean = remove_existing(text)
