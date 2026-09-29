@@ -1,5 +1,72 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
+// Turn the compact Books block into a richer, accessible gateway while keeping
+// the static HTML as a useful no-JavaScript and crawler fallback.
+(() => {
+  const section = document.getElementById("books");
+  const container = section?.querySelector(".container");
+  if (!section || !container || section.dataset.enhanced === "true") return;
+
+  section.dataset.enhanced = "true";
+  section.classList.add("books-showcase");
+  container.classList.remove("narrow", "center");
+  container.classList.add("books-gateway-shell");
+
+  const icon = (name) => {
+    const icons = {
+      globe: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 12h17M12 3c2.4 2.5 3.7 5.5 3.7 9S14.4 18.5 12 21M12 3C9.6 5.5 8.3 8.5 8.3 12S9.6 18.5 12 21" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>',
+      preview: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.7 12s3.3-6 9.3-6 9.3 6 9.3 6-3.3 6-9.3 6-9.3-6-9.3-6Z" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="2.7" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>',
+      topics: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="3" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="14" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/><rect x="14" y="14" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>',
+      author: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5 20c.6-4 3.1-6.2 7-6.2s6.4 2.2 7 6.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>'
+    };
+    return icons[name] || "";
+  };
+
+  container.innerHTML = `
+    <div class="books-gateway-copy">
+      <p class="section-label">✦ Official Books Library</p>
+      <h2 id="books-title">Explore the books of Faramarz Kowsari</h2>
+      <p class="books-lead">
+        Enter the official multilingual book library and discover titles across artificial intelligence,
+        prompt engineering, trading, data science, business, personal finance, psychology, mindfulness,
+        personal development and language learning. Browse by topic, open dedicated book pages and read
+        available Google Books previews before choosing what to explore next.
+      </p>
+
+      <div class="books-feature-list" role="list" aria-label="Books library features">
+        <span class="book-feature" role="listitem">${icon("globe")}Multilingual editions</span>
+        <span class="book-feature" role="listitem">${icon("preview")}Google Books previews</span>
+        <span class="book-feature" role="listitem">${icon("topics")}Topic-based discovery</span>
+        <span class="book-feature" role="listitem">${icon("author")}Official author profile</span>
+      </div>
+
+      <div class="actions books-actions">
+        <a class="button primary" href="/books/" aria-label="Browse the official books library of Faramarz Kowsari">📖 Browse Official Book Library</a>
+        <a class="button secondary" href="/books/topics/" aria-label="Browse Faramarz Kowsari books by topic">🗂 Browse by Topic</a>
+        <a class="button secondary" href="/books/author/" aria-label="Read the author profile of Faramarz Kowsari">👤 About the Author</a>
+        <a class="books-text-link" href="https://play.google.com/store/search?q=Faramarz%20Kowsari&c=books" target="_blank" rel="noopener noreferrer">Google Play Books ↗</a>
+        <a class="books-text-link" href="https://zenodo.org/search?q=creators.orcid%3A%220000-0003-1692-0453%22&l=list&p=1&s=10&sort=bestmatch" target="_blank" rel="noopener noreferrer">Zenodo Records ↗</a>
+      </div>
+    </div>
+
+    <div class="books-gateway-visual" aria-hidden="true">
+      <div class="book-orbit">
+        <div class="book-main-icon">
+          <svg viewBox="0 0 96 96" fill="none" aria-hidden="true">
+            <path d="M48 24c-8.6-7.4-19.2-10.7-33-9v54c14.1-1.2 24.6 2.5 33 10V24Z" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/>
+            <path d="M48 24c8.6-7.4 19.2-10.7 33-9v54c-14.1-1.2-24.6 2.5-33 10V24Z" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/>
+            <path d="M48 24v55" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+            <path d="M23 30h14M23 42h14M59 30h14M59 42h14" stroke="currentColor" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+          </svg>
+        </div>
+        <span class="book-orbit-tag one">Artificial Intelligence</span>
+        <span class="book-orbit-tag two">Trading</span>
+        <span class="book-orbit-tag three">Data Science</span>
+        <span class="book-orbit-tag four">Mindfulness</span>
+      </div>
+    </div>`;
+})();
+
 // Instagram ↔ official website tracking bridge.
 // GA4 page views remain on the existing direct Google tag.
 // Instagram-specific events are pushed to dataLayer for GTM to send to GA4.
