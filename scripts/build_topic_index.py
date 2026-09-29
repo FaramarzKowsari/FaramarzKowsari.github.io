@@ -16,8 +16,8 @@ START = "<!-- topic-index-link:start -->"
 END = "<!-- topic-index-link:end -->"
 
 GROUPS = [
-    ("Trading & Markets", "trading-markets", ("trading", "smart money", "wyckoff", "forex", "futures", "options", "market structure", "scalping", "volume profile", "macd", "liquidity", "order block", "fair value gap", "ict", "silver bullet", "turtle soup", "smt")),
-    ("Artificial Intelligence & Prompt Engineering", "ai-prompt-engineering", ("artificial intelligence", "ai &", "ai ", "prompt", "machine learning", "generative ai", "llm", "agent", "rag")),
+    ("Trading & Markets", "trading-markets", ("trading", "smart money", "wyckoff", "forex", "futures", "options trading", "market structure", "scalping", "volume profile", "macd", "liquidity", "order block", "fair value gap", "ict", "silver bullet", "turtle soup", "smt")),
+    ("Artificial Intelligence & Prompt Engineering", "ai-prompt-engineering", ("artificial intelligence", "ai &", "ai ", "prompt", "machine learning", "generative ai", "llm", "chatgpt", "claude", "gemini", "agent", "rag")),
     ("Business, Marketing & E-Commerce", "business-marketing-ecommerce", ("business", "marketing", "e-commerce", "ecommerce", "entrepreneur", "sales", "seller", "commerce")),
     ("Turkish Language Learning", "turkish-language", ("turkish language", "turkish a1", "turkish a2", "visual grammar", "grammar book booster", "language learning")),
     ("Technology, Software & Data", "technology-software-data", ("software", "programming", "developer", "web development", "data science", "technology", "api", "coding")),
@@ -29,7 +29,7 @@ FALLBACK = ("Other Books", "other-books")
 
 CTA_COPY = {
     "en": ("Browse Books by Topic", "Explore the library by subject and find related books faster.", "Explore the Topic Index"),
-    "tr": ("Kitapları Konuya Göre Keşfet", "Kütüphaneyi konu başlıklarına göre inceleyin ve ilgili kitapları daha hızlı bulun.", "Konu Dizininı Aç"),
+    "tr": ("Kitapları Konuya Göre Keşfet", "Kütüphaneyi konu başlıklarına göre inceleyin ve ilgili kitapları daha hızlı bulun.", "Konu Dizinini Aç"),
     "de": ("Bücher nach Themen entdecken", "Durchsuchen Sie die Bibliothek nach Themen und finden Sie verwandte Bücher schneller.", "Themenindex öffnen"),
     "es": ("Explorar libros por tema", "Recorre la biblioteca por temas y encuentra más rápido libros relacionados.", "Abrir el índice temático"),
     "fr": ("Explorer les livres par thème", "Parcourez la bibliothèque par sujet et trouvez plus rapidement des livres associés.", "Ouvrir l’index thématique"),
@@ -72,7 +72,11 @@ def merged_books():
 
 
 def searchable_text(book):
-    values = [book.get("category"), book.get("title"), book.get("subtitle"), book.get("summary")]
+    # Classify from explicit catalog metadata first. Avoid long summaries here because
+    # incidental words such as "options" or "market" can put an unrelated book in
+    # the wrong subject. Title + key topics provide a controlled fallback for legacy
+    # records whose category is still General.
+    values = [book.get("category"), book.get("title")]
     values.extend(book.get("key_topics") or [])
     return " ".join(str(v or "") for v in values).lower()
 
@@ -151,18 +155,16 @@ def book_card(book):
 
 def build_topics_page(books):
     groups = {}
-    anchors = {}
     for book in books:
         label, anchor = classify(book)
-        groups.setdefault(label, []).append(book)
-        anchors[label] = anchor
+        groups.setdefault(label, {"anchor": anchor, "items": []})["items"].append(book)
 
     ordered = []
     for label, anchor, _ in GROUPS:
         if label in groups:
-            ordered.append((label, anchor, groups[label]))
+            ordered.append((label, anchor, groups[label]["items"]))
     if FALLBACK[0] in groups:
-        ordered.append((FALLBACK[0], FALLBACK[1], groups[FALLBACK[0]]))
+        ordered.append((FALLBACK[0], FALLBACK[1], groups[FALLBACK[0]]["items"]))
 
     chips = "\n".join(
         f'<a class="topic-chip" href="#{esc(anchor)}">{esc(label)} <span>{len(items)}</span></a>'
