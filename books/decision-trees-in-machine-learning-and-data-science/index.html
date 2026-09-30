@@ -6,23 +6,23 @@
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="author" content="Faramarz Kowsari">
 <title>Decision Trees in Machine Learning and Data Science | Faramarz Kowsari</title>
-<meta name="description" content="A visual decision-tree guide covering entropy, Gini, information gain, ID3, C4.5, CART, pruning, Python, interpretability, projects, and interview preparation.">
+<meta name="description" content="A 136-page visual guide to decision trees covering tree anatomy, entropy, Gini impurity, information gain, CART, ID3, C4.5, pruning, scikit-learn, real-world projects, interviews, and interpretable AI.">
 <link rel="canonical" href="https://faramarzkowsari.github.io/books/decision-trees-in-machine-learning-and-data-science/">
 <link rel="sitemap" type="application/xml" href="../sitemap.xml">
 <meta property="og:type" content="book">
 <meta property="og:site_name" content="Faramarz Kowsari Books">
 <meta property="og:title" content="Decision Trees in Machine Learning and Data Science">
-<meta property="og:description" content="A visual decision-tree guide covering entropy, Gini, information gain, ID3, C4.5, CART, pruning, Python, interpretability, projects, and interview preparation.">
+<meta property="og:description" content="A 136-page visual guide to decision trees covering tree anatomy, entropy, Gini impurity, information gain, CART, ID3, C4.5, pruning, scikit-learn, real-world projects, interviews, and interpretable AI.">
 <meta property="og:url" content="https://faramarzkowsari.github.io/books/decision-trees-in-machine-learning-and-data-science/">
 <meta property="og:image" content="https://books.google.com/books/content?id=qr7yEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
 <meta property="og:image:alt" content="Cover of Decision Trees in Machine Learning and Data Science by Faramarz Kowsari">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Decision Trees in Machine Learning and Data Science">
-<meta name="twitter:description" content="A visual decision-tree guide covering entropy, Gini, information gain, ID3, C4.5, CART, pruning, Python, interpretability, projects, and interview preparation.">
+<meta name="twitter:description" content="A 136-page visual guide to decision trees covering tree anatomy, entropy, Gini impurity, information gain, CART, ID3, C4.5, pruning, scikit-learn, real-world projects, interviews, and interpretable AI.">
 <meta name="twitter:image" content="https://books.google.com/books/content?id=qr7yEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
 <link rel="stylesheet" href="../styles.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "Decision Trees in Machine Learning and Data Science", "author": {"@type": "Person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/"}, "inLanguage": "en", "description": "A visual decision-tree guide covering entropy, Gini, information gain, ID3, C4.5, CART, pruning, Python, interpretability, projects, and interview preparation.", "url": "https://faramarzkowsari.github.io/books/decision-trees-in-machine-learning-and-data-science/", "sameAs": "https://play.google.com/store/books/details?id=qr7yEQAAQBAJ", "alternateName": "A Visual Infographic Guide from Entropy and Gini to Python, Pruning, and Interpretable AI", "image": "https://books.google.com/books/content?id=qr7yEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api", "about": ["Decision trees", "Entropy", "Gini impurity", "Information gain", "ID3 C4.5 CART", "Pruning", "Python and scikit-learn", "Interpretability and overfitting"], "audience": {"@type": "Audience", "audienceType": "For machine-learning students, data-science practitioners, interview candidates, and readers who value visual explanations and interpretable models."}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "Decision Trees in Machine Learning and Data Science", "author": {"@type": "Person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/"}, "inLanguage": "en", "description": "A 136-page visual guide to decision trees covering tree anatomy, entropy, Gini impurity, information gain, CART, ID3, C4.5, pruning, scikit-learn, real-world projects, interviews, and interpretable AI.", "url": "https://faramarzkowsari.github.io/books/decision-trees-in-machine-learning-and-data-science/", "sameAs": "https://play.google.com/store/books/details?id=qr7yEQAAQBAJ", "alternateName": "A Visual Infographic Guide from Entropy and Gini to Python, Pruning, and Interpretable AI", "image": "https://books.google.com/books/content?id=qr7yEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api", "about": ["Decision trees", "Supervised learning", "Classification trees", "Regression trees", "Tree anatomy", "Decision rules and thresholds", "Entropy", "Information gain", "Gini impurity", "Weighted impurity", "Mean squared error", "Recursive partitioning", "ID3", "C4.5", "CART", "Overfitting", "Bias–variance trade-off", "Pruning", "Cost-complexity pruning", "scikit-learn"], "audience": {"@type": "Audience", "audienceType": "For students, data analysts, aspiring data scientists, machine-learning practitioners, Python learners, interview candidates, and visual learners who want to understand decision trees from intuition and mathematics through implementation, model control, projects, and interpretable AI."}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Books", "item": "https://faramarzkowsari.github.io/books/"}, {"@type": "ListItem", "position": 3, "name": "Decision Trees in Machine Learning and Data Science", "item": "https://faramarzkowsari.github.io/books/decision-trees-in-machine-learning-and-data-science/"}]}</script>
 </head>
 <body>
@@ -55,34 +55,59 @@
 
 
   <section class="section"><h2>About this book</h2>
-    <p>Decision Trees in Machine Learning and Data Science explains tree models visually from first split to production-minded practice. It builds intuition for nodes, thresholds, entropy, Gini impurity, information gain, and split selection, then moves through ID3, C4.5, CART, overfitting, pruning, Python and scikit-learn, projects, interview questions, and reference material. Each concept is reinforced with definitions, formulas, numerical examples, code, outputs, common traps, model warnings, and mini cases, keeping interpretability and variance control visible throughout.</p>
+    <p>Decision Trees in Machine Learning and Data Science is a 136-page visual learning system that turns one of machine learning’s most interpretable model families into a sequence of diagrams, formulas, worked examples, code panels, projects, warnings, interview questions, and quick-reference pages. It begins with the core intuition that a decision tree is a learned hierarchy of useful questions. From there, the reader moves through supervised-learning context, classification versus regression, interpretability and limitations, then into the anatomy of roots, internal nodes, branches, leaves, decision paths, thresholds, depth, and binary or multi-way splits.</p>
+    <p>The mathematical core explains how a tree decides where to split. Impurity, entropy, information gain, Gini impurity, weighted impurity, regression error measures, and split selection are developed visually before the book moves into recursive partitioning, greedy learning, ID3, C4.5, CART, stopping criteria, overfitting, bias–variance trade-offs, validation, class imbalance, sample weighting, leakage, and pruning. Cost-complexity pruning and model control are treated not as optional cleanup but as part of the discipline required to keep a tree useful beyond the training data.</p>
+    <p>The final third converts the theory into practice with Python and scikit-learn workflows for classifiers and regressors, encoding, visualization, metrics, model inspection, and GridSearchCV. Real-world projects span classic and applied problems such as Play Tennis, Titanic survival, churn, credit decisions, car evaluation, heart-disease examples, factory scenarios, weather, and house prices, with educational and ethical cautions where the domain requires them. Interview questions, common mistakes, formula references, a visual glossary, and a final concept map connect the entire journey from data to questions, splits, impurity, algorithms, pruning, Python, projects, interpretation, and interpretable AI.</p>
   </section>
 
   <section class="section"><h2>What you will learn</h2><ul>
-      <li>Understand how a tree transforms features and thresholds into recursive decisions.</li>
-      <li>Calculate and interpret entropy, Gini impurity, and information gain.</li>
-      <li>Compare major tree-building ideas such as ID3, C4.5, and CART.</li>
-      <li>Recognize overfitting and control complexity through pre-pruning and post-pruning.</li>
-      <li>Implement trees in Python and explain their behavior through projects and interview-style problems.</li>
+      <li>Explain a decision tree as a hierarchy of learned questions rather than a random sequence of hand-written rules.</li>
+      <li>Distinguish classification trees from regression trees and understand the different objectives they optimize.</li>
+      <li>Read roots, internal nodes, branches, leaves, thresholds, paths, depth, samples, values, classes, and rules in a trained tree.</li>
+      <li>Calculate and interpret entropy, information gain, Gini impurity, weighted impurity, and regression error criteria.</li>
+      <li>Understand greedy recursive partitioning and the practical roles of ID3, C4.5, and CART.</li>
+      <li>Recognize overfitting, bias–variance trade-offs, data leakage, imbalance, and the role of stopping criteria.</li>
+      <li>Use pre-pruning and cost-complexity pruning to control tree complexity and improve generalization discipline.</li>
+      <li>Build, visualize, inspect, and tune DecisionTreeClassifier and DecisionTreeRegressor workflows with scikit-learn.</li>
+      <li>Apply tree reasoning to multiple real-world project patterns while keeping interpretability and domain limitations visible.</li>
+      <li>Prepare for interviews with common questions, mistakes, formulas, visual reference material, and explainable model reasoning.</li>
     </ul></section>
 
   <section class="section"><h2>Key topics</h2><ul>
       <li>Decision trees</li>
+      <li>Supervised learning</li>
+      <li>Classification trees</li>
+      <li>Regression trees</li>
+      <li>Tree anatomy</li>
+      <li>Decision rules and thresholds</li>
       <li>Entropy</li>
-      <li>Gini impurity</li>
       <li>Information gain</li>
-      <li>ID3 C4.5 CART</li>
+      <li>Gini impurity</li>
+      <li>Weighted impurity</li>
+      <li>Mean squared error</li>
+      <li>Recursive partitioning</li>
+      <li>ID3</li>
+      <li>C4.5</li>
+      <li>CART</li>
+      <li>Overfitting</li>
+      <li>Bias–variance trade-off</li>
       <li>Pruning</li>
-      <li>Python and scikit-learn</li>
-      <li>Interpretability and overfitting</li>
+      <li>Cost-complexity pruning</li>
+      <li>scikit-learn</li>
+      <li>DecisionTreeClassifier</li>
+      <li>DecisionTreeRegressor</li>
+      <li>GridSearchCV</li>
+      <li>Model visualization</li>
+      <li>Interpretable AI</li>
+      <li>Machine-learning projects</li>
+      <li>Interview preparation</li>
     </ul></section>
 
-  <section class="section"><h2>Who this book is for</h2><p>For machine-learning students, data-science practitioners, interview candidates, and readers who value visual explanations and interpretable models.</p></section>
+  <section class="section"><h2>Who this book is for</h2><p>For students, data analysts, aspiring data scientists, machine-learning practitioners, Python learners, interview candidates, and visual learners who want to understand decision trees from intuition and mathematics through implementation, model control, projects, and interpretable AI.</p></section>
 
   <section class="section"><h2>Related books</h2><ul>
       <li><a href="../linear-regression-in-machine-learning-and-data-science/">Linear Regression in Machine Learning and Data Science</a></li>
       <li><a href="../sql-for-data-analysis/">SQL for Data Analysis</a></li>
-      <li><a href="../aynadaki-canavar/">Aynadaki Canavar</a></li>
     </ul></section>
 
   <section class="section"><div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=qr7yEQAAQBAJ" target="_blank" rel="noopener noreferrer">Read / Buy on Google Books</a><a class="action" href="../">Browse all books</a></div></section>

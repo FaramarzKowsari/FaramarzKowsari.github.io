@@ -6,23 +6,23 @@
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="author" content="Faramarz Kowsari">
 <title>SQL for Data Analysis | Faramarz Kowsari</title>
-<meta name="description" content="A visual SQL guide from relational foundations and joins to CTEs, window functions, interview problems, business projects, optimization, dashboards, and portfolio work.">
+<meta name="description" content="A comprehensive visual SQL guide spanning relational foundations, schema design, SELECT, joins, aggregation, CTEs, window functions, dialect differences, interviews, business projects, optimization, dashboards, and portfolio delivery.">
 <link rel="canonical" href="https://faramarzkowsari.github.io/books/sql-for-data-analysis/">
 <link rel="sitemap" type="application/xml" href="../sitemap.xml">
 <meta property="og:type" content="book">
 <meta property="og:site_name" content="Faramarz Kowsari Books">
 <meta property="og:title" content="SQL for Data Analysis">
-<meta property="og:description" content="A visual SQL guide from relational foundations and joins to CTEs, window functions, interview problems, business projects, optimization, dashboards, and portfolio work.">
+<meta property="og:description" content="A comprehensive visual SQL guide spanning relational foundations, schema design, SELECT, joins, aggregation, CTEs, window functions, dialect differences, interviews, business projects, optimization, dashboards, and portfolio delivery.">
 <meta property="og:url" content="https://faramarzkowsari.github.io/books/sql-for-data-analysis/">
 <meta property="og:image" content="https://books.google.com/books/content?id=VYn1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
 <meta property="og:image:alt" content="Cover of SQL for Data Analysis by Faramarz Kowsari">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="SQL for Data Analysis">
-<meta name="twitter:description" content="A visual SQL guide from relational foundations and joins to CTEs, window functions, interview problems, business projects, optimization, dashboards, and portfolio work.">
+<meta name="twitter:description" content="A comprehensive visual SQL guide spanning relational foundations, schema design, SELECT, joins, aggregation, CTEs, window functions, dialect differences, interviews, business projects, optimization, dashboards, and portfolio delivery.">
 <meta name="twitter:image" content="https://books.google.com/books/content?id=VYn1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
 <link rel="stylesheet" href="../styles.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "SQL for Data Analysis", "author": {"@type": "Person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/"}, "inLanguage": "en", "description": "A visual SQL guide from relational foundations and joins to CTEs, window functions, interview problems, business projects, optimization, dashboards, and portfolio work.", "url": "https://faramarzkowsari.github.io/books/sql-for-data-analysis/", "sameAs": "https://play.google.com/store/books/details?id=VYn1EQAAQBAJ", "alternateName": "A Visual, Practical Guide with Real Business Projects, Interview Problems, CTEs, Window Functions, Dashboards, and Portfolio Workflows", "image": "https://books.google.com/books/content?id=VYn1EQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api", "about": ["Relational databases", "SELECT and filtering", "Joins", "Aggregation", "CTEs and subqueries", "Window functions", "Data integrity and transactions", "Projects and interview problems"], "audience": {"@type": "Audience", "audienceType": "For aspiring data analysts, data scientists, business analysts, and developers who want practical SQL skills tied to real analytical work."}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Book", "name": "SQL for Data Analysis", "author": {"@type": "Person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/"}, "inLanguage": "en", "description": "A comprehensive visual SQL guide spanning relational foundations, schema design, SELECT, joins, aggregation, CTEs, window functions, dialect differences, interviews, business projects, optimization, dashboards, and portfolio delivery.", "url": "https://faramarzkowsari.github.io/books/sql-for-data-analysis/", "sameAs": "https://play.google.com/store/books/details?id=VYn1EQAAQBAJ", "alternateName": "A Visual, Practical Guide with Real Business Projects, Interview Problems, CTEs, Window Functions, Dashboards, and Portfolio Workflows", "image": "https://books.google.com/books/content?id=VYn1EQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api", "about": ["Relational databases", "Analytics mindset", "Database modeling", "Schema design", "CRUD", "Data types", "Import and export", "NULL handling", "Keys and constraints", "Data integrity", "DDL and DML", "Transactions and safety", "SELECT", "Filtering and sorting", "Date analysis", "GROUP BY and HAVING", "Aggregation and statistics", "Joins", "Set operators", "CASE and data cleaning"], "audience": {"@type": "Audience", "audienceType": "For aspiring and working data analysts, data-science learners, BI professionals, students, career switchers, SQL interview candidates, and anyone who wants a visual path from database fundamentals to advanced analytics, business projects, and portfolio-ready work."}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Books", "item": "https://faramarzkowsari.github.io/books/"}, {"@type": "ListItem", "position": 3, "name": "SQL for Data Analysis", "item": "https://faramarzkowsari.github.io/books/sql-for-data-analysis/"}]}</script>
 </head>
 <body>
@@ -55,34 +55,69 @@
 
 
   <section class="section"><h2>About this book</h2>
-    <p>SQL for Data Analysis is a visual, practice-oriented path from relational foundations to portfolio-ready analytics. It covers database structure, schema design, SELECT queries, filtering, sorting, joins, aggregation, data types, import and export, constraints and integrity, DDL and DML, transactions, CTEs, subqueries, views, temporary logic, window functions, ranking, interview problems, projects, optimization, and business interpretation. The book is dialect-aware and repeatedly emphasizes safe execution: destructive statements are tested in controlled environments, rows are verified, transactions are used, and SELECT comes before change.</p>
+    <p>SQL for Data Analysis is a large visual, practice-oriented journey from the first relational concepts to advanced analytical work and portfolio delivery. Its learning architecture spans eighteen parts and treats SQL as more than syntax: the reader learns how data is structured, how table grain affects meaning, how databases and schemas are designed, how analysts work inside SQL tools and workspaces, and how command families, CRUD operations, data types, table creation, imports, exports, constraints, keys, NULL behavior, DDL, DML, and transactions fit into a reliable analytical workflow.</p>
+    <p>The central analysis sections develop clean SELECT queries, filtering, Boolean logic, sorting, date work, aggregation, GROUP BY, HAVING, descriptive statistics, joins, set operators, multi-table analysis, functions, CASE expressions, and data cleaning before moving into reusable logic with subqueries, CTEs, views, and temporary structures. Window functions receive a dedicated advanced section covering partitions, ordering, frames, ranking, running metrics, FIRST_VALUE, LAST_VALUE, PERCENT_RANK, CUME_DIST, ROW_NUMBER, and related analytical patterns while preserving row-level detail. Throughout the book, examples use realistic sample tables, show query-to-output relationships, identify common traps, and distinguish business meaning from implementation detail.</p>
+    <p>A defining feature of the book is its dialect-aware and safety-aware approach. Portable principles are separated from engine-specific behavior across PostgreSQL, MySQL, SQL Server, SQLite, and GoogleSQL for BigQuery when syntax or semantics differ. Destructive operations are treated with preview, validation, transaction, and rollback discipline rather than casual copy-and-run instructions. The final sections turn knowledge into performance through SQL interview patterns, structured problem solving, real business questions, optimization, dashboard-oriented thinking, portfolio projects, and a thirty-day practice and career-delivery plan. The result is a visual reference for learning to query, validate, interpret, and apply data—not merely memorize commands.</p>
   </section>
 
   <section class="section"><h2>What you will learn</h2><ul>
-      <li>Build a reliable relational foundation with tables, keys, schemas, and relationships.</li>
-      <li>Write clean queries using filtering, sorting, joins, grouping, aggregation, CTEs, and windows.</li>
-      <li>Handle data types, imports, constraints, integrity, DDL, DML, and transactions safely.</li>
-      <li>Interpret query results as business evidence rather than stopping at syntax.</li>
-      <li>Practice interview patterns, real projects, optimization, and portfolio delivery across SQL dialects.</li>
+      <li>Understand relational data, table grain, database structure, schemas, keys, constraints, and data integrity before writing analysis queries.</li>
+      <li>Create and query tables using appropriate data types, CRUD operations, imports, exports, and safe transaction workflows.</li>
+      <li>Write clear SELECT queries with filtering, logic, sorting, dates, NULL handling, and reproducible exploratory patterns.</li>
+      <li>Use aggregation, GROUP BY, HAVING, and statistics without accidentally changing analytical grain or double-counting data.</li>
+      <li>Combine tables with joins and set operators while detecting multiplicity, unmatched rows, duplicates, and other common analysis traps.</li>
+      <li>Clean and transform data with functions, CASE expressions, reusable subqueries, CTEs, views, and temporary logic.</li>
+      <li>Apply window functions for ranking, sequences, running metrics, relative comparisons, distributions, and frame-aware analysis.</li>
+      <li>Recognize important SQL dialect differences across PostgreSQL, MySQL, SQL Server, SQLite, and GoogleSQL for BigQuery.</li>
+      <li>Solve interview-style SQL problems by defining the business question, validating intermediate results, and explaining the reasoning.</li>
+      <li>Turn SQL work into business-facing projects, dashboards, optimized workflows, portfolio evidence, and a structured practice plan.</li>
     </ul></section>
 
   <section class="section"><h2>Key topics</h2><ul>
       <li>Relational databases</li>
-      <li>SELECT and filtering</li>
+      <li>Analytics mindset</li>
+      <li>Database modeling</li>
+      <li>Schema design</li>
+      <li>CRUD</li>
+      <li>Data types</li>
+      <li>Import and export</li>
+      <li>NULL handling</li>
+      <li>Keys and constraints</li>
+      <li>Data integrity</li>
+      <li>DDL and DML</li>
+      <li>Transactions and safety</li>
+      <li>SELECT</li>
+      <li>Filtering and sorting</li>
+      <li>Date analysis</li>
+      <li>GROUP BY and HAVING</li>
+      <li>Aggregation and statistics</li>
       <li>Joins</li>
-      <li>Aggregation</li>
-      <li>CTEs and subqueries</li>
+      <li>Set operators</li>
+      <li>CASE and data cleaning</li>
+      <li>Subqueries</li>
+      <li>CTEs</li>
+      <li>Views</li>
+      <li>Temporary logic</li>
       <li>Window functions</li>
-      <li>Data integrity and transactions</li>
-      <li>Projects and interview problems</li>
+      <li>Ranking and running metrics</li>
+      <li>SQL dialect differences</li>
+      <li>PostgreSQL</li>
+      <li>MySQL</li>
+      <li>SQL Server</li>
+      <li>SQLite</li>
+      <li>BigQuery</li>
+      <li>SQL interviews</li>
+      <li>Business projects</li>
+      <li>Query optimization</li>
+      <li>Dashboards</li>
+      <li>Portfolio workflows</li>
     </ul></section>
 
-  <section class="section"><h2>Who this book is for</h2><p>For aspiring data analysts, data scientists, business analysts, and developers who want practical SQL skills tied to real analytical work.</p></section>
+  <section class="section"><h2>Who this book is for</h2><p>For aspiring and working data analysts, data-science learners, BI professionals, students, career switchers, SQL interview candidates, and anyone who wants a visual path from database fundamentals to advanced analytics, business projects, and portfolio-ready work.</p></section>
 
   <section class="section"><h2>Related books</h2><ul>
-      <li><a href="../linear-regression-in-machine-learning-and-data-science/">Linear Regression in Machine Learning and Data Science</a></li>
       <li><a href="../decision-trees-in-machine-learning-and-data-science/">Decision Trees in Machine Learning and Data Science</a></li>
-      <li><a href="../before-your-mind-names-it/">Before Your Mind Names It</a></li>
+      <li><a href="../linear-regression-in-machine-learning-and-data-science/">Linear Regression in Machine Learning and Data Science</a></li>
     </ul></section>
 
   <section class="section"><div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=VYn1EQAAQBAJ" target="_blank" rel="noopener noreferrer">Read / Buy on Google Books</a><a class="action" href="../">Browse all books</a></div></section>
