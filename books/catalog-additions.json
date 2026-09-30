@@ -164,5 +164,31 @@
     "slides_url": "",
     "doi": "",
     "crossref_status": "not_registered"
+  },
+  {
+    "google_books_id": "Cpr6EQAAQBAJ",
+    "title": "España ante el calor",
+    "subtitle": "Guía visual para una vivienda fresca, saludable y eficiente",
+    "slug": "espana-ante-el-calor",
+    "google_books_url": "https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=Cpr6EQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "status": "active",
+    "content_status": "complete",
+    "language": "Español (España)",
+    "language_code": "es",
+    "category": "Hogar, clima y calidad del aire",
+    "translation_group": "heat-safe-home",
+    "description": "",
+    "summary": "",
+    "key_topics": [],
+    "target_audience": "",
+    "publisher": "",
+    "published_date": "2026",
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered"
   }
 ]
