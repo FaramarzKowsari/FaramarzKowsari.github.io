@@ -24,8 +24,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: project-hub-index
-  cancel-in-progress: true
+  group: site-generation
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -70,8 +70,6 @@ jobs:
 
           git commit -m "chore: refresh project hub, AI discovery, SEO and accessibility"
 
-          # Other automated Books builds may update main at the same moment. Rebase and
-          # retry instead of failing on a transient cannot-lock-ref race.
           for attempt in 1 2 3 4; do
             git fetch origin main
             git rebase origin/main
