@@ -3,6 +3,8 @@ name: Build public book pages
 on:
   workflow_dispatch:
   push:
+    branches:
+      - "main"
     paths:
       - "books/catalog-additions.json"
       - "books/source_reviews/**"
