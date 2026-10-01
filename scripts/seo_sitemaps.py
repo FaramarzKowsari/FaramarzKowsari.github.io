@@ -5,6 +5,7 @@ from xml.sax.saxutils import escape
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 SITE="https://faramarzkowsari.github.io/"
 BOOKS=ROOT/"books"
+LOCALIZED_SITEMAPS=("ru","tr","de","es","fr","pt-br")
 
 def load(p,d):
     try:return json.loads(p.read_text(encoding="utf-8"))
@@ -74,10 +75,10 @@ sitemap_urls=[
     SITE+"sitemap.xml",
     SITE+"books/sitemap.xml",
 ]
-if (BOOKS/"sitemap-ru.xml").exists():
-    sitemap_urls.append(SITE+"books/sitemap-ru.xml")
-if (BOOKS/"sitemap-tr.xml").exists():
-    sitemap_urls.append(SITE+"books/sitemap-tr.xml")
+for locale in LOCALIZED_SITEMAPS:
+    filename=f"sitemap-{locale}.xml"
+    if (BOOKS/filename).exists():
+        sitemap_urls.append(SITE+"books/"+filename)
 sitemap_urls.append(SITE+"turkiye-disaster-intelligence-digital-twin/sitemap.xml")
 write_sitemap_index(ROOT/"sitemap-index.xml",sitemap_urls)
 
