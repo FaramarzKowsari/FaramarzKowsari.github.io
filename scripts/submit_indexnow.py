@@ -60,7 +60,7 @@ def public_url_for_path(path: str):
             return BASE + f"books/{parts[1]}/"
 
     # Public discovery resources can be submitted as URLs as well.
-    if path in {"llms.txt", "sitemap.xml", "robots.txt", f"{KEY}.txt"}:
+    if path in {"llms.txt", "sitemap.xml", "sitemap-index.xml", "robots.txt", f"{KEY}.txt"}:
         return BASE + path
     if path in {"books/sitemap.xml", "books/catalog.json"}:
         return BASE + path
