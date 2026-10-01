@@ -8,6 +8,7 @@ on:
       - "robots.txt"
       - "sitemap.xml"
       - "llms.txt"
+      - "llms-full.txt"
       - "books/**"
       - "9b98e167b32cad1462454e76dd029a61.txt"
       - "scripts/submit_indexnow.py"
