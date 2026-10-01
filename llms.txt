@@ -175,3 +175,10 @@
 - Public pages are intended to be discoverable by general search and answer engines.
 - robots.txt and XML sitemaps are the authoritative crawl-discovery controls.
 - llms.txt is an additional convenience index and is not a replacement for robots.txt, sitemaps or canonical HTML pages.
+
+## Extended AI discovery
+
+- Expanded full-text machine index: https://faramarzkowsari.github.io/llms-full.txt
+- Machine-readable books catalog: https://faramarzkowsari.github.io/books/catalog.json
+- Text-first HTML catalog: https://faramarzkowsari.github.io/books/all-books/
+- Search/AI crawler policy: https://faramarzkowsari.github.io/robots.txt

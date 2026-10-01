@@ -5620,5 +5620,14 @@
       "isbn": "",
       "doi": ""
     }
-  ]
+  ],
+  "llms_index": "https://faramarzkowsari.github.io/llms.txt",
+  "llms_full": "https://faramarzkowsari.github.io/llms-full.txt",
+  "robots": "https://faramarzkowsari.github.io/robots.txt",
+  "master_sitemap": "https://faramarzkowsari.github.io/sitemap.xml",
+  "discovery": {
+    "search_and_answer_engines": "Public canonical pages are crawlable and intended for search/answer-engine discovery.",
+    "canonical_html": "https://faramarzkowsari.github.io/books/all-books/",
+    "machine_readable_catalog": "https://faramarzkowsari.github.io/books/catalog.json"
+  }
 }
