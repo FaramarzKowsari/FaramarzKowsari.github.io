@@ -26,6 +26,17 @@ def write_map(path,rows):
     body='\n'.join(url_xml(u,m) for u,m in rows)
     path.write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+body+'\n</urlset>\n',encoding="utf-8")
 
+def write_sitemap_index(path,urls):
+    body='\n'.join(
+        "  <sitemap>\n    <loc>"+escape(url)+"</loc>\n  </sitemap>" for url in urls
+    )
+    path.write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        +body+'\n</sitemapindex>\n',
+        encoding="utf-8"
+    )
+
 projects=load(ROOT/"projects.json",[])
 completed=load(BOOKS/"completed.json",{})
 extra=load(BOOKS/"source-reviewed-extra.json",{})
@@ -56,4 +67,14 @@ seen=set(); uniq=[]
 for row in rows:
     if row[0] not in seen:seen.add(row[0]);uniq.append(row)
 write_map(ROOT/"sitemap.xml",uniq)
-print(f"SEO sitemaps: {len(book_rows)} book URLs; {len(uniq)} master URLs with lastmod where known.")
+
+# One stable sitemap index gives any standards-compliant search engine a single
+# discovery URL while retaining the existing individual sitemap endpoints.
+sitemap_urls=[
+    SITE+"sitemap.xml",
+    SITE+"books/sitemap.xml",
+    SITE+"turkiye-disaster-intelligence-digital-twin/sitemap.xml",
+]
+write_sitemap_index(ROOT/"sitemap-index.xml",sitemap_urls)
+
+print(f"SEO sitemaps: {len(book_rows)} book URLs; {len(uniq)} master URLs; {len(sitemap_urls)} maps in sitemap index.")
