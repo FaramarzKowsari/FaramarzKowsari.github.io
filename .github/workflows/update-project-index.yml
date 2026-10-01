@@ -61,7 +61,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- projects.json sitemap.xml books/sitemap.xml index.html app.js books/index.html books/*/index.html llms.txt llms-full.txt books/catalog.json books/all-books/index.html
+          git add -- projects.json sitemap.xml sitemap-index.xml books/sitemap.xml index.html app.js books/index.html books/*/index.html llms.txt llms-full.txt books/catalog.json books/all-books/index.html
 
           if git diff --cached --quiet; then
             echo "No project-index, AI-discovery, SEO or accessibility changes."
