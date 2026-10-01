@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
-import json, pathlib, subprocess
+import html, json, pathlib, re, subprocess
 from xml.sax.saxutils import escape
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 SITE="https://faramarzkowsari.github.io/"
 BOOKS=ROOT/"books"
 LOCALIZED_SITEMAPS=("ru","tr","de","es","fr","pt-br")
+
+META_TAG_RE=re.compile(r"<meta\b[^>]*>",re.I)
+ATTR_RE=re.compile(r'''([:\w-]+)\s*=\s*(["'])(.*?)\2''',re.I|re.S)
+CANONICAL_RE=re.compile(
+    r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*\bhref=["\']([^"\']+)["\'][^>]*>',
+    re.I,
+)
 
 def load(p,d):
     try:return json.loads(p.read_text(encoding="utf-8"))
@@ -38,6 +45,50 @@ def write_sitemap_index(path,urls):
         encoding="utf-8"
     )
 
+def meta_value(text,key,attr_name):
+    key_l=key.lower()
+    for match in META_TAG_RE.finditer(text):
+        data={m.group(1).lower():html.unescape(m.group(3)) for m in ATTR_RE.finditer(match.group(0))}
+        if data.get(attr_name,"").lower()==key_l:
+            return data.get("content")
+    return None
+
+def canonical_value(text):
+    match=CANONICAL_RE.search(text)
+    return html.unescape(match.group(1)) if match else None
+
+def image_sitemap_rows():
+    rows={}
+    for path in BOOKS.rglob("index.html"):
+        try:text=path.read_text(encoding="utf-8")
+        except OSError:continue
+        if (meta_value(text,"og:type","property") or "").lower()!="book":
+            continue
+        page=canonical_value(text)
+        image=meta_value(text,"og:image","property") or meta_value(text,"twitter:image","name")
+        if not page or not image or not re.match(r"^https?://",image,re.I):
+            continue
+        rows[page]=image
+    return sorted(rows.items())
+
+def write_image_map(path,rows):
+    parts=[
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+        '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">'
+    ]
+    for page,image in rows:
+        parts.extend([
+            "  <url>",
+            f"    <loc>{escape(page)}</loc>",
+            "    <image:image>",
+            f"      <image:loc>{escape(image)}</image:loc>",
+            "    </image:image>",
+            "  </url>",
+        ])
+    parts.append("</urlset>")
+    path.write_text("\n".join(parts)+"\n",encoding="utf-8")
+
 projects=load(ROOT/"projects.json",[])
 completed=load(BOOKS/"completed.json",{})
 extra=load(BOOKS/"source-reviewed-extra.json",{})
@@ -69,11 +120,17 @@ for row in rows:
     if row[0] not in seen:seen.add(row[0]);uniq.append(row)
 write_map(ROOT/"sitemap.xml",uniq)
 
+# Image sitemap: landing pages stay on GitHub Pages while the cover bytes remain
+# on their original external hosts. No cover is downloaded, proxied or stored.
+image_rows=image_sitemap_rows()
+write_image_map(BOOKS/"image-sitemap.xml",image_rows)
+
 # One stable sitemap index gives any standards-compliant search engine a single
 # discovery URL while retaining the existing individual sitemap endpoints.
 sitemap_urls=[
     SITE+"sitemap.xml",
     SITE+"books/sitemap.xml",
+    SITE+"books/image-sitemap.xml",
 ]
 for locale in LOCALIZED_SITEMAPS:
     filename=f"sitemap-{locale}.xml"
@@ -82,4 +139,4 @@ for locale in LOCALIZED_SITEMAPS:
 sitemap_urls.append(SITE+"turkiye-disaster-intelligence-digital-twin/sitemap.xml")
 write_sitemap_index(ROOT/"sitemap-index.xml",sitemap_urls)
 
-print(f"SEO sitemaps: {len(book_rows)} book URLs; {len(uniq)} master URLs; {len(sitemap_urls)} maps in sitemap index.")
+print(f"SEO sitemaps: {len(book_rows)} book URLs; {len(image_rows)} image-page pairs; {len(uniq)} master URLs; {len(sitemap_urls)} maps in sitemap index.")
