@@ -7,13 +7,11 @@ on:
       - "books/books.json"
       - "books/completed.json"
       - "books/source-reviewed-extra.json"
-      - "books/localizations/**"
       - "books/index.html"
       - "books/*/index.html"
       - "scripts/update_project_index.py"
       - "scripts/build_ai_discovery.py"
       - "scripts/ai_visibility_hardening.py"
-      - "scripts/build_russian_book_pages.py"
       - "scripts/seo_sitemaps.py"
       - "scripts/seo_root.py"
       - "scripts/wcag_root.py"
@@ -45,14 +43,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate repository index, AI discovery, SEO, accessibility and Russian book pages
+      - name: Generate repository index, AI discovery, SEO and accessibility hardening
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/update_project_index.py
           python scripts/build_ai_discovery.py
           python scripts/ai_visibility_hardening.py
-          python scripts/build_russian_book_pages.py
           python scripts/seo_sitemaps.py
           python scripts/seo_root.py
           python scripts/wcag_root.py
@@ -64,14 +61,14 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- projects.json sitemap.xml sitemap-index.xml books/sitemap.xml books/sitemap-ru.xml index.html app.js books/index.html books/*/index.html books/*/ru/index.html books/ru/index.html llms.txt llms-full.txt books/catalog.json books/all-books/index.html
+          git add -- projects.json sitemap.xml sitemap-index.xml books/sitemap.xml index.html app.js books/index.html books/*/index.html llms.txt llms-full.txt books/catalog.json books/all-books/index.html
 
           if git diff --cached --quiet; then
-            echo "No project-index, AI-discovery, Russian-page, SEO or accessibility changes."
+            echo "No project-index, AI-discovery, SEO or accessibility changes."
             exit 0
           fi
 
-          git commit -m "chore: refresh project hub, AI discovery, Russian book pages, SEO and accessibility"
+          git commit -m "chore: refresh project hub, AI discovery, SEO and accessibility"
 
           # Other automated Books builds may update main at the same moment. Rebase and
           # retry instead of failing on a transient cannot-lock-ref race.
