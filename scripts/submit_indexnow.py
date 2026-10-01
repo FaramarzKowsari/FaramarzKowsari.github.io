@@ -21,6 +21,8 @@ KEY = "9b98e167b32cad1462454e76dd029a61"
 KEY_FILE = ROOT / f"{KEY}.txt"
 KEY_LOCATION = f"{BASE}{KEY}.txt"
 ENDPOINT = "https://api.indexnow.org/indexnow"
+LOCALIZED_PATHS = {"ru", "tr", "de", "es", "fr", "pt-br"}
+LOCALIZED_SITEMAPS = {f"books/sitemap-{code}.xml" for code in LOCALIZED_PATHS}
 
 
 def git_changed_files(before: str, after: str):
@@ -54,21 +56,18 @@ def public_url_for_path(path: str):
         return BASE + "books/author/"
     if path == "books/topics/index.html":
         return BASE + "books/topics/"
-    if path == "books/ru/index.html":
-        return BASE + "books/ru/"
-    if path == "books/tr/index.html":
-        return BASE + "books/tr/"
     if path.startswith("books/") and path.endswith("/index.html"):
         parts = path.split("/")
         if len(parts) == 3:
+            # Either /books/<slug>/ or a localized catalog /books/<locale>/.
             return BASE + f"books/{parts[1]}/"
-        if len(parts) == 4 and parts[2] in {"ru", "tr"}:
+        if len(parts) == 4 and parts[2] in LOCALIZED_PATHS:
             return BASE + f"books/{parts[1]}/{parts[2]}/"
 
     # Public discovery resources can be submitted as URLs as well.
     if path in {"llms.txt", "sitemap.xml", "sitemap-index.xml", "robots.txt", f"{KEY}.txt"}:
         return BASE + path
-    if path in {"books/sitemap.xml", "books/sitemap-ru.xml", "books/sitemap-tr.xml", "books/catalog.json"}:
+    if path in ({"books/sitemap.xml", "books/catalog.json"} | LOCALIZED_SITEMAPS):
         return BASE + path
 
     return None
@@ -91,6 +90,10 @@ def collect_urls(changed):
             BASE + "books/",
             BASE + "books/ru/",
             BASE + "books/tr/",
+            BASE + "books/de/",
+            BASE + "books/es/",
+            BASE + "books/fr/",
+            BASE + "books/pt-br/",
             BASE + "books/all-books/",
             BASE + "books/author/",
             BASE + "books/topics/",
