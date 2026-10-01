@@ -1,24 +1,69 @@
 # Search and answer-engine discovery policy
-# Public pages are intentionally crawlable for search/discovery.
+# Public pages are intentionally crawlable for search/discovery and citation.
+# Only documented/verified crawler tokens are named explicitly below.
+# Other standards-compliant crawlers are covered by the final User-agent: * rule.
 
+# OpenAI / ChatGPT Search
 User-agent: OAI-SearchBot
 Allow: /
 
+# OpenAI model-improvement crawler
+User-agent: GPTBot
+Allow: /
+
+# OpenAI user-triggered fetching (robots rules may not always apply to user actions)
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic / Claude Search and user-triggered retrieval
 User-agent: Claude-SearchBot
 Allow: /
 
 User-agent: Claude-User
 Allow: /
 
+# Anthropic general crawler
+User-agent: ClaudeBot
+Allow: /
+
+# Perplexity search and user-triggered retrieval
 User-agent: PerplexityBot
 Allow: /
 
+User-agent: Perplexity-User
+Allow: /
+
+# Google Search; Google-Extended controls use of crawled content for Gemini model
+# improvement and grounding without affecting Google Search ranking.
 User-agent: Googlebot
 Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft Bing / Copilot discovery
 User-agent: Bingbot
 Allow: /
 
+# Apple Search, Siri, Safari and Apple Intelligence-related use
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Amazon/Alexa search, live retrieval and model improvement
+User-agent: Amzn-SearchBot
+Allow: /
+
+User-agent: Amzn-User
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# Catch-all for other public search/answer-engine crawlers, including services
+# that do not publish a dedicated robots.txt token.
 User-agent: *
 Allow: /
 
