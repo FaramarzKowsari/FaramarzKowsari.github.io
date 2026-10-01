@@ -16,7 +16,6 @@ from typing import Any
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 BOOKS = ROOT / "books"
-AUTHOR = "Faramarz Kowsari"
 
 META_TAG_RE = re.compile(r"<meta\b[^>]*>", re.I)
 ATTR_RE = re.compile(r'''([:\w-]+)\s*=\s*(["'])(.*?)\2''', re.I | re.S)
@@ -151,6 +150,7 @@ def ensure_large_image_preview(text: str) -> str:
 
 
 def update_cover_markup(text: str, alt: str, caption: str) -> str:
+    """Keep the existing external image in place; only strengthen its semantics."""
     m = BOOK_TOP_RE.search(text)
     if not m:
         return text
@@ -160,22 +160,8 @@ def update_cover_markup(text: str, alt: str, caption: str) -> str:
         return text
     img = set_attr(img_m.group(0), "alt", alt)
     img = set_attr(img, "itemprop", "image")
-    figure = (
-        '<figure class="book-cover-figure">\n'
-        f'    {img}\n'
-        f'    <figcaption class="book-cover-caption">{html.escape(caption)}</figcaption>\n'
-        "  </figure>"
-    )
-    if "book-cover-figure" in body:
-        body = re.sub(
-            r'<figure\b[^>]*class=["\'][^"\']*\bbook-cover-figure\b[^"\']*["\'][^>]*>.*?</figure>',
-            figure,
-            body,
-            count=1,
-            flags=re.I | re.S,
-        )
-    else:
-        body = body[: img_m.start()] + figure + body[img_m.end() :]
+    img = set_attr(img, "title", caption)
+    body = body[: img_m.start()] + img + body[img_m.end() :]
     return text[: m.start()] + m.group(1) + body + m.group(3) + text[m.end() :]
 
 
