@@ -72,5 +72,18 @@ jobs:
             exit 0
           fi
           git commit -m "build: publish public-facing SEO, accessible and AI-discoverable book pages"
-          git pull --rebase origin main
-          git push origin HEAD:main
+
+          # The scheduled project-hub job can update main at the same time. Rebase and
+          # retry instead of failing on a transient cannot-lock-ref race.
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Concurrent update detected; retrying push ($attempt/4)..."
+            sleep $((attempt * 2))
+          done
+
+          echo "Could not publish generated book files after retries."
+          exit 1
