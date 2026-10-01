@@ -29,8 +29,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: public-book-pages
-  cancel-in-progress: true
+  group: site-generation
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -76,8 +76,6 @@ jobs:
           fi
           git commit -m "build: publish SEO, accessible, AI-discoverable and Russian book pages"
 
-          # The scheduled project-hub job can update main at the same time. Rebase and
-          # retry instead of failing on a transient cannot-lock-ref race.
           for attempt in 1 2 3 4; do
             git fetch origin main
             git rebase origin/main
