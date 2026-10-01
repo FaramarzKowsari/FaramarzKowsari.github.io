@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Post-process generated book landing pages for image search without hosting
-or downloading any book cover in this repository.
+Strengthen image-search signals on every individual book landing page without
+hosting, downloading, proxying or caching any book-cover image in this repo.
 
-The cover URL remains external (Google Books, Pinterest, CDN, publisher site,
-etc.). This script only strengthens the semantic signals on each HTML page.
+The existing external cover URL is preserved exactly. It may point to Google
+Books today and to any stable crawlable HTTP(S) image host in the future.
 """
 from __future__ import annotations
 
@@ -23,28 +23,25 @@ SCRIPT_RE = re.compile(
     r'(<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>)(.*?)(</script>)',
     re.I | re.S,
 )
-BOOK_TOP_RE = re.compile(
-    r'(<section\b[^>]*class=["\'][^"\']*\bbook-top\b[^"\']*["\'][^>]*>)(.*?)(</section>)',
-    re.I | re.S,
-)
 IMG_RE = re.compile(r"<img\b[^>]*>", re.I)
 HTML_LANG_RE = re.compile(r'<html\b[^>]*\blang=["\']([^"\']+)["\']', re.I)
 H1_RE = re.compile(r"<h1\b[^>]*>(.*?)</h1>", re.I | re.S)
 TAG_RE = re.compile(r"<[^>]+>")
+CANONICAL_RE = re.compile(
+    r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*\bhref=["\']([^"\']+)["\'][^>]*>',
+    re.I,
+)
 
 
 def attrs(tag: str) -> dict[str, str]:
     return {m.group(1).lower(): html.unescape(m.group(3)) for m in ATTR_RE.finditer(tag)}
 
 
-def get_meta(text: str, key: str, attr_name: str | None = None) -> str | None:
+def get_meta(text: str, key: str, attr_name: str) -> str | None:
     key_l = key.lower()
     for m in META_TAG_RE.finditer(text):
         data = attrs(m.group(0))
-        if attr_name:
-            if data.get(attr_name.lower(), "").lower() == key_l:
-                return data.get("content")
-        elif data.get("property", "").lower() == key_l or data.get("name", "").lower() == key_l:
+        if data.get(attr_name.lower(), "").lower() == key_l:
             return data.get("content")
     return None
 
@@ -85,6 +82,54 @@ def plain_text(fragment: str) -> str:
     return html.unescape(re.sub(r"\s+", " ", TAG_RE.sub("", fragment))).strip()
 
 
+def canonical_value(text: str) -> str | None:
+    m = CANONICAL_RE.search(text)
+    return html.unescape(m.group(1)) if m else None
+
+
+def iter_json_ld(text: str):
+    for m in SCRIPT_RE.finditer(text):
+        try:
+            yield json.loads(m.group(2).strip())
+        except json.JSONDecodeError:
+            continue
+
+
+def is_type(node: dict[str, Any], wanted: str) -> bool:
+    node_type = node.get("@type")
+    return node_type == wanted or (isinstance(node_type, list) and wanted in node_type)
+
+
+def first_book_node(node: Any) -> dict[str, Any] | None:
+    if isinstance(node, dict):
+        if is_type(node, "Book"):
+            return node
+        for value in node.values():
+            found = first_book_node(value)
+            if found is not None:
+                return found
+    elif isinstance(node, list):
+        for value in node:
+            found = first_book_node(value)
+            if found is not None:
+                return found
+    return None
+
+
+def book_node_from_page(text: str) -> dict[str, Any] | None:
+    for data in iter_json_ld(text):
+        found = first_book_node(data)
+        if found is not None:
+            return found
+    return None
+
+
+def is_book_landing(text: str) -> bool:
+    if (get_meta(text, "og:type", "property") or "").lower() == "book":
+        return True
+    return book_node_from_page(text) is not None
+
+
 def locale_code(text: str, path: pathlib.Path) -> str:
     m = HTML_LANG_RE.search(text)
     if m:
@@ -97,6 +142,21 @@ def locale_code(text: str, path: pathlib.Path) -> str:
         if loc in parts:
             return loc
     return "en"
+
+
+def book_title(text: str, path: pathlib.Path) -> str:
+    node = book_node_from_page(text)
+    if node and isinstance(node.get("name"), str) and node["name"].strip():
+        return node["name"].strip()
+    h1 = H1_RE.search(text)
+    if h1:
+        value = plain_text(h1.group(1))
+        if value:
+            return value
+    og = get_meta(text, "og:title", "property")
+    if og:
+        return og.strip()
+    return path.parent.name.replace("-", " ").strip()
 
 
 def image_copy(locale: str, title: str) -> tuple[str, str]:
@@ -130,8 +190,8 @@ def image_copy(locale: str, title: str) -> tuple[str, str]:
             '{title} — book cover, by Faramarz Kowsari',
         ),
     }
-    alt_t, cap_t = templates.get(locale, templates["en"])
-    return alt_t.format(title=title), cap_t.format(title=title)
+    alt_t, caption_t = templates.get(locale, templates["en"])
+    return alt_t.format(title=title), caption_t.format(title=title)
 
 
 def ensure_large_image_preview(text: str) -> str:
@@ -149,29 +209,27 @@ def ensure_large_image_preview(text: str) -> str:
     return text
 
 
-def update_cover_markup(text: str, alt: str, caption: str) -> str:
-    """Keep the existing external image in place; only strengthen its semantics."""
-    m = BOOK_TOP_RE.search(text)
-    if not m:
-        return text
-    body = m.group(2)
-    img_m = IMG_RE.search(body)
-    if not img_m:
-        return text
-    img = set_attr(img_m.group(0), "alt", alt)
-    img = set_attr(img, "itemprop", "image")
-    img = set_attr(img, "title", caption)
-    body = body[: img_m.start()] + img + body[img_m.end() :]
-    return text[: m.start()] + m.group(1) + body + m.group(3) + text[m.end() :]
+def update_cover_markup(text: str, cover: str, alt: str, caption: str) -> str:
+    """Update the actual cover <img>, wherever localized templates place it."""
+    for m in IMG_RE.finditer(text):
+        tag = m.group(0)
+        src = attrs(tag).get("src")
+        if src != cover:
+            continue
+        new_tag = set_attr(tag, "alt", alt)
+        new_tag = set_attr(new_tag, "itemprop", "image")
+        new_tag = set_attr(new_tag, "title", caption)
+        return text[: m.start()] + new_tag + text[m.end() :]
+    return text
 
 
-def mutate_book_schema(node: Any, canonical: str, cover: str, alt: str, caption: str) -> bool:
-    changed = False
+def mutate_schema(node: Any, canonical: str, cover: str, alt: str, caption: str) -> tuple[bool, bool]:
+    found_book = False
+    found_page = False
+    image_id = canonical.rstrip("/") + "/#primaryimage"
+
     if isinstance(node, dict):
-        node_type = node.get("@type")
-        is_book = node_type == "Book" or (isinstance(node_type, list) and "Book" in node_type)
-        if is_book:
-            image_id = canonical.rstrip("/") + "/#primaryimage"
+        if is_type(node, "Book"):
             node["image"] = {
                 "@type": "ImageObject",
                 "@id": image_id,
@@ -189,36 +247,53 @@ def mutate_book_schema(node: Any, canonical: str, cover: str, alt: str, caption:
                 mep.setdefault("@type", "WebPage")
                 mep.setdefault("@id", canonical)
             mep["primaryImageOfPage"] = {"@id": image_id}
-            changed = True
-        for value in node.values():
+            found_book = True
+
+        if is_type(node, "WebPage"):
+            node_url = node.get("url")
+            node_id = node.get("@id")
+            canonical_norm = canonical.rstrip("/")
+            url_matches = isinstance(node_url, str) and node_url.rstrip("/") == canonical_norm
+            id_matches = isinstance(node_id, str) and node_id.split("#", 1)[0].rstrip("/") == canonical_norm
+            if url_matches or id_matches:
+                node["primaryImageOfPage"] = {"@id": image_id}
+                found_page = True
+
+        for value in list(node.values()):
             if isinstance(value, (dict, list)):
-                changed = mutate_book_schema(value, canonical, cover, alt, caption) or changed
+                child_book, child_page = mutate_schema(value, canonical, cover, alt, caption)
+                found_book = found_book or child_book
+                found_page = found_page or child_page
+
     elif isinstance(node, list):
-        for item in node:
-            if isinstance(item, (dict, list)):
-                changed = mutate_book_schema(item, canonical, cover, alt, caption) or changed
-    return changed
+        for value in node:
+            if isinstance(value, (dict, list)):
+                child_book, child_page = mutate_schema(value, canonical, cover, alt, caption)
+                found_book = found_book or child_book
+                found_page = found_page or child_page
+
+    return found_book, found_page
 
 
 def update_json_ld(text: str, canonical: str, cover: str, alt: str, caption: str) -> str:
-    found_book = False
+    found_book_anywhere = False
 
     def repl(m: re.Match[str]) -> str:
-        nonlocal found_book
-        raw = m.group(2).strip()
+        nonlocal found_book_anywhere
         try:
-            data = json.loads(raw)
+            data = json.loads(m.group(2).strip())
         except json.JSONDecodeError:
             return m.group(0)
-        if mutate_book_schema(data, canonical, cover, alt, caption):
-            found_book = True
-            payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
-            return m.group(1) + payload + m.group(3)
-        return m.group(0)
+        found_book, _ = mutate_schema(data, canonical, cover, alt, caption)
+        if not found_book:
+            return m.group(0)
+        found_book_anywhere = True
+        payload = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+        return m.group(1) + payload + m.group(3)
 
-    text = SCRIPT_RE.sub(repl, text)
-    if found_book:
-        return text
+    out = SCRIPT_RE.sub(repl, text)
+    if found_book_anywhere:
+        return out
 
     image_id = canonical.rstrip("/") + "/#primaryimage"
     fallback = {
@@ -246,20 +321,15 @@ def update_json_ld(text: str, canonical: str, cover: str, alt: str, caption: str
         + json.dumps(fallback, ensure_ascii=False, separators=(",", ":"))
         + "</script>\n"
     )
-    return text.replace("</head>", block + "</head>", 1)
+    return out.replace("</head>", block + "</head>", 1)
 
 
 def process_page(path: pathlib.Path) -> tuple[bool, str | None]:
     text = path.read_text(encoding="utf-8")
-    if (get_meta(text, "og:type", "property") or "").lower() != "book":
+    if not is_book_landing(text):
         return False, None
 
-    link_m = re.search(
-        r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*\bhref=["\']([^"\']+)["\'][^>]*>',
-        text,
-        re.I,
-    )
-    canonical = html.unescape(link_m.group(1)) if link_m else None
+    canonical = canonical_value(text)
     if not canonical:
         return False, "missing canonical"
 
@@ -267,12 +337,7 @@ def process_page(path: pathlib.Path) -> tuple[bool, str | None]:
     if not cover or not re.match(r"^https?://", cover, re.I):
         return False, "missing external cover"
 
-    title = get_meta(text, "og:title", "property")
-    if not title:
-        h1 = H1_RE.search(text)
-        title = plain_text(h1.group(1)) if h1 else ""
-    title = (title or path.parent.name.replace("-", " ")).strip()
-
+    title = book_title(text, path)
     locale = locale_code(text, path)
     alt, caption = image_copy(locale, title)
 
@@ -280,7 +345,7 @@ def process_page(path: pathlib.Path) -> tuple[bool, str | None]:
     out = ensure_large_image_preview(out)
     out = set_meta(out, "og:image:alt", alt, "property")
     out = set_meta(out, "twitter:image:alt", alt, "name")
-    out = update_cover_markup(out, alt, caption)
+    out = update_cover_markup(out, cover, alt, caption)
     out = update_json_ld(out, canonical, cover, alt, caption)
 
     if out != text:
@@ -295,7 +360,7 @@ def main() -> None:
     skipped: list[tuple[str, str]] = []
     for path in sorted(BOOKS.rglob("index.html")):
         text = path.read_text(encoding="utf-8")
-        if (get_meta(text, "og:type", "property") or "").lower() != "book":
+        if not is_book_landing(text):
             continue
         eligible += 1
         did_change, reason = process_page(path)
@@ -303,11 +368,11 @@ def main() -> None:
         if reason:
             skipped.append((str(path.relative_to(ROOT)), reason))
 
-    print(f"External-cover image SEO: {changed}/{eligible} book pages updated.")
+    print(f"External-cover image SEO: {changed}/{eligible} individual book landing pages updated.")
     if skipped:
         for path, reason in skipped:
             print(f"SKIP {path}: {reason}")
-        print(f"{len(skipped)} book page(s) had no usable external cover/canonical URL and were left unchanged.")
+        print(f"{len(skipped)} book page(s) lacked a usable external cover/canonical URL and were left unchanged.")
 
 
 if __name__ == "__main__":
