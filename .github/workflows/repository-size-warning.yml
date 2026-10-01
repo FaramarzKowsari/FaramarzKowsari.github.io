@@ -4,40 +4,201 @@ on:
   schedule:
     - cron: "17 6 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/repository-size-warning.yml"
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   check-repository-size:
-    name: Check repository size
+    name: Check repository size and growth
     runs-on: ubuntu-latest
     env:
       WARNING_LIMIT_KB: "512000"
       WARNING_LIMIT_MB: "500"
+      HISTORY_FILE: "repository-size-history.csv"
+      ARTIFACT_NAME: "repository-size-history"
       GH_TOKEN: ${{ github.token }}
     steps:
-      - name: Check GitHub repository size
+      - name: Restore latest size history artifact
+        id: restore
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p metrics
+          HISTORY_PATH="metrics/${HISTORY_FILE}"
+
+          ARTIFACT_ID="$(
+            gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts?name=${ARTIFACT_NAME}&per_page=100" \
+              --jq '.artifacts | map(select(.expired == false)) | sort_by(.created_at) | reverse | .[0].id // empty'
+          )"
+
+          if [[ -n "${ARTIFACT_ID}" ]]; then
+            echo "Restoring history from artifact ${ARTIFACT_ID}."
+            if gh api "repos/${GITHUB_REPOSITORY}/actions/artifacts/${ARTIFACT_ID}/zip" > /tmp/repository-size-history.zip \
+              && unzip -p /tmp/repository-size-history.zip "${HISTORY_FILE}" > "${HISTORY_PATH}" 2>/dev/null \
+              && [[ -s "${HISTORY_PATH}" ]]; then
+              echo "restored=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "Could not restore the previous artifact; starting a new history file."
+              rm -f "${HISTORY_PATH}"
+              echo "restored=false" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            echo "No previous history artifact found; this run will create the first snapshot."
+            echo "restored=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Measure repository and calculate growth
+        id: analyze
         shell: bash
         run: |
           set -euo pipefail
 
           SIZE_KB="$(gh api "repos/${GITHUB_REPOSITORY}" --jq '.size')"
-          SIZE_MB="$(awk -v kb="$SIZE_KB" 'BEGIN { printf "%.2f", kb / 1024 }')"
+          export SIZE_KB
 
-          {
-            echo "## Repository size check"
-            echo
-            echo "- Repository: \`${GITHUB_REPOSITORY}\`"
-            echo "- Current size reported by GitHub: **${SIZE_MB} MB** (${SIZE_KB} KB)"
-            echo "- Warning threshold: **${WARNING_LIMIT_MB} MB**"
-            echo
-          } >> "$GITHUB_STEP_SUMMARY"
+          python3 - <<'PY'
+          import csv
+          import os
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
 
-          if (( SIZE_KB >= WARNING_LIMIT_KB )); then
-            echo "::warning title=Repository size warning::Repository size is ${SIZE_MB} MB, at or above the ${WARNING_LIMIT_MB} MB warning threshold."
-            echo "⚠️ **Warning:** repository size has reached or exceeded ${WARNING_LIMIT_MB} MB." >> "$GITHUB_STEP_SUMMARY"
-            exit 1
-          fi
+          history_path = Path("metrics") / os.environ["HISTORY_FILE"]
+          history_path.parent.mkdir(parents=True, exist_ok=True)
 
-          echo "✅ Repository size is below the warning threshold." >> "$GITHUB_STEP_SUMMARY"
+          now = datetime.now(timezone.utc)
+          today = now.date()
+          measured_at = now.replace(microsecond=0).isoformat().replace("+00:00", "Z")
+          size_kb = int(os.environ["SIZE_KB"])
+          size_mb = size_kb / 1024
+          warning_limit_kb = int(os.environ["WARNING_LIMIT_KB"])
+          warning_limit_mb = os.environ["WARNING_LIMIT_MB"]
+
+          rows = []
+          if history_path.exists() and history_path.stat().st_size:
+              try:
+                  with history_path.open("r", encoding="utf-8", newline="") as f:
+                      reader = csv.DictReader(f)
+                      for row in reader:
+                          try:
+                              row_date = datetime.strptime(row["date_utc"], "%Y-%m-%d").date()
+                              row_size = int(row["size_kb"])
+                          except (KeyError, TypeError, ValueError):
+                              continue
+                          rows.append({
+                              "measured_at_utc": row.get("measured_at_utc", ""),
+                              "date_utc": row_date.isoformat(),
+                              "size_kb": row_size,
+                              "size_mb": f"{row_size / 1024:.4f}",
+                          })
+              except (OSError, csv.Error):
+                  rows = []
+
+          # Keep one snapshot per UTC day. A manual rerun replaces today's entry.
+          rows = [row for row in rows if row["date_utc"] != today.isoformat()]
+          rows.append({
+              "measured_at_utc": measured_at,
+              "date_utc": today.isoformat(),
+              "size_kb": size_kb,
+              "size_mb": f"{size_mb:.4f}",
+          })
+          rows.sort(key=lambda row: row["date_utc"])
+
+          with history_path.open("w", encoding="utf-8", newline="") as f:
+              writer = csv.DictWriter(
+                  f,
+                  fieldnames=["measured_at_utc", "date_utc", "size_kb", "size_mb"],
+              )
+              writer.writeheader()
+              writer.writerows(rows)
+
+          def growth(days):
+              target = today - timedelta(days=days)
+              candidates = []
+              for row in rows:
+                  d = datetime.strptime(row["date_utc"], "%Y-%m-%d").date()
+                  if d <= target:
+                      candidates.append((d, int(row["size_kb"])))
+              if not candidates:
+                  return None
+
+              baseline_date, baseline_kb = max(candidates, key=lambda item: item[0])
+              elapsed_days = (today - baseline_date).days
+              if elapsed_days <= 0:
+                  return None
+
+              delta_kb = size_kb - baseline_kb
+              delta_mb = delta_kb / 1024
+              pct = (delta_kb / baseline_kb * 100) if baseline_kb else None
+              mb_per_day = delta_mb / elapsed_days
+              return {
+                  "baseline_date": baseline_date.isoformat(),
+                  "elapsed_days": elapsed_days,
+                  "delta_mb": delta_mb,
+                  "pct": pct,
+                  "mb_per_day": mb_per_day,
+              }
+
+          metrics = {days: growth(days) for days in (7, 30, 90)}
+          oldest = rows[0]["date_utc"] if rows else today.isoformat()
+
+          def signed(value, digits=2):
+              return f"{value:+.{digits}f}"
+
+          summary_path = Path(os.environ["GITHUB_STEP_SUMMARY"])
+          with summary_path.open("a", encoding="utf-8") as summary:
+              summary.write("## Repository size and growth\n\n")
+              summary.write(f"- Repository: `{os.environ['GITHUB_REPOSITORY']}`\n")
+              summary.write(f"- Current size reported by GitHub: **{size_mb:.2f} MB** ({size_kb} KB)\n")
+              summary.write(f"- Warning threshold: **{warning_limit_mb} MB**\n")
+              summary.write(f"- Stored daily snapshots: **{len(rows)}** (oldest: {oldest})\n")
+              summary.write("- History storage: **GitHub Actions artifact**, not Git history\n\n")
+              summary.write("### Growth rates\n\n")
+              summary.write("| Window | Baseline | Size change | Percent change | Average growth/day |\n")
+              summary.write("|---|---:|---:|---:|---:|\n")
+              for days in (7, 30, 90):
+                  metric = metrics[days]
+                  if metric is None:
+                      summary.write(f"| {days} days | Not enough history yet | — | — | — |\n")
+                  else:
+                      pct_text = "—" if metric["pct"] is None else f"{signed(metric['pct'])}%"
+                      baseline = f"{metric['baseline_date']} ({metric['elapsed_days']}d span)"
+                      summary.write(
+                          f"| {days} days | {baseline} | {signed(metric['delta_mb'])} MB | "
+                          f"{pct_text} | {signed(metric['mb_per_day'], 4)} MB/day |\n"
+                      )
+
+              summary.write("\nThe 7/30/90-day figures become available after enough daily history has accumulated. "
+                            "Each new artifact carries the full CSV forward, so the measurements do not add commits or files to the repository.\n\n")
+
+              if size_kb >= warning_limit_kb:
+                  summary.write(f"⚠️ **Warning:** repository size has reached or exceeded {warning_limit_mb} MB.\n")
+              else:
+                  remaining_mb = (warning_limit_kb - size_kb) / 1024
+                  summary.write(f"✅ Repository size is below the warning threshold; about **{remaining_mb:.2f} MB** remains before it.\n")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as out:
+              out.write(f"size_kb={size_kb}\n")
+              out.write(f"size_mb={size_mb:.2f}\n")
+              out.write(f"over_limit={'true' if size_kb >= warning_limit_kb else 'false'}\n")
+          PY
+
+      - name: Upload rolling size history outside Git history
+        uses: actions/upload-artifact@v4
+        with:
+          name: repository-size-history
+          path: metrics/repository-size-history.csv
+          retention-days: 90
+          if-no-files-found: error
+
+      - name: Raise 500 MB warning
+        if: steps.analyze.outputs.over_limit == 'true'
+        shell: bash
+        run: |
+          echo "::warning title=Repository size warning::Repository size is ${{ steps.analyze.outputs.size_mb }} MB, at or above the ${WARNING_LIMIT_MB} MB warning threshold."
+          exit 1
