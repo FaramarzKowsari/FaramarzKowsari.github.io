@@ -24,6 +24,7 @@ on:
       - "scripts/build_russian_book_pages.py"
       - "scripts/build_turkish_book_pages.py"
       - "scripts/build_market_language_pages.py"
+      - "scripts/image_seo_books.py"
       - "scripts/seo_sitemaps.py"
       - ".github/workflows/build-source-reviewed-books.yml"
 
@@ -65,6 +66,7 @@ jobs:
           python scripts/build_russian_book_pages.py
           python scripts/build_turkish_book_pages.py
           python scripts/build_market_language_pages.py
+          python scripts/image_seo_books.py
           python scripts/seo_sitemaps.py
 
       - name: Commit generated book files
@@ -81,7 +83,7 @@ jobs:
             books/*/fr/index.html books/fr/index.html \
             books/*/pt-br/index.html books/pt-br/index.html \
             books/catalog.json books/all-books/index.html \
-            books/sitemap.xml books/sitemap-ru.xml books/sitemap-tr.xml \
+            books/sitemap.xml books/image-sitemap.xml books/sitemap-ru.xml books/sitemap-tr.xml \
             books/sitemap-de.xml books/sitemap-es.xml books/sitemap-fr.xml books/sitemap-pt-br.xml \
             sitemap.xml sitemap-index.xml llms.txt llms-full.txt index.html
           if git diff --cached --quiet; then
