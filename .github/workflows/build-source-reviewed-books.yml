@@ -8,6 +8,7 @@ on:
       - "books/source_reviews/**"
       - "books/source-reviewed-extra.json"
       - "books/library-source-enriched*.json"
+      - "books/localizations/**"
       - "scripts/merge_catalog_additions.py"
       - "scripts/apply_library_source_enrichment.py"
       - "scripts/build_books.py"
@@ -20,6 +21,7 @@ on:
       - "scripts/brand_social_preview.py"
       - "scripts/build_ai_discovery.py"
       - "scripts/ai_visibility_hardening.py"
+      - "scripts/build_russian_book_pages.py"
       - "scripts/seo_sitemaps.py"
       - ".github/workflows/build-source-reviewed-books.yml"
 
@@ -44,7 +46,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Build SEO book pages, public copy, accessibility and AI discovery
+      - name: Build SEO book pages, public copy, accessibility, AI discovery and Russian landing pages
         run: |
           python scripts/merge_catalog_additions.py
           python scripts/build_books.py
@@ -58,6 +60,7 @@ jobs:
           python scripts/brand_social_preview.py --books-only
           python scripts/build_ai_discovery.py
           python scripts/ai_visibility_hardening.py
+          python scripts/build_russian_book_pages.py
           python scripts/seo_sitemaps.py
 
       - name: Commit generated book files
@@ -66,12 +69,12 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add books/books.json books/completed.json books/index.html books/*/index.html books/catalog.json books/all-books/index.html books/sitemap.xml sitemap.xml sitemap-index.xml llms.txt llms-full.txt index.html
+          git add books/books.json books/completed.json books/index.html books/*/index.html books/*/ru/index.html books/ru/index.html books/catalog.json books/all-books/index.html books/sitemap.xml books/sitemap-ru.xml sitemap.xml sitemap-index.xml llms.txt llms-full.txt index.html
           if git diff --cached --quiet; then
             echo "No generated changes."
             exit 0
           fi
-          git commit -m "build: publish public-facing SEO, accessible and AI-discoverable book pages"
+          git commit -m "build: publish SEO, accessible, AI-discoverable and Russian book pages"
 
           # The scheduled project-hub job can update main at the same time. Rebase and
           # retry instead of failing on a transient cannot-lock-ref race.
