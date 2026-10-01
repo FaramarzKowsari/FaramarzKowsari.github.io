@@ -9,6 +9,10 @@ LOCALIZED_SITEMAPS=("ru","tr","de","es","fr","pt-br")
 
 META_TAG_RE=re.compile(r"<meta\b[^>]*>",re.I)
 ATTR_RE=re.compile(r'''([:\w-]+)\s*=\s*(["'])(.*?)\2''',re.I|re.S)
+SCRIPT_RE=re.compile(
+    r'<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+    re.I|re.S,
+)
 CANONICAL_RE=re.compile(
     r'<link\b(?=[^>]*\brel=["\']canonical["\'])[^>]*\bhref=["\']([^"\']+)["\'][^>]*>',
     re.I,
@@ -57,12 +61,35 @@ def canonical_value(text):
     match=CANONICAL_RE.search(text)
     return html.unescape(match.group(1)) if match else None
 
+def json_has_type(node,wanted):
+    if isinstance(node,dict):
+        node_type=node.get("@type")
+        if node_type==wanted or (isinstance(node_type,list) and wanted in node_type):
+            return True
+        return any(json_has_type(v,wanted) for v in node.values() if isinstance(v,(dict,list)))
+    if isinstance(node,list):
+        return any(json_has_type(v,wanted) for v in node if isinstance(v,(dict,list)))
+    return False
+
+def has_book_schema(text):
+    for match in SCRIPT_RE.finditer(text):
+        try:data=json.loads(match.group(1).strip())
+        except json.JSONDecodeError:continue
+        if json_has_type(data,"Book"):
+            return True
+    return False
+
+def is_book_landing(text):
+    return (meta_value(text,"og:type","property") or "").lower()=="book" or has_book_schema(text)
+
 def image_sitemap_rows():
     rows={}
     for path in BOOKS.rglob("index.html"):
         try:text=path.read_text(encoding="utf-8")
         except OSError:continue
-        if (meta_value(text,"og:type","property") or "").lower()!="book":
+        # Include base pages and every localized landing page that carries a
+        # Book entity, even when its Open Graph type is intentionally website.
+        if not is_book_landing(text):
             continue
         page=canonical_value(text)
         image=meta_value(text,"og:image","property") or meta_value(text,"twitter:image","name")
@@ -93,9 +120,8 @@ projects=load(ROOT/"projects.json",[])
 completed=load(BOOKS/"completed.json",{})
 extra=load(BOOKS/"source-reviewed-extra.json",{})
 
-# Include every real, published book landing page. completed/extra remain useful
-# sources, but newly published catalog pages must never disappear from the sitemap
-# just because their full PDF source review is still pending.
+# Include every real, published base-language book landing page. Localized
+# page discovery remains in the per-language sitemaps and image sitemap.
 slugs=[]
 for s in list(completed)+list(extra):
     if isinstance(s,str) and s.strip(): slugs.append(s.strip('/'))
@@ -120,13 +146,13 @@ for row in rows:
     if row[0] not in seen:seen.add(row[0]);uniq.append(row)
 write_map(ROOT/"sitemap.xml",uniq)
 
-# Image sitemap: landing pages stay on GitHub Pages while the cover bytes remain
-# on their original external hosts. No cover is downloaded, proxied or stored.
+# Image sitemap: page HTML stays on GitHub Pages while every cover remains on
+# its original external host. No cover bytes are downloaded, proxied or stored.
 image_rows=image_sitemap_rows()
 write_image_map(BOOKS/"image-sitemap.xml",image_rows)
 
-# One stable sitemap index gives any standards-compliant search engine a single
-# discovery URL while retaining the existing individual sitemap endpoints.
+# One stable sitemap index gives standards-compliant engines a single discovery
+# URL while retaining the existing individual sitemap endpoints.
 sitemap_urls=[
     SITE+"sitemap.xml",
     SITE+"books/sitemap.xml",
@@ -139,4 +165,4 @@ for locale in LOCALIZED_SITEMAPS:
 sitemap_urls.append(SITE+"turkiye-disaster-intelligence-digital-twin/sitemap.xml")
 write_sitemap_index(ROOT/"sitemap-index.xml",sitemap_urls)
 
-print(f"SEO sitemaps: {len(book_rows)} book URLs; {len(image_rows)} image-page pairs; {len(uniq)} master URLs; {len(sitemap_urls)} maps in sitemap index.")
+print(f"SEO sitemaps: {len(book_rows)} book URLs; {len(image_rows)} image-page pairs across all languages; {len(uniq)} master URLs; {len(sitemap_urls)} maps in sitemap index.")
