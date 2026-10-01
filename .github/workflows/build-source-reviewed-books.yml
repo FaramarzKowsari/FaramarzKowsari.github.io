@@ -77,17 +77,11 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add books/books.json books/completed.json books/index.html books/*/index.html \
-            books/*/ru/index.html books/ru/index.html \
-            books/*/tr/index.html books/tr/index.html \
-            books/*/de/index.html books/de/index.html \
-            books/*/es/index.html books/es/index.html \
-            books/*/fr/index.html books/fr/index.html \
-            books/*/pt-br/index.html books/pt-br/index.html \
-            books/catalog.json books/all-books/index.html \
-            books/sitemap.xml books/image-sitemap.xml books/sitemap-ru.xml books/sitemap-tr.xml \
-            books/sitemap-de.xml books/sitemap-es.xml books/sitemap-fr.xml books/sitemap-pt-br.xml \
-            sitemap.xml sitemap-index.xml llms.txt llms-full.txt index.html
+
+          # Stage generated site output broadly instead of relying on shell globs
+          # that can fail when a language currently has zero generated pages.
+          git add -A -- books sitemap.xml sitemap-index.xml llms.txt llms-full.txt index.html
+
           if git diff --cached --quiet; then
             echo "No generated changes."
             exit 0
