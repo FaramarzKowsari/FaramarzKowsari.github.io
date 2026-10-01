@@ -7,6 +7,7 @@ on:
       - "index.html"
       - "robots.txt"
       - "sitemap.xml"
+      - "sitemap-index.xml"
       - "llms.txt"
       - "llms-full.txt"
       - "books/**"
