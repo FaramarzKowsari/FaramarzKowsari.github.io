@@ -76,6 +76,8 @@ sitemap_urls=[
 ]
 if (BOOKS/"sitemap-ru.xml").exists():
     sitemap_urls.append(SITE+"books/sitemap-ru.xml")
+if (BOOKS/"sitemap-tr.xml").exists():
+    sitemap_urls.append(SITE+"books/sitemap-tr.xml")
 sitemap_urls.append(SITE+"turkiye-disaster-intelligence-digital-twin/sitemap.xml")
 write_sitemap_index(ROOT/"sitemap-index.xml",sitemap_urls)
 
