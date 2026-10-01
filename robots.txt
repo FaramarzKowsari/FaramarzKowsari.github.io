@@ -45,6 +45,45 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
+# Yandex Search
+User-agent: YandexBot
+Allow: /
+
+# Baidu Search
+User-agent: Baiduspider
+Allow: /
+
+# NAVER Search
+User-agent: Yeti
+Allow: /
+
+# Seznam.cz Search
+User-agent: SeznamBot
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Mojeek Search
+User-agent: MojeekBot
+Allow: /
+
+# Qwant Search
+User-agent: Qwantbot
+Allow: /
+
+# Kagi Search
+User-agent: Kagibot
+Allow: /
+
+# Sogou Search
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: Sogou inst spider
+Allow: /
+
 # Apple Search, Siri, Safari and Apple Intelligence-related use
 User-agent: Applebot
 Allow: /
@@ -62,11 +101,12 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
-# Catch-all for other public search/answer-engine crawlers, including services
-# that do not publish a dedicated robots.txt token.
+# Catch-all for public search/answer-engine crawlers without a dedicated rule.
+# This also keeps the site open to engines that do not publish a stable crawler token.
 User-agent: *
 Allow: /
 
+Sitemap: https://faramarzkowsari.github.io/sitemap-index.xml
 Sitemap: https://faramarzkowsari.github.io/sitemap.xml
 Sitemap: https://faramarzkowsari.github.io/books/sitemap.xml
 Sitemap: https://faramarzkowsari.github.io/turkiye-disaster-intelligence-digital-twin/sitemap.xml
