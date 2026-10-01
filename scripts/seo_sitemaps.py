@@ -73,8 +73,10 @@ write_map(ROOT/"sitemap.xml",uniq)
 sitemap_urls=[
     SITE+"sitemap.xml",
     SITE+"books/sitemap.xml",
-    SITE+"turkiye-disaster-intelligence-digital-twin/sitemap.xml",
 ]
+if (BOOKS/"sitemap-ru.xml").exists():
+    sitemap_urls.append(SITE+"books/sitemap-ru.xml")
+sitemap_urls.append(SITE+"turkiye-disaster-intelligence-digital-twin/sitemap.xml")
 write_sitemap_index(ROOT/"sitemap-index.xml",sitemap_urls)
 
 print(f"SEO sitemaps: {len(book_rows)} book URLs; {len(uniq)} master URLs; {len(sitemap_urls)} maps in sitemap index.")
