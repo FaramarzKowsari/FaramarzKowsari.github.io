@@ -1,0 +1,45 @@
+name: Notify IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "index.html"
+      - "robots.txt"
+      - "sitemap.xml"
+      - "llms.txt"
+      - "books/**"
+      - "9b98e167b32cad1462454e76dd029a61.txt"
+      - "scripts/submit_indexnow.py"
+      - ".github/workflows/indexnow.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow-main
+  cancel-in-progress: true
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Wait briefly for GitHub Pages deployment
+        run: sleep 60
+
+      - name: Submit changed public URLs to IndexNow
+        env:
+          INDEXNOW_BEFORE: ${{ github.event.before }}
+          INDEXNOW_AFTER: ${{ github.sha }}
+        run: python scripts/submit_indexnow.py
