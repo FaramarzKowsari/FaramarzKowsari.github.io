@@ -56,17 +56,19 @@ def public_url_for_path(path: str):
         return BASE + "books/topics/"
     if path == "books/ru/index.html":
         return BASE + "books/ru/"
+    if path == "books/tr/index.html":
+        return BASE + "books/tr/"
     if path.startswith("books/") and path.endswith("/index.html"):
         parts = path.split("/")
         if len(parts) == 3:
             return BASE + f"books/{parts[1]}/"
-        if len(parts) == 4 and parts[2] == "ru":
-            return BASE + f"books/{parts[1]}/ru/"
+        if len(parts) == 4 and parts[2] in {"ru", "tr"}:
+            return BASE + f"books/{parts[1]}/{parts[2]}/"
 
     # Public discovery resources can be submitted as URLs as well.
     if path in {"llms.txt", "sitemap.xml", "sitemap-index.xml", "robots.txt", f"{KEY}.txt"}:
         return BASE + path
-    if path in {"books/sitemap.xml", "books/sitemap-ru.xml", "books/catalog.json"}:
+    if path in {"books/sitemap.xml", "books/sitemap-ru.xml", "books/sitemap-tr.xml", "books/catalog.json"}:
         return BASE + path
 
     return None
@@ -88,6 +90,7 @@ def collect_urls(changed):
             BASE,
             BASE + "books/",
             BASE + "books/ru/",
+            BASE + "books/tr/",
             BASE + "books/all-books/",
             BASE + "books/author/",
             BASE + "books/topics/",
