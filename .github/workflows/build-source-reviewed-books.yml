@@ -11,6 +11,7 @@ on:
       - "books/source-reviewed-extra.json"
       - "books/library-source-enriched*.json"
       - "books/localizations/**"
+      - "books/pinterest-infographics.json"
       - "scripts/merge_catalog_additions.py"
       - "scripts/apply_library_source_enrichment.py"
       - "scripts/build_books.py"
@@ -26,6 +27,7 @@ on:
       - "scripts/build_russian_book_pages.py"
       - "scripts/build_turkish_book_pages.py"
       - "scripts/build_market_language_pages.py"
+      - "scripts/add_pinterest_infographics.py"
       - "scripts/image_seo_books.py"
       - "scripts/seo_sitemaps.py"
       - ".github/workflows/build-source-reviewed-books.yml"
@@ -68,6 +70,7 @@ jobs:
           python scripts/build_russian_book_pages.py
           python scripts/build_turkish_book_pages.py
           python scripts/build_market_language_pages.py
+          python scripts/add_pinterest_infographics.py
           python scripts/image_seo_books.py
           python scripts/seo_sitemaps.py
 
