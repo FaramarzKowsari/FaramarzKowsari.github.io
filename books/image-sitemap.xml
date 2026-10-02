@@ -2066,6 +2066,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://faramarzkowsari.github.io/books/ethics-in-the-age-of-artificial-intelligence/</loc>
+    <image:image>
+      <image:loc>https://books.google.com/books/content?id=ee0UEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://faramarzkowsari.github.io/books/ethics-in-the-age-of-artificial-intelligence/de/</loc>
     <image:image>
       <image:loc>https://books.google.com/books/content?id=ee0UEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
@@ -2085,6 +2091,18 @@
   </url>
   <url>
     <loc>https://faramarzkowsari.github.io/books/ethics-in-the-age-of-artificial-intelligence/pt-br/</loc>
+    <image:image>
+      <image:loc>https://books.google.com/books/content?id=ee0UEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/books/ethics-in-the-age-of-artificial-intelligence/ru/</loc>
+    <image:image>
+      <image:loc>https://books.google.com/books/content?id=ee0UEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/books/ethics-in-the-age-of-artificial-intelligence/tr/</loc>
     <image:image>
       <image:loc>https://books.google.com/books/content?id=ee0UEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
     </image:image>

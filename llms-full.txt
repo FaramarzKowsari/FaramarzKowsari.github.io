@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (145)
+## Books (146)
 
 ### Depremde Hayatta Kalma
 
@@ -292,6 +292,35 @@ What readers learn:
 - Tek seferlik promptları sürdürülebilir sosyal medya iş akışları ve master promptlara dönüştürmek.
 
 Audience: Sosyal medya çalışmalarını daha sistemli, kanıta dayalı ve marka bağlamına uygun hâle getirmek isteyen pazarlamacılar, girişimciler ve içerik ekipleri için.
+
+### Ethics in the Age of Artificial Intelligence
+
+- Canonical page: https://faramarzkowsari.github.io/books/ethics-in-the-age-of-artificial-intelligence/
+- Language: English
+- Category: AI Ethics & Technology
+- Subtitle: Human Responsibility on the Road to Artificial General Intelligence and the New Boundaries of Right and Wrong
+- Google Books: https://play.google.com/store/books/details?id=ee0UEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=ee0UEgAAQBAJ&hl=en
+
+Ethics in the Age of Artificial Intelligence examines how the boundaries of right and wrong must be reconsidered as AI systems increasingly shape everyday life, education, work, relationships, public decision-making, and access to opportunity. Rather than treating ethics as an abstract philosophical layer added after deployment, the book frames responsibility, privacy, algorithmic bias, surveillance, manipulation, deepfakes, explainability, uncertainty, and human oversight as practical design and governance questions.
+
+The book also moves toward more advanced questions involving autonomous systems and agents, the road toward artificial general intelligence, machine consciousness, and the possibility of future machine rights, while preserving a central question throughout: where should authority, accountability, and final responsibility remain with human beings? AI in education, the transformation of work and skills, parenting, algorithmic matching, digital intimacy, and technology-mediated relationships are examined within the same ethical framework.
+
+Its approach is neither alarmist nor celebratory. The emphasis is on preserving human agency, accountability, dignity, and deliberate oversight while distinguishing what technology can do from what it should be allowed to do. The result is a practical ethical framework for readers who want to understand not only the capabilities of modern AI, but also the social and human responsibilities created by those capabilities.
+
+Key topics: AI ethics; Human responsibility and accountability; Algorithmic bias and fairness; Privacy and surveillance; Manipulation and deepfakes; Explainability and transparency; Uncertainty and decision-making; Cognitive rights and human autonomy; AI in education; Work, skills and automation; Relationships and algorithmic matching; Parenting and digital life; Autonomous AI agents; Artificial General Intelligence (AGI); Machine consciousness and possible machine rights; Human oversight and AI governance
+
+What readers learn:
+- Understand why responsibility in AI systems cannot be reduced to the model or developer alone.
+- Evaluate algorithmic bias, privacy, surveillance and manipulation through an ethical and human-centered lens.
+- Distinguish the effects of deepfakes, synthetic media and persuasive technologies on trust, identity and public life.
+- Understand why explainability, transparency and uncertainty matter in high-impact AI decisions.
+- Examine AI use in education, work, relationships and family life through the principles of autonomy and accountability.
+- Think clearly about authority, oversight and responsibility as autonomous agents and AGI become more capable.
+- Explore debates about machine consciousness and possible machine rights without losing sight of existing human rights and duties.
+- Separate technological possibility from ethical acceptability when making decisions about AI adoption and governance.
+
+Audience: For students, educators, developers, researchers, managers, entrepreneurs, policymakers, technology professionals, and general readers who want a practical framework for understanding the ethical consequences of artificial intelligence.
 
 ### The Second Wealth
 

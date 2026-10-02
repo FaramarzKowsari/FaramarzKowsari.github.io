@@ -7290,9 +7290,26 @@
     "translation_group": "ethics-in-the-age-of-ai",
     "subtitle": "Human Responsibility on the Road to Artificial General Intelligence and the New Boundaries of Right and Wrong",
     "description": "",
-    "summary": "",
-    "key_topics": [],
-    "target_audience": "",
+    "summary": "Ethics in the Age of Artificial Intelligence examines how the boundaries of right and wrong must be reconsidered as AI systems increasingly shape everyday life, education, work, relationships, public decision-making, and access to opportunity. Rather than treating ethics as an abstract philosophical layer added after deployment, the book frames responsibility, privacy, algorithmic bias, surveillance, manipulation, deepfakes, explainability, uncertainty, and human oversight as practical design and governance questions.\n\nThe book also moves toward more advanced questions involving autonomous systems and agents, the road toward artificial general intelligence, machine consciousness, and the possibility of future machine rights, while preserving a central question throughout: where should authority, accountability, and final responsibility remain with human beings? AI in education, the transformation of work and skills, parenting, algorithmic matching, digital intimacy, and technology-mediated relationships are examined within the same ethical framework.\n\nIts approach is neither alarmist nor celebratory. The emphasis is on preserving human agency, accountability, dignity, and deliberate oversight while distinguishing what technology can do from what it should be allowed to do. The result is a practical ethical framework for readers who want to understand not only the capabilities of modern AI, but also the social and human responsibilities created by those capabilities.",
+    "key_topics": [
+      "AI ethics",
+      "Human responsibility and accountability",
+      "Algorithmic bias and fairness",
+      "Privacy and surveillance",
+      "Manipulation and deepfakes",
+      "Explainability and transparency",
+      "Uncertainty and decision-making",
+      "Cognitive rights and human autonomy",
+      "AI in education",
+      "Work, skills and automation",
+      "Relationships and algorithmic matching",
+      "Parenting and digital life",
+      "Autonomous AI agents",
+      "Artificial General Intelligence (AGI)",
+      "Machine consciousness and possible machine rights",
+      "Human oversight and AI governance"
+    ],
+    "target_audience": "For students, educators, developers, researchers, managers, entrepreneurs, policymakers, technology professionals, and general readers who want a practical framework for understanding the ethical consequences of artificial intelligence.",
     "publisher": "Faramarz Kowsari",
     "published_date": "2026",
     "isbn": "",
@@ -7307,6 +7324,23 @@
     "google_books_url": "https://play.google.com/store/books/details?id=ee0UEgAAQBAJ",
     "cover_url": "https://books.google.com/books/content?id=ee0UEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "language_code": "en",
-    "sequence": 146
+    "sequence": 146,
+    "seo_description": "A practical guide to AI ethics covering responsibility, privacy, algorithmic bias, surveillance, deepfakes, manipulation, explainability, cognitive rights, education, work, relationships, autonomous agents and AGI.",
+    "learning": [
+      "Understand why responsibility in AI systems cannot be reduced to the model or developer alone.",
+      "Evaluate algorithmic bias, privacy, surveillance and manipulation through an ethical and human-centered lens.",
+      "Distinguish the effects of deepfakes, synthetic media and persuasive technologies on trust, identity and public life.",
+      "Understand why explainability, transparency and uncertainty matter in high-impact AI decisions.",
+      "Examine AI use in education, work, relationships and family life through the principles of autonomy and accountability.",
+      "Think clearly about authority, oversight and responsibility as autonomous agents and AGI become more capable.",
+      "Explore debates about machine consciousness and possible machine rights without losing sight of existing human rights and duties.",
+      "Separate technological possibility from ethical acceptability when making decisions about AI adoption and governance."
+    ],
+    "related_ids": [
+      "ne0UEgAAQBAJ",
+      "nx_2EQAAQBAJ",
+      "zpwMEgAAQBAJ"
+    ],
+    "source_reviewed": true
   }
 ]
