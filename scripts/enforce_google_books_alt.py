@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
-"""Ensure every Google Books-hosted image in the books site has ALT text
-containing the exact phrases "Faramarz Kowsari" and "Google Books".
+"""Normalize ALT text for Google Books-hosted book-cover images.
+
+Every Google Books cover is described naturally as:
+    <Book Title> book cover by Faramarz Kowsari, available on Google Books
+
+The same wording is also applied to Open Graph and Twitter image ALT metadata
+when those social images are served by Google Books.
 
 This is a text-only post-processing step. It never downloads, copies, caches,
 proxies, resizes or stores any external image in the repository.
@@ -17,6 +22,8 @@ BOOKS = ROOT / "books"
 IMG_RE = re.compile(r"<img\b[^>]*>", re.I)
 META_RE = re.compile(r"<meta\b[^>]*>", re.I)
 ATTR_RE = re.compile(r'''([:\w-]+)\s*=\s*(["'])(.*?)\2''', re.I | re.S)
+H1_RE = re.compile(r"<h1\b[^>]*>(.*?)</h1>", re.I | re.S)
+TAG_RE = re.compile(r"<[^>]+>")
 
 AUTHOR = "Faramarz Kowsari"
 SOURCE = "Google Books"
@@ -34,6 +41,15 @@ def set_attr(tag: str, name: str, value: str) -> str:
     return tag[:-1] + f' {name}="{escaped}">'
 
 
+def plain_text(fragment: str) -> str:
+    return html.unescape(re.sub(r"\s+", " ", TAG_RE.sub("", fragment))).strip()
+
+
+def page_title(text: str) -> str:
+    m = H1_RE.search(text)
+    return plain_text(m.group(1)) if m else ""
+
+
 def is_google_books_image(url: str) -> bool:
     value = html.unescape(url or "").lower()
     return (
@@ -42,19 +58,53 @@ def is_google_books_image(url: str) -> bool:
     )
 
 
-def enrich_alt(current: str) -> str:
-    value = (current or "").strip()
+def title_from_existing_alt(current: str) -> str:
+    """Recover a book title from common existing ALT formats used by the site."""
+    value = html.unescape((current or "").strip())
     if not value:
-        value = "Book cover"
-    if AUTHOR.lower() not in value.lower():
-        value += f" — {AUTHOR}"
-    if SOURCE.lower() not in value.lower():
-        value += f" — {SOURCE}"
-    return value
+        return ""
+
+    patterns = [
+        r"^Book cover of\s+(.+?)\s+by Faramarz Kowsari(?:\s*[—-]\s*Google Books)?$",
+        r"^(.+?)\s+book cover(?:\s+by Faramarz Kowsari)?(?:,?\s+available on Google Books)?$",
+        r"^Обложка книги [«\"](.+?)[»\"] автора Faramarz Kowsari(?:\s*[—-]\s*Google Books)?$",
+        r"^(.+?)\s*[—-]\s*Faramarz Kowsari kitap kapağı(?:\s*[—-]\s*Google Books)?$",
+        r"^Buchcover von [„\"](.+?)[“\"] von Faramarz Kowsari(?:\s*[—-]\s*Google Books)?$",
+        r"^Portada del libro [«\"](.+?)[»\"] de Faramarz Kowsari(?:\s*[—-]\s*Google Books)?$",
+        r"^Couverture du livre [«\"](.+?)[»\"] de Faramarz Kowsari(?:\s*[—-]\s*Google Books)?$",
+        r"^Capa do livro [“\"](.+?)[”\"],? de Faramarz Kowsari(?:\s*[—-]\s*Google Books)?$",
+    ]
+    for pattern in patterns:
+        m = re.match(pattern, value, re.I)
+        if m:
+            return m.group(1).strip()
+
+    # Conservative fallback: remove only the exact author/source suffixes we add.
+    cleaned = re.sub(r"\s*[—-]\s*Google Books\s*$", "", value, flags=re.I)
+    cleaned = re.sub(r",?\s*available on Google Books\s*$", "", cleaned, flags=re.I)
+    cleaned = re.sub(r"\s+by Faramarz Kowsari\s*$", "", cleaned, flags=re.I)
+    cleaned = re.sub(r"\s*[—-]\s*Faramarz Kowsari\s*$", "", cleaned, flags=re.I)
+    cleaned = re.sub(r"\s+book cover\s*$", "", cleaned, flags=re.I)
+    return cleaned.strip()
+
+
+def natural_alt(title: str) -> str:
+    clean_title = re.sub(r"\s+", " ", (title or "").strip()) or "Book"
+    return f"{clean_title} book cover by {AUTHOR}, available on {SOURCE}"
+
+
+def google_image_count(text: str) -> int:
+    count = 0
+    for m in IMG_RE.finditer(text):
+        if is_google_books_image(attrs(m.group(0)).get("src", "")):
+            count += 1
+    return count
 
 
 def update_img_tags(text: str) -> tuple[str, int]:
     count = 0
+    single_cover = google_image_count(text) == 1
+    h1_title = page_title(text) if single_cover else ""
 
     def repl(match: re.Match[str]) -> str:
         nonlocal count
@@ -62,8 +112,8 @@ def update_img_tags(text: str) -> tuple[str, int]:
         data = attrs(tag)
         if not is_google_books_image(data.get("src", "")):
             return tag
-        new_alt = enrich_alt(data.get("alt", ""))
-        new_tag = set_attr(tag, "alt", new_alt)
+        title = h1_title or title_from_existing_alt(data.get("alt", "")) or "Book"
+        new_tag = set_attr(tag, "alt", natural_alt(title))
         if new_tag != tag:
             count += 1
         return new_tag
@@ -72,8 +122,8 @@ def update_img_tags(text: str) -> tuple[str, int]:
 
 
 def update_social_alt(text: str) -> tuple[str, int]:
-    """Keep Open Graph/Twitter image alt consistent on pages whose social image
-    is also served by Google Books.
+    """Keep Open Graph/Twitter image ALT consistent when the social image is
+    served by Google Books.
     """
     social_image_is_google = False
     for m in META_RE.finditer(text):
@@ -85,6 +135,7 @@ def update_social_alt(text: str) -> tuple[str, int]:
     if not social_image_is_google:
         return text, 0
 
+    h1_title = page_title(text)
     count = 0
 
     def repl(match: re.Match[str]) -> str:
@@ -94,8 +145,8 @@ def update_social_alt(text: str) -> tuple[str, int]:
         key = (data.get("property") or data.get("name") or "").lower()
         if key not in {"og:image:alt", "twitter:image:alt"}:
             return tag
-        new_value = enrich_alt(data.get("content", ""))
-        new_tag = set_attr(tag, "content", new_value)
+        title = h1_title or title_from_existing_alt(data.get("content", "")) or "Book"
+        new_tag = set_attr(tag, "content", natural_alt(title))
         if new_tag != tag:
             count += 1
         return new_tag
@@ -119,7 +170,7 @@ def main() -> None:
             social_alts_changed += social_count
 
     print(
-        "Google Books ALT enforcement: "
+        "Natural Google Books ALT normalization: "
         f"{files_changed} HTML file(s) changed; "
         f"{img_alts_changed} image ALT attribute(s) updated; "
         f"{social_alts_changed} social image ALT tag(s) updated."
