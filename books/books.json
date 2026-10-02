@@ -7281,5 +7281,32 @@
       "Vh8PEgAAQBAJ"
     ],
     "source_reviewed": true
+  },
+  {
+    "status": "active",
+    "content_status": "complete",
+    "language": "English",
+    "category": "AI Ethics & Technology",
+    "translation_group": "ethics-in-the-age-of-ai",
+    "subtitle": "Human Responsibility on the Road to Artificial General Intelligence and the New Boundaries of Right and Wrong",
+    "description": "",
+    "summary": "",
+    "key_topics": [],
+    "target_audience": "",
+    "publisher": "Faramarz Kowsari",
+    "published_date": "2026",
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered",
+    "google_books_id": "ee0UEgAAQBAJ",
+    "title": "Ethics in the Age of Artificial Intelligence",
+    "slug": "ethics-in-the-age-of-artificial-intelligence",
+    "google_books_url": "https://play.google.com/store/books/details?id=ee0UEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=ee0UEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "language_code": "en",
+    "sequence": 146
   }
 ]
