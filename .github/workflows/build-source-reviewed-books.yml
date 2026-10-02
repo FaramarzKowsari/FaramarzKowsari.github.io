@@ -29,6 +29,7 @@ on:
       - "scripts/build_market_language_pages.py"
       - "scripts/add_pinterest_infographics.py"
       - "scripts/image_seo_books.py"
+      - "scripts/enforce_google_books_alt.py"
       - "scripts/seo_sitemaps.py"
       - ".github/workflows/build-source-reviewed-books.yml"
 
@@ -72,6 +73,7 @@ jobs:
           python scripts/build_market_language_pages.py
           python scripts/add_pinterest_infographics.py
           python scripts/image_seo_books.py
+          python scripts/enforce_google_books_alt.py
           python scripts/seo_sitemaps.py
 
       - name: Commit generated book files
