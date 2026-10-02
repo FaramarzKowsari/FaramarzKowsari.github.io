@@ -7220,5 +7220,32 @@
       "oJvdEQAAQBAJ"
     ],
     "source_reviewed": true
+  },
+  {
+    "status": "active",
+    "content_status": "complete",
+    "language": "Turkish",
+    "category": "Yapay Zekâ Etiği & Teknoloji",
+    "translation_group": "ethics-in-the-age-of-ai",
+    "subtitle": "Yapay Genel Zekâya Giden Yolda İnsan Sorumluluğu ve Doğru ile Yanlışın Yeni Sınırları",
+    "description": "",
+    "summary": "",
+    "key_topics": [],
+    "target_audience": "",
+    "publisher": "Faramarz Kowsari",
+    "published_date": "2026-10-01",
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered",
+    "google_books_id": "ne0UEgAAQBAJ",
+    "title": "Yapay Zekâ Çağında Etik",
+    "slug": "yapay-zeka-caginda-etik",
+    "google_books_url": "https://play.google.com/store/books/details?id=ne0UEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=ne0UEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "language_code": "tr",
+    "sequence": 145
   }
 ]
