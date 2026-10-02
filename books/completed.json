@@ -4449,6 +4449,54 @@
     "target_audience": "For active gold traders and scalpers who want an XAUUSD-specific process that combines market mechanics, session behavior, structure, liquidity and execution discipline.",
     "title": "XAUUSD Scalping"
   },
+  "yapay-zeka-caginda-etik": {
+    "category": "Yapay Zekâ Etiği & Teknoloji",
+    "content_status": "complete",
+    "crossref_status": "not_registered",
+    "key_topics": [
+      "Yapay zekâ etiği",
+      "İnsan sorumluluğu ve hesap verebilirlik",
+      "Algoritmik ayrımcılık ve adalet",
+      "Mahremiyet ve gözetim",
+      "Manipülasyon ve deepfake",
+      "Açıklanabilirlik ve şeffaflık",
+      "Belirsizlik ve karar verme",
+      "Bilişsel haklar ve insan özerkliği",
+      "Eğitimde yapay zekâ",
+      "İş, beceriler ve otomasyon",
+      "İlişkiler ve algoritmik eşleşme",
+      "Ebeveynlik ve dijital yaşam",
+      "Otonom ajanlar",
+      "Yapay Genel Zekâ (AGI)",
+      "Makine bilinci ve olası makine hakları",
+      "İnsan denetimi ve yönetişim"
+    ],
+    "language": "Turkish",
+    "learning": [
+      "Yapay zekâ sistemlerinde sorumluluğun neden yalnızca modele veya geliştiriciye indirgenemeyeceğini anlamak.",
+      "Algoritmik ayrımcılık, mahremiyet, gözetim ve manipülasyon risklerini etik açıdan değerlendirmek.",
+      "Deepfake, sentetik içerik ve ikna teknolojilerinin güven, kimlik ve kamusal alan üzerindeki etkilerini ayırt etmek.",
+      "Açıklanabilirlik, şeffaflık ve belirsizliğin yüksek etkili yapay zekâ kararlarında neden önemli olduğunu görmek.",
+      "Eğitim, iş, ilişkiler ve aile yaşamında yapay zekâ kullanımını insan özerkliği ve sorumluluk açısından sorgulamak.",
+      "Otonom ajanlar ve yapay genel zekâya yaklaşırken yetki, denetim ve hesap verebilirlik sınırlarını düşünmek.",
+      "Makine bilinci ve olası makine hakları tartışmalarını insan hakları ve etik sorumluluk çerçevesinde incelemek.",
+      "Teknolojik kapasite ile etik kabul edilebilirlik arasındaki farkı koruyarak daha bilinçli kararlar vermek."
+    ],
+    "published_date": "2026-10-01",
+    "publisher": "Faramarz Kowsari",
+    "related_ids": [
+      "nx_2EQAAQBAJ",
+      "zpwMEgAAQBAJ",
+      "Vh8PEgAAQBAJ"
+    ],
+    "seo_description": "Yapay zekâ etiği üzerine kapsamlı bir rehber: sorumluluk, mahremiyet, algoritmik ayrımcılık, deepfake, manipülasyon, açıklanabilirlik, bilişsel haklar, eğitim, iş, ilişkiler, otonom ajanlar ve AGI.",
+    "source_reviewed": true,
+    "subtitle": "Yapay Genel Zekâya Giden Yolda İnsan Sorumluluğu ve Doğru ile Yanlışın Yeni Sınırları",
+    "summary": "Yapay Zekâ Çağında Etik, yapay zekânın günlük yaşamdan eğitime, çalışma hayatından ilişkilere ve kamusal kararlara kadar giderek daha fazla alanı etkilediği bir dönemde doğru ile yanlışın sınırlarının nasıl yeniden tartışılması gerektiğini ele alır. Kitap, etik tartışmayı soyut ilkelerle sınırlamak yerine sorumluluk, mahremiyet, algoritmik ayrımcılık, gözetim, manipülasyon, deepfake'ler, açıklanabilirlik, belirsizlik ve insan denetimi gibi somut sorunlar üzerinden kurar.\n\nEser ayrıca otonom sistemler ve ajanlar, yapay genel zekâya giden yol, makine bilinci ve olası makine hakları gibi daha ileri tartışmalara uzanırken temel soruyu sürekli korur: karar verme yetkisi ve sonuçların sorumluluğu nerede insanda kalmalıdır? Eğitimde yapay zekâ kullanımı, iş ve becerilerin dönüşümü, ilişkiler, ebeveynlik, algoritmik eşleşme ve dijital yakınlık gibi gündelik konular da bu etik çerçevenin parçası olarak incelenir.\n\nKitabın yaklaşımı, teknolojiyi şeytanlaştırmak ya da romantikleştirmek yerine insan öznesini, hesap verebilirliği ve bilinçli gözetimi merkeze almaktır. Amaç, yapay zekâ ile birlikte yaşarken yalnızca neyin mümkün olduğunu değil, neyin kabul edilebilir, adil, sorumlu ve insan onuruyla uyumlu olduğunu da sorgulamaktır.",
+    "target_audience": "Yapay zekânın etik sonuçlarını anlamak isteyen öğrenciler, eğitimciler, geliştiriciler, araştırmacılar, yöneticiler, girişimciler, politika yapıcılar, teknoloji profesyonelleri ve günlük yaşamında yapay zekâ kullanan okurlar için hazırlanmıştır.",
+    "title": "Yapay Zekâ Çağında Etik",
+    "translation_group": "ethics-in-the-age-of-ai"
+  },
   "you-are-too-valuable-for-less": {
     "category": "Personal Development",
     "content_status": "complete",

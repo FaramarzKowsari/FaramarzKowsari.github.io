@@ -23,7 +23,7 @@
 - Use catalog.json for structured discovery and the all-books text index for a crawlable human-readable overview.
 - The repository/site DOI identifies the evolving website and books-library project; it is not a DOI for every individual book.
 
-## Books (144)
+## Books (145)
 
 - [0DTE Options: Trading the Same-Day Market](https://faramarzkowsari.github.io/books/0dte-options/) — English; Trading. A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools.
 - [AI APIs in Practice](https://faramarzkowsari.github.io/books/ai-apis-in-practice/) — English; Artificial Intelligence. A visual engineering guide to AI APIs, multimodal systems, agents, RAG, secure authentication, payload design, evaluation, observability, and governance.
@@ -164,6 +164,7 @@
 - [When Money Runs Short](https://faramarzkowsari.github.io/books/when-money-runs-short/) — English; Personal Finance & Everyday Life. A practical guide to surviving financial pressure by redesigning food, housing, healthcare, transport and everyday costs while protecting health, safety, work, family, future and dignity.
 - [Why Smart People Make Bad Money Decisions](https://faramarzkowsari.github.io/books/why-smart-people-make-bad-money-decisions/) — English; Personal Finance & Psychology. A practical behavioral-finance guide to inherited money rules, spending psychology, status, future-self decisions, earning power, debt, risk, financial freedom, and better money habits.
 - [XAUUSD Scalping](https://faramarzkowsari.github.io/books/xauusd-scalping/) — English; Trading. A practical XAUUSD scalping guide covering gold-market structure, sessions, spreads, leverage, macro drivers, volatility, liquidity, displacement, multi-timeframe mapping and intraday setups.
+- [Yapay Zekâ Çağında Etik](https://faramarzkowsari.github.io/books/yapay-zeka-caginda-etik/) — Turkish; Yapay Zekâ Etiği & Teknoloji. Yapay zekâ etiği üzerine kapsamlı bir rehber: sorumluluk, mahremiyet, algoritmik ayrımcılık, deepfake, manipülasyon, açıklanabilirlik, bilişsel haklar, eğitim, iş, ilişkiler, otonom ajanlar ve AGI.
 - [You Are Too Valuable for Less](https://faramarzkowsari.github.io/books/you-are-too-valuable-for-less/) — English; Personal Development. A practical book on self-worth, standards, health, attention, love, selectivity, intelligent leverage, and using AI without outsourcing judgment.
 - [You Can’t Control Life, But You Can Train Your Response](https://faramarzkowsari.github.io/books/you-can-t-control-life-but-you-can-train-your-response/) — English; Personal Development. A practical guide to emotional discipline, pause, attention, body awareness, boundaries, uncertainty, flexible planning, and training responses instead of controlling life.
 - [YouTube İçerik Üreticileri İçin Yapay Zekâ Promptları](https://faramarzkowsari.github.io/books/youtube-icerik-ureticileri-icin-yapay-zeka-promptlar/) — Türkçe; AI & İçerik Üretimi. YouTube üreticileri için kanal stratejisi, izleyici niyeti, araştırma, başlık, thumbnail, senaryo, retention, Shorts, topluluk, repurposing ve analitik odaklı uygulanabilir yapay zekâ promptları.
