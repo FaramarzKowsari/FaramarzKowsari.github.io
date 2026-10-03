@@ -23,7 +23,7 @@
 - Use catalog.json for structured discovery and the all-books text index for a crawlable human-readable overview.
 - The repository/site DOI identifies the evolving website and books-library project; it is not a DOI for every individual book.
 
-## Books (146)
+## Books (147)
 
 - [0DTE Options: Trading the Same-Day Market](https://faramarzkowsari.github.io/books/0dte-options/) — English; Trading. A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools.
 - [AI APIs in Practice](https://faramarzkowsari.github.io/books/ai-apis-in-practice/) — English; Artificial Intelligence. A visual engineering guide to AI APIs, multimodal systems, agents, RAG, secure authentication, payload design, evaluation, observability, and governance.
@@ -78,6 +78,7 @@
 - [Esaretsiz Zeka](https://faramarzkowsari.github.io/books/esaretsiz-zeka/) — Türkçe; Kişisel Gelişim & Üstün Zekâ. Yüksek kapasiteli ve yetenekli zihinler için erişim, güven, sınırlar, misyon, yalnızlık, duygusal zekâ, profesyonel netlik ve kendini silmeden özgür kalma üzerine bir rehber.
 - [España ante el calor](https://faramarzkowsari.github.io/books/espana-ante-el-calor/) — Español (España); Hogar, clima y calidad del aire. Guía visual de 100 páginas para afrontar el calor en viviendas de España: sombra, ventilación, persianas, toldos, refrigeración, humedad, calima, humo, calidad del aire, consumo energético y decisiones adaptadas al clima.
 - [Ethics in the Age of Artificial Intelligence](https://faramarzkowsari.github.io/books/ethics-in-the-age-of-artificial-intelligence/) — English; AI Ethics & Technology. A practical guide to AI ethics covering responsibility, privacy, algorithmic bias, surveillance, deepfakes, manipulation, explainability, cognitive rights, education, work, relationships, autonomous agents and AGI.
+- [Ethik im Zeitalter der Künstlichen Intelligenz](https://faramarzkowsari.github.io/books/ethik-im-zeitalter-der-kuenstlichen-intelligenz/) — German; KI-Ethik & Technologie. Praxisnaher Leitfaden zur KI-Ethik mit Verantwortung, Datenschutz, algorithmischer Verzerrung, Überwachung, Deepfakes, Manipulation, Erklärbarkeit, Bildung, Arbeit, Beziehungen, autonomen Agenten und AGI.
 - [Every Thought Is a Prayer](https://faramarzkowsari.github.io/books/every-thought-is-a-prayer/) — English; Self-Help & Inner Growth. A reflective practical guide to attention, habits, self-talk, fear, inner alignment, morning direction, daily correction, reflection, and a 30-day practice for intentional living.
 - [Fair Value Gaps](https://faramarzkowsari.github.io/books/fair-value-gaps/) — English; Trading. A practical Fair Value Gap trading guide to three-candle geometry, size, displacement, market structure, liquidity sweeps, iFVGs, measurable filters, invalidation and testing.
 - [FALSE BREAKOUTS / FAKEOUTS:](https://faramarzkowsari.github.io/books/false-breakouts-fakeouts/) — English; Trading. A practical guide to false breakouts and fakeouts covering reference levels, penetration, acceptance, reclaim, liquidity, confirmation, invalidation, risk, testing and no-trade decisions.
