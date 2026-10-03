@@ -1,0 +1,45 @@
+{
+  "Hb8VEgAAQBAJ": {
+    "subtitle": "250 Questions, Algorithms, Whiteboard Diagrams, Math Intuition, and Real-World ML Systems",
+    "language": "English",
+    "language_code": "en",
+    "category": "Machine Learning & Technical Interviews",
+    "translation_group": "",
+    "summary": "Machine Learning Interviews, Visually Explained is built around 250 interview questions arranged as a learning path rather than a trivia bank. It starts with probability, linear algebra, data discipline, and classical machine-learning foundations; then moves through evaluation, feature engineering, time-series methods, recommendation and ranking, neural networks, attention and transformers, and finally production ML, serving, drift, monitoring, and system-level interview reasoning.\n\nThe book is designed to bridge the gap between recognizing a definition and being able to explain a mechanism under interview pressure. Each topic emphasizes assumptions, objectives, geometry or information flow, failure modes, validation choices, and the practical consequences of getting those choices wrong. Short interview-ready answers are paired with deeper conceptual explanations, concrete checks, common mistakes, and whiteboard-oriented reasoning.\n\nVisual explanation is central to the book's teaching method. Diagrams and infographic-style explanations are used where geometry, algorithm steps, information flow, model behavior, or failure modes are easier to understand visually. The goal is not to memorize 250 canned answers, but to learn how to reconstruct an answer from first principles: define the problem, identify the assumption, explain the mechanism, choose the right metric, and recognize how the system can fail.",
+    "seo_description": "A visual, interview-focused machine-learning guide with 250 questions covering ML foundations, algorithms, math intuition, model evaluation, feature engineering, deep learning, recommendation, time series, production ML and real-world system reasoning.",
+    "key_topics": [
+      "Machine learning interview preparation",
+      "Probability and statistics",
+      "Linear algebra and optimization intuition",
+      "Classification and regression",
+      "Generalization, bias and variance",
+      "Decision trees and ensemble methods",
+      "Support vector machines and kernel methods",
+      "Clustering and dimensionality reduction",
+      "Model evaluation and validation",
+      "Class imbalance and calibration",
+      "Feature engineering and selection",
+      "Hyperparameter tuning",
+      "Time-series machine learning",
+      "Recommendation and ranking",
+      "Neural networks and deep learning",
+      "Attention, transformers and transfer learning",
+      "Production ML and training-serving skew",
+      "Monitoring, drift and deployment",
+      "Whiteboard diagrams and visual reasoning",
+      "ML system-design interview reasoning"
+    ],
+    "learning": [
+      "Explain core machine-learning algorithms in concise interview language without hiding behind jargon.",
+      "Reconstruct answers from assumptions, objectives, mechanisms, metrics and failure modes instead of memorizing definitions.",
+      "Compare nearby algorithms by their assumptions, computational behavior, validation needs and characteristic errors.",
+      "Choose evaluation metrics and validation protocols that match the actual decision problem and data-generating process.",
+      "Recognize data leakage, class imbalance, calibration problems, train-serve skew and other common real-world failure modes.",
+      "Reason clearly about feature engineering, tuning, time-dependent data, recommendation systems and modern representation learning.",
+      "Connect offline model quality to deployment constraints, monitoring, serving consistency and production reliability.",
+      "Use diagrams and whiteboard explanations to communicate geometry, information flow and system behavior during technical interviews."
+    ],
+    "target_audience": "For machine-learning students, data scientists, ML engineers, software engineers preparing for ML interviews, university learners, career switchers, and practitioners who want stronger algorithmic intuition and production-system reasoning.",
+    "related_ids": []
+  }
+}
