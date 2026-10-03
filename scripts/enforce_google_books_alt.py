@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
 """Normalize ALT text for Google Books-hosted book-cover images.
 
-Every Google Books cover is described naturally as:
-    <Book Title> book cover by Faramarz Kowsari, available on Google Books
+Every Google Books cover is described with a strictly descriptive pattern:
+    Book cover of <Book Title> by Faramarz Kowsari
 
-The same wording is also applied to Open Graph and Twitter image ALT metadata
-when those social images are served by Google Books.
+The same wording is applied to Open Graph and Twitter image ALT metadata when
+those social images are served by Google Books.
 
-This is a text-only post-processing step. It never downloads, copies, caches,
-proxies, resizes or stores any external image in the repository.
+This post-processing step intentionally describes the image itself only. It does
+not add marketplace or availability language such as "available on Google Books"
+to ALT text. The Google Books relationship remains expressed elsewhere through
+image URLs, purchase/preview links and structured metadata.
+
+This is a text-only step. It never downloads, copies, caches, proxies, resizes or
+stores any external image in the repository.
 """
 from __future__ import annotations
 
@@ -26,7 +31,6 @@ H1_RE = re.compile(r"<h1\b[^>]*>(.*?)</h1>", re.I | re.S)
 TAG_RE = re.compile(r"<[^>]+>")
 
 AUTHOR = "Faramarz Kowsari"
-SOURCE = "Google Books"
 
 
 def attrs(tag: str) -> dict[str, str]:
@@ -59,7 +63,7 @@ def is_google_books_image(url: str) -> bool:
 
 
 def title_from_existing_alt(current: str) -> str:
-    """Recover a book title from common existing ALT formats used by the site."""
+    """Recover a book title from common ALT formats already used by the site."""
     value = html.unescape((current or "").strip())
     if not value:
         return ""
@@ -79,18 +83,19 @@ def title_from_existing_alt(current: str) -> str:
         if m:
             return m.group(1).strip()
 
-    # Conservative fallback: remove only the exact author/source suffixes we add.
+    # Conservative cleanup for older generated forms.
     cleaned = re.sub(r"\s*[—-]\s*Google Books\s*$", "", value, flags=re.I)
     cleaned = re.sub(r",?\s*available on Google Books\s*$", "", cleaned, flags=re.I)
+    cleaned = re.sub(r"^Book cover of\s+", "", cleaned, flags=re.I)
     cleaned = re.sub(r"\s+by Faramarz Kowsari\s*$", "", cleaned, flags=re.I)
     cleaned = re.sub(r"\s*[—-]\s*Faramarz Kowsari\s*$", "", cleaned, flags=re.I)
     cleaned = re.sub(r"\s+book cover\s*$", "", cleaned, flags=re.I)
     return cleaned.strip()
 
 
-def natural_alt(title: str) -> str:
+def strict_alt(title: str) -> str:
     clean_title = re.sub(r"\s+", " ", (title or "").strip()) or "Book"
-    return f"{clean_title} book cover by {AUTHOR}, available on {SOURCE}"
+    return f"Book cover of {clean_title} by {AUTHOR}"
 
 
 def google_image_count(text: str) -> int:
@@ -113,7 +118,7 @@ def update_img_tags(text: str) -> tuple[str, int]:
         if not is_google_books_image(data.get("src", "")):
             return tag
         title = h1_title or title_from_existing_alt(data.get("alt", "")) or "Book"
-        new_tag = set_attr(tag, "alt", natural_alt(title))
+        new_tag = set_attr(tag, "alt", strict_alt(title))
         if new_tag != tag:
             count += 1
         return new_tag
@@ -122,9 +127,7 @@ def update_img_tags(text: str) -> tuple[str, int]:
 
 
 def update_social_alt(text: str) -> tuple[str, int]:
-    """Keep Open Graph/Twitter image ALT consistent when the social image is
-    served by Google Books.
-    """
+    """Keep Open Graph/Twitter image ALT consistent for Google Books covers."""
     social_image_is_google = False
     for m in META_RE.finditer(text):
         data = attrs(m.group(0))
@@ -146,7 +149,7 @@ def update_social_alt(text: str) -> tuple[str, int]:
         if key not in {"og:image:alt", "twitter:image:alt"}:
             return tag
         title = h1_title or title_from_existing_alt(data.get("content", "")) or "Book"
-        new_tag = set_attr(tag, "content", natural_alt(title))
+        new_tag = set_attr(tag, "content", strict_alt(title))
         if new_tag != tag:
             count += 1
         return new_tag
@@ -170,7 +173,7 @@ def main() -> None:
             social_alts_changed += social_count
 
     print(
-        "Natural Google Books ALT normalization: "
+        "Strict descriptive Google Books ALT normalization: "
         f"{files_changed} HTML file(s) changed; "
         f"{img_alts_changed} image ALT attribute(s) updated; "
         f"{social_alts_changed} social image ALT tag(s) updated."
