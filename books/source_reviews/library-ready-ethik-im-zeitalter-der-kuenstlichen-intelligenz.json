@@ -1,0 +1,44 @@
+{
+  "Jj4VEgAAQBAJ": {
+    "language": "German",
+    "language_code": "de",
+    "category": "KI-Ethik & Technologie",
+    "translation_group": "ethics-in-the-age-of-ai",
+    "summary": "Ethik im Zeitalter der Künstlichen Intelligenz untersucht, wie sich die Grenzen von richtig und falsch neu bestimmen lassen, wenn KI-Systeme immer stärker Alltag, Bildung, Arbeit, Beziehungen, öffentliche Entscheidungen und den Zugang zu Chancen prägen. Statt Ethik als nachträgliche philosophische Ergänzung zu behandeln, rückt das Buch Verantwortung, Datenschutz, algorithmische Verzerrung, Überwachung, Manipulation, Deepfakes, Erklärbarkeit, Unsicherheit und menschliche Aufsicht als praktische Fragen von Gestaltung und Governance in den Mittelpunkt.\n\nDas Buch führt außerdem zu weiterführenden Themen wie autonomen Systemen und Agenten, dem Weg zur Künstlichen Allgemeinen Intelligenz, Maschinenbewusstsein und der möglichen Frage künftiger Maschinenrechte. Im Zentrum bleibt dabei die Frage, wo Entscheidungsbefugnis, Rechenschaftspflicht und letzte Verantwortung beim Menschen verbleiben sollten. Auch KI in Bildung, Arbeitswelt, Elternschaft, algorithmischer Partnerwahl, digitaler Nähe und technologievermittelten Beziehungen wird in denselben ethischen Rahmen eingeordnet.\n\nDer Ansatz ist weder alarmistisch noch unkritisch technikbegeistert. Im Vordergrund stehen menschliche Handlungsfähigkeit, Verantwortlichkeit, Würde und bewusste Aufsicht sowie die Unterscheidung zwischen dem, was technisch möglich ist, und dem, was ethisch vertretbar sein sollte.",
+    "seo_description": "Praxisnaher Leitfaden zur KI-Ethik mit Verantwortung, Datenschutz, algorithmischer Verzerrung, Überwachung, Deepfakes, Manipulation, Erklärbarkeit, Bildung, Arbeit, Beziehungen, autonomen Agenten und AGI.",
+    "key_topics": [
+      "KI-Ethik",
+      "Menschliche Verantwortung und Rechenschaftspflicht",
+      "Algorithmische Verzerrung und Fairness",
+      "Datenschutz und Überwachung",
+      "Manipulation und Deepfakes",
+      "Erklärbarkeit und Transparenz",
+      "Unsicherheit und Entscheidungsfindung",
+      "Kognitive Rechte und menschliche Autonomie",
+      "KI in der Bildung",
+      "Arbeit, Kompetenzen und Automatisierung",
+      "Beziehungen und algorithmische Partnerwahl",
+      "Elternschaft und digitales Leben",
+      "Autonome KI-Agenten",
+      "Künstliche Allgemeine Intelligenz (AGI)",
+      "Maschinenbewusstsein und mögliche Maschinenrechte",
+      "Menschliche Aufsicht und KI-Governance"
+    ],
+    "learning": [
+      "Verstehen, warum Verantwortung bei KI-Systemen nicht allein auf Modell oder Entwickler reduziert werden kann.",
+      "Algorithmische Verzerrung, Datenschutz, Überwachung und Manipulation aus einer ethischen und menschenzentrierten Perspektive bewerten.",
+      "Die Auswirkungen von Deepfakes, synthetischen Medien und Überzeugungstechnologien auf Vertrauen, Identität und Öffentlichkeit einordnen.",
+      "Erkennen, warum Erklärbarkeit, Transparenz und Unsicherheit bei folgenreichen KI-Entscheidungen wichtig sind.",
+      "Den Einsatz von KI in Bildung, Arbeit, Beziehungen und Familienleben anhand von Autonomie und Verantwortlichkeit prüfen.",
+      "Über Befugnis, Aufsicht und Verantwortung nachdenken, wenn autonome Agenten und AGI leistungsfähiger werden.",
+      "Debatten über Maschinenbewusstsein und mögliche Maschinenrechte untersuchen, ohne bestehende Menschenrechte und Pflichten aus dem Blick zu verlieren.",
+      "Technische Möglichkeit und ethische Vertretbarkeit bei Entscheidungen über KI-Einsatz und Governance voneinander unterscheiden."
+    ],
+    "target_audience": "Für Studierende, Lehrende, Entwickler, Forschende, Führungskräfte, Unternehmer, politische Entscheidungsträger, Technologieprofis und allgemein interessierte Leser, die einen praxisnahen Rahmen für die ethischen Folgen künstlicher Intelligenz suchen.",
+    "related_ids": [
+      "ee0UEgAAQBAJ",
+      "ne0UEgAAQBAJ",
+      "nx_2EQAAQBAJ"
+    ]
+  }
+}
