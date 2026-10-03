@@ -320,5 +320,31 @@
     "slides_url": "",
     "doi": "",
     "crossref_status": "not_registered"
+  },
+  {
+    "google_books_id": "NsEVEgAAQBAJ",
+    "title": "Algorithmic Time & Price Grids",
+    "subtitle": "Smart Money Trading with Octants, Quadrants, Opening Ranges, PD Arrays, and Intraday Precision",
+    "slug": "algorithmic-time-and-price-grids",
+    "google_books_url": "https://play.google.com/store/books/details?id=NsEVEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=NsEVEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "status": "active",
+    "content_status": "complete",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading & Smart Money Concepts",
+    "translation_group": "",
+    "description": "",
+    "summary": "",
+    "key_topics": [],
+    "target_audience": "",
+    "publisher": "Faramarz Kowsari",
+    "published_date": "2026",
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered"
   }
 ]
