@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (149)
+## Books (150)
 
 ### Depremde Hayatta Kalma
 
@@ -3243,6 +3243,35 @@ What readers learn:
 - Apply defined gold-scalping setups with explicit invalidation, skip conditions and execution checks.
 
 Audience: For active gold traders and scalpers who want an XAUUSD-specific process that combines market mechanics, session behavior, structure, liquidity and execution discipline.
+
+### Algorithmic Time & Price Grids
+
+- Canonical page: https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/
+- Language: English
+- Category: Trading & Smart Money Concepts
+- Subtitle: Smart Money Trading with Octants, Quadrants, Opening Ranges, PD Arrays, and Intraday Precision
+- Google Books: https://play.google.com/store/books/details?id=NsEVEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=NsEVEgAAQBAJ&hl=en
+
+Algorithmic Time & Price Grids develops a disciplined framework for reading intraday markets as a coordinate system in which time and price must be evaluated together. Instead of treating a level as meaningful in isolation, the book asks the reader to define a measured range, identify the relevant time window, locate the price-delivery structure that appears at their intersection, and state in advance what would invalidate the idea. The central operating sequence is simple but demanding: time defines when to look, the measured range defines where to look, the PD Array defines what to look for, and observed price behavior determines whether the hypothesis survives.
+
+The book builds this framework through quadrants and octants, opening prices and Opening Range Gaps, measured expansion, macro windows, nested time grids, higher-time-frame spatial references, Fair Value Gaps and Inversion FVGs, Order Blocks, Breakers, Consequent Encroachment, wick/body logic, efficient delivery, low-resistance liquidity runs, and time-price intersection entries. It then connects higher-time-frame narrative to one-minute execution and examines post-macro continuation, invalidation, risk, false precision, case-study analysis, and repeatable playbook construction. Practical appendices provide the calculation logic for quadrants, octants, opening-range projections and Consequent Encroachment, together with pre-market, intraday and post-trade checklists.
+
+The treatment is intentionally evidence-conscious. ICT/SMC terminology is used as a framework for education, mapping and testing rather than as proof that markets follow a hidden deterministic script. Controlled reconstructions are presented as teaching devices rather than evidence of predictability, and no grid, time window, PD Array or chart pattern is presented as a guaranteed trading edge. The emphasis is on prospective definitions, fixed measurement rules, explicit invalidation, execution constraints, risk awareness, and testing the framework instead of believing it on faith.
+
+Key topics: Algorithmic time and price grids; Time-price coordinate systems; Quadrants and octants; Opening prices and Opening Range Gaps; Measured price expansion; Macro windows and temporal handoffs; Nested time grids; PD Arrays; Suspension Blocks; Fair Value Gaps and Inversion FVGs; Order Blocks and Breakers; Consequent Encroachment; Wick and body logic; Higher-time-frame bias and intraday execution; Low-resistance liquidity runs; Efficient price delivery; Time-price intersection entry models; Post-macro continuation; Invalidation and false precision; Risk, testing and repeatable playbooks
+
+What readers learn:
+- Treat time as a trading coordinate rather than a decorative session label and combine it with a prospectively defined price range.
+- Calculate and interpret quadrant and octant levels from fixed endpoints without moving the measurement after the outcome is known.
+- Map opening prices, Opening Range Gaps and measured projections while separating geometric levels from statistical claims.
+- Place PD Arrays such as FVGs, Inversion FVGs, Order Blocks and Breakers inside a time-price context instead of treating patterns as standalone signals.
+- Use Consequent Encroachment, wick/body behavior and first-utilization logic as conditional evidence rather than automatic entry triggers.
+- Build a higher-time-frame narrative and connect it to intraday observation windows and lower-time-frame execution.
+- Define invalidation, no-trade conditions, maximum loss and execution constraints before evaluating potential reward.
+- Test time-price hypotheses with fixed definitions, documented sessions and post-trade review instead of relying on retrospective chart precision.
+
+Audience: For experienced discretionary traders, ICT/SMC students, intraday traders, futures and index traders, and technically minded readers who want a more structured, testable and risk-aware approach to time-price mapping rather than another collection of isolated Smart Money patterns.
 
 ### Turkish A1 Visual Grammar
 

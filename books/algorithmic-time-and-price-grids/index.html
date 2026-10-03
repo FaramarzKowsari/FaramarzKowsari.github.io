@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="author" content="Faramarz Kowsari">
+<title>Algorithmic Time &amp; Price Grids | Faramarz Kowsari</title>
+<meta name="description" content="A technical, evidence-conscious guide to Smart Money time-price grids using quadrants, octants, opening ranges, PD Arrays, FVGs, macro windows, Consequent Encroachment, intraday execution, invalidation and testing.">
+<link rel="canonical" href="https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/">
+<link rel="sitemap" type="application/xml" href="../sitemap.xml">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Faramarz Kowsari Books">
+<meta property="og:title" content="Algorithmic Time &amp; Price Grids">
+<meta property="og:description" content="A technical, evidence-conscious guide to Smart Money time-price grids using quadrants, octants, opening ranges, PD Arrays, FVGs, macro windows, Consequent Encroachment, intraday execution, invalidation and testing.">
+<meta property="og:url" content="https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/">
+<meta property="og:image" content="https://books.google.com/books/content?id=NsEVEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<meta property="og:image:alt" content="Algorithmic Time &amp; Price Grids book cover by Faramarz Kowsari, available on Google Books">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Algorithmic Time &amp; Price Grids">
+<meta name="twitter:description" content="A technical, evidence-conscious guide to Smart Money time-price grids using quadrants, octants, opening ranges, PD Arrays, FVGs, macro windows, Consequent Encroachment, intraday execution, invalidation and testing.">
+<meta name="twitter:image" content="https://books.google.com/books/content?id=NsEVEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Algorithmic Time & Price Grids","author":{"@type":"Person","@id":"https://faramarzkowsari.github.io/#person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/"},"inLanguage":"en","description":"A technical, evidence-conscious guide to Smart Money time-price grids using quadrants, octants, opening ranges, PD Arrays, FVGs, macro windows, Consequent Encroachment, intraday execution, invalidation and testing.","url":"https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/","sameAs":"https://play.google.com/store/books/details?id=NsEVEgAAQBAJ","alternateName":"Smart Money Trading with Octants, Quadrants, Opening Ranges, PD Arrays, and Intraday Precision","image":{"@type":"ImageObject","@id":"https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/#primaryimage","contentUrl":"https://books.google.com/books/content?id=NsEVEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","url":"https://books.google.com/books/content?id=NsEVEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","name":"Book cover of Algorithmic Time & Price Grids by Faramarz Kowsari","caption":"Algorithmic Time & Price Grids — book cover, by Faramarz Kowsari","representativeOfPage":true},"datePublished":"2026","about":["Algorithmic time and price grids","Time-price coordinate systems","Quadrants and octants","Opening prices and Opening Range Gaps","Measured price expansion","Macro windows and temporal handoffs","Nested time grids","PD Arrays","Suspension Blocks","Fair Value Gaps and Inversion FVGs","Order Blocks and Breakers","Consequent Encroachment","Wick and body logic","Higher-time-frame bias and intraday execution","Low-resistance liquidity runs","Efficient price delivery","Time-price intersection entry models","Post-macro continuation","Invalidation and false precision","Risk, testing and repeatable playbooks"],"audience":{"@type":"Audience","audienceType":"For experienced discretionary traders, ICT/SMC students, intraday traders, futures and index traders, and technically minded readers who want a more structured, testable and risk-aware approach to time-price mapping rather than another collection of isolated Smart Money patterns."},"@id":"https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/#book","mainEntityOfPage":{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/","primaryImageOfPage":{"@id":"https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/#primaryimage"}},"isPartOf":{"@type":"CollectionPage","@id":"https://faramarzkowsari.github.io/books/#collection","name":"Books by Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/"},"keywords":["Algorithmic time and price grids","Time-price coordinate systems","Quadrants and octants","Opening prices and Opening Range Gaps","Measured price expansion","Macro windows and temporal handoffs","Nested time grids","PD Arrays","Suspension Blocks","Fair Value Gaps and Inversion FVGs","Order Blocks and Breakers","Consequent Encroachment","Wick and body logic","Higher-time-frame bias and intraday execution","Low-resistance liquidity runs","Efficient price delivery","Time-price intersection entry models","Post-macro continuation","Invalidation and false precision","Risk, testing and repeatable playbooks"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Books", "item": "https://faramarzkowsari.github.io/books/"}, {"@type": "ListItem", "position": 3, "name": "Algorithmic Time & Price Grids", "item": "https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/"}]}</script>
+
+<!-- ai-visibility:start -->
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms.txt" title="LLM-readable site index">
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms-full.txt" title="Expanded LLM-readable books index">
+<link rel="alternate" type="application/json" href="https://faramarzkowsari.github.io/books/catalog.json" title="Machine-readable books catalog">
+<link rel="author" href="https://faramarzkowsari.github.io/books/author/" title="Faramarz Kowsari author profile">
+<!-- ai-visibility:end -->
+<!-- multilingual-localizations:start -->
+<link rel="alternate" hreflang="en" href="https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/">
+<link rel="alternate" hreflang="ru" href="https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/ru/">
+<link rel="alternate" hreflang="tr" href="https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/tr/">
+<link rel="alternate" hreflang="de" href="https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/de/">
+<link rel="alternate" hreflang="es" href="https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/es/">
+<link rel="alternate" hreflang="fr" href="https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/fr/">
+<link rel="alternate" hreflang="pt-BR" href="https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/pt-br/">
+<link rel="alternate" hreflang="x-default" href="https://faramarzkowsari.github.io/books/algorithmic-time-and-price-grids/">
+<!-- multilingual-localizations:end -->
+<meta name="twitter:image:alt" content="Algorithmic Time &amp; Price Grids book cover by Faramarz Kowsari, available on Google Books">
+</head>
+<body>
+<main class="book-page">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>›</span><a href="../">Books</a><span>›</span><span aria-current="page">Algorithmic Time &amp; Price Grids</span></nav>
+<!-- author-tab:start -->
+<nav class="book-tabs" aria-label="Book navigation">
+  <a class="book-tab author-tab" href="../author/">About the Author: Faramarz Kowsari</a>
+</nav>
+<!-- author-tab:end -->
+
+  <p><a href="../">← All books</a></p>
+  <section class="book-top">
+    <img src="https://books.google.com/books/content?id=NsEVEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api" alt="Algorithmic Time &amp; Price Grids book cover by Faramarz Kowsari, available on Google Books" loading="eager" decoding="async" itemprop="image" title="Algorithmic Time &amp; Price Grids — book cover, by Faramarz Kowsari">
+    <div>
+      <h1>Algorithmic Time &amp; Price Grids</h1>
+      <p class="subtitle">Smart Money Trading with Octants, Quadrants, Opening Ranges, PD Arrays, and Intraday Precision</p>
+      <p class="meta">Faramarz Kowsari · English · Trading &amp; Smart Money Concepts · 2026</p>
+      <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=NsEVEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a></div>
+    </div>
+  </section>
+<!-- google-books-preview:start -->
+<section class="section google-books-preview" aria-label="Google Books preview">
+  <div class="preview-icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><rect x="3" y="3" width="42" height="42" rx="12" fill="currentColor" opacity=".08"/><path d="M10.5 14.5c4.8-1.8 9-1.3 13.5 1.4v20.8c-4.5-2.7-8.7-3.2-13.5-1.4V14.5Zm27 0c-4.8-1.8-9-1.3-13.5 1.4v20.8c4.5-2.7 8.7-3.2 13.5-1.4V14.5Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="32" cy="26.5" r="5.2" fill="white" stroke="currentColor" stroke-width="2"/><path d="m35.8 30.3 4.2 4.2" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></div>
+  <p class="preview-title">Free Google Books Preview</p>
+  <p class="preview-note">Read a free sample of this book on Google Books before you buy.</p>
+  <div class="actions"><a class="action" href="https://play.google.com/books/reader?id=NsEVEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Read the free preview on Google Books</a></div>
+</section>
+<!-- google-books-preview:end -->
+
+
+  <section class="section"><h2>About this book</h2>
+    <p>Algorithmic Time &amp; Price Grids develops a disciplined framework for reading intraday markets as a coordinate system in which time and price must be evaluated together. Instead of treating a level as meaningful in isolation, the book asks the reader to define a measured range, identify the relevant time window, locate the price-delivery structure that appears at their intersection, and state in advance what would invalidate the idea. The central operating sequence is simple but demanding: time defines when to look, the measured range defines where to look, the PD Array defines what to look for, and observed price behavior determines whether the hypothesis survives.</p>
+    <p>The book builds this framework through quadrants and octants, opening prices and Opening Range Gaps, measured expansion, macro windows, nested time grids, higher-time-frame spatial references, Fair Value Gaps and Inversion FVGs, Order Blocks, Breakers, Consequent Encroachment, wick/body logic, efficient delivery, low-resistance liquidity runs, and time-price intersection entries. It then connects higher-time-frame narrative to one-minute execution and examines post-macro continuation, invalidation, risk, false precision, case-study analysis, and repeatable playbook construction. Practical appendices provide the calculation logic for quadrants, octants, opening-range projections and Consequent Encroachment, together with pre-market, intraday and post-trade checklists.</p>
+    <p>The treatment is intentionally evidence-conscious. ICT/SMC terminology is used as a framework for education, mapping and testing rather than as proof that markets follow a hidden deterministic script. Controlled reconstructions are presented as teaching devices rather than evidence of predictability, and no grid, time window, PD Array or chart pattern is presented as a guaranteed trading edge. The emphasis is on prospective definitions, fixed measurement rules, explicit invalidation, execution constraints, risk awareness, and testing the framework instead of believing it on faith.</p>
+  </section>
+
+  <section class="section"><h2>What you will learn</h2><ul>
+      <li>Treat time as a trading coordinate rather than a decorative session label and combine it with a prospectively defined price range.</li>
+      <li>Calculate and interpret quadrant and octant levels from fixed endpoints without moving the measurement after the outcome is known.</li>
+      <li>Map opening prices, Opening Range Gaps and measured projections while separating geometric levels from statistical claims.</li>
+      <li>Place PD Arrays such as FVGs, Inversion FVGs, Order Blocks and Breakers inside a time-price context instead of treating patterns as standalone signals.</li>
+      <li>Use Consequent Encroachment, wick/body behavior and first-utilization logic as conditional evidence rather than automatic entry triggers.</li>
+      <li>Build a higher-time-frame narrative and connect it to intraday observation windows and lower-time-frame execution.</li>
+      <li>Define invalidation, no-trade conditions, maximum loss and execution constraints before evaluating potential reward.</li>
+      <li>Test time-price hypotheses with fixed definitions, documented sessions and post-trade review instead of relying on retrospective chart precision.</li>
+    </ul></section>
+
+  <section class="section"><h2>Key topics</h2><ul>
+      <li>Algorithmic time and price grids</li>
+      <li>Time-price coordinate systems</li>
+      <li>Quadrants and octants</li>
+      <li>Opening prices and Opening Range Gaps</li>
+      <li>Measured price expansion</li>
+      <li>Macro windows and temporal handoffs</li>
+      <li>Nested time grids</li>
+      <li>PD Arrays</li>
+      <li>Suspension Blocks</li>
+      <li>Fair Value Gaps and Inversion FVGs</li>
+      <li>Order Blocks and Breakers</li>
+      <li>Consequent Encroachment</li>
+      <li>Wick and body logic</li>
+      <li>Higher-time-frame bias and intraday execution</li>
+      <li>Low-resistance liquidity runs</li>
+      <li>Efficient price delivery</li>
+      <li>Time-price intersection entry models</li>
+      <li>Post-macro continuation</li>
+      <li>Invalidation and false precision</li>
+      <li>Risk, testing and repeatable playbooks</li>
+    </ul></section>
+
+  <section class="section"><h2>Who this book is for</h2><p>For experienced discretionary traders, ICT/SMC students, intraday traders, futures and index traders, and technically minded readers who want a more structured, testable and risk-aware approach to time-price mapping rather than another collection of isolated Smart Money patterns.</p></section>
+
+  <section class="section"><h2>Related books</h2><ul>
+      <li><a href="../ielts-sos-do-not-enter-the-exam-without-this-book/">IELTS SOS: Do Not Enter the Exam Without This Book</a></li>
+      <li><a href="../machine-learning-interviews-visually-explained/">Machine Learning Interviews, Visually Explained</a></li>
+      <li><a href="../ethik-im-zeitalter-der-kuenstlichen-intelligenz/">Ethik im Zeitalter der Künstlichen Intelligenz</a></li>
+    </ul></section>
+
+  <section class="section"><div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=NsEVEgAAQBAJ" target="_blank" rel="noopener noreferrer">Read / Buy on Google Books</a><a class="action" href="../">Browse all books</a></div></section>
+
+<!-- topic-index-link:start -->
+<section class="section topic-index-cta" aria-label="Books by topic">
+  <div class="topic-index-icon" aria-hidden="true">
+    <svg viewBox="0 0 48 48" focusable="false"><path d="M8 10.5h13.5c4 0 7 2 7 5.5v22c0-3.5-3-5.5-7-5.5H8v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M40 10.5H26.5c-4 0-7 2-7 5.5v22c0-3.5 3-5.5 7-5.5H40v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 17h8M14 22h8M32 17h3M32 22h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </div>
+  <div>
+    <h2>Browse Books by Topic</h2>
+    <p>Explore the library by subject and find related books faster.</p>
+    <div class="actions"><a class="action primary" href="../topics/">Explore the Topic Index</a></div>
+  </div>
+</section>
+<!-- topic-index-link:end -->
+</main>
+</body>
+</html>
