@@ -23,7 +23,7 @@
 - Use catalog.json for structured discovery and the all-books text index for a crawlable human-readable overview.
 - The repository/site DOI identifies the evolving website and books-library project; it is not a DOI for every individual book.
 
-## Books (151)
+## Books (152)
 
 - [0DTE Options: Trading the Same-Day Market](https://faramarzkowsari.github.io/books/0dte-options/) — English; Trading. A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools.
 - [AI APIs in Practice](https://faramarzkowsari.github.io/books/ai-apis-in-practice/) — English; Artificial Intelligence. A visual engineering guide to AI APIs, multimodal systems, agents, RAG, secure authentication, payload design, evaluation, observability, and governance.
@@ -84,6 +84,7 @@
 - [Fair Value Gaps](https://faramarzkowsari.github.io/books/fair-value-gaps/) — English; Trading. A practical Fair Value Gap trading guide to three-candle geometry, size, displacement, market structure, liquidity sweeps, iFVGs, measurable filters, invalidation and testing.
 - [FALSE BREAKOUTS / FAKEOUTS:](https://faramarzkowsari.github.io/books/false-breakouts-fakeouts/) — English; Trading. A practical guide to false breakouts and fakeouts covering reference levels, penetration, acceptance, reclaim, liquidity, confirmation, invalidation, risk, testing and no-trade decisions.
 - [Footprint Charts](https://faramarzkowsari.github.io/books/footprint-charts/) — English; Trading. A practical guide to footprint charts, bid × ask, delta, imbalances, absorption, trapped traders, POC, VWAP, market structure, execution, risk and backtesting.
+- [FREE IELTS SOS Visual Companion](https://faramarzkowsari.github.io/books/free-ielts-sos-visual-companion/) — English; IELTS & English Test Preparation. The free visual companion to the IELTS SOS series: a 90-minute graphic review of Listening, Reading, Writing and Speaking with rapid memory cues, exam traps, fast fixes and last-minute checklists.
 - [Geld folgt Geld](https://faramarzkowsari.github.io/books/geld-folgt-geld/) — Deutsch; Business & Unternehmertum. Praxisleitfaden zu teuren Problemen, Kundenerkenntnis, wirtschaftlichem Wert, Nachfragevalidierung, Preisgestaltung, Vertrauen, Systemen, Produktisierung und Wachstum.
 - [Hayatı Kontrol Edemezsin](https://faramarzkowsari.github.io/books/hayat-kontrol-edemezsin/) — Türkçe; Kişisel Gelişim. Kontrol edilemeyen olaylar karşısında duygusal disiplin, duraklama, beden, dikkat, sınırlar ve eğitilebilir tepkiler üzerine pratik rehber.
 - [ICT Kill Zones: Trading the ICT Kill Zones](https://faramarzkowsari.github.io/books/ict-kill-zones-trading-the-ict-kill-zones/) — English; Trading. A practical ICT Kill Zones guide to London and New York sessions, timezone and DST, Asian range, liquidity, displacement, market structure, FVGs, news, execution, risk and journaling.

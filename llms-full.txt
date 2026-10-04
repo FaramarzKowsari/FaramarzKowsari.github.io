@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (151)
+## Books (152)
 
 ### Depremde Hayatta Kalma
 
@@ -1292,6 +1292,34 @@ What readers learn:
 - Aplicar el plan de noventa días y los apéndices para producir pruebas externas y decisiones claras.
 
 Audience: Para profesionales con experiencia, personas en transición laboral, consultores, educadores, autónomos y mayores de 50 que desean combinar su experiencia con herramientas de IA de forma práctica, prudente y basada en evidencia.
+
+### FREE IELTS SOS Visual Companion
+
+- Canonical page: https://faramarzkowsari.github.io/books/free-ielts-sos-visual-companion/
+- Language: English
+- Category: IELTS & English Test Preparation
+- Subtitle: 90-Minute Graphic Review for Listening, Reading, Writing & Speaking
+- Google Books: https://play.google.com/store/books/details?id=2P0VEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=2P0VEgAAQBAJ&hl=en
+
+FREE IELTS SOS Visual Companion is the no-cost visual review companion to the IELTS SOS series. It is designed for the final stretch before the exam, when candidates need fast recall rather than another long course. The book compresses high-priority reminders from Listening, Reading, Writing and Speaking into a graphic review format that can be scanned quickly, making it useful beside any IELTS SOS language edition as a final visual refresher.
+
+The companion focuses on the kinds of decisions that are easiest to forget under time pressure: recognizing Listening distractors and answer constraints, protecting Reading time and evidence discipline, recalling the core logic of Academic Writing Task 1 and Writing Task 2, and keeping Speaking responses clear, natural and recoverable. Its purpose is not to replace the full IELTS SOS books, but to turn their last-minute strategy into a compact visual layer built around memory cues, rapid checklists, exam traps, fast fixes and score-saving reminders.
+
+The 90-minute framing is deliberately practical. Candidates can use the companion as a final pass across all four skills or jump directly to the area where they are most likely to lose avoidable marks. It should be treated as a free supplement to the fuller IELTS SOS guides, not as a promise of a particular band score or a substitute for language development, official test information, or full-length preparation.
+
+Key topics: IELTS SOS visual review; 90-minute last-minute IELTS review; Listening traps and answer discipline; Reading time management and evidence; Academic Writing Task 1 visual recall; Writing Task 2 structure and task response; Speaking Parts 1, 2 and 3; Visual memory cues; Rapid checklists; Exam traps and fast fixes; Score-saving reminders; Final pre-exam review
+
+What readers learn:
+- Refresh the most important Listening decisions, distractors, answer constraints and recovery habits immediately before the test.
+- Recall Reading timing, evidence discipline and question-handling priorities without rereading a full preparation course.
+- Reconstruct the essential logic of Academic Writing Task 1, including overview, grouping and comparison, through visual reminders.
+- Review Writing Task 2 planning, argument structure, task response and paragraph control in a compact last-minute format.
+- Revisit Speaking Parts 1, 2 and 3 with emphasis on natural expansion, fluency, intelligibility and recovery after mistakes.
+- Use visual memory cues, quick checklists and exam-trap reminders to reduce avoidable mark loss under time pressure.
+- Use the companion alongside the full IELTS SOS guide rather than treating it as a replacement for comprehensive preparation.
+
+Audience: For readers of any IELTS SOS edition and IELTS Academic or General Training candidates who want a free, highly visual final review of Listening, Reading, Writing and Speaking during the last 90 minutes before the exam.
 
 ### IELTS SOS: Do Not Enter the Exam Without This Book
 
