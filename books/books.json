@@ -7671,5 +7671,34 @@
       "Hb8VEgAAQBAJ"
     ],
     "source_reviewed": true
+  },
+  {
+    "status": "active",
+    "content_status": "complete",
+    "language": "English",
+    "category": "IELTS & English Test Preparation",
+    "translation_group": "",
+    "subtitle": "90-Minute Graphic Review for Listening, Reading, Writing & Speaking",
+    "description": "",
+    "summary": "",
+    "key_topics": [],
+    "target_audience": "",
+    "publisher": "Faramarz Kowsari",
+    "published_date": "2026",
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered",
+    "google_books_id": "2P0VEgAAQBAJ",
+    "title": "FREE IELTS SOS Visual Companion",
+    "slug": "free-ielts-sos-visual-companion",
+    "google_books_url": "https://play.google.com/store/books/details?id=2P0VEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=2P0VEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "language_code": "en",
+    "series": "IELTS SOS",
+    "book_role": "free_visual_companion",
+    "sequence": 152
   }
 ]
