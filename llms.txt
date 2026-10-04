@@ -23,7 +23,7 @@
 - Use catalog.json for structured discovery and the all-books text index for a crawlable human-readable overview.
 - The repository/site DOI identifies the evolving website and books-library project; it is not a DOI for every individual book.
 
-## Books (152)
+## Books (154)
 
 - [0DTE Options: Trading the Same-Day Market](https://faramarzkowsari.github.io/books/0dte-options/) — English; Trading. A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools.
 - [AI APIs in Practice](https://faramarzkowsari.github.io/books/ai-apis-in-practice/) — English; Artificial Intelligence. A visual engineering guide to AI APIs, multimodal systems, agents, RAG, secure authentication, payload design, evaluation, observability, and governance.
@@ -40,6 +40,7 @@
 - [Art as a Ladder to the Soul](https://faramarzkowsari.github.io/books/art-as-a-ladder-to-the-soul/) — English; Creativity & Inner Life. A deep practical meditation on creativity, music, drawing, writing, movement, beginnerhood, solitude, beauty, numbness, witness, and using art to return to presence and inner life.
 - [Artık Bir Sebep İstemediğin Gün:](https://faramarzkowsari.github.io/books/art-k-bir-sebep-istemedigin-gun/) — Türkçe; Kişisel Gelişim. Cevapsız sonlar, kabullenme, kapanış, sessizlik, özdeğer, mesafe ve açıklama gelmeden ileriye hareket etmek için şiirsel ve pratik rehber.
 - [Aynadaki Canavar](https://faramarzkowsari.github.io/books/aynadaki-canavar/) — Türkçe; Psikoloji ve Özfarkındalık. Korku, yargı, projeksiyon ve şeytanlaştırmanın algıyı nasıl bozduğunu; sınırları korurken hakikati ve insan yüzünü yeniden görmeyi ele alan kitap.
+- [Balanced Price Range Trading](https://faramarzkowsari.github.io/books/balanced-price-range-trading/) — English; Trading. A rigorous guide to Balanced Price Range trading covering opposing Fair Value Gap overlap, CE midpoint, premium/discount, equilibrium, liquidity, market structure, entries, invalidation, failure and backtesting.
 - [Before Your Mind Names It](https://faramarzkowsari.github.io/books/before-your-mind-names-it/) — English; Mindfulness. A practical mindfulness guide to the space between experience and interpretation, covering body awareness, anxiety, anger, uncertainty, digital distraction, and return practices.
 - [Bertahan Hidup dari Gempa Bumi di Indonesia](https://faramarzkowsari.github.io/books/bertahan-hidup-dari-gempa-bumi-di-indonesia/) — Bahasa Indonesia; Kesiapsiagaan Bencana & Keselamatan Gempa. Panduan visual 120 langkah untuk kesiapsiagaan gempa dan tsunami di Indonesia: risiko regional, rumah dan keluarga, tindakan saat guncangan, BMKG/InaTEWS, evakuasi pantai, 72 jam pertama, dan pemulihan.
 - [Beyond the Single Candle](https://faramarzkowsari.github.io/books/beyond-the-single-candle/) — English; Trading. A visual two-candle price-action guide to Inside Bars, engulfing patterns, Outside Bars, compression, breakouts, failed breaks, entry styles, invalidation and testing.
@@ -128,6 +129,7 @@
 - [Multi-Timeframe Analysis](https://faramarzkowsari.github.io/books/multi-timeframe-analysis/) — English; Trading. A practical multi-timeframe trading framework from regime and higher-timeframe context through bias, location, setup, trigger, invalidation, target, management, testing and journaling.
 - [Multiple Timeframe Analysis](https://faramarzkowsari.github.io/books/multiple-timeframe-analysis/) — English; Books
 - [Méta-Présence](https://faramarzkowsari.github.io/books/meta-presence-ysdbeq/) — English; Books
+- [Opening Range Gap Trading](https://faramarzkowsari.github.io/books/opening-range-gap-trading/) — English; Trading. A practical, testable guide to Opening Range Gap trading covering RTH vs ETH, CE midpoint, quadrants, first-hour context, FVG interaction, entries, risk, no-trade rules and backtesting.
 - [Order Blocks Trading](https://faramarzkowsari.github.io/books/order-blocks-trading/) — English; Trading. A rule-based Order Block guide covering context, liquidity, displacement, structural consequence, origin, freshness, refinement, entry models, invalidation, risk and backtesting.
 - [Para Paranın Peşinden Gider:](https://faramarzkowsari.github.io/books/para-paran-n-pesinden-gider/) — Türkçe; İş & Girişimcilik. Pahalı problemler, müşteri keşfi, ekonomik değer, ürün doğrulama, fiyatlama, güven, sistemler, ürünleştirme ve sürdürülebilir büyüme üzerine pratik iş kurma rehberi.
 - [Para Yetmediğinde](https://faramarzkowsari.github.io/books/para-yetmediginde/) — Türkçe; Kişisel Finans & Günlük Yaşam. Ekonomik baskı dönemlerinde gıda, barınma, sağlık, ulaşım ve günlük yaşam giderlerini; sağlık, güvenlik, aile, gelecek ve özsaygıya mümkün olduğunca az zarar vererek yeniden düzenleme rehberi.

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="author" content="Faramarz Kowsari">
+<title>Balanced Price Range Trading | Faramarz Kowsari</title>
+<meta name="description" content="A rigorous guide to Balanced Price Range trading covering opposing Fair Value Gap overlap, CE midpoint, premium/discount, equilibrium, liquidity, market structure, entries, invalidation, failure and backtesting.">
+<link rel="canonical" href="https://faramarzkowsari.github.io/books/balanced-price-range-trading/">
+<link rel="sitemap" type="application/xml" href="../sitemap.xml">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Faramarz Kowsari Books">
+<meta property="og:title" content="Balanced Price Range Trading">
+<meta property="og:description" content="A rigorous guide to Balanced Price Range trading covering opposing Fair Value Gap overlap, CE midpoint, premium/discount, equilibrium, liquidity, market structure, entries, invalidation, failure and backtesting.">
+<meta property="og:url" content="https://faramarzkowsari.github.io/books/balanced-price-range-trading/">
+<meta property="og:image" content="https://books.google.com/books/content?id=4QQWEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<meta property="og:image:alt" content="Book cover of Balanced Price Range Trading by Faramarz Kowsari">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Balanced Price Range Trading">
+<meta name="twitter:description" content="A rigorous guide to Balanced Price Range trading covering opposing Fair Value Gap overlap, CE midpoint, premium/discount, equilibrium, liquidity, market structure, entries, invalidation, failure and backtesting.">
+<meta name="twitter:image" content="https://books.google.com/books/content?id=4QQWEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Balanced Price Range Trading","author":{"@type":"Person","@id":"https://faramarzkowsari.github.io/#person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/"},"inLanguage":"en","description":"A rigorous guide to Balanced Price Range trading covering opposing Fair Value Gap overlap, CE midpoint, premium/discount, equilibrium, liquidity, market structure, entries, invalidation, failure and backtesting.","url":"https://faramarzkowsari.github.io/books/balanced-price-range-trading/","sameAs":"https://play.google.com/store/books/details?id=4QQWEgAAQBAJ","alternateName":"BPR, Opposing Fair Value Gaps, Equilibrium, and Smart Money Entry Zones","image":{"@type":"ImageObject","@id":"https://faramarzkowsari.github.io/books/balanced-price-range-trading/#primaryimage","contentUrl":"https://books.google.com/books/content?id=4QQWEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","url":"https://books.google.com/books/content?id=4QQWEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","name":"Book cover of Balanced Price Range Trading by Faramarz Kowsari","caption":"Balanced Price Range Trading — book cover, by Faramarz Kowsari","representativeOfPage":true},"datePublished":"2026","about":["Balanced Price Range (BPR)","Opposing Fair Value Gaps","BPR interval intersection","BPR boundaries","Consequent Encroachment (CE)","Bullish and bearish BPR anatomy","Narrow and wide BPRs","Fresh, tested and mitigated BPRs","Nested Balanced Price Ranges","Dealing ranges","Premium, discount and equilibrium","Liquidity and displacement","Market structure","Higher-timeframe and lower-timeframe alignment","BPR midpoint entries","Confirmation inside the BPR","BPR with FVG, Order Block, Breaker and inversion structures","Entry, invalidation and objective","No-trade conditions","Failed BPRs"],"audience":{"@type":"Audience","audienceType":"For discretionary and research-oriented traders who already understand basic candlestick structure and want a rigorous, testable treatment of Balanced Price Ranges, Fair Value Gap overlap, market context, execution, risk and backtesting rather than a mythology-driven SMC shortcut."},"@id":"https://faramarzkowsari.github.io/books/balanced-price-range-trading/#book","mainEntityOfPage":{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/books/balanced-price-range-trading/","primaryImageOfPage":{"@id":"https://faramarzkowsari.github.io/books/balanced-price-range-trading/#primaryimage"}},"isPartOf":{"@type":"CollectionPage","@id":"https://faramarzkowsari.github.io/books/#collection","name":"Books by Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/"},"keywords":["Balanced Price Range (BPR)","Opposing Fair Value Gaps","BPR interval intersection","BPR boundaries","Consequent Encroachment (CE)","Bullish and bearish BPR anatomy","Narrow and wide BPRs","Fresh, tested and mitigated BPRs","Nested Balanced Price Ranges","Dealing ranges","Premium, discount and equilibrium","Liquidity and displacement","Market structure","Higher-timeframe and lower-timeframe alignment","BPR midpoint entries","Confirmation inside the BPR","BPR with FVG, Order Block, Breaker and inversion structures","Entry, invalidation and objective","No-trade conditions","Failed BPRs","BPR dataset design","Backtesting without hindsight","Metrics beyond win rate","Personal BPR playbook"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Books", "item": "https://faramarzkowsari.github.io/books/"}, {"@type": "ListItem", "position": 3, "name": "Balanced Price Range Trading", "item": "https://faramarzkowsari.github.io/books/balanced-price-range-trading/"}]}</script>
+
+<!-- ai-visibility:start -->
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms.txt" title="LLM-readable site index">
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms-full.txt" title="Expanded LLM-readable books index">
+<link rel="alternate" type="application/json" href="https://faramarzkowsari.github.io/books/catalog.json" title="Machine-readable books catalog">
+<link rel="author" href="https://faramarzkowsari.github.io/books/author/" title="Faramarz Kowsari author profile">
+<!-- ai-visibility:end -->
+<!-- multilingual-localizations:start -->
+<link rel="alternate" hreflang="en" href="https://faramarzkowsari.github.io/books/balanced-price-range-trading/">
+<link rel="alternate" hreflang="ru" href="https://faramarzkowsari.github.io/books/balanced-price-range-trading/ru/">
+<link rel="alternate" hreflang="tr" href="https://faramarzkowsari.github.io/books/balanced-price-range-trading/tr/">
+<link rel="alternate" hreflang="de" href="https://faramarzkowsari.github.io/books/balanced-price-range-trading/de/">
+<link rel="alternate" hreflang="es" href="https://faramarzkowsari.github.io/books/balanced-price-range-trading/es/">
+<link rel="alternate" hreflang="fr" href="https://faramarzkowsari.github.io/books/balanced-price-range-trading/fr/">
+<link rel="alternate" hreflang="pt-BR" href="https://faramarzkowsari.github.io/books/balanced-price-range-trading/pt-br/">
+<link rel="alternate" hreflang="x-default" href="https://faramarzkowsari.github.io/books/balanced-price-range-trading/">
+<!-- multilingual-localizations:end -->
+<meta name="twitter:image:alt" content="Book cover of Balanced Price Range Trading by Faramarz Kowsari">
+</head>
+<body>
+<main class="book-page">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>›</span><a href="../">Books</a><span>›</span><span aria-current="page">Balanced Price Range Trading</span></nav>
+<!-- author-tab:start -->
+<nav class="book-tabs" aria-label="Book navigation">
+  <a class="book-tab author-tab" href="../author/">About the Author: Faramarz Kowsari</a>
+</nav>
+<!-- author-tab:end -->
+
+  <p><a href="../">← All books</a></p>
+  <section class="book-top">
+    <img src="https://books.google.com/books/content?id=4QQWEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api" alt="Book cover of Balanced Price Range Trading by Faramarz Kowsari" loading="eager" decoding="async" itemprop="image" title="Balanced Price Range Trading — book cover, by Faramarz Kowsari">
+    <div>
+      <h1>Balanced Price Range Trading</h1>
+      <p class="subtitle">BPR, Opposing Fair Value Gaps, Equilibrium, and Smart Money Entry Zones</p>
+      <p class="meta">Faramarz Kowsari · English · Trading · 2026</p>
+      <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=4QQWEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a></div>
+    </div>
+  </section>
+<!-- google-books-preview:start -->
+<section class="section google-books-preview" aria-label="Google Books preview">
+  <div class="preview-icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><rect x="3" y="3" width="42" height="42" rx="12" fill="currentColor" opacity=".08"/><path d="M10.5 14.5c4.8-1.8 9-1.3 13.5 1.4v20.8c-4.5-2.7-8.7-3.2-13.5-1.4V14.5Zm27 0c-4.8-1.8-9-1.3-13.5 1.4v20.8c4.5-2.7 8.7-3.2 13.5-1.4V14.5Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="32" cy="26.5" r="5.2" fill="white" stroke="currentColor" stroke-width="2"/><path d="m35.8 30.3 4.2 4.2" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></div>
+  <p class="preview-title">Free Google Books Preview</p>
+  <p class="preview-note">Read a free sample of this book on Google Books before you buy.</p>
+  <div class="actions"><a class="action" href="https://play.google.com/books/reader?id=4QQWEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Read the free preview on Google Books</a></div>
+</section>
+<!-- google-books-preview:end -->
+
+
+  <section class="section"><h2>About this book</h2>
+    <p>Balanced Price Range Trading treats BPR as a measurable overlap between two opposing Fair Value Gaps rather than as a mystical institutional signal. The book separates observation, interpretation, and trading decision: first define the two imbalance intervals and their intersection, then establish the BPR boundaries and Consequent Encroachment midpoint, and only after that evaluate whether context justifies an entry, an invalidation level, an objective, or no trade at all. Historical OHLC examples are used to make the geometry reproducible, and failed examples remain part of the framework rather than being edited out after the fact.</p>
+    <p>The middle sections build the concept from formation sequence and bullish or bearish anatomy through narrow and wide ranges, fresh versus tested or mitigated BPRs, nested structures, and location inside a dealing range. Premium, discount, equilibrium, liquidity, market structure, and higher-timeframe versus lower-timeframe alignment are treated as context that can change the meaning of the same measured zone. Execution chapters then examine returns to the BPR, midpoint entries, confirmation inside the range, confluence with Fair Value Gaps, Order Blocks, Breakers and inversion structures, and the practical relationship between entry, invalidation, objective, risk, and the decision to stand aside.</p>
+    <p>The final sections make failure and research part of the model. Readers learn to classify failed BPRs, identify common analytical mistakes, convert visual ideas into testable rules, build a BPR dataset, backtest without hindsight, evaluate metrics beyond win rate, and create a personal playbook. Ten outcome-aware case studies, a visual BPR atlas, a dataset schema, glossary, and visual-reference material turn the book into both a conceptual guide and a repeatable research workflow.</p>
+  </section>
+
+  <section class="section"><h2>What you will learn</h2><ul>
+      <li>Define a Balanced Price Range precisely as the price intersection of opposing Fair Value Gap intervals.</li>
+      <li>Separate observable geometry from interpretive language and from the eventual trading decision.</li>
+      <li>Mark BPR boundaries and Consequent Encroachment consistently enough for replay, journaling and coding.</li>
+      <li>Classify bullish, bearish, narrow, wide, fresh, tested, mitigated and nested BPR structures.</li>
+      <li>Evaluate a BPR inside premium, discount or equilibrium and in relation to liquidity, market structure and timeframe context.</li>
+      <li>Plan returns to the BPR, midpoint tests and confirmation-based entries with explicit invalidation and objectives.</li>
+      <li>Use confluence with FVGs, Order Blocks, Breakers or inversion structures without treating any label as automatic confirmation.</li>
+      <li>Recognize when the correct decision is no trade and classify failure without rewriting the original setup after the outcome.</li>
+      <li>Turn BPR ideas into testable rules, build a dataset and backtest with definitions fixed before outcomes are reviewed.</li>
+      <li>Evaluate a personal BPR playbook using repeatable decision rules and metrics that go beyond win rate.</li>
+    </ul></section>
+
+  <section class="section"><h2>Key topics</h2><ul>
+      <li>Balanced Price Range (BPR)</li>
+      <li>Opposing Fair Value Gaps</li>
+      <li>BPR interval intersection</li>
+      <li>BPR boundaries</li>
+      <li>Consequent Encroachment (CE)</li>
+      <li>Bullish and bearish BPR anatomy</li>
+      <li>Narrow and wide BPRs</li>
+      <li>Fresh, tested and mitigated BPRs</li>
+      <li>Nested Balanced Price Ranges</li>
+      <li>Dealing ranges</li>
+      <li>Premium, discount and equilibrium</li>
+      <li>Liquidity and displacement</li>
+      <li>Market structure</li>
+      <li>Higher-timeframe and lower-timeframe alignment</li>
+      <li>BPR midpoint entries</li>
+      <li>Confirmation inside the BPR</li>
+      <li>BPR with FVG, Order Block, Breaker and inversion structures</li>
+      <li>Entry, invalidation and objective</li>
+      <li>No-trade conditions</li>
+      <li>Failed BPRs</li>
+      <li>BPR dataset design</li>
+      <li>Backtesting without hindsight</li>
+      <li>Metrics beyond win rate</li>
+      <li>Personal BPR playbook</li>
+    </ul></section>
+
+  <section class="section"><h2>Who this book is for</h2><p>For discretionary and research-oriented traders who already understand basic candlestick structure and want a rigorous, testable treatment of Balanced Price Ranges, Fair Value Gap overlap, market context, execution, risk and backtesting rather than a mythology-driven SMC shortcut.</p></section>
+
+  <section class="section"><h2>Related books</h2><ul>
+      <li><a href="../opening-range-gap-trading/">Opening Range Gap Trading</a></li>
+      <li><a href="../smart-money-concepts/">Smart Money Concepts</a></li>
+      <li><a href="../macd-trading-mastery/">MACD Trading Mastery</a></li>
+    </ul></section>
+
+  <section class="section"><div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=4QQWEgAAQBAJ" target="_blank" rel="noopener noreferrer">Read / Buy on Google Books</a><a class="action" href="../">Browse all books</a></div></section>
+
+<!-- topic-index-link:start -->
+<section class="section topic-index-cta" aria-label="Books by topic">
+  <div class="topic-index-icon" aria-hidden="true">
+    <svg viewBox="0 0 48 48" focusable="false"><path d="M8 10.5h13.5c4 0 7 2 7 5.5v22c0-3.5-3-5.5-7-5.5H8v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M40 10.5H26.5c-4 0-7 2-7 5.5v22c0-3.5 3-5.5 7-5.5H40v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 17h8M14 22h8M32 17h3M32 22h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </div>
+  <div>
+    <h2>Browse Books by Topic</h2>
+    <p>Explore the library by subject and find related books faster.</p>
+    <div class="actions"><a class="action primary" href="../topics/">Explore the Topic Index</a></div>
+  </div>
+</section>
+<!-- topic-index-link:end -->
+</main>
+</body>
+</html>
