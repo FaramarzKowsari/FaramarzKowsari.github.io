@@ -5,7 +5,7 @@ import pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 BOOKS_DIR = ROOT / "books"
 DATA = BOOKS_DIR / "books.json"
-ADDITIONS = BOOKS_DIR / "catalog-additions.json"
+ADDITIONS_GLOB = "catalog-additions*.json"
 
 DEFAULTS = {
     "status": "active",
@@ -36,11 +36,16 @@ def load(path, default):
 
 
 books = load(DATA, [])
-additions = load(ADDITIONS, [])
+addition_paths = sorted(BOOKS_DIR.glob(ADDITIONS_GLOB))
+additions = []
+for addition_path in addition_paths:
+    payload = load(addition_path, [])
+    if not isinstance(payload, list):
+        raise SystemExit(f"{addition_path} must contain a JSON array")
+    additions.extend(payload)
+
 if not isinstance(books, list):
     raise SystemExit("books/books.json must contain a JSON array")
-if not isinstance(additions, list):
-    raise SystemExit("books/catalog-additions.json must contain a JSON array")
 
 by_id = {b.get("google_books_id"): b for b in books if b.get("google_books_id")}
 by_slug = {b.get("slug"): b for b in books if b.get("slug")}
@@ -84,4 +89,7 @@ for raw in additions:
 
 books.sort(key=lambda b: (int(b.get("sequence") or 999999), str(b.get("title") or "").lower()))
 DATA.write_text(json.dumps(books, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-print(f"Catalog merge: {added} added, {updated} refreshed, {len(books)} total records")
+print(
+    f"Catalog merge: {added} added, {updated} refreshed, {len(books)} total records "
+    f"from {len(addition_paths)} addition file(s)"
+)
