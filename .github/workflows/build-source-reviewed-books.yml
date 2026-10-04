@@ -28,6 +28,7 @@ on:
       - "scripts/build_turkish_book_pages.py"
       - "scripts/build_market_language_pages.py"
       - "scripts/add_pinterest_infographics.py"
+      - "scripts/add_ielts_sos_visual_companion.py"
       - "scripts/image_seo_books.py"
       - "scripts/enforce_google_books_alt.py"
       - "scripts/seo_sitemaps.py"
@@ -72,6 +73,7 @@ jobs:
           python scripts/build_turkish_book_pages.py
           python scripts/build_market_language_pages.py
           python scripts/add_pinterest_infographics.py
+          python scripts/add_ielts_sos_visual_companion.py
           python scripts/image_seo_books.py
           python scripts/enforce_google_books_alt.py
           python scripts/seo_sitemaps.py
