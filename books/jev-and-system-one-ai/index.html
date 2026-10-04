@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="author" content="Faramarz Kowsari">
+<title>JEV AND SYSTEM ONE AI | Faramarz Kowsari</title>
+<meta name="description" content="An engineering guide to Jev, System One AI and decision-native software: typed probabilistic outputs, calibration, routing, guardrails, observability, evaluation, cost, governance and production architecture beyond LLM-only systems.">
+<link rel="canonical" href="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/">
+<link rel="sitemap" type="application/xml" href="../sitemap.xml">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Faramarz Kowsari Books">
+<meta property="og:title" content="JEV AND SYSTEM ONE AI">
+<meta property="og:description" content="An engineering guide to Jev, System One AI and decision-native software: typed probabilistic outputs, calibration, routing, guardrails, observability, evaluation, cost, governance and production architecture beyond LLM-only systems.">
+<meta property="og:url" content="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/">
+<meta property="og:image" content="https://books.google.com/books/content?id=RdIVEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<meta property="og:image:alt" content="Book cover of JEV AND SYSTEM ONE AI by Faramarz Kowsari">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="JEV AND SYSTEM ONE AI">
+<meta name="twitter:description" content="An engineering guide to Jev, System One AI and decision-native software: typed probabilistic outputs, calibration, routing, guardrails, observability, evaluation, cost, governance and production architecture beyond LLM-only systems.">
+<meta name="twitter:image" content="https://books.google.com/books/content?id=RdIVEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"JEV AND SYSTEM ONE AI","author":{"@type":"Person","@id":"https://faramarzkowsari.github.io/#person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/"},"inLanguage":"en","description":"An engineering guide to Jev, System One AI and decision-native software: typed probabilistic outputs, calibration, routing, guardrails, observability, evaluation, cost, governance and production architecture beyond LLM-only systems.","url":"https://faramarzkowsari.github.io/books/jev-and-system-one-ai/","sameAs":"https://play.google.com/store/books/details?id=RdIVEgAAQBAJ","alternateName":"Building Fast, Calibrated, Decision-Native Software Beyond Generative LLMs","image":{"@type":"ImageObject","@id":"https://faramarzkowsari.github.io/books/jev-and-system-one-ai/#primaryimage","contentUrl":"https://books.google.com/books/content?id=RdIVEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","url":"https://books.google.com/books/content?id=RdIVEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","name":"Book cover of JEV AND SYSTEM ONE AI by Faramarz Kowsari","caption":"JEV AND SYSTEM ONE AI — book cover, by Faramarz Kowsari","representativeOfPage":true},"datePublished":"2026","about":["Decision-native AI","Jev and System One models","Typed probabilistic decisions","State design for decision models","Semantic yes/no probability","Closed decision spaces and choice models","Ordered scoring and bounded judgment","Probability versus confidence","Calibration and threshold design","Parallel intelligence and speculative fan-out","Learned if-statements","Confidence-gated automation","Jev and LLM hybrid architectures","Model, tool and agent routing","Guardrails and verification","Search, RAG, ranking and retrieval","Production AI workflows","Benchmarking decision models","Observability and failure analysis","Security, privacy and adversarial state"],"audience":{"@type":"Audience","audienceType":"For software engineers, AI engineers, ML practitioners, technical founders, product architects, platform teams and engineering leaders who are building production AI systems and want lower-latency, more testable and more controllable alternatives to routing every decision through a generative LLM."},"@id":"https://faramarzkowsari.github.io/books/jev-and-system-one-ai/#book","mainEntityOfPage":{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/books/jev-and-system-one-ai/","primaryImageOfPage":{"@id":"https://faramarzkowsari.github.io/books/jev-and-system-one-ai/#primaryimage"}},"isPartOf":{"@type":"CollectionPage","@id":"https://faramarzkowsari.github.io/books/#collection","name":"Books by Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/"},"keywords":["Decision-native AI","Jev and System One models","Typed probabilistic decisions","State design for decision models","Semantic yes/no probability","Closed decision spaces and choice models","Ordered scoring and bounded judgment","Probability versus confidence","Calibration and threshold design","Parallel intelligence and speculative fan-out","Learned if-statements","Confidence-gated automation","Jev and LLM hybrid architectures","Model, tool and agent routing","Guardrails and verification","Search, RAG, ranking and retrieval","Production AI workflows","Benchmarking decision models","Observability and failure analysis","Security, privacy and adversarial state","Cost, throughput and capacity planning","Governance, accountability and human review","Production question design","Data engineering for decision models","Migration from LLM-only automation","System One AI as infrastructure"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Books", "item": "https://faramarzkowsari.github.io/books/"}, {"@type": "ListItem", "position": 3, "name": "JEV AND SYSTEM ONE AI", "item": "https://faramarzkowsari.github.io/books/jev-and-system-one-ai/"}]}</script>
+
+<!-- ai-visibility:start -->
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms.txt" title="LLM-readable site index">
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms-full.txt" title="Expanded LLM-readable books index">
+<link rel="alternate" type="application/json" href="https://faramarzkowsari.github.io/books/catalog.json" title="Machine-readable books catalog">
+<link rel="author" href="https://faramarzkowsari.github.io/books/author/" title="Faramarz Kowsari author profile">
+<!-- ai-visibility:end -->
+<!-- multilingual-localizations:start -->
+<link rel="alternate" hreflang="en" href="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/">
+<link rel="alternate" hreflang="ru" href="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/ru/">
+<link rel="alternate" hreflang="tr" href="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/tr/">
+<link rel="alternate" hreflang="de" href="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/de/">
+<link rel="alternate" hreflang="es" href="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/es/">
+<link rel="alternate" hreflang="fr" href="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/fr/">
+<link rel="alternate" hreflang="pt-BR" href="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/pt-br/">
+<link rel="alternate" hreflang="x-default" href="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/">
+<!-- multilingual-localizations:end -->
+<meta name="twitter:image:alt" content="Book cover of JEV AND SYSTEM ONE AI by Faramarz Kowsari">
+</head>
+<body>
+<main class="book-page">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>›</span><a href="../">Books</a><span>›</span><span aria-current="page">JEV AND SYSTEM ONE AI</span></nav>
+<!-- author-tab:start -->
+<nav class="book-tabs" aria-label="Book navigation">
+  <a class="book-tab author-tab" href="../author/">About the Author: Faramarz Kowsari</a>
+</nav>
+<!-- author-tab:end -->
+
+  <p><a href="../">← All books</a></p>
+  <section class="book-top">
+    <img src="https://books.google.com/books/content?id=RdIVEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api" alt="Book cover of JEV AND SYSTEM ONE AI by Faramarz Kowsari" loading="eager" decoding="async" itemprop="image" title="JEV AND SYSTEM ONE AI — book cover, by Faramarz Kowsari">
+    <div>
+      <h1>JEV AND SYSTEM ONE AI</h1>
+      <p class="subtitle">Building Fast, Calibrated, Decision-Native Software Beyond Generative LLMs</p>
+      <p class="meta">Faramarz Kowsari · English · Artificial Intelligence &amp; Software Architecture · 2026</p>
+      <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=RdIVEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a></div>
+    </div>
+  </section>
+<!-- google-books-preview:start -->
+<section class="section google-books-preview" aria-label="Google Books preview">
+  <div class="preview-icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><rect x="3" y="3" width="42" height="42" rx="12" fill="currentColor" opacity=".08"/><path d="M10.5 14.5c4.8-1.8 9-1.3 13.5 1.4v20.8c-4.5-2.7-8.7-3.2-13.5-1.4V14.5Zm27 0c-4.8-1.8-9-1.3-13.5 1.4v20.8c4.5-2.7 8.7-3.2 13.5-1.4V14.5Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="32" cy="26.5" r="5.2" fill="white" stroke="currentColor" stroke-width="2"/><path d="m35.8 30.3 4.2 4.2" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></div>
+  <p class="preview-title">Free Google Books Preview</p>
+  <p class="preview-note">Read a free sample of this book on Google Books before you buy.</p>
+  <div class="actions"><a class="action" href="https://play.google.com/books/reader?id=RdIVEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Read the free preview on Google Books</a></div>
+</section>
+<!-- google-books-preview:end -->
+
+
+  <section class="section"><h2>About this book</h2>
+    <p>JEV AND SYSTEM ONE AI examines a different way to place machine intelligence inside production software: not as a conversational destination that must generate prose, but as a fast, typed, probabilistic decision component. Using Jev and TypeSafe AI&#x27;s System One framing as a case study, the book asks what changes when software needs a route, score, probability, gate, category, or bounded judgment rather than an essay. Its central architectural idea is compositional: deterministic code handles what is exact, decision models handle bounded semantic ambiguity, generative models handle language and open-ended reasoning, and people remain responsible for novelty, accountability, and high-consequence judgment.</p>
+    <p>The book develops this idea from first principles through state design, semantic yes/no decisions, closed choice spaces, ordered scoring, parallel fan-out, calibration, confidence-gated automation, learned if-statements, model/tool/agent routing, guardrails, verification, retrieval, customer-service workflows, production architecture, observability, security, privacy, adversarial state, cost, throughput, governance, and human review. It also distinguishes probability from confidence, explains why type safety removes invalid output shapes without eliminating semantic error, and treats calibration, thresholds, fallback policies, evaluation sets, and operational traces as core engineering artifacts rather than optional afterthoughts.</p>
+    <p>The treatment is deliberately skeptical of hype. The manuscript separates company claims from independently established facts, explicitly notes that Jev&#x27;s internal architecture and training corpus are undisclosed, and emphasizes that fast or schema-valid decisions can still be wrong, drift over time, or be inappropriate for reasoning-heavy tasks. Later chapters move beyond Jev itself to the broader System One AI stack: typed probabilistic intelligence as a reusable software primitive, domain-specific decision layers, multimodal judgment, adaptive routing, production question design, data engineering, migration from LLM-only systems, capacity planning, governance, and a practical 30-day adoption roadmap. The result is an engineering-oriented guide to decision-native AI as infrastructure rather than chat.</p>
+  </section>
+
+  <section class="section"><h2>What you will learn</h2><ul>
+      <li>Distinguish generative language tasks from bounded machine-facing decisions that are better represented as probabilities, categories, scores or gates.</li>
+      <li>Design software architectures that combine deterministic code, decision models, LLMs, tools, databases and human review according to their different failure modes.</li>
+      <li>Understand why typed outputs improve integration while still leaving semantic error, drift and poor calibration as real operational risks.</li>
+      <li>Design state, questions, option spaces, thresholds and confidence gates that can be versioned, tested and audited like production code.</li>
+      <li>Evaluate calibration so that predicted probabilities have operational meaning and can support selective automation and escalation policies.</li>
+      <li>Use decision models for routing, retrieval, support triage, risk gates and other high-frequency micro-decisions without forcing every workflow through free-form generation.</li>
+      <li>Build observability around cases, distributions, thresholds, traces, downstream consequences and failure categories rather than judging a model only by how convincing its prose sounds.</li>
+      <li>Recognize when Jev or another System One-style model is the wrong tool and when open-ended reasoning, deterministic logic or human judgment should take over.</li>
+      <li>Plan migration from LLM-only automation using production evaluation, security, privacy, throughput, cost and governance constraints.</li>
+      <li>Apply a practical adoption roadmap for introducing decision-native AI as a composable layer inside ordinary software systems.</li>
+    </ul></section>
+
+  <section class="section"><h2>Key topics</h2><ul>
+      <li>Decision-native AI</li>
+      <li>Jev and System One models</li>
+      <li>Typed probabilistic decisions</li>
+      <li>State design for decision models</li>
+      <li>Semantic yes/no probability</li>
+      <li>Closed decision spaces and choice models</li>
+      <li>Ordered scoring and bounded judgment</li>
+      <li>Probability versus confidence</li>
+      <li>Calibration and threshold design</li>
+      <li>Parallel intelligence and speculative fan-out</li>
+      <li>Learned if-statements</li>
+      <li>Confidence-gated automation</li>
+      <li>Jev and LLM hybrid architectures</li>
+      <li>Model, tool and agent routing</li>
+      <li>Guardrails and verification</li>
+      <li>Search, RAG, ranking and retrieval</li>
+      <li>Production AI workflows</li>
+      <li>Benchmarking decision models</li>
+      <li>Observability and failure analysis</li>
+      <li>Security, privacy and adversarial state</li>
+      <li>Cost, throughput and capacity planning</li>
+      <li>Governance, accountability and human review</li>
+      <li>Production question design</li>
+      <li>Data engineering for decision models</li>
+      <li>Migration from LLM-only automation</li>
+      <li>System One AI as infrastructure</li>
+    </ul></section>
+
+  <section class="section"><h2>Who this book is for</h2><p>For software engineers, AI engineers, ML practitioners, technical founders, product architects, platform teams and engineering leaders who are building production AI systems and want lower-latency, more testable and more controllable alternatives to routing every decision through a generative LLM.</p></section>
+
+  <section class="section"><h2>Related books</h2><ul>
+      <li><a href="../algorithmic-time-and-price-grids/">Algorithmic Time &amp; Price Grids</a></li>
+      <li><a href="../ielts-sos-do-not-enter-the-exam-without-this-book/">IELTS SOS: Do Not Enter the Exam Without This Book</a></li>
+      <li><a href="../machine-learning-interviews-visually-explained/">Machine Learning Interviews, Visually Explained</a></li>
+    </ul></section>
+
+  <section class="section"><div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=RdIVEgAAQBAJ" target="_blank" rel="noopener noreferrer">Read / Buy on Google Books</a><a class="action" href="../">Browse all books</a></div></section>
+
+<!-- topic-index-link:start -->
+<section class="section topic-index-cta" aria-label="Books by topic">
+  <div class="topic-index-icon" aria-hidden="true">
+    <svg viewBox="0 0 48 48" focusable="false"><path d="M8 10.5h13.5c4 0 7 2 7 5.5v22c0-3.5-3-5.5-7-5.5H8v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M40 10.5H26.5c-4 0-7 2-7 5.5v22c0-3.5 3-5.5 7-5.5H40v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 17h8M14 22h8M32 17h3M32 22h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </div>
+  <div>
+    <h2>Browse Books by Topic</h2>
+    <p>Explore the library by subject and find related books faster.</p>
+    <div class="actions"><a class="action primary" href="../topics/">Explore the Topic Index</a></div>
+  </div>
+</section>
+<!-- topic-index-link:end -->
+</main>
+</body>
+</html>

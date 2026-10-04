@@ -23,7 +23,7 @@
 - Use catalog.json for structured discovery and the all-books text index for a crawlable human-readable overview.
 - The repository/site DOI identifies the evolving website and books-library project; it is not a DOI for every individual book.
 
-## Books (150)
+## Books (151)
 
 - [0DTE Options: Trading the Same-Day Market](https://faramarzkowsari.github.io/books/0dte-options/) — English; Trading. A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools.
 - [AI APIs in Practice](https://faramarzkowsari.github.io/books/ai-apis-in-practice/) — English; Artificial Intelligence. A visual engineering guide to AI APIs, multimodal systems, agents, RAG, secure authentication, payload design, evaluation, observability, and governance.
@@ -96,6 +96,7 @@
 - [ISTANBUL 2053](https://faramarzkowsari.github.io/books/istanbul-2053/) — English; Books
 - [Istanbul’s Mirror](https://faramarzkowsari.github.io/books/istanbul-s-mirror/) — English; Books
 - [İkinci Servet](https://faramarzkowsari.github.io/books/ikinci-servet/) — Türkçe; Yapay Zekâ, Kariyer Dönüşümü & Girişimcilik. 50 yaşından sonra deneyimi yapay zekâ destekli hizmet, ürün ve ikinci gelir sistemine dönüştürmek için pazar doğrulama, müşteri görüşmeleri, fiyatlandırma, otomasyon ve 90 günlük uygulama rehberi.
+- [JEV AND SYSTEM ONE AI](https://faramarzkowsari.github.io/books/jev-and-system-one-ai/) — English; Artificial Intelligence & Software Architecture. An engineering guide to Jev, System One AI and decision-native software: typed probabilistic outputs, calibration, routing, guardrails, observability, evaluation, cost, governance and production architecture beyond LLM-only systems.
 - [Kendini Açıklamayı Bırak](https://faramarzkowsari.github.io/books/kendini-ac-klamay-b-rak/) — Türkçe; Kişisel Gelişim. Fazla açıklama, onay arayışı, sınırlar, temiz hayır, sosyal medya yargısı ve başkalarının fikirleri karşısında özsaygıyı koruma üzerine bir rehber.
 - [Kimi K3 Agent Swarm Playbook](https://faramarzkowsari.github.io/books/kimi-k3-agent-swarm-playbook/) — English; Books
 - [Kimi K3 and the Agentic Frontier](https://faramarzkowsari.github.io/books/kimi-k3-and-the-agentic-frontier/) — English; Artificial Intelligence. A practical technical guide to Kimi K3, open weights, long context, agent swarms, serving, benchmarks, and comparisons with Claude, ChatGPT Work, and Codex.
