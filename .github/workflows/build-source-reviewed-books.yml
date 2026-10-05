@@ -7,6 +7,7 @@ on:
       - "main"
     paths:
       - "books/catalog-additions.json"
+      - "books/catalog-additions*.json"
       - "books/source_reviews/**"
       - "books/source-reviewed-extra.json"
       - "books/library-source-enriched*.json"
