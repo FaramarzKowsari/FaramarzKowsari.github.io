@@ -23,7 +23,7 @@
 - Use catalog.json for structured discovery and the all-books text index for a crawlable human-readable overview.
 - The repository/site DOI identifies the evolving website and books-library project; it is not a DOI for every individual book.
 
-## Books (154)
+## Books (155)
 
 - [0DTE Options: Trading the Same-Day Market](https://faramarzkowsari.github.io/books/0dte-options/) — English; Trading. A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools.
 - [AI APIs in Practice](https://faramarzkowsari.github.io/books/ai-apis-in-practice/) — English; Artificial Intelligence. A visual engineering guide to AI APIs, multimodal systems, agents, RAG, secure authentication, payload design, evaluation, observability, and governance.
@@ -149,6 +149,7 @@
 - [The 1-Minute & 5-Minute Scalping Playbook](https://faramarzkowsari.github.io/books/the-1-minute-and-5-minute-scalping-playbook/) — English; Trading. A practical 1-minute and 5-minute scalping guide covering timeframe hierarchy, market structure, liquidity, execution costs, eight playbooks, stops, sizing, journaling, backtesting, replay and a 30-session development program.
 - [The Day You Stop Needing a Reason](https://faramarzkowsari.github.io/books/the-day-you-stop-needing-a-reason/) — English; Personal Development. A practical guide to unanswered endings, acceptance, closure, silence, distance, self-worth, rebuilding, and moving forward without receiving an explanation.
 - [The Discipline of Bad Days](https://faramarzkowsari.github.io/books/the-discipline-of-bad-days/) — English; Personal Development. A practical guide to discipline on bad days: minimum actions, return rituals, energy, boundaries, rest, resistance, shame, and finishing work without waiting for motivation.
+- [The First Hour Dealing Range](https://faramarzkowsari.github.io/books/the-first-hour-dealing-range/) — English; Trading. A testable guide to the 9:30-10:30 New York First Hour Dealing Range covering ORG, liquidity, FVGs, the 10:30 range lock, entries, risk, targets and backtesting.
 - [The Heikin Ashi Trading Strategy](https://faramarzkowsari.github.io/books/the-heikin-ashi-trading-strategy/) — English; Trading. A practical Heikin Ashi guide to transformed candles, trend persistence, actual execution prices, gaps, entries, stops, volatility, position sizing, backtesting and risk.
 - [The High-Income FDE](https://faramarzkowsari.github.io/books/the-high-income-fde/) — English; Forward Deployed Engineering & Enterprise AI. A comprehensive visual and text field guide to Forward Deployed Engineering, enterprise AI deployment, customer discovery, architecture, security, evals, adoption, economics, handoff, productization, interviews and career leverage.
 - [The High-Resolution Mind](https://faramarzkowsari.github.io/books/the-high-resolution-mind/) — English; Psychology & Self-Awareness. A cautious guide to the psychology of extremely high-IQ minds, covering overthinking, solitude, sensitivity, masking, perfectionism, work, relationships, and cognitive design.
