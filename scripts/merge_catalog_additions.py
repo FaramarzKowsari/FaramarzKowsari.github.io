@@ -35,6 +35,28 @@ def load(path, default):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def ensure_google_books_metadata(item, gid):
+    """Guarantee canonical Google Books destination and external cover URLs.
+
+    The site intentionally references Google-hosted cover images instead of
+    downloading or storing image binaries in this repository. Supplying only a
+    Google Books ID in a catalog-additions file is therefore sufficient: these
+    two URLs are synthesized deterministically when they are absent or blank.
+    Explicit non-empty values are preserved.
+    """
+    filled = 0
+    if not str(item.get("google_books_url") or "").strip():
+        item["google_books_url"] = f"https://play.google.com/store/books/details?id={gid}"
+        filled += 1
+    if not str(item.get("cover_url") or "").strip():
+        item["cover_url"] = (
+            f"https://books.google.com/books/content?id={gid}"
+            "&printsec=frontcover&img=1&zoom=2&source=gbs_api"
+        )
+        filled += 1
+    return filled
+
+
 books = load(DATA, [])
 addition_paths = sorted(BOOKS_DIR.glob(ADDITIONS_GLOB))
 additions = []
@@ -52,6 +74,7 @@ by_slug = {b.get("slug"): b for b in books if b.get("slug")}
 max_seq = max((int(b.get("sequence") or 0) for b in books), default=0)
 added = 0
 updated = 0
+autofilled_google_metadata = 0
 
 for raw in additions:
     if not isinstance(raw, dict):
@@ -63,6 +86,11 @@ for raw in additions:
     title = str(item.get("title") or "").strip()
     if not gid or not slug or not title:
         raise SystemExit(f"Catalog addition requires google_books_id, slug and title: {raw}")
+
+    # Never allow a newly added/refreshed Google Books record to silently lose
+    # its sales destination or cover merely because those optional-looking
+    # fields were omitted from the addition JSON.
+    autofilled_google_metadata += ensure_google_books_metadata(item, gid)
 
     existing = by_id.get(gid)
     if existing:
@@ -91,5 +119,6 @@ books.sort(key=lambda b: (int(b.get("sequence") or 999999), str(b.get("title") o
 DATA.write_text(json.dumps(books, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(
     f"Catalog merge: {added} added, {updated} refreshed, {len(books)} total records "
-    f"from {len(addition_paths)} addition file(s)"
+    f"from {len(addition_paths)} addition file(s); "
+    f"{autofilled_google_metadata} missing Google Books URL field(s) auto-filled"
 )
