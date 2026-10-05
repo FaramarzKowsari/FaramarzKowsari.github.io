@@ -23,7 +23,7 @@
 - Use catalog.json for structured discovery and the all-books text index for a crawlable human-readable overview.
 - The repository/site DOI identifies the evolving website and books-library project; it is not a DOI for every individual book.
 
-## Books (155)
+## Books (156)
 
 - [0DTE Options: Trading the Same-Day Market](https://faramarzkowsari.github.io/books/0dte-options/) — English; Trading. A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools.
 - [AI APIs in Practice](https://faramarzkowsari.github.io/books/ai-apis-in-practice/) — English; Artificial Intelligence. A visual engineering guide to AI APIs, multimodal systems, agents, RAG, secure authentication, payload design, evaluation, observability, and governance.
@@ -169,6 +169,7 @@
 - [Turtle Soup Strategy](https://faramarzkowsari.github.io/books/turtle-soup-strategy/) — English; Trading. A practical guide to the Turtle Soup failed-breakout setup, its historical 20-period rules, bullish and bearish reclaims, timeframe adaptation, risk, testing and modern contextual filters.
 - [Unenslaved Intelligence](https://faramarzkowsari.github.io/books/unenslaved-intelligence/) — English; Personal Development & Giftedness. A reflective guide to protecting gifted and high-capacity minds through earned access, boundaries, mission, emotional intelligence, solitude, professional clarity and freedom from self-erasure.
 - [Volume Profile Trading](https://faramarzkowsari.github.io/books/volume-profile-trading/) — English; Trading. A practical Volume Profile guide covering POC, Value Area, VAH, VAL, HVN, LVN, profile shapes, acceptance, rejection, value migration, session and composite profiles, and confluence.
+- [VWAP Trading](https://faramarzkowsari.github.io/books/vwap-trading/) — English; Trading. A practical, testable guide to Session VWAP, Anchored VWAP and deviation bands for reading price, volume, fair value, market context, entries, risk and execution.
 - [Wealth Begins Where You Stop Selling Yourself Cheap](https://faramarzkowsari.github.io/books/wealth-begins-where-you-stop-selling-yourself-cheap/) — English; Personal Growth & Self-Worth. A practical guide to self-worth, pricing, boundaries, skill, proof, attention, relationships, ethical value, and a 30-day plan for stopping the habit of selling your time and presence cheap.
 - [Weather, Air Quality and Extreme Heat at Home](https://faramarzkowsari.github.io/books/weather-air-quality-and-extreme-heat-at-home/) — English; Home, Climate & Indoor Air. A 100-page visual home guide to extreme heat, thermal comfort, shading, ventilation, fans, air conditioning, smoke and PM2.5, indoor air quality, cooling costs, power outages, and practical heat-safe household decisions.
 - [When Money Runs Short](https://faramarzkowsari.github.io/books/when-money-runs-short/) — English; Personal Finance & Everyday Life. A practical guide to surviving financial pressure by redesigning food, housing, healthcare, transport and everyday costs while protecting health, safety, work, family, future and dignity.

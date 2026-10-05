@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="author" content="Faramarz Kowsari">
+<title>VWAP Trading | Faramarz Kowsari</title>
+<meta name="description" content="A practical, testable guide to Session VWAP, Anchored VWAP and deviation bands for reading price, volume, fair value, market context, entries, risk and execution.">
+<link rel="canonical" href="https://faramarzkowsari.github.io/books/vwap-trading/">
+<link rel="sitemap" type="application/xml" href="../sitemap.xml">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Faramarz Kowsari Books">
+<meta property="og:title" content="VWAP Trading">
+<meta property="og:description" content="A practical, testable guide to Session VWAP, Anchored VWAP and deviation bands for reading price, volume, fair value, market context, entries, risk and execution.">
+<meta property="og:url" content="https://faramarzkowsari.github.io/books/vwap-trading/">
+<meta property="og:image" content="">
+<meta property="og:image:alt" content="Cover of VWAP Trading by Faramarz Kowsari">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="VWAP Trading">
+<meta name="twitter:description" content="A practical, testable guide to Session VWAP, Anchored VWAP and deviation bands for reading price, volume, fair value, market context, entries, risk and execution.">
+<meta name="twitter:image" content="">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"VWAP Trading","author":{"@type":"Person","@id":"https://faramarzkowsari.github.io/#person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/"},"inLanguage":"en","description":"A practical, testable guide to Session VWAP, Anchored VWAP and deviation bands for reading price, volume, fair value, market context, entries, risk and execution.","url":"https://faramarzkowsari.github.io/books/vwap-trading/","sameAs":"","alternateName":"Reading Price, Volume, Fair Value, and Institutional Intent with Session VWAP, Anchored VWAP, and Deviation Bands","datePublished":"2026","about":["Volume Weighted Average Price (VWAP)","Session VWAP","Anchored VWAP (AVWAP)","Deviation bands","Volume-weighted fair value","Price-volume relationship","Institutional benchmarking context","VWAP versus moving averages","Session reset and session boundaries","VWAP slope and location","Open relative to VWAP","Session profile and market context","Anchoring to meaningful market events","Anchor selection discipline","Acceptance versus line crossing","VWAP reclaim setups","VWAP rejection setups","Mean-reversion conditions","Trend-continuation conditions","Regime detection"],"audience":{"@type":"Audience","audienceType":"For intraday traders, futures and equity-index traders, discretionary and systematic-minded market participants, and readers who already use VWAP or volume tools but want a more disciplined framework for Session VWAP, Anchored VWAP, deviation bands, regime context, execution, risk and backtesting without treating any single line as a guaranteed signal."},"@id":"https://faramarzkowsari.github.io/books/vwap-trading/#book","mainEntityOfPage":{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/books/vwap-trading/"},"isPartOf":{"@type":"CollectionPage","@id":"https://faramarzkowsari.github.io/books/#collection","name":"Books by Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/"},"keywords":["Volume Weighted Average Price (VWAP)","Session VWAP","Anchored VWAP (AVWAP)","Deviation bands","Volume-weighted fair value","Price-volume relationship","Institutional benchmarking context","VWAP versus moving averages","Session reset and session boundaries","VWAP slope and location","Open relative to VWAP","Session profile and market context","Anchoring to meaningful market events","Anchor selection discipline","Acceptance versus line crossing","VWAP reclaim setups","VWAP rejection setups","Mean-reversion conditions","Trend-continuation conditions","Regime detection","Balanced versus directional auctions","Multi-timeframe VWAP context","Volume confirmation","Volatility context","Market structure around VWAP","Deviation and dispersion","Entry architecture and invalidation","Target selection","Position sizing and risk control","Execution quality and slippage"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Books", "item": "https://faramarzkowsari.github.io/books/"}, {"@type": "ListItem", "position": 3, "name": "VWAP Trading", "item": "https://faramarzkowsari.github.io/books/vwap-trading/"}]}</script>
+
+<!-- ai-visibility:start -->
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms.txt" title="LLM-readable site index">
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms-full.txt" title="Expanded LLM-readable books index">
+<link rel="alternate" type="application/json" href="https://faramarzkowsari.github.io/books/catalog.json" title="Machine-readable books catalog">
+<link rel="author" href="https://faramarzkowsari.github.io/books/author/" title="Faramarz Kowsari author profile">
+<!-- ai-visibility:end -->
+<!-- multilingual-localizations:start -->
+<link rel="alternate" hreflang="en" href="https://faramarzkowsari.github.io/books/vwap-trading/">
+<link rel="alternate" hreflang="ru" href="https://faramarzkowsari.github.io/books/vwap-trading/ru/">
+<link rel="alternate" hreflang="tr" href="https://faramarzkowsari.github.io/books/vwap-trading/tr/">
+<link rel="alternate" hreflang="de" href="https://faramarzkowsari.github.io/books/vwap-trading/de/">
+<link rel="alternate" hreflang="es" href="https://faramarzkowsari.github.io/books/vwap-trading/es/">
+<link rel="alternate" hreflang="fr" href="https://faramarzkowsari.github.io/books/vwap-trading/fr/">
+<link rel="alternate" hreflang="pt-BR" href="https://faramarzkowsari.github.io/books/vwap-trading/pt-br/">
+<link rel="alternate" hreflang="x-default" href="https://faramarzkowsari.github.io/books/vwap-trading/">
+<!-- multilingual-localizations:end -->
+</head>
+<body>
+<main class="book-page">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>›</span><a href="../">Books</a><span>›</span><span aria-current="page">VWAP Trading</span></nav>
+<!-- author-tab:start -->
+<nav class="book-tabs" aria-label="Book navigation">
+  <a class="book-tab author-tab" href="../author/">About the Author: Faramarz Kowsari</a>
+</nav>
+<!-- author-tab:end -->
+
+  <p><a href="../">← All books</a></p>
+  <section class="book-top">
+    <div>
+      <h1>VWAP Trading</h1>
+      <p class="subtitle">Reading Price, Volume, Fair Value, and Institutional Intent with Session VWAP, Anchored VWAP, and Deviation Bands</p>
+      <p class="meta">Faramarz Kowsari · English · Trading · 2026</p>
+      <div class="actions"></div>
+    </div>
+  </section>
+<!-- google-books-preview:start -->
+<section class="section google-books-preview" aria-label="Google Books preview">
+  <div class="preview-icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><rect x="3" y="3" width="42" height="42" rx="12" fill="currentColor" opacity=".08"/><path d="M10.5 14.5c4.8-1.8 9-1.3 13.5 1.4v20.8c-4.5-2.7-8.7-3.2-13.5-1.4V14.5Zm27 0c-4.8-1.8-9-1.3-13.5 1.4v20.8c4.5-2.7 8.7-3.2 13.5-1.4V14.5Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="32" cy="26.5" r="5.2" fill="white" stroke="currentColor" stroke-width="2"/><path d="m35.8 30.3 4.2 4.2" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></div>
+  <p class="preview-title">Free Google Books Preview</p>
+  <p class="preview-note">Read a free sample of this book on Google Books before you buy.</p>
+  <div class="actions"><a class="action" href="https://play.google.com/books/reader?id=DlAWEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Read the free preview on Google Books</a></div>
+</section>
+<!-- google-books-preview:end -->
+
+
+  <section class="section"><h2>About this book</h2>
+    <p>VWAP Trading presents Volume Weighted Average Price as a dynamic benchmark for organizing price and volume, not as a magical support-and-resistance line or a stand-alone trading signal. The book develops a context-first way to read where price is trading relative to volume-weighted fair value, how that relationship changes through a session, and why the same touch, cross or distance from VWAP can mean very different things in a balanced auction, a directional trend or a transition between regimes. Session VWAP is treated as an evolving reference that must be interpreted together with price behavior, participation, volatility, market structure and execution conditions.</p>
+    <p>The framework then expands from Session VWAP into Anchored VWAP and deviation bands. Anchors are tied to meaningful events or structural reference points rather than chosen arbitrarily, allowing price to be compared with volume-weighted value since a specific market event. Deviation bands are used as contextual measures of distance and dispersion rather than mechanical overbought-or-oversold triggers. The book examines the open relative to VWAP, VWAP slope and interaction, reclaim and rejection structures, acceptance versus brief line crossings, continuation and mean-reversion conditions, session profiles, multi-timeframe context, and the role of volume and volatility in deciding whether a VWAP observation is actionable or merely descriptive.</p>
+    <p>Execution and research are central to the book. Setup definitions connect context, location, trigger, invalidation and target logic, while risk chapters address sizing, stop logic and the practical consequences of slippage and execution quality. Backtesting guidance emphasizes predefined rules, realistic assumptions, adequate samples and protection against look-ahead bias, cherry-picking and subjective anchor selection. Dedicated failure-mode chapters show why VWAP can become misleading when session boundaries, regime, volume context or anchors are poorly defined, and the final playbook material turns the concepts into explicit setup criteria, no-trade filters, review metrics and a repeatable decision process rather than a collection of isolated chart patterns.</p>
+  </section>
+
+  <section class="section"><h2>What you will learn</h2><ul>
+      <li>Understand what VWAP measures and why volume weighting makes it different from a conventional moving average.</li>
+      <li>Use Session VWAP as an evolving benchmark whose meaning depends on session structure, price behavior, participation and regime.</li>
+      <li>Define session boundaries and reset conventions consistently so chart interpretation and backtesting refer to the same market event.</li>
+      <li>Select Anchored VWAP starting points from defensible events or structural references instead of arbitrary chart locations.</li>
+      <li>Interpret deviation bands as contextual measures of distance and dispersion rather than automatic overbought or oversold signals.</li>
+      <li>Classify the open and subsequent price behavior relative to VWAP, including slope, acceptance, rejection and changing session profiles.</li>
+      <li>Build VWAP reclaim and rejection setups that require context, confirmation, invalidation and realistic target space rather than a simple line cross.</li>
+      <li>Separate mean-reversion conditions from directional continuation conditions by combining VWAP with volume, volatility and market structure.</li>
+      <li>Use multi-timeframe and anchored references without overcrowding the chart or allowing conflicting benchmarks to replace a clear hypothesis.</li>
+      <li>Connect entry logic with position sizing, stop placement, execution quality, slippage and explicit no-trade conditions.</li>
+      <li>Backtest VWAP ideas with predefined rules, adequate samples and realistic execution while avoiding look-ahead bias, cherry-picking and subjective anchors.</li>
+      <li>Convert the framework into a personal VWAP playbook with named setups, regime filters, invalidation rules and review metrics.</li>
+    </ul></section>
+
+  <section class="section"><h2>Key topics</h2><ul>
+      <li>Volume Weighted Average Price (VWAP)</li>
+      <li>Session VWAP</li>
+      <li>Anchored VWAP (AVWAP)</li>
+      <li>Deviation bands</li>
+      <li>Volume-weighted fair value</li>
+      <li>Price-volume relationship</li>
+      <li>Institutional benchmarking context</li>
+      <li>VWAP versus moving averages</li>
+      <li>Session reset and session boundaries</li>
+      <li>VWAP slope and location</li>
+      <li>Open relative to VWAP</li>
+      <li>Session profile and market context</li>
+      <li>Anchoring to meaningful market events</li>
+      <li>Anchor selection discipline</li>
+      <li>Acceptance versus line crossing</li>
+      <li>VWAP reclaim setups</li>
+      <li>VWAP rejection setups</li>
+      <li>Mean-reversion conditions</li>
+      <li>Trend-continuation conditions</li>
+      <li>Regime detection</li>
+      <li>Balanced versus directional auctions</li>
+      <li>Multi-timeframe VWAP context</li>
+      <li>Volume confirmation</li>
+      <li>Volatility context</li>
+      <li>Market structure around VWAP</li>
+      <li>Deviation and dispersion</li>
+      <li>Entry architecture and invalidation</li>
+      <li>Target selection</li>
+      <li>Position sizing and risk control</li>
+      <li>Execution quality and slippage</li>
+      <li>No-trade filters</li>
+      <li>Backtesting VWAP strategies</li>
+      <li>Look-ahead bias prevention</li>
+      <li>Cherry-picking and overfitting</li>
+      <li>Expectancy and outcome distribution</li>
+      <li>VWAP failure modes</li>
+      <li>Personal VWAP playbook</li>
+    </ul></section>
+
+  <section class="section"><h2>Who this book is for</h2><p>For intraday traders, futures and equity-index traders, discretionary and systematic-minded market participants, and readers who already use VWAP or volume tools but want a more disciplined framework for Session VWAP, Anchored VWAP, deviation bands, regime context, execution, risk and backtesting without treating any single line as a guaranteed signal.</p></section>
+
+  <section class="section"><h2>Related books</h2><ul>
+      <li><a href="../the-first-hour-dealing-range/">The First Hour Dealing Range</a></li>
+      <li><a href="../opening-range-gap-trading/">Opening Range Gap Trading</a></li>
+      <li><a href="../algorithmic-time-and-price-grids/">Algorithmic Time &amp; Price Grids</a></li>
+    </ul></section>
+
+  <section class="section"><div class="actions"><a class="action" href="../">Browse all books</a></div></section>
+
+<!-- topic-index-link:start -->
+<section class="section topic-index-cta" aria-label="Books by topic">
+  <div class="topic-index-icon" aria-hidden="true">
+    <svg viewBox="0 0 48 48" focusable="false"><path d="M8 10.5h13.5c4 0 7 2 7 5.5v22c0-3.5-3-5.5-7-5.5H8v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M40 10.5H26.5c-4 0-7 2-7 5.5v22c0-3.5 3-5.5 7-5.5H40v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 17h8M14 22h8M32 17h3M32 22h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </div>
+  <div>
+    <h2>Browse Books by Topic</h2>
+    <p>Explore the library by subject and find related books faster.</p>
+    <div class="actions"><a class="action primary" href="../topics/">Explore the Topic Index</a></div>
+  </div>
+</section>
+<!-- topic-index-link:end -->
+</main>
+</body>
+</html>
