@@ -21,7 +21,7 @@ INDEX = BOOKS / "google-books-cover-index.json"
 
 # Match both normal query strings and HTML-escaped &amp; separators.
 GOOGLE_COVER_RE = re.compile(
-    r'https?://(?:books\.google\.com|books\.googleusercontent\.com)/books/content\?[^"\'<>\s]+',
+    r'https?://(?:(?:books\.google\.com|books\.googleusercontent\.com)/books/content\?[^"\'<>\s]+|play\.google\.com/books/publisher/content/images/frontcover/[^"\'<>\s]+)',
     re.I,
 )
 
@@ -36,11 +36,18 @@ def load_json(path: pathlib.Path, default):
 def gid_from_url(url: str) -> str:
     raw = html.unescape(url)
     try:
-        query = parse_qs(urlsplit(raw).query)
+        parts = urlsplit(raw)
+        query = parse_qs(parts.query)
     except ValueError:
         return ""
     values = query.get("id") or []
-    return str(values[0]).strip() if values else ""
+    if values:
+        return str(values[0]).strip()
+    if (parts.hostname or "").lower() == "play.google.com":
+        match = re.search(r"/frontcover/([^/?#]+)", parts.path)
+        if match:
+            return match.group(1)
+    return ""
 
 
 def replacement(match: re.Match[str], cache: dict) -> str:
