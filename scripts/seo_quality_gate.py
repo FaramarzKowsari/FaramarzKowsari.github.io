@@ -25,6 +25,7 @@ AUTHOR_PAGE = BOOKS / "author" / "index.html"
 ROOT_INDEX = ROOT / "index.html"
 BOOKS_INDEX = BOOKS / "index.html"
 BOOKS_BASE = "https://faramarzkowsari.github.io/books"
+PERSIAN_AUTHOR_NAME = "فرامرز کوثری"
 
 SCRIPT_RE = re.compile(r'<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', re.I | re.S)
 META_RE = re.compile(r'<meta\b[^>]*>', re.I)
@@ -151,8 +152,8 @@ def validate_book_author(node, slug, entity, errors):
     alt = author.get("alternateName") or []
     if isinstance(alt, str):
         alt = [alt]
-    if "فرامرز کوثری" not in alt:
-        errors.append(f"{slug}: Book.author Persian alternateName missing")
+    if PERSIAN_AUTHOR_NAME in alt:
+        errors.append(f"{slug}: Persian author name must not appear in Book.author")
     if clean(author.get("image")) != entity["image"]:
         errors.append(f"{slug}: Book.author canonical portrait mismatch")
 
@@ -190,8 +191,8 @@ required_entity = {
 for key, expected in required_entity.items():
     if clean(entity.get(key)) != expected:
         errors.append(f"author entity: {key} must be {expected!r}")
-if "فرامرز کوثری" not in (entity.get("alternate_name") or []):
-    errors.append("author entity: Persian alternate name is missing")
+if PERSIAN_AUTHOR_NAME in (entity.get("alternate_name") or []):
+    errors.append("author entity: Persian author name must not be exposed in book-facing entity data")
 if not clean(entity.get("image")):
     errors.append("author entity: canonical portrait URL is missing")
 
@@ -248,8 +249,8 @@ else:
         alt = person.get("alternateName") or []
         if isinstance(alt, str):
             alt = [alt]
-        if "فرامرز کوثری" not in alt:
-            errors.append("author page: Persian alternateName missing")
+        if PERSIAN_AUTHOR_NAME in alt:
+            errors.append("author page: Persian author name remains in Person alternateName")
         if clean(person.get("image")) != image_url:
             errors.append("author page: Person image is not the canonical portrait")
         person_same_as = set(person.get("sameAs") or [])
@@ -258,8 +259,8 @@ else:
                 errors.append(f"author page: Person sameAs missing {url}")
     if image_url and image_url not in author_text:
         errors.append("author page: canonical portrait is not visible/referenced")
-    if "فرامرز کوثری" not in author_text:
-        errors.append("author page: visible Persian alternate name missing")
+    if PERSIAN_AUTHOR_NAME in author_text:
+        errors.append("author page: Persian author name must not be visible or embedded")
 
 if not ROOT_INDEX.exists():
     errors.append("root index.html missing")
@@ -276,8 +277,8 @@ else:
         alt = person.get("alternateName") or []
         if isinstance(alt, str):
             alt = [alt]
-        if "فرامرز کوثری" not in alt:
-            errors.append("root index: Person Persian alternateName missing")
+        if PERSIAN_AUTHOR_NAME in alt:
+            errors.append("root index: Persian author name remains in Person alternateName")
 
 if not BOOKS_INDEX.exists():
     errors.append("books/index.html missing")
@@ -293,6 +294,8 @@ else:
         errors.append("books index: single collection-level author heading missing")
     if entity.get("author_page") not in index_text:
         errors.append("books index: author profile link missing")
+    if PERSIAN_AUTHOR_NAME in index_text:
+        errors.append("books index: Persian author name must not be visible or embedded")
 
 for book in books if isinstance(books, list) else []:
     slug = clean(book.get("slug"))
@@ -325,6 +328,8 @@ for book in books if isinstance(books, list) else []:
             errors.append(f"{slug}: external Google Books cover missing")
 
     text = path.read_text(encoding="utf-8")
+    if PERSIAN_AUTHOR_NAME in text:
+        errors.append(f"{slug}: Persian author name must not appear on book pages")
     expected = f"{BOOKS_BASE}/{slug}/"
     if canonical(text) != expected:
         errors.append(f"{slug}: canonical mismatch ({canonical(text)!r})")
@@ -374,6 +379,8 @@ for book in books if isinstance(books, list) else []:
         localized_checked += 1
         lt = lp.read_text(encoding="utf-8")
         label = f"{slug}/{loc}"
+        if PERSIAN_AUTHOR_NAME in lt:
+            errors.append(f"{label}: Persian author name must not appear on localized book pages")
         if not clean(meta_value(lt, "description")):
             errors.append(f"{label}: meta description missing")
         if re.search(r'<meta\b[^>]*name=["\']keywords["\']', lt, re.I):
