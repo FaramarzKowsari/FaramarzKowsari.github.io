@@ -20,6 +20,7 @@ on:
       - "scripts/resolve_google_books_covers.py"
       - "scripts/apply_google_books_covers.py"
       - "scripts/build_google_books_cover_gallery.py"
+      - "scripts/image_seo_quality_gate.py"
       - "scripts/seo_quality_gate.py"
       - "scripts/author_entity_layer.py"
       - "scripts/apply_library_source_enrichment.py"
@@ -92,6 +93,7 @@ jobs:
           python scripts/author_entity_layer.py
           python scripts/build_google_books_cover_gallery.py
           python scripts/seo_sitemaps.py
+          python scripts/image_seo_quality_gate.py
           python scripts/seo_quality_gate.py
 
       - name: Commit generated book files
