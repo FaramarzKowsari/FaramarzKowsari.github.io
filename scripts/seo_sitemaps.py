@@ -135,12 +135,25 @@ for slug in sorted(slugs):
     if (ROOT/p).exists():book_rows.append((SITE+f"books/{slug}/",lastmod(p)))
 write_map(BOOKS/"sitemap.xml",book_rows)
 
+# Focused semantic topic hubs live one level below /books/topics/. Keep them
+# in their own sitemap so crawlers can discover stable subject clusters without
+# mixing them into the canonical per-book sitemap.
+topic_rows=[]
+topics_root=BOOKS/"topics"
+if (topics_root/"index.html").exists():
+    topic_rows.append((SITE+"books/topics/",lastmod("books/topics/index.html")))
+for path in sorted(topics_root.glob("*/index.html")) if topics_root.exists() else []:
+    slug=path.parent.name
+    topic_rows.append((SITE+f"books/topics/{slug}/",lastmod(f"books/topics/{slug}/index.html")))
+write_map(BOOKS/"sitemap-topics.xml",topic_rows)
+
 rows=[(SITE,lastmod("index.html"))]
 for p in projects:
     if p.get("has_pages"):
         mod=(p.get("pushed_at") or "")[:10] or None
         rows.append((SITE+p.get("name","").strip('/')+"/",mod))
 rows.extend(book_rows)
+rows.extend(topic_rows)
 seen=set(); uniq=[]
 for row in rows:
     if row[0] not in seen:seen.add(row[0]);uniq.append(row)
@@ -157,6 +170,7 @@ sitemap_urls=[
     SITE+"sitemap.xml",
     SITE+"books/sitemap.xml",
     SITE+"books/image-sitemap.xml",
+    SITE+"books/sitemap-topics.xml",
 ]
 for locale in LOCALIZED_SITEMAPS:
     filename=f"sitemap-{locale}.xml"
@@ -165,4 +179,4 @@ for locale in LOCALIZED_SITEMAPS:
 sitemap_urls.append(SITE+"turkiye-disaster-intelligence-digital-twin/sitemap.xml")
 write_sitemap_index(ROOT/"sitemap-index.xml",sitemap_urls)
 
-print(f"SEO sitemaps: {len(book_rows)} book URLs; {len(image_rows)} image-page pairs across all languages; {len(uniq)} master URLs; {len(sitemap_urls)} maps in sitemap index.")
+print(f"SEO sitemaps: {len(book_rows)} book URLs; {len(topic_rows)} topic-hub URLs; {len(image_rows)} image-page pairs across all languages; {len(uniq)} master URLs; {len(sitemap_urls)} maps in sitemap index.")
