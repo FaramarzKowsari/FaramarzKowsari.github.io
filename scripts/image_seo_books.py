@@ -337,6 +337,25 @@ def process_page(path: pathlib.Path) -> tuple[bool, str | None]:
         return False, "missing canonical"
 
     cover = get_meta(text, "og:image", "property") or get_meta(text, "twitter:image", "name")
+    node = book_node_from_page(text)
+    if not cover and isinstance(node, dict):
+        image_value = node.get("image")
+        if isinstance(image_value, str):
+            cover = image_value
+        elif isinstance(image_value, dict):
+            cover = image_value.get("contentUrl") or image_value.get("url")
+    if not cover:
+        # Legacy/preserved pages may have a real Google Books <img> without
+        # social-image metadata. Recover that URL instead of skipping the page.
+        for match in IMG_RE.finditer(text):
+            src = attrs(match.group(0)).get("src") or ""
+            if re.match(r"^https?://", src, re.I) and (
+                "books.google.com/books/content" in src
+                or "books.googleusercontent.com/books/content" in src
+                or "play.google.com/books/publisher/content/images/frontcover/" in src
+            ):
+                cover = src
+                break
     if not cover or not re.match(r"^https?://", cover, re.I):
         return False, "missing external cover"
 
