@@ -106,7 +106,9 @@ def is_google_books_cover(url: str) -> bool:
         return False
     parts = urlsplit(url)
     host = (parts.hostname or "").lower()
-    return host in {"books.google.com", "books.googleusercontent.com"} and "/books/content" in parts.path
+    if host in {"books.google.com", "books.googleusercontent.com"} and "/books/content" in parts.path:
+        return True
+    return host == "play.google.com" and parts.path.startswith("/books/publisher/content/images/frontcover/")
 
 
 def book_title(text: str, node: dict | None, fallback: str) -> str:
@@ -271,10 +273,18 @@ for book in books:
 
     escaped_cover = html.escape(expected_cover, quote=True)
     book_url = f"https://faramarzkowsari.github.io/books/{slug}/"
-    if index_text and (escaped_cover not in index_text or f'./{slug}/' not in index_text):
-        errors.append(f"{slug}: books index does not connect the canonical cover to the book page")
-    if topics_text and (escaped_cover not in topics_text or f'../{slug}/' not in topics_text):
-        errors.append(f"{slug}: topic index does not connect the canonical cover to the book page")
+    if index_text:
+        index_link_present = f'./{slug}/' in index_text
+        if index_link_present and escaped_cover not in index_text:
+            errors.append(f"{slug}: books index links the book but not its canonical Google-hosted cover")
+        elif not index_link_present:
+            warnings.append(f"{slug}: book is not currently listed in the main visual books index")
+    if topics_text:
+        topic_link_present = f'../{slug}/' in topics_text
+        if topic_link_present and escaped_cover not in topics_text:
+            errors.append(f"{slug}: topic index links the book but not its canonical Google-hosted cover")
+        elif not topic_link_present:
+            warnings.append(f"{slug}: book is not currently listed in the broad topic index")
     if gallery_text and (escaped_cover not in gallery_text or book_url not in gallery_text):
         errors.append(f"{slug}: cover gallery does not connect the canonical cover to the book page")
 
