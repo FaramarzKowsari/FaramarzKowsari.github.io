@@ -41,7 +41,10 @@ def is_google_books_cover(url: str) -> bool:
     if not isinstance(url, str) or not url.startswith(("http://", "https://")):
         return False
     host = (urlsplit(url).hostname or "").lower()
-    return host in {"books.google.com", "books.googleusercontent.com"} and "/books/content" in urlsplit(url).path
+    path = urlsplit(url).path
+    if host in {"books.google.com", "books.googleusercontent.com"} and "/books/content" in path:
+        return True
+    return host == "play.google.com" and path.startswith("/books/publisher/content/images/frontcover/")
 
 
 def normalize_cover(url: str) -> str:
@@ -94,33 +97,44 @@ def main() -> None:
         if gid:
             catalog_by_gid[gid] = row
 
-    # Remove stale entries for books no longer in the catalog.
+    # Keep only live catalog IDs.
     cache = {gid: value for gid, value in cache.items() if gid in catalog_by_gid and isinstance(value, dict)}
 
-    unresolved = []
+    # Normal builds are intentionally network-free: cache the Google-hosted
+    # catalog URL as the canonical cover. This scales to thousands of books and
+    # avoids Google Books API 429 responses on shared GitHub Actions IPs.
+    seeded = 0
+    missing = []
     for gid, row in catalog_by_gid.items():
-        cached = cache.get(gid) or {}
-        cached_url = cached.get("url") or ""
-        if not FORCE and is_google_books_cover(cached_url):
+        existing = cache.get(gid) or {}
+        if is_google_books_cover(str(existing.get("url") or "")):
             continue
-        unresolved.append(gid)
+        fallback = normalize_cover(str(row.get("cover_url") or ""))
+        if is_google_books_cover(fallback):
+            cache[gid] = {
+                "url": fallback,
+                "variant": "catalog",
+                "source": "catalog_google_books",
+            }
+            seeded += 1
+        else:
+            missing.append(gid)
 
-    resolved = 0
+    # Optional manual refresh: when explicitly requested, try the Books API to
+    # upgrade cached URLs to the highest imageLinks variant it exposes. Failures
+    # never remove the working Google-hosted catalog URL.
+    upgraded = 0
     failed = []
-    if unresolved:
+    if FORCE and catalog_by_gid:
         with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-            futures = [executor.submit(fetch_one, gid) for gid in unresolved]
+            futures = [executor.submit(fetch_one, gid) for gid in catalog_by_gid]
             for future in concurrent.futures.as_completed(futures):
                 gid, entry, error = future.result()
                 if entry:
                     cache[gid] = entry
-                    resolved += 1
+                    upgraded += 1
                 else:
-                    # Keep a usable catalog URL as a non-sticky fallback. Because
-                    # it is not written to the cache, a later build will retry.
-                    row = catalog_by_gid[gid]
-                    fallback = normalize_cover(str(row.get("cover_url") or ""))
-                    failed.append((gid, error or "unresolved", fallback if is_google_books_cover(fallback) else ""))
+                    failed.append((gid, error or "unresolved"))
 
     INDEX.parent.mkdir(parents=True, exist_ok=True)
     rendered = json.dumps(dict(sorted(cache.items())), ensure_ascii=False, indent=2) + "\n"
@@ -130,13 +144,19 @@ def main() -> None:
 
     print(
         f"Google Books cover resolver: {len(catalog_by_gid)} catalog IDs; "
-        f"{len(cache)} cached best-cover URLs; {resolved} newly resolved; {len(failed)} retryable failure(s)."
+        f"{len(cache)} cached Google-hosted cover URLs; {seeded} seeded from catalog; "
+        f"{upgraded} API upgrade(s); {len(missing)} catalog cover(s) missing."
     )
-    for gid, error, fallback in failed[:30]:
-        note = "catalog fallback remains available" if fallback else "no fallback"
-        print(f"WARNING: {gid}: {error} ({note})")
-    if len(failed) > 30:
-        print(f"WARNING: {len(failed) - 30} additional cover-resolution failure(s) omitted.")
+    if missing:
+        for gid in missing[:30]:
+            print(f"WARNING: {gid}: no Google-hosted catalog cover URL")
+        if len(missing) > 30:
+            print(f"WARNING: {len(missing) - 30} additional missing catalog cover(s) omitted.")
+    if failed:
+        for gid, error in failed[:20]:
+            print(f"WARNING: optional API refresh failed for {gid}: {error}")
+        if len(failed) > 20:
+            print(f"WARNING: {len(failed) - 20} additional optional API refresh failure(s) omitted.")
 
 
 if __name__ == "__main__":
