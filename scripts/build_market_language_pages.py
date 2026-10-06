@@ -395,7 +395,6 @@ def render_book(book, path_code, override):
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} — {esc(cfg['page_label'])} | Faramarz Kowsari</title>
 <meta name="description" content="{esc(meta['seo'])}">
-<meta name="keywords" content="{esc(keywords)}">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <link rel="canonical" href="{esc(canonical)}">
 <meta property="og:type" content="website">
