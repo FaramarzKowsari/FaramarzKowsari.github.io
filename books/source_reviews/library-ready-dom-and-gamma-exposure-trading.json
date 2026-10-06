@@ -71,7 +71,10 @@
       "7l4WEgAAQBAJ",
       "DlAWEgAAQBAJ",
       "KE8WEgAAQBAJ"
-    ]
+    ],
+    "source_review_status": "complete",
+    "source_pages_reviewed": 236,
+    "source_scope": "Full Library PDF DOM_Trading_Faramarz_Kowsari.pdf reviewed for public index enrichment"
   },
   "7l4WEgAAQBAJ": {
     "subtitle": "GEX, Dealer Positioning, Gamma Flip, Call Walls, Put Walls, 0DTE Options, and Intraday Market Structure",
@@ -147,6 +150,9 @@
       "IF8WEgAAQBAJ",
       "DlAWEgAAQBAJ",
       "KE8WEgAAQBAJ"
-    ]
+    ],
+    "source_review_status": "complete",
+    "source_pages_reviewed": 206,
+    "source_scope": "Full Library PDF Gamma_Exposure_Trading_Faramarz_Kowsari.pdf reviewed for public index enrichment"
   }
 }
