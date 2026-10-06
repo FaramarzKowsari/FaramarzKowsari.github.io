@@ -68,6 +68,7 @@ def merge_public_books():
             "category": clean_text(merged.get("category")) or "Books",
             "summary": str(merged.get("summary") or "").strip(),
             "seo_description": clean_text(merged.get("seo_description")),
+            "seo": merged.get("seo") if isinstance(merged.get("seo"), dict) else {},
             "key_topics": [clean_text(x) for x in (merged.get("key_topics") or []) if clean_text(x)],
             "learning": [clean_text(x) for x in (merged.get("learning") or []) if clean_text(x)],
             "target_audience": clean_text(merged.get("target_audience")),
@@ -207,6 +208,13 @@ def write_llms(books):
         suffix = f" — {book['language']}; {book['category']}"
         if description:
             suffix += f". {description}"
+        seo = book.get("seo") if isinstance(book.get("seo"), dict) else {}
+        primary = clean_text(seo.get("primary_query"))
+        related_queries = [clean_text(x) for x in (seo.get("secondary_queries") or []) if clean_text(x)][:5]
+        if primary:
+            suffix += f" Primary search concept: {primary}."
+        if related_queries:
+            suffix += " Related search concepts: " + "; ".join(related_queries) + "."
         lines.append(f"- [{book['title']}]({book['url']}){suffix}")
     lines.extend(["", "## Discovery notes", "",
         "- Public pages are intended to be discoverable by general search and answer engines.",
