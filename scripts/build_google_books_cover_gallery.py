@@ -53,7 +53,11 @@ def public_books():
             continue
         entry = cache.get(gid) if isinstance(cache.get(gid), dict) else {}
         cover = str(entry.get("url") or book.get("cover_url") or "").strip()
-        if not cover.startswith(("https://books.google.com/", "https://books.googleusercontent.com/")):
+        if not cover.startswith((
+            "https://books.google.com/",
+            "https://books.googleusercontent.com/",
+            "https://play.google.com/books/publisher/content/images/frontcover/",
+        )):
             continue
         rows.append(
             {
