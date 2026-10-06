@@ -147,7 +147,7 @@ def book_card(book):
     category = book.get("category") or "General"
     language = book.get("language") or ""
     search = " ".join(str(x or "") for x in (title, category, language, book.get("subtitle"))).lower()
-    cover_html = f'<img class="topic-book-cover" src="{esc(cover)}" alt="Cover of {esc(title)}" loading="lazy" decoding="async">' if cover else '<div class="topic-book-cover topic-book-cover-placeholder" aria-hidden="true"></div>'
+    cover_html = f'<img class="topic-book-cover" src="{esc(cover)}" alt="Book cover of {esc(title)} by Faramarz Kowsari" title="{esc(title)} — book cover by Faramarz Kowsari" loading="lazy" decoding="async">' if cover else '<div class="topic-book-cover topic-book-cover-placeholder" aria-hidden="true"></div>'
     language_badge = f'<span class="topic-badge">{esc(language)}</span>' if language else ""
     return f'''<article class="topic-book-card" data-search="{esc(search)}">
   <a class="topic-cover-link" href="../{esc(slug)}/" aria-label="Open {esc(title)}">{cover_html}</a>
