@@ -131,7 +131,18 @@ RELATED_COPY = {
     "pt-BR":("Livros relacionados","Explore títulos diretamente relacionados ao mesmo tema.","Abrir o hub temático"),
 }
 BOOK_WORD={"en":"book","tr":"kitap","ru":"книга","de":"Buch","es":"libro","fr":"livre","pt-BR":"livro"}
-GUIDE_WORD={"en":"guide","tr":"rehberi","ru":"руководство","de":"Leitfaden","es":"guía","fr":"guide","pt-BR":"guia"}
+GUIDE_WORD={"en":"guide","tr":"rehberi","ru":"руководство","de":"Leitfaden","es":"guía","fr":"guide","pt-BR":"guia","fa":"راهنما","ar":"دليل","id":"panduan","vi":"hướng dẫn","th":"คู่มือ","bn":"গাইড","ro":"ghid","fil":"gabay"}
+BOOK_WORD.update({"fa":"کتاب","ar":"كتاب","id":"buku","vi":"sách","th":"หนังสือ","bn":"বই","ro":"carte","fil":"aklat"})
+CATEGORY_LOCALIZATION.update({
+    "fa":{"trading":"معامله‌گری و بازارهای مالی","ai":"هوش مصنوعی","business":"کسب‌وکار و بازاریابی","data":"یادگیری ماشین و داده","finance":"مالی شخصی و اقتصاد","psychology":"روان‌شناسی و رشد فردی","language":"یادگیری زبان","technology":"نرم‌افزار و فناوری","default":"کتاب‌های کاربردی"},
+    "ar":{"trading":"التداول والأسواق المالية","ai":"الذكاء الاصطناعي","business":"الأعمال والتسويق","data":"تعلم الآلة والبيانات","finance":"التمويل الشخصي والاقتصاد","psychology":"علم النفس والتنمية الشخصية","language":"تعلم اللغات","technology":"البرمجيات والتكنولوجيا","default":"كتب عملية"},
+    "id":{"trading":"trading dan pasar keuangan","ai":"kecerdasan buatan","business":"bisnis dan pemasaran","data":"machine learning dan data","finance":"keuangan pribadi dan ekonomi","psychology":"psikologi dan pengembangan diri","language":"pembelajaran bahasa","technology":"perangkat lunak dan teknologi","default":"buku praktis"},
+    "vi":{"trading":"giao dịch và thị trường tài chính","ai":"trí tuệ nhân tạo","business":"kinh doanh và tiếp thị","data":"học máy và dữ liệu","finance":"tài chính cá nhân và kinh tế","psychology":"tâm lý học và phát triển bản thân","language":"học ngôn ngữ","technology":"phần mềm và công nghệ","default":"sách thực hành"},
+    "th":{"trading":"การเทรดและตลาดการเงิน","ai":"ปัญญาประดิษฐ์","business":"ธุรกิจและการตลาด","data":"แมชชีนเลิร์นนิงและข้อมูล","finance":"การเงินส่วนบุคคลและเศรษฐศาสตร์","psychology":"จิตวิทยาและการพัฒนาตนเอง","language":"การเรียนภาษา","technology":"ซอฟต์แวร์และเทคโนโลยี","default":"หนังสือเชิงปฏิบัติ"},
+    "bn":{"trading":"ট্রেডিং ও আর্থিক বাজার","ai":"কৃত্রিম বুদ্ধিমত্তা","business":"ব্যবসা ও মার্কেটিং","data":"মেশিন লার্নিং ও ডেটা","finance":"ব্যক্তিগত অর্থ ও অর্থনীতি","psychology":"মনোবিজ্ঞান ও ব্যক্তিগত উন্নয়ন","language":"ভাষা শিক্ষা","technology":"সফটওয়্যার ও প্রযুক্তি","default":"ব্যবহারিক বই"},
+    "ro":{"trading":"trading și piețe financiare","ai":"inteligență artificială","business":"afaceri și marketing","data":"machine learning și date","finance":"finanțe personale și economie","psychology":"psihologie și dezvoltare personală","language":"învățarea limbilor","technology":"software și tehnologie","default":"cărți practice"},
+    "fil":{"trading":"trading at financial markets","ai":"artificial intelligence","business":"negosyo at marketing","data":"machine learning at data","finance":"personal finance at ekonomiya","psychology":"sikolohiya at personal growth","language":"pag-aaral ng wika","technology":"software at teknolohiya","default":"praktikal na aklat"}
+})
 
 SEO_START="<!-- semantic-seo:start -->"
 SEO_END="<!-- semantic-seo:end -->"
@@ -167,8 +178,17 @@ def search_text(book):
 
 def cluster_for(book):
     hay=search_text(book)
-    for cluster in CLUSTERS:
-        if any(term in hay for term in cluster["terms"]):return cluster
+    scored=[]
+    for priority,cluster in enumerate(CLUSTERS):
+        matched=[term for term in cluster["terms"] if term in hay]
+        if not matched:continue
+        # Prefer the cluster supported by the largest number of controlled terms.
+        # Longer phrase matches carry slightly more weight than generic one-word hits.
+        score=sum(2 if " " in term else 1 for term in matched)
+        scored.append((score,-priority,cluster))
+    if scored:
+        scored.sort(key=lambda row:(-row[0],-row[1]))
+        return scored[0][2]
     return {"slug":"other-books","label":"Other Books","description":"Additional books in the Faramarz Kowsari library that do not yet belong to a larger dedicated topic hub.","query_examples":["Faramarz Kowsari books","practical nonfiction books"],"terms":()}
 
 def broad_category(book):
@@ -219,6 +239,30 @@ def localized_queries(book,locale,entities):
     elif locale=="pt-BR":
         secondary=[f"{title} {book_word}",f"{book_word} sobre {category}",f"{guide_word} de {topic}",topic]
         long_tail=[f"como funciona {topic}",f"{guide_word} prático de {topic}",f"{title} Faramarz Kowsari"]
+    elif locale=="fa":
+        secondary=[f"{title} {book_word}",f"{book_word} {category}",f"{guide_word} {topic}",topic]
+        long_tail=[f"{topic} چیست",f"{guide_word} کاربردی {topic}",f"{title} فرامرز کوثری"]
+    elif locale=="ar":
+        secondary=[f"{title} {book_word}",f"{book_word} عن {category}",f"{guide_word} {topic}",topic]
+        long_tail=[f"ما هو {topic}",f"{guide_word} عملي عن {topic}",f"{title} Faramarz Kowsari"]
+    elif locale=="id":
+        secondary=[f"{title} {book_word}",f"{book_word} {category}",f"{guide_word} {topic}",topic]
+        long_tail=[f"cara kerja {topic}",f"{guide_word} praktis {topic}",f"{title} Faramarz Kowsari"]
+    elif locale=="vi":
+        secondary=[f"{title} {book_word}",f"{book_word} về {category}",f"{guide_word} {topic}",topic]
+        long_tail=[f"{topic} hoạt động như thế nào",f"{guide_word} thực hành {topic}",f"{title} Faramarz Kowsari"]
+    elif locale=="th":
+        secondary=[f"{title} {book_word}",f"{book_word} {category}",f"{guide_word} {topic}",topic]
+        long_tail=[f"{topic} ทำงานอย่างไร",f"{guide_word} {topic} แบบปฏิบัติ",f"{title} Faramarz Kowsari"]
+    elif locale=="bn":
+        secondary=[f"{title} {book_word}",f"{category} {book_word}",f"{topic} {guide_word}",topic]
+        long_tail=[f"{topic} কীভাবে কাজ করে",f"{topic} ব্যবহারিক {guide_word}",f"{title} Faramarz Kowsari"]
+    elif locale=="ro":
+        secondary=[f"{title} {book_word}",f"{book_word} despre {category}",f"{guide_word} {topic}",topic]
+        long_tail=[f"cum funcționează {topic}",f"{guide_word} practic pentru {topic}",f"{title} Faramarz Kowsari"]
+    elif locale=="fil":
+        secondary=[f"{title} {book_word}",f"{book_word} tungkol sa {category}",f"{guide_word} sa {topic}",topic]
+        long_tail=[f"paano gumagana ang {topic}",f"praktikal na {guide_word} sa {topic}",f"{title} Faramarz Kowsari"]
     else:
         secondary=[f"{title} {book_word}",f"{category} {book_word}",f"{topic} {guide_word}",topic]
         long_tail=[f"how {topic} works",f"practical {guide_word} to {topic}",f"{title} by Faramarz Kowsari"]
@@ -229,7 +273,7 @@ def build_profile(book):
     entities=base_entities(book);cluster=cluster_for(book)
     secondary=unique([f"{title} book",clean(book.get("subtitle")),clean(book.get("category"))]+entities[:10]+([f"{entities[0]} guide"] if entities else []))[:12]
     long_tail=unique([f"{title} by Faramarz Kowsari",f"practical guide to {entities[0]}" if entities else f"{title} practical guide",f"how {entities[0]} works" if entities else f"what is {title}",f"{entities[0]} {entities[1]}" if len(entities)>1 else ""])[:8]
-    localized={locale:localized_queries(book,locale,entities) for locale in ("en","tr","ru","de","es","fr","pt-BR")}
+    localized={locale:localized_queries(book,locale,entities) for locale in ("en","tr","ru","de","es","fr","pt-BR","fa","ar","id","vi","th","bn","ro","fil")}
     return {"primary_query":title,"secondary_queries":secondary,"long_tail_queries":long_tail,"entities":entities,"cluster":cluster["slug"],"cluster_label":cluster["label"],"localized":localized}
 
 def related_scores(books,profiles):
@@ -278,7 +322,7 @@ def page_locale(text):
     m=re.search(r'<html\b[^>]*\blang=["\']([^"\']+)',text,re.I);raw=(m.group(1) if m else "en").replace("_","-")
     if raw.lower()=="pt-br":return "pt-BR"
     base=raw.lower().split("-",1)[0]
-    return base if base in {"en","ru","tr","de","es","fr"} else "en"
+    return base if base in {"en","ru","tr","de","es","fr","fa","ar","id","vi","th","bn","ro","fil"} else "en"
 
 def canonical_from(text,fallback):
     m=re.search(r'<link\b[^>]*rel=["\']canonical["\'][^>]*href=["\']([^"\']+)["\']',text,re.I)
@@ -343,8 +387,9 @@ def has_breadcrumb_schema(text):
     return False
 
 def breadcrumb_schema(book,profile,locale,canonical):
-    title=clean(book.get("title"))
-    if locale=="en":
+    title=clean(book.get("title"));slug=clean(book.get("slug"))
+    root_url=f"{BOOKS_BASE}/{slug}/"
+    if canonical.rstrip("/")==root_url.rstrip("/"):
         hub=profile.get("cluster") or "other-books";hub_label=profile.get("cluster_label") or "Books by Topic"
         items=[{"@type":"ListItem","position":1,"name":"Books","item":f"{BOOKS_BASE}/"},{"@type":"ListItem","position":2,"name":hub_label,"item":f"{BOOKS_BASE}/topics/{hub}/"},{"@type":"ListItem","position":3,"name":title,"item":canonical}]
     else:
