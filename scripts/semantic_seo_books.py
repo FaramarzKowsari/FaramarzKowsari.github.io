@@ -372,6 +372,46 @@ def enrich_jsonld(text,book,profile,locale):
         return match.group(1)+json.dumps(payload,ensure_ascii=False,separators=(",",":"))+match.group(3)
     return SCRIPT_RE.sub(repl,text)
 
+def has_schema_type(text,wanted):
+    for m in SCRIPT_RE.finditer(text):
+        try:payload=json.loads(m.group(2).strip())
+        except json.JSONDecodeError:continue
+        stack=[payload]
+        while stack:
+            node=stack.pop()
+            if isinstance(node,dict):
+                t=node.get("@type")
+                if t==wanted or (isinstance(t,list) and wanted in t):return True
+                stack.extend(v for v in node.values() if isinstance(v,(dict,list)))
+            elif isinstance(node,list):stack.extend(node)
+    return False
+
+def source_language(book):
+    return clean(book.get("language_code")) or LANG_CODES.get(book.get("language"),"en")
+
+def standalone_book_schema(book,profile,locale,canonical):
+    local=(profile.get("localized") or {}).get(locale,(profile.get("localized") or {}).get("en",{}))
+    keywords=unique([local.get("primary_query")]+list(local.get("secondary_queries") or [])+list(local.get("long_tail_queries") or [])+list(profile.get("entities") or []))[:30]
+    root_url=f"{BOOKS_BASE}/{clean(book.get('slug'))}/"
+    payload={
+        "@context":"https://schema.org","@type":"Book","@id":root_url+"#book",
+        "name":clean(book.get("title")),"author":{"@type":"Person","name":AUTHOR,"url":f"{BOOKS_BASE}/author/"},
+        "publisher":{"@type":"Person","name":AUTHOR,"url":f"{BOOKS_BASE}/author/"},
+        "inLanguage":source_language(book),"description":clean(book.get("seo_description")) or clean(book.get("summary")),
+        "genre":clean(book.get("category")),"keywords":keywords,
+        "about":[{"@type":"Thing","name":x} for x in (profile.get("entities") or [])[:15]],
+        "url":root_url,"sameAs":clean(book.get("google_books_url")) or root_url,
+        "mainEntityOfPage":{"@type":"WebPage","@id":canonical},
+    }
+    if clean(book.get("subtitle")):payload["alternateName"]=clean(book.get("subtitle"))
+    if clean(book.get("cover_url")):payload["image"]=clean(book.get("cover_url"))
+    if clean(book.get("published_date")):payload["datePublished"]=clean(book.get("published_date"))
+    identifiers=[]
+    if clean(book.get("google_books_id")):identifiers.append({"@type":"PropertyValue","propertyID":"Google Books ID","value":clean(book.get("google_books_id"))})
+    if clean(book.get("doi")):identifiers.append({"@type":"PropertyValue","propertyID":"DOI","value":clean(book.get("doi"))})
+    if identifiers:payload["identifier"]=identifiers
+    return payload
+
 def has_breadcrumb_schema(text):
     for m in SCRIPT_RE.finditer(text):
         try:payload=json.loads(m.group(2).strip())
@@ -422,6 +462,9 @@ def patch_page(path,book,profile,books_by_slug):
     text=re.sub(re.escape(SEO_START)+r".*?"+re.escape(SEO_END)+r"\s*","",text,flags=re.S)
     if "</head>" in text:text=text.replace("</head>",semantic_head_block(book,profile,locale)+"\n</head>",1)
     text=enrich_jsonld(text,book,profile,locale)
+    if not has_schema_type(text,"Book") and "</head>" in text:
+        book_block='<script type="application/ld+json">'+json.dumps(standalone_book_schema(book,profile,locale,canonical),ensure_ascii=False,separators=(",",":"))+'</script>'
+        text=text.replace("</head>",book_block+"\n</head>",1)
     if not has_breadcrumb_schema(text) and "</head>" in text:
         block='<script type="application/ld+json">'+json.dumps(breadcrumb_schema(book,profile,locale,canonical),ensure_ascii=False,separators=(",",":"))+'</script>'
         text=text.replace("</head>",block+"\n</head>",1)
