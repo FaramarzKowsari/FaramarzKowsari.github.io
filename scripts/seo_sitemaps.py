@@ -147,6 +147,16 @@ for path in sorted(topics_root.glob("*/index.html")) if topics_root.exists() els
     topic_rows.append((SITE+f"books/topics/{slug}/",lastmod(f"books/topics/{slug}/index.html")))
 write_map(BOOKS/"sitemap-topics.xml",topic_rows)
 
+# Paginated cover-gallery pages provide a scalable visual discovery surface
+# while keeping every actual cover image on Google Books.
+cover_gallery_rows=[]
+covers_root=BOOKS/"covers"
+for path in sorted(covers_root.rglob("index.html")) if covers_root.exists() else []:
+    rel=path.parent.relative_to(ROOT).as_posix().strip("/")
+    url=SITE+rel+"/"
+    cover_gallery_rows.append((url,lastmod(path.relative_to(ROOT).as_posix())))
+write_map(BOOKS/"sitemap-cover-gallery.xml",cover_gallery_rows)
+
 rows=[(SITE,lastmod("index.html"))]
 for p in projects:
     if p.get("has_pages"):
@@ -154,6 +164,7 @@ for p in projects:
         rows.append((SITE+p.get("name","").strip('/')+"/",mod))
 rows.extend(book_rows)
 rows.extend(topic_rows)
+rows.extend(cover_gallery_rows)
 seen=set(); uniq=[]
 for row in rows:
     if row[0] not in seen:seen.add(row[0]);uniq.append(row)
@@ -171,6 +182,7 @@ sitemap_urls=[
     SITE+"books/sitemap.xml",
     SITE+"books/image-sitemap.xml",
     SITE+"books/sitemap-topics.xml",
+    SITE+"books/sitemap-cover-gallery.xml",
 ]
 for locale in LOCALIZED_SITEMAPS:
     filename=f"sitemap-{locale}.xml"
@@ -179,4 +191,4 @@ for locale in LOCALIZED_SITEMAPS:
 sitemap_urls.append(SITE+"turkiye-disaster-intelligence-digital-twin/sitemap.xml")
 write_sitemap_index(ROOT/"sitemap-index.xml",sitemap_urls)
 
-print(f"SEO sitemaps: {len(book_rows)} book URLs; {len(topic_rows)} topic-hub URLs; {len(image_rows)} image-page pairs across all languages; {len(uniq)} master URLs; {len(sitemap_urls)} maps in sitemap index.")
+print(f"SEO sitemaps: {len(book_rows)} book URLs; {len(topic_rows)} topic-hub URLs; {len(cover_gallery_rows)} cover-gallery URLs; {len(image_rows)} image-page pairs across all languages; {len(uniq)} master URLs; {len(sitemap_urls)} maps in sitemap index.")
