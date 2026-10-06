@@ -227,7 +227,6 @@ def render_book(book, meta):
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <title>{esc(title)} — Türkçe kitap tanıtımı | {AUTHOR}</title>
 <meta name="description" content="{esc(meta['seo_tr'])}">
-<meta name="keywords" content="{esc(keywords)}">
 <link rel="canonical" href="{esc(canonical)}">
 <link rel="alternate" hreflang="{esc(meta['source_lang'])}" href="{esc(original)}">
 <link rel="alternate" hreflang="tr" href="{esc(canonical)}">
