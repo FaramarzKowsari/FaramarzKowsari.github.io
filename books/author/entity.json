@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "entity_id": "faramarz-kowsari",
+  "person_id": "https://faramarzkowsari.github.io/#person",
+  "name": "Faramarz Kowsari",
+  "alternate_name": [
+    "فرامرز کوثری",
+    "FaramarzKowsari"
+  ],
+  "website": "https://faramarzkowsari.github.io/",
+  "author_page": "https://faramarzkowsari.github.io/books/author/",
+  "image": "https://faramarzkowsari.github.io/books/images/faramarz-kowsari-author.jpg",
+  "location": "Istanbul",
+  "bio": "Faramarz Kowsari is an author, researcher based in Istanbul. Focusing on the intersection of technology, education, and personal growth, he has published over 80 digital titles on international platforms. His areas of expertise span Artificial Intelligence, prompt engineering, modern trading strategies (Smart Money Concepts & algorithmic trading), as well as classical literature and mindfulness. In addition to writing, he develops web-based educational tools and creates specialized instructional video content.",
+  "short_description": "Faramarz Kowsari is an Istanbul-based author and researcher working across artificial intelligence, prompt engineering, modern trading, classical literature, mindfulness and educational technology.",
+  "job_titles": [
+    "Author",
+    "Researcher",
+    "Software Engineer",
+    "AI Researcher"
+  ],
+  "knows_about": [
+    "Artificial Intelligence",
+    "Prompt Engineering",
+    "Data Science",
+    "Software Engineering",
+    "Smart Money Concepts",
+    "Algorithmic Trading",
+    "Trading and Market Structure",
+    "Classical Literature",
+    "Mindfulness",
+    "Educational Technology"
+  ],
+  "orcid": "0000-0003-1692-0453",
+  "profiles": {
+    "official_website": "https://faramarzkowsari.github.io/",
+    "google_play_books": "https://play.google.com/store/search?q=Faramarz%20Kowsari&c=books",
+    "google_scholar": "https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en",
+    "github": "https://github.com/FaramarzKowsari",
+    "linkedin": "https://www.linkedin.com/in/faramarzkowsari",
+    "orcid": "https://orcid.org/0000-0003-1692-0453",
+    "instagram": "https://www.instagram.com/faramarzkowsari/",
+    "zenodo": "https://zenodo.org/search?q=creators.orcid%3A%220000-0003-1692-0453%22&l=list&p=1&s=10&sort=bestmatch"
+  },
+  "same_as": [
+    "https://scholar.google.com/citations?user=G7tP5WMAAAAJ&hl=en",
+    "https://github.com/FaramarzKowsari",
+    "https://www.linkedin.com/in/faramarzkowsari",
+    "https://orcid.org/0000-0003-1692-0453",
+    "https://www.instagram.com/faramarzkowsari/",
+    "https://zenodo.org/search?q=creators.orcid%3A%220000-0003-1692-0453%22&l=list&p=1&s=10&sort=bestmatch"
+  ]
+}
