@@ -17,6 +17,9 @@ on:
       - "books/images/faramarz-kowsari-author.jpg"
       - "scripts/merge_catalog_additions.py"
       - "scripts/semantic_seo_books.py"
+      - "scripts/resolve_google_books_covers.py"
+      - "scripts/apply_google_books_covers.py"
+      - "scripts/build_google_books_cover_gallery.py"
       - "scripts/seo_quality_gate.py"
       - "scripts/author_entity_layer.py"
       - "scripts/apply_library_source_enrichment.py"
@@ -64,6 +67,7 @@ jobs:
       - name: Build SEO book pages, public copy, accessibility, AI discovery, author entity and localized landing pages
         run: |
           python scripts/merge_catalog_additions.py
+          python scripts/resolve_google_books_covers.py
           python scripts/build_books.py
           python scripts/semantic_seo_books.py prepare
           python scripts/seo_books.py
@@ -82,9 +86,11 @@ jobs:
           python scripts/semantic_seo_books.py apply
           python scripts/add_pinterest_infographics.py
           python scripts/add_ielts_sos_visual_companion.py
+          python scripts/apply_google_books_covers.py
           python scripts/image_seo_books.py
           python scripts/enforce_google_books_alt.py
           python scripts/author_entity_layer.py
+          python scripts/build_google_books_cover_gallery.py
           python scripts/seo_sitemaps.py
           python scripts/seo_quality_gate.py
 
