@@ -13,9 +13,12 @@ on:
       - "books/library-source-enriched*.json"
       - "books/localizations/**"
       - "books/pinterest-infographics.json"
+      - "books/author/entity.json"
+      - "books/images/faramarz-kowsari-author.jpg"
       - "scripts/merge_catalog_additions.py"
       - "scripts/semantic_seo_books.py"
       - "scripts/seo_quality_gate.py"
+      - "scripts/author_entity_layer.py"
       - "scripts/apply_library_source_enrichment.py"
       - "scripts/build_books.py"
       - "scripts/seo_books.py"
@@ -58,7 +61,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Build SEO book pages, public copy, accessibility, AI discovery and localized landing pages
+      - name: Build SEO book pages, public copy, accessibility, AI discovery, author entity and localized landing pages
         run: |
           python scripts/merge_catalog_additions.py
           python scripts/build_books.py
@@ -81,6 +84,7 @@ jobs:
           python scripts/add_ielts_sos_visual_companion.py
           python scripts/image_seo_books.py
           python scripts/enforce_google_books_alt.py
+          python scripts/author_entity_layer.py
           python scripts/seo_sitemaps.py
           python scripts/seo_quality_gate.py
 
@@ -99,7 +103,7 @@ jobs:
             echo "No generated changes."
             exit 0
           fi
-          git commit -m "build: publish SEO, accessible, AI-discoverable and localized book pages"
+          git commit -m "build: publish SEO, entity-linked, accessible and localized book pages"
 
           for attempt in 1 2 3 4; do
             git fetch origin main
