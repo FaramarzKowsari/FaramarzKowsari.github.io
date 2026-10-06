@@ -128,7 +128,6 @@ def make_author_ref(entity: dict) -> dict:
         "@type": "Person",
         "@id": entity["person_id"],
         "name": entity["name"],
-        "alternateName": entity.get("alternate_name", []),
         "url": entity["author_page"],
         "image": entity["image"],
     }
@@ -229,8 +228,6 @@ def ensure_visible_byline(text: str, entity: dict) -> str:
     lang = page_language(text)
     label = BYLINE_LABELS.get(lang, BYLINE_LABELS.get(lang.split("-", 1)[0], "By"))
     display_name = entity["name"]
-    if lang.startswith("fa"):
-        display_name += " (فرامرز کوثری)"
     block = (
         f"\n{VISIBLE_START}\n"
         f'<p class="meta author-byline">{html.escape(label)} '
@@ -284,14 +281,6 @@ def patch_author_page(entity: dict) -> bool:
     )
 
     text = remove_marked(text, ALTNAME_START, ALTNAME_END)
-    alt_block = (
-        f"\n{ALTNAME_START}\n"
-        '<p class="meta author-alt-name" lang="fa" dir="rtl">فرامرز کوثری</p>\n'
-        f"{ALTNAME_END}\n"
-    )
-    h1 = re.search(r"<h1\b[^>]*>\s*Faramarz Kowsari\s*</h1>", text, flags=re.I)
-    if h1:
-        text = text[: h1.end()] + alt_block + text[h1.end() :]
 
     if text != original:
         AUTHOR_PAGE_FILE.write_text(text, encoding="utf-8")
@@ -354,8 +343,8 @@ def validate_entity(entity: dict) -> None:
         raise SystemExit("Author entity person_id must remain the canonical site-wide #person ID")
     if entity["name"] != "Faramarz Kowsari":
         raise SystemExit("Author entity canonical name changed unexpectedly")
-    if "فرامرز کوثری" not in entity.get("alternate_name", []):
-        raise SystemExit("Author entity must preserve the Persian alternate name")
+    if "فرامرز کوثری" in entity.get("alternate_name", []):
+        raise SystemExit("Persian author alias must not be exposed by the books Author Entity Layer")
 
 
 def main() -> None:
