@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="author" content="Faramarz Kowsari">
+<title>Gamma Exposure Trading | Faramarz Kowsari</title>
+<meta name="description" content="A practical guide to GEX, dealer-positioning models, Gamma Flip, Call and Put Walls, 0DTE dynamics, VWAP confluence, intraday setups, risk and backtesting.">
+<link rel="canonical" href="https://faramarzkowsari.github.io/books/gamma-exposure-trading/">
+<link rel="sitemap" type="application/xml" href="../sitemap.xml">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Faramarz Kowsari Books">
+<meta property="og:title" content="Gamma Exposure Trading">
+<meta property="og:description" content="A practical guide to GEX, dealer-positioning models, Gamma Flip, Call and Put Walls, 0DTE dynamics, VWAP confluence, intraday setups, risk and backtesting.">
+<meta property="og:url" content="https://faramarzkowsari.github.io/books/gamma-exposure-trading/">
+<meta property="og:image" content="https://books.google.com/books/content?id=7l4WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<meta property="og:image:alt" content="Book cover of Gamma Exposure Trading by Faramarz Kowsari">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gamma Exposure Trading">
+<meta name="twitter:description" content="A practical guide to GEX, dealer-positioning models, Gamma Flip, Call and Put Walls, 0DTE dynamics, VWAP confluence, intraday setups, risk and backtesting.">
+<meta name="twitter:image" content="https://books.google.com/books/content?id=7l4WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"Gamma Exposure Trading","author":{"@type":"Person","@id":"https://faramarzkowsari.github.io/#person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/"},"inLanguage":"en","description":"A practical guide to GEX, dealer-positioning models, Gamma Flip, Call and Put Walls, 0DTE dynamics, VWAP confluence, intraday setups, risk and backtesting.","url":"https://faramarzkowsari.github.io/books/gamma-exposure-trading/","sameAs":"https://play.google.com/store/books/details?id=7l4WEgAAQBAJ","alternateName":"GEX, Dealer Positioning, Gamma Flip, Call Walls, Put Walls, 0DTE Options, and Intraday Market Structure","image":{"@type":"ImageObject","@id":"https://faramarzkowsari.github.io/books/gamma-exposure-trading/#primaryimage","contentUrl":"https://books.google.com/books/content?id=7l4WEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","url":"https://books.google.com/books/content?id=7l4WEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","name":"Book cover of Gamma Exposure Trading by Faramarz Kowsari","caption":"Gamma Exposure Trading — book cover, by Faramarz Kowsari","representativeOfPage":true},"datePublished":"2026","about":["Gamma Exposure (GEX)","Delta and Gamma","Dealer positioning models","Observed data versus inferred positioning","Open interest limitations","Static versus intraday GEX","Vendor methodology and sign conventions","Dealer hedging","Positive Gamma regime","Negative Gamma regime","Gamma Flip / Zero Gamma","GEX profile","Call Walls","Put Walls","High-Gamma nodes","Low-Gamma regions","Gamma gradients","0DTE options","Expiration and OPEX","Vanna"],"audience":{"@type":"Audience","audienceType":"For index, ETF, futures and options traders who want to understand how option-derived Gamma context may interact with intraday market structure. It is particularly suited to traders using SPX/SPY/ES or NDX/QQQ/NQ-style workflows, including futures traders who do not directly trade options but want to use GEX, 0DTE positioning, VWAP and live price behavior as a conditional market-context framework rather than a deterministic signal."},"@id":"https://faramarzkowsari.github.io/books/gamma-exposure-trading/#book","mainEntityOfPage":{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/books/gamma-exposure-trading/","primaryImageOfPage":{"@id":"https://faramarzkowsari.github.io/books/gamma-exposure-trading/#primaryimage"}},"isPartOf":{"@type":"CollectionPage","@id":"https://faramarzkowsari.github.io/books/#collection","name":"Books by Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/"},"keywords":["Gamma Exposure (GEX)","Delta and Gamma","Dealer positioning models","Observed data versus inferred positioning","Open interest limitations","Static versus intraday GEX","Vendor methodology and sign conventions","Dealer hedging","Positive Gamma regime","Negative Gamma regime","Gamma Flip / Zero Gamma","GEX profile","Call Walls","Put Walls","High-Gamma nodes","Low-Gamma regions","Gamma gradients","0DTE options","Expiration and OPEX","Vanna","Charm","Pre-market Gamma map","Expected Move","Opening decision tree","Market structure and order flow","VWAP and Volume Profile confluence","Positive-Gamma rotation setup","Negative-Gamma expansion setup","Gamma Flip reclaim setup","Wall break and repricing setup"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Books", "item": "https://faramarzkowsari.github.io/books/"}, {"@type": "ListItem", "position": 3, "name": "Gamma Exposure Trading", "item": "https://faramarzkowsari.github.io/books/gamma-exposure-trading/"}]}</script>
+
+<!-- ai-visibility:start -->
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms.txt" title="LLM-readable site index">
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms-full.txt" title="Expanded LLM-readable books index">
+<link rel="alternate" type="application/json" href="https://faramarzkowsari.github.io/books/catalog.json" title="Machine-readable books catalog">
+<link rel="author" href="https://faramarzkowsari.github.io/books/author/" title="Faramarz Kowsari author profile">
+<!-- ai-visibility:end -->
+<!-- multilingual-localizations:start -->
+<link rel="alternate" hreflang="en" href="https://faramarzkowsari.github.io/books/gamma-exposure-trading/">
+<link rel="alternate" hreflang="ru" href="https://faramarzkowsari.github.io/books/gamma-exposure-trading/ru/">
+<link rel="alternate" hreflang="tr" href="https://faramarzkowsari.github.io/books/gamma-exposure-trading/tr/">
+<link rel="alternate" hreflang="de" href="https://faramarzkowsari.github.io/books/gamma-exposure-trading/de/">
+<link rel="alternate" hreflang="es" href="https://faramarzkowsari.github.io/books/gamma-exposure-trading/es/">
+<link rel="alternate" hreflang="fr" href="https://faramarzkowsari.github.io/books/gamma-exposure-trading/fr/">
+<link rel="alternate" hreflang="pt-BR" href="https://faramarzkowsari.github.io/books/gamma-exposure-trading/pt-br/">
+<link rel="alternate" hreflang="x-default" href="https://faramarzkowsari.github.io/books/gamma-exposure-trading/">
+<!-- multilingual-localizations:end -->
+<meta name="twitter:image:alt" content="Book cover of Gamma Exposure Trading by Faramarz Kowsari">
+</head>
+<body>
+<main class="book-page">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>›</span><a href="../">Books</a><span>›</span><span aria-current="page">Gamma Exposure Trading</span></nav>
+<!-- author-tab:start -->
+<nav class="book-tabs" aria-label="Book navigation">
+  <a class="book-tab author-tab" href="../author/">About the Author: Faramarz Kowsari</a>
+</nav>
+<!-- author-tab:end -->
+
+  <p><a href="../">← All books</a></p>
+  <section class="book-top">
+    <img src="https://books.google.com/books/content?id=7l4WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api" alt="Book cover of Gamma Exposure Trading by Faramarz Kowsari" loading="eager" decoding="async" itemprop="image" title="Gamma Exposure Trading — book cover, by Faramarz Kowsari">
+    <div>
+      <h1>Gamma Exposure Trading</h1>
+      <p class="subtitle">GEX, Dealer Positioning, Gamma Flip, Call Walls, Put Walls, 0DTE Options, and Intraday Market Structure</p>
+      <p class="meta">Faramarz Kowsari · English · Trading · 2026</p>
+      <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a></div>
+    </div>
+  </section>
+<!-- google-books-preview:start -->
+<section class="section google-books-preview" aria-label="Google Books preview">
+  <div class="preview-icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><rect x="3" y="3" width="42" height="42" rx="12" fill="currentColor" opacity=".08"/><path d="M10.5 14.5c4.8-1.8 9-1.3 13.5 1.4v20.8c-4.5-2.7-8.7-3.2-13.5-1.4V14.5Zm27 0c-4.8-1.8-9-1.3-13.5 1.4v20.8c4.5-2.7 8.7-3.2 13.5-1.4V14.5Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="32" cy="26.5" r="5.2" fill="white" stroke="currentColor" stroke-width="2"/><path d="m35.8 30.3 4.2 4.2" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></div>
+  <p class="preview-title">Free Google Books Preview</p>
+  <p class="preview-note">Read a free sample of this book on Google Books before you buy.</p>
+  <div class="actions"><a class="action" href="https://play.google.com/books/reader?id=7l4WEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Read the free preview on Google Books</a></div>
+</section>
+<!-- google-books-preview:end -->
+
+
+  <section class="section"><h2>About this book</h2>
+    <p>Gamma Exposure Trading explains the options-market layer that can influence intraday behavior in indexes, ETFs and futures without presenting GEX as a crystal ball. It starts with the minimum options knowledge needed to understand Delta, Gamma and position-scaled Gamma Exposure, then separates observed option-chain data from inferred dealer positioning. Open interest, static versus intraday estimates, vendor methodology and sign conventions are treated as model inputs with limitations rather than direct observations of every dealer book. The central discipline is conditional: build a map, wait for price to reach a relevant area, then let live market behavior confirm or reject the hypothesis.</p>
+    <p>The book develops the practical meaning of positive and negative Gamma regimes, Gamma Flip or Zero Gamma, Call Walls, Put Walls, high-Gamma nodes, low-Gamma regions and exposure gradients. It explains why 0DTE activity, expiration, OPEX, Vanna and Charm can change the map, and why a morning snapshot can become stale as short-dated positioning migrates intraday. A 15-minute pre-market routine combines spot location, the modeled regime, flip, nearby option-derived zones, overnight structure and Expected Move. During the open, those references are tested against acceptance, rejection, market structure, order flow, VWAP and Volume Profile so that the live auction remains more important than the model.</p>
+    <p>Execution chapters turn the framework into four conditional setups: positive-Gamma rotation, negative-Gamma expansion, Gamma Flip reclaim, and wall break with repricing. Targets, invalidation and position sizing are tied to environment and market velocity rather than dashboard color. The research sections address failure modes, confirmation bias, stale maps, GEX journaling, backtesting and comparison between data providers, followed by case studies including compression, expansion, regime transition, 0DTE wall migration and situations where the tape directly disagrees with the GEX map. Formula guidance, a practical glossary, daily worksheet, decision tree and visual review material complete a process designed to make Gamma context testable, revisable and subordinate to observed price behavior.</p>
+  </section>
+
+  <section class="section"><h2>What you will learn</h2><ul>
+      <li>Understand Delta, Gamma and the basic construction of Gamma Exposure without assuming there is one universal retail GEX formula.</li>
+      <li>Separate observable option-market data from model-dependent assumptions about dealer positioning and hedging.</li>
+      <li>Interpret positive and negative Gamma as regime hypotheses rather than bullish or bearish directional calls.</li>
+      <li>Use Gamma Flip, Call Walls, Put Walls, nodes and gradients as decision zones whose relevance must be tested by live price behavior.</li>
+      <li>Recognize why open interest, vendor methodology, expiration and intraday positioning changes can make a Gamma map incomplete or stale.</li>
+      <li>Understand how 0DTE options can accelerate intraday changes in exposure and why wall migration may require refreshing the map.</li>
+      <li>Build a concise pre-market Gamma routine using spot, regime, flip, nearby nodes, overnight structure and Expected Move.</li>
+      <li>Use the opening auction to classify rotation, expansion or transition before turning a pre-market GEX hypothesis into an entry.</li>
+      <li>Combine Gamma context with market structure, order flow, VWAP and Volume Profile without manufacturing false confluence.</li>
+      <li>Apply conditional positive-Gamma rotation, negative-Gamma expansion, Gamma Flip reclaim and wall-break frameworks with explicit invalidation.</li>
+      <li>Size positions from account risk, structural stop distance, instrument value and market velocity instead of confidence in a Gamma dashboard.</li>
+      <li>Journal, backtest and compare GEX methodologies while giving live market evidence priority whenever the tape disagrees with the model.</li>
+    </ul></section>
+
+  <section class="section"><h2>Key topics</h2><ul>
+      <li>Gamma Exposure (GEX)</li>
+      <li>Delta and Gamma</li>
+      <li>Dealer positioning models</li>
+      <li>Observed data versus inferred positioning</li>
+      <li>Open interest limitations</li>
+      <li>Static versus intraday GEX</li>
+      <li>Vendor methodology and sign conventions</li>
+      <li>Dealer hedging</li>
+      <li>Positive Gamma regime</li>
+      <li>Negative Gamma regime</li>
+      <li>Gamma Flip / Zero Gamma</li>
+      <li>GEX profile</li>
+      <li>Call Walls</li>
+      <li>Put Walls</li>
+      <li>High-Gamma nodes</li>
+      <li>Low-Gamma regions</li>
+      <li>Gamma gradients</li>
+      <li>0DTE options</li>
+      <li>Expiration and OPEX</li>
+      <li>Vanna</li>
+      <li>Charm</li>
+      <li>Pre-market Gamma map</li>
+      <li>Expected Move</li>
+      <li>Opening decision tree</li>
+      <li>Market structure and order flow</li>
+      <li>VWAP and Volume Profile confluence</li>
+      <li>Positive-Gamma rotation setup</li>
+      <li>Negative-Gamma expansion setup</li>
+      <li>Gamma Flip reclaim setup</li>
+      <li>Wall break and repricing setup</li>
+      <li>Target selection</li>
+      <li>Invalidation</li>
+      <li>Position sizing by environment</li>
+      <li>Stale Gamma maps</li>
+      <li>Confirmation bias and storytelling risk</li>
+      <li>GEX trading journal</li>
+      <li>Backtesting Gamma levels</li>
+      <li>Comparing GEX providers</li>
+      <li>Positive-Gamma compression case study</li>
+      <li>Negative-Gamma expansion case study</li>
+      <li>Gamma Flip transition case study</li>
+      <li>0DTE wall migration</li>
+      <li>When tape disagrees with GEX</li>
+      <li>GEX formula conventions</li>
+      <li>Daily Gamma worksheet</li>
+      <li>Daily decision tree</li>
+    </ul></section>
+
+  <section class="section"><h2>Who this book is for</h2><p>For index, ETF, futures and options traders who want to understand how option-derived Gamma context may interact with intraday market structure. It is particularly suited to traders using SPX/SPY/ES or NDX/QQQ/NQ-style workflows, including futures traders who do not directly trade options but want to use GEX, 0DTE positioning, VWAP and live price behavior as a conditional market-context framework rather than a deterministic signal.</p></section>
+
+  <section class="section"><h2>Related books</h2><ul>
+      <li><a href="../dom-trading/">DOM Trading</a></li>
+      <li><a href="../vwap-trading/">VWAP Trading</a></li>
+      <li><a href="../the-first-hour-dealing-range/">The First Hour Dealing Range</a></li>
+    </ul></section>
+
+  <section class="section"><div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer">Read / Buy on Google Books</a><a class="action" href="../">Browse all books</a></div></section>
+
+<!-- topic-index-link:start -->
+<section class="section topic-index-cta" aria-label="Books by topic">
+  <div class="topic-index-icon" aria-hidden="true">
+    <svg viewBox="0 0 48 48" focusable="false"><path d="M8 10.5h13.5c4 0 7 2 7 5.5v22c0-3.5-3-5.5-7-5.5H8v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M40 10.5H26.5c-4 0-7 2-7 5.5v22c0-3.5 3-5.5 7-5.5H40v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 17h8M14 22h8M32 17h3M32 22h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </div>
+  <div>
+    <h2>Browse Books by Topic</h2>
+    <p>Explore the library by subject and find related books faster.</p>
+    <div class="actions"><a class="action primary" href="../topics/">Explore the Topic Index</a></div>
+  </div>
+</section>
+<!-- topic-index-link:end -->
+</main>
+</body>
+</html>

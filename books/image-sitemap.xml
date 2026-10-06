@@ -1928,6 +1928,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://faramarzkowsari.github.io/books/dom-trading/</loc>
+    <image:image>
+      <image:loc>https://books.google.com/books/content?id=IF8WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://faramarzkowsari.github.io/books/dom-trading/de/</loc>
     <image:image>
       <image:loc>https://books.google.com/books/content?id=IF8WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
@@ -1947,6 +1953,18 @@
   </url>
   <url>
     <loc>https://faramarzkowsari.github.io/books/dom-trading/pt-br/</loc>
+    <image:image>
+      <image:loc>https://books.google.com/books/content?id=IF8WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/books/dom-trading/ru/</loc>
+    <image:image>
+      <image:loc>https://books.google.com/books/content?id=IF8WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/books/dom-trading/tr/</loc>
     <image:image>
       <image:loc>https://books.google.com/books/content?id=IF8WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
     </image:image>
@@ -2462,6 +2480,12 @@
     </image:image>
   </url>
   <url>
+    <loc>https://faramarzkowsari.github.io/books/gamma-exposure-trading/</loc>
+    <image:image>
+      <image:loc>https://books.google.com/books/content?id=7l4WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://faramarzkowsari.github.io/books/gamma-exposure-trading/de/</loc>
     <image:image>
       <image:loc>https://books.google.com/books/content?id=7l4WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
@@ -2481,6 +2505,18 @@
   </url>
   <url>
     <loc>https://faramarzkowsari.github.io/books/gamma-exposure-trading/pt-br/</loc>
+    <image:image>
+      <image:loc>https://books.google.com/books/content?id=7l4WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/books/gamma-exposure-trading/ru/</loc>
+    <image:image>
+      <image:loc>https://books.google.com/books/content?id=7l4WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/books/gamma-exposure-trading/tr/</loc>
     <image:image>
       <image:loc>https://books.google.com/books/content?id=7l4WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api</image:loc>
     </image:image>

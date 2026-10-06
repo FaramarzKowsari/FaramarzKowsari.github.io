@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="author" content="Faramarz Kowsari">
+<title>DOM Trading | Faramarz Kowsari</title>
+<meta name="description" content="A practical guide to Depth of Market, order-book liquidity, absorption, queue mechanics, spoofing awareness, execution, slippage, risk and replay-based DOM practice.">
+<link rel="canonical" href="https://faramarzkowsari.github.io/books/dom-trading/">
+<link rel="sitemap" type="application/xml" href="../sitemap.xml">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Faramarz Kowsari Books">
+<meta property="og:title" content="DOM Trading">
+<meta property="og:description" content="A practical guide to Depth of Market, order-book liquidity, absorption, queue mechanics, spoofing awareness, execution, slippage, risk and replay-based DOM practice.">
+<meta property="og:url" content="https://faramarzkowsari.github.io/books/dom-trading/">
+<meta property="og:image" content="https://books.google.com/books/content?id=IF8WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<meta property="og:image:alt" content="Book cover of DOM Trading by Faramarz Kowsari">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DOM Trading">
+<meta name="twitter:description" content="A practical guide to Depth of Market, order-book liquidity, absorption, queue mechanics, spoofing awareness, execution, slippage, risk and replay-based DOM practice.">
+<meta name="twitter:image" content="https://books.google.com/books/content?id=IF8WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"DOM Trading","author":{"@type":"Person","@id":"https://faramarzkowsari.github.io/#person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/"},"inLanguage":"en","description":"A practical guide to Depth of Market, order-book liquidity, absorption, queue mechanics, spoofing awareness, execution, slippage, risk and replay-based DOM practice.","url":"https://faramarzkowsari.github.io/books/dom-trading/","sameAs":"https://play.google.com/store/books/details?id=IF8WEgAAQBAJ","alternateName":"Depth of Market, Order Book Liquidity, Absorption, Spoofing Awareness, and Execution","image":{"@type":"ImageObject","@id":"https://faramarzkowsari.github.io/books/dom-trading/#primaryimage","contentUrl":"https://books.google.com/books/content?id=IF8WEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","url":"https://books.google.com/books/content?id=IF8WEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","name":"Book cover of DOM Trading by Faramarz Kowsari","caption":"DOM Trading — book cover, by Faramarz Kowsari","representativeOfPage":true},"datePublished":"2026","about":["Depth of Market (DOM)","Order book and electronic auction","Bid, ask, spread and tick size","Resting liquidity","Passive and aggressive orders","Executed volume","DOM versus footprint","Queue position and price-time priority","Partial fills and missed-trade risk","Pulling and stacking","Liquidity persistence and migration","Aggression and auction pace","Effort versus price response","Absorption","Exhaustion versus absorption","Reloading and reserve orders","Iceberg behavior","Spoofing awareness","Layering awareness","Liquidity walls and wall failure"],"audience":{"@type":"Audience","audienceType":"For intraday traders, futures and order-flow traders, discretionary market participants, and readers who want to use Depth of Market as a disciplined observation and execution tool. It is especially useful for traders who can see the ladder moving but want a structured way to distinguish liquidity, execution, absorption, queue effects, false reads and real-time risk without treating DOM activity as a guaranteed signal."},"@id":"https://faramarzkowsari.github.io/books/dom-trading/#book","mainEntityOfPage":{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/books/dom-trading/","primaryImageOfPage":{"@id":"https://faramarzkowsari.github.io/books/dom-trading/#primaryimage"}},"isPartOf":{"@type":"CollectionPage","@id":"https://faramarzkowsari.github.io/books/#collection","name":"Books by Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/"},"keywords":["Depth of Market (DOM)","Order book and electronic auction","Bid, ask, spread and tick size","Resting liquidity","Passive and aggressive orders","Executed volume","DOM versus footprint","Queue position and price-time priority","Partial fills and missed-trade risk","Pulling and stacking","Liquidity persistence and migration","Aggression and auction pace","Effort versus price response","Absorption","Exhaustion versus absorption","Reloading and reserve orders","Iceberg behavior","Spoofing awareness","Layering awareness","Liquidity walls and wall failure","Session and overnight extremes","Opening range and value references","Sweeps and failed continuation","Trapped participation","Session structure and market regime","Cross-market confirmation and divergence","Futures, equities, crypto and FX market-structure differences","Market versus limit execution","Exit execution","Spread cost"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"}, {"@type": "ListItem", "position": 2, "name": "Books", "item": "https://faramarzkowsari.github.io/books/"}, {"@type": "ListItem", "position": 3, "name": "DOM Trading", "item": "https://faramarzkowsari.github.io/books/dom-trading/"}]}</script>
+
+<!-- ai-visibility:start -->
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms.txt" title="LLM-readable site index">
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms-full.txt" title="Expanded LLM-readable books index">
+<link rel="alternate" type="application/json" href="https://faramarzkowsari.github.io/books/catalog.json" title="Machine-readable books catalog">
+<link rel="author" href="https://faramarzkowsari.github.io/books/author/" title="Faramarz Kowsari author profile">
+<!-- ai-visibility:end -->
+<!-- multilingual-localizations:start -->
+<link rel="alternate" hreflang="en" href="https://faramarzkowsari.github.io/books/dom-trading/">
+<link rel="alternate" hreflang="ru" href="https://faramarzkowsari.github.io/books/dom-trading/ru/">
+<link rel="alternate" hreflang="tr" href="https://faramarzkowsari.github.io/books/dom-trading/tr/">
+<link rel="alternate" hreflang="de" href="https://faramarzkowsari.github.io/books/dom-trading/de/">
+<link rel="alternate" hreflang="es" href="https://faramarzkowsari.github.io/books/dom-trading/es/">
+<link rel="alternate" hreflang="fr" href="https://faramarzkowsari.github.io/books/dom-trading/fr/">
+<link rel="alternate" hreflang="pt-BR" href="https://faramarzkowsari.github.io/books/dom-trading/pt-br/">
+<link rel="alternate" hreflang="x-default" href="https://faramarzkowsari.github.io/books/dom-trading/">
+<!-- multilingual-localizations:end -->
+<meta name="twitter:image:alt" content="Book cover of DOM Trading by Faramarz Kowsari">
+</head>
+<body>
+<main class="book-page">
+  <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>›</span><a href="../">Books</a><span>›</span><span aria-current="page">DOM Trading</span></nav>
+<!-- author-tab:start -->
+<nav class="book-tabs" aria-label="Book navigation">
+  <a class="book-tab author-tab" href="../author/">About the Author: Faramarz Kowsari</a>
+</nav>
+<!-- author-tab:end -->
+
+  <p><a href="../">← All books</a></p>
+  <section class="book-top">
+    <img src="https://books.google.com/books/content?id=IF8WEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api" alt="Book cover of DOM Trading by Faramarz Kowsari" loading="eager" decoding="async" itemprop="image" title="DOM Trading — book cover, by Faramarz Kowsari">
+    <div>
+      <h1>DOM Trading</h1>
+      <p class="subtitle">Depth of Market, Order Book Liquidity, Absorption, Spoofing Awareness, and Execution</p>
+      <p class="meta">Faramarz Kowsari · English · Trading · 2026</p>
+      <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=IF8WEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a></div>
+    </div>
+  </section>
+<!-- google-books-preview:start -->
+<section class="section google-books-preview" aria-label="Google Books preview">
+  <div class="preview-icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><rect x="3" y="3" width="42" height="42" rx="12" fill="currentColor" opacity=".08"/><path d="M10.5 14.5c4.8-1.8 9-1.3 13.5 1.4v20.8c-4.5-2.7-8.7-3.2-13.5-1.4V14.5Zm27 0c-4.8-1.8-9-1.3-13.5 1.4v20.8c4.5-2.7 8.7-3.2 13.5-1.4V14.5Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="32" cy="26.5" r="5.2" fill="white" stroke="currentColor" stroke-width="2"/><path d="m35.8 30.3 4.2 4.2" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></div>
+  <p class="preview-title">Free Google Books Preview</p>
+  <p class="preview-note">Read a free sample of this book on Google Books before you buy.</p>
+  <div class="actions"><a class="action" href="https://play.google.com/books/reader?id=IF8WEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Read the free preview on Google Books</a></div>
+</section>
+<!-- google-books-preview:end -->
+
+
+  <section class="section"><h2>About this book</h2>
+    <p>DOM Trading treats Depth of Market as a real-time view into part of the electronic auction, not as a prediction machine. The book begins by separating completed price bars from the live mechanics that produce them: resting bids and offers, passive versus aggressive participation, executed volume, spreads, tick size, queue priority, partial fills and the limits of what a single venue or data feed can reveal. The reader is taught to describe what is actually visible before assigning a bullish or bearish story, and to accept uncertainty when the order book does not support a confident conclusion.</p>
+    <p>The middle of the book develops a disciplined vocabulary for reading liquidity behavior. It covers thick and thin books, persistence, pulling, stacking and liquidity migration; aggression and pace; absorption versus exhaustion; reloading, reserve orders and iceberg behavior; spoofing awareness without making unsupported accusations; liquidity walls and their failure; sweeps, failed continuation and trapped participation; session structure, market regime and cross-market confirmation. A repeated principle is that displayed size is not identity or intent, cancellation alone proves little, and the reaction to actual execution matters more than a dramatic-looking snapshot.</p>
+    <p>The final sections connect observation to execution and deliberate practice. Market versus limit entries, queue risk, passive versus aggressive exits, spread, slippage, fill quality, structural invalidation, position sizing and event risk are integrated into a practical DOM reading sequence. Scenario chapters examine absorption at extremes, failed breaks, liquidity vacuums and breakout acceptance or rejection without turning them into guaranteed signals. The book closes with material on HFT-related noise, latency and feed differences, replay, tick drills, event tagging, blind-pause review, multi-stage case studies, observation and execution checklists, a structured practice protocol and a DOM trading journal so the reader can train perception separately from trading outcome.</p>
+  </section>
+
+  <section class="section"><h2>What you will learn</h2><ul>
+      <li>Understand what a DOM ladder shows, and distinguish resting orders from completed transactions.</li>
+      <li>Read bids, offers, spread, tick size, executed volume and queue mechanics without treating the display as a directional forecast.</li>
+      <li>Separate passive liquidity from aggressive execution and compare effort with actual price response.</li>
+      <li>Evaluate pulling, stacking, persistence and liquidity migration as sequences rather than isolated snapshots.</li>
+      <li>Distinguish absorption from exhaustion and interpret reloading or reserve-order behavior with appropriate uncertainty.</li>
+      <li>Recognize spoofing and layering risk without assuming that cancellation or a large visible order proves manipulative intent.</li>
+      <li>Judge liquidity walls by persistence and executed response rather than by displayed size alone.</li>
+      <li>Combine DOM with session structure, key levels, sweeps, failed continuation and cross-market evidence.</li>
+      <li>Choose between market, limit or no-trade execution while accounting for queue position, spread, slippage and missed-fill risk.</li>
+      <li>Define structural invalidation and position size before entry, including fast-market and event-driven execution uncertainty.</li>
+      <li>Use a repeatable DOM reading sequence that moves from context and observation to confirmation, execution and review.</li>
+      <li>Train DOM skill through replay, blind-pause drills, tagging, execution rehearsal, checklists and journaling while separating reading quality from trade outcome.</li>
+    </ul></section>
+
+  <section class="section"><h2>Key topics</h2><ul>
+      <li>Depth of Market (DOM)</li>
+      <li>Order book and electronic auction</li>
+      <li>Bid, ask, spread and tick size</li>
+      <li>Resting liquidity</li>
+      <li>Passive and aggressive orders</li>
+      <li>Executed volume</li>
+      <li>DOM versus footprint</li>
+      <li>Queue position and price-time priority</li>
+      <li>Partial fills and missed-trade risk</li>
+      <li>Pulling and stacking</li>
+      <li>Liquidity persistence and migration</li>
+      <li>Aggression and auction pace</li>
+      <li>Effort versus price response</li>
+      <li>Absorption</li>
+      <li>Exhaustion versus absorption</li>
+      <li>Reloading and reserve orders</li>
+      <li>Iceberg behavior</li>
+      <li>Spoofing awareness</li>
+      <li>Layering awareness</li>
+      <li>Liquidity walls and wall failure</li>
+      <li>Session and overnight extremes</li>
+      <li>Opening range and value references</li>
+      <li>Sweeps and failed continuation</li>
+      <li>Trapped participation</li>
+      <li>Session structure and market regime</li>
+      <li>Cross-market confirmation and divergence</li>
+      <li>Futures, equities, crypto and FX market-structure differences</li>
+      <li>Market versus limit execution</li>
+      <li>Exit execution</li>
+      <li>Spread cost</li>
+      <li>Slippage and fill quality</li>
+      <li>Structural invalidation</li>
+      <li>Position sizing</li>
+      <li>Event risk</li>
+      <li>Practical DOM reading sequence</li>
+      <li>Liquidity vacuum and acceleration</li>
+      <li>Breakout acceptance versus rejection</li>
+      <li>HFT noise and overinterpretation</li>
+      <li>Latency and data-feed variation</li>
+      <li>Replay and tick drills</li>
+      <li>Event tagging and deliberate practice</li>
+      <li>DOM observation checklist</li>
+      <li>Execution checklist</li>
+      <li>DOM trading journal</li>
+    </ul></section>
+
+  <section class="section"><h2>Who this book is for</h2><p>For intraday traders, futures and order-flow traders, discretionary market participants, and readers who want to use Depth of Market as a disciplined observation and execution tool. It is especially useful for traders who can see the ladder moving but want a structured way to distinguish liquidity, execution, absorption, queue effects, false reads and real-time risk without treating DOM activity as a guaranteed signal.</p></section>
+
+  <section class="section"><h2>Related books</h2><ul>
+      <li><a href="../gamma-exposure-trading/">Gamma Exposure Trading</a></li>
+      <li><a href="../vwap-trading/">VWAP Trading</a></li>
+      <li><a href="../the-first-hour-dealing-range/">The First Hour Dealing Range</a></li>
+    </ul></section>
+
+  <section class="section"><div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=IF8WEgAAQBAJ" target="_blank" rel="noopener noreferrer">Read / Buy on Google Books</a><a class="action" href="../">Browse all books</a></div></section>
+
+<!-- topic-index-link:start -->
+<section class="section topic-index-cta" aria-label="Books by topic">
+  <div class="topic-index-icon" aria-hidden="true">
+    <svg viewBox="0 0 48 48" focusable="false"><path d="M8 10.5h13.5c4 0 7 2 7 5.5v22c0-3.5-3-5.5-7-5.5H8v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M40 10.5H26.5c-4 0-7 2-7 5.5v22c0-3.5 3-5.5 7-5.5H40v-22Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M14 17h8M14 22h8M32 17h3M32 22h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </div>
+  <div>
+    <h2>Browse Books by Topic</h2>
+    <p>Explore the library by subject and find related books faster.</p>
+    <div class="actions"><a class="action primary" href="../topics/">Explore the Topic Index</a></div>
+  </div>
+</section>
+<!-- topic-index-link:end -->
+</main>
+</body>
+</html>
