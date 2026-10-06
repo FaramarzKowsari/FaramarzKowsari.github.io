@@ -38,6 +38,9 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
+User-agent: Googlebot-Image
+Allow: /
+
 User-agent: Google-Extended
 Allow: /
 
@@ -110,6 +113,7 @@ Sitemap: https://faramarzkowsari.github.io/sitemap-index.xml
 Sitemap: https://faramarzkowsari.github.io/sitemap.xml
 Sitemap: https://faramarzkowsari.github.io/books/sitemap.xml
 Sitemap: https://faramarzkowsari.github.io/books/image-sitemap.xml
+Sitemap: https://faramarzkowsari.github.io/books/sitemap-cover-gallery.xml
 Sitemap: https://faramarzkowsari.github.io/books/sitemap-ru.xml
 Sitemap: https://faramarzkowsari.github.io/books/sitemap-tr.xml
 Sitemap: https://faramarzkowsari.github.io/books/sitemap-de.xml
