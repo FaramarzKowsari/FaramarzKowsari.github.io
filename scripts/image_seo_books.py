@@ -219,6 +219,9 @@ def update_cover_markup(text: str, cover: str, alt: str, caption: str) -> str:
         new_tag = set_attr(tag, "alt", alt)
         new_tag = set_attr(new_tag, "itemprop", "image")
         new_tag = set_attr(new_tag, "title", caption)
+        new_tag = set_attr(new_tag, "loading", "eager")
+        new_tag = set_attr(new_tag, "decoding", "async")
+        new_tag = set_attr(new_tag, "fetchpriority", "high")
         return text[: m.start()] + new_tag + text[m.end() :]
     return text
 
@@ -343,6 +346,9 @@ def process_page(path: pathlib.Path) -> tuple[bool, str | None]:
 
     out = text
     out = ensure_large_image_preview(out)
+    # Keep every discoverability surface on the exact same Google-hosted cover.
+    out = set_meta(out, "og:image", cover, "property")
+    out = set_meta(out, "twitter:image", cover, "name")
     out = set_meta(out, "og:image:alt", alt, "property")
     out = set_meta(out, "twitter:image:alt", alt, "name")
     out = update_cover_markup(out, cover, alt, caption)
