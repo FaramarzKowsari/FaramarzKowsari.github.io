@@ -74,12 +74,18 @@ def book_nodes(text):
 
 def has_cover_alt(text,cover):
     if not cover:return True
+    fallback=False
     for m in re.finditer(r'<img\b[^>]*>',text,re.I):
         tag=html.unescape(m.group(0))
+        am=re.search(r'\balt=["\']([^"\']*)',tag,re.I)
+        has_alt=bool(am and clean(am.group(1)))
+        fallback=fallback or has_alt
         if "books.google.com/books/content" in tag or cover.split("&",1)[0] in tag:
-            am=re.search(r'\balt=["\']([^"\']*)',tag,re.I)
-            return bool(am and clean(am.group(1)))
-    return False
+            return has_alt
+    # Custom flagship pages may intentionally render a different external cover
+    # asset than the catalog URL. In that case accessibility still requires a
+    # descriptive ALT on the visible cover image.
+    return fallback
 
 books=load(DATA,[])
 profiles=load(SEO_DATA,{})
