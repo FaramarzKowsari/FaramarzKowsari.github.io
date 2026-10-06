@@ -372,10 +372,14 @@ for book in books if isinstance(books, list) else []:
     else:
         author_linked += 1
 
-    for loc in ("ru", "tr", "de", "es", "fr", "pt-br"):
-        lp = BOOKS / slug / loc / "index.html"
-        if not lp.exists():
-            continue
+    book_root = BOOKS / slug
+    locale_dirs = sorted(
+        child for child in book_root.iterdir()
+        if child.is_dir() and (child / "index.html").exists()
+    ) if book_root.exists() else []
+    for loc_dir in locale_dirs:
+        loc = loc_dir.name
+        lp = loc_dir / "index.html"
         localized_checked += 1
         lt = lp.read_text(encoding="utf-8")
         label = f"{slug}/{loc}"
