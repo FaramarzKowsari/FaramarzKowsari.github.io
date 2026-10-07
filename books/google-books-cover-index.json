@@ -124,6 +124,11 @@
     "variant": "catalog",
     "source": "catalog_google_books"
   },
+  "AxMXEgAAQBAJ": {
+    "url": "https://books.google.com/books/content?id=AxMXEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "variant": "catalog",
+    "source": "catalog_google_books"
+  },
   "BsTZEQAAQBAJ": {
     "url": "https://books.google.com/books/content?id=BsTZEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "variant": "catalog",
@@ -216,6 +221,11 @@
   },
   "GvDZEQAAQBAJ": {
     "url": "https://books.google.com/books/content?id=GvDZEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "variant": "catalog",
+    "source": "catalog_google_books"
+  },
+  "HRMXEgAAQBAJ": {
+    "url": "https://books.google.com/books/content?id=HRMXEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "variant": "catalog",
     "source": "catalog_google_books"
   },
