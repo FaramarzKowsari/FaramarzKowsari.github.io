@@ -62006,27 +62006,8 @@
     "source_review_status": "complete",
     "source_scope": "Library source CVD_Trading_Faramarz_Kowsari.pdf reviewed from title/front matter and complete contents through foundational CVD mechanics, context-before-signal, risk/execution and later playbook material for source-grounded public page enrichment.",
     "seo": {
-      "primary_query": "CVD TRADING",
-      "secondary_queries": [
-        "CVD TRADING book",
-        "Reading Cumulative Volume Delta, Order Flow, Absorption, Divergence, and Liquidity",
-        "Trading",
-        "Cumulative Volume Delta (CVD)",
-        "Volume versus delta",
-        "Trade classification",
-        "Bid and ask execution",
-        "CVD construction and session resets",
-        "Price and CVD relationship",
-        "Effort versus result",
-        "CVD confirmation",
-        "CVD divergence"
-      ],
-      "long_tail_queries": [
-        "CVD TRADING by Faramarz Kowsari",
-        "practical guide to Cumulative Volume Delta (CVD)",
-        "how Cumulative Volume Delta (CVD) works",
-        "Cumulative Volume Delta (CVD) Volume versus delta"
-      ],
+      "cluster": "order-flow-trading",
+      "cluster_label": "Order Flow & Market Microstructure",
       "entities": [
         "Cumulative Volume Delta (CVD)",
         "Volume versus delta",
@@ -62049,170 +62030,14 @@
         "Volume Profile",
         "Footprint charts"
       ],
-      "cluster": "order-flow-trading",
-      "cluster_label": "Order Flow & Market Microstructure",
       "localized": {
-        "en": {
-          "primary_query": "CVD TRADING",
-          "secondary_queries": [
-            "CVD TRADING book",
-            "trading and financial markets book",
-            "Cumulative Volume Delta (CVD) guide",
-            "Cumulative Volume Delta (CVD)",
-            "Volume versus delta",
-            "Trade classification",
-            "Bid and ask execution",
-            "CVD construction and session resets",
-            "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "how Cumulative Volume Delta (CVD) works",
-            "practical guide to Cumulative Volume Delta (CVD)",
-            "CVD TRADING by Faramarz Kowsari"
-          ],
-          "category_phrase": "trading and financial markets"
-        },
-        "tr": {
-          "primary_query": "CVD TRADING",
-          "secondary_queries": [
-            "CVD TRADING kitap",
-            "trading ve finansal piyasalar kitap",
-            "Cumulative Volume Delta (CVD) rehberi",
-            "Cumulative Volume Delta (CVD)",
-            "Volume versus delta",
-            "Trade classification",
-            "Bid and ask execution",
-            "CVD construction and session resets",
-            "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "Cumulative Volume Delta (CVD) nasıl çalışır",
-            "Cumulative Volume Delta (CVD) için uygulamalı rehberi",
-            "CVD TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "trading ve finansal piyasalar"
-        },
-        "ru": {
-          "primary_query": "CVD TRADING",
-          "secondary_queries": [
-            "CVD TRADING книга",
-            "книга о трейдинг и финансовые рынки",
-            "руководство по Cumulative Volume Delta (CVD)",
-            "Cumulative Volume Delta (CVD)",
-            "Volume versus delta",
-            "Trade classification",
-            "Bid and ask execution",
-            "CVD construction and session resets",
-            "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "как работает Cumulative Volume Delta (CVD)",
-            "практическое руководство по Cumulative Volume Delta (CVD)",
-            "CVD TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "трейдинг и финансовые рынки"
-        },
-        "de": {
-          "primary_query": "CVD TRADING",
-          "secondary_queries": [
-            "CVD TRADING Buch",
-            "Trading und Finanzmärkte Buch",
-            "Cumulative Volume Delta (CVD) Leitfaden",
-            "Cumulative Volume Delta (CVD)",
-            "Volume versus delta",
-            "Trade classification",
-            "Bid and ask execution",
-            "CVD construction and session resets",
-            "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "wie funktioniert Cumulative Volume Delta (CVD)",
-            "praktischer Leitfaden zu Cumulative Volume Delta (CVD)",
-            "CVD TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "Trading und Finanzmärkte"
-        },
-        "es": {
-          "primary_query": "CVD TRADING",
-          "secondary_queries": [
-            "CVD TRADING libro",
-            "libro de trading y mercados financieros",
-            "guía de Cumulative Volume Delta (CVD)",
-            "Cumulative Volume Delta (CVD)",
-            "Volume versus delta",
-            "Trade classification",
-            "Bid and ask execution",
-            "CVD construction and session resets",
-            "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "cómo funciona Cumulative Volume Delta (CVD)",
-            "guía práctica de Cumulative Volume Delta (CVD)",
-            "CVD TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "trading y mercados financieros"
-        },
-        "fr": {
-          "primary_query": "CVD TRADING",
-          "secondary_queries": [
-            "CVD TRADING livre",
-            "livre sur trading et marchés financiers",
-            "guide Cumulative Volume Delta (CVD)",
-            "Cumulative Volume Delta (CVD)",
-            "Volume versus delta",
-            "Trade classification",
-            "Bid and ask execution",
-            "CVD construction and session resets",
-            "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "comment fonctionne Cumulative Volume Delta (CVD)",
-            "guide pratique de Cumulative Volume Delta (CVD)",
-            "CVD TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "trading et marchés financiers"
-        },
-        "pt-BR": {
-          "primary_query": "CVD TRADING",
-          "secondary_queries": [
-            "CVD TRADING livro",
-            "livro sobre trading e mercados financeiros",
-            "guia de Cumulative Volume Delta (CVD)",
-            "Cumulative Volume Delta (CVD)",
-            "Volume versus delta",
-            "Trade classification",
-            "Bid and ask execution",
-            "CVD construction and session resets",
-            "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "como funciona Cumulative Volume Delta (CVD)",
-            "guia prático de Cumulative Volume Delta (CVD)",
-            "CVD TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "trading e mercados financeiros"
-        },
-        "fa": {
-          "primary_query": "CVD TRADING",
-          "secondary_queries": [
-            "CVD TRADING کتاب",
-            "کتاب معامله‌گری و بازارهای مالی",
-            "راهنما Cumulative Volume Delta (CVD)",
-            "Cumulative Volume Delta (CVD)",
-            "Volume versus delta",
-            "Trade classification",
-            "Bid and ask execution",
-            "CVD construction and session resets",
-            "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "Cumulative Volume Delta (CVD) چیست",
-            "راهنما کاربردی Cumulative Volume Delta (CVD)",
-            "CVD TRADING فرامرز کوثری"
-          ],
-          "category_phrase": "معامله‌گری و بازارهای مالی"
-        },
         "ar": {
+          "category_phrase": "التداول والأسواق المالية",
+          "long_tail_queries": [
+            "ما هو Cumulative Volume Delta (CVD)",
+            "دليل عملي عن Cumulative Volume Delta (CVD)",
+            "CVD TRADING Faramarz Kowsari"
+          ],
           "primary_query": "CVD TRADING",
           "secondary_queries": [
             "CVD TRADING كتاب",
@@ -62224,75 +62049,15 @@
             "Bid and ask execution",
             "CVD construction and session resets",
             "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "ما هو Cumulative Volume Delta (CVD)",
-            "دليل عملي عن Cumulative Volume Delta (CVD)",
-            "CVD TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "التداول والأسواق المالية"
-        },
-        "id": {
-          "primary_query": "CVD TRADING",
-          "secondary_queries": [
-            "CVD TRADING buku",
-            "buku trading dan pasar keuangan",
-            "panduan Cumulative Volume Delta (CVD)",
-            "Cumulative Volume Delta (CVD)",
-            "Volume versus delta",
-            "Trade classification",
-            "Bid and ask execution",
-            "CVD construction and session resets",
-            "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "cara kerja Cumulative Volume Delta (CVD)",
-            "panduan praktis Cumulative Volume Delta (CVD)",
-            "CVD TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "trading dan pasar keuangan"
-        },
-        "vi": {
-          "primary_query": "CVD TRADING",
-          "secondary_queries": [
-            "CVD TRADING sách",
-            "sách về giao dịch và thị trường tài chính",
-            "hướng dẫn Cumulative Volume Delta (CVD)",
-            "Cumulative Volume Delta (CVD)",
-            "Volume versus delta",
-            "Trade classification",
-            "Bid and ask execution",
-            "CVD construction and session resets",
-            "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "Cumulative Volume Delta (CVD) hoạt động như thế nào",
-            "hướng dẫn thực hành Cumulative Volume Delta (CVD)",
-            "CVD TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "giao dịch và thị trường tài chính"
-        },
-        "th": {
-          "primary_query": "CVD TRADING",
-          "secondary_queries": [
-            "CVD TRADING หนังสือ",
-            "หนังสือ การเทรดและตลาดการเงิน",
-            "คู่มือ Cumulative Volume Delta (CVD)",
-            "Cumulative Volume Delta (CVD)",
-            "Volume versus delta",
-            "Trade classification",
-            "Bid and ask execution",
-            "CVD construction and session resets",
-            "Price and CVD relationship"
-          ],
-          "long_tail_queries": [
-            "Cumulative Volume Delta (CVD) ทำงานอย่างไร",
-            "คู่มือ Cumulative Volume Delta (CVD) แบบปฏิบัติ",
-            "CVD TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "การเทรดและตลาดการเงิน"
+          ]
         },
         "bn": {
+          "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
+          "long_tail_queries": [
+            "Cumulative Volume Delta (CVD) কীভাবে কাজ করে",
+            "Cumulative Volume Delta (CVD) ব্যবহারিক গাইড",
+            "CVD TRADING Faramarz Kowsari"
+          ],
           "primary_query": "CVD TRADING",
           "secondary_queries": [
             "CVD TRADING বই",
@@ -62304,35 +62069,95 @@
             "Bid and ask execution",
             "CVD construction and session resets",
             "Price and CVD relationship"
-          ],
+          ]
+        },
+        "de": {
+          "category_phrase": "Trading und Finanzmärkte",
           "long_tail_queries": [
-            "Cumulative Volume Delta (CVD) কীভাবে কাজ করে",
-            "Cumulative Volume Delta (CVD) ব্যবহারিক গাইড",
+            "wie funktioniert Cumulative Volume Delta (CVD)",
+            "praktischer Leitfaden zu Cumulative Volume Delta (CVD)",
             "CVD TRADING Faramarz Kowsari"
           ],
-          "category_phrase": "ট্রেডিং ও আর্থিক বাজার"
-        },
-        "ro": {
           "primary_query": "CVD TRADING",
           "secondary_queries": [
-            "CVD TRADING carte",
-            "carte despre trading și piețe financiare",
-            "ghid Cumulative Volume Delta (CVD)",
+            "CVD TRADING Buch",
+            "Trading und Finanzmärkte Buch",
+            "Cumulative Volume Delta (CVD) Leitfaden",
             "Cumulative Volume Delta (CVD)",
             "Volume versus delta",
             "Trade classification",
             "Bid and ask execution",
             "CVD construction and session resets",
             "Price and CVD relationship"
-          ],
+          ]
+        },
+        "en": {
+          "category_phrase": "trading and financial markets",
           "long_tail_queries": [
-            "cum funcționează Cumulative Volume Delta (CVD)",
-            "ghid practic pentru Cumulative Volume Delta (CVD)",
+            "how Cumulative Volume Delta (CVD) works",
+            "practical guide to Cumulative Volume Delta (CVD)",
+            "CVD TRADING by Faramarz Kowsari"
+          ],
+          "primary_query": "CVD TRADING",
+          "secondary_queries": [
+            "CVD TRADING book",
+            "trading and financial markets book",
+            "Cumulative Volume Delta (CVD) guide",
+            "Cumulative Volume Delta (CVD)",
+            "Volume versus delta",
+            "Trade classification",
+            "Bid and ask execution",
+            "CVD construction and session resets",
+            "Price and CVD relationship"
+          ]
+        },
+        "es": {
+          "category_phrase": "trading y mercados financieros",
+          "long_tail_queries": [
+            "cómo funciona Cumulative Volume Delta (CVD)",
+            "guía práctica de Cumulative Volume Delta (CVD)",
             "CVD TRADING Faramarz Kowsari"
           ],
-          "category_phrase": "trading și piețe financiare"
+          "primary_query": "CVD TRADING",
+          "secondary_queries": [
+            "CVD TRADING libro",
+            "libro de trading y mercados financieros",
+            "guía de Cumulative Volume Delta (CVD)",
+            "Cumulative Volume Delta (CVD)",
+            "Volume versus delta",
+            "Trade classification",
+            "Bid and ask execution",
+            "CVD construction and session resets",
+            "Price and CVD relationship"
+          ]
+        },
+        "fa": {
+          "category_phrase": "معامله‌گری و بازارهای مالی",
+          "long_tail_queries": [
+            "Cumulative Volume Delta (CVD) چیست",
+            "راهنما کاربردی Cumulative Volume Delta (CVD)",
+            "CVD TRADING فرامرز کوثری"
+          ],
+          "primary_query": "CVD TRADING",
+          "secondary_queries": [
+            "CVD TRADING کتاب",
+            "کتاب معامله‌گری و بازارهای مالی",
+            "راهنما Cumulative Volume Delta (CVD)",
+            "Cumulative Volume Delta (CVD)",
+            "Volume versus delta",
+            "Trade classification",
+            "Bid and ask execution",
+            "CVD construction and session resets",
+            "Price and CVD relationship"
+          ]
         },
         "fil": {
+          "category_phrase": "trading at financial markets",
+          "long_tail_queries": [
+            "paano gumagana ang Cumulative Volume Delta (CVD)",
+            "praktikal na gabay sa Cumulative Volume Delta (CVD)",
+            "CVD TRADING Faramarz Kowsari"
+          ],
           "primary_query": "CVD TRADING",
           "secondary_queries": [
             "CVD TRADING aklat",
@@ -62344,21 +62169,196 @@
             "Bid and ask execution",
             "CVD construction and session resets",
             "Price and CVD relationship"
-          ],
+          ]
+        },
+        "fr": {
+          "category_phrase": "trading et marchés financiers",
           "long_tail_queries": [
-            "paano gumagana ang Cumulative Volume Delta (CVD)",
-            "praktikal na gabay sa Cumulative Volume Delta (CVD)",
+            "comment fonctionne Cumulative Volume Delta (CVD)",
+            "guide pratique de Cumulative Volume Delta (CVD)",
             "CVD TRADING Faramarz Kowsari"
           ],
-          "category_phrase": "trading at financial markets"
+          "primary_query": "CVD TRADING",
+          "secondary_queries": [
+            "CVD TRADING livre",
+            "livre sur trading et marchés financiers",
+            "guide Cumulative Volume Delta (CVD)",
+            "Cumulative Volume Delta (CVD)",
+            "Volume versus delta",
+            "Trade classification",
+            "Bid and ask execution",
+            "CVD construction and session resets",
+            "Price and CVD relationship"
+          ]
+        },
+        "id": {
+          "category_phrase": "trading dan pasar keuangan",
+          "long_tail_queries": [
+            "cara kerja Cumulative Volume Delta (CVD)",
+            "panduan praktis Cumulative Volume Delta (CVD)",
+            "CVD TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "CVD TRADING",
+          "secondary_queries": [
+            "CVD TRADING buku",
+            "buku trading dan pasar keuangan",
+            "panduan Cumulative Volume Delta (CVD)",
+            "Cumulative Volume Delta (CVD)",
+            "Volume versus delta",
+            "Trade classification",
+            "Bid and ask execution",
+            "CVD construction and session resets",
+            "Price and CVD relationship"
+          ]
+        },
+        "pt-BR": {
+          "category_phrase": "trading e mercados financeiros",
+          "long_tail_queries": [
+            "como funciona Cumulative Volume Delta (CVD)",
+            "guia prático de Cumulative Volume Delta (CVD)",
+            "CVD TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "CVD TRADING",
+          "secondary_queries": [
+            "CVD TRADING livro",
+            "livro sobre trading e mercados financeiros",
+            "guia de Cumulative Volume Delta (CVD)",
+            "Cumulative Volume Delta (CVD)",
+            "Volume versus delta",
+            "Trade classification",
+            "Bid and ask execution",
+            "CVD construction and session resets",
+            "Price and CVD relationship"
+          ]
+        },
+        "ro": {
+          "category_phrase": "trading și piețe financiare",
+          "long_tail_queries": [
+            "cum funcționează Cumulative Volume Delta (CVD)",
+            "ghid practic pentru Cumulative Volume Delta (CVD)",
+            "CVD TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "CVD TRADING",
+          "secondary_queries": [
+            "CVD TRADING carte",
+            "carte despre trading și piețe financiare",
+            "ghid Cumulative Volume Delta (CVD)",
+            "Cumulative Volume Delta (CVD)",
+            "Volume versus delta",
+            "Trade classification",
+            "Bid and ask execution",
+            "CVD construction and session resets",
+            "Price and CVD relationship"
+          ]
+        },
+        "ru": {
+          "category_phrase": "трейдинг и финансовые рынки",
+          "long_tail_queries": [
+            "как работает Cumulative Volume Delta (CVD)",
+            "практическое руководство по Cumulative Volume Delta (CVD)",
+            "CVD TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "CVD TRADING",
+          "secondary_queries": [
+            "CVD TRADING книга",
+            "книга о трейдинг и финансовые рынки",
+            "руководство по Cumulative Volume Delta (CVD)",
+            "Cumulative Volume Delta (CVD)",
+            "Volume versus delta",
+            "Trade classification",
+            "Bid and ask execution",
+            "CVD construction and session resets",
+            "Price and CVD relationship"
+          ]
+        },
+        "th": {
+          "category_phrase": "การเทรดและตลาดการเงิน",
+          "long_tail_queries": [
+            "Cumulative Volume Delta (CVD) ทำงานอย่างไร",
+            "คู่มือ Cumulative Volume Delta (CVD) แบบปฏิบัติ",
+            "CVD TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "CVD TRADING",
+          "secondary_queries": [
+            "CVD TRADING หนังสือ",
+            "หนังสือ การเทรดและตลาดการเงิน",
+            "คู่มือ Cumulative Volume Delta (CVD)",
+            "Cumulative Volume Delta (CVD)",
+            "Volume versus delta",
+            "Trade classification",
+            "Bid and ask execution",
+            "CVD construction and session resets",
+            "Price and CVD relationship"
+          ]
+        },
+        "tr": {
+          "category_phrase": "trading ve finansal piyasalar",
+          "long_tail_queries": [
+            "Cumulative Volume Delta (CVD) nasıl çalışır",
+            "Cumulative Volume Delta (CVD) için uygulamalı rehberi",
+            "CVD TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "CVD TRADING",
+          "secondary_queries": [
+            "CVD TRADING kitap",
+            "trading ve finansal piyasalar kitap",
+            "Cumulative Volume Delta (CVD) rehberi",
+            "Cumulative Volume Delta (CVD)",
+            "Volume versus delta",
+            "Trade classification",
+            "Bid and ask execution",
+            "CVD construction and session resets",
+            "Price and CVD relationship"
+          ]
+        },
+        "vi": {
+          "category_phrase": "giao dịch và thị trường tài chính",
+          "long_tail_queries": [
+            "Cumulative Volume Delta (CVD) hoạt động như thế nào",
+            "hướng dẫn thực hành Cumulative Volume Delta (CVD)",
+            "CVD TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "CVD TRADING",
+          "secondary_queries": [
+            "CVD TRADING sách",
+            "sách về giao dịch và thị trường tài chính",
+            "hướng dẫn Cumulative Volume Delta (CVD)",
+            "Cumulative Volume Delta (CVD)",
+            "Volume versus delta",
+            "Trade classification",
+            "Bid and ask execution",
+            "CVD construction and session resets",
+            "Price and CVD relationship"
+          ]
         }
       },
+      "long_tail_queries": [
+        "CVD TRADING by Faramarz Kowsari",
+        "practical guide to Cumulative Volume Delta (CVD)",
+        "how Cumulative Volume Delta (CVD) works",
+        "Cumulative Volume Delta (CVD) Volume versus delta"
+      ],
+      "primary_query": "CVD TRADING",
       "related_slugs": [
         "dom-trading",
         "vwap-trading",
         "footprint-charts",
         "gamma-exposure-trading",
         "volume-bubbles-trading"
+      ],
+      "secondary_queries": [
+        "CVD TRADING book",
+        "Reading Cumulative Volume Delta, Order Flow, Absorption, Divergence, and Liquidity",
+        "Trading",
+        "Cumulative Volume Delta (CVD)",
+        "Volume versus delta",
+        "Trade classification",
+        "Bid and ask execution",
+        "CVD construction and session resets",
+        "Price and CVD relationship",
+        "Effort versus result",
+        "CVD confirmation",
+        "CVD divergence"
       ]
     },
     "source_reviewed": true
@@ -62450,27 +62450,8 @@
     "source_review_status": "complete",
     "source_scope": "Library source YOU_ARE_NOT_A_HEDGE_FUND_Faramarz_Kowsari_A5_OFFICE_COMPATIBLE.docx reviewed from preface, introduction and complete table of contents through representative chapters on leverage and the final Retail-Native Trading System for source-grounded public page enrichment.",
     "seo": {
-      "primary_query": "YOU ARE NOT A HEDGE FUND",
-      "secondary_queries": [
-        "YOU ARE NOT A HEDGE FUND book",
-        "Institutional Trading vs. Retail Trading: Why Institutional Trading Logic Can Destroy a Retail Account",
-        "Trading",
-        "Institutional trading versus retail trading",
-        "Capital mismatch",
-        "Balance-sheet differences",
-        "Trading infrastructure",
-        "Institutional constraints",
-        "Retail small-size advantage",
-        "Martingale risk",
-        "Averaging down",
-        "Recovery systems"
-      ],
-      "long_tail_queries": [
-        "YOU ARE NOT A HEDGE FUND by Faramarz Kowsari",
-        "practical guide to Institutional trading versus retail trading",
-        "how Institutional trading versus retail trading works",
-        "Institutional trading versus retail trading Capital mismatch"
-      ],
+      "cluster": "trading-markets",
+      "cluster_label": "Trading & Financial Markets",
       "entities": [
         "Institutional trading versus retail trading",
         "Capital mismatch",
@@ -62493,170 +62474,14 @@
         "Market impact",
         "Liquidity constraints"
       ],
-      "cluster": "trading-markets",
-      "cluster_label": "Trading & Financial Markets",
       "localized": {
-        "en": {
-          "primary_query": "YOU ARE NOT A HEDGE FUND",
-          "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND book",
-            "trading and financial markets book",
-            "Institutional trading versus retail trading guide",
-            "Institutional trading versus retail trading",
-            "Capital mismatch",
-            "Balance-sheet differences",
-            "Trading infrastructure",
-            "Institutional constraints",
-            "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "how Institutional trading versus retail trading works",
-            "practical guide to Institutional trading versus retail trading",
-            "YOU ARE NOT A HEDGE FUND by Faramarz Kowsari"
-          ],
-          "category_phrase": "trading and financial markets"
-        },
-        "tr": {
-          "primary_query": "YOU ARE NOT A HEDGE FUND",
-          "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND kitap",
-            "trading ve finansal piyasalar kitap",
-            "Institutional trading versus retail trading rehberi",
-            "Institutional trading versus retail trading",
-            "Capital mismatch",
-            "Balance-sheet differences",
-            "Trading infrastructure",
-            "Institutional constraints",
-            "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "Institutional trading versus retail trading nasıl çalışır",
-            "Institutional trading versus retail trading için uygulamalı rehberi",
-            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
-          ],
-          "category_phrase": "trading ve finansal piyasalar"
-        },
-        "ru": {
-          "primary_query": "YOU ARE NOT A HEDGE FUND",
-          "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND книга",
-            "книга о трейдинг и финансовые рынки",
-            "руководство по Institutional trading versus retail trading",
-            "Institutional trading versus retail trading",
-            "Capital mismatch",
-            "Balance-sheet differences",
-            "Trading infrastructure",
-            "Institutional constraints",
-            "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "как работает Institutional trading versus retail trading",
-            "практическое руководство по Institutional trading versus retail trading",
-            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
-          ],
-          "category_phrase": "трейдинг и финансовые рынки"
-        },
-        "de": {
-          "primary_query": "YOU ARE NOT A HEDGE FUND",
-          "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND Buch",
-            "Trading und Finanzmärkte Buch",
-            "Institutional trading versus retail trading Leitfaden",
-            "Institutional trading versus retail trading",
-            "Capital mismatch",
-            "Balance-sheet differences",
-            "Trading infrastructure",
-            "Institutional constraints",
-            "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "wie funktioniert Institutional trading versus retail trading",
-            "praktischer Leitfaden zu Institutional trading versus retail trading",
-            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
-          ],
-          "category_phrase": "Trading und Finanzmärkte"
-        },
-        "es": {
-          "primary_query": "YOU ARE NOT A HEDGE FUND",
-          "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND libro",
-            "libro de trading y mercados financieros",
-            "guía de Institutional trading versus retail trading",
-            "Institutional trading versus retail trading",
-            "Capital mismatch",
-            "Balance-sheet differences",
-            "Trading infrastructure",
-            "Institutional constraints",
-            "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "cómo funciona Institutional trading versus retail trading",
-            "guía práctica de Institutional trading versus retail trading",
-            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
-          ],
-          "category_phrase": "trading y mercados financieros"
-        },
-        "fr": {
-          "primary_query": "YOU ARE NOT A HEDGE FUND",
-          "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND livre",
-            "livre sur trading et marchés financiers",
-            "guide Institutional trading versus retail trading",
-            "Institutional trading versus retail trading",
-            "Capital mismatch",
-            "Balance-sheet differences",
-            "Trading infrastructure",
-            "Institutional constraints",
-            "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "comment fonctionne Institutional trading versus retail trading",
-            "guide pratique de Institutional trading versus retail trading",
-            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
-          ],
-          "category_phrase": "trading et marchés financiers"
-        },
-        "pt-BR": {
-          "primary_query": "YOU ARE NOT A HEDGE FUND",
-          "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND livro",
-            "livro sobre trading e mercados financeiros",
-            "guia de Institutional trading versus retail trading",
-            "Institutional trading versus retail trading",
-            "Capital mismatch",
-            "Balance-sheet differences",
-            "Trading infrastructure",
-            "Institutional constraints",
-            "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "como funciona Institutional trading versus retail trading",
-            "guia prático de Institutional trading versus retail trading",
-            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
-          ],
-          "category_phrase": "trading e mercados financeiros"
-        },
-        "fa": {
-          "primary_query": "YOU ARE NOT A HEDGE FUND",
-          "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND کتاب",
-            "کتاب معامله‌گری و بازارهای مالی",
-            "راهنما Institutional trading versus retail trading",
-            "Institutional trading versus retail trading",
-            "Capital mismatch",
-            "Balance-sheet differences",
-            "Trading infrastructure",
-            "Institutional constraints",
-            "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "Institutional trading versus retail trading چیست",
-            "راهنما کاربردی Institutional trading versus retail trading",
-            "YOU ARE NOT A HEDGE FUND فرامرز کوثری"
-          ],
-          "category_phrase": "معامله‌گری و بازارهای مالی"
-        },
         "ar": {
+          "category_phrase": "التداول والأسواق المالية",
+          "long_tail_queries": [
+            "ما هو Institutional trading versus retail trading",
+            "دليل عملي عن Institutional trading versus retail trading",
+            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
+          ],
           "primary_query": "YOU ARE NOT A HEDGE FUND",
           "secondary_queries": [
             "YOU ARE NOT A HEDGE FUND كتاب",
@@ -62668,75 +62493,15 @@
             "Trading infrastructure",
             "Institutional constraints",
             "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "ما هو Institutional trading versus retail trading",
-            "دليل عملي عن Institutional trading versus retail trading",
-            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
-          ],
-          "category_phrase": "التداول والأسواق المالية"
-        },
-        "id": {
-          "primary_query": "YOU ARE NOT A HEDGE FUND",
-          "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND buku",
-            "buku trading dan pasar keuangan",
-            "panduan Institutional trading versus retail trading",
-            "Institutional trading versus retail trading",
-            "Capital mismatch",
-            "Balance-sheet differences",
-            "Trading infrastructure",
-            "Institutional constraints",
-            "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "cara kerja Institutional trading versus retail trading",
-            "panduan praktis Institutional trading versus retail trading",
-            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
-          ],
-          "category_phrase": "trading dan pasar keuangan"
-        },
-        "vi": {
-          "primary_query": "YOU ARE NOT A HEDGE FUND",
-          "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND sách",
-            "sách về giao dịch và thị trường tài chính",
-            "hướng dẫn Institutional trading versus retail trading",
-            "Institutional trading versus retail trading",
-            "Capital mismatch",
-            "Balance-sheet differences",
-            "Trading infrastructure",
-            "Institutional constraints",
-            "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "Institutional trading versus retail trading hoạt động như thế nào",
-            "hướng dẫn thực hành Institutional trading versus retail trading",
-            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
-          ],
-          "category_phrase": "giao dịch và thị trường tài chính"
-        },
-        "th": {
-          "primary_query": "YOU ARE NOT A HEDGE FUND",
-          "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND หนังสือ",
-            "หนังสือ การเทรดและตลาดการเงิน",
-            "คู่มือ Institutional trading versus retail trading",
-            "Institutional trading versus retail trading",
-            "Capital mismatch",
-            "Balance-sheet differences",
-            "Trading infrastructure",
-            "Institutional constraints",
-            "Retail small-size advantage"
-          ],
-          "long_tail_queries": [
-            "Institutional trading versus retail trading ทำงานอย่างไร",
-            "คู่มือ Institutional trading versus retail trading แบบปฏิบัติ",
-            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
-          ],
-          "category_phrase": "การเทรดและตลาดการเงิน"
+          ]
         },
         "bn": {
+          "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
+          "long_tail_queries": [
+            "Institutional trading versus retail trading কীভাবে কাজ করে",
+            "Institutional trading versus retail trading ব্যবহারিক গাইড",
+            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
+          ],
           "primary_query": "YOU ARE NOT A HEDGE FUND",
           "secondary_queries": [
             "YOU ARE NOT A HEDGE FUND বই",
@@ -62748,35 +62513,95 @@
             "Trading infrastructure",
             "Institutional constraints",
             "Retail small-size advantage"
-          ],
+          ]
+        },
+        "de": {
+          "category_phrase": "Trading und Finanzmärkte",
           "long_tail_queries": [
-            "Institutional trading versus retail trading কীভাবে কাজ করে",
-            "Institutional trading versus retail trading ব্যবহারিক গাইড",
+            "wie funktioniert Institutional trading versus retail trading",
+            "praktischer Leitfaden zu Institutional trading versus retail trading",
             "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
           ],
-          "category_phrase": "ট্রেডিং ও আর্থিক বাজার"
-        },
-        "ro": {
           "primary_query": "YOU ARE NOT A HEDGE FUND",
           "secondary_queries": [
-            "YOU ARE NOT A HEDGE FUND carte",
-            "carte despre trading și piețe financiare",
-            "ghid Institutional trading versus retail trading",
+            "YOU ARE NOT A HEDGE FUND Buch",
+            "Trading und Finanzmärkte Buch",
+            "Institutional trading versus retail trading Leitfaden",
             "Institutional trading versus retail trading",
             "Capital mismatch",
             "Balance-sheet differences",
             "Trading infrastructure",
             "Institutional constraints",
             "Retail small-size advantage"
-          ],
+          ]
+        },
+        "en": {
+          "category_phrase": "trading and financial markets",
           "long_tail_queries": [
-            "cum funcționează Institutional trading versus retail trading",
-            "ghid practic pentru Institutional trading versus retail trading",
+            "how Institutional trading versus retail trading works",
+            "practical guide to Institutional trading versus retail trading",
+            "YOU ARE NOT A HEDGE FUND by Faramarz Kowsari"
+          ],
+          "primary_query": "YOU ARE NOT A HEDGE FUND",
+          "secondary_queries": [
+            "YOU ARE NOT A HEDGE FUND book",
+            "trading and financial markets book",
+            "Institutional trading versus retail trading guide",
+            "Institutional trading versus retail trading",
+            "Capital mismatch",
+            "Balance-sheet differences",
+            "Trading infrastructure",
+            "Institutional constraints",
+            "Retail small-size advantage"
+          ]
+        },
+        "es": {
+          "category_phrase": "trading y mercados financieros",
+          "long_tail_queries": [
+            "cómo funciona Institutional trading versus retail trading",
+            "guía práctica de Institutional trading versus retail trading",
             "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
           ],
-          "category_phrase": "trading și piețe financiare"
+          "primary_query": "YOU ARE NOT A HEDGE FUND",
+          "secondary_queries": [
+            "YOU ARE NOT A HEDGE FUND libro",
+            "libro de trading y mercados financieros",
+            "guía de Institutional trading versus retail trading",
+            "Institutional trading versus retail trading",
+            "Capital mismatch",
+            "Balance-sheet differences",
+            "Trading infrastructure",
+            "Institutional constraints",
+            "Retail small-size advantage"
+          ]
+        },
+        "fa": {
+          "category_phrase": "معامله‌گری و بازارهای مالی",
+          "long_tail_queries": [
+            "Institutional trading versus retail trading چیست",
+            "راهنما کاربردی Institutional trading versus retail trading",
+            "YOU ARE NOT A HEDGE FUND فرامرز کوثری"
+          ],
+          "primary_query": "YOU ARE NOT A HEDGE FUND",
+          "secondary_queries": [
+            "YOU ARE NOT A HEDGE FUND کتاب",
+            "کتاب معامله‌گری و بازارهای مالی",
+            "راهنما Institutional trading versus retail trading",
+            "Institutional trading versus retail trading",
+            "Capital mismatch",
+            "Balance-sheet differences",
+            "Trading infrastructure",
+            "Institutional constraints",
+            "Retail small-size advantage"
+          ]
         },
         "fil": {
+          "category_phrase": "trading at financial markets",
+          "long_tail_queries": [
+            "paano gumagana ang Institutional trading versus retail trading",
+            "praktikal na gabay sa Institutional trading versus retail trading",
+            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
+          ],
           "primary_query": "YOU ARE NOT A HEDGE FUND",
           "secondary_queries": [
             "YOU ARE NOT A HEDGE FUND aklat",
@@ -62788,21 +62613,196 @@
             "Trading infrastructure",
             "Institutional constraints",
             "Retail small-size advantage"
-          ],
+          ]
+        },
+        "fr": {
+          "category_phrase": "trading et marchés financiers",
           "long_tail_queries": [
-            "paano gumagana ang Institutional trading versus retail trading",
-            "praktikal na gabay sa Institutional trading versus retail trading",
+            "comment fonctionne Institutional trading versus retail trading",
+            "guide pratique de Institutional trading versus retail trading",
             "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
           ],
-          "category_phrase": "trading at financial markets"
+          "primary_query": "YOU ARE NOT A HEDGE FUND",
+          "secondary_queries": [
+            "YOU ARE NOT A HEDGE FUND livre",
+            "livre sur trading et marchés financiers",
+            "guide Institutional trading versus retail trading",
+            "Institutional trading versus retail trading",
+            "Capital mismatch",
+            "Balance-sheet differences",
+            "Trading infrastructure",
+            "Institutional constraints",
+            "Retail small-size advantage"
+          ]
+        },
+        "id": {
+          "category_phrase": "trading dan pasar keuangan",
+          "long_tail_queries": [
+            "cara kerja Institutional trading versus retail trading",
+            "panduan praktis Institutional trading versus retail trading",
+            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
+          ],
+          "primary_query": "YOU ARE NOT A HEDGE FUND",
+          "secondary_queries": [
+            "YOU ARE NOT A HEDGE FUND buku",
+            "buku trading dan pasar keuangan",
+            "panduan Institutional trading versus retail trading",
+            "Institutional trading versus retail trading",
+            "Capital mismatch",
+            "Balance-sheet differences",
+            "Trading infrastructure",
+            "Institutional constraints",
+            "Retail small-size advantage"
+          ]
+        },
+        "pt-BR": {
+          "category_phrase": "trading e mercados financeiros",
+          "long_tail_queries": [
+            "como funciona Institutional trading versus retail trading",
+            "guia prático de Institutional trading versus retail trading",
+            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
+          ],
+          "primary_query": "YOU ARE NOT A HEDGE FUND",
+          "secondary_queries": [
+            "YOU ARE NOT A HEDGE FUND livro",
+            "livro sobre trading e mercados financeiros",
+            "guia de Institutional trading versus retail trading",
+            "Institutional trading versus retail trading",
+            "Capital mismatch",
+            "Balance-sheet differences",
+            "Trading infrastructure",
+            "Institutional constraints",
+            "Retail small-size advantage"
+          ]
+        },
+        "ro": {
+          "category_phrase": "trading și piețe financiare",
+          "long_tail_queries": [
+            "cum funcționează Institutional trading versus retail trading",
+            "ghid practic pentru Institutional trading versus retail trading",
+            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
+          ],
+          "primary_query": "YOU ARE NOT A HEDGE FUND",
+          "secondary_queries": [
+            "YOU ARE NOT A HEDGE FUND carte",
+            "carte despre trading și piețe financiare",
+            "ghid Institutional trading versus retail trading",
+            "Institutional trading versus retail trading",
+            "Capital mismatch",
+            "Balance-sheet differences",
+            "Trading infrastructure",
+            "Institutional constraints",
+            "Retail small-size advantage"
+          ]
+        },
+        "ru": {
+          "category_phrase": "трейдинг и финансовые рынки",
+          "long_tail_queries": [
+            "как работает Institutional trading versus retail trading",
+            "практическое руководство по Institutional trading versus retail trading",
+            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
+          ],
+          "primary_query": "YOU ARE NOT A HEDGE FUND",
+          "secondary_queries": [
+            "YOU ARE NOT A HEDGE FUND книга",
+            "книга о трейдинг и финансовые рынки",
+            "руководство по Institutional trading versus retail trading",
+            "Institutional trading versus retail trading",
+            "Capital mismatch",
+            "Balance-sheet differences",
+            "Trading infrastructure",
+            "Institutional constraints",
+            "Retail small-size advantage"
+          ]
+        },
+        "th": {
+          "category_phrase": "การเทรดและตลาดการเงิน",
+          "long_tail_queries": [
+            "Institutional trading versus retail trading ทำงานอย่างไร",
+            "คู่มือ Institutional trading versus retail trading แบบปฏิบัติ",
+            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
+          ],
+          "primary_query": "YOU ARE NOT A HEDGE FUND",
+          "secondary_queries": [
+            "YOU ARE NOT A HEDGE FUND หนังสือ",
+            "หนังสือ การเทรดและตลาดการเงิน",
+            "คู่มือ Institutional trading versus retail trading",
+            "Institutional trading versus retail trading",
+            "Capital mismatch",
+            "Balance-sheet differences",
+            "Trading infrastructure",
+            "Institutional constraints",
+            "Retail small-size advantage"
+          ]
+        },
+        "tr": {
+          "category_phrase": "trading ve finansal piyasalar",
+          "long_tail_queries": [
+            "Institutional trading versus retail trading nasıl çalışır",
+            "Institutional trading versus retail trading için uygulamalı rehberi",
+            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
+          ],
+          "primary_query": "YOU ARE NOT A HEDGE FUND",
+          "secondary_queries": [
+            "YOU ARE NOT A HEDGE FUND kitap",
+            "trading ve finansal piyasalar kitap",
+            "Institutional trading versus retail trading rehberi",
+            "Institutional trading versus retail trading",
+            "Capital mismatch",
+            "Balance-sheet differences",
+            "Trading infrastructure",
+            "Institutional constraints",
+            "Retail small-size advantage"
+          ]
+        },
+        "vi": {
+          "category_phrase": "giao dịch và thị trường tài chính",
+          "long_tail_queries": [
+            "Institutional trading versus retail trading hoạt động như thế nào",
+            "hướng dẫn thực hành Institutional trading versus retail trading",
+            "YOU ARE NOT A HEDGE FUND Faramarz Kowsari"
+          ],
+          "primary_query": "YOU ARE NOT A HEDGE FUND",
+          "secondary_queries": [
+            "YOU ARE NOT A HEDGE FUND sách",
+            "sách về giao dịch và thị trường tài chính",
+            "hướng dẫn Institutional trading versus retail trading",
+            "Institutional trading versus retail trading",
+            "Capital mismatch",
+            "Balance-sheet differences",
+            "Trading infrastructure",
+            "Institutional constraints",
+            "Retail small-size advantage"
+          ]
         }
       },
+      "long_tail_queries": [
+        "YOU ARE NOT A HEDGE FUND by Faramarz Kowsari",
+        "practical guide to Institutional trading versus retail trading",
+        "how Institutional trading versus retail trading works",
+        "Institutional trading versus retail trading Capital mismatch"
+      ],
+      "primary_query": "YOU ARE NOT A HEDGE FUND",
       "related_slugs": [
         "vwap-trading",
         "dom-trading",
         "gamma-exposure-trading",
         "prop-firm-funded-account-trading",
         "0dte-options"
+      ],
+      "secondary_queries": [
+        "YOU ARE NOT A HEDGE FUND book",
+        "Institutional Trading vs. Retail Trading: Why Institutional Trading Logic Can Destroy a Retail Account",
+        "Trading",
+        "Institutional trading versus retail trading",
+        "Capital mismatch",
+        "Balance-sheet differences",
+        "Trading infrastructure",
+        "Institutional constraints",
+        "Retail small-size advantage",
+        "Martingale risk",
+        "Averaging down",
+        "Recovery systems"
       ]
     },
     "source_reviewed": true
