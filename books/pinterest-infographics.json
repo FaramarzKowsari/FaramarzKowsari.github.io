@@ -2,7 +2,7 @@
   "smart-money-concepts": {
     "language": "en",
     "section_title": "Visual Guides & Infographics",
-    "intro": "Explore four visual guides to Smart Money Concepts covering the book's core framework, learning outcomes, key concepts and intended readers.",
+    "intro": "Explore nine visual guides to Smart Money Concepts covering the book's core framework, learning outcomes, key concepts, market structure, liquidity and evidence-based chart reading.",
     "google_books_url": "https://play.google.com/store/books/details?id=LNMLEgAAQBAJ",
     "pins": [
       {
@@ -28,6 +28,36 @@
         "title": "Smart Money Concepts — Who This Book Is For",
         "description": "A visual guide to the readers who can benefit from Smart Money Concepts, especially traders seeking a practical, testable and evidence-conscious SMC framework.",
         "alt_text": "Who This Book Is For infographic for Smart Money Concepts by Faramarz Kowsari, designed for traders learning or refining an evidence-conscious Smart Money Concepts framework."
+      },
+      {
+        "image_url": "https://i.pinimg.com/736x/cc/67/49/cc67492446301074e2cbe17da8b55976.jpg",
+        "title": "Smart Money Concepts — Visual Guide 01",
+        "description": "Smart Money Concepts visual guide by Faramarz Kowsari, designed to reinforce the book's core ideas through a concise visual summary.",
+        "alt_text": "Smart Money Concepts visual guide by Faramarz Kowsari — Pinterest image 01"
+      },
+      {
+        "image_url": "https://i.pinimg.com/736x/ee/27/06/ee27067e5cc9d001d9d9d84c717425d3.jpg",
+        "title": "Smart Money Concepts — Visual Guide 02",
+        "description": "A visual companion to Smart Money Concepts by Faramarz Kowsari, highlighting practical market-reading concepts in an easy-to-scan format.",
+        "alt_text": "Smart Money Concepts visual guide by Faramarz Kowsari — Pinterest image 02"
+      },
+      {
+        "image_url": "https://i.pinimg.com/736x/d1/21/ed/d121ed9471854b6dc2eb99a29a466d3d.jpg",
+        "title": "Smart Money Concepts — Visual Guide 03",
+        "description": "A Pinterest-hosted visual reference for Smart Money Concepts, supporting faster review of the framework and its trading concepts.",
+        "alt_text": "Smart Money Concepts visual guide by Faramarz Kowsari — Pinterest image 03"
+      },
+      {
+        "image_url": "https://i.pinimg.com/736x/5b/68/f6/5b68f62121be12209ccbb4118b145eca.jpg",
+        "title": "Smart Money Concepts — Visual Guide 04",
+        "description": "A visual learning card for Smart Money Concepts by Faramarz Kowsari, created to complement the book's explanations with a concise graphic overview.",
+        "alt_text": "Smart Money Concepts visual guide by Faramarz Kowsari — Pinterest image 04"
+      },
+      {
+        "image_url": "https://i.pinimg.com/736x/21/29/62/212962f8beec3002b36840eaef2b1cde.jpg",
+        "title": "Smart Money Concepts — Visual Guide 05",
+        "description": "A supplemental Smart Money Concepts infographic hosted on Pinterest and linked to the book's Google Books edition for deeper study.",
+        "alt_text": "Smart Money Concepts visual guide by Faramarz Kowsari — Pinterest image 05"
       }
     ]
   }
