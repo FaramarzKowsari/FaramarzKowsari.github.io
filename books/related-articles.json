@@ -6,5 +6,13 @@
       "platform": "Medium",
       "description": "A companion article that reinforces the book's core idea: stop reacting to isolated candles and read market structure, liquidity, displacement and context instead."
     }
+  ],
+  "machine-learning-interviews-visually-explained": [
+    {
+      "title": "250 Machine Learning Interview Questions — Visually Explained",
+      "url": "https://medium.com/@faramarz.kowsari/250-machine-learning-interview-questions-visually-explained-a-different-way-to-prepare-for-ml-e5c20aec1e16",
+      "platform": "Medium",
+      "description": "A companion article for the book, presenting a visual, concept-first way to prepare for machine learning interviews and reinforcing the book's 250-question interview-preparation framework."
+    }
   ]
 }
