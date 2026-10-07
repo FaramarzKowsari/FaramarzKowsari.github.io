@@ -36,7 +36,12 @@ def render_card(pin, google_url):
           <a data-pin-do="embedPin" href="{pin_url}"></a>
         </div>'''
 
-    pin_link = f'<a class="pinterest-source-link" href="{pin_url}" target="_blank" rel="noopener noreferrer">View this infographic on Pinterest</a>' if pin_url else ""
+    if pin_url:
+        pin_link = f'<a class="pinterest-source-link" href="{pin_url}" target="_blank" rel="noopener noreferrer">View this infographic on Pinterest</a>'
+    elif image_url:
+        pin_link = f'<a class="pinterest-source-link" href="{image_url}" target="_blank" rel="noopener noreferrer">View full Pinterest image</a>'
+    else:
+        pin_link = ""
 
     return f'''    <figure class="pinterest-infographic-card">
       <h3>{title}</h3>
@@ -63,7 +68,7 @@ def render_section(config):
     .pinterest-infographic-card{{margin:0;padding:20px;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 8px 24px rgba(15,23,42,.05)}}
     .pinterest-infographic-card h3{{margin:0 0 14px;font-size:20px;line-height:1.35}}
     .pinterest-infographic-image-link{{display:block;text-decoration:none}}
-    .pinterest-infographic-image-link img{{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:#f3f4f6}}
+    .pinterest-infographic-image-link img{{display:block;width:100%;height:auto;max-height:760px;object-fit:contain;border-radius:14px;border:1px solid var(--line);background:#f3f4f6}}
     .pinterest-pin-embed{{min-height:360px;display:flex;align-items:flex-start;justify-content:center;border-radius:14px;overflow:hidden;background:#f8fafc;padding:8px}}
     .pinterest-infographic-card figcaption{{margin-top:14px;font-size:15px;line-height:1.65;color:var(--muted)}}
     .pinterest-infographic-actions{{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:14px}}
