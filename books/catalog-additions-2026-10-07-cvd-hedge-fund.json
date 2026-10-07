@@ -1,0 +1,36 @@
+[
+  {
+    "google_books_id": "HRMXEgAAQBAJ",
+    "title": "CVD TRADING",
+    "subtitle": "Reading Cumulative Volume Delta, Order Flow, Absorption, Divergence, and Liquidity",
+    "slug": "cvd-trading",
+    "google_books_url": "https://play.google.com/store/books/details?id=HRMXEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=HRMXEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "status": "active",
+    "content_status": "pending_pdf",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading",
+    "translation_group": "",
+    "published_date": "2026",
+    "publisher": "Faramarz Kowsari",
+    "crossref_status": "not_registered"
+  },
+  {
+    "google_books_id": "AxMXEgAAQBAJ",
+    "title": "YOU ARE NOT A HEDGE FUND",
+    "subtitle": "Institutional Trading vs. Retail Trading: Why Institutional Trading Logic Can Destroy a Retail Account",
+    "slug": "you-are-not-a-hedge-fund",
+    "google_books_url": "https://play.google.com/store/books/details?id=AxMXEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=AxMXEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "status": "active",
+    "content_status": "pending_pdf",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading",
+    "translation_group": "",
+    "published_date": "2026",
+    "publisher": "Faramarz Kowsari",
+    "crossref_status": "not_registered"
+  }
+]
