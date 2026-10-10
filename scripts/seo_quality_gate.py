@@ -184,6 +184,8 @@ if not isinstance(entity, dict) or not entity:
 required_entity = {
     "person_id": "https://faramarzkowsari.github.io/#person",
     "name": "Faramarz Kowsari",
+    "given_name": "Faramarz",
+    "family_name": "Kowsari",
     "author_page": "https://faramarzkowsari.github.io/books/author/",
     "website": "https://faramarzkowsari.github.io/",
     "orcid": "0000-0003-1692-0453",
@@ -195,6 +197,8 @@ if PERSIAN_AUTHOR_NAME in (entity.get("alternate_name") or []):
     errors.append("author entity: Persian author name must not be exposed in book-facing entity data")
 if not clean(entity.get("image")):
     errors.append("author entity: canonical portrait URL is missing")
+if not clean(entity.get("disambiguating_description")):
+    errors.append("author entity: disambiguating description is missing")
 
 required_profiles = {
     "google_play_books",
@@ -246,6 +250,10 @@ else:
         person = people[0]
         if clean(person.get("name")) != entity.get("name"):
             errors.append("author page: Person name mismatch")
+        if clean(person.get("givenName")) != entity.get("given_name") or clean(person.get("familyName")) != entity.get("family_name"):
+            errors.append("author page: Person givenName/familyName mismatch")
+        if clean(person.get("disambiguatingDescription")) != clean(entity.get("disambiguating_description")):
+            errors.append("author page: Person disambiguatingDescription missing or mismatched")
         alt = person.get("alternateName") or []
         if isinstance(alt, str):
             alt = [alt]
@@ -272,6 +280,10 @@ else:
         errors.append("root index: canonical Person JSON-LD missing")
     else:
         person = root_people[0]
+        if clean(person.get("givenName")) != entity.get("given_name") or clean(person.get("familyName")) != entity.get("family_name"):
+            errors.append("root index: Person givenName/familyName mismatch")
+        if clean(person.get("disambiguatingDescription")) != clean(entity.get("disambiguating_description")):
+            errors.append("root index: Person disambiguatingDescription missing or mismatched")
         if clean(person.get("image")) != image_url:
             errors.append("root index: Person portrait does not match canonical author image")
         alt = person.get("alternateName") or []
