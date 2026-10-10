@@ -14,6 +14,7 @@ on:
       - "books/localizations/**"
       - "books/pinterest-infographics.json"
       - "books/related-articles.json"
+      - "books/book-image-galleries.json"
       - "books/author/entity.json"
       - "books/images/faramarz-kowsari-author.jpg"
       - "scripts/merge_catalog_additions.py"
@@ -40,6 +41,7 @@ on:
       - "scripts/build_market_language_pages.py"
       - "scripts/add_pinterest_infographics.py"
       - "scripts/add_related_articles.py"
+      - "scripts/add_book_image_galleries.py"
       - "scripts/add_ielts_sos_visual_companion.py"
       - "scripts/image_seo_books.py"
       - "scripts/enforce_google_books_alt.py"
@@ -94,6 +96,7 @@ jobs:
           python scripts/enforce_google_books_alt.py
           python scripts/author_entity_layer.py
           python scripts/add_related_articles.py
+          python scripts/add_book_image_galleries.py
           python scripts/build_google_books_cover_gallery.py
           python scripts/seo_sitemaps.py
           python scripts/image_seo_quality_gate.py
