@@ -9,7 +9,7 @@
   "canonical": "https://faramarzkowsari.github.io/books/",
   "text_index": "https://faramarzkowsari.github.io/books/all-books/",
   "sitemap": "https://faramarzkowsari.github.io/books/sitemap.xml",
-  "book_count": 162,
+  "book_count": 163,
   "books": [
     {
       "slug": "depremde-hayatta-kalma",
@@ -49595,6 +49595,437 @@
       "doi": ""
     },
     {
+      "slug": "level-2-market-data-explained",
+      "title": "LEVEL 2 MARKET DATA EXPLAINED",
+      "subtitle": "From Exchange Feeds to Order Book Intelligence, Market Depth, and Real-Time Trading Decisions",
+      "author": "Faramarz Kowsari",
+      "language": "English",
+      "category": "Trading",
+      "summary": "LEVEL 2 MARKET DATA EXPLAINED follows market-depth information from the exchange mechanism to the trader's screen and then into a real-time analytical decision. It begins by separating last-traded price, top-of-book quotes and actual depth, then explains the limit order book, Level 1 versus Level 2 versus Level 3, Market by Price (MBP), Market by Order (MBO), venue boundaries and the invisible limits of displayed liquidity. The book repeatedly stresses that Level 2 is a filtered view of eligible resting interest rather than a complete map of intent, and that differences between terminals can arise from venue scope, aggregation, update frequency, timing and entitlement rather than from hidden manipulation.",
+      "seo_description": "A practical and technical guide to Level 2 market data covering exchange feeds, order books, MBP/MBO, market depth, data providers, latency, reconstruction, imbalance, microprice, liquidity dynamics, backtesting and real-time trading decisions.",
+      "seo": {
+        "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+        "secondary_queries": [
+          "LEVEL 2 MARKET DATA EXPLAINED book",
+          "From Exchange Feeds to Order Book Intelligence, Market Depth, and Real-Time Trading Decisions",
+          "Trading",
+          "Level 2 market data",
+          "Limit order book",
+          "Level 1, Level 2 and Level 3",
+          "Market by Price (MBP)",
+          "Market by Order (MBO)",
+          "Displayed market depth",
+          "Venue-specific depth",
+          "Market data supply chain",
+          "Nasdaq, NYSE and Cboe equity feeds"
+        ],
+        "long_tail_queries": [
+          "LEVEL 2 MARKET DATA EXPLAINED by Faramarz Kowsari",
+          "practical guide to Level 2 market data",
+          "how Level 2 market data works",
+          "Level 2 market data Limit order book"
+        ],
+        "entities": [
+          "Level 2 market data",
+          "Limit order book",
+          "Level 1, Level 2 and Level 3",
+          "Market by Price (MBP)",
+          "Market by Order (MBO)",
+          "Displayed market depth",
+          "Venue-specific depth",
+          "Market data supply chain",
+          "Nasdaq, NYSE and Cboe equity feeds",
+          "CME futures depth",
+          "Cryptocurrency order books",
+          "Options and FX market structure",
+          "Free and public market-depth sources",
+          "Paid market data providers",
+          "Market data pricing and licensing",
+          "Feed selection and cost control",
+          "Market data messages",
+          "Order-book reconstruction",
+          "Sequence handling",
+          "Time, latency and synchronization"
+        ],
+        "cluster": "trading-markets",
+        "cluster_label": "Trading & Financial Markets",
+        "localized": {
+          "en": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED book",
+              "trading and financial markets book",
+              "Level 2 market data guide",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "how Level 2 market data works",
+              "practical guide to Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED by Faramarz Kowsari"
+            ],
+            "category_phrase": "trading and financial markets"
+          },
+          "tr": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED kitap",
+              "trading ve finansal piyasalar kitap",
+              "Level 2 market data rehberi",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "Level 2 market data nasıl çalışır",
+              "Level 2 market data için uygulamalı rehberi",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "trading ve finansal piyasalar"
+          },
+          "ru": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED книга",
+              "книга о трейдинг и финансовые рынки",
+              "руководство по Level 2 market data",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "как работает Level 2 market data",
+              "практическое руководство по Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "трейдинг и финансовые рынки"
+          },
+          "de": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED Buch",
+              "Trading und Finanzmärkte Buch",
+              "Level 2 market data Leitfaden",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "wie funktioniert Level 2 market data",
+              "praktischer Leitfaden zu Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "Trading und Finanzmärkte"
+          },
+          "es": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED libro",
+              "libro de trading y mercados financieros",
+              "guía de Level 2 market data",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "cómo funciona Level 2 market data",
+              "guía práctica de Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "trading y mercados financieros"
+          },
+          "fr": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED livre",
+              "livre sur trading et marchés financiers",
+              "guide Level 2 market data",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "comment fonctionne Level 2 market data",
+              "guide pratique de Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "trading et marchés financiers"
+          },
+          "pt-BR": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED livro",
+              "livro sobre trading e mercados financeiros",
+              "guia de Level 2 market data",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "como funciona Level 2 market data",
+              "guia prático de Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "trading e mercados financeiros"
+          },
+          "fa": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED کتاب",
+              "کتاب معامله‌گری و بازارهای مالی",
+              "راهنما Level 2 market data",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "Level 2 market data چیست",
+              "راهنما کاربردی Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED فرامرز کوثری"
+            ],
+            "category_phrase": "معامله‌گری و بازارهای مالی"
+          },
+          "ar": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED كتاب",
+              "كتاب عن التداول والأسواق المالية",
+              "دليل Level 2 market data",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "ما هو Level 2 market data",
+              "دليل عملي عن Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "التداول والأسواق المالية"
+          },
+          "id": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED buku",
+              "buku trading dan pasar keuangan",
+              "panduan Level 2 market data",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "cara kerja Level 2 market data",
+              "panduan praktis Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "trading dan pasar keuangan"
+          },
+          "vi": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED sách",
+              "sách về giao dịch và thị trường tài chính",
+              "hướng dẫn Level 2 market data",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "Level 2 market data hoạt động như thế nào",
+              "hướng dẫn thực hành Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "giao dịch và thị trường tài chính"
+          },
+          "th": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED หนังสือ",
+              "หนังสือ การเทรดและตลาดการเงิน",
+              "คู่มือ Level 2 market data",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "Level 2 market data ทำงานอย่างไร",
+              "คู่มือ Level 2 market data แบบปฏิบัติ",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "การเทรดและตลาดการเงิน"
+          },
+          "bn": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED বই",
+              "ট্রেডিং ও আর্থিক বাজার বই",
+              "Level 2 market data গাইড",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "Level 2 market data কীভাবে কাজ করে",
+              "Level 2 market data ব্যবহারিক গাইড",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "ট্রেডিং ও আর্থিক বাজার"
+          },
+          "ro": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED carte",
+              "carte despre trading și piețe financiare",
+              "ghid Level 2 market data",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "cum funcționează Level 2 market data",
+              "ghid practic pentru Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "trading și piețe financiare"
+          },
+          "fil": {
+            "primary_query": "LEVEL 2 MARKET DATA EXPLAINED",
+            "secondary_queries": [
+              "LEVEL 2 MARKET DATA EXPLAINED aklat",
+              "aklat tungkol sa trading at financial markets",
+              "gabay sa Level 2 market data",
+              "Level 2 market data",
+              "Limit order book",
+              "Level 1, Level 2 and Level 3",
+              "Market by Price (MBP)",
+              "Market by Order (MBO)",
+              "Displayed market depth"
+            ],
+            "long_tail_queries": [
+              "paano gumagana ang Level 2 market data",
+              "praktikal na gabay sa Level 2 market data",
+              "LEVEL 2 MARKET DATA EXPLAINED Faramarz Kowsari"
+            ],
+            "category_phrase": "trading at financial markets"
+          }
+        },
+        "related_slugs": [
+          "volume-profile-trading",
+          "dom-trading",
+          "cvd-trading",
+          "0dte-options",
+          "choch-and-bos"
+        ]
+      },
+      "key_topics": [
+        "Level 2 market data",
+        "Limit order book",
+        "Level 1, Level 2 and Level 3",
+        "Market by Price (MBP)",
+        "Market by Order (MBO)",
+        "Displayed market depth",
+        "Venue-specific depth",
+        "Market data supply chain",
+        "Nasdaq, NYSE and Cboe equity feeds",
+        "CME futures depth",
+        "Cryptocurrency order books",
+        "Options and FX market structure",
+        "Free and public market-depth sources",
+        "Paid market data providers",
+        "Market data pricing and licensing",
+        "Feed selection and cost control",
+        "Market data messages",
+        "Order-book reconstruction",
+        "Sequence handling",
+        "Time, latency and synchronization",
+        "Market data quality assurance",
+        "Real-time Level 2 data pipelines",
+        "Visible liquidity mathematics",
+        "Order flow imbalance",
+        "Microprice",
+        "Liquidity walls",
+        "Pulling and stacking",
+        "Absorption and exhaustion",
+        "Queue dynamics",
+        "Liquidity gaps",
+        "Resilience and market impact",
+        "Opening-session Level 2",
+        "ES and NQ execution risk",
+        "Cross-exchange crypto liquidity",
+        "Backtesting Level 2 strategies",
+        "False-edge rejection",
+        "Data provenance",
+        "Failure injection and diagnostics",
+        "Research and execution audit"
+      ],
+      "learning": [
+        "Distinguish last price, best bid/offer and true multi-level order-book depth without treating them as interchangeable market views.",
+        "Understand Level 1, Level 2, Level 3, MBP and MBO and how each representation changes what can be observed.",
+        "Identify venue, entitlement, aggregation and update-frequency differences that can make two terminals display different depth for the same symbol.",
+        "Compare equity, futures, crypto, options and FX market-depth structures without assuming one market's feed model applies to another.",
+        "Evaluate free and paid market-data sources by product scope, venue coverage, depth limits, message type, latency, licensing and redistribution rights.",
+        "Reconstruct an order book from snapshots and incremental updates while detecting sequence gaps, stale state and invalid transitions.",
+        "Measure timing with synchronized wall-clock timestamps and local monotonic clocks, and interpret latency, jitter and stale intervals explicitly.",
+        "Build a real-time Level 2 pipeline with quality checks that can stop producing metrics when the book state becomes unreliable.",
+        "Calculate visible-liquidity measures such as book imbalance and microprice under stated conventions rather than treating formulas as universal truths.",
+        "Interpret pulling, stacking, absorption, exhaustion, queue behavior, liquidity gaps, resilience and market impact as conditional evidence rather than guaranteed signals.",
+        "Apply Level 2 context to the U.S. equity open, ES/NQ futures and fragmented cryptocurrency markets while respecting execution and venue risk.",
+        "Backtest Level 2 signals with event-aware data, realistic timing, explicit assumptions and procedures for rejecting false edges.",
+        "Use provider due-diligence, reproducible Python fixtures, failure injection and execution audits to make market-depth research independently checkable."
+      ],
+      "target_audience": "For active traders, order-flow and DOM users, quantitative researchers, developers and technically minded market participants who want to understand what Level 2 data actually contains, where it comes from, how to reconstruct and validate it, how much of the market it omits, and how to use depth-derived signals without confusing displayed liquidity with certainty.",
+      "url": "https://faramarzkowsari.github.io/books/level-2-market-data-explained/",
+      "google_books_id": "GCwZEgAAQBAJ",
+      "google_books_url": "https://play.google.com/store/books/details?id=GCwZEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=GCwZEgAAQBAJ&hl=en",
+      "cover_url": "https://books.google.com/books/content?id=GCwZEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "published_date": "2026",
+      "isbn": "",
+      "doi": ""
+    },
+    {
       "slug": "liquidity-sweep",
       "title": "Liquidity Sweep:",
       "subtitle": "A Practical Guide to Stop Runs, False Breakouts, Market Structure, Trade Confirmation, and Risk-Controlled Execution",
@@ -52746,27 +53177,8 @@
       "summary": "Options Flow Trading teaches readers to interpret listed-options transaction activity as evidence rather than as a shortcut to hidden institutional intent. The book starts with the mechanics required to read a flow feed responsibly: how an options order reaches the tape, how execution near the bid, ask or mid can be classified, why aggressor labels remain imperfect, and how sweeps, blocks and large prints should be understood without assuming that size or urgency automatically reveals direction. Multi-leg orders, unusual activity, volume versus open interest, the ambiguity between opening and closing trades, next-day open-interest reconciliation, premium flow, notional exposure and delta-adjusted flow are all treated as pieces of a forensic reconstruction rather than stand-alone signals.\n\nThe middle of the book expands the analysis from a single print to positioning context. It examines strike, moneyness and expiration, repeat sweepers and clusters, 0DTE activity, event-driven flow around earnings and macro releases, market-wide put/call premium, sector and index concentration, cross-market confirmation and the relationship between options flow and the underlying tape. Greeks, dealer hedging, gamma exposure, vanna, charm and volatility skew are introduced as bridges to adjacent frameworks without turning transaction flow into a second gamma or volatility-skew textbook. A recurring principle is that the same visible print may represent a new directional position, a hedge, a close, a roll, one leg of a spread, an inventory transfer or a volatility trade, so the analyst must preserve uncertainty until enough independent evidence accumulates.\n\nThe later chapters convert that discipline into operating procedures. Intraday and swing/event-driven playbooks separate context, evidence stack and invalidation so traders do not chase every alert. False positives, flow traps and institutional-positioning narratives are examined alongside platform-agnostic scanner design, repeatable workflows, case studies, journaling and risk management. The case-study framework deliberately includes success, failure, ambiguity and no-trade outcomes, with competing hypotheses recorded before the result is known. The closing message is conservative by design: a print is evidence, not truth. The objective is not to invent certainty but to narrow uncertainty enough to make a reasoned decision—or to recognize when the correct decision is to leave the conclusion unfinished.",
       "seo_description": "A practical options-flow trading guide to unusual activity, sweeps, blocks, open interest, premium flow, execution forensics, positioning clues, 0DTE flow, Greeks, dealer hedging, risk and repeatable playbooks.",
       "seo": {
-        "primary_query": "Options Flow Trading",
-        "secondary_queries": [
-          "Options Flow Trading book",
-          "Unusual Options Activity, Sweeps, Blocks, Open Interest, Premium Flow, and Institutional Positioning",
-          "Trading",
-          "Options flow",
-          "Unusual options activity",
-          "Options tape reading",
-          "Execution forensics",
-          "Bid, ask and mid-price execution",
-          "Aggressor classification",
-          "Sweeps",
-          "Blocks and large prints",
-          "Multi-leg options orders"
-        ],
-        "long_tail_queries": [
-          "Options Flow Trading by Faramarz Kowsari",
-          "practical guide to Options flow",
-          "how Options flow works",
-          "Options flow Unusual options activity"
-        ],
+        "cluster": "options-volatility-trading",
+        "cluster_label": "Options, Gamma & Volatility Trading",
         "entities": [
           "Options flow",
           "Unusual options activity",
@@ -52789,170 +53201,14 @@
           "0DTE options flow",
           "Event-driven options flow"
         ],
-        "cluster": "options-volatility-trading",
-        "cluster_label": "Options, Gamma & Volatility Trading",
         "localized": {
-          "en": {
-            "primary_query": "Options Flow Trading",
-            "secondary_queries": [
-              "Options Flow Trading book",
-              "trading and financial markets book",
-              "Options flow guide",
-              "Options flow",
-              "Unusual options activity",
-              "Options tape reading",
-              "Execution forensics",
-              "Bid, ask and mid-price execution",
-              "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "how Options flow works",
-              "practical guide to Options flow",
-              "Options Flow Trading by Faramarz Kowsari"
-            ],
-            "category_phrase": "trading and financial markets"
-          },
-          "tr": {
-            "primary_query": "Options Flow Trading",
-            "secondary_queries": [
-              "Options Flow Trading kitap",
-              "trading ve finansal piyasalar kitap",
-              "Options flow rehberi",
-              "Options flow",
-              "Unusual options activity",
-              "Options tape reading",
-              "Execution forensics",
-              "Bid, ask and mid-price execution",
-              "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "Options flow nasıl çalışır",
-              "Options flow için uygulamalı rehberi",
-              "Options Flow Trading Faramarz Kowsari"
-            ],
-            "category_phrase": "trading ve finansal piyasalar"
-          },
-          "ru": {
-            "primary_query": "Options Flow Trading",
-            "secondary_queries": [
-              "Options Flow Trading книга",
-              "книга о трейдинг и финансовые рынки",
-              "руководство по Options flow",
-              "Options flow",
-              "Unusual options activity",
-              "Options tape reading",
-              "Execution forensics",
-              "Bid, ask and mid-price execution",
-              "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "как работает Options flow",
-              "практическое руководство по Options flow",
-              "Options Flow Trading Faramarz Kowsari"
-            ],
-            "category_phrase": "трейдинг и финансовые рынки"
-          },
-          "de": {
-            "primary_query": "Options Flow Trading",
-            "secondary_queries": [
-              "Options Flow Trading Buch",
-              "Trading und Finanzmärkte Buch",
-              "Options flow Leitfaden",
-              "Options flow",
-              "Unusual options activity",
-              "Options tape reading",
-              "Execution forensics",
-              "Bid, ask and mid-price execution",
-              "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "wie funktioniert Options flow",
-              "praktischer Leitfaden zu Options flow",
-              "Options Flow Trading Faramarz Kowsari"
-            ],
-            "category_phrase": "Trading und Finanzmärkte"
-          },
-          "es": {
-            "primary_query": "Options Flow Trading",
-            "secondary_queries": [
-              "Options Flow Trading libro",
-              "libro de trading y mercados financieros",
-              "guía de Options flow",
-              "Options flow",
-              "Unusual options activity",
-              "Options tape reading",
-              "Execution forensics",
-              "Bid, ask and mid-price execution",
-              "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "cómo funciona Options flow",
-              "guía práctica de Options flow",
-              "Options Flow Trading Faramarz Kowsari"
-            ],
-            "category_phrase": "trading y mercados financieros"
-          },
-          "fr": {
-            "primary_query": "Options Flow Trading",
-            "secondary_queries": [
-              "Options Flow Trading livre",
-              "livre sur trading et marchés financiers",
-              "guide Options flow",
-              "Options flow",
-              "Unusual options activity",
-              "Options tape reading",
-              "Execution forensics",
-              "Bid, ask and mid-price execution",
-              "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "comment fonctionne Options flow",
-              "guide pratique de Options flow",
-              "Options Flow Trading Faramarz Kowsari"
-            ],
-            "category_phrase": "trading et marchés financiers"
-          },
-          "pt-BR": {
-            "primary_query": "Options Flow Trading",
-            "secondary_queries": [
-              "Options Flow Trading livro",
-              "livro sobre trading e mercados financeiros",
-              "guia de Options flow",
-              "Options flow",
-              "Unusual options activity",
-              "Options tape reading",
-              "Execution forensics",
-              "Bid, ask and mid-price execution",
-              "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "como funciona Options flow",
-              "guia prático de Options flow",
-              "Options Flow Trading Faramarz Kowsari"
-            ],
-            "category_phrase": "trading e mercados financeiros"
-          },
-          "fa": {
-            "primary_query": "Options Flow Trading",
-            "secondary_queries": [
-              "Options Flow Trading کتاب",
-              "کتاب معامله‌گری و بازارهای مالی",
-              "راهنما Options flow",
-              "Options flow",
-              "Unusual options activity",
-              "Options tape reading",
-              "Execution forensics",
-              "Bid, ask and mid-price execution",
-              "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "Options flow چیست",
-              "راهنما کاربردی Options flow",
-              "Options Flow Trading فرامرز کوثری"
-            ],
-            "category_phrase": "معامله‌گری و بازارهای مالی"
-          },
           "ar": {
+            "category_phrase": "التداول والأسواق المالية",
+            "long_tail_queries": [
+              "ما هو Options flow",
+              "دليل عملي عن Options flow",
+              "Options Flow Trading Faramarz Kowsari"
+            ],
             "primary_query": "Options Flow Trading",
             "secondary_queries": [
               "Options Flow Trading كتاب",
@@ -52964,75 +53220,15 @@
               "Execution forensics",
               "Bid, ask and mid-price execution",
               "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "ما هو Options flow",
-              "دليل عملي عن Options flow",
-              "Options Flow Trading Faramarz Kowsari"
-            ],
-            "category_phrase": "التداول والأسواق المالية"
-          },
-          "id": {
-            "primary_query": "Options Flow Trading",
-            "secondary_queries": [
-              "Options Flow Trading buku",
-              "buku trading dan pasar keuangan",
-              "panduan Options flow",
-              "Options flow",
-              "Unusual options activity",
-              "Options tape reading",
-              "Execution forensics",
-              "Bid, ask and mid-price execution",
-              "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "cara kerja Options flow",
-              "panduan praktis Options flow",
-              "Options Flow Trading Faramarz Kowsari"
-            ],
-            "category_phrase": "trading dan pasar keuangan"
-          },
-          "vi": {
-            "primary_query": "Options Flow Trading",
-            "secondary_queries": [
-              "Options Flow Trading sách",
-              "sách về giao dịch và thị trường tài chính",
-              "hướng dẫn Options flow",
-              "Options flow",
-              "Unusual options activity",
-              "Options tape reading",
-              "Execution forensics",
-              "Bid, ask and mid-price execution",
-              "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "Options flow hoạt động như thế nào",
-              "hướng dẫn thực hành Options flow",
-              "Options Flow Trading Faramarz Kowsari"
-            ],
-            "category_phrase": "giao dịch và thị trường tài chính"
-          },
-          "th": {
-            "primary_query": "Options Flow Trading",
-            "secondary_queries": [
-              "Options Flow Trading หนังสือ",
-              "หนังสือ การเทรดและตลาดการเงิน",
-              "คู่มือ Options flow",
-              "Options flow",
-              "Unusual options activity",
-              "Options tape reading",
-              "Execution forensics",
-              "Bid, ask and mid-price execution",
-              "Aggressor classification"
-            ],
-            "long_tail_queries": [
-              "Options flow ทำงานอย่างไร",
-              "คู่มือ Options flow แบบปฏิบัติ",
-              "Options Flow Trading Faramarz Kowsari"
-            ],
-            "category_phrase": "การเทรดและตลาดการเงิน"
+            ]
           },
           "bn": {
+            "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
+            "long_tail_queries": [
+              "Options flow কীভাবে কাজ করে",
+              "Options flow ব্যবহারিক গাইড",
+              "Options Flow Trading Faramarz Kowsari"
+            ],
             "primary_query": "Options Flow Trading",
             "secondary_queries": [
               "Options Flow Trading বই",
@@ -53044,35 +53240,95 @@
               "Execution forensics",
               "Bid, ask and mid-price execution",
               "Aggressor classification"
-            ],
+            ]
+          },
+          "de": {
+            "category_phrase": "Trading und Finanzmärkte",
             "long_tail_queries": [
-              "Options flow কীভাবে কাজ করে",
-              "Options flow ব্যবহারিক গাইড",
+              "wie funktioniert Options flow",
+              "praktischer Leitfaden zu Options flow",
               "Options Flow Trading Faramarz Kowsari"
             ],
-            "category_phrase": "ট্রেডিং ও আর্থিক বাজার"
-          },
-          "ro": {
             "primary_query": "Options Flow Trading",
             "secondary_queries": [
-              "Options Flow Trading carte",
-              "carte despre trading și piețe financiare",
-              "ghid Options flow",
+              "Options Flow Trading Buch",
+              "Trading und Finanzmärkte Buch",
+              "Options flow Leitfaden",
               "Options flow",
               "Unusual options activity",
               "Options tape reading",
               "Execution forensics",
               "Bid, ask and mid-price execution",
               "Aggressor classification"
-            ],
+            ]
+          },
+          "en": {
+            "category_phrase": "trading and financial markets",
             "long_tail_queries": [
-              "cum funcționează Options flow",
-              "ghid practic pentru Options flow",
+              "how Options flow works",
+              "practical guide to Options flow",
+              "Options Flow Trading by Faramarz Kowsari"
+            ],
+            "primary_query": "Options Flow Trading",
+            "secondary_queries": [
+              "Options Flow Trading book",
+              "trading and financial markets book",
+              "Options flow guide",
+              "Options flow",
+              "Unusual options activity",
+              "Options tape reading",
+              "Execution forensics",
+              "Bid, ask and mid-price execution",
+              "Aggressor classification"
+            ]
+          },
+          "es": {
+            "category_phrase": "trading y mercados financieros",
+            "long_tail_queries": [
+              "cómo funciona Options flow",
+              "guía práctica de Options flow",
               "Options Flow Trading Faramarz Kowsari"
             ],
-            "category_phrase": "trading și piețe financiare"
+            "primary_query": "Options Flow Trading",
+            "secondary_queries": [
+              "Options Flow Trading libro",
+              "libro de trading y mercados financieros",
+              "guía de Options flow",
+              "Options flow",
+              "Unusual options activity",
+              "Options tape reading",
+              "Execution forensics",
+              "Bid, ask and mid-price execution",
+              "Aggressor classification"
+            ]
+          },
+          "fa": {
+            "category_phrase": "معامله‌گری و بازارهای مالی",
+            "long_tail_queries": [
+              "Options flow چیست",
+              "راهنما کاربردی Options flow",
+              "Options Flow Trading فرامرز کوثری"
+            ],
+            "primary_query": "Options Flow Trading",
+            "secondary_queries": [
+              "Options Flow Trading کتاب",
+              "کتاب معامله‌گری و بازارهای مالی",
+              "راهنما Options flow",
+              "Options flow",
+              "Unusual options activity",
+              "Options tape reading",
+              "Execution forensics",
+              "Bid, ask and mid-price execution",
+              "Aggressor classification"
+            ]
           },
           "fil": {
+            "category_phrase": "trading at financial markets",
+            "long_tail_queries": [
+              "paano gumagana ang Options flow",
+              "praktikal na gabay sa Options flow",
+              "Options Flow Trading Faramarz Kowsari"
+            ],
             "primary_query": "Options Flow Trading",
             "secondary_queries": [
               "Options Flow Trading aklat",
@@ -53084,21 +53340,196 @@
               "Execution forensics",
               "Bid, ask and mid-price execution",
               "Aggressor classification"
-            ],
+            ]
+          },
+          "fr": {
+            "category_phrase": "trading et marchés financiers",
             "long_tail_queries": [
-              "paano gumagana ang Options flow",
-              "praktikal na gabay sa Options flow",
+              "comment fonctionne Options flow",
+              "guide pratique de Options flow",
               "Options Flow Trading Faramarz Kowsari"
             ],
-            "category_phrase": "trading at financial markets"
+            "primary_query": "Options Flow Trading",
+            "secondary_queries": [
+              "Options Flow Trading livre",
+              "livre sur trading et marchés financiers",
+              "guide Options flow",
+              "Options flow",
+              "Unusual options activity",
+              "Options tape reading",
+              "Execution forensics",
+              "Bid, ask and mid-price execution",
+              "Aggressor classification"
+            ]
+          },
+          "id": {
+            "category_phrase": "trading dan pasar keuangan",
+            "long_tail_queries": [
+              "cara kerja Options flow",
+              "panduan praktis Options flow",
+              "Options Flow Trading Faramarz Kowsari"
+            ],
+            "primary_query": "Options Flow Trading",
+            "secondary_queries": [
+              "Options Flow Trading buku",
+              "buku trading dan pasar keuangan",
+              "panduan Options flow",
+              "Options flow",
+              "Unusual options activity",
+              "Options tape reading",
+              "Execution forensics",
+              "Bid, ask and mid-price execution",
+              "Aggressor classification"
+            ]
+          },
+          "pt-BR": {
+            "category_phrase": "trading e mercados financeiros",
+            "long_tail_queries": [
+              "como funciona Options flow",
+              "guia prático de Options flow",
+              "Options Flow Trading Faramarz Kowsari"
+            ],
+            "primary_query": "Options Flow Trading",
+            "secondary_queries": [
+              "Options Flow Trading livro",
+              "livro sobre trading e mercados financeiros",
+              "guia de Options flow",
+              "Options flow",
+              "Unusual options activity",
+              "Options tape reading",
+              "Execution forensics",
+              "Bid, ask and mid-price execution",
+              "Aggressor classification"
+            ]
+          },
+          "ro": {
+            "category_phrase": "trading și piețe financiare",
+            "long_tail_queries": [
+              "cum funcționează Options flow",
+              "ghid practic pentru Options flow",
+              "Options Flow Trading Faramarz Kowsari"
+            ],
+            "primary_query": "Options Flow Trading",
+            "secondary_queries": [
+              "Options Flow Trading carte",
+              "carte despre trading și piețe financiare",
+              "ghid Options flow",
+              "Options flow",
+              "Unusual options activity",
+              "Options tape reading",
+              "Execution forensics",
+              "Bid, ask and mid-price execution",
+              "Aggressor classification"
+            ]
+          },
+          "ru": {
+            "category_phrase": "трейдинг и финансовые рынки",
+            "long_tail_queries": [
+              "как работает Options flow",
+              "практическое руководство по Options flow",
+              "Options Flow Trading Faramarz Kowsari"
+            ],
+            "primary_query": "Options Flow Trading",
+            "secondary_queries": [
+              "Options Flow Trading книга",
+              "книга о трейдинг и финансовые рынки",
+              "руководство по Options flow",
+              "Options flow",
+              "Unusual options activity",
+              "Options tape reading",
+              "Execution forensics",
+              "Bid, ask and mid-price execution",
+              "Aggressor classification"
+            ]
+          },
+          "th": {
+            "category_phrase": "การเทรดและตลาดการเงิน",
+            "long_tail_queries": [
+              "Options flow ทำงานอย่างไร",
+              "คู่มือ Options flow แบบปฏิบัติ",
+              "Options Flow Trading Faramarz Kowsari"
+            ],
+            "primary_query": "Options Flow Trading",
+            "secondary_queries": [
+              "Options Flow Trading หนังสือ",
+              "หนังสือ การเทรดและตลาดการเงิน",
+              "คู่มือ Options flow",
+              "Options flow",
+              "Unusual options activity",
+              "Options tape reading",
+              "Execution forensics",
+              "Bid, ask and mid-price execution",
+              "Aggressor classification"
+            ]
+          },
+          "tr": {
+            "category_phrase": "trading ve finansal piyasalar",
+            "long_tail_queries": [
+              "Options flow nasıl çalışır",
+              "Options flow için uygulamalı rehberi",
+              "Options Flow Trading Faramarz Kowsari"
+            ],
+            "primary_query": "Options Flow Trading",
+            "secondary_queries": [
+              "Options Flow Trading kitap",
+              "trading ve finansal piyasalar kitap",
+              "Options flow rehberi",
+              "Options flow",
+              "Unusual options activity",
+              "Options tape reading",
+              "Execution forensics",
+              "Bid, ask and mid-price execution",
+              "Aggressor classification"
+            ]
+          },
+          "vi": {
+            "category_phrase": "giao dịch và thị trường tài chính",
+            "long_tail_queries": [
+              "Options flow hoạt động như thế nào",
+              "hướng dẫn thực hành Options flow",
+              "Options Flow Trading Faramarz Kowsari"
+            ],
+            "primary_query": "Options Flow Trading",
+            "secondary_queries": [
+              "Options Flow Trading sách",
+              "sách về giao dịch và thị trường tài chính",
+              "hướng dẫn Options flow",
+              "Options flow",
+              "Unusual options activity",
+              "Options tape reading",
+              "Execution forensics",
+              "Bid, ask and mid-price execution",
+              "Aggressor classification"
+            ]
           }
         },
+        "long_tail_queries": [
+          "Options Flow Trading by Faramarz Kowsari",
+          "practical guide to Options flow",
+          "how Options flow works",
+          "Options flow Unusual options activity"
+        ],
+        "primary_query": "Options Flow Trading",
         "related_slugs": [
           "gamma-exposure-trading",
           "0dte-options",
           "cvd-trading",
           "the-heikin-ashi-trading-strategy",
           "volume-bubbles-trading"
+        ],
+        "secondary_queries": [
+          "Options Flow Trading book",
+          "Unusual Options Activity, Sweeps, Blocks, Open Interest, Premium Flow, and Institutional Positioning",
+          "Trading",
+          "Options flow",
+          "Unusual options activity",
+          "Options tape reading",
+          "Execution forensics",
+          "Bid, ask and mid-price execution",
+          "Aggressor classification",
+          "Sweeps",
+          "Blocks and large prints",
+          "Multi-leg options orders"
         ]
       },
       "key_topics": [
