@@ -14,5 +14,13 @@
       "platform": "Medium",
       "description": "A companion article for the book, presenting a visual, concept-first way to prepare for machine learning interviews and reinforcing the book's 250-question interview-preparation framework."
     }
+  ],
+  "0dte-options": [
+    {
+      "title": "0DTE Options Trading: Why You Can Predict the Market Correctly and Still Lose Money",
+      "url": "https://medium.com/@faramarz.kowsari/0dte-options-trading-why-you-can-predict-the-market-correctly-and-still-lose-money-9aed160d4e95",
+      "platform": "Medium",
+      "description": "A companion article for 0DTE Options: Trading the Same-Day Market, explaining why directional accuracy alone is not enough when same-day options are dominated by rapid time decay, changing Greeks, execution quality and risk."
+    }
   ]
 }
