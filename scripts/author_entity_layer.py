@@ -160,7 +160,10 @@ def expanded_person(entity: dict) -> dict:
         "@type": "Person",
         "@id": entity["person_id"],
         "name": entity["name"],
+        "givenName": entity.get("given_name", "Faramarz"),
+        "familyName": entity.get("family_name", "Kowsari"),
         "alternateName": entity.get("alternate_name", []),
+        "disambiguatingDescription": entity.get("disambiguating_description", entity["short_description"]),
         "url": entity["website"],
         "mainEntityOfPage": entity["author_page"],
         "image": entity["image"],
@@ -333,8 +336,8 @@ def iter_public_book_pages(books: list[dict]):
 
 def validate_entity(entity: dict) -> None:
     required = [
-        "person_id", "name", "alternate_name", "website", "author_page", "image",
-        "bio", "short_description", "orcid", "profiles", "same_as",
+        "person_id", "name", "given_name", "family_name", "alternate_name", "website", "author_page", "image",
+        "bio", "short_description", "disambiguating_description", "orcid", "profiles", "same_as",
     ]
     missing = [key for key in required if not entity.get(key)]
     if missing:
@@ -343,6 +346,8 @@ def validate_entity(entity: dict) -> None:
         raise SystemExit("Author entity person_id must remain the canonical site-wide #person ID")
     if entity["name"] != "Faramarz Kowsari":
         raise SystemExit("Author entity canonical name changed unexpectedly")
+    if entity.get("given_name") != "Faramarz" or entity.get("family_name") != "Kowsari":
+        raise SystemExit("Author entity given/family name must remain Faramarz Kowsari")
     if "فرامرز کوثری" in entity.get("alternate_name", []):
         raise SystemExit("Persian author alias must not be exposed by the books Author Entity Layer")
 
