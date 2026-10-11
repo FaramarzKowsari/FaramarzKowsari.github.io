@@ -42,6 +42,7 @@ on:
       - "scripts/add_pinterest_infographics.py"
       - "scripts/add_related_articles.py"
       - "scripts/add_book_image_galleries.py"
+      - "scripts/pinterest_outbound_quality_gate.py"
       - "scripts/add_ielts_sos_visual_companion.py"
       - "scripts/image_seo_books.py"
       - "scripts/enforce_google_books_alt.py"
@@ -97,6 +98,7 @@ jobs:
           python scripts/author_entity_layer.py
           python scripts/add_related_articles.py
           python scripts/add_book_image_galleries.py
+          python scripts/pinterest_outbound_quality_gate.py
           python scripts/build_google_books_cover_gallery.py
           python scripts/seo_sitemaps.py
           python scripts/image_seo_quality_gate.py
