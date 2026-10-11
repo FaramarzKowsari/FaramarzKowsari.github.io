@@ -1,55 +1,70 @@
+#!/usr/bin/env python3
+"""Render Pinterest-hosted visual guides without any outbound Pinterest links.
+
+Pinterest may host the image bytes on i.pinimg.com, but every clickable image and
+button routes only to the corresponding Google Play Books purchase page. Direct
+Pinterest pin links and Pinterest embed scripts are intentionally forbidden.
+"""
+
+from __future__ import annotations
+
 import html
 import json
 import pathlib
 import re
+import sys
+from urllib.parse import urlsplit
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 BOOKS_DIR = ROOT / "books"
 DATA = BOOKS_DIR / "pinterest-infographics.json"
 START = "<!-- pinterest-infographics:start -->"
 END = "<!-- pinterest-infographics:end -->"
-PINIT = '<script async defer src="https://assets.pinterest.com/js/pinit.js"></script>'
 
 
 def esc(value):
     return html.escape(str(value or ""), quote=True)
 
 
-def pin_id(pin_url):
-    match = re.search(r"/pin/(\d+)/?", str(pin_url or ""))
-    return match.group(1) if match else ""
+def valid_google_books_url(url: str) -> bool:
+    try:
+        parts = urlsplit(str(url or ""))
+    except ValueError:
+        return False
+    return (
+        parts.scheme == "https"
+        and (parts.hostname or "").lower() == "play.google.com"
+        and parts.path == "/store/books/details"
+        and bool(re.search(r"(?:^|&)id=[A-Za-z0-9_-]+(?:&|$)", parts.query))
+    )
+
+
+def valid_pinimg_url(url: str) -> bool:
+    try:
+        parts = urlsplit(str(url or ""))
+    except ValueError:
+        return False
+    return (
+        parts.scheme == "https"
+        and (parts.hostname or "").lower() == "i.pinimg.com"
+        and parts.path.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
+    )
 
 
 def render_card(pin, google_url):
     title = esc(pin.get("title") or "Book infographic")
     desc = esc(pin.get("description") or "")
     alt = esc(pin.get("alt_text") or pin.get("title") or "Book infographic")
-    pin_url = esc(pin.get("pin_url") or "")
-    image_url = esc(pin.get("image_url") or "")
-
-    if image_url:
-        media = f'''<a class="pinterest-infographic-image-link" href="{esc(google_url)}" target="_blank" rel="noopener noreferrer" aria-label="View or buy the book on Google Books">
-          <img src="{image_url}" alt="{alt}" title="{title}" loading="lazy" decoding="async">
-        </a>'''
-    else:
-        media = f'''<div class="pinterest-pin-embed" aria-label="{alt}">
-          <a data-pin-do="embedPin" href="{pin_url}"></a>
-        </div>'''
-
-    if pin_url:
-        pin_link = f'<a class="pinterest-source-link" href="{pin_url}" target="_blank" rel="noopener noreferrer">View this infographic on Pinterest</a>'
-    elif image_url:
-        pin_link = f'<a class="pinterest-source-link" href="{image_url}" target="_blank" rel="noopener noreferrer">View full Pinterest image</a>'
-    else:
-        pin_link = ""
+    image_url = str(pin.get("image_url") or "").strip()
 
     return f'''    <figure class="pinterest-infographic-card">
       <h3>{title}</h3>
-      {media}
+      <a class="pinterest-infographic-image-link" href="{esc(google_url)}" target="_blank" rel="noopener noreferrer" aria-label="View or buy the book on Google Books">
+        <img src="{esc(image_url)}" alt="{alt}" title="{title}" loading="lazy" decoding="async">
+      </a>
       <figcaption>{desc}</figcaption>
       <div class="pinterest-infographic-actions">
         <a class="action primary" href="{esc(google_url)}" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a>
-        {pin_link}
       </div>
     </figure>'''
 
@@ -57,8 +72,9 @@ def render_card(pin, google_url):
 def render_section(config):
     title = esc(config.get("section_title") or "Visual Guides & Infographics")
     intro = esc(config.get("intro") or "")
-    google_url = config.get("google_books_url") or ""
-    cards = "\n".join(render_card(pin, google_url) for pin in (config.get("pins") or []))
+    google_url = str(config.get("google_books_url") or "").strip()
+    pins = config.get("pins") or []
+    cards = "\n".join(render_card(pin, google_url) for pin in pins)
     return f'''{START}
 <section class="section pinterest-infographics" aria-labelledby="pinterest-infographics-title">
   <style>
@@ -69,11 +85,9 @@ def render_section(config):
     .pinterest-infographic-card h3{{margin:0 0 14px;font-size:20px;line-height:1.35}}
     .pinterest-infographic-image-link{{display:block;text-decoration:none}}
     .pinterest-infographic-image-link img{{display:block;width:100%;height:auto;max-height:760px;object-fit:contain;border-radius:14px;border:1px solid var(--line);background:#f3f4f6}}
-    .pinterest-pin-embed{{min-height:360px;display:flex;align-items:flex-start;justify-content:center;border-radius:14px;overflow:hidden;background:#f8fafc;padding:8px}}
     .pinterest-infographic-card figcaption{{margin-top:14px;font-size:15px;line-height:1.65;color:var(--muted)}}
     .pinterest-infographic-actions{{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:14px}}
     .pinterest-infographic-actions .action{{margin:0}}
-    .pinterest-source-link{{font-size:14px;font-weight:700;text-underline-offset:.16em}}
     @media(max-width:760px){{.pinterest-infographic-grid{{grid-template-columns:1fr}}}}
   </style>
   <h2 id="pinterest-infographics-title">{title}</h2>
@@ -94,12 +108,13 @@ def replace_or_insert(text, block):
     return text + "\n" + block + "\n"
 
 
-def ensure_pinterest_script(text, needs_embed):
-    if not needs_embed or "assets.pinterest.com/js/pinit.js" in text:
-        return text
-    if "</body>" in text:
-        return text.replace("</body>", PINIT + "\n</body>", 1)
-    return text + "\n" + PINIT + "\n"
+def remove_legacy_pinterest_script(text: str) -> str:
+    return re.sub(
+        r'\s*<script\b[^>]*src=["\']https://assets\.pinterest\.com/js/pinit\.js["\'][^>]*></script>\s*',
+        "\n",
+        text,
+        flags=re.I,
+    )
 
 
 def main():
@@ -111,24 +126,74 @@ def main():
     if not isinstance(payload, dict):
         raise SystemExit("books/pinterest-infographics.json must contain a JSON object")
 
+    errors = []
     updated = 0
+
     for slug, config in payload.items():
         page = BOOKS_DIR / slug / "index.html"
         if not page.exists():
-            print(f"Skipping missing book page: {slug}")
+            errors.append(f"{slug}: missing book page")
             continue
+
+        google_url = str(config.get("google_books_url") or "").strip()
+        if not valid_google_books_url(google_url):
+            errors.append(f"{slug}: invalid Google Play Books URL")
+            continue
+
         pins = config.get("pins") or []
         if not pins:
+            errors.append(f"{slug}: no visual-guide images configured")
             continue
+
+        for index, pin in enumerate(pins, start=1):
+            if not isinstance(pin, dict):
+                errors.append(f"{slug}: visual guide {index} must be an object")
+                continue
+            image_url = str(pin.get("image_url") or "").strip()
+            if not valid_pinimg_url(image_url):
+                errors.append(
+                    f"{slug}: visual guide {index} must use a direct i.pinimg.com image URL"
+                )
+            if pin.get("pin_url"):
+                errors.append(
+                    f"{slug}: visual guide {index} contains a forbidden Pinterest pin link"
+                )
+
+        if errors:
+            continue
+
         text = page.read_text(encoding="utf-8")
+        text = remove_legacy_pinterest_script(text)
         block = render_section(config)
+
+        # Hard invariant: Pinterest can host image bytes, but cannot receive clicks.
+        if 'href="https://www.pinterest.' in block or 'href="https://i.pinimg.com/' in block:
+            errors.append(f"{slug}: rendered visual section contains an outbound Pinterest link")
+            continue
+
+        expected_links = len(pins) * 2  # image + Google Books action button
+        actual_links = block.count(f'href="{esc(google_url)}"')
+        if actual_links != expected_links:
+            errors.append(
+                f"{slug}: every image and action must link to Google Books "
+                f"(expected {expected_links}, found {actual_links})"
+            )
+            continue
+
         text = replace_or_insert(text, block)
-        needs_embed = any(not pin.get("image_url") and pin_id(pin.get("pin_url")) for pin in pins)
-        text = ensure_pinterest_script(text, needs_embed)
         page.write_text(text, encoding="utf-8")
         updated += 1
 
-    print(f"Updated Pinterest infographic sections on {updated} book page(s).")
+    if errors:
+        for item in errors:
+            print("ERROR:", item)
+        print(f"Pinterest visual-guide layer FAILED with {len(errors)} error(s).")
+        sys.exit(1)
+
+    print(
+        f"Updated Pinterest-hosted visual sections on {updated} book page(s); "
+        "all user clicks route only to Google Play Books."
+    )
 
 
 if __name__ == "__main__":
