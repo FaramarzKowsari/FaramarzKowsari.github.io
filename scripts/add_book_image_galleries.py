@@ -2,9 +2,10 @@
 """Add minimal linked image galleries to selected book pages.
 
 Each gallery is intentionally visual-only: no visible heading, captions, buttons,
-or explanatory text. Every Pinterest-hosted image is wrapped in a link to its
-full-resolution image URL. The layer is configuration-driven and idempotent so
-future site builds preserve the gallery.
+or explanatory text. By default each Pinterest-hosted image links to its
+full-resolution image URL; an optional per-book click_url can instead route every
+image to the book's Google Play Books purchase page. The layer is configuration-
+driven and idempotent so future site builds preserve the gallery.
 """
 
 from __future__ import annotations
@@ -43,18 +44,32 @@ def valid_image_url(url: str) -> bool:
     return parts.scheme == "https" and host == "i.pinimg.com" and parts.path.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
 
 
+def valid_click_url(url: str) -> bool:
+    try:
+        parts = urlsplit(url)
+    except ValueError:
+        return False
+    return (
+        parts.scheme == "https"
+        and (parts.hostname or "").lower() == "play.google.com"
+        and parts.path.startswith("/store/books/details")
+    )
+
+
 def remove_existing(text: str) -> str:
     pattern = re.compile(re.escape(START) + r".*?" + re.escape(END) + r"\s*", re.S)
     return pattern.sub("", text)
 
 
-def render(slug: str, images: list[str]) -> str:
+def render(slug: str, images: list[str], click_url: str | None = None) -> str:
     items = []
     book_label = "0DTE Options" if slug == "0dte-options" else slug.replace("-", " ").title()
     for index, url in enumerate(images, start=1):
         label = f"{book_label} visual infographic {index:02d} by Faramarz Kowsari"
+        href = click_url or url
+        aria = f"View or buy {book_label} on Google Books" if click_url else f"Open {label}"
         items.append(
-            f'''    <a class="book-image-gallery-link" href="{esc(url)}" target="_blank" rel="noopener noreferrer" aria-label="Open {esc(label)}">
+            f'''    <a class="book-image-gallery-link" href="{esc(href)}" target="_blank" rel="noopener noreferrer" aria-label="{esc(aria)}">
       <img src="{esc(url)}" alt="{esc(label)}" loading="lazy" decoding="async">
     </a>'''
         )
@@ -90,6 +105,10 @@ def main() -> None:
             continue
         raw_images = config.get("images") or []
         images = [str(url).strip() for url in raw_images if str(url).strip()]
+        click_url = str(config.get("click_url") or "").strip() or None
+        if click_url and not valid_click_url(click_url):
+            errors.append(f"{slug}: invalid click_url: {click_url}")
+            continue
         if not images:
             errors.append(f"{slug}: no gallery images configured")
             continue
@@ -108,7 +127,7 @@ def main() -> None:
 
         text = page.read_text(encoding="utf-8")
         text = remove_existing(text)
-        block = render(slug, images)
+        block = render(slug, images, click_url)
 
         if "</main>" not in text:
             errors.append(f"{slug}: could not find </main> insertion point")
@@ -117,8 +136,17 @@ def main() -> None:
         text = text.replace("</main>", block + "\n</main>", 1)
 
         for url in images:
-            if text.count(url) < 2:
-                errors.append(f"{slug}: image must appear as both link and img src: {url}")
+            expected_count = 1 if click_url else 2
+            if text.count(url) < expected_count:
+                errors.append(
+                    f"{slug}: image URL occurrence count is too low "
+                    f"(expected at least {expected_count}): {url}"
+                )
+        if click_url and text.count(click_url) != len(images):
+            errors.append(
+                f"{slug}: click_url must be used exactly once for each gallery image "
+                f"(expected {len(images)}, found {text.count(click_url)})"
+            )
 
         if text.count(START) != 1 or text.count(END) != 1:
             errors.append(f"{slug}: gallery marker duplication detected")
