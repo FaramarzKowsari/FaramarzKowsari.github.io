@@ -142,11 +142,14 @@ def main() -> None:
                     f"{slug}: image URL occurrence count is too low "
                     f"(expected at least {expected_count}): {url}"
                 )
-        if click_url and text.count(click_url) != len(images):
-            errors.append(
-                f"{slug}: click_url must be used exactly once for each gallery image "
-                f"(expected {len(images)}, found {text.count(click_url)})"
-            )
+        if click_url:
+            gallery_href = f'href="{esc(click_url)}"'
+            gallery_count = block.count(gallery_href)
+            if gallery_count != len(images):
+                errors.append(
+                    f"{slug}: click_url must be used exactly once for each gallery image "
+                    f"inside the gallery (expected {len(images)}, found {gallery_count})"
+                )
 
         if text.count(START) != 1 or text.count(END) != 1:
             errors.append(f"{slug}: gallery marker duplication detected")
