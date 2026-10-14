@@ -649,6 +649,11 @@
     "variant": "catalog",
     "source": "catalog_google_books"
   },
+  "nPUaEgAAQBAJ": {
+    "url": "https://books.google.com/books/content?id=nPUaEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "variant": "catalog",
+    "source": "catalog_google_books"
+  },
   "ndIKEgAAQBAJ": {
     "url": "https://books.google.com/books/content?id=ndIKEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "variant": "catalog",

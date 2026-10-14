@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (163)
+## Books (164)
 
 ### Depremde Hayatta Kalma
 
@@ -3354,6 +3354,43 @@ What readers learn:
 - Separate evaluation behavior from sustainable funded-account and payout behavior.
 
 Audience: For traders preparing for prop-firm evaluations or managing funded accounts who want survival, drawdown control and repeatable payouts to matter more than one fast pass.
+
+### SILVER TRADING
+
+- Canonical page: https://faramarzkowsari.github.io/books/silver-trading/
+- Language: English
+- Category: Trading
+- Subtitle: XAGUSD Price Action, Silver Futures, Smart Money Concepts & Risk Management
+- Google Books: https://play.google.com/store/books/details?id=nPUaEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=nPUaEgAAQBAJ&hl=en
+
+SILVER TRADING is an evidence-led practical guide that connects the physical and industrial silver market with the instruments, price behavior, execution mechanics and risk decisions faced by active traders. It begins by separating silver from the simplified idea of being merely a cheaper form of gold. The book examines supply, recycling, industrial fabrication, inventories, macroeconomic forces, the gold-silver ratio and the global trading network, then asks a more important practical question: what exactly is being traded when a trader sees XAGUSD, a CFD, a futures contract, a metal-linked product or physical exposure on a screen? The emphasis throughout is on matching the evidence to the instrument and time horizon rather than using a long-term narrative to justify an unrelated intraday position.
+
+The market-analysis sections move from data quality and silver-specific volatility into trends, ranges, failed breakouts and multi-timeframe structure before applying Smart Money Concepts with explicit limits on inference. Liquidity pools, market-structure shifts, Fair Value Gaps, Order Blocks, premium-discount zones, reclaims and trapped-position setups are treated as observable frameworks that require defined rules, context and invalidation rather than as proof of hidden institutional intent. Strategy chapters then organize those ideas into trend continuation, pullback, range rotation, mean reversion, failed-break, macro-event and cross-market confirmation workflows, while repeatedly separating what can be observed from what remains only an interpretation.
+
+The execution and risk sections translate a silver quote into real contract exposure. Contract multipliers, futures expiration, rollover, settlement, MCX silver trading, currency effects, leverage, margin, slippage and position sizing are integrated with the technical framework so that a visually small price movement is converted into its actual cash consequence. The book makes clear that margin is collateral rather than a maximum-loss boundary and that stops, especially in fast or discontinuous markets, are planning devices rather than guaranteed caps. It therefore treats contract choice, volatility regime, execution conditions and available capital as part of the strategy itself rather than as administrative details.
+
+The final section turns trading ideas into testable research. Rules must be specified before results are inspected; backtests must account for data limitations, realistic costs, futures rolls, sample size, parameter sensitivity and out-of-sample evaluation; and attractive claims must be allowed to fail. The closing Silver Trader's Decision Framework separates the market record, decision record and execution record, preserves rejected trades as meaningful data, and explicitly allows the correct outcome to be no trade. The result is not a promise of decoding silver, but a repeatable process for distinguishing a supported trade, a research hypothesis and an expensive guess.
+
+Key topics: Silver trading; XAGUSD; Silver futures; Silver market structure; Industrial silver demand; Silver supply and recycling; Silver inventories; Physical silver market; Global silver trading network; Spot silver and futures basis; EFP and silver arbitrage; Gold-silver ratio; Macroeconomic silver drivers; Silver chart data quality; Silver volatility; Trend and range structure; Failed breakouts; Multi-timeframe analysis; Smart Money Concepts; Liquidity pools; Market structure shifts; Fair Value Gaps; Order Blocks; Premium and discount zones; Liquidity reclaims; Trapped-position setups; Trend continuation; Pullback trading; Mean reversion; Range rotation; Macroeconomic event trading; Cross-market confirmation; Silver futures contract mathematics; SI, SIL and 100-ounce silver contracts; Futures expiration and rollover; Settlement mechanics; MCX silver trading; Currency effects; Leverage and margin; Position sizing; Execution risk; Slippage and spread; Silver risk models; Backtesting silver strategies; Out-of-sample testing; Trading research discipline; Decision journaling; No-trade rules
+
+What readers learn:
+- Understand why silver combines precious-metal and industrial-market behavior and why that makes its trading logic different from simply copying a gold strategy.
+- Distinguish physical exposure, XAGUSD or CFD exposure, exchange-traded futures and other silver instruments before applying a trading thesis.
+- Connect supply, recycling, industrial demand, inventories, macroeconomic conditions and the gold-silver ratio to the correct analytical horizon without turning long-term narratives into automatic short-term signals.
+- Build silver charts and market observations with attention to data provenance, quote source, timeframe and the limitations of monthly or benchmark averages for intraday execution.
+- Classify trends, ranges and failed breakouts with reproducible rules and evaluate them across different volatility conditions rather than selecting only visually persuasive examples.
+- Apply liquidity, market-structure shifts, Fair Value Gaps, Order Blocks, premium-discount zones and reclaims to silver while keeping observable price behavior separate from claims about hidden motives.
+- Construct trend-continuation, pullback, range-rotation, mean-reversion and failed-break frameworks with explicit entry, cancellation and invalidation logic.
+- Translate a silver price move into actual cash exposure using the relevant contract multiplier and distinguish notional exposure, margin collateral and maximum tolerable account risk.
+- Account for futures expiration, rollover, settlement, MCX-specific considerations, currency effects, spread, slippage and execution uncertainty before sizing a position.
+- Use volatility-aware risk sizing while recognizing that ATR and other historical measures describe past dispersion rather than guarantee future stop behavior.
+- Turn a trading idea into a falsifiable research rule that can be independently reproduced, compared with a baseline and rejected when the evidence does not survive costs or out-of-sample testing.
+- Backtest silver strategies without treating continuous futures series, OHLC bars or attractive historical fills as perfect representations of executable trades.
+- Maintain separate market, decision and execution records so that a profitable outcome does not rewrite a poor process and a losing outcome does not automatically invalidate a sound one.
+- Use explicit rejection and no-trade criteria, preserve skipped setups in the journal and retire models when data quality, market structure, costs or execution assumptions no longer support them.
+
+Audience: For XAGUSD traders, silver futures traders, Smart Money Concepts and price-action readers, COMEX and MCX participants, discretionary and systematic traders, and market students who want one framework that connects the physical and industrial silver economy with chart structure, derivatives mechanics, execution risk, backtesting and disciplined decision-making.
 
 ### Smart Money Concepts
 

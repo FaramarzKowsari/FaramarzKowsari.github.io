@@ -3384,7 +3384,7 @@
       "ielts-sos-do-not-enter-the-exam-without-this-book",
       "machine-learning-interviews-visually-explained",
       "opening-range-gap-trading",
-      "balanced-price-range-trading"
+      "silver-trading"
     ],
     "secondary_queries": [
       "Algorithmic Time & Price Grids book",
@@ -40448,6 +40448,362 @@
       "Hayatını Yoran Şeyleri Çıkararak Huzuru"
     ]
   },
+  "silver-trading": {
+    "cluster": "smart-money-trading",
+    "cluster_label": "Smart Money Concepts & Intraday Structure",
+    "entities": [
+      "Silver trading",
+      "XAGUSD",
+      "Silver futures",
+      "Silver market structure",
+      "Industrial silver demand",
+      "Silver supply and recycling",
+      "Silver inventories",
+      "Physical silver market",
+      "Global silver trading network",
+      "Spot silver and futures basis",
+      "EFP and silver arbitrage",
+      "Gold-silver ratio",
+      "Macroeconomic silver drivers",
+      "Silver chart data quality",
+      "Silver volatility",
+      "Trend and range structure",
+      "Failed breakouts",
+      "Multi-timeframe analysis",
+      "Smart Money Concepts",
+      "Liquidity pools"
+    ],
+    "localized": {
+      "ar": {
+        "category_phrase": "التداول والأسواق المالية",
+        "long_tail_queries": [
+          "ما هو Silver trading",
+          "دليل عملي عن Silver trading",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING كتاب",
+          "كتاب عن التداول والأسواق المالية",
+          "دليل Silver trading",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "bn": {
+        "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
+        "long_tail_queries": [
+          "Silver trading কীভাবে কাজ করে",
+          "Silver trading ব্যবহারিক গাইড",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING বই",
+          "ট্রেডিং ও আর্থিক বাজার বই",
+          "Silver trading গাইড",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "de": {
+        "category_phrase": "Trading und Finanzmärkte",
+        "long_tail_queries": [
+          "wie funktioniert Silver trading",
+          "praktischer Leitfaden zu Silver trading",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING Buch",
+          "Trading und Finanzmärkte Buch",
+          "Silver trading Leitfaden",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "en": {
+        "category_phrase": "trading and financial markets",
+        "long_tail_queries": [
+          "how Silver trading works",
+          "practical guide to Silver trading",
+          "SILVER TRADING by Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING book",
+          "trading and financial markets book",
+          "Silver trading guide",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "es": {
+        "category_phrase": "trading y mercados financieros",
+        "long_tail_queries": [
+          "cómo funciona Silver trading",
+          "guía práctica de Silver trading",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING libro",
+          "libro de trading y mercados financieros",
+          "guía de Silver trading",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "fa": {
+        "category_phrase": "معامله‌گری و بازارهای مالی",
+        "long_tail_queries": [
+          "Silver trading چیست",
+          "راهنما کاربردی Silver trading",
+          "SILVER TRADING فرامرز کوثری"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING کتاب",
+          "کتاب معامله‌گری و بازارهای مالی",
+          "راهنما Silver trading",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "fil": {
+        "category_phrase": "trading at financial markets",
+        "long_tail_queries": [
+          "paano gumagana ang Silver trading",
+          "praktikal na gabay sa Silver trading",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING aklat",
+          "aklat tungkol sa trading at financial markets",
+          "gabay sa Silver trading",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "fr": {
+        "category_phrase": "trading et marchés financiers",
+        "long_tail_queries": [
+          "comment fonctionne Silver trading",
+          "guide pratique de Silver trading",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING livre",
+          "livre sur trading et marchés financiers",
+          "guide Silver trading",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "id": {
+        "category_phrase": "trading dan pasar keuangan",
+        "long_tail_queries": [
+          "cara kerja Silver trading",
+          "panduan praktis Silver trading",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING buku",
+          "buku trading dan pasar keuangan",
+          "panduan Silver trading",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "pt-BR": {
+        "category_phrase": "trading e mercados financeiros",
+        "long_tail_queries": [
+          "como funciona Silver trading",
+          "guia prático de Silver trading",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING livro",
+          "livro sobre trading e mercados financeiros",
+          "guia de Silver trading",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "ro": {
+        "category_phrase": "trading și piețe financiare",
+        "long_tail_queries": [
+          "cum funcționează Silver trading",
+          "ghid practic pentru Silver trading",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING carte",
+          "carte despre trading și piețe financiare",
+          "ghid Silver trading",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "ru": {
+        "category_phrase": "трейдинг и финансовые рынки",
+        "long_tail_queries": [
+          "как работает Silver trading",
+          "практическое руководство по Silver trading",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING книга",
+          "книга о трейдинг и финансовые рынки",
+          "руководство по Silver trading",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "th": {
+        "category_phrase": "การเทรดและตลาดการเงิน",
+        "long_tail_queries": [
+          "Silver trading ทำงานอย่างไร",
+          "คู่มือ Silver trading แบบปฏิบัติ",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING หนังสือ",
+          "หนังสือ การเทรดและตลาดการเงิน",
+          "คู่มือ Silver trading",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "tr": {
+        "category_phrase": "trading ve finansal piyasalar",
+        "long_tail_queries": [
+          "Silver trading nasıl çalışır",
+          "Silver trading için uygulamalı rehberi",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING kitap",
+          "trading ve finansal piyasalar kitap",
+          "Silver trading rehberi",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      },
+      "vi": {
+        "category_phrase": "giao dịch và thị trường tài chính",
+        "long_tail_queries": [
+          "Silver trading hoạt động như thế nào",
+          "hướng dẫn thực hành Silver trading",
+          "SILVER TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SILVER TRADING",
+        "secondary_queries": [
+          "SILVER TRADING sách",
+          "sách về giao dịch và thị trường tài chính",
+          "hướng dẫn Silver trading",
+          "Silver trading",
+          "XAGUSD",
+          "Silver futures",
+          "Silver market structure",
+          "Industrial silver demand",
+          "Silver supply and recycling"
+        ]
+      }
+    },
+    "long_tail_queries": [
+      "SILVER TRADING by Faramarz Kowsari",
+      "practical guide to Silver trading",
+      "how Silver trading works",
+      "Silver trading XAGUSD"
+    ],
+    "primary_query": "SILVER TRADING",
+    "related_slugs": [
+      "smart-money-concepts",
+      "xauusd-scalping",
+      "liquidity-sweep",
+      "balanced-price-range-trading",
+      "inverse-fair-value-gaps-ifvg"
+    ],
+    "secondary_queries": [
+      "SILVER TRADING book",
+      "XAGUSD Price Action, Silver Futures, Smart Money Concepts & Risk Management",
+      "Trading",
+      "Silver trading",
+      "XAGUSD",
+      "Silver futures",
+      "Silver market structure",
+      "Industrial silver demand",
+      "Silver supply and recycling",
+      "Silver inventories",
+      "Physical silver market",
+      "Global silver trading network"
+    ]
+  },
   "smart-money-concepts": {
     "cluster": "smart-money-trading",
     "cluster_label": "Smart Money Concepts & Intraday Structure",
@@ -43914,8 +44270,8 @@
       "opening-range-gap-trading",
       "balanced-price-range-trading",
       "algorithmic-time-and-price-grids",
-      "smart-money-concepts",
-      "ict-kill-zones-trading-the-ict-kill-zones"
+      "silver-trading",
+      "smart-money-concepts"
     ],
     "secondary_queries": [
       "The First Hour Dealing Range book",
@@ -53909,7 +54265,7 @@
       "you-are-too-valuable-for-less",
       "the-day-you-stop-needing-a-reason",
       "stop-explaining-yourself",
-      "algorithmic-time-and-price-grids"
+      "silver-trading"
     ],
     "secondary_queries": [
       "You Can’t Control Life, But You Can Train Your Response book",
