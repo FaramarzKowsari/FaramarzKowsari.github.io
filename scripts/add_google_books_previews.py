@@ -80,6 +80,36 @@ def collect_ids():
     return mapping
 
 
+def collect_preview_percents():
+    """Collect optional slug -> free-preview percentage from catalog metadata."""
+    mapping = {}
+    for path in DATA_FILES:
+        data = load_json(path, {} if path.name != "books.json" else [])
+        if isinstance(data, list):
+            rows = data
+        elif isinstance(data, dict):
+            rows = []
+            for slug, value in data.items():
+                if isinstance(value, dict):
+                    row = dict(value)
+                    row.setdefault("slug", slug)
+                    rows.append(row)
+        else:
+            rows = []
+        for row in rows:
+            slug = row.get("slug")
+            value = row.get("preview_percent")
+            if not slug or value in ("", None):
+                continue
+            try:
+                percent = int(value)
+            except (TypeError, ValueError):
+                continue
+            if 1 <= percent <= 100:
+                mapping[slug] = percent
+    return mapping
+
+
 def extract_id_from_html(text):
     patterns = (
         r'play\.google\.com/store/books/details\?id=([A-Za-z0-9_-]+)',
@@ -110,8 +140,12 @@ def remove_existing_block(text):
     )
 
 
-def preview_block(gid, lang):
+def preview_block(gid, lang, preview_percent=None):
     title, note, label = COPY.get(lang, COPY["en"])
+    if preview_percent and lang == "en":
+        title = f"{preview_percent}% Free Google Books Preview"
+        note = f"Read the {preview_percent}% free preview of this book on Google Books before you buy."
+        label = f"Read {preview_percent}% Free on Google Books"
     preview_url = f"https://play.google.com/books/reader?id={gid}&hl=en"
     return (
         f"\n{START}\n"
@@ -138,6 +172,7 @@ def insert_after_book_top(text, block):
 
 def main():
     ids = collect_ids()
+    preview_percents = collect_preview_percents()
     updated = 0
     skipped = []
 
@@ -152,7 +187,7 @@ def main():
                 path.write_text(clean, encoding="utf-8")
             continue
 
-        block = preview_block(gid, page_language(clean))
+        block = preview_block(gid, page_language(clean), preview_percents.get(slug))
         rendered = insert_after_book_top(clean, block)
         if rendered != text:
             path.write_text(rendered, encoding="utf-8")
