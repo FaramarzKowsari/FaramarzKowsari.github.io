@@ -1,0 +1,50 @@
+{
+  "U3AcEgAAQBAJ": {
+    "title": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+    "subtitle": "Foundations, Intelligent Threat Detection, Adversarial Machine Learning, Privacy, Generative AI, and Secure Autonomous Systems",
+    "language": "English",
+    "language_code": "en",
+    "category": "Artificial Intelligence & Cybersecurity",
+    "published_date": "2026",
+    "publisher": "Faramarz Kowsari",
+    "page_count": 473,
+    "summary": "Artificial Intelligence and Machine Learning for Cybersecurity is an English-language, 473-page graduate-level textbook organized into 70 chapters and ten connected parts. It begins with security objectives, threat modeling, networks, cryptography, logs and incident response, then builds the necessary Python, probability, statistics, machine learning and deep learning foundations. Security telemetry, temporal feature engineering, class imbalance, data leakage, calibration, uncertainty and reproducibility form the methodological bridge to applied threat detection.\n\nThe applied chapters connect models to recognizable cybersecurity evidence: network flows, encrypted-traffic metadata, anomalies, malware files and behavior, ransomware, phishing, malicious URLs and DNS, identity misuse, botnets, DDoS, cloud and container events, digital forensics and threat intelligence. Further sections examine graph-based attack analysis, concept drift, operational technology, connected vehicles, defensible autonomous response and causal reasoning. Throughout, the distinction between a model prediction and an authorized operational decision remains central.\n\nThe advanced sequence studies adversarial examples, problem-space evasion, poisoning, model extraction, robust evaluation and AI supply-chain integrity, followed by membership inference, differential privacy, federated learning and privacy-preserving techniques. The final chapters address generative AI, retrieval-augmented security intelligence, prompt injection, LLM application security, red teaming, agent permissions, MCP, SOC copilots, secure MLOps, model incidents, human factors, edge deployment, research design, an end-to-end capstone and post-quantum security. Python examples, explanatory figures and illustrative scenarios are used to make complex concepts approachable without presenting synthetic classroom demonstrations as operational evidence.",
+    "seo_description": "A 473-page, 70-chapter graduate textbook by Faramarz Kowsari on AI and machine learning for cybersecurity: intrusion detection, malware analysis, adversarial ML, privacy, Python, LLM security, secure AI agents and autonomous cyber defense.",
+    "key_topics": [
+      "Artificial intelligence in cybersecurity",
+      "Machine learning for threat detection",
+      "Network intrusion detection",
+      "Malware and ransomware analysis",
+      "Phishing and DNS security",
+      "Endpoint, cloud and container telemetry",
+      "Security data engineering",
+      "Data leakage and time-based validation",
+      "Precision, recall, calibration and concept drift",
+      "Graph neural networks and attack graphs",
+      "Adversarial machine learning and data poisoning",
+      "Model extraction and model supply-chain security",
+      "Differential privacy and federated learning",
+      "Large language model (LLM) security",
+      "RAG and prompt injection",
+      "Agentic AI and MCP security",
+      "Secure MLOps and model governance",
+      "Autonomous cyber defense",
+      "Post-quantum cybersecurity",
+      "Graduate research and reproducible Python labs"
+    ],
+    "learning": [
+      "Start with core cybersecurity principles and build the Python, statistics, machine-learning and deep-learning knowledge needed for graduate coursework.",
+      "Understand which network, endpoint, DNS, cloud and identity events a security sensor can actually observe, and where logs have blind spots.",
+      "Prepare data for security ML without letting future information, duplicated entities or incorrect temporal splits leak into evaluation.",
+      "Compare intrusion, phishing and malware detection models using realistic metrics, base rates, false positives and analyst workload.",
+      "Explain how adversarial evasion, data poisoning, model extraction and AI supply-chain attacks change the defender's threat model.",
+      "Distinguish privacy claims from documented guarantees in differential privacy, federated learning and cryptographic approaches.",
+      "Evaluate prompt injection, retrieval trust boundaries, LLM data leakage, agent tool permissions and guarded automated response.",
+      "Plan responsible model deployment, drift monitoring, incident recovery, reproducibility and a defensible end-to-end security capstone."
+    ],
+    "target_audience": "For master's-level AI and cybersecurity students, instructors, researchers, software engineers, security analysts and independent learners who want a structured bridge between machine learning theory, cybersecurity telemetry, defensible evaluation and secure AI system deployment.",
+    "source_review_status": "scope_confirmed",
+    "source_scope": "Prepared from the available 70-chapter English manuscript's actual chapter headings, the 140 visual-companion infographic prompt briefs and the book title, subtitle, page count and published Google Play Books identifier supplied by the author. No independent empirical certification or endorsement is implied.",
+    "preserve_page": true
+  }
+}
