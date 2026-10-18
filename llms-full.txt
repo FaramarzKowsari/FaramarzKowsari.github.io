@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (164)
+## Books (165)
 
 ### Depremde Hayatta Kalma
 
@@ -657,6 +657,35 @@ What readers learn:
 - Separate the builder's claim of completion from an independent verifier and production evaluation layer.
 
 Audience: For AI engineers, software developers, agent builders, technical product leaders, researchers, automation architects, and advanced Claude users who need to design long-running, tool-using systems that are observable, verifiable, permission-aware, cost-conscious, and safe enough for production work.
+
+### ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY
+
+- Canonical page: https://faramarzkowsari.github.io/books/artificial-intelligence-and-machine-learning-for-cybersecurity/
+- Language: English
+- Category: Artificial Intelligence & Cybersecurity
+- Subtitle: Foundations, Intelligent Threat Detection, Adversarial Machine Learning, Privacy, Generative AI, and Secure Autonomous Systems
+- Google Books: https://play.google.com/store/books/details?id=U3AcEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=U3AcEgAAQBAJ&hl=en
+
+Artificial Intelligence and Machine Learning for Cybersecurity is an English-language, 473-page graduate-level textbook organized into 70 chapters and ten connected parts. It begins with security objectives, threat modeling, networks, cryptography, logs and incident response, then builds the necessary Python, probability, statistics, machine learning and deep learning foundations. Security telemetry, temporal feature engineering, class imbalance, data leakage, calibration, uncertainty and reproducibility form the methodological bridge to applied threat detection.
+
+The applied chapters connect models to recognizable cybersecurity evidence: network flows, encrypted-traffic metadata, anomalies, malware files and behavior, ransomware, phishing, malicious URLs and DNS, identity misuse, botnets, DDoS, cloud and container events, digital forensics and threat intelligence. Further sections examine graph-based attack analysis, concept drift, operational technology, connected vehicles, defensible autonomous response and causal reasoning. Throughout, the distinction between a model prediction and an authorized operational decision remains central.
+
+The advanced sequence studies adversarial examples, problem-space evasion, poisoning, model extraction, robust evaluation and AI supply-chain integrity, followed by membership inference, differential privacy, federated learning and privacy-preserving techniques. The final chapters address generative AI, retrieval-augmented security intelligence, prompt injection, LLM application security, red teaming, agent permissions, MCP, SOC copilots, secure MLOps, model incidents, human factors, edge deployment, research design, an end-to-end capstone and post-quantum security. Python examples, explanatory figures and illustrative scenarios are used to make complex concepts approachable without presenting synthetic classroom demonstrations as operational evidence.
+
+Key topics: Artificial intelligence in cybersecurity; Machine learning for threat detection; Network intrusion detection; Malware and ransomware analysis; Phishing and DNS security; Endpoint, cloud and container telemetry; Security data engineering; Data leakage and time-based validation; Precision, recall, calibration and concept drift; Graph neural networks and attack graphs; Adversarial machine learning and data poisoning; Model extraction and model supply-chain security; Differential privacy and federated learning; Large language model (LLM) security; RAG and prompt injection; Agentic AI and MCP security; Secure MLOps and model governance; Autonomous cyber defense; Post-quantum cybersecurity; Graduate research and reproducible Python labs
+
+What readers learn:
+- Start with core cybersecurity principles and build the Python, statistics, machine-learning and deep-learning knowledge needed for graduate coursework.
+- Understand which network, endpoint, DNS, cloud and identity events a security sensor can actually observe, and where logs have blind spots.
+- Prepare data for security ML without letting future information, duplicated entities or incorrect temporal splits leak into evaluation.
+- Compare intrusion, phishing and malware detection models using realistic metrics, base rates, false positives and analyst workload.
+- Explain how adversarial evasion, data poisoning, model extraction and AI supply-chain attacks change the defender's threat model.
+- Distinguish privacy claims from documented guarantees in differential privacy, federated learning and cryptographic approaches.
+- Evaluate prompt injection, retrieval trust boundaries, LLM data leakage, agent tool permissions and guarded automated response.
+- Plan responsible model deployment, drift monitoring, incident recovery, reproducibility and a defensible end-to-end security capstone.
+
+Audience: For master's-level AI and cybersecurity students, instructors, researchers, software engineers, security analysts and independent learners who want a structured bridge between machine learning theory, cybersecurity telemetry, defensible evaluation and secure AI system deployment.
 
 ### JEV AND SYSTEM ONE AI
 

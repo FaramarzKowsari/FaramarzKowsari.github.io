@@ -4696,6 +4696,362 @@
       "Cevapsız sonlar guide"
     ]
   },
+  "artificial-intelligence-and-machine-learning-for-cybersecurity": {
+    "cluster": "artificial-intelligence",
+    "cluster_label": "Artificial Intelligence",
+    "entities": [
+      "Artificial intelligence in cybersecurity",
+      "Machine learning for threat detection",
+      "Network intrusion detection",
+      "Malware and ransomware analysis",
+      "Phishing and DNS security",
+      "Endpoint, cloud and container telemetry",
+      "Security data engineering",
+      "Data leakage and time-based validation",
+      "Precision, recall, calibration and concept drift",
+      "Graph neural networks and attack graphs",
+      "Adversarial machine learning and data poisoning",
+      "Model extraction and model supply-chain security",
+      "Differential privacy and federated learning",
+      "Large language model (LLM) security",
+      "RAG and prompt injection",
+      "Agentic AI and MCP security",
+      "Secure MLOps and model governance",
+      "Autonomous cyber defense",
+      "Post-quantum cybersecurity",
+      "Graduate research and reproducible Python labs"
+    ],
+    "localized": {
+      "ar": {
+        "category_phrase": "الذكاء الاصطناعي",
+        "long_tail_queries": [
+          "ما هو Artificial intelligence in cybersecurity",
+          "دليل عملي عن Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY كتاب",
+          "كتاب عن الذكاء الاصطناعي",
+          "دليل Artificial intelligence in cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "bn": {
+        "category_phrase": "কৃত্রিম বুদ্ধিমত্তা",
+        "long_tail_queries": [
+          "Artificial intelligence in cybersecurity কীভাবে কাজ করে",
+          "Artificial intelligence in cybersecurity ব্যবহারিক গাইড",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY বই",
+          "কৃত্রিম বুদ্ধিমত্তা বই",
+          "Artificial intelligence in cybersecurity গাইড",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "de": {
+        "category_phrase": "Künstliche Intelligenz",
+        "long_tail_queries": [
+          "wie funktioniert Artificial intelligence in cybersecurity",
+          "praktischer Leitfaden zu Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Buch",
+          "Künstliche Intelligenz Buch",
+          "Artificial intelligence in cybersecurity Leitfaden",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "en": {
+        "category_phrase": "artificial intelligence",
+        "long_tail_queries": [
+          "how Artificial intelligence in cybersecurity works",
+          "practical guide to Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY by Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY book",
+          "artificial intelligence book",
+          "Artificial intelligence in cybersecurity guide",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "es": {
+        "category_phrase": "inteligencia artificial",
+        "long_tail_queries": [
+          "cómo funciona Artificial intelligence in cybersecurity",
+          "guía práctica de Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY libro",
+          "libro de inteligencia artificial",
+          "guía de Artificial intelligence in cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "fa": {
+        "category_phrase": "هوش مصنوعی",
+        "long_tail_queries": [
+          "Artificial intelligence in cybersecurity چیست",
+          "راهنما کاربردی Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY فرامرز کوثری"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY کتاب",
+          "کتاب هوش مصنوعی",
+          "راهنما Artificial intelligence in cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "fil": {
+        "category_phrase": "artificial intelligence",
+        "long_tail_queries": [
+          "paano gumagana ang Artificial intelligence in cybersecurity",
+          "praktikal na gabay sa Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY aklat",
+          "aklat tungkol sa artificial intelligence",
+          "gabay sa Artificial intelligence in cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "fr": {
+        "category_phrase": "intelligence artificielle",
+        "long_tail_queries": [
+          "comment fonctionne Artificial intelligence in cybersecurity",
+          "guide pratique de Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY livre",
+          "livre sur intelligence artificielle",
+          "guide Artificial intelligence in cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "id": {
+        "category_phrase": "kecerdasan buatan",
+        "long_tail_queries": [
+          "cara kerja Artificial intelligence in cybersecurity",
+          "panduan praktis Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY buku",
+          "buku kecerdasan buatan",
+          "panduan Artificial intelligence in cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "pt-BR": {
+        "category_phrase": "inteligência artificial",
+        "long_tail_queries": [
+          "como funciona Artificial intelligence in cybersecurity",
+          "guia prático de Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY livro",
+          "livro sobre inteligência artificial",
+          "guia de Artificial intelligence in cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "ro": {
+        "category_phrase": "inteligență artificială",
+        "long_tail_queries": [
+          "cum funcționează Artificial intelligence in cybersecurity",
+          "ghid practic pentru Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY carte",
+          "carte despre inteligență artificială",
+          "ghid Artificial intelligence in cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "ru": {
+        "category_phrase": "искусственный интеллект",
+        "long_tail_queries": [
+          "как работает Artificial intelligence in cybersecurity",
+          "практическое руководство по Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY книга",
+          "книга о искусственный интеллект",
+          "руководство по Artificial intelligence in cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "th": {
+        "category_phrase": "ปัญญาประดิษฐ์",
+        "long_tail_queries": [
+          "Artificial intelligence in cybersecurity ทำงานอย่างไร",
+          "คู่มือ Artificial intelligence in cybersecurity แบบปฏิบัติ",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY หนังสือ",
+          "หนังสือ ปัญญาประดิษฐ์",
+          "คู่มือ Artificial intelligence in cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "tr": {
+        "category_phrase": "yapay zekâ",
+        "long_tail_queries": [
+          "Artificial intelligence in cybersecurity nasıl çalışır",
+          "Artificial intelligence in cybersecurity için uygulamalı rehberi",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY kitap",
+          "yapay zekâ kitap",
+          "Artificial intelligence in cybersecurity rehberi",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      },
+      "vi": {
+        "category_phrase": "trí tuệ nhân tạo",
+        "long_tail_queries": [
+          "Artificial intelligence in cybersecurity hoạt động như thế nào",
+          "hướng dẫn thực hành Artificial intelligence in cybersecurity",
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY sách",
+          "sách về trí tuệ nhân tạo",
+          "hướng dẫn Artificial intelligence in cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry"
+        ]
+      }
+    },
+    "long_tail_queries": [
+      "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY by Faramarz Kowsari",
+      "practical guide to Artificial intelligence in cybersecurity",
+      "how Artificial intelligence in cybersecurity works",
+      "Artificial intelligence in cybersecurity Machine learning for threat detection"
+    ],
+    "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+    "related_slugs": [
+      "level-2-market-data-explained",
+      "options-flow-trading",
+      "silver-trading",
+      "claude-fable-5-1-and-mythos-5-1",
+      "claude-mcp-mastery"
+    ],
+    "secondary_queries": [
+      "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY book",
+      "Foundations, Intelligent Threat Detection, Adversarial Machine Learning, Privacy, Generative AI, and Secure Autonomous Systems",
+      "Artificial Intelligence & Cybersecurity",
+      "Artificial intelligence in cybersecurity",
+      "Machine learning for threat detection",
+      "Network intrusion detection",
+      "Malware and ransomware analysis",
+      "Phishing and DNS security",
+      "Endpoint, cloud and container telemetry",
+      "Security data engineering",
+      "Data leakage and time-based validation",
+      "Precision, recall, calibration and concept drift"
+    ]
+  },
   "aynadaki-canavar": {
     "cluster": "other-books",
     "cluster_label": "Other Books",
@@ -14961,7 +15317,7 @@
       "sql-for-data-analysis",
       "aynadaki-canavar",
       "machine-learning-interviews-visually-explained",
-      "turkish-a1-visual-grammar"
+      "artificial-intelligence-and-machine-learning-for-cybersecurity"
     ],
     "secondary_queries": [
       "Decision Trees in Machine Learning and Data Science book",
@@ -19348,8 +19704,8 @@
       "ai-apis-in-practice",
       "ai-trading-agents-and-ai-trading-bots",
       "yapay-zeka-caginda-etik",
-      "build-and-publish-apps-with-claude-code",
-      "chatgpt-6-astra"
+      "artificial-intelligence-and-machine-learning-for-cybersecurity",
+      "build-and-publish-apps-with-claude-code"
     ],
     "secondary_queries": [
       "Ethics in the Age of Artificial Intelligence book",
@@ -26074,7 +26430,7 @@
       "algorithmic-time-and-price-grids",
       "machine-learning-interviews-visually-explained",
       "claude-code-mastery",
-      "claude-agent-skills-playbook"
+      "artificial-intelligence-and-machine-learning-for-cybersecurity"
     ],
     "secondary_queries": [
       "JEV AND SYSTEM ONE AI book",
@@ -30065,7 +30421,7 @@
       "sql-for-data-analysis",
       "aynadaki-canavar",
       "machine-learning-interviews-visually-explained",
-      "ai-apis-in-practice"
+      "artificial-intelligence-and-machine-learning-for-cybersecurity"
     ],
     "secondary_queries": [
       "Linear Regression in Machine Learning and Data Science book",
@@ -39394,9 +39750,9 @@
     "related_slugs": [
       "you-are-too-valuable-for-less",
       "ai-apis-in-practice",
+      "artificial-intelligence-and-machine-learning-for-cybersecurity",
       "build-and-publish-apps-with-claude-code",
-      "chatgpt-6-astra",
-      "claude-agent-skills-playbook"
+      "chatgpt-6-astra"
     ],
     "secondary_queries": [
       "Relationship Leverage book",
@@ -53919,7 +54275,7 @@
       "the-day-you-stop-needing-a-reason",
       "you-can-t-control-life-but-you-can-train-your-response",
       "chatgpt-6-astra",
-      "build-and-publish-apps-with-claude-code"
+      "artificial-intelligence-and-machine-learning-for-cybersecurity"
     ],
     "secondary_queries": [
       "You Are Too Valuable for Less book",
