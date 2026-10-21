@@ -9,7 +9,7 @@
   "canonical": "https://faramarzkowsari.github.io/books/",
   "text_index": "https://faramarzkowsari.github.io/books/all-books/",
   "sitemap": "https://faramarzkowsari.github.io/books/sitemap.xml",
-  "book_count": 165,
+  "book_count": 166,
   "books": [
     {
       "slug": "depremde-hayatta-kalma",
@@ -10229,27 +10229,8 @@
       "summary": "Artificial Intelligence and Machine Learning for Cybersecurity is an English-language, 473-page graduate-level textbook organized into 70 chapters and ten connected parts. It begins with security objectives, threat modeling, networks, cryptography, logs and incident response, then builds the necessary Python, probability, statistics, machine learning and deep learning foundations. Security telemetry, temporal feature engineering, class imbalance, data leakage, calibration, uncertainty and reproducibility form the methodological bridge to applied threat detection.\n\nThe applied chapters connect models to recognizable cybersecurity evidence: network flows, encrypted-traffic metadata, anomalies, malware files and behavior, ransomware, phishing, malicious URLs and DNS, identity misuse, botnets, DDoS, cloud and container events, digital forensics and threat intelligence. Further sections examine graph-based attack analysis, concept drift, operational technology, connected vehicles, defensible autonomous response and causal reasoning. Throughout, the distinction between a model prediction and an authorized operational decision remains central.\n\nThe advanced sequence studies adversarial examples, problem-space evasion, poisoning, model extraction, robust evaluation and AI supply-chain integrity, followed by membership inference, differential privacy, federated learning and privacy-preserving techniques. The final chapters address generative AI, retrieval-augmented security intelligence, prompt injection, LLM application security, red teaming, agent permissions, MCP, SOC copilots, secure MLOps, model incidents, human factors, edge deployment, research design, an end-to-end capstone and post-quantum security. Python examples, explanatory figures and illustrative scenarios are used to make complex concepts approachable without presenting synthetic classroom demonstrations as operational evidence.",
       "seo_description": "A 473-page, 70-chapter graduate textbook by Faramarz Kowsari on AI and machine learning for cybersecurity: intrusion detection, malware analysis, adversarial ML, privacy, Python, LLM security, secure AI agents and autonomous cyber defense.",
       "seo": {
-        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-        "secondary_queries": [
-          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY book",
-          "Foundations, Intelligent Threat Detection, Adversarial Machine Learning, Privacy, Generative AI, and Secure Autonomous Systems",
-          "Artificial Intelligence & Cybersecurity",
-          "Artificial intelligence in cybersecurity",
-          "Machine learning for threat detection",
-          "Network intrusion detection",
-          "Malware and ransomware analysis",
-          "Phishing and DNS security",
-          "Endpoint, cloud and container telemetry",
-          "Security data engineering",
-          "Data leakage and time-based validation",
-          "Precision, recall, calibration and concept drift"
-        ],
-        "long_tail_queries": [
-          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY by Faramarz Kowsari",
-          "practical guide to Artificial intelligence in cybersecurity",
-          "how Artificial intelligence in cybersecurity works",
-          "Artificial intelligence in cybersecurity Machine learning for threat detection"
-        ],
+        "cluster": "artificial-intelligence",
+        "cluster_label": "Artificial Intelligence",
         "entities": [
           "Artificial intelligence in cybersecurity",
           "Machine learning for threat detection",
@@ -10272,170 +10253,14 @@
           "Post-quantum cybersecurity",
           "Graduate research and reproducible Python labs"
         ],
-        "cluster": "artificial-intelligence",
-        "cluster_label": "Artificial Intelligence",
         "localized": {
-          "en": {
-            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-            "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY book",
-              "artificial intelligence book",
-              "Artificial intelligence in cybersecurity guide",
-              "Artificial intelligence in cybersecurity",
-              "Machine learning for threat detection",
-              "Network intrusion detection",
-              "Malware and ransomware analysis",
-              "Phishing and DNS security",
-              "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "how Artificial intelligence in cybersecurity works",
-              "practical guide to Artificial intelligence in cybersecurity",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY by Faramarz Kowsari"
-            ],
-            "category_phrase": "artificial intelligence"
-          },
-          "tr": {
-            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-            "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY kitap",
-              "yapay zekâ kitap",
-              "Artificial intelligence in cybersecurity rehberi",
-              "Artificial intelligence in cybersecurity",
-              "Machine learning for threat detection",
-              "Network intrusion detection",
-              "Malware and ransomware analysis",
-              "Phishing and DNS security",
-              "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "Artificial intelligence in cybersecurity nasıl çalışır",
-              "Artificial intelligence in cybersecurity için uygulamalı rehberi",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
-            ],
-            "category_phrase": "yapay zekâ"
-          },
-          "ru": {
-            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-            "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY книга",
-              "книга о искусственный интеллект",
-              "руководство по Artificial intelligence in cybersecurity",
-              "Artificial intelligence in cybersecurity",
-              "Machine learning for threat detection",
-              "Network intrusion detection",
-              "Malware and ransomware analysis",
-              "Phishing and DNS security",
-              "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "как работает Artificial intelligence in cybersecurity",
-              "практическое руководство по Artificial intelligence in cybersecurity",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
-            ],
-            "category_phrase": "искусственный интеллект"
-          },
-          "de": {
-            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-            "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Buch",
-              "Künstliche Intelligenz Buch",
-              "Artificial intelligence in cybersecurity Leitfaden",
-              "Artificial intelligence in cybersecurity",
-              "Machine learning for threat detection",
-              "Network intrusion detection",
-              "Malware and ransomware analysis",
-              "Phishing and DNS security",
-              "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "wie funktioniert Artificial intelligence in cybersecurity",
-              "praktischer Leitfaden zu Artificial intelligence in cybersecurity",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
-            ],
-            "category_phrase": "Künstliche Intelligenz"
-          },
-          "es": {
-            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-            "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY libro",
-              "libro de inteligencia artificial",
-              "guía de Artificial intelligence in cybersecurity",
-              "Artificial intelligence in cybersecurity",
-              "Machine learning for threat detection",
-              "Network intrusion detection",
-              "Malware and ransomware analysis",
-              "Phishing and DNS security",
-              "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "cómo funciona Artificial intelligence in cybersecurity",
-              "guía práctica de Artificial intelligence in cybersecurity",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
-            ],
-            "category_phrase": "inteligencia artificial"
-          },
-          "fr": {
-            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-            "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY livre",
-              "livre sur intelligence artificielle",
-              "guide Artificial intelligence in cybersecurity",
-              "Artificial intelligence in cybersecurity",
-              "Machine learning for threat detection",
-              "Network intrusion detection",
-              "Malware and ransomware analysis",
-              "Phishing and DNS security",
-              "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "comment fonctionne Artificial intelligence in cybersecurity",
-              "guide pratique de Artificial intelligence in cybersecurity",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
-            ],
-            "category_phrase": "intelligence artificielle"
-          },
-          "pt-BR": {
-            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-            "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY livro",
-              "livro sobre inteligência artificial",
-              "guia de Artificial intelligence in cybersecurity",
-              "Artificial intelligence in cybersecurity",
-              "Machine learning for threat detection",
-              "Network intrusion detection",
-              "Malware and ransomware analysis",
-              "Phishing and DNS security",
-              "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "como funciona Artificial intelligence in cybersecurity",
-              "guia prático de Artificial intelligence in cybersecurity",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
-            ],
-            "category_phrase": "inteligência artificial"
-          },
-          "fa": {
-            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-            "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY کتاب",
-              "کتاب هوش مصنوعی",
-              "راهنما Artificial intelligence in cybersecurity",
-              "Artificial intelligence in cybersecurity",
-              "Machine learning for threat detection",
-              "Network intrusion detection",
-              "Malware and ransomware analysis",
-              "Phishing and DNS security",
-              "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "Artificial intelligence in cybersecurity چیست",
-              "راهنما کاربردی Artificial intelligence in cybersecurity",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY فرامرز کوثری"
-            ],
-            "category_phrase": "هوش مصنوعی"
-          },
           "ar": {
+            "category_phrase": "الذكاء الاصطناعي",
+            "long_tail_queries": [
+              "ما هو Artificial intelligence in cybersecurity",
+              "دليل عملي عن Artificial intelligence in cybersecurity",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+            ],
             "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
             "secondary_queries": [
               "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY كتاب",
@@ -10447,75 +10272,15 @@
               "Malware and ransomware analysis",
               "Phishing and DNS security",
               "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "ما هو Artificial intelligence in cybersecurity",
-              "دليل عملي عن Artificial intelligence in cybersecurity",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
-            ],
-            "category_phrase": "الذكاء الاصطناعي"
-          },
-          "id": {
-            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-            "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY buku",
-              "buku kecerdasan buatan",
-              "panduan Artificial intelligence in cybersecurity",
-              "Artificial intelligence in cybersecurity",
-              "Machine learning for threat detection",
-              "Network intrusion detection",
-              "Malware and ransomware analysis",
-              "Phishing and DNS security",
-              "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "cara kerja Artificial intelligence in cybersecurity",
-              "panduan praktis Artificial intelligence in cybersecurity",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
-            ],
-            "category_phrase": "kecerdasan buatan"
-          },
-          "vi": {
-            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-            "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY sách",
-              "sách về trí tuệ nhân tạo",
-              "hướng dẫn Artificial intelligence in cybersecurity",
-              "Artificial intelligence in cybersecurity",
-              "Machine learning for threat detection",
-              "Network intrusion detection",
-              "Malware and ransomware analysis",
-              "Phishing and DNS security",
-              "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "Artificial intelligence in cybersecurity hoạt động như thế nào",
-              "hướng dẫn thực hành Artificial intelligence in cybersecurity",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
-            ],
-            "category_phrase": "trí tuệ nhân tạo"
-          },
-          "th": {
-            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
-            "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY หนังสือ",
-              "หนังสือ ปัญญาประดิษฐ์",
-              "คู่มือ Artificial intelligence in cybersecurity",
-              "Artificial intelligence in cybersecurity",
-              "Machine learning for threat detection",
-              "Network intrusion detection",
-              "Malware and ransomware analysis",
-              "Phishing and DNS security",
-              "Endpoint, cloud and container telemetry"
-            ],
-            "long_tail_queries": [
-              "Artificial intelligence in cybersecurity ทำงานอย่างไร",
-              "คู่มือ Artificial intelligence in cybersecurity แบบปฏิบัติ",
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
-            ],
-            "category_phrase": "ปัญญาประดิษฐ์"
+            ]
           },
           "bn": {
+            "category_phrase": "কৃত্রিম বুদ্ধিমত্তা",
+            "long_tail_queries": [
+              "Artificial intelligence in cybersecurity কীভাবে কাজ করে",
+              "Artificial intelligence in cybersecurity ব্যবহারিক গাইড",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+            ],
             "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
             "secondary_queries": [
               "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY বই",
@@ -10527,35 +10292,95 @@
               "Malware and ransomware analysis",
               "Phishing and DNS security",
               "Endpoint, cloud and container telemetry"
-            ],
+            ]
+          },
+          "de": {
+            "category_phrase": "Künstliche Intelligenz",
             "long_tail_queries": [
-              "Artificial intelligence in cybersecurity কীভাবে কাজ করে",
-              "Artificial intelligence in cybersecurity ব্যবহারিক গাইড",
+              "wie funktioniert Artificial intelligence in cybersecurity",
+              "praktischer Leitfaden zu Artificial intelligence in cybersecurity",
               "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
             ],
-            "category_phrase": "কৃত্রিম বুদ্ধিমত্তা"
-          },
-          "ro": {
             "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
             "secondary_queries": [
-              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY carte",
-              "carte despre inteligență artificială",
-              "ghid Artificial intelligence in cybersecurity",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Buch",
+              "Künstliche Intelligenz Buch",
+              "Artificial intelligence in cybersecurity Leitfaden",
               "Artificial intelligence in cybersecurity",
               "Machine learning for threat detection",
               "Network intrusion detection",
               "Malware and ransomware analysis",
               "Phishing and DNS security",
               "Endpoint, cloud and container telemetry"
-            ],
+            ]
+          },
+          "en": {
+            "category_phrase": "artificial intelligence",
             "long_tail_queries": [
-              "cum funcționează Artificial intelligence in cybersecurity",
-              "ghid practic pentru Artificial intelligence in cybersecurity",
+              "how Artificial intelligence in cybersecurity works",
+              "practical guide to Artificial intelligence in cybersecurity",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY by Faramarz Kowsari"
+            ],
+            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+            "secondary_queries": [
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY book",
+              "artificial intelligence book",
+              "Artificial intelligence in cybersecurity guide",
+              "Artificial intelligence in cybersecurity",
+              "Machine learning for threat detection",
+              "Network intrusion detection",
+              "Malware and ransomware analysis",
+              "Phishing and DNS security",
+              "Endpoint, cloud and container telemetry"
+            ]
+          },
+          "es": {
+            "category_phrase": "inteligencia artificial",
+            "long_tail_queries": [
+              "cómo funciona Artificial intelligence in cybersecurity",
+              "guía práctica de Artificial intelligence in cybersecurity",
               "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
             ],
-            "category_phrase": "inteligență artificială"
+            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+            "secondary_queries": [
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY libro",
+              "libro de inteligencia artificial",
+              "guía de Artificial intelligence in cybersecurity",
+              "Artificial intelligence in cybersecurity",
+              "Machine learning for threat detection",
+              "Network intrusion detection",
+              "Malware and ransomware analysis",
+              "Phishing and DNS security",
+              "Endpoint, cloud and container telemetry"
+            ]
+          },
+          "fa": {
+            "category_phrase": "هوش مصنوعی",
+            "long_tail_queries": [
+              "Artificial intelligence in cybersecurity چیست",
+              "راهنما کاربردی Artificial intelligence in cybersecurity",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY فرامرز کوثری"
+            ],
+            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+            "secondary_queries": [
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY کتاب",
+              "کتاب هوش مصنوعی",
+              "راهنما Artificial intelligence in cybersecurity",
+              "Artificial intelligence in cybersecurity",
+              "Machine learning for threat detection",
+              "Network intrusion detection",
+              "Malware and ransomware analysis",
+              "Phishing and DNS security",
+              "Endpoint, cloud and container telemetry"
+            ]
           },
           "fil": {
+            "category_phrase": "artificial intelligence",
+            "long_tail_queries": [
+              "paano gumagana ang Artificial intelligence in cybersecurity",
+              "praktikal na gabay sa Artificial intelligence in cybersecurity",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+            ],
             "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
             "secondary_queries": [
               "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY aklat",
@@ -10567,21 +10392,196 @@
               "Malware and ransomware analysis",
               "Phishing and DNS security",
               "Endpoint, cloud and container telemetry"
-            ],
+            ]
+          },
+          "fr": {
+            "category_phrase": "intelligence artificielle",
             "long_tail_queries": [
-              "paano gumagana ang Artificial intelligence in cybersecurity",
-              "praktikal na gabay sa Artificial intelligence in cybersecurity",
+              "comment fonctionne Artificial intelligence in cybersecurity",
+              "guide pratique de Artificial intelligence in cybersecurity",
               "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
             ],
-            "category_phrase": "artificial intelligence"
+            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+            "secondary_queries": [
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY livre",
+              "livre sur intelligence artificielle",
+              "guide Artificial intelligence in cybersecurity",
+              "Artificial intelligence in cybersecurity",
+              "Machine learning for threat detection",
+              "Network intrusion detection",
+              "Malware and ransomware analysis",
+              "Phishing and DNS security",
+              "Endpoint, cloud and container telemetry"
+            ]
+          },
+          "id": {
+            "category_phrase": "kecerdasan buatan",
+            "long_tail_queries": [
+              "cara kerja Artificial intelligence in cybersecurity",
+              "panduan praktis Artificial intelligence in cybersecurity",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+            ],
+            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+            "secondary_queries": [
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY buku",
+              "buku kecerdasan buatan",
+              "panduan Artificial intelligence in cybersecurity",
+              "Artificial intelligence in cybersecurity",
+              "Machine learning for threat detection",
+              "Network intrusion detection",
+              "Malware and ransomware analysis",
+              "Phishing and DNS security",
+              "Endpoint, cloud and container telemetry"
+            ]
+          },
+          "pt-BR": {
+            "category_phrase": "inteligência artificial",
+            "long_tail_queries": [
+              "como funciona Artificial intelligence in cybersecurity",
+              "guia prático de Artificial intelligence in cybersecurity",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+            ],
+            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+            "secondary_queries": [
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY livro",
+              "livro sobre inteligência artificial",
+              "guia de Artificial intelligence in cybersecurity",
+              "Artificial intelligence in cybersecurity",
+              "Machine learning for threat detection",
+              "Network intrusion detection",
+              "Malware and ransomware analysis",
+              "Phishing and DNS security",
+              "Endpoint, cloud and container telemetry"
+            ]
+          },
+          "ro": {
+            "category_phrase": "inteligență artificială",
+            "long_tail_queries": [
+              "cum funcționează Artificial intelligence in cybersecurity",
+              "ghid practic pentru Artificial intelligence in cybersecurity",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+            ],
+            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+            "secondary_queries": [
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY carte",
+              "carte despre inteligență artificială",
+              "ghid Artificial intelligence in cybersecurity",
+              "Artificial intelligence in cybersecurity",
+              "Machine learning for threat detection",
+              "Network intrusion detection",
+              "Malware and ransomware analysis",
+              "Phishing and DNS security",
+              "Endpoint, cloud and container telemetry"
+            ]
+          },
+          "ru": {
+            "category_phrase": "искусственный интеллект",
+            "long_tail_queries": [
+              "как работает Artificial intelligence in cybersecurity",
+              "практическое руководство по Artificial intelligence in cybersecurity",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+            ],
+            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+            "secondary_queries": [
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY книга",
+              "книга о искусственный интеллект",
+              "руководство по Artificial intelligence in cybersecurity",
+              "Artificial intelligence in cybersecurity",
+              "Machine learning for threat detection",
+              "Network intrusion detection",
+              "Malware and ransomware analysis",
+              "Phishing and DNS security",
+              "Endpoint, cloud and container telemetry"
+            ]
+          },
+          "th": {
+            "category_phrase": "ปัญญาประดิษฐ์",
+            "long_tail_queries": [
+              "Artificial intelligence in cybersecurity ทำงานอย่างไร",
+              "คู่มือ Artificial intelligence in cybersecurity แบบปฏิบัติ",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+            ],
+            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+            "secondary_queries": [
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY หนังสือ",
+              "หนังสือ ปัญญาประดิษฐ์",
+              "คู่มือ Artificial intelligence in cybersecurity",
+              "Artificial intelligence in cybersecurity",
+              "Machine learning for threat detection",
+              "Network intrusion detection",
+              "Malware and ransomware analysis",
+              "Phishing and DNS security",
+              "Endpoint, cloud and container telemetry"
+            ]
+          },
+          "tr": {
+            "category_phrase": "yapay zekâ",
+            "long_tail_queries": [
+              "Artificial intelligence in cybersecurity nasıl çalışır",
+              "Artificial intelligence in cybersecurity için uygulamalı rehberi",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+            ],
+            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+            "secondary_queries": [
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY kitap",
+              "yapay zekâ kitap",
+              "Artificial intelligence in cybersecurity rehberi",
+              "Artificial intelligence in cybersecurity",
+              "Machine learning for threat detection",
+              "Network intrusion detection",
+              "Malware and ransomware analysis",
+              "Phishing and DNS security",
+              "Endpoint, cloud and container telemetry"
+            ]
+          },
+          "vi": {
+            "category_phrase": "trí tuệ nhân tạo",
+            "long_tail_queries": [
+              "Artificial intelligence in cybersecurity hoạt động như thế nào",
+              "hướng dẫn thực hành Artificial intelligence in cybersecurity",
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY Faramarz Kowsari"
+            ],
+            "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
+            "secondary_queries": [
+              "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY sách",
+              "sách về trí tuệ nhân tạo",
+              "hướng dẫn Artificial intelligence in cybersecurity",
+              "Artificial intelligence in cybersecurity",
+              "Machine learning for threat detection",
+              "Network intrusion detection",
+              "Malware and ransomware analysis",
+              "Phishing and DNS security",
+              "Endpoint, cloud and container telemetry"
+            ]
           }
         },
+        "long_tail_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY by Faramarz Kowsari",
+          "practical guide to Artificial intelligence in cybersecurity",
+          "how Artificial intelligence in cybersecurity works",
+          "Artificial intelligence in cybersecurity Machine learning for threat detection"
+        ],
+        "primary_query": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
         "related_slugs": [
           "level-2-market-data-explained",
           "options-flow-trading",
           "silver-trading",
           "claude-fable-5-1-and-mythos-5-1",
           "claude-mcp-mastery"
+        ],
+        "secondary_queries": [
+          "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY book",
+          "Foundations, Intelligent Threat Detection, Adversarial Machine Learning, Privacy, Generative AI, and Secure Autonomous Systems",
+          "Artificial Intelligence & Cybersecurity",
+          "Artificial intelligence in cybersecurity",
+          "Machine learning for threat detection",
+          "Network intrusion detection",
+          "Malware and ransomware analysis",
+          "Phishing and DNS security",
+          "Endpoint, cloud and container telemetry",
+          "Security data engineering",
+          "Data leakage and time-based validation",
+          "Precision, recall, calibration and concept drift"
         ]
       },
       "key_topics": [
@@ -53152,6 +53152,460 @@
       "preview_url": "https://play.google.com/books/reader?id=1OsMEgAAQBAJ&hl=en",
       "cover_url": "https://books.google.com/books/content?id=1OsMEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "published_date": "",
+      "isbn": "",
+      "doi": ""
+    },
+    {
+      "slug": "nifty-50-options-trading",
+      "title": "NIFTY 50 OPTIONS TRADING",
+      "subtitle": "Option Chain Analysis, Open Interest, Greeks, Price Action & Risk Management",
+      "author": "Faramarz Kowsari",
+      "language": "English",
+      "category": "Trading",
+      "summary": "NIFTY 50 OPTIONS TRADING is a structured, evidence-led guide to trading NIFTY index options that begins with the Indian market and the contract itself before moving into option-chain interpretation, nonlinear option risk, price action, strategy construction, execution, portfolio control and reproducible research. The book repeatedly separates the NIFTY 50 index, NIFTY futures and individual option premiums so that a correct directional view on the index is not mistaken for a guaranteed profitable option trade. It explains free-float index weighting, contract identity, premium exposure, tradable liquidity and the practical need to verify current exchange records, lot sizes, expiry conventions, order limitations and brokerage conditions before risking capital.\n\nThe option-chain section treats strike, expiry, bid, ask, volume, open interest, implied volatility and Greeks as distinct fields that answer different questions. Rather than turning the largest open-interest number into automatic support or resistance, the framework distinguishes observation from interpretation and emphasizes synchronized timestamps, quote quality, spread, depth and executable liquidity. Open interest is explained as the stock of outstanding contracts, while volume is the flow of transactions; changes in OI may reflect creation, closure or transfer and cannot by themselves reveal whether participants are bullish, bearish, hedging or building spreads. Put-call ratios, strike selection, multiple expiries and positioning evidence are therefore used as conditional context rather than as shortcuts to trader intent.\n\nThe pricing and Greeks chapters explain intrinsic and extrinsic value, implied volatility, skew, volatility regimes, delta, gamma, theta and vega as dynamic sensitivities rather than fixed predictions. The book moves from single-leg examples to whole-position Greeks and stress scenarios, showing why a portfolio can look delta-neutral while carrying significant gamma, vega, maturity or tail risk. It stresses that theoretical valuation does not guarantee an executable fill, that bid-ask friction can overwhelm small expected edges, and that portfolio risk must be recalculated across changing spot, volatility and time conditions, especially close to expiry.\n\nPrice-action and context chapters connect spot, futures and tradable option prices with opening gaps, auction context, market profile, VWAP, momentum, mean-reversion filters, sector breadth, institutional-flow context and event risk. Strategy chapters then examine long calls and puts, vertical debit and credit spreads, straddles, strangles, iron condors, iron butterflies, calendars, diagonals, ratio spreads and backspreads. Each structure is treated as a combination of signed exposures, execution assumptions and failure modes rather than as a named setup that is automatically suitable in every regime.\n\nThe execution and account-survival sections cover weekly expiry, event-day liquidity dislocation, order selection, multi-leg fills, reconciliation, rolling, hedging, closing decisions and operational controls for live trading. Position sizing is addressed for both defined- and undefined-loss structures, while portfolio Greeks, concentration, correlated exposure, trading records, behavioral review and India-specific tax questions are integrated into the broader risk process. The book makes clear that margin is an operational constraint rather than a maximum-loss guarantee and that slippage, partial fills, margin changes, order rejection and platform failure can materially alter a theoretical payoff.\n\nThe final case-study and research section turns the material into a reproducible NIFTY trading process. Trend days, gap reversals, failed breakouts, range conditions, implied-volatility crush and challenged spreads are used as research cases rather than invented historical victories. The closing playbook requires rules to be defined before evaluation: eligible sessions, signal, contract choice, expiry, liquidity filters, entry assumptions, stops, exits, costs, capital allocation and no-trade conditions. Development and out-of-sample periods are separated, rejected orders and missing data are recorded, and a strategy is allowed to fail when it does not survive realistic costs, execution constraints or holdout testing. The result is a practical framework for moving from market observation to option selection, execution and risk control without replacing evidence with hindsight.",
+      "seo_description": "A practical evidence-led guide to NIFTY 50 options covering NSE option chains, open interest, put-call ratios, Greeks, implied volatility, price action, spreads, expiry, execution, portfolio risk and reproducible trading research.",
+      "seo": {
+        "primary_query": "NIFTY 50 OPTIONS TRADING",
+        "secondary_queries": [
+          "NIFTY 50 OPTIONS TRADING book",
+          "Option Chain Analysis, Open Interest, Greeks, Price Action & Risk Management",
+          "Trading",
+          "NIFTY 50 options trading",
+          "NSE option chain",
+          "NIFTY 50 index structure",
+          "NIFTY futures",
+          "Index options",
+          "Option chain analysis",
+          "Open interest",
+          "Change in open interest",
+          "Trading volume"
+        ],
+        "long_tail_queries": [
+          "NIFTY 50 OPTIONS TRADING by Faramarz Kowsari",
+          "practical guide to NIFTY 50 options trading",
+          "how NIFTY 50 options trading works",
+          "NIFTY 50 options trading NSE option chain"
+        ],
+        "entities": [
+          "NIFTY 50 options trading",
+          "NSE option chain",
+          "NIFTY 50 index structure",
+          "NIFTY futures",
+          "Index options",
+          "Option chain analysis",
+          "Open interest",
+          "Change in open interest",
+          "Trading volume",
+          "Put-call ratio",
+          "Strike selection",
+          "Multiple expiries",
+          "Bid-ask spread",
+          "Executable liquidity",
+          "Option premium",
+          "Intrinsic value",
+          "Extrinsic value",
+          "Implied volatility",
+          "Volatility skew",
+          "Volatility regimes"
+        ],
+        "cluster": "trading-markets",
+        "cluster_label": "Trading & Financial Markets",
+        "localized": {
+          "en": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING book",
+              "trading and financial markets book",
+              "NIFTY 50 options trading guide",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "how NIFTY 50 options trading works",
+              "practical guide to NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING by Faramarz Kowsari"
+            ],
+            "category_phrase": "trading and financial markets"
+          },
+          "tr": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING kitap",
+              "trading ve finansal piyasalar kitap",
+              "NIFTY 50 options trading rehberi",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "NIFTY 50 options trading nasıl çalışır",
+              "NIFTY 50 options trading için uygulamalı rehberi",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading ve finansal piyasalar"
+          },
+          "ru": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING книга",
+              "книга о трейдинг и финансовые рынки",
+              "руководство по NIFTY 50 options trading",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "как работает NIFTY 50 options trading",
+              "практическое руководство по NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "трейдинг и финансовые рынки"
+          },
+          "de": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING Buch",
+              "Trading und Finanzmärkte Buch",
+              "NIFTY 50 options trading Leitfaden",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "wie funktioniert NIFTY 50 options trading",
+              "praktischer Leitfaden zu NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "Trading und Finanzmärkte"
+          },
+          "es": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING libro",
+              "libro de trading y mercados financieros",
+              "guía de NIFTY 50 options trading",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "cómo funciona NIFTY 50 options trading",
+              "guía práctica de NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading y mercados financieros"
+          },
+          "fr": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING livre",
+              "livre sur trading et marchés financiers",
+              "guide NIFTY 50 options trading",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "comment fonctionne NIFTY 50 options trading",
+              "guide pratique de NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading et marchés financiers"
+          },
+          "pt-BR": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING livro",
+              "livro sobre trading e mercados financeiros",
+              "guia de NIFTY 50 options trading",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "como funciona NIFTY 50 options trading",
+              "guia prático de NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading e mercados financeiros"
+          },
+          "fa": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING کتاب",
+              "کتاب معامله‌گری و بازارهای مالی",
+              "راهنما NIFTY 50 options trading",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "NIFTY 50 options trading چیست",
+              "راهنما کاربردی NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING فرامرز کوثری"
+            ],
+            "category_phrase": "معامله‌گری و بازارهای مالی"
+          },
+          "ar": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING كتاب",
+              "كتاب عن التداول والأسواق المالية",
+              "دليل NIFTY 50 options trading",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "ما هو NIFTY 50 options trading",
+              "دليل عملي عن NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "التداول والأسواق المالية"
+          },
+          "id": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING buku",
+              "buku trading dan pasar keuangan",
+              "panduan NIFTY 50 options trading",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "cara kerja NIFTY 50 options trading",
+              "panduan praktis NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading dan pasar keuangan"
+          },
+          "vi": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING sách",
+              "sách về giao dịch và thị trường tài chính",
+              "hướng dẫn NIFTY 50 options trading",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "NIFTY 50 options trading hoạt động như thế nào",
+              "hướng dẫn thực hành NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "giao dịch và thị trường tài chính"
+          },
+          "th": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING หนังสือ",
+              "หนังสือ การเทรดและตลาดการเงิน",
+              "คู่มือ NIFTY 50 options trading",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "NIFTY 50 options trading ทำงานอย่างไร",
+              "คู่มือ NIFTY 50 options trading แบบปฏิบัติ",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "การเทรดและตลาดการเงิน"
+          },
+          "bn": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING বই",
+              "ট্রেডিং ও আর্থিক বাজার বই",
+              "NIFTY 50 options trading গাইড",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "NIFTY 50 options trading কীভাবে কাজ করে",
+              "NIFTY 50 options trading ব্যবহারিক গাইড",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "ট্রেডিং ও আর্থিক বাজার"
+          },
+          "ro": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING carte",
+              "carte despre trading și piețe financiare",
+              "ghid NIFTY 50 options trading",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "cum funcționează NIFTY 50 options trading",
+              "ghid practic pentru NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading și piețe financiare"
+          },
+          "fil": {
+            "primary_query": "NIFTY 50 OPTIONS TRADING",
+            "secondary_queries": [
+              "NIFTY 50 OPTIONS TRADING aklat",
+              "aklat tungkol sa trading at financial markets",
+              "gabay sa NIFTY 50 options trading",
+              "NIFTY 50 options trading",
+              "NSE option chain",
+              "NIFTY 50 index structure",
+              "NIFTY futures",
+              "Index options",
+              "Option chain analysis"
+            ],
+            "long_tail_queries": [
+              "paano gumagana ang NIFTY 50 options trading",
+              "praktikal na gabay sa NIFTY 50 options trading",
+              "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading at financial markets"
+          }
+        },
+        "related_slugs": [
+          "0dte-options",
+          "options-flow-trading",
+          "gamma-exposure-trading",
+          "confluence-trading",
+          "crypto-liquidation-heatmaps"
+        ]
+      },
+      "key_topics": [
+        "NIFTY 50 options trading",
+        "NSE option chain",
+        "NIFTY 50 index structure",
+        "NIFTY futures",
+        "Index options",
+        "Option chain analysis",
+        "Open interest",
+        "Change in open interest",
+        "Trading volume",
+        "Put-call ratio",
+        "Strike selection",
+        "Multiple expiries",
+        "Bid-ask spread",
+        "Executable liquidity",
+        "Option premium",
+        "Intrinsic value",
+        "Extrinsic value",
+        "Implied volatility",
+        "Volatility skew",
+        "Volatility regimes",
+        "Delta",
+        "Gamma",
+        "Theta",
+        "Vega",
+        "Portfolio Greeks",
+        "Stress testing",
+        "NIFTY price action",
+        "Spot-futures relationship",
+        "Opening gaps",
+        "Auction context",
+        "Market profile",
+        "VWAP",
+        "Momentum filters",
+        "Mean reversion",
+        "Sector breadth",
+        "Event risk",
+        "Long calls and puts",
+        "Vertical spreads",
+        "Straddles",
+        "Strangles",
+        "Iron condors",
+        "Iron butterflies",
+        "Calendars and diagonals",
+        "Ratio spreads",
+        "Backspreads",
+        "Weekly expiry",
+        "Multi-leg execution",
+        "Partial fills",
+        "Rolling and hedging",
+        "Position sizing",
+        "Defined-risk strategies",
+        "Undefined-risk strategies",
+        "Margin risk",
+        "Portfolio concentration",
+        "Trade journaling",
+        "Backtesting",
+        "Out-of-sample testing",
+        "Trading playbook",
+        "No-trade rules",
+        "Data provenance"
+      ],
+      "learning": [
+        "Distinguish the NIFTY 50 index, NIFTY futures and individual option premiums so that an index view is not confused with the actual economics of an option position.",
+        "Read an NSE option chain by separating strike, expiry, bid, ask, volume, open interest, implied volatility and Greeks instead of collapsing them into one directional signal.",
+        "Interpret open interest as outstanding contracts and volume as transaction flow, recognizing that OI changes do not uniquely identify bullish, bearish, hedging or speculative intent.",
+        "Evaluate strike liquidity using executable bid and ask, spread, displayed depth, quote freshness and trading frequency rather than relying only on last price or headline volume.",
+        "Use put-call ratios, OI concentration and multiple-expiry observations as conditional positioning evidence while explicitly recording what the public data cannot prove.",
+        "Decompose option premium into intrinsic and extrinsic components and understand how time, implied volatility, moneyness, forward conditions and market friction affect realizable value.",
+        "Use delta, gamma, theta and vega as local risk sensitivities and re-evaluate them as spot, volatility and time change, especially near weekly expiry.",
+        "Aggregate Greeks across complete multi-leg positions and run joint spot-volatility stress scenarios instead of treating an initially neutral delta as a stable hedge.",
+        "Connect NIFTY spot, futures, opening gaps, VWAP, momentum, market profile, sector breadth and event context to option selection without treating any single indicator as sufficient.",
+        "Compare long options, vertical spreads, straddles, strangles, iron structures, calendars, diagonals, ratio spreads and backspreads by payoff shape, Greek exposure, liquidity and operational risk.",
+        "Plan for weekly expiry, event-day dislocation, multi-leg fill risk, slippage, partial execution, order rejection, rolling and hedging before entering a live position.",
+        "Size defined- and undefined-loss positions from account-level risk limits rather than from premium affordability or broker margin alone.",
+        "Track portfolio Greeks, concentration, correlated risk, execution records and behavioral errors so that a profitable outcome does not conceal a weak decision process.",
+        "Build a reproducible NIFTY options playbook with predefined signals, contract-selection rules, liquidity filters, costs, exits, no-trade conditions and chronological out-of-sample evaluation.",
+        "Treat missing data, stale quotes, rejected orders and null research results as valid evidence instead of repairing a strategy with hindsight."
+      ],
+      "target_audience": "For NIFTY 50 options traders, Indian derivatives participants, NSE option-chain users, price-action and VWAP traders, volatility and Greeks learners, multi-leg strategy traders, discretionary and systematic researchers, and anyone who wants to connect option-chain evidence with executable prices, portfolio risk and a reproducible trading process.",
+      "url": "https://faramarzkowsari.github.io/books/nifty-50-options-trading/",
+      "google_books_id": "8RUcEgAAQBAJ",
+      "google_books_url": "https://play.google.com/store/books/details?id=8RUcEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=8RUcEgAAQBAJ&hl=en",
+      "cover_url": "https://books.google.com/books/content?id=8RUcEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "published_date": "2026",
       "isbn": "",
       "doi": ""
     },

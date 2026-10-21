@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (165)
+## Books (166)
 
 ### Depremde Hayatta Kalma
 
@@ -3242,6 +3242,48 @@ What readers learn:
 - Test and journal timeframe conflicts and failures without confusing profit with process quality.
 
 Audience: For discretionary traders who use multiple charts and want a clear hierarchy from higher-timeframe context to lower-timeframe execution.
+
+### NIFTY 50 OPTIONS TRADING
+
+- Canonical page: https://faramarzkowsari.github.io/books/nifty-50-options-trading/
+- Language: English
+- Category: Trading
+- Subtitle: Option Chain Analysis, Open Interest, Greeks, Price Action & Risk Management
+- Google Books: https://play.google.com/store/books/details?id=8RUcEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=8RUcEgAAQBAJ&hl=en
+
+NIFTY 50 OPTIONS TRADING is a structured, evidence-led guide to trading NIFTY index options that begins with the Indian market and the contract itself before moving into option-chain interpretation, nonlinear option risk, price action, strategy construction, execution, portfolio control and reproducible research. The book repeatedly separates the NIFTY 50 index, NIFTY futures and individual option premiums so that a correct directional view on the index is not mistaken for a guaranteed profitable option trade. It explains free-float index weighting, contract identity, premium exposure, tradable liquidity and the practical need to verify current exchange records, lot sizes, expiry conventions, order limitations and brokerage conditions before risking capital.
+
+The option-chain section treats strike, expiry, bid, ask, volume, open interest, implied volatility and Greeks as distinct fields that answer different questions. Rather than turning the largest open-interest number into automatic support or resistance, the framework distinguishes observation from interpretation and emphasizes synchronized timestamps, quote quality, spread, depth and executable liquidity. Open interest is explained as the stock of outstanding contracts, while volume is the flow of transactions; changes in OI may reflect creation, closure or transfer and cannot by themselves reveal whether participants are bullish, bearish, hedging or building spreads. Put-call ratios, strike selection, multiple expiries and positioning evidence are therefore used as conditional context rather than as shortcuts to trader intent.
+
+The pricing and Greeks chapters explain intrinsic and extrinsic value, implied volatility, skew, volatility regimes, delta, gamma, theta and vega as dynamic sensitivities rather than fixed predictions. The book moves from single-leg examples to whole-position Greeks and stress scenarios, showing why a portfolio can look delta-neutral while carrying significant gamma, vega, maturity or tail risk. It stresses that theoretical valuation does not guarantee an executable fill, that bid-ask friction can overwhelm small expected edges, and that portfolio risk must be recalculated across changing spot, volatility and time conditions, especially close to expiry.
+
+Price-action and context chapters connect spot, futures and tradable option prices with opening gaps, auction context, market profile, VWAP, momentum, mean-reversion filters, sector breadth, institutional-flow context and event risk. Strategy chapters then examine long calls and puts, vertical debit and credit spreads, straddles, strangles, iron condors, iron butterflies, calendars, diagonals, ratio spreads and backspreads. Each structure is treated as a combination of signed exposures, execution assumptions and failure modes rather than as a named setup that is automatically suitable in every regime.
+
+The execution and account-survival sections cover weekly expiry, event-day liquidity dislocation, order selection, multi-leg fills, reconciliation, rolling, hedging, closing decisions and operational controls for live trading. Position sizing is addressed for both defined- and undefined-loss structures, while portfolio Greeks, concentration, correlated exposure, trading records, behavioral review and India-specific tax questions are integrated into the broader risk process. The book makes clear that margin is an operational constraint rather than a maximum-loss guarantee and that slippage, partial fills, margin changes, order rejection and platform failure can materially alter a theoretical payoff.
+
+The final case-study and research section turns the material into a reproducible NIFTY trading process. Trend days, gap reversals, failed breakouts, range conditions, implied-volatility crush and challenged spreads are used as research cases rather than invented historical victories. The closing playbook requires rules to be defined before evaluation: eligible sessions, signal, contract choice, expiry, liquidity filters, entry assumptions, stops, exits, costs, capital allocation and no-trade conditions. Development and out-of-sample periods are separated, rejected orders and missing data are recorded, and a strategy is allowed to fail when it does not survive realistic costs, execution constraints or holdout testing. The result is a practical framework for moving from market observation to option selection, execution and risk control without replacing evidence with hindsight.
+
+Key topics: NIFTY 50 options trading; NSE option chain; NIFTY 50 index structure; NIFTY futures; Index options; Option chain analysis; Open interest; Change in open interest; Trading volume; Put-call ratio; Strike selection; Multiple expiries; Bid-ask spread; Executable liquidity; Option premium; Intrinsic value; Extrinsic value; Implied volatility; Volatility skew; Volatility regimes; Delta; Gamma; Theta; Vega; Portfolio Greeks; Stress testing; NIFTY price action; Spot-futures relationship; Opening gaps; Auction context; Market profile; VWAP; Momentum filters; Mean reversion; Sector breadth; Event risk; Long calls and puts; Vertical spreads; Straddles; Strangles; Iron condors; Iron butterflies; Calendars and diagonals; Ratio spreads; Backspreads; Weekly expiry; Multi-leg execution; Partial fills; Rolling and hedging; Position sizing; Defined-risk strategies; Undefined-risk strategies; Margin risk; Portfolio concentration; Trade journaling; Backtesting; Out-of-sample testing; Trading playbook; No-trade rules; Data provenance
+
+What readers learn:
+- Distinguish the NIFTY 50 index, NIFTY futures and individual option premiums so that an index view is not confused with the actual economics of an option position.
+- Read an NSE option chain by separating strike, expiry, bid, ask, volume, open interest, implied volatility and Greeks instead of collapsing them into one directional signal.
+- Interpret open interest as outstanding contracts and volume as transaction flow, recognizing that OI changes do not uniquely identify bullish, bearish, hedging or speculative intent.
+- Evaluate strike liquidity using executable bid and ask, spread, displayed depth, quote freshness and trading frequency rather than relying only on last price or headline volume.
+- Use put-call ratios, OI concentration and multiple-expiry observations as conditional positioning evidence while explicitly recording what the public data cannot prove.
+- Decompose option premium into intrinsic and extrinsic components and understand how time, implied volatility, moneyness, forward conditions and market friction affect realizable value.
+- Use delta, gamma, theta and vega as local risk sensitivities and re-evaluate them as spot, volatility and time change, especially near weekly expiry.
+- Aggregate Greeks across complete multi-leg positions and run joint spot-volatility stress scenarios instead of treating an initially neutral delta as a stable hedge.
+- Connect NIFTY spot, futures, opening gaps, VWAP, momentum, market profile, sector breadth and event context to option selection without treating any single indicator as sufficient.
+- Compare long options, vertical spreads, straddles, strangles, iron structures, calendars, diagonals, ratio spreads and backspreads by payoff shape, Greek exposure, liquidity and operational risk.
+- Plan for weekly expiry, event-day dislocation, multi-leg fill risk, slippage, partial execution, order rejection, rolling and hedging before entering a live position.
+- Size defined- and undefined-loss positions from account-level risk limits rather than from premium affordability or broker margin alone.
+- Track portfolio Greeks, concentration, correlated risk, execution records and behavioral errors so that a profitable outcome does not conceal a weak decision process.
+- Build a reproducible NIFTY options playbook with predefined signals, contract-selection rules, liquidity filters, costs, exits, no-trade conditions and chronological out-of-sample evaluation.
+- Treat missing data, stale quotes, rejected orders and null research results as valid evidence instead of repairing a strategy with hindsight.
+
+Audience: For NIFTY 50 options traders, Indian derivatives participants, NSE option-chain users, price-action and VWAP traders, volatility and Greeks learners, multi-leg strategy traders, discretionary and systematic researchers, and anyone who wants to connect option-chain evidence with executable prices, portfolio risk and a reproducible trading process.
 
 ### Opening Range Gap Trading
 
