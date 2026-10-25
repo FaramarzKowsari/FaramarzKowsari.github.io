@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (167)
+## Books (168)
 
 ### Depremde Hayatta Kalma
 
@@ -657,6 +657,41 @@ What readers learn:
 - Separate the builder's claim of completion from an independent verifier and production evaluation layer.
 
 Audience: For AI engineers, software developers, agent builders, technical product leaders, researchers, automation architects, and advanced Claude users who need to design long-running, tool-using systems that are observable, verifiable, permission-aware, cost-conscious, and safe enough for production work.
+
+### RAG ENGINEERING
+
+- Canonical page: https://faramarzkowsari.github.io/books/rag-engineering/
+- Language: English
+- Category: Artificial Intelligence & AI Engineering
+- Subtitle: From First Principles to Production
+- Google Books: https://play.google.com/store/books/details?id=OekhEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=OekhEgAAQBAJ&hl=en
+
+RAG ENGINEERING: From First Principles to Production is a graduate-level engineering reference for building retrieval-augmented generation systems that can justify their answers with inspectable evidence. Rather than treating RAG as a prompt plus a vector database, the book begins with the source contract of the application: what information is authoritative, which user may access it, how freshness and supersession are represented, when the system should abstain, and what evidence must be preserved so a response can later be audited. The opening parts establish information-retrieval fundamentals, lexical baselines, corpus provenance, document parsing, chunking, hierarchy, embeddings, indexes and metadata before advancing to dense retrieval and approximate nearest-neighbor search.
+
+The search architecture section develops a progression from sparse and dense retrieval to hybrid search, fusion, reranking and query adaptation, while keeping ranking quality separate from generation quality. Context assembly, grounded answer construction, citation support, abstention, multi-turn and temporal questions, multi-hop retrieval, structured outputs and tool-facing RAG are treated as distinct engineering problems with their own failure modes. The book repeatedly rejects the idea that retrieval automatically eliminates hallucination: an outdated, unauthorized or merely topical passage can be retrieved perfectly and still produce an operationally wrong answer.
+
+Evaluation is treated as a first-class scientific discipline. Dedicated chapters cover benchmark design, dataset validity, retrieval metrics, grounded-answer and citation evaluation, ablation studies, significance, replication, continuous evaluation and quality monitoring. Advanced sections extend the architecture to hierarchical and long-document retrieval, GraphRAG, knowledge-graph retrieval, adaptive and corrective retrieval, agentic RAG, multimodal systems and domain-specific implementations. Throughout, the emphasis is on falsifiable comparisons, independently defined relevance judgments, held-out evaluation, reproducible artifacts and error analysis that can identify whether a failure belongs to parsing, retrieval, ranking, context packing, generation or citation.
+
+The production sequence addresses security boundaries, permissions, privacy, indirect prompt injection, retrieval poisoning, cross-tenant leakage, latency, cost, capacity, deployment, versioning, RAGOps, rollback and reliability engineering. The capstone then asks the reader to design, benchmark and defend a complete RAG system with a rights-cleared corpus, versioned indexing code, lexical baseline, justified alternatives, qrels, retrieval and grounded-answer evaluation, safety tests, service interface, and cost/latency profile. Additional evidence-led laboratories, operational dossiers, vendor-documentation studies, failure-injection exercises and release gates reinforce the book's central standard: a production RAG claim should be traceable from immutable source evidence through retrieval and generation to an auditable answer, and it should be precise enough that another engineer can attempt to reproduce or falsify it.
+
+Key topics: Retrieval-augmented generation (RAG); Evidence-based AI architecture; Source authority and provenance; RAG requirements engineering; Information retrieval fundamentals; BM25 and lexical retrieval; Dense retrieval; Embedding models; Vector search; Approximate nearest neighbors; Document parsing; Chunking strategies; Document hierarchy; Semantic boundaries; Indexes and metadata; Hybrid search; Rank fusion; Reranking; Query understanding; Retrieval adaptation; Context assembly; Grounded answer construction; Citation-grounded answers; Abstention; Multi-turn RAG; Temporal RAG; Multi-hop retrieval; Structured outputs; Tool-facing RAG; Benchmark design; Dataset validity; Precision, recall, reciprocal rank and nDCG; Retrieval error diagnostics; Grounded-answer evaluation; Citation evaluation; Ablation studies; Statistical significance and replication; Continuous evaluation; Quality monitoring; Long-document retrieval; Hierarchical retrieval; GraphRAG; Knowledge-graph retrieval; Adaptive RAG; Corrective RAG; Agentic RAG; Multimodal RAG; RAG security; Prompt injection; Retrieval poisoning; Permissions and tenant isolation; Privacy; Latency and cost engineering; Capacity planning; Deployment and versioning; RAGOps; Rollback and release gates; Reliability engineering; Failure analysis; Reproducible RAG experiments
+
+What readers learn:
+- Define when retrieval is actually justified and translate broad product requests into measurable source, access, freshness, abstention and evidence requirements.
+- Build and verify a lexical baseline before adding embeddings, and distinguish exact-identifier retrieval from semantic retrieval needs.
+- Prepare document corpora with explicit provenance, governance, parsing, chunking, hierarchy, metadata and lifecycle rules.
+- Compare sparse, dense and hybrid retrieval using independently defined relevance judgments rather than anecdotal examples.
+- Use fusion and reranking as measurable components whose added latency and maintenance cost must be justified by evaluation.
+- Separate retrieval success from generation faithfulness and test context assembly, answer construction, citations and abstention independently.
+- Design benchmarks that include answerable, unanswerable, conflicting, stale, near-duplicate and unauthorized cases instead of only easy demonstrations.
+- Apply retrieval metrics and grounded-answer evaluation correctly, and use ablations and held-out tests to locate regressions and avoid hindsight tuning.
+- Understand where hierarchical retrieval, GraphRAG, adaptive, corrective, agentic and multimodal approaches add value and where they introduce new failure modes.
+- Enforce permissions before ranking and generation, treat retrieved content as lower-trust data, and test prompt injection, poisoning and cross-tenant leakage explicitly.
+- Engineer production RAG releases as versioned combinations of corpus, parser, embeddings, index, retriever, prompts, model and authorization policy with observability and rollback.
+- Defend a complete RAG system with reproducible source manifests, qrels, metrics, safety tests, service behavior, cost/latency evidence and documented negative results.
+
+Audience: For software architects, applied AI engineers, machine-learning engineers, retrieval engineers, master's students, researchers and technical teams who already know Python and basic statistics and want a rigorous bridge from RAG fundamentals to evaluation, security, deployment, observability and production operations.
 
 ### ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY
 

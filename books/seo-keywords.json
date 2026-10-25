@@ -12279,8 +12279,8 @@
       "claude-agent-skills-playbook",
       "context-engineering-with-claude",
       "claude-code-mastery",
-      "kimi-k3-and-the-agentic-frontier",
-      "claude-cowork-mastery"
+      "rag-engineering",
+      "kimi-k3-and-the-agentic-frontier"
     ],
     "secondary_queries": [
       "Claude Fable 5.1 & Mythos 5.1 book",
@@ -18654,7 +18654,7 @@
       "ai-apis-in-practice",
       "claude-fable-5-1-and-mythos-5-1",
       "context-engineering-with-claude",
-      "the-high-income-fde"
+      "rag-engineering"
     ],
     "secondary_queries": [
       "Engineering Turkey book",
@@ -39863,6 +39863,362 @@
       "Correlation risk",
       "Trading psychology",
       "Funded capital protection"
+    ]
+  },
+  "rag-engineering": {
+    "cluster": "artificial-intelligence",
+    "cluster_label": "Artificial Intelligence",
+    "entities": [
+      "Retrieval-augmented generation (RAG)",
+      "Evidence-based AI architecture",
+      "Source authority and provenance",
+      "RAG requirements engineering",
+      "Information retrieval fundamentals",
+      "BM25 and lexical retrieval",
+      "Dense retrieval",
+      "Embedding models",
+      "Vector search",
+      "Approximate nearest neighbors",
+      "Document parsing",
+      "Chunking strategies",
+      "Document hierarchy",
+      "Semantic boundaries",
+      "Indexes and metadata",
+      "Hybrid search",
+      "Rank fusion",
+      "Reranking",
+      "Query understanding",
+      "Retrieval adaptation"
+    ],
+    "localized": {
+      "ar": {
+        "category_phrase": "الذكاء الاصطناعي",
+        "long_tail_queries": [
+          "ما هو Retrieval-augmented generation (RAG)",
+          "دليل عملي عن Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING كتاب",
+          "كتاب عن الذكاء الاصطناعي",
+          "دليل Retrieval-augmented generation (RAG)",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "bn": {
+        "category_phrase": "কৃত্রিম বুদ্ধিমত্তা",
+        "long_tail_queries": [
+          "Retrieval-augmented generation (RAG) কীভাবে কাজ করে",
+          "Retrieval-augmented generation (RAG) ব্যবহারিক গাইড",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING বই",
+          "কৃত্রিম বুদ্ধিমত্তা বই",
+          "Retrieval-augmented generation (RAG) গাইড",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "de": {
+        "category_phrase": "Künstliche Intelligenz",
+        "long_tail_queries": [
+          "wie funktioniert Retrieval-augmented generation (RAG)",
+          "praktischer Leitfaden zu Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING Buch",
+          "Künstliche Intelligenz Buch",
+          "Retrieval-augmented generation (RAG) Leitfaden",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "en": {
+        "category_phrase": "artificial intelligence",
+        "long_tail_queries": [
+          "how Retrieval-augmented generation (RAG) works",
+          "practical guide to Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING by Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING book",
+          "artificial intelligence book",
+          "Retrieval-augmented generation (RAG) guide",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "es": {
+        "category_phrase": "inteligencia artificial",
+        "long_tail_queries": [
+          "cómo funciona Retrieval-augmented generation (RAG)",
+          "guía práctica de Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING libro",
+          "libro de inteligencia artificial",
+          "guía de Retrieval-augmented generation (RAG)",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "fa": {
+        "category_phrase": "هوش مصنوعی",
+        "long_tail_queries": [
+          "Retrieval-augmented generation (RAG) چیست",
+          "راهنما کاربردی Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING فرامرز کوثری"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING کتاب",
+          "کتاب هوش مصنوعی",
+          "راهنما Retrieval-augmented generation (RAG)",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "fil": {
+        "category_phrase": "artificial intelligence",
+        "long_tail_queries": [
+          "paano gumagana ang Retrieval-augmented generation (RAG)",
+          "praktikal na gabay sa Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING aklat",
+          "aklat tungkol sa artificial intelligence",
+          "gabay sa Retrieval-augmented generation (RAG)",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "fr": {
+        "category_phrase": "intelligence artificielle",
+        "long_tail_queries": [
+          "comment fonctionne Retrieval-augmented generation (RAG)",
+          "guide pratique de Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING livre",
+          "livre sur intelligence artificielle",
+          "guide Retrieval-augmented generation (RAG)",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "id": {
+        "category_phrase": "kecerdasan buatan",
+        "long_tail_queries": [
+          "cara kerja Retrieval-augmented generation (RAG)",
+          "panduan praktis Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING buku",
+          "buku kecerdasan buatan",
+          "panduan Retrieval-augmented generation (RAG)",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "pt-BR": {
+        "category_phrase": "inteligência artificial",
+        "long_tail_queries": [
+          "como funciona Retrieval-augmented generation (RAG)",
+          "guia prático de Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING livro",
+          "livro sobre inteligência artificial",
+          "guia de Retrieval-augmented generation (RAG)",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "ro": {
+        "category_phrase": "inteligență artificială",
+        "long_tail_queries": [
+          "cum funcționează Retrieval-augmented generation (RAG)",
+          "ghid practic pentru Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING carte",
+          "carte despre inteligență artificială",
+          "ghid Retrieval-augmented generation (RAG)",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "ru": {
+        "category_phrase": "искусственный интеллект",
+        "long_tail_queries": [
+          "как работает Retrieval-augmented generation (RAG)",
+          "практическое руководство по Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING книга",
+          "книга о искусственный интеллект",
+          "руководство по Retrieval-augmented generation (RAG)",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "th": {
+        "category_phrase": "ปัญญาประดิษฐ์",
+        "long_tail_queries": [
+          "Retrieval-augmented generation (RAG) ทำงานอย่างไร",
+          "คู่มือ Retrieval-augmented generation (RAG) แบบปฏิบัติ",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING หนังสือ",
+          "หนังสือ ปัญญาประดิษฐ์",
+          "คู่มือ Retrieval-augmented generation (RAG)",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "tr": {
+        "category_phrase": "yapay zekâ",
+        "long_tail_queries": [
+          "Retrieval-augmented generation (RAG) nasıl çalışır",
+          "Retrieval-augmented generation (RAG) için uygulamalı rehberi",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING kitap",
+          "yapay zekâ kitap",
+          "Retrieval-augmented generation (RAG) rehberi",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      },
+      "vi": {
+        "category_phrase": "trí tuệ nhân tạo",
+        "long_tail_queries": [
+          "Retrieval-augmented generation (RAG) hoạt động như thế nào",
+          "hướng dẫn thực hành Retrieval-augmented generation (RAG)",
+          "RAG ENGINEERING Faramarz Kowsari"
+        ],
+        "primary_query": "RAG ENGINEERING",
+        "secondary_queries": [
+          "RAG ENGINEERING sách",
+          "sách về trí tuệ nhân tạo",
+          "hướng dẫn Retrieval-augmented generation (RAG)",
+          "Retrieval-augmented generation (RAG)",
+          "Evidence-based AI architecture",
+          "Source authority and provenance",
+          "RAG requirements engineering",
+          "Information retrieval fundamentals",
+          "BM25 and lexical retrieval"
+        ]
+      }
+    },
+    "long_tail_queries": [
+      "RAG ENGINEERING by Faramarz Kowsari",
+      "practical guide to Retrieval-augmented generation (RAG)",
+      "how Retrieval-augmented generation (RAG) works",
+      "Retrieval-augmented generation (RAG) Evidence-based AI architecture"
+    ],
+    "primary_query": "RAG ENGINEERING",
+    "related_slugs": [
+      "context-engineering-with-claude",
+      "claude-mcp-mastery",
+      "jev-and-system-one-ai",
+      "claude-fable-5-1-and-mythos-5-1",
+      "ai-apis-in-practice"
+    ],
+    "secondary_queries": [
+      "RAG ENGINEERING book",
+      "From First Principles to Production",
+      "Artificial Intelligence & AI Engineering",
+      "Retrieval-augmented generation (RAG)",
+      "Evidence-based AI architecture",
+      "Source authority and provenance",
+      "RAG requirements engineering",
+      "Information retrieval fundamentals",
+      "BM25 and lexical retrieval",
+      "Dense retrieval",
+      "Embedding models",
+      "Vector search"
     ]
   },
   "relationship-leverage": {

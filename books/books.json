@@ -45793,7 +45793,7 @@
         "ai-apis-in-practice",
         "claude-fable-5-1-and-mythos-5-1",
         "context-engineering-with-claude",
-        "the-high-income-fde"
+        "rag-engineering"
       ]
     },
     "seo_description": "Engineering Turkey by Faramarz Kowsari explores Engineering Turkey with a practical, structured approach."
@@ -65177,27 +65177,8 @@
     "source_scope": "Library source Reverse_Engineering_with_REA_Faramarz_Kowsari_A5_Evidence_Audited_Edition_v6.docx reviewed from the title and evidence disclosure, responsible-use notice, complete 9-part 42-chapter contents, workstation and REA setup methodology, decompilation methodology, behavior-specification and independent-reconstruction sections, AI-agent failure-mode analysis, and the complete REA investigation capstone. Public-page enrichment is limited to concepts directly supported by those reviewed sections. The public Google Books subtitle supplied for this catalog entry is retained even though the reviewed research manuscript uses a slightly different evidence-audited subtitle.",
     "safety_scope": "Authorized analysis, education, debugging, interoperability and responsible research only; the source explicitly excludes unauthorized access, protected-code or asset copying, license circumvention, unauthorized interception, access-control bypass and infringing publication.",
     "seo": {
-      "primary_query": "REVERSE ENGINEERING WITH REA",
-      "secondary_queries": [
-        "REVERSE ENGINEERING WITH REA book",
-        "A Practical Guide to AI-Assisted Software Analysis, Evidence-Based Reconstruction, and Responsible Reverse Engineering",
-        "Software Engineering & Reverse Engineering",
-        "REA reverse engineering",
-        "AI-assisted software analysis",
-        "Responsible reverse engineering",
-        "Evidence-based reconstruction",
-        "Software investigation",
-        "Binary analysis",
-        "Authorized analysis",
-        "Research scope and permission",
-        "Evidence provenance"
-      ],
-      "long_tail_queries": [
-        "REVERSE ENGINEERING WITH REA by Faramarz Kowsari",
-        "practical guide to REA reverse engineering",
-        "how REA reverse engineering works",
-        "REA reverse engineering AI-assisted software analysis"
-      ],
+      "cluster": "software-technology",
+      "cluster_label": "Software, APIs & Technology",
       "entities": [
         "REA reverse engineering",
         "AI-assisted software analysis",
@@ -65220,170 +65201,14 @@
         "Least-privilege analysis",
         "Artifact triage"
       ],
-      "cluster": "software-technology",
-      "cluster_label": "Software, APIs & Technology",
       "localized": {
-        "en": {
-          "primary_query": "REVERSE ENGINEERING WITH REA",
-          "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA book",
-            "artificial intelligence book",
-            "REA reverse engineering guide",
-            "REA reverse engineering",
-            "AI-assisted software analysis",
-            "Responsible reverse engineering",
-            "Evidence-based reconstruction",
-            "Software investigation",
-            "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "how REA reverse engineering works",
-            "practical guide to REA reverse engineering",
-            "REVERSE ENGINEERING WITH REA by Faramarz Kowsari"
-          ],
-          "category_phrase": "artificial intelligence"
-        },
-        "tr": {
-          "primary_query": "REVERSE ENGINEERING WITH REA",
-          "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA kitap",
-            "yapay zekâ kitap",
-            "REA reverse engineering rehberi",
-            "REA reverse engineering",
-            "AI-assisted software analysis",
-            "Responsible reverse engineering",
-            "Evidence-based reconstruction",
-            "Software investigation",
-            "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "REA reverse engineering nasıl çalışır",
-            "REA reverse engineering için uygulamalı rehberi",
-            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
-          ],
-          "category_phrase": "yapay zekâ"
-        },
-        "ru": {
-          "primary_query": "REVERSE ENGINEERING WITH REA",
-          "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA книга",
-            "книга о искусственный интеллект",
-            "руководство по REA reverse engineering",
-            "REA reverse engineering",
-            "AI-assisted software analysis",
-            "Responsible reverse engineering",
-            "Evidence-based reconstruction",
-            "Software investigation",
-            "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "как работает REA reverse engineering",
-            "практическое руководство по REA reverse engineering",
-            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
-          ],
-          "category_phrase": "искусственный интеллект"
-        },
-        "de": {
-          "primary_query": "REVERSE ENGINEERING WITH REA",
-          "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA Buch",
-            "Künstliche Intelligenz Buch",
-            "REA reverse engineering Leitfaden",
-            "REA reverse engineering",
-            "AI-assisted software analysis",
-            "Responsible reverse engineering",
-            "Evidence-based reconstruction",
-            "Software investigation",
-            "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "wie funktioniert REA reverse engineering",
-            "praktischer Leitfaden zu REA reverse engineering",
-            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
-          ],
-          "category_phrase": "Künstliche Intelligenz"
-        },
-        "es": {
-          "primary_query": "REVERSE ENGINEERING WITH REA",
-          "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA libro",
-            "libro de inteligencia artificial",
-            "guía de REA reverse engineering",
-            "REA reverse engineering",
-            "AI-assisted software analysis",
-            "Responsible reverse engineering",
-            "Evidence-based reconstruction",
-            "Software investigation",
-            "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "cómo funciona REA reverse engineering",
-            "guía práctica de REA reverse engineering",
-            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
-          ],
-          "category_phrase": "inteligencia artificial"
-        },
-        "fr": {
-          "primary_query": "REVERSE ENGINEERING WITH REA",
-          "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA livre",
-            "livre sur intelligence artificielle",
-            "guide REA reverse engineering",
-            "REA reverse engineering",
-            "AI-assisted software analysis",
-            "Responsible reverse engineering",
-            "Evidence-based reconstruction",
-            "Software investigation",
-            "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "comment fonctionne REA reverse engineering",
-            "guide pratique de REA reverse engineering",
-            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
-          ],
-          "category_phrase": "intelligence artificielle"
-        },
-        "pt-BR": {
-          "primary_query": "REVERSE ENGINEERING WITH REA",
-          "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA livro",
-            "livro sobre inteligência artificial",
-            "guia de REA reverse engineering",
-            "REA reverse engineering",
-            "AI-assisted software analysis",
-            "Responsible reverse engineering",
-            "Evidence-based reconstruction",
-            "Software investigation",
-            "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "como funciona REA reverse engineering",
-            "guia prático de REA reverse engineering",
-            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
-          ],
-          "category_phrase": "inteligência artificial"
-        },
-        "fa": {
-          "primary_query": "REVERSE ENGINEERING WITH REA",
-          "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA کتاب",
-            "کتاب هوش مصنوعی",
-            "راهنما REA reverse engineering",
-            "REA reverse engineering",
-            "AI-assisted software analysis",
-            "Responsible reverse engineering",
-            "Evidence-based reconstruction",
-            "Software investigation",
-            "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "REA reverse engineering چیست",
-            "راهنما کاربردی REA reverse engineering",
-            "REVERSE ENGINEERING WITH REA فرامرز کوثری"
-          ],
-          "category_phrase": "هوش مصنوعی"
-        },
         "ar": {
+          "category_phrase": "الذكاء الاصطناعي",
+          "long_tail_queries": [
+            "ما هو REA reverse engineering",
+            "دليل عملي عن REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
           "primary_query": "REVERSE ENGINEERING WITH REA",
           "secondary_queries": [
             "REVERSE ENGINEERING WITH REA كتاب",
@@ -65395,75 +65220,15 @@
             "Evidence-based reconstruction",
             "Software investigation",
             "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "ما هو REA reverse engineering",
-            "دليل عملي عن REA reverse engineering",
-            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
-          ],
-          "category_phrase": "الذكاء الاصطناعي"
-        },
-        "id": {
-          "primary_query": "REVERSE ENGINEERING WITH REA",
-          "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA buku",
-            "buku kecerdasan buatan",
-            "panduan REA reverse engineering",
-            "REA reverse engineering",
-            "AI-assisted software analysis",
-            "Responsible reverse engineering",
-            "Evidence-based reconstruction",
-            "Software investigation",
-            "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "cara kerja REA reverse engineering",
-            "panduan praktis REA reverse engineering",
-            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
-          ],
-          "category_phrase": "kecerdasan buatan"
-        },
-        "vi": {
-          "primary_query": "REVERSE ENGINEERING WITH REA",
-          "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA sách",
-            "sách về trí tuệ nhân tạo",
-            "hướng dẫn REA reverse engineering",
-            "REA reverse engineering",
-            "AI-assisted software analysis",
-            "Responsible reverse engineering",
-            "Evidence-based reconstruction",
-            "Software investigation",
-            "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "REA reverse engineering hoạt động như thế nào",
-            "hướng dẫn thực hành REA reverse engineering",
-            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
-          ],
-          "category_phrase": "trí tuệ nhân tạo"
-        },
-        "th": {
-          "primary_query": "REVERSE ENGINEERING WITH REA",
-          "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA หนังสือ",
-            "หนังสือ ปัญญาประดิษฐ์",
-            "คู่มือ REA reverse engineering",
-            "REA reverse engineering",
-            "AI-assisted software analysis",
-            "Responsible reverse engineering",
-            "Evidence-based reconstruction",
-            "Software investigation",
-            "Binary analysis"
-          ],
-          "long_tail_queries": [
-            "REA reverse engineering ทำงานอย่างไร",
-            "คู่มือ REA reverse engineering แบบปฏิบัติ",
-            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
-          ],
-          "category_phrase": "ปัญญาประดิษฐ์"
+          ]
         },
         "bn": {
+          "category_phrase": "কৃত্রিম বুদ্ধিমত্তা",
+          "long_tail_queries": [
+            "REA reverse engineering কীভাবে কাজ করে",
+            "REA reverse engineering ব্যবহারিক গাইড",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
           "primary_query": "REVERSE ENGINEERING WITH REA",
           "secondary_queries": [
             "REVERSE ENGINEERING WITH REA বই",
@@ -65475,35 +65240,95 @@
             "Evidence-based reconstruction",
             "Software investigation",
             "Binary analysis"
-          ],
+          ]
+        },
+        "de": {
+          "category_phrase": "Künstliche Intelligenz",
           "long_tail_queries": [
-            "REA reverse engineering কীভাবে কাজ করে",
-            "REA reverse engineering ব্যবহারিক গাইড",
+            "wie funktioniert REA reverse engineering",
+            "praktischer Leitfaden zu REA reverse engineering",
             "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
           ],
-          "category_phrase": "কৃত্রিম বুদ্ধিমত্তা"
-        },
-        "ro": {
           "primary_query": "REVERSE ENGINEERING WITH REA",
           "secondary_queries": [
-            "REVERSE ENGINEERING WITH REA carte",
-            "carte despre inteligență artificială",
-            "ghid REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Buch",
+            "Künstliche Intelligenz Buch",
+            "REA reverse engineering Leitfaden",
             "REA reverse engineering",
             "AI-assisted software analysis",
             "Responsible reverse engineering",
             "Evidence-based reconstruction",
             "Software investigation",
             "Binary analysis"
-          ],
+          ]
+        },
+        "en": {
+          "category_phrase": "artificial intelligence",
           "long_tail_queries": [
-            "cum funcționează REA reverse engineering",
-            "ghid practic pentru REA reverse engineering",
+            "how REA reverse engineering works",
+            "practical guide to REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA by Faramarz Kowsari"
+          ],
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA book",
+            "artificial intelligence book",
+            "REA reverse engineering guide",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ]
+        },
+        "es": {
+          "category_phrase": "inteligencia artificial",
+          "long_tail_queries": [
+            "cómo funciona REA reverse engineering",
+            "guía práctica de REA reverse engineering",
             "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
           ],
-          "category_phrase": "inteligență artificială"
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA libro",
+            "libro de inteligencia artificial",
+            "guía de REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ]
+        },
+        "fa": {
+          "category_phrase": "هوش مصنوعی",
+          "long_tail_queries": [
+            "REA reverse engineering چیست",
+            "راهنما کاربردی REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA فرامرز کوثری"
+          ],
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA کتاب",
+            "کتاب هوش مصنوعی",
+            "راهنما REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ]
         },
         "fil": {
+          "category_phrase": "artificial intelligence",
+          "long_tail_queries": [
+            "paano gumagana ang REA reverse engineering",
+            "praktikal na gabay sa REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
           "primary_query": "REVERSE ENGINEERING WITH REA",
           "secondary_queries": [
             "REVERSE ENGINEERING WITH REA aklat",
@@ -65515,20 +65340,663 @@
             "Evidence-based reconstruction",
             "Software investigation",
             "Binary analysis"
-          ],
+          ]
+        },
+        "fr": {
+          "category_phrase": "intelligence artificielle",
           "long_tail_queries": [
-            "paano gumagana ang REA reverse engineering",
-            "praktikal na gabay sa REA reverse engineering",
+            "comment fonctionne REA reverse engineering",
+            "guide pratique de REA reverse engineering",
             "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
           ],
-          "category_phrase": "artificial intelligence"
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA livre",
+            "livre sur intelligence artificielle",
+            "guide REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ]
+        },
+        "id": {
+          "category_phrase": "kecerdasan buatan",
+          "long_tail_queries": [
+            "cara kerja REA reverse engineering",
+            "panduan praktis REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA buku",
+            "buku kecerdasan buatan",
+            "panduan REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ]
+        },
+        "pt-BR": {
+          "category_phrase": "inteligência artificial",
+          "long_tail_queries": [
+            "como funciona REA reverse engineering",
+            "guia prático de REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA livro",
+            "livro sobre inteligência artificial",
+            "guia de REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ]
+        },
+        "ro": {
+          "category_phrase": "inteligență artificială",
+          "long_tail_queries": [
+            "cum funcționează REA reverse engineering",
+            "ghid practic pentru REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA carte",
+            "carte despre inteligență artificială",
+            "ghid REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ]
+        },
+        "ru": {
+          "category_phrase": "искусственный интеллект",
+          "long_tail_queries": [
+            "как работает REA reverse engineering",
+            "практическое руководство по REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA книга",
+            "книга о искусственный интеллект",
+            "руководство по REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ]
+        },
+        "th": {
+          "category_phrase": "ปัญญาประดิษฐ์",
+          "long_tail_queries": [
+            "REA reverse engineering ทำงานอย่างไร",
+            "คู่มือ REA reverse engineering แบบปฏิบัติ",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA หนังสือ",
+            "หนังสือ ปัญญาประดิษฐ์",
+            "คู่มือ REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ]
+        },
+        "tr": {
+          "category_phrase": "yapay zekâ",
+          "long_tail_queries": [
+            "REA reverse engineering nasıl çalışır",
+            "REA reverse engineering için uygulamalı rehberi",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA kitap",
+            "yapay zekâ kitap",
+            "REA reverse engineering rehberi",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ]
+        },
+        "vi": {
+          "category_phrase": "trí tuệ nhân tạo",
+          "long_tail_queries": [
+            "REA reverse engineering hoạt động như thế nào",
+            "hướng dẫn thực hành REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA sách",
+            "sách về trí tuệ nhân tạo",
+            "hướng dẫn REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ]
         }
       },
+      "long_tail_queries": [
+        "REVERSE ENGINEERING WITH REA by Faramarz Kowsari",
+        "practical guide to REA reverse engineering",
+        "how REA reverse engineering works",
+        "REA reverse engineering AI-assisted software analysis"
+      ],
+      "primary_query": "REVERSE ENGINEERING WITH REA",
       "related_slugs": [
         "claude-code-mastery",
         "jev-and-system-one-ai",
         "artificial-intelligence-and-machine-learning-for-cybersecurity",
         "engineering-turkey",
+        "ai-apis-in-practice"
+      ],
+      "secondary_queries": [
+        "REVERSE ENGINEERING WITH REA book",
+        "A Practical Guide to AI-Assisted Software Analysis, Evidence-Based Reconstruction, and Responsible Reverse Engineering",
+        "Software Engineering & Reverse Engineering",
+        "REA reverse engineering",
+        "AI-assisted software analysis",
+        "Responsible reverse engineering",
+        "Evidence-based reconstruction",
+        "Software investigation",
+        "Binary analysis",
+        "Authorized analysis",
+        "Research scope and permission",
+        "Evidence provenance"
+      ]
+    },
+    "source_reviewed": true
+  },
+  {
+    "status": "active",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Artificial Intelligence & AI Engineering",
+    "translation_group": "",
+    "subtitle": "From First Principles to Production",
+    "description": "",
+    "summary": "RAG ENGINEERING: From First Principles to Production is a graduate-level engineering reference for building retrieval-augmented generation systems that can justify their answers with inspectable evidence. Rather than treating RAG as a prompt plus a vector database, the book begins with the source contract of the application: what information is authoritative, which user may access it, how freshness and supersession are represented, when the system should abstain, and what evidence must be preserved so a response can later be audited. The opening parts establish information-retrieval fundamentals, lexical baselines, corpus provenance, document parsing, chunking, hierarchy, embeddings, indexes and metadata before advancing to dense retrieval and approximate nearest-neighbor search.\n\nThe search architecture section develops a progression from sparse and dense retrieval to hybrid search, fusion, reranking and query adaptation, while keeping ranking quality separate from generation quality. Context assembly, grounded answer construction, citation support, abstention, multi-turn and temporal questions, multi-hop retrieval, structured outputs and tool-facing RAG are treated as distinct engineering problems with their own failure modes. The book repeatedly rejects the idea that retrieval automatically eliminates hallucination: an outdated, unauthorized or merely topical passage can be retrieved perfectly and still produce an operationally wrong answer.\n\nEvaluation is treated as a first-class scientific discipline. Dedicated chapters cover benchmark design, dataset validity, retrieval metrics, grounded-answer and citation evaluation, ablation studies, significance, replication, continuous evaluation and quality monitoring. Advanced sections extend the architecture to hierarchical and long-document retrieval, GraphRAG, knowledge-graph retrieval, adaptive and corrective retrieval, agentic RAG, multimodal systems and domain-specific implementations. Throughout, the emphasis is on falsifiable comparisons, independently defined relevance judgments, held-out evaluation, reproducible artifacts and error analysis that can identify whether a failure belongs to parsing, retrieval, ranking, context packing, generation or citation.\n\nThe production sequence addresses security boundaries, permissions, privacy, indirect prompt injection, retrieval poisoning, cross-tenant leakage, latency, cost, capacity, deployment, versioning, RAGOps, rollback and reliability engineering. The capstone then asks the reader to design, benchmark and defend a complete RAG system with a rights-cleared corpus, versioned indexing code, lexical baseline, justified alternatives, qrels, retrieval and grounded-answer evaluation, safety tests, service interface, and cost/latency profile. Additional evidence-led laboratories, operational dossiers, vendor-documentation studies, failure-injection exercises and release gates reinforce the book's central standard: a production RAG claim should be traceable from immutable source evidence through retrieval and generation to an auditable answer, and it should be precise enough that another engineer can attempt to reproduce or falsify it.",
+    "key_topics": [
+      "Retrieval-augmented generation (RAG)",
+      "Evidence-based AI architecture",
+      "Source authority and provenance",
+      "RAG requirements engineering",
+      "Information retrieval fundamentals",
+      "BM25 and lexical retrieval",
+      "Dense retrieval",
+      "Embedding models",
+      "Vector search",
+      "Approximate nearest neighbors",
+      "Document parsing",
+      "Chunking strategies",
+      "Document hierarchy",
+      "Semantic boundaries",
+      "Indexes and metadata",
+      "Hybrid search",
+      "Rank fusion",
+      "Reranking",
+      "Query understanding",
+      "Retrieval adaptation",
+      "Context assembly",
+      "Grounded answer construction",
+      "Citation-grounded answers",
+      "Abstention",
+      "Multi-turn RAG",
+      "Temporal RAG",
+      "Multi-hop retrieval",
+      "Structured outputs",
+      "Tool-facing RAG",
+      "Benchmark design",
+      "Dataset validity",
+      "Precision, recall, reciprocal rank and nDCG",
+      "Retrieval error diagnostics",
+      "Grounded-answer evaluation",
+      "Citation evaluation",
+      "Ablation studies",
+      "Statistical significance and replication",
+      "Continuous evaluation",
+      "Quality monitoring",
+      "Long-document retrieval",
+      "Hierarchical retrieval",
+      "GraphRAG",
+      "Knowledge-graph retrieval",
+      "Adaptive RAG",
+      "Corrective RAG",
+      "Agentic RAG",
+      "Multimodal RAG",
+      "RAG security",
+      "Prompt injection",
+      "Retrieval poisoning",
+      "Permissions and tenant isolation",
+      "Privacy",
+      "Latency and cost engineering",
+      "Capacity planning",
+      "Deployment and versioning",
+      "RAGOps",
+      "Rollback and release gates",
+      "Reliability engineering",
+      "Failure analysis",
+      "Reproducible RAG experiments"
+    ],
+    "target_audience": "For software architects, applied AI engineers, machine-learning engineers, retrieval engineers, master's students, researchers and technical teams who already know Python and basic statistics and want a rigorous bridge from RAG fundamentals to evaluation, security, deployment, observability and production operations.",
+    "publisher": "Faramarz Kowsari",
+    "published_date": "2026",
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered",
+    "google_books_id": "OekhEgAAQBAJ",
+    "title": "RAG ENGINEERING",
+    "slug": "rag-engineering",
+    "google_books_url": "https://play.google.com/store/books/details?id=OekhEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=OekhEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "language_code": "en",
+    "sequence": 168,
+    "page_count": 264,
+    "seo_description": "A 264-page graduate engineering guide to production RAG covering retrieval, embeddings, hybrid search, reranking, GraphRAG, evaluation, citation grounding, security, permissions, RAGOps, reliability and reproducible system design.",
+    "learning": [
+      "Define when retrieval is actually justified and translate broad product requests into measurable source, access, freshness, abstention and evidence requirements.",
+      "Build and verify a lexical baseline before adding embeddings, and distinguish exact-identifier retrieval from semantic retrieval needs.",
+      "Prepare document corpora with explicit provenance, governance, parsing, chunking, hierarchy, metadata and lifecycle rules.",
+      "Compare sparse, dense and hybrid retrieval using independently defined relevance judgments rather than anecdotal examples.",
+      "Use fusion and reranking as measurable components whose added latency and maintenance cost must be justified by evaluation.",
+      "Separate retrieval success from generation faithfulness and test context assembly, answer construction, citations and abstention independently.",
+      "Design benchmarks that include answerable, unanswerable, conflicting, stale, near-duplicate and unauthorized cases instead of only easy demonstrations.",
+      "Apply retrieval metrics and grounded-answer evaluation correctly, and use ablations and held-out tests to locate regressions and avoid hindsight tuning.",
+      "Understand where hierarchical retrieval, GraphRAG, adaptive, corrective, agentic and multimodal approaches add value and where they introduce new failure modes.",
+      "Enforce permissions before ranking and generation, treat retrieved content as lower-trust data, and test prompt injection, poisoning and cross-tenant leakage explicitly.",
+      "Engineer production RAG releases as versioned combinations of corpus, parser, embeddings, index, retriever, prompts, model and authorization policy with observability and rollback.",
+      "Defend a complete RAG system with reproducible source manifests, qrels, metrics, safety tests, service behavior, cost/latency evidence and documented negative results."
+    ],
+    "related_ids": [
+      "b3TxEQAAQBAJ",
+      "1XHxEQAAQBAJ",
+      "RdIVEgAAQBAJ"
+    ],
+    "source_review_status": "complete",
+    "source_scope": "Library source RAG_Engineering_Faramarz_Kowsari_A5_WORD_REPAIRED_FINAL.docx reviewed from its publication/evidence note, complete 32-chapter core contents, evaluation and production sections, RAG security chapter, deployment/versioning/RAGOps chapter, graduate capstone, release-readiness material and extended evidence/verification laboratory structure. The reviewed manuscript is an English A5 graduate engineering reference revised 24 October 2026 and parsed as 264 pages. Public-page enrichment is limited to concepts and framing supported by those reviewed sections.",
+    "seo": {
+      "primary_query": "RAG ENGINEERING",
+      "secondary_queries": [
+        "RAG ENGINEERING book",
+        "From First Principles to Production",
+        "Artificial Intelligence & AI Engineering",
+        "Retrieval-augmented generation (RAG)",
+        "Evidence-based AI architecture",
+        "Source authority and provenance",
+        "RAG requirements engineering",
+        "Information retrieval fundamentals",
+        "BM25 and lexical retrieval",
+        "Dense retrieval",
+        "Embedding models",
+        "Vector search"
+      ],
+      "long_tail_queries": [
+        "RAG ENGINEERING by Faramarz Kowsari",
+        "practical guide to Retrieval-augmented generation (RAG)",
+        "how Retrieval-augmented generation (RAG) works",
+        "Retrieval-augmented generation (RAG) Evidence-based AI architecture"
+      ],
+      "entities": [
+        "Retrieval-augmented generation (RAG)",
+        "Evidence-based AI architecture",
+        "Source authority and provenance",
+        "RAG requirements engineering",
+        "Information retrieval fundamentals",
+        "BM25 and lexical retrieval",
+        "Dense retrieval",
+        "Embedding models",
+        "Vector search",
+        "Approximate nearest neighbors",
+        "Document parsing",
+        "Chunking strategies",
+        "Document hierarchy",
+        "Semantic boundaries",
+        "Indexes and metadata",
+        "Hybrid search",
+        "Rank fusion",
+        "Reranking",
+        "Query understanding",
+        "Retrieval adaptation"
+      ],
+      "cluster": "artificial-intelligence",
+      "cluster_label": "Artificial Intelligence",
+      "localized": {
+        "en": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING book",
+            "artificial intelligence book",
+            "Retrieval-augmented generation (RAG) guide",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "how Retrieval-augmented generation (RAG) works",
+            "practical guide to Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING by Faramarz Kowsari"
+          ],
+          "category_phrase": "artificial intelligence"
+        },
+        "tr": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING kitap",
+            "yapay zekâ kitap",
+            "Retrieval-augmented generation (RAG) rehberi",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "Retrieval-augmented generation (RAG) nasıl çalışır",
+            "Retrieval-augmented generation (RAG) için uygulamalı rehberi",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "yapay zekâ"
+        },
+        "ru": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING книга",
+            "книга о искусственный интеллект",
+            "руководство по Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "как работает Retrieval-augmented generation (RAG)",
+            "практическое руководство по Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "искусственный интеллект"
+        },
+        "de": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING Buch",
+            "Künstliche Intelligenz Buch",
+            "Retrieval-augmented generation (RAG) Leitfaden",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "wie funktioniert Retrieval-augmented generation (RAG)",
+            "praktischer Leitfaden zu Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "Künstliche Intelligenz"
+        },
+        "es": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING libro",
+            "libro de inteligencia artificial",
+            "guía de Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "cómo funciona Retrieval-augmented generation (RAG)",
+            "guía práctica de Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "inteligencia artificial"
+        },
+        "fr": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING livre",
+            "livre sur intelligence artificielle",
+            "guide Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "comment fonctionne Retrieval-augmented generation (RAG)",
+            "guide pratique de Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "intelligence artificielle"
+        },
+        "pt-BR": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING livro",
+            "livro sobre inteligência artificial",
+            "guia de Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "como funciona Retrieval-augmented generation (RAG)",
+            "guia prático de Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "inteligência artificial"
+        },
+        "fa": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING کتاب",
+            "کتاب هوش مصنوعی",
+            "راهنما Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "Retrieval-augmented generation (RAG) چیست",
+            "راهنما کاربردی Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING فرامرز کوثری"
+          ],
+          "category_phrase": "هوش مصنوعی"
+        },
+        "ar": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING كتاب",
+            "كتاب عن الذكاء الاصطناعي",
+            "دليل Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "ما هو Retrieval-augmented generation (RAG)",
+            "دليل عملي عن Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "الذكاء الاصطناعي"
+        },
+        "id": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING buku",
+            "buku kecerdasan buatan",
+            "panduan Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "cara kerja Retrieval-augmented generation (RAG)",
+            "panduan praktis Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "kecerdasan buatan"
+        },
+        "vi": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING sách",
+            "sách về trí tuệ nhân tạo",
+            "hướng dẫn Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "Retrieval-augmented generation (RAG) hoạt động như thế nào",
+            "hướng dẫn thực hành Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "trí tuệ nhân tạo"
+        },
+        "th": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING หนังสือ",
+            "หนังสือ ปัญญาประดิษฐ์",
+            "คู่มือ Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "Retrieval-augmented generation (RAG) ทำงานอย่างไร",
+            "คู่มือ Retrieval-augmented generation (RAG) แบบปฏิบัติ",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "ปัญญาประดิษฐ์"
+        },
+        "bn": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING বই",
+            "কৃত্রিম বুদ্ধিমত্তা বই",
+            "Retrieval-augmented generation (RAG) গাইড",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "Retrieval-augmented generation (RAG) কীভাবে কাজ করে",
+            "Retrieval-augmented generation (RAG) ব্যবহারিক গাইড",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "কৃত্রিম বুদ্ধিমত্তা"
+        },
+        "ro": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING carte",
+            "carte despre inteligență artificială",
+            "ghid Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "cum funcționează Retrieval-augmented generation (RAG)",
+            "ghid practic pentru Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "inteligență artificială"
+        },
+        "fil": {
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING aklat",
+            "aklat tungkol sa artificial intelligence",
+            "gabay sa Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ],
+          "long_tail_queries": [
+            "paano gumagana ang Retrieval-augmented generation (RAG)",
+            "praktikal na gabay sa Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "category_phrase": "artificial intelligence"
+        }
+      },
+      "related_slugs": [
+        "context-engineering-with-claude",
+        "claude-mcp-mastery",
+        "jev-and-system-one-ai",
+        "claude-fable-5-1-and-mythos-5-1",
         "ai-apis-in-practice"
       ]
     },
