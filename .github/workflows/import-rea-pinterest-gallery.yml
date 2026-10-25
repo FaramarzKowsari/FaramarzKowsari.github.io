@@ -1,0 +1,68 @@
+name: Import REA Pinterest gallery
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/import-rea-pinterest-gallery.yml"
+      - "scripts/import_rea_pinterest_board.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rea-pinterest-gallery-import
+  cancel-in-progress: false
+
+jobs:
+  import-gallery:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Extract Pinterest CDN image URLs
+        run: python scripts/import_rea_pinterest_board.py
+
+      - name: Render the REA gallery
+        run: |
+          python scripts/add_book_image_galleries.py
+          python scripts/pinterest_outbound_quality_gate.py
+
+      - name: Commit gallery config and rendered page
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add books/book-image-galleries.json books/reverse-engineering-with-rea/index.html
+
+          if git diff --cached --quiet; then
+            echo "REA Pinterest gallery is already current."
+            exit 0
+          fi
+
+          git commit -m "books: add Pinterest visual gallery to REA"
+
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Concurrent update detected; retrying push ($attempt/4)..."
+            sleep $((attempt * 2))
+          done
+
+          echo "Could not publish REA Pinterest gallery after retries."
+          exit 1
