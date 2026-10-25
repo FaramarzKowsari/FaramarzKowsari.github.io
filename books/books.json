@@ -45789,6 +45789,7 @@
         }
       },
       "related_slugs": [
+        "reverse-engineering-with-rea",
         "ai-apis-in-practice",
         "claude-fable-5-1-and-mythos-5-1",
         "context-engineering-with-claude",
@@ -64699,27 +64700,8 @@
     "source_review_status": "complete",
     "source_scope": "Library source NIFTY_50_OPTIONS_TRADING_FARAMARZ_KOWSARI_FINAL_A5.pdf reviewed from the title, risk notice, reader orientation, complete 34-chapter contents and appendices, and representative technical sections on NSE option-chain reading, open-interest accounting, option-premium architecture, whole-position Greeks and stress testing, and the reproducible NIFTY trading playbook. Public-page enrichment is limited to concepts directly supported by those reviewed sections and the manuscript structure.",
     "seo": {
-      "primary_query": "NIFTY 50 OPTIONS TRADING",
-      "secondary_queries": [
-        "NIFTY 50 OPTIONS TRADING book",
-        "Option Chain Analysis, Open Interest, Greeks, Price Action & Risk Management",
-        "Trading",
-        "NIFTY 50 options trading",
-        "NSE option chain",
-        "NIFTY 50 index structure",
-        "NIFTY futures",
-        "Index options",
-        "Option chain analysis",
-        "Open interest",
-        "Change in open interest",
-        "Trading volume"
-      ],
-      "long_tail_queries": [
-        "NIFTY 50 OPTIONS TRADING by Faramarz Kowsari",
-        "practical guide to NIFTY 50 options trading",
-        "how NIFTY 50 options trading works",
-        "NIFTY 50 options trading NSE option chain"
-      ],
+      "cluster": "trading-markets",
+      "cluster_label": "Trading & Financial Markets",
       "entities": [
         "NIFTY 50 options trading",
         "NSE option chain",
@@ -64742,170 +64724,14 @@
         "Volatility skew",
         "Volatility regimes"
       ],
-      "cluster": "trading-markets",
-      "cluster_label": "Trading & Financial Markets",
       "localized": {
-        "en": {
-          "primary_query": "NIFTY 50 OPTIONS TRADING",
-          "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING book",
-            "trading and financial markets book",
-            "NIFTY 50 options trading guide",
-            "NIFTY 50 options trading",
-            "NSE option chain",
-            "NIFTY 50 index structure",
-            "NIFTY futures",
-            "Index options",
-            "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "how NIFTY 50 options trading works",
-            "practical guide to NIFTY 50 options trading",
-            "NIFTY 50 OPTIONS TRADING by Faramarz Kowsari"
-          ],
-          "category_phrase": "trading and financial markets"
-        },
-        "tr": {
-          "primary_query": "NIFTY 50 OPTIONS TRADING",
-          "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING kitap",
-            "trading ve finansal piyasalar kitap",
-            "NIFTY 50 options trading rehberi",
-            "NIFTY 50 options trading",
-            "NSE option chain",
-            "NIFTY 50 index structure",
-            "NIFTY futures",
-            "Index options",
-            "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "NIFTY 50 options trading nasıl çalışır",
-            "NIFTY 50 options trading için uygulamalı rehberi",
-            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "trading ve finansal piyasalar"
-        },
-        "ru": {
-          "primary_query": "NIFTY 50 OPTIONS TRADING",
-          "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING книга",
-            "книга о трейдинг и финансовые рынки",
-            "руководство по NIFTY 50 options trading",
-            "NIFTY 50 options trading",
-            "NSE option chain",
-            "NIFTY 50 index structure",
-            "NIFTY futures",
-            "Index options",
-            "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "как работает NIFTY 50 options trading",
-            "практическое руководство по NIFTY 50 options trading",
-            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "трейдинг и финансовые рынки"
-        },
-        "de": {
-          "primary_query": "NIFTY 50 OPTIONS TRADING",
-          "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING Buch",
-            "Trading und Finanzmärkte Buch",
-            "NIFTY 50 options trading Leitfaden",
-            "NIFTY 50 options trading",
-            "NSE option chain",
-            "NIFTY 50 index structure",
-            "NIFTY futures",
-            "Index options",
-            "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "wie funktioniert NIFTY 50 options trading",
-            "praktischer Leitfaden zu NIFTY 50 options trading",
-            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "Trading und Finanzmärkte"
-        },
-        "es": {
-          "primary_query": "NIFTY 50 OPTIONS TRADING",
-          "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING libro",
-            "libro de trading y mercados financieros",
-            "guía de NIFTY 50 options trading",
-            "NIFTY 50 options trading",
-            "NSE option chain",
-            "NIFTY 50 index structure",
-            "NIFTY futures",
-            "Index options",
-            "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "cómo funciona NIFTY 50 options trading",
-            "guía práctica de NIFTY 50 options trading",
-            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "trading y mercados financieros"
-        },
-        "fr": {
-          "primary_query": "NIFTY 50 OPTIONS TRADING",
-          "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING livre",
-            "livre sur trading et marchés financiers",
-            "guide NIFTY 50 options trading",
-            "NIFTY 50 options trading",
-            "NSE option chain",
-            "NIFTY 50 index structure",
-            "NIFTY futures",
-            "Index options",
-            "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "comment fonctionne NIFTY 50 options trading",
-            "guide pratique de NIFTY 50 options trading",
-            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "trading et marchés financiers"
-        },
-        "pt-BR": {
-          "primary_query": "NIFTY 50 OPTIONS TRADING",
-          "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING livro",
-            "livro sobre trading e mercados financeiros",
-            "guia de NIFTY 50 options trading",
-            "NIFTY 50 options trading",
-            "NSE option chain",
-            "NIFTY 50 index structure",
-            "NIFTY futures",
-            "Index options",
-            "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "como funciona NIFTY 50 options trading",
-            "guia prático de NIFTY 50 options trading",
-            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "trading e mercados financeiros"
-        },
-        "fa": {
-          "primary_query": "NIFTY 50 OPTIONS TRADING",
-          "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING کتاب",
-            "کتاب معامله‌گری و بازارهای مالی",
-            "راهنما NIFTY 50 options trading",
-            "NIFTY 50 options trading",
-            "NSE option chain",
-            "NIFTY 50 index structure",
-            "NIFTY futures",
-            "Index options",
-            "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "NIFTY 50 options trading چیست",
-            "راهنما کاربردی NIFTY 50 options trading",
-            "NIFTY 50 OPTIONS TRADING فرامرز کوثری"
-          ],
-          "category_phrase": "معامله‌گری و بازارهای مالی"
-        },
         "ar": {
+          "category_phrase": "التداول والأسواق المالية",
+          "long_tail_queries": [
+            "ما هو NIFTY 50 options trading",
+            "دليل عملي عن NIFTY 50 options trading",
+            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+          ],
           "primary_query": "NIFTY 50 OPTIONS TRADING",
           "secondary_queries": [
             "NIFTY 50 OPTIONS TRADING كتاب",
@@ -64917,75 +64743,15 @@
             "NIFTY futures",
             "Index options",
             "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "ما هو NIFTY 50 options trading",
-            "دليل عملي عن NIFTY 50 options trading",
-            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "التداول والأسواق المالية"
-        },
-        "id": {
-          "primary_query": "NIFTY 50 OPTIONS TRADING",
-          "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING buku",
-            "buku trading dan pasar keuangan",
-            "panduan NIFTY 50 options trading",
-            "NIFTY 50 options trading",
-            "NSE option chain",
-            "NIFTY 50 index structure",
-            "NIFTY futures",
-            "Index options",
-            "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "cara kerja NIFTY 50 options trading",
-            "panduan praktis NIFTY 50 options trading",
-            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "trading dan pasar keuangan"
-        },
-        "vi": {
-          "primary_query": "NIFTY 50 OPTIONS TRADING",
-          "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING sách",
-            "sách về giao dịch và thị trường tài chính",
-            "hướng dẫn NIFTY 50 options trading",
-            "NIFTY 50 options trading",
-            "NSE option chain",
-            "NIFTY 50 index structure",
-            "NIFTY futures",
-            "Index options",
-            "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "NIFTY 50 options trading hoạt động như thế nào",
-            "hướng dẫn thực hành NIFTY 50 options trading",
-            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "giao dịch và thị trường tài chính"
-        },
-        "th": {
-          "primary_query": "NIFTY 50 OPTIONS TRADING",
-          "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING หนังสือ",
-            "หนังสือ การเทรดและตลาดการเงิน",
-            "คู่มือ NIFTY 50 options trading",
-            "NIFTY 50 options trading",
-            "NSE option chain",
-            "NIFTY 50 index structure",
-            "NIFTY futures",
-            "Index options",
-            "Option chain analysis"
-          ],
-          "long_tail_queries": [
-            "NIFTY 50 options trading ทำงานอย่างไร",
-            "คู่มือ NIFTY 50 options trading แบบปฏิบัติ",
-            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
-          ],
-          "category_phrase": "การเทรดและตลาดการเงิน"
+          ]
         },
         "bn": {
+          "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
+          "long_tail_queries": [
+            "NIFTY 50 options trading কীভাবে কাজ করে",
+            "NIFTY 50 options trading ব্যবহারিক গাইড",
+            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+          ],
           "primary_query": "NIFTY 50 OPTIONS TRADING",
           "secondary_queries": [
             "NIFTY 50 OPTIONS TRADING বই",
@@ -64997,35 +64763,95 @@
             "NIFTY futures",
             "Index options",
             "Option chain analysis"
-          ],
+          ]
+        },
+        "de": {
+          "category_phrase": "Trading und Finanzmärkte",
           "long_tail_queries": [
-            "NIFTY 50 options trading কীভাবে কাজ করে",
-            "NIFTY 50 options trading ব্যবহারিক গাইড",
+            "wie funktioniert NIFTY 50 options trading",
+            "praktischer Leitfaden zu NIFTY 50 options trading",
             "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
           ],
-          "category_phrase": "ট্রেডিং ও আর্থিক বাজার"
-        },
-        "ro": {
           "primary_query": "NIFTY 50 OPTIONS TRADING",
           "secondary_queries": [
-            "NIFTY 50 OPTIONS TRADING carte",
-            "carte despre trading și piețe financiare",
-            "ghid NIFTY 50 options trading",
+            "NIFTY 50 OPTIONS TRADING Buch",
+            "Trading und Finanzmärkte Buch",
+            "NIFTY 50 options trading Leitfaden",
             "NIFTY 50 options trading",
             "NSE option chain",
             "NIFTY 50 index structure",
             "NIFTY futures",
             "Index options",
             "Option chain analysis"
-          ],
+          ]
+        },
+        "en": {
+          "category_phrase": "trading and financial markets",
           "long_tail_queries": [
-            "cum funcționează NIFTY 50 options trading",
-            "ghid practic pentru NIFTY 50 options trading",
+            "how NIFTY 50 options trading works",
+            "practical guide to NIFTY 50 options trading",
+            "NIFTY 50 OPTIONS TRADING by Faramarz Kowsari"
+          ],
+          "primary_query": "NIFTY 50 OPTIONS TRADING",
+          "secondary_queries": [
+            "NIFTY 50 OPTIONS TRADING book",
+            "trading and financial markets book",
+            "NIFTY 50 options trading guide",
+            "NIFTY 50 options trading",
+            "NSE option chain",
+            "NIFTY 50 index structure",
+            "NIFTY futures",
+            "Index options",
+            "Option chain analysis"
+          ]
+        },
+        "es": {
+          "category_phrase": "trading y mercados financieros",
+          "long_tail_queries": [
+            "cómo funciona NIFTY 50 options trading",
+            "guía práctica de NIFTY 50 options trading",
             "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
           ],
-          "category_phrase": "trading și piețe financiare"
+          "primary_query": "NIFTY 50 OPTIONS TRADING",
+          "secondary_queries": [
+            "NIFTY 50 OPTIONS TRADING libro",
+            "libro de trading y mercados financieros",
+            "guía de NIFTY 50 options trading",
+            "NIFTY 50 options trading",
+            "NSE option chain",
+            "NIFTY 50 index structure",
+            "NIFTY futures",
+            "Index options",
+            "Option chain analysis"
+          ]
+        },
+        "fa": {
+          "category_phrase": "معامله‌گری و بازارهای مالی",
+          "long_tail_queries": [
+            "NIFTY 50 options trading چیست",
+            "راهنما کاربردی NIFTY 50 options trading",
+            "NIFTY 50 OPTIONS TRADING فرامرز کوثری"
+          ],
+          "primary_query": "NIFTY 50 OPTIONS TRADING",
+          "secondary_queries": [
+            "NIFTY 50 OPTIONS TRADING کتاب",
+            "کتاب معامله‌گری و بازارهای مالی",
+            "راهنما NIFTY 50 options trading",
+            "NIFTY 50 options trading",
+            "NSE option chain",
+            "NIFTY 50 index structure",
+            "NIFTY futures",
+            "Index options",
+            "Option chain analysis"
+          ]
         },
         "fil": {
+          "category_phrase": "trading at financial markets",
+          "long_tail_queries": [
+            "paano gumagana ang NIFTY 50 options trading",
+            "praktikal na gabay sa NIFTY 50 options trading",
+            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+          ],
           "primary_query": "NIFTY 50 OPTIONS TRADING",
           "secondary_queries": [
             "NIFTY 50 OPTIONS TRADING aklat",
@@ -65037,21 +64863,673 @@
             "NIFTY futures",
             "Index options",
             "Option chain analysis"
-          ],
+          ]
+        },
+        "fr": {
+          "category_phrase": "trading et marchés financiers",
           "long_tail_queries": [
-            "paano gumagana ang NIFTY 50 options trading",
-            "praktikal na gabay sa NIFTY 50 options trading",
+            "comment fonctionne NIFTY 50 options trading",
+            "guide pratique de NIFTY 50 options trading",
             "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
           ],
-          "category_phrase": "trading at financial markets"
+          "primary_query": "NIFTY 50 OPTIONS TRADING",
+          "secondary_queries": [
+            "NIFTY 50 OPTIONS TRADING livre",
+            "livre sur trading et marchés financiers",
+            "guide NIFTY 50 options trading",
+            "NIFTY 50 options trading",
+            "NSE option chain",
+            "NIFTY 50 index structure",
+            "NIFTY futures",
+            "Index options",
+            "Option chain analysis"
+          ]
+        },
+        "id": {
+          "category_phrase": "trading dan pasar keuangan",
+          "long_tail_queries": [
+            "cara kerja NIFTY 50 options trading",
+            "panduan praktis NIFTY 50 options trading",
+            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "NIFTY 50 OPTIONS TRADING",
+          "secondary_queries": [
+            "NIFTY 50 OPTIONS TRADING buku",
+            "buku trading dan pasar keuangan",
+            "panduan NIFTY 50 options trading",
+            "NIFTY 50 options trading",
+            "NSE option chain",
+            "NIFTY 50 index structure",
+            "NIFTY futures",
+            "Index options",
+            "Option chain analysis"
+          ]
+        },
+        "pt-BR": {
+          "category_phrase": "trading e mercados financeiros",
+          "long_tail_queries": [
+            "como funciona NIFTY 50 options trading",
+            "guia prático de NIFTY 50 options trading",
+            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "NIFTY 50 OPTIONS TRADING",
+          "secondary_queries": [
+            "NIFTY 50 OPTIONS TRADING livro",
+            "livro sobre trading e mercados financeiros",
+            "guia de NIFTY 50 options trading",
+            "NIFTY 50 options trading",
+            "NSE option chain",
+            "NIFTY 50 index structure",
+            "NIFTY futures",
+            "Index options",
+            "Option chain analysis"
+          ]
+        },
+        "ro": {
+          "category_phrase": "trading și piețe financiare",
+          "long_tail_queries": [
+            "cum funcționează NIFTY 50 options trading",
+            "ghid practic pentru NIFTY 50 options trading",
+            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "NIFTY 50 OPTIONS TRADING",
+          "secondary_queries": [
+            "NIFTY 50 OPTIONS TRADING carte",
+            "carte despre trading și piețe financiare",
+            "ghid NIFTY 50 options trading",
+            "NIFTY 50 options trading",
+            "NSE option chain",
+            "NIFTY 50 index structure",
+            "NIFTY futures",
+            "Index options",
+            "Option chain analysis"
+          ]
+        },
+        "ru": {
+          "category_phrase": "трейдинг и финансовые рынки",
+          "long_tail_queries": [
+            "как работает NIFTY 50 options trading",
+            "практическое руководство по NIFTY 50 options trading",
+            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "NIFTY 50 OPTIONS TRADING",
+          "secondary_queries": [
+            "NIFTY 50 OPTIONS TRADING книга",
+            "книга о трейдинг и финансовые рынки",
+            "руководство по NIFTY 50 options trading",
+            "NIFTY 50 options trading",
+            "NSE option chain",
+            "NIFTY 50 index structure",
+            "NIFTY futures",
+            "Index options",
+            "Option chain analysis"
+          ]
+        },
+        "th": {
+          "category_phrase": "การเทรดและตลาดการเงิน",
+          "long_tail_queries": [
+            "NIFTY 50 options trading ทำงานอย่างไร",
+            "คู่มือ NIFTY 50 options trading แบบปฏิบัติ",
+            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "NIFTY 50 OPTIONS TRADING",
+          "secondary_queries": [
+            "NIFTY 50 OPTIONS TRADING หนังสือ",
+            "หนังสือ การเทรดและตลาดการเงิน",
+            "คู่มือ NIFTY 50 options trading",
+            "NIFTY 50 options trading",
+            "NSE option chain",
+            "NIFTY 50 index structure",
+            "NIFTY futures",
+            "Index options",
+            "Option chain analysis"
+          ]
+        },
+        "tr": {
+          "category_phrase": "trading ve finansal piyasalar",
+          "long_tail_queries": [
+            "NIFTY 50 options trading nasıl çalışır",
+            "NIFTY 50 options trading için uygulamalı rehberi",
+            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "NIFTY 50 OPTIONS TRADING",
+          "secondary_queries": [
+            "NIFTY 50 OPTIONS TRADING kitap",
+            "trading ve finansal piyasalar kitap",
+            "NIFTY 50 options trading rehberi",
+            "NIFTY 50 options trading",
+            "NSE option chain",
+            "NIFTY 50 index structure",
+            "NIFTY futures",
+            "Index options",
+            "Option chain analysis"
+          ]
+        },
+        "vi": {
+          "category_phrase": "giao dịch và thị trường tài chính",
+          "long_tail_queries": [
+            "NIFTY 50 options trading hoạt động như thế nào",
+            "hướng dẫn thực hành NIFTY 50 options trading",
+            "NIFTY 50 OPTIONS TRADING Faramarz Kowsari"
+          ],
+          "primary_query": "NIFTY 50 OPTIONS TRADING",
+          "secondary_queries": [
+            "NIFTY 50 OPTIONS TRADING sách",
+            "sách về giao dịch và thị trường tài chính",
+            "hướng dẫn NIFTY 50 options trading",
+            "NIFTY 50 options trading",
+            "NSE option chain",
+            "NIFTY 50 index structure",
+            "NIFTY futures",
+            "Index options",
+            "Option chain analysis"
+          ]
         }
       },
+      "long_tail_queries": [
+        "NIFTY 50 OPTIONS TRADING by Faramarz Kowsari",
+        "practical guide to NIFTY 50 options trading",
+        "how NIFTY 50 options trading works",
+        "NIFTY 50 options trading NSE option chain"
+      ],
+      "primary_query": "NIFTY 50 OPTIONS TRADING",
       "related_slugs": [
         "0dte-options",
         "options-flow-trading",
         "gamma-exposure-trading",
         "confluence-trading",
         "crypto-liquidation-heatmaps"
+      ],
+      "secondary_queries": [
+        "NIFTY 50 OPTIONS TRADING book",
+        "Option Chain Analysis, Open Interest, Greeks, Price Action & Risk Management",
+        "Trading",
+        "NIFTY 50 options trading",
+        "NSE option chain",
+        "NIFTY 50 index structure",
+        "NIFTY futures",
+        "Index options",
+        "Option chain analysis",
+        "Open interest",
+        "Change in open interest",
+        "Trading volume"
+      ]
+    },
+    "source_reviewed": true
+  },
+  {
+    "status": "active",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Software Engineering & Reverse Engineering",
+    "translation_group": "",
+    "subtitle": "A Practical Guide to AI-Assisted Software Analysis, Evidence-Based Reconstruction, and Responsible Reverse Engineering",
+    "description": "",
+    "summary": "REVERSE ENGINEERING WITH REA is an evidence-centered guide to using AI-assisted tooling for authorized software investigation without confusing fluent explanations, decompiler output, or reconstructed code with proof. The book treats REA as evidence-access infrastructure that can connect an AI agent to bounded analysis operations, while keeping the analyst responsible for scope, authorization, interpretation, uncertainty and publication. It begins by distinguishing what REA can actually observe from what an agent merely infers, then establishes professional boundaries for lawful possession, inspection, runtime experimentation, evidence retention, independent implementation and public release. The recurring principle is simple: technical capability does not itself create permission, and a strong reverse-engineering conclusion must be traceable to authentic evidence rather than to a plausible narrative.\n\nThe workstation and tooling chapters turn setup into part of the experiment. Instead of assuming that a successful installer means the analysis stack is ready, the book separates runtime compatibility, agent registration, provider readiness and a genuine evidence-producing response. It covers reproducible host records, package and provider versions, hashes, least-privilege working directories, read-only originals, REA CLI and MCP concepts, and the need to distinguish a workflow skill from a live analysis provider. The text emphasizes that failures and blocked capabilities belong in the research record: an unavailable provider, incompatible runtime or missing capture must be documented as an unavailable lane rather than replaced by invented output.\n\nThe investigation methodology moves from question framing and artifact triage into native binaries, assembly, linking, disassembly, decompilation, data flow and structure recovery. Decompiler output is treated explicitly as a hypothesis constrained by architecture, inferred types and incomplete information—not as recovered source code. Readers are taught to cross-check pseudocode against lower-level evidence, use boundary tests to resolve ambiguities, preserve uncertainty when multiple interpretations fit the same bytes, and reconstruct behavior from tested contracts rather than from cosmetic resemblance to decompiled expressions. Native examples are complemented by JavaScript application graphs, Electron process boundaries, browser behavior, network and HAR evidence, Android APK analysis with JADX, .NET assemblies, managed and hybrid boundaries, saved captures, firmware, WebAssembly and packaged-program metadata.\n\nA major part of the book is devoted to reconstruction rather than simple inspection. Findings are converted into explicit behavior specifications describing input domains, outputs, errors, state transitions, persistence, side effects, timing assumptions and known unknowns. The book then shows how an independently written implementation should be judged against that lawful, evidence-supported contract through acceptance tests, differential testing and edge cases. Visual similarity is deliberately separated from functional equivalence, and unexplained behavior remains an open requirement instead of being filled in by guesswork. Where separation from protected implementation details matters, the book advocates a clean behavioral-specification workflow so that implementation can be based on permitted observations rather than copied internals.\n\nAI-agent reliability is treated as its own research problem. The book examines failure modes such as hallucinated commands, wrong-file selection, unsupported-provider claims, loss of important limitations during summarization, confusion between simulated and genuine results, and instruction-looking strings recovered from untrusted artifacts. Tool results, logs, comments, HTML and embedded strings remain lower-trust data; they cannot promote themselves into operational authority. Important conclusions are expected to cite the evidence record that supports them, and actions with filesystem, process, credential, browser-profile or network effects require explicit authorization. Honest uncertainty and a documented failed tool call are treated as stronger engineering than a polished but invented success.\n\nThe final chapters assemble the method into a complete professional REA investigation project. A capstone begins with a bounded research question, explicit authority, immutable artifact identity and a reproducible environment; it proceeds through evidence collection, claim-to-evidence mapping, a behavior contract, an independently written implementation and a declared differential test suite. The deliverable is not merely a working clone or demo video but an auditable package containing permission records, hashes, workstation and toolchain details, raw captures, hypotheses, verified figures, tests, contradictions, limitations, redaction decisions and publication rights. The resulting workflow makes reverse engineering useful for education, debugging, interoperability and responsible software research while keeping evidence quality, reproducibility and professional restraint at the center.",
+    "key_topics": [
+      "REA reverse engineering",
+      "AI-assisted software analysis",
+      "Responsible reverse engineering",
+      "Evidence-based reconstruction",
+      "Software investigation",
+      "Binary analysis",
+      "Authorized analysis",
+      "Research scope and permission",
+      "Evidence provenance",
+      "Reproducible reverse engineering",
+      "REA CLI",
+      "MCP tool workflows",
+      "AI coding agents",
+      "Analysis providers",
+      "Provider readiness",
+      "Host environment reproducibility",
+      "Artifact hashing",
+      "Chain of custody",
+      "Least-privilege analysis",
+      "Artifact triage",
+      "Assembly",
+      "Execution model",
+      "Binary structure",
+      "Program linking",
+      "Disassembly",
+      "Decompilation",
+      "Decompiler uncertainty",
+      "Data-flow recovery",
+      "Structure recovery",
+      "Native binary analysis",
+      "JavaScript application graphs",
+      "Electron applications",
+      "Browser behavior analysis",
+      "HAR evidence",
+      "Network capture evidence",
+      "Android APK analysis",
+      "JADX",
+      ".NET assemblies",
+      "Managed applications",
+      "Hybrid applications",
+      "Runtime experiments",
+      "Saved analysis captures",
+      "Firmware analysis",
+      "WebAssembly",
+      "Packaged programs",
+      "Specialized metadata",
+      "Behavior specifications",
+      "Independent implementation",
+      "Clean-room reconstruction",
+      "Acceptance testing",
+      "Differential testing",
+      "Edge-case testing",
+      "Evidence contradictions",
+      "AI-agent failure modes",
+      "Prompt injection from artifacts",
+      "Tool-result verification",
+      "Claim-to-evidence mapping",
+      "Research reproducibility",
+      "Reverse-engineering case studies",
+      "Technical reporting",
+      "Versioning",
+      "Professional portfolio"
+    ],
+    "target_audience": "For software engineers, reverse engineers, AI-assisted development practitioners, security and interoperability researchers, technical investigators, students of binary analysis, and developers who want to use REA-style agent workflows while maintaining clear authorization, evidence provenance, reproducibility, independent validation and responsible publication practices.",
+    "publisher": "Faramarz Kowsari",
+    "published_date": "2026",
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered",
+    "google_books_id": "XnUhEgAAQBAJ",
+    "title": "REVERSE ENGINEERING WITH REA",
+    "slug": "reverse-engineering-with-rea",
+    "google_books_url": "https://play.google.com/store/books/details?id=XnUhEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=XnUhEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "language_code": "en",
+    "sequence": 167,
+    "seo_description": "A practical evidence-led guide to REA and AI-assisted reverse engineering covering authorization, reproducible workstations, CLI/MCP workflows, binary analysis, decompilation, JavaScript and Electron, APK and .NET analysis, behavior specifications, differential testing, AI-agent failure modes and responsible reconstruction.",
+    "learning": [
+      "Distinguish evidence produced by an analysis tool from an AI agent's interpretation so that fluent output is never mistaken for proof.",
+      "Define authorization separately for inspection, execution, capture, retention, reconstruction and publication before beginning a reverse-engineering investigation.",
+      "Build a reproducible REA workstation by recording runtime, operating system, package, provider, permission and artifact versions rather than relying on the word latest.",
+      "Understand the difference between an agent workflow, MCP registration, provider readiness and a genuine evidence-producing analysis response.",
+      "Frame a reverse-engineering project around the smallest important behavioral question and select only the analysis capability needed to answer it.",
+      "Perform artifact triage and maintain hashes, read-only originals, evidence directories, manifests and a chain of custody for research inputs and outputs.",
+      "Read assembly, disassembly and decompiler output with explicit uncertainty, cross-checking recovered high-level expressions against lower-level evidence and boundary tests.",
+      "Treat decompiled pseudocode as a testable hypothesis rather than as recovered original source code.",
+      "Trace native data flow and structures while keeping inferred types, compiler transformations and hidden assumptions visible in the evidence record.",
+      "Investigate JavaScript, Electron and browser applications by separating module graphs, process boundaries, runtime behavior and captured network evidence.",
+      "Approach Android APK, JADX, .NET, managed and hybrid applications through artifact-appropriate evidence instead of forcing one reverse-engineering model onto every platform.",
+      "Use controlled runtime experiments, saved captures, firmware and WebAssembly metadata only within a documented authorization and isolation boundary.",
+      "Translate findings into a behavioral specification with explicit inputs, outputs, state transitions, failures, side effects, limits and unresolved questions.",
+      "Build an independent implementation from a lawful behavior contract and validate it with acceptance tests, differential testing and edge cases rather than visual resemblance.",
+      "Preserve contradictions and rejected hypotheses in the investigation record instead of silently rewriting the explanation around the final result.",
+      "Recognize AI-agent failure modes including hallucinated commands, wrong-provider selection, simulated-result confusion and instruction-looking content recovered from untrusted artifacts.",
+      "Keep artifact strings, comments, logs and HTML at a lower trust level than analyst instructions, requiring explicit approval for consequential filesystem, process or network actions.",
+      "Package a complete REA investigation with permission statements, artifact hashes, toolchain records, raw evidence, claim mappings, implementation, tests, limitations and publication decisions.",
+      "Evaluate success by evidence coverage, reproducibility, functional testing and restraint rather than by whether the final reconstruction merely looks convincing."
+    ],
+    "related_ids": [
+      "D3HxEQAAQBAJ",
+      "RdIVEgAAQBAJ",
+      "U3AcEgAAQBAJ"
+    ],
+    "source_review_status": "complete",
+    "source_scope": "Library source Reverse_Engineering_with_REA_Faramarz_Kowsari_A5_Evidence_Audited_Edition_v6.docx reviewed from the title and evidence disclosure, responsible-use notice, complete 9-part 42-chapter contents, workstation and REA setup methodology, decompilation methodology, behavior-specification and independent-reconstruction sections, AI-agent failure-mode analysis, and the complete REA investigation capstone. Public-page enrichment is limited to concepts directly supported by those reviewed sections. The public Google Books subtitle supplied for this catalog entry is retained even though the reviewed research manuscript uses a slightly different evidence-audited subtitle.",
+    "safety_scope": "Authorized analysis, education, debugging, interoperability and responsible research only; the source explicitly excludes unauthorized access, protected-code or asset copying, license circumvention, unauthorized interception, access-control bypass and infringing publication.",
+    "seo": {
+      "primary_query": "REVERSE ENGINEERING WITH REA",
+      "secondary_queries": [
+        "REVERSE ENGINEERING WITH REA book",
+        "A Practical Guide to AI-Assisted Software Analysis, Evidence-Based Reconstruction, and Responsible Reverse Engineering",
+        "Software Engineering & Reverse Engineering",
+        "REA reverse engineering",
+        "AI-assisted software analysis",
+        "Responsible reverse engineering",
+        "Evidence-based reconstruction",
+        "Software investigation",
+        "Binary analysis",
+        "Authorized analysis",
+        "Research scope and permission",
+        "Evidence provenance"
+      ],
+      "long_tail_queries": [
+        "REVERSE ENGINEERING WITH REA by Faramarz Kowsari",
+        "practical guide to REA reverse engineering",
+        "how REA reverse engineering works",
+        "REA reverse engineering AI-assisted software analysis"
+      ],
+      "entities": [
+        "REA reverse engineering",
+        "AI-assisted software analysis",
+        "Responsible reverse engineering",
+        "Evidence-based reconstruction",
+        "Software investigation",
+        "Binary analysis",
+        "Authorized analysis",
+        "Research scope and permission",
+        "Evidence provenance",
+        "Reproducible reverse engineering",
+        "REA CLI",
+        "MCP tool workflows",
+        "AI coding agents",
+        "Analysis providers",
+        "Provider readiness",
+        "Host environment reproducibility",
+        "Artifact hashing",
+        "Chain of custody",
+        "Least-privilege analysis",
+        "Artifact triage"
+      ],
+      "cluster": "software-technology",
+      "cluster_label": "Software, APIs & Technology",
+      "localized": {
+        "en": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA book",
+            "artificial intelligence book",
+            "REA reverse engineering guide",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "how REA reverse engineering works",
+            "practical guide to REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA by Faramarz Kowsari"
+          ],
+          "category_phrase": "artificial intelligence"
+        },
+        "tr": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA kitap",
+            "yapay zekâ kitap",
+            "REA reverse engineering rehberi",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "REA reverse engineering nasıl çalışır",
+            "REA reverse engineering için uygulamalı rehberi",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "yapay zekâ"
+        },
+        "ru": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA книга",
+            "книга о искусственный интеллект",
+            "руководство по REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "как работает REA reverse engineering",
+            "практическое руководство по REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "искусственный интеллект"
+        },
+        "de": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA Buch",
+            "Künstliche Intelligenz Buch",
+            "REA reverse engineering Leitfaden",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "wie funktioniert REA reverse engineering",
+            "praktischer Leitfaden zu REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "Künstliche Intelligenz"
+        },
+        "es": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA libro",
+            "libro de inteligencia artificial",
+            "guía de REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "cómo funciona REA reverse engineering",
+            "guía práctica de REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "inteligencia artificial"
+        },
+        "fr": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA livre",
+            "livre sur intelligence artificielle",
+            "guide REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "comment fonctionne REA reverse engineering",
+            "guide pratique de REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "intelligence artificielle"
+        },
+        "pt-BR": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA livro",
+            "livro sobre inteligência artificial",
+            "guia de REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "como funciona REA reverse engineering",
+            "guia prático de REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "inteligência artificial"
+        },
+        "fa": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA کتاب",
+            "کتاب هوش مصنوعی",
+            "راهنما REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "REA reverse engineering چیست",
+            "راهنما کاربردی REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA فرامرز کوثری"
+          ],
+          "category_phrase": "هوش مصنوعی"
+        },
+        "ar": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA كتاب",
+            "كتاب عن الذكاء الاصطناعي",
+            "دليل REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "ما هو REA reverse engineering",
+            "دليل عملي عن REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "الذكاء الاصطناعي"
+        },
+        "id": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA buku",
+            "buku kecerdasan buatan",
+            "panduan REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "cara kerja REA reverse engineering",
+            "panduan praktis REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "kecerdasan buatan"
+        },
+        "vi": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA sách",
+            "sách về trí tuệ nhân tạo",
+            "hướng dẫn REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "REA reverse engineering hoạt động như thế nào",
+            "hướng dẫn thực hành REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "trí tuệ nhân tạo"
+        },
+        "th": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA หนังสือ",
+            "หนังสือ ปัญญาประดิษฐ์",
+            "คู่มือ REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "REA reverse engineering ทำงานอย่างไร",
+            "คู่มือ REA reverse engineering แบบปฏิบัติ",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "ปัญญาประดิษฐ์"
+        },
+        "bn": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA বই",
+            "কৃত্রিম বুদ্ধিমত্তা বই",
+            "REA reverse engineering গাইড",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "REA reverse engineering কীভাবে কাজ করে",
+            "REA reverse engineering ব্যবহারিক গাইড",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "কৃত্রিম বুদ্ধিমত্তা"
+        },
+        "ro": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA carte",
+            "carte despre inteligență artificială",
+            "ghid REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "cum funcționează REA reverse engineering",
+            "ghid practic pentru REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "inteligență artificială"
+        },
+        "fil": {
+          "primary_query": "REVERSE ENGINEERING WITH REA",
+          "secondary_queries": [
+            "REVERSE ENGINEERING WITH REA aklat",
+            "aklat tungkol sa artificial intelligence",
+            "gabay sa REA reverse engineering",
+            "REA reverse engineering",
+            "AI-assisted software analysis",
+            "Responsible reverse engineering",
+            "Evidence-based reconstruction",
+            "Software investigation",
+            "Binary analysis"
+          ],
+          "long_tail_queries": [
+            "paano gumagana ang REA reverse engineering",
+            "praktikal na gabay sa REA reverse engineering",
+            "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+          ],
+          "category_phrase": "artificial intelligence"
+        }
+      },
+      "related_slugs": [
+        "claude-code-mastery",
+        "jev-and-system-one-ai",
+        "artificial-intelligence-and-machine-learning-for-cybersecurity",
+        "engineering-turkey",
+        "ai-apis-in-practice"
       ]
     },
     "source_reviewed": true

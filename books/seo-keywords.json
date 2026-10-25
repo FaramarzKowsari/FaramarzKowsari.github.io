@@ -18650,6 +18650,7 @@
     ],
     "primary_query": "Engineering Turkey",
     "related_slugs": [
+      "reverse-engineering-with-rea",
       "ai-apis-in-practice",
       "claude-fable-5-1-and-mythos-5-1",
       "context-engineering-with-claude",
@@ -40114,6 +40115,362 @@
       "Relationship Leverage book",
       "Relationship Leverage",
       "Relationship Leverage guide"
+    ]
+  },
+  "reverse-engineering-with-rea": {
+    "cluster": "software-technology",
+    "cluster_label": "Software, APIs & Technology",
+    "entities": [
+      "REA reverse engineering",
+      "AI-assisted software analysis",
+      "Responsible reverse engineering",
+      "Evidence-based reconstruction",
+      "Software investigation",
+      "Binary analysis",
+      "Authorized analysis",
+      "Research scope and permission",
+      "Evidence provenance",
+      "Reproducible reverse engineering",
+      "REA CLI",
+      "MCP tool workflows",
+      "AI coding agents",
+      "Analysis providers",
+      "Provider readiness",
+      "Host environment reproducibility",
+      "Artifact hashing",
+      "Chain of custody",
+      "Least-privilege analysis",
+      "Artifact triage"
+    ],
+    "localized": {
+      "ar": {
+        "category_phrase": "الذكاء الاصطناعي",
+        "long_tail_queries": [
+          "ما هو REA reverse engineering",
+          "دليل عملي عن REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA كتاب",
+          "كتاب عن الذكاء الاصطناعي",
+          "دليل REA reverse engineering",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "bn": {
+        "category_phrase": "কৃত্রিম বুদ্ধিমত্তা",
+        "long_tail_queries": [
+          "REA reverse engineering কীভাবে কাজ করে",
+          "REA reverse engineering ব্যবহারিক গাইড",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA বই",
+          "কৃত্রিম বুদ্ধিমত্তা বই",
+          "REA reverse engineering গাইড",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "de": {
+        "category_phrase": "Künstliche Intelligenz",
+        "long_tail_queries": [
+          "wie funktioniert REA reverse engineering",
+          "praktischer Leitfaden zu REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA Buch",
+          "Künstliche Intelligenz Buch",
+          "REA reverse engineering Leitfaden",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "en": {
+        "category_phrase": "artificial intelligence",
+        "long_tail_queries": [
+          "how REA reverse engineering works",
+          "practical guide to REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA by Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA book",
+          "artificial intelligence book",
+          "REA reverse engineering guide",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "es": {
+        "category_phrase": "inteligencia artificial",
+        "long_tail_queries": [
+          "cómo funciona REA reverse engineering",
+          "guía práctica de REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA libro",
+          "libro de inteligencia artificial",
+          "guía de REA reverse engineering",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "fa": {
+        "category_phrase": "هوش مصنوعی",
+        "long_tail_queries": [
+          "REA reverse engineering چیست",
+          "راهنما کاربردی REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA فرامرز کوثری"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA کتاب",
+          "کتاب هوش مصنوعی",
+          "راهنما REA reverse engineering",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "fil": {
+        "category_phrase": "artificial intelligence",
+        "long_tail_queries": [
+          "paano gumagana ang REA reverse engineering",
+          "praktikal na gabay sa REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA aklat",
+          "aklat tungkol sa artificial intelligence",
+          "gabay sa REA reverse engineering",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "fr": {
+        "category_phrase": "intelligence artificielle",
+        "long_tail_queries": [
+          "comment fonctionne REA reverse engineering",
+          "guide pratique de REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA livre",
+          "livre sur intelligence artificielle",
+          "guide REA reverse engineering",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "id": {
+        "category_phrase": "kecerdasan buatan",
+        "long_tail_queries": [
+          "cara kerja REA reverse engineering",
+          "panduan praktis REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA buku",
+          "buku kecerdasan buatan",
+          "panduan REA reverse engineering",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "pt-BR": {
+        "category_phrase": "inteligência artificial",
+        "long_tail_queries": [
+          "como funciona REA reverse engineering",
+          "guia prático de REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA livro",
+          "livro sobre inteligência artificial",
+          "guia de REA reverse engineering",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "ro": {
+        "category_phrase": "inteligență artificială",
+        "long_tail_queries": [
+          "cum funcționează REA reverse engineering",
+          "ghid practic pentru REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA carte",
+          "carte despre inteligență artificială",
+          "ghid REA reverse engineering",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "ru": {
+        "category_phrase": "искусственный интеллект",
+        "long_tail_queries": [
+          "как работает REA reverse engineering",
+          "практическое руководство по REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA книга",
+          "книга о искусственный интеллект",
+          "руководство по REA reverse engineering",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "th": {
+        "category_phrase": "ปัญญาประดิษฐ์",
+        "long_tail_queries": [
+          "REA reverse engineering ทำงานอย่างไร",
+          "คู่มือ REA reverse engineering แบบปฏิบัติ",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA หนังสือ",
+          "หนังสือ ปัญญาประดิษฐ์",
+          "คู่มือ REA reverse engineering",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "tr": {
+        "category_phrase": "yapay zekâ",
+        "long_tail_queries": [
+          "REA reverse engineering nasıl çalışır",
+          "REA reverse engineering için uygulamalı rehberi",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA kitap",
+          "yapay zekâ kitap",
+          "REA reverse engineering rehberi",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      },
+      "vi": {
+        "category_phrase": "trí tuệ nhân tạo",
+        "long_tail_queries": [
+          "REA reverse engineering hoạt động như thế nào",
+          "hướng dẫn thực hành REA reverse engineering",
+          "REVERSE ENGINEERING WITH REA Faramarz Kowsari"
+        ],
+        "primary_query": "REVERSE ENGINEERING WITH REA",
+        "secondary_queries": [
+          "REVERSE ENGINEERING WITH REA sách",
+          "sách về trí tuệ nhân tạo",
+          "hướng dẫn REA reverse engineering",
+          "REA reverse engineering",
+          "AI-assisted software analysis",
+          "Responsible reverse engineering",
+          "Evidence-based reconstruction",
+          "Software investigation",
+          "Binary analysis"
+        ]
+      }
+    },
+    "long_tail_queries": [
+      "REVERSE ENGINEERING WITH REA by Faramarz Kowsari",
+      "practical guide to REA reverse engineering",
+      "how REA reverse engineering works",
+      "REA reverse engineering AI-assisted software analysis"
+    ],
+    "primary_query": "REVERSE ENGINEERING WITH REA",
+    "related_slugs": [
+      "claude-code-mastery",
+      "jev-and-system-one-ai",
+      "artificial-intelligence-and-machine-learning-for-cybersecurity",
+      "engineering-turkey",
+      "ai-apis-in-practice"
+    ],
+    "secondary_queries": [
+      "REVERSE ENGINEERING WITH REA book",
+      "A Practical Guide to AI-Assisted Software Analysis, Evidence-Based Reconstruction, and Responsible Reverse Engineering",
+      "Software Engineering & Reverse Engineering",
+      "REA reverse engineering",
+      "AI-assisted software analysis",
+      "Responsible reverse engineering",
+      "Evidence-based reconstruction",
+      "Software investigation",
+      "Binary analysis",
+      "Authorized analysis",
+      "Research scope and permission",
+      "Evidence provenance"
     ]
   },
   "sen-daha-az-icin-fazla-degerlisin": {
