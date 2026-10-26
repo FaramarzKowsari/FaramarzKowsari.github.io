@@ -65645,27 +65645,8 @@
     "source_review_status": "complete",
     "source_scope": "Library source RAG_Engineering_Faramarz_Kowsari_A5_WORD_REPAIRED_FINAL.docx reviewed from its publication/evidence note, complete 32-chapter core contents, evaluation and production sections, RAG security chapter, deployment/versioning/RAGOps chapter, graduate capstone, release-readiness material and extended evidence/verification laboratory structure. The reviewed manuscript is an English A5 graduate engineering reference revised 24 October 2026 and parsed as 264 pages. Public-page enrichment is limited to concepts and framing supported by those reviewed sections.",
     "seo": {
-      "primary_query": "RAG ENGINEERING",
-      "secondary_queries": [
-        "RAG ENGINEERING book",
-        "From First Principles to Production",
-        "Artificial Intelligence & AI Engineering",
-        "Retrieval-augmented generation (RAG)",
-        "Evidence-based AI architecture",
-        "Source authority and provenance",
-        "RAG requirements engineering",
-        "Information retrieval fundamentals",
-        "BM25 and lexical retrieval",
-        "Dense retrieval",
-        "Embedding models",
-        "Vector search"
-      ],
-      "long_tail_queries": [
-        "RAG ENGINEERING by Faramarz Kowsari",
-        "practical guide to Retrieval-augmented generation (RAG)",
-        "how Retrieval-augmented generation (RAG) works",
-        "Retrieval-augmented generation (RAG) Evidence-based AI architecture"
-      ],
+      "cluster": "artificial-intelligence",
+      "cluster_label": "Artificial Intelligence",
       "entities": [
         "Retrieval-augmented generation (RAG)",
         "Evidence-based AI architecture",
@@ -65688,170 +65669,14 @@
         "Query understanding",
         "Retrieval adaptation"
       ],
-      "cluster": "artificial-intelligence",
-      "cluster_label": "Artificial Intelligence",
       "localized": {
-        "en": {
-          "primary_query": "RAG ENGINEERING",
-          "secondary_queries": [
-            "RAG ENGINEERING book",
-            "artificial intelligence book",
-            "Retrieval-augmented generation (RAG) guide",
-            "Retrieval-augmented generation (RAG)",
-            "Evidence-based AI architecture",
-            "Source authority and provenance",
-            "RAG requirements engineering",
-            "Information retrieval fundamentals",
-            "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "how Retrieval-augmented generation (RAG) works",
-            "practical guide to Retrieval-augmented generation (RAG)",
-            "RAG ENGINEERING by Faramarz Kowsari"
-          ],
-          "category_phrase": "artificial intelligence"
-        },
-        "tr": {
-          "primary_query": "RAG ENGINEERING",
-          "secondary_queries": [
-            "RAG ENGINEERING kitap",
-            "yapay zekâ kitap",
-            "Retrieval-augmented generation (RAG) rehberi",
-            "Retrieval-augmented generation (RAG)",
-            "Evidence-based AI architecture",
-            "Source authority and provenance",
-            "RAG requirements engineering",
-            "Information retrieval fundamentals",
-            "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "Retrieval-augmented generation (RAG) nasıl çalışır",
-            "Retrieval-augmented generation (RAG) için uygulamalı rehberi",
-            "RAG ENGINEERING Faramarz Kowsari"
-          ],
-          "category_phrase": "yapay zekâ"
-        },
-        "ru": {
-          "primary_query": "RAG ENGINEERING",
-          "secondary_queries": [
-            "RAG ENGINEERING книга",
-            "книга о искусственный интеллект",
-            "руководство по Retrieval-augmented generation (RAG)",
-            "Retrieval-augmented generation (RAG)",
-            "Evidence-based AI architecture",
-            "Source authority and provenance",
-            "RAG requirements engineering",
-            "Information retrieval fundamentals",
-            "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "как работает Retrieval-augmented generation (RAG)",
-            "практическое руководство по Retrieval-augmented generation (RAG)",
-            "RAG ENGINEERING Faramarz Kowsari"
-          ],
-          "category_phrase": "искусственный интеллект"
-        },
-        "de": {
-          "primary_query": "RAG ENGINEERING",
-          "secondary_queries": [
-            "RAG ENGINEERING Buch",
-            "Künstliche Intelligenz Buch",
-            "Retrieval-augmented generation (RAG) Leitfaden",
-            "Retrieval-augmented generation (RAG)",
-            "Evidence-based AI architecture",
-            "Source authority and provenance",
-            "RAG requirements engineering",
-            "Information retrieval fundamentals",
-            "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "wie funktioniert Retrieval-augmented generation (RAG)",
-            "praktischer Leitfaden zu Retrieval-augmented generation (RAG)",
-            "RAG ENGINEERING Faramarz Kowsari"
-          ],
-          "category_phrase": "Künstliche Intelligenz"
-        },
-        "es": {
-          "primary_query": "RAG ENGINEERING",
-          "secondary_queries": [
-            "RAG ENGINEERING libro",
-            "libro de inteligencia artificial",
-            "guía de Retrieval-augmented generation (RAG)",
-            "Retrieval-augmented generation (RAG)",
-            "Evidence-based AI architecture",
-            "Source authority and provenance",
-            "RAG requirements engineering",
-            "Information retrieval fundamentals",
-            "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "cómo funciona Retrieval-augmented generation (RAG)",
-            "guía práctica de Retrieval-augmented generation (RAG)",
-            "RAG ENGINEERING Faramarz Kowsari"
-          ],
-          "category_phrase": "inteligencia artificial"
-        },
-        "fr": {
-          "primary_query": "RAG ENGINEERING",
-          "secondary_queries": [
-            "RAG ENGINEERING livre",
-            "livre sur intelligence artificielle",
-            "guide Retrieval-augmented generation (RAG)",
-            "Retrieval-augmented generation (RAG)",
-            "Evidence-based AI architecture",
-            "Source authority and provenance",
-            "RAG requirements engineering",
-            "Information retrieval fundamentals",
-            "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "comment fonctionne Retrieval-augmented generation (RAG)",
-            "guide pratique de Retrieval-augmented generation (RAG)",
-            "RAG ENGINEERING Faramarz Kowsari"
-          ],
-          "category_phrase": "intelligence artificielle"
-        },
-        "pt-BR": {
-          "primary_query": "RAG ENGINEERING",
-          "secondary_queries": [
-            "RAG ENGINEERING livro",
-            "livro sobre inteligência artificial",
-            "guia de Retrieval-augmented generation (RAG)",
-            "Retrieval-augmented generation (RAG)",
-            "Evidence-based AI architecture",
-            "Source authority and provenance",
-            "RAG requirements engineering",
-            "Information retrieval fundamentals",
-            "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "como funciona Retrieval-augmented generation (RAG)",
-            "guia prático de Retrieval-augmented generation (RAG)",
-            "RAG ENGINEERING Faramarz Kowsari"
-          ],
-          "category_phrase": "inteligência artificial"
-        },
-        "fa": {
-          "primary_query": "RAG ENGINEERING",
-          "secondary_queries": [
-            "RAG ENGINEERING کتاب",
-            "کتاب هوش مصنوعی",
-            "راهنما Retrieval-augmented generation (RAG)",
-            "Retrieval-augmented generation (RAG)",
-            "Evidence-based AI architecture",
-            "Source authority and provenance",
-            "RAG requirements engineering",
-            "Information retrieval fundamentals",
-            "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "Retrieval-augmented generation (RAG) چیست",
-            "راهنما کاربردی Retrieval-augmented generation (RAG)",
-            "RAG ENGINEERING فرامرز کوثری"
-          ],
-          "category_phrase": "هوش مصنوعی"
-        },
         "ar": {
+          "category_phrase": "الذكاء الاصطناعي",
+          "long_tail_queries": [
+            "ما هو Retrieval-augmented generation (RAG)",
+            "دليل عملي عن Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
           "primary_query": "RAG ENGINEERING",
           "secondary_queries": [
             "RAG ENGINEERING كتاب",
@@ -65863,75 +65688,15 @@
             "RAG requirements engineering",
             "Information retrieval fundamentals",
             "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "ما هو Retrieval-augmented generation (RAG)",
-            "دليل عملي عن Retrieval-augmented generation (RAG)",
-            "RAG ENGINEERING Faramarz Kowsari"
-          ],
-          "category_phrase": "الذكاء الاصطناعي"
-        },
-        "id": {
-          "primary_query": "RAG ENGINEERING",
-          "secondary_queries": [
-            "RAG ENGINEERING buku",
-            "buku kecerdasan buatan",
-            "panduan Retrieval-augmented generation (RAG)",
-            "Retrieval-augmented generation (RAG)",
-            "Evidence-based AI architecture",
-            "Source authority and provenance",
-            "RAG requirements engineering",
-            "Information retrieval fundamentals",
-            "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "cara kerja Retrieval-augmented generation (RAG)",
-            "panduan praktis Retrieval-augmented generation (RAG)",
-            "RAG ENGINEERING Faramarz Kowsari"
-          ],
-          "category_phrase": "kecerdasan buatan"
-        },
-        "vi": {
-          "primary_query": "RAG ENGINEERING",
-          "secondary_queries": [
-            "RAG ENGINEERING sách",
-            "sách về trí tuệ nhân tạo",
-            "hướng dẫn Retrieval-augmented generation (RAG)",
-            "Retrieval-augmented generation (RAG)",
-            "Evidence-based AI architecture",
-            "Source authority and provenance",
-            "RAG requirements engineering",
-            "Information retrieval fundamentals",
-            "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "Retrieval-augmented generation (RAG) hoạt động như thế nào",
-            "hướng dẫn thực hành Retrieval-augmented generation (RAG)",
-            "RAG ENGINEERING Faramarz Kowsari"
-          ],
-          "category_phrase": "trí tuệ nhân tạo"
-        },
-        "th": {
-          "primary_query": "RAG ENGINEERING",
-          "secondary_queries": [
-            "RAG ENGINEERING หนังสือ",
-            "หนังสือ ปัญญาประดิษฐ์",
-            "คู่มือ Retrieval-augmented generation (RAG)",
-            "Retrieval-augmented generation (RAG)",
-            "Evidence-based AI architecture",
-            "Source authority and provenance",
-            "RAG requirements engineering",
-            "Information retrieval fundamentals",
-            "BM25 and lexical retrieval"
-          ],
-          "long_tail_queries": [
-            "Retrieval-augmented generation (RAG) ทำงานอย่างไร",
-            "คู่มือ Retrieval-augmented generation (RAG) แบบปฏิบัติ",
-            "RAG ENGINEERING Faramarz Kowsari"
-          ],
-          "category_phrase": "ปัญญาประดิษฐ์"
+          ]
         },
         "bn": {
+          "category_phrase": "কৃত্রিম বুদ্ধিমত্তা",
+          "long_tail_queries": [
+            "Retrieval-augmented generation (RAG) কীভাবে কাজ করে",
+            "Retrieval-augmented generation (RAG) ব্যবহারিক গাইড",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
           "primary_query": "RAG ENGINEERING",
           "secondary_queries": [
             "RAG ENGINEERING বই",
@@ -65943,35 +65708,95 @@
             "RAG requirements engineering",
             "Information retrieval fundamentals",
             "BM25 and lexical retrieval"
-          ],
+          ]
+        },
+        "de": {
+          "category_phrase": "Künstliche Intelligenz",
           "long_tail_queries": [
-            "Retrieval-augmented generation (RAG) কীভাবে কাজ করে",
-            "Retrieval-augmented generation (RAG) ব্যবহারিক গাইড",
+            "wie funktioniert Retrieval-augmented generation (RAG)",
+            "praktischer Leitfaden zu Retrieval-augmented generation (RAG)",
             "RAG ENGINEERING Faramarz Kowsari"
           ],
-          "category_phrase": "কৃত্রিম বুদ্ধিমত্তা"
-        },
-        "ro": {
           "primary_query": "RAG ENGINEERING",
           "secondary_queries": [
-            "RAG ENGINEERING carte",
-            "carte despre inteligență artificială",
-            "ghid Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Buch",
+            "Künstliche Intelligenz Buch",
+            "Retrieval-augmented generation (RAG) Leitfaden",
             "Retrieval-augmented generation (RAG)",
             "Evidence-based AI architecture",
             "Source authority and provenance",
             "RAG requirements engineering",
             "Information retrieval fundamentals",
             "BM25 and lexical retrieval"
-          ],
+          ]
+        },
+        "en": {
+          "category_phrase": "artificial intelligence",
           "long_tail_queries": [
-            "cum funcționează Retrieval-augmented generation (RAG)",
-            "ghid practic pentru Retrieval-augmented generation (RAG)",
+            "how Retrieval-augmented generation (RAG) works",
+            "practical guide to Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING by Faramarz Kowsari"
+          ],
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING book",
+            "artificial intelligence book",
+            "Retrieval-augmented generation (RAG) guide",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ]
+        },
+        "es": {
+          "category_phrase": "inteligencia artificial",
+          "long_tail_queries": [
+            "cómo funciona Retrieval-augmented generation (RAG)",
+            "guía práctica de Retrieval-augmented generation (RAG)",
             "RAG ENGINEERING Faramarz Kowsari"
           ],
-          "category_phrase": "inteligență artificială"
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING libro",
+            "libro de inteligencia artificial",
+            "guía de Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ]
+        },
+        "fa": {
+          "category_phrase": "هوش مصنوعی",
+          "long_tail_queries": [
+            "Retrieval-augmented generation (RAG) چیست",
+            "راهنما کاربردی Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING فرامرز کوثری"
+          ],
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING کتاب",
+            "کتاب هوش مصنوعی",
+            "راهنما Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ]
         },
         "fil": {
+          "category_phrase": "artificial intelligence",
+          "long_tail_queries": [
+            "paano gumagana ang Retrieval-augmented generation (RAG)",
+            "praktikal na gabay sa Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
           "primary_query": "RAG ENGINEERING",
           "secondary_queries": [
             "RAG ENGINEERING aklat",
@@ -65983,23 +65808,549 @@
             "RAG requirements engineering",
             "Information retrieval fundamentals",
             "BM25 and lexical retrieval"
-          ],
+          ]
+        },
+        "fr": {
+          "category_phrase": "intelligence artificielle",
           "long_tail_queries": [
-            "paano gumagana ang Retrieval-augmented generation (RAG)",
-            "praktikal na gabay sa Retrieval-augmented generation (RAG)",
+            "comment fonctionne Retrieval-augmented generation (RAG)",
+            "guide pratique de Retrieval-augmented generation (RAG)",
             "RAG ENGINEERING Faramarz Kowsari"
           ],
-          "category_phrase": "artificial intelligence"
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING livre",
+            "livre sur intelligence artificielle",
+            "guide Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ]
+        },
+        "id": {
+          "category_phrase": "kecerdasan buatan",
+          "long_tail_queries": [
+            "cara kerja Retrieval-augmented generation (RAG)",
+            "panduan praktis Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING buku",
+            "buku kecerdasan buatan",
+            "panduan Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ]
+        },
+        "pt-BR": {
+          "category_phrase": "inteligência artificial",
+          "long_tail_queries": [
+            "como funciona Retrieval-augmented generation (RAG)",
+            "guia prático de Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING livro",
+            "livro sobre inteligência artificial",
+            "guia de Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ]
+        },
+        "ro": {
+          "category_phrase": "inteligență artificială",
+          "long_tail_queries": [
+            "cum funcționează Retrieval-augmented generation (RAG)",
+            "ghid practic pentru Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING carte",
+            "carte despre inteligență artificială",
+            "ghid Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ]
+        },
+        "ru": {
+          "category_phrase": "искусственный интеллект",
+          "long_tail_queries": [
+            "как работает Retrieval-augmented generation (RAG)",
+            "практическое руководство по Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING книга",
+            "книга о искусственный интеллект",
+            "руководство по Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ]
+        },
+        "th": {
+          "category_phrase": "ปัญญาประดิษฐ์",
+          "long_tail_queries": [
+            "Retrieval-augmented generation (RAG) ทำงานอย่างไร",
+            "คู่มือ Retrieval-augmented generation (RAG) แบบปฏิบัติ",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING หนังสือ",
+            "หนังสือ ปัญญาประดิษฐ์",
+            "คู่มือ Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ]
+        },
+        "tr": {
+          "category_phrase": "yapay zekâ",
+          "long_tail_queries": [
+            "Retrieval-augmented generation (RAG) nasıl çalışır",
+            "Retrieval-augmented generation (RAG) için uygulamalı rehberi",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING kitap",
+            "yapay zekâ kitap",
+            "Retrieval-augmented generation (RAG) rehberi",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ]
+        },
+        "vi": {
+          "category_phrase": "trí tuệ nhân tạo",
+          "long_tail_queries": [
+            "Retrieval-augmented generation (RAG) hoạt động như thế nào",
+            "hướng dẫn thực hành Retrieval-augmented generation (RAG)",
+            "RAG ENGINEERING Faramarz Kowsari"
+          ],
+          "primary_query": "RAG ENGINEERING",
+          "secondary_queries": [
+            "RAG ENGINEERING sách",
+            "sách về trí tuệ nhân tạo",
+            "hướng dẫn Retrieval-augmented generation (RAG)",
+            "Retrieval-augmented generation (RAG)",
+            "Evidence-based AI architecture",
+            "Source authority and provenance",
+            "RAG requirements engineering",
+            "Information retrieval fundamentals",
+            "BM25 and lexical retrieval"
+          ]
         }
       },
+      "long_tail_queries": [
+        "RAG ENGINEERING by Faramarz Kowsari",
+        "practical guide to Retrieval-augmented generation (RAG)",
+        "how Retrieval-augmented generation (RAG) works",
+        "Retrieval-augmented generation (RAG) Evidence-based AI architecture"
+      ],
+      "primary_query": "RAG ENGINEERING",
       "related_slugs": [
         "context-engineering-with-claude",
         "claude-mcp-mastery",
         "jev-and-system-one-ai",
         "claude-fable-5-1-and-mythos-5-1",
         "ai-apis-in-practice"
+      ],
+      "secondary_queries": [
+        "RAG ENGINEERING book",
+        "From First Principles to Production",
+        "Artificial Intelligence & AI Engineering",
+        "Retrieval-augmented generation (RAG)",
+        "Evidence-based AI architecture",
+        "Source authority and provenance",
+        "RAG requirements engineering",
+        "Information retrieval fundamentals",
+        "BM25 and lexical retrieval",
+        "Dense retrieval",
+        "Embedding models",
+        "Vector search"
       ]
     },
     "source_reviewed": true
+  },
+  {
+    "status": "active",
+    "content_status": "pending_pdf",
+    "language": "English",
+    "category": "Trading",
+    "translation_group": "",
+    "subtitle": "The Complete Beginner’s Guide to Calls, Puts, Option Chains, Trading Strategies, the Greeks, and Risk Management",
+    "description": "",
+    "summary": "",
+    "key_topics": [],
+    "target_audience": "",
+    "publisher": "Faramarz Kowsari",
+    "published_date": "2026",
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered",
+    "google_books_id": "d-khEgAAQBAJ",
+    "title": "OPTIONS TRADING FROM ZERO",
+    "slug": "options-trading-from-zero",
+    "google_books_url": "https://play.google.com/store/books/details?id=d-khEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=d-khEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "language_code": "en",
+    "sequence": 169,
+    "seo": {
+      "primary_query": "OPTIONS TRADING FROM ZERO",
+      "secondary_queries": [
+        "OPTIONS TRADING FROM ZERO book",
+        "The Complete Beginner’s Guide to Calls, Puts, Option Chains, Trading Strategies, the Greeks, and Risk Management",
+        "Trading",
+        "The Complete Beginner’s Guide to Calls",
+        "Option Chains",
+        "Trading Strategies",
+        "the Greeks",
+        "and Risk Management",
+        "The Complete Beginner’s Guide to Calls guide"
+      ],
+      "long_tail_queries": [
+        "OPTIONS TRADING FROM ZERO by Faramarz Kowsari",
+        "practical guide to The Complete Beginner’s Guide to Calls",
+        "how The Complete Beginner’s Guide to Calls works",
+        "The Complete Beginner’s Guide to Calls Option Chains"
+      ],
+      "entities": [
+        "The Complete Beginner’s Guide to Calls",
+        "Option Chains",
+        "Trading Strategies",
+        "the Greeks",
+        "and Risk Management"
+      ],
+      "cluster": "trading-markets",
+      "cluster_label": "Trading & Financial Markets",
+      "localized": {
+        "en": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO book",
+            "trading and financial markets book",
+            "The Complete Beginner’s Guide to Calls guide",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "how The Complete Beginner’s Guide to Calls works",
+            "practical guide to The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO by Faramarz Kowsari"
+          ],
+          "category_phrase": "trading and financial markets"
+        },
+        "tr": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO kitap",
+            "trading ve finansal piyasalar kitap",
+            "The Complete Beginner’s Guide to Calls rehberi",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "The Complete Beginner’s Guide to Calls nasıl çalışır",
+            "The Complete Beginner’s Guide to Calls için uygulamalı rehberi",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading ve finansal piyasalar"
+        },
+        "ru": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO книга",
+            "книга о трейдинг и финансовые рынки",
+            "руководство по The Complete Beginner’s Guide to Calls",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "как работает The Complete Beginner’s Guide to Calls",
+            "практическое руководство по The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "трейдинг и финансовые рынки"
+        },
+        "de": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO Buch",
+            "Trading und Finanzmärkte Buch",
+            "The Complete Beginner’s Guide to Calls Leitfaden",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "wie funktioniert The Complete Beginner’s Guide to Calls",
+            "praktischer Leitfaden zu The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "Trading und Finanzmärkte"
+        },
+        "es": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO libro",
+            "libro de trading y mercados financieros",
+            "guía de The Complete Beginner’s Guide to Calls",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "cómo funciona The Complete Beginner’s Guide to Calls",
+            "guía práctica de The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading y mercados financieros"
+        },
+        "fr": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO livre",
+            "livre sur trading et marchés financiers",
+            "guide The Complete Beginner’s Guide to Calls",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "comment fonctionne The Complete Beginner’s Guide to Calls",
+            "guide pratique de The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading et marchés financiers"
+        },
+        "pt-BR": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO livro",
+            "livro sobre trading e mercados financeiros",
+            "guia de The Complete Beginner’s Guide to Calls",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "como funciona The Complete Beginner’s Guide to Calls",
+            "guia prático de The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading e mercados financeiros"
+        },
+        "fa": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO کتاب",
+            "کتاب معامله‌گری و بازارهای مالی",
+            "راهنما The Complete Beginner’s Guide to Calls",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "The Complete Beginner’s Guide to Calls چیست",
+            "راهنما کاربردی The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO فرامرز کوثری"
+          ],
+          "category_phrase": "معامله‌گری و بازارهای مالی"
+        },
+        "ar": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO كتاب",
+            "كتاب عن التداول والأسواق المالية",
+            "دليل The Complete Beginner’s Guide to Calls",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "ما هو The Complete Beginner’s Guide to Calls",
+            "دليل عملي عن The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "التداول والأسواق المالية"
+        },
+        "id": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO buku",
+            "buku trading dan pasar keuangan",
+            "panduan The Complete Beginner’s Guide to Calls",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "cara kerja The Complete Beginner’s Guide to Calls",
+            "panduan praktis The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading dan pasar keuangan"
+        },
+        "vi": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO sách",
+            "sách về giao dịch và thị trường tài chính",
+            "hướng dẫn The Complete Beginner’s Guide to Calls",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "The Complete Beginner’s Guide to Calls hoạt động như thế nào",
+            "hướng dẫn thực hành The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "giao dịch và thị trường tài chính"
+        },
+        "th": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO หนังสือ",
+            "หนังสือ การเทรดและตลาดการเงิน",
+            "คู่มือ The Complete Beginner’s Guide to Calls",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "The Complete Beginner’s Guide to Calls ทำงานอย่างไร",
+            "คู่มือ The Complete Beginner’s Guide to Calls แบบปฏิบัติ",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "การเทรดและตลาดการเงิน"
+        },
+        "bn": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO বই",
+            "ট্রেডিং ও আর্থিক বাজার বই",
+            "The Complete Beginner’s Guide to Calls গাইড",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "The Complete Beginner’s Guide to Calls কীভাবে কাজ করে",
+            "The Complete Beginner’s Guide to Calls ব্যবহারিক গাইড",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "ট্রেডিং ও আর্থিক বাজার"
+        },
+        "ro": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO carte",
+            "carte despre trading și piețe financiare",
+            "ghid The Complete Beginner’s Guide to Calls",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "cum funcționează The Complete Beginner’s Guide to Calls",
+            "ghid practic pentru The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading și piețe financiare"
+        },
+        "fil": {
+          "primary_query": "OPTIONS TRADING FROM ZERO",
+          "secondary_queries": [
+            "OPTIONS TRADING FROM ZERO aklat",
+            "aklat tungkol sa trading at financial markets",
+            "gabay sa The Complete Beginner’s Guide to Calls",
+            "The Complete Beginner’s Guide to Calls",
+            "Option Chains",
+            "Trading Strategies",
+            "the Greeks",
+            "and Risk Management"
+          ],
+          "long_tail_queries": [
+            "paano gumagana ang The Complete Beginner’s Guide to Calls",
+            "praktikal na gabay sa The Complete Beginner’s Guide to Calls",
+            "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading at financial markets"
+        }
+      },
+      "related_slugs": [
+        "nifty-50-options-trading",
+        "0dte-options",
+        "mastering-renko-trading",
+        "the-1-minute-and-5-minute-scalping-playbook",
+        "candlestick-patterns-from-zero"
+      ]
+    },
+    "seo_description": "OPTIONS TRADING FROM ZERO: The Complete Beginner’s Guide to Calls, Puts, Option Chains, Trading Strategies, the Greeks, and Risk Management. A practical book by Faramarz Kowsari."
   }
 ]

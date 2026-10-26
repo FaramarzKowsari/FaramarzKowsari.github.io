@@ -37024,8 +37024,8 @@
       "0dte-options",
       "options-flow-trading",
       "gamma-exposure-trading",
-      "confluence-trading",
-      "crypto-liquidation-heatmaps"
+      "options-trading-from-zero",
+      "confluence-trading"
     ],
     "secondary_queries": [
       "NIFTY 50 OPTIONS TRADING book",
@@ -37752,6 +37752,329 @@
       "Sweeps",
       "Blocks and large prints",
       "Multi-leg options orders"
+    ]
+  },
+  "options-trading-from-zero": {
+    "cluster": "trading-markets",
+    "cluster_label": "Trading & Financial Markets",
+    "entities": [
+      "The Complete Beginner’s Guide to Calls",
+      "Option Chains",
+      "Trading Strategies",
+      "the Greeks",
+      "and Risk Management"
+    ],
+    "localized": {
+      "ar": {
+        "category_phrase": "التداول والأسواق المالية",
+        "long_tail_queries": [
+          "ما هو The Complete Beginner’s Guide to Calls",
+          "دليل عملي عن The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO كتاب",
+          "كتاب عن التداول والأسواق المالية",
+          "دليل The Complete Beginner’s Guide to Calls",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "bn": {
+        "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
+        "long_tail_queries": [
+          "The Complete Beginner’s Guide to Calls কীভাবে কাজ করে",
+          "The Complete Beginner’s Guide to Calls ব্যবহারিক গাইড",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO বই",
+          "ট্রেডিং ও আর্থিক বাজার বই",
+          "The Complete Beginner’s Guide to Calls গাইড",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "de": {
+        "category_phrase": "Trading und Finanzmärkte",
+        "long_tail_queries": [
+          "wie funktioniert The Complete Beginner’s Guide to Calls",
+          "praktischer Leitfaden zu The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO Buch",
+          "Trading und Finanzmärkte Buch",
+          "The Complete Beginner’s Guide to Calls Leitfaden",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "en": {
+        "category_phrase": "trading and financial markets",
+        "long_tail_queries": [
+          "how The Complete Beginner’s Guide to Calls works",
+          "practical guide to The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO by Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO book",
+          "trading and financial markets book",
+          "The Complete Beginner’s Guide to Calls guide",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "es": {
+        "category_phrase": "trading y mercados financieros",
+        "long_tail_queries": [
+          "cómo funciona The Complete Beginner’s Guide to Calls",
+          "guía práctica de The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO libro",
+          "libro de trading y mercados financieros",
+          "guía de The Complete Beginner’s Guide to Calls",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "fa": {
+        "category_phrase": "معامله‌گری و بازارهای مالی",
+        "long_tail_queries": [
+          "The Complete Beginner’s Guide to Calls چیست",
+          "راهنما کاربردی The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO فرامرز کوثری"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO کتاب",
+          "کتاب معامله‌گری و بازارهای مالی",
+          "راهنما The Complete Beginner’s Guide to Calls",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "fil": {
+        "category_phrase": "trading at financial markets",
+        "long_tail_queries": [
+          "paano gumagana ang The Complete Beginner’s Guide to Calls",
+          "praktikal na gabay sa The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO aklat",
+          "aklat tungkol sa trading at financial markets",
+          "gabay sa The Complete Beginner’s Guide to Calls",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "fr": {
+        "category_phrase": "trading et marchés financiers",
+        "long_tail_queries": [
+          "comment fonctionne The Complete Beginner’s Guide to Calls",
+          "guide pratique de The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO livre",
+          "livre sur trading et marchés financiers",
+          "guide The Complete Beginner’s Guide to Calls",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "id": {
+        "category_phrase": "trading dan pasar keuangan",
+        "long_tail_queries": [
+          "cara kerja The Complete Beginner’s Guide to Calls",
+          "panduan praktis The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO buku",
+          "buku trading dan pasar keuangan",
+          "panduan The Complete Beginner’s Guide to Calls",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "pt-BR": {
+        "category_phrase": "trading e mercados financeiros",
+        "long_tail_queries": [
+          "como funciona The Complete Beginner’s Guide to Calls",
+          "guia prático de The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO livro",
+          "livro sobre trading e mercados financeiros",
+          "guia de The Complete Beginner’s Guide to Calls",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "ro": {
+        "category_phrase": "trading și piețe financiare",
+        "long_tail_queries": [
+          "cum funcționează The Complete Beginner’s Guide to Calls",
+          "ghid practic pentru The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO carte",
+          "carte despre trading și piețe financiare",
+          "ghid The Complete Beginner’s Guide to Calls",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "ru": {
+        "category_phrase": "трейдинг и финансовые рынки",
+        "long_tail_queries": [
+          "как работает The Complete Beginner’s Guide to Calls",
+          "практическое руководство по The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO книга",
+          "книга о трейдинг и финансовые рынки",
+          "руководство по The Complete Beginner’s Guide to Calls",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "th": {
+        "category_phrase": "การเทรดและตลาดการเงิน",
+        "long_tail_queries": [
+          "The Complete Beginner’s Guide to Calls ทำงานอย่างไร",
+          "คู่มือ The Complete Beginner’s Guide to Calls แบบปฏิบัติ",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO หนังสือ",
+          "หนังสือ การเทรดและตลาดการเงิน",
+          "คู่มือ The Complete Beginner’s Guide to Calls",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "tr": {
+        "category_phrase": "trading ve finansal piyasalar",
+        "long_tail_queries": [
+          "The Complete Beginner’s Guide to Calls nasıl çalışır",
+          "The Complete Beginner’s Guide to Calls için uygulamalı rehberi",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO kitap",
+          "trading ve finansal piyasalar kitap",
+          "The Complete Beginner’s Guide to Calls rehberi",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      },
+      "vi": {
+        "category_phrase": "giao dịch và thị trường tài chính",
+        "long_tail_queries": [
+          "The Complete Beginner’s Guide to Calls hoạt động như thế nào",
+          "hướng dẫn thực hành The Complete Beginner’s Guide to Calls",
+          "OPTIONS TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "OPTIONS TRADING FROM ZERO",
+        "secondary_queries": [
+          "OPTIONS TRADING FROM ZERO sách",
+          "sách về giao dịch và thị trường tài chính",
+          "hướng dẫn The Complete Beginner’s Guide to Calls",
+          "The Complete Beginner’s Guide to Calls",
+          "Option Chains",
+          "Trading Strategies",
+          "the Greeks",
+          "and Risk Management"
+        ]
+      }
+    },
+    "long_tail_queries": [
+      "OPTIONS TRADING FROM ZERO by Faramarz Kowsari",
+      "practical guide to The Complete Beginner’s Guide to Calls",
+      "how The Complete Beginner’s Guide to Calls works",
+      "The Complete Beginner’s Guide to Calls Option Chains"
+    ],
+    "primary_query": "OPTIONS TRADING FROM ZERO",
+    "related_slugs": [
+      "nifty-50-options-trading",
+      "0dte-options",
+      "mastering-renko-trading",
+      "the-1-minute-and-5-minute-scalping-playbook",
+      "candlestick-patterns-from-zero"
+    ],
+    "secondary_queries": [
+      "OPTIONS TRADING FROM ZERO book",
+      "The Complete Beginner’s Guide to Calls, Puts, Option Chains, Trading Strategies, the Greeks, and Risk Management",
+      "Trading",
+      "The Complete Beginner’s Guide to Calls",
+      "Option Chains",
+      "Trading Strategies",
+      "the Greeks",
+      "and Risk Management",
+      "The Complete Beginner’s Guide to Calls guide"
     ]
   },
   "order-blocks-trading": {
