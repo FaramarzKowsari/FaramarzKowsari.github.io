@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (168)
+## Books (169)
 
 ### Depremde Hayatta Kalma
 
@@ -3434,6 +3434,55 @@ What readers learn:
 - Keep position sizing, event risk, liquidity risk, volatility risk and time-decay risk independent from confidence in any single print.
 
 Audience: For serious retail and independent traders who already understand basic market concepts and want a disciplined, technically careful way to interpret options transaction flow. It is especially useful for traders who use unusual-options-activity scanners, sweep and block alerts, premium-flow dashboards or 0DTE flow and want to understand what those signals can—and cannot—support before turning them into a positioning hypothesis.
+
+### OPTIONS TRADING FROM ZERO
+
+- Canonical page: https://faramarzkowsari.github.io/books/options-trading-from-zero/
+- Language: English
+- Category: Trading
+- Subtitle: The Complete Beginner’s Guide to Calls, Puts, Option Chains, Trading Strategies, the Greeks, and Risk Management
+- Google Books: https://play.google.com/store/books/details?id=d-khEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=d-khEgAAQBAJ&hl=en
+
+OPTIONS TRADING FROM ZERO is a structured beginner-to-intermediate guide that teaches options from the contract upward rather than from strategy names downward. The book begins with stocks, ETFs, calls, puts, rights and obligations, then builds the four basic option positions carefully so a new trader can distinguish buying from writing, directional exposure from contractual obligation, and limited-loss structures from positions that can carry much larger risk. Contract specifications, multipliers, premium, moneyness, intrinsic and extrinsic value, breakeven, expiration, exercise, assignment, settlement, dividends, early assignment and pin risk are treated as operational facts that must be understood before a strategy is placed.
+
+The next stage turns the options chain into a readable decision tool. The book explains how equity, ETF and index options differ, why broker permissions and collateral matter, and how to interpret strike, expiry, bid, ask, last price, volume, open interest and implied volatility without confusing displayed information with an executable trade. Liquidity, spread width, order type, hidden friction and strike/expiration selection are integrated into the same workflow. The emphasis is practical: a theoretical payoff is not enough if the contract is illiquid, the order cannot fill near the assumed price, or the trader does not understand the settlement and assignment rules attached to that product.
+
+A full section develops the pricing logic behind option premiums. Historical volatility, implied volatility, event premiums, delta, gamma, theta, vega, rho, skew, term structure and volatility crush are introduced as changing risk sensitivities rather than fixed predictions. The reader learns why a profitable directional forecast can still produce a disappointing option result when time decay, volatility repricing, strike selection or entry cost works against the position. The Greeks are therefore used as a language for exposure and stress awareness, not as a shortcut that removes uncertainty.
+
+The strategy chapters move from single-leg trades into stock-option combinations and multi-leg structures. Long calls are compared with owning shares, long puts with shorting shares, and protective puts, collars, covered calls and cash-secured puts are evaluated by their actual payoff, capital commitment and assignment consequences. Debit spreads, credit spreads, straddles, strangles, calendars and iron condors are introduced only after the reader can decompose them into simpler legs. The book repeatedly returns to one decision rule: choose a structure because it fits the thesis, volatility view, time horizon, liquidity and risk budget, not because its name sounds sophisticated.
+
+The paper-trading workflow turns those concepts into a complete process. Readers learn to write a thesis and an explicit no-trade rule, select the contract, place the order, confirm the fill, monitor the position, and decide whether to close, adjust or roll while recognizing that every adjustment changes the original exposure. Earnings, expiration and assignment are handled through a dedicated playbook. Position sizing and loss budgeting then move risk control from the individual trade to the account level, while costs, psychology, trading errors and legal boundaries are treated as part of the same execution discipline.
+
+The final section uses realistic case studies, rejected trades and a 30-day paper-trading curriculum to convert knowledge into repeatable practice. A glossary, paper-trade worksheet and three extended worked cases support independent review. The manuscript makes its educational boundary explicit: examples are hypothetical unless sourced, market rules and broker conditions can change, and live trading decisions require verification of the actual contract, quote, permissions and current regulatory or brokerage terms. The result is a beginner-friendly options book that does not stop at calls and puts; it connects contract mechanics, option-chain reading, Greeks, strategy construction, execution and risk management into one coherent learning path.
+
+Key topics: Options trading for beginners; Calls and puts; Option contracts; Rights and obligations; Long calls; Long puts; Short calls; Short puts; Stocks and ETFs; Option contract specifications; Contract multiplier; Option premium; Moneyness; Intrinsic value; Extrinsic value; Breakeven; Expiration; Exercise; Assignment; Settlement; Early assignment; Pin risk; Equity options; ETF options; Index options; Broker permissions; Collateral and margin; Option chain analysis; Strike selection; Expiration selection; Bid-ask spread; Volume and open interest; Liquidity; Order types; Slippage and trading friction; Historical volatility; Implied volatility; Event premium; Delta; Gamma; Theta; Vega; Rho; Volatility skew; Term structure; Volatility crush; Protective puts; Collars; Covered calls; Cash-secured puts; Wheel strategy; Bull call spreads; Bear put spreads; Bull put spreads; Bear call spreads; Straddles; Strangles; Calendar spreads; Iron condors; Multi-leg options; Trade thesis; No-trade rules; Order execution; Rolling options; Earnings risk; Expiration management; Position sizing; Loss budgeting; Trading psychology; Options risk management; Case studies; Paper trading; 30-day options curriculum
+
+What readers learn:
+- Understand what a call and a put actually represent, including the rights of the buyer and the obligations of the writer.
+- Distinguish the four basic option positions and identify which structures have limited loss, substantial loss potential or assignment obligations.
+- Read contract specifications correctly, including strike, expiration, multiplier, settlement and product-specific rules before placing a trade.
+- Break option premium into intrinsic and extrinsic value and calculate breakeven instead of relying on visual payoff intuition alone.
+- Understand closing, exercising, assignment and settlement as different actions with different operational consequences.
+- Recognize early-assignment, dividend and expiration risks, including pin risk near the strike.
+- Read an option chain field by field and separate last price, bid, ask, volume, open interest and implied volatility.
+- Evaluate liquidity using spread quality and executable prices rather than assuming the displayed last trade is available.
+- Choose strikes and expirations by thesis, time horizon, liquidity, premium and risk rather than by arbitrary distance from spot.
+- Understand why option premiums change and how volatility, time, moneyness and underlying movement interact.
+- Use delta, gamma, theta, vega and rho as dynamic exposure measures rather than deterministic forecasts.
+- Recognize volatility skew, term structure and post-event volatility crush when evaluating a trade.
+- Compare long calls with shares and long puts with short stock so that leverage is not confused with superior economics.
+- Use protective puts, collars, covered calls and cash-secured puts with a clear understanding of capital use, capped outcomes and assignment.
+- Build debit and credit spreads from simpler legs and understand the resulting maximum gain, maximum loss and breakeven structure.
+- Recognize straddles, strangles, calendars and iron condors and know which market assumptions make each structure more or less appropriate.
+- Write a trade thesis and a no-trade rule before entry so the strategy is chosen from the market view rather than fitted to it afterward.
+- Plan order entry, fill confirmation, adjustment, rolling and exit as part of the trade instead of treating execution as an afterthought.
+- Manage earnings, expiration and assignment through predefined operational rules rather than improvisation.
+- Size positions from a loss budget and account-level risk limit instead of from premium affordability alone.
+- Separate a good decision process from a lucky outcome by recording costs, errors, rejected trades and behavioral mistakes.
+- Complete a 30-day paper-trading curriculum that turns the book into a repeatable options-learning process before risking real capital.
+
+Audience: For complete beginners, self-directed investors, stock and ETF traders moving into options, paper traders, retail derivatives learners, and readers who want one coherent path from calls and puts to option-chain reading, Greeks, common strategies, execution, assignment and risk management without assuming prior options experience.
 
 ### Order Blocks Trading
 
