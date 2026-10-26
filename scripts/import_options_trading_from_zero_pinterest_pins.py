@@ -145,25 +145,65 @@ def choose_image(url: str) -> str:
             return candidate
     raise RuntimeError(f"No live Pinterest CDN variant found for {url}")
 
+META_IMAGE_RE = re.compile(
+    r'<meta[^>]+(?:property|name)=["\\\'](?:og:image|twitter:image)["\\\'][^>]+content=["\\\']([^"\\\']+)["\\\']',
+    re.I,
+)
+META_IMAGE_RE_REVERSED = re.compile(
+    r'<meta[^>]+content=["\\\']([^"\\\']+)["\\\'][^>]+(?:property|name)=["\\\'](?:og:image|twitter:image)["\\\']',
+    re.I,
+)
+
 def direct_pin_candidates(pin_id: str) -> list[str]:
     url = f"https://www.pinterest.com/pin/{pin_id}/"
     raw = request_bytes(url, accept="text/html,application/xhtml+xml,*/*").decode("utf-8", "ignore")
-    return pinimg_urls(raw)
+    decoded = html.unescape(raw)
+
+    preferred: list[str] = []
+    for pattern in (META_IMAGE_RE, META_IMAGE_RE_REVERSED):
+        for match in pattern.findall(decoded):
+            value = html.unescape(match).replace("\\/","/")
+            if value.startswith("https://i.pinimg.com/") and value not in preferred:
+                preferred.append(value)
+
+    for value in pinimg_urls(decoded):
+        if value not in preferred:
+            preferred.append(value)
+    return preferred
 
 def resolve_pin(pin_id: str, items: list[dict[str, str]]) -> str:
+    # Prefer an exact RSS item link if Pinterest exposes the pin ID there.
+    for item in items:
+        link = str(item.get("link") or "")
+        if pin_id in link:
+            combined = "\n".join(str(v or "") for v in item.values())
+            urls = pinimg_urls(combined)
+            for url in urls:
+                try:
+                    return choose_image(url)
+                except Exception:
+                    continue
+
+    # The individual pin page exposes the canonical visual via og:image/twitter:image.
+    try:
+        urls = direct_pin_candidates(pin_id)
+        for url in urls:
+            try:
+                return choose_image(url)
+            except Exception:
+                continue
+    except Exception as exc:
+        print(f"Direct pin fallback failed for {pin_id}: {exc}")
+
+    # Last resort: search the full RSS item content for the pin ID.
     for item in items:
         combined = "\n".join(str(v or "") for v in item.values())
         if pin_id in combined:
-            urls = pinimg_urls(combined)
-            if urls:
-                return choose_image(urls[0])
-
-    try:
-        urls = direct_pin_candidates(pin_id)
-        if urls:
-            return choose_image(urls[0])
-    except Exception as exc:
-        print(f"Direct pin fallback failed for {pin_id}: {exc}")
+            for url in pinimg_urls(combined):
+                try:
+                    return choose_image(url)
+                except Exception:
+                    continue
 
     raise RuntimeError(f"Could not resolve Pinterest image for pin {pin_id}")
 
