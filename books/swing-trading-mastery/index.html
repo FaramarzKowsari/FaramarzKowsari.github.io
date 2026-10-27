@@ -88,64 +88,85 @@
 
   <!-- pinterest-swing-gallery:start -->
   <style>
-    .stm-pin-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 254px), 1fr)); align-items: start; gap: 1.25rem; margin: 1.5rem 0; }
-    .stm-pin-item { min-width: 0; margin: 0; padding: 1rem .65rem; border: 1px solid rgba(128, 145, 166, .35); border-radius: 16px; text-align: center; }
-    .stm-pin-embed { display: flex; align-items: flex-start; justify-content: center; min-height: 260px; max-width: 100%; overflow: hidden; }
-    .stm-pin-item figcaption { margin-top: .85rem; font-size: .925rem; line-height: 1.6; }
-    .stm-pin-item figcaption a { text-decoration: underline; }
-    @media (max-width: 540px) { .stm-pin-gallery { grid-template-columns: 1fr; gap: 1rem; } }
+    .stm-gallery { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,260px),1fr)); gap: 1.25rem; align-items: start; margin: 1.25rem 0; }
+    .stm-photo { margin: 0; padding: .65rem; border-radius: 16px; border: 1px solid rgba(128,145,166,.24); display: flex; justify-content: center; }
+    .stm-photo-frame { position: relative; isolation: isolate; width: min(100%,236px); aspect-ratio: 2 / 3; overflow: hidden; border-radius: 12px; background: #e8edf3; }
+    .stm-pin-source { position: absolute; top: 0; left: 0; width: 236px; min-height: 510px; pointer-events: none; z-index: 0; overflow: hidden; }
+    .stm-pin-source a { pointer-events: none; }
+    .stm-photo-booklink { position: absolute; inset: 0; z-index: 10; display: block; cursor: pointer; background: transparent; }
+    .stm-photo-booklink:focus-visible { outline: 4px solid #1968cf; outline-offset: -4px; }
+    @media (max-width:540px) { .stm-gallery { grid-template-columns: repeat(auto-fit,minmax(min(100%,236px),1fr)); gap: 1rem; } }
   </style>
-  <section class="section" id="swing-trading-pinterest-infographics" aria-labelledby="stm-pinterest-title">
-    <h2 id="stm-pinterest-title">SWING TRADING MASTERY: 11 Pinterest Trading Infographics</h2>
-    <p>Explore eleven illustrated Pinterest posts associated with <em>SWING TRADING MASTERY</em> by Faramarz Kowsari and its <a href="https://medium.com/@faramarz.kowsari/swing-trading-mastery-the-complete-guide-to-price-action-profitable-trading-decisions-risk-131b32f9b6f9" target="_blank" rel="noopener noreferrer">in-depth Medium article</a>. The visual collection accompanies the book's coverage of swing trading strategies, price action, market structure, risk management, backtesting, trading discipline, AI-assisted research, and systematic execution.</p>
-    <p>Each Pin is embedded directly from Pinterest rather than copied or self-hosted. If an embed is blocked by privacy settings or an extension, select the link below it to view the original Pinterest post.</p>
-    <div class="stm-pin-gallery">
-      <figure class="stm-pin-item">
-        <div class="stm-pin-embed"><a data-pin-do="embedPin" href="https://www.pinterest.com/pin/729512839687779734/">SWING TRADING MASTERY — Pinterest infographic 01</a></div>
-        <figcaption><strong>Visual 01</strong> · <a href="https://www.pinterest.com/pin/729512839687779734/" target="_blank" rel="noopener noreferrer" aria-label="Open SWING TRADING MASTERY Pinterest infographic 01">Open this Pin on Pinterest</a></figcaption>
+  <section class="section" id="swing-trading-pinterest-infographics" aria-labelledby="stm-gallery-title">
+    <h2 id="stm-gallery-title">SWING TRADING MASTERY — Illustrated Book Gallery</h2>
+    <div class="stm-gallery">
+      <figure class="stm-photo">
+        <div class="stm-photo-frame">
+          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779734/">Swing Trading Mastery infographic 1</a></div>
+          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 1 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
+        </div>
       </figure>
-      <figure class="stm-pin-item">
-        <div class="stm-pin-embed"><a data-pin-do="embedPin" href="https://www.pinterest.com/pin/729512839687779741/">SWING TRADING MASTERY — Pinterest infographic 02</a></div>
-        <figcaption><strong>Visual 02</strong> · <a href="https://www.pinterest.com/pin/729512839687779741/" target="_blank" rel="noopener noreferrer" aria-label="Open SWING TRADING MASTERY Pinterest infographic 02">Open this Pin on Pinterest</a></figcaption>
+      <figure class="stm-photo">
+        <div class="stm-photo-frame">
+          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779741/">Swing Trading Mastery infographic 2</a></div>
+          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 2 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
+        </div>
       </figure>
-      <figure class="stm-pin-item">
-        <div class="stm-pin-embed"><a data-pin-do="embedPin" href="https://www.pinterest.com/pin/729512839687779744/">SWING TRADING MASTERY — Pinterest infographic 03</a></div>
-        <figcaption><strong>Visual 03</strong> · <a href="https://www.pinterest.com/pin/729512839687779744/" target="_blank" rel="noopener noreferrer" aria-label="Open SWING TRADING MASTERY Pinterest infographic 03">Open this Pin on Pinterest</a></figcaption>
+      <figure class="stm-photo">
+        <div class="stm-photo-frame">
+          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779744/">Swing Trading Mastery infographic 3</a></div>
+          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 3 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
+        </div>
       </figure>
-      <figure class="stm-pin-item">
-        <div class="stm-pin-embed"><a data-pin-do="embedPin" href="https://www.pinterest.com/pin/729512839687779747/">SWING TRADING MASTERY — Pinterest infographic 04</a></div>
-        <figcaption><strong>Visual 04</strong> · <a href="https://www.pinterest.com/pin/729512839687779747/" target="_blank" rel="noopener noreferrer" aria-label="Open SWING TRADING MASTERY Pinterest infographic 04">Open this Pin on Pinterest</a></figcaption>
+      <figure class="stm-photo">
+        <div class="stm-photo-frame">
+          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779747/">Swing Trading Mastery infographic 4</a></div>
+          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 4 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
+        </div>
       </figure>
-      <figure class="stm-pin-item">
-        <div class="stm-pin-embed"><a data-pin-do="embedPin" href="https://www.pinterest.com/pin/729512839687779748/">SWING TRADING MASTERY — Pinterest infographic 05</a></div>
-        <figcaption><strong>Visual 05</strong> · <a href="https://www.pinterest.com/pin/729512839687779748/" target="_blank" rel="noopener noreferrer" aria-label="Open SWING TRADING MASTERY Pinterest infographic 05">Open this Pin on Pinterest</a></figcaption>
+      <figure class="stm-photo">
+        <div class="stm-photo-frame">
+          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779748/">Swing Trading Mastery infographic 5</a></div>
+          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 5 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
+        </div>
       </figure>
-      <figure class="stm-pin-item">
-        <div class="stm-pin-embed"><a data-pin-do="embedPin" href="https://www.pinterest.com/pin/729512839687779751/">SWING TRADING MASTERY — Pinterest infographic 06</a></div>
-        <figcaption><strong>Visual 06</strong> · <a href="https://www.pinterest.com/pin/729512839687779751/" target="_blank" rel="noopener noreferrer" aria-label="Open SWING TRADING MASTERY Pinterest infographic 06">Open this Pin on Pinterest</a></figcaption>
+      <figure class="stm-photo">
+        <div class="stm-photo-frame">
+          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779751/">Swing Trading Mastery infographic 6</a></div>
+          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 6 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
+        </div>
       </figure>
-      <figure class="stm-pin-item">
-        <div class="stm-pin-embed"><a data-pin-do="embedPin" href="https://www.pinterest.com/pin/729512839687779753/">SWING TRADING MASTERY — Pinterest infographic 07</a></div>
-        <figcaption><strong>Visual 07</strong> · <a href="https://www.pinterest.com/pin/729512839687779753/" target="_blank" rel="noopener noreferrer" aria-label="Open SWING TRADING MASTERY Pinterest infographic 07">Open this Pin on Pinterest</a></figcaption>
+      <figure class="stm-photo">
+        <div class="stm-photo-frame">
+          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779753/">Swing Trading Mastery infographic 7</a></div>
+          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 7 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
+        </div>
       </figure>
-      <figure class="stm-pin-item">
-        <div class="stm-pin-embed"><a data-pin-do="embedPin" href="https://www.pinterest.com/pin/729512839687779756/">SWING TRADING MASTERY — Pinterest infographic 08</a></div>
-        <figcaption><strong>Visual 08</strong> · <a href="https://www.pinterest.com/pin/729512839687779756/" target="_blank" rel="noopener noreferrer" aria-label="Open SWING TRADING MASTERY Pinterest infographic 08">Open this Pin on Pinterest</a></figcaption>
+      <figure class="stm-photo">
+        <div class="stm-photo-frame">
+          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779756/">Swing Trading Mastery infographic 8</a></div>
+          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 8 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
+        </div>
       </figure>
-      <figure class="stm-pin-item">
-        <div class="stm-pin-embed"><a data-pin-do="embedPin" href="https://www.pinterest.com/pin/729512839687779758/">SWING TRADING MASTERY — Pinterest infographic 09</a></div>
-        <figcaption><strong>Visual 09</strong> · <a href="https://www.pinterest.com/pin/729512839687779758/" target="_blank" rel="noopener noreferrer" aria-label="Open SWING TRADING MASTERY Pinterest infographic 09">Open this Pin on Pinterest</a></figcaption>
+      <figure class="stm-photo">
+        <div class="stm-photo-frame">
+          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779758/">Swing Trading Mastery infographic 9</a></div>
+          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 9 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
+        </div>
       </figure>
-      <figure class="stm-pin-item">
-        <div class="stm-pin-embed"><a data-pin-do="embedPin" href="https://www.pinterest.com/pin/729512839687779761/">SWING TRADING MASTERY — Pinterest infographic 10</a></div>
-        <figcaption><strong>Visual 10</strong> · <a href="https://www.pinterest.com/pin/729512839687779761/" target="_blank" rel="noopener noreferrer" aria-label="Open SWING TRADING MASTERY Pinterest infographic 10">Open this Pin on Pinterest</a></figcaption>
+      <figure class="stm-photo">
+        <div class="stm-photo-frame">
+          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779761/">Swing Trading Mastery infographic 10</a></div>
+          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 10 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
+        </div>
       </figure>
-      <figure class="stm-pin-item">
-        <div class="stm-pin-embed"><a data-pin-do="embedPin" href="https://www.pinterest.com/pin/729512839687779767/">SWING TRADING MASTERY — Pinterest infographic 11</a></div>
-        <figcaption><strong>Visual 11</strong> · <a href="https://www.pinterest.com/pin/729512839687779767/" target="_blank" rel="noopener noreferrer" aria-label="Open SWING TRADING MASTERY Pinterest infographic 11">Open this Pin on Pinterest</a></figcaption>
+      <figure class="stm-photo">
+        <div class="stm-photo-frame">
+          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779767/">Swing Trading Mastery infographic 11</a></div>
+          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 11 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
+        </div>
       </figure>
     </div>
-    <p>To study the complete 42-chapter trading framework, visit <a href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer"><strong>SWING TRADING MASTERY by Faramarz Kowsari — read or buy on Google Books</strong></a>. You can also <a href="https://play.google.com/books/reader?id=Vl0iEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">explore the free Google Books preview</a> where available.</p>
   </section>
   <!-- pinterest-swing-gallery:end -->
 
