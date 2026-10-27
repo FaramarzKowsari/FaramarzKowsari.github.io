@@ -88,86 +88,130 @@
 
   <!-- pinterest-swing-gallery:start -->
   <style>
-    .stm-gallery { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,260px),1fr)); gap: 1.25rem; align-items: start; margin: 1.25rem 0; }
-    .stm-photo { margin: 0; padding: .65rem; border-radius: 16px; border: 1px solid rgba(128,145,166,.24); display: flex; justify-content: center; }
-    .stm-photo-frame { position: relative; isolation: isolate; width: min(100%,236px); aspect-ratio: 2 / 3; overflow: hidden; border-radius: 12px; background: #e8edf3; }
-    .stm-pin-source { position: absolute; top: 0; left: 0; width: 236px; min-height: 510px; pointer-events: none; z-index: 0; overflow: hidden; }
-    .stm-pin-source a { pointer-events: none; }
-    .stm-photo-booklink { position: absolute; inset: 0; z-index: 10; display: block; cursor: pointer; background: transparent; }
-    .stm-photo-booklink:focus-visible { outline: 4px solid #1968cf; outline-offset: -4px; }
-    @media (max-width:540px) { .stm-gallery { grid-template-columns: repeat(auto-fit,minmax(min(100%,236px),1fr)); gap: 1rem; } }
+    .stm-gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr)); gap:1.25rem; align-items:start; margin:1.25rem 0; }
+    .stm-photo { margin:0; padding:.65rem; border-radius:16px; border:1px solid rgba(128,145,166,.24); display:flex; justify-content:center; }
+    .stm-photo-frame { position:relative; isolation:isolate; width:min(100%,236px); aspect-ratio:2/3; overflow:hidden; border-radius:12px; background:#0a1931; }
+    .stm-pin-source { position:absolute; top:0; left:0; width:236px; min-height:510px; overflow:hidden; z-index:0; pointer-events:none; }
+    .stm-pin-source, .stm-pin-source * { pointer-events:none !important; }
+    .stm-pin-mask { position:absolute; z-index:4; top:0; right:0; width:43%; height:15%; pointer-events:none; background:linear-gradient(110deg,#081b35 5%,#07162b 100%); }
+    .stm-plain-image { display:none; position:absolute; inset:0; z-index:8; width:100%; height:100%; object-fit:contain; background:#0a1931; }
+    .stm-photo-frame.stm-loaded .stm-plain-image { display:block; }
+    .stm-photo-frame.stm-loaded .stm-pin-source, .stm-photo-frame.stm-loaded .stm-pin-mask { display:none; }
+    .stm-photo-booklink { position:absolute; inset:0; z-index:10; display:block; background:transparent; cursor:pointer; }
+    .stm-photo-booklink:focus-visible { outline:4px solid #1968cf; outline-offset:-4px; }
+    @media(max-width:540px) { .stm-gallery { grid-template-columns:repeat(auto-fit,minmax(min(100%,236px),1fr)); gap:1rem; } }
   </style>
   <section class="section" id="swing-trading-pinterest-infographics" aria-labelledby="stm-gallery-title">
     <h2 id="stm-gallery-title">SWING TRADING MASTERY — Illustrated Book Gallery</h2>
     <div class="stm-gallery">
-      <figure class="stm-photo">
-        <div class="stm-photo-frame">
-          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779734/">Swing Trading Mastery infographic 1</a></div>
-          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 1 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
-        </div>
-      </figure>
-      <figure class="stm-photo">
-        <div class="stm-photo-frame">
-          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779741/">Swing Trading Mastery infographic 2</a></div>
-          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 2 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
-        </div>
-      </figure>
-      <figure class="stm-photo">
-        <div class="stm-photo-frame">
-          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779744/">Swing Trading Mastery infographic 3</a></div>
-          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 3 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
-        </div>
-      </figure>
-      <figure class="stm-photo">
-        <div class="stm-photo-frame">
-          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779747/">Swing Trading Mastery infographic 4</a></div>
-          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 4 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
-        </div>
-      </figure>
-      <figure class="stm-photo">
-        <div class="stm-photo-frame">
-          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779748/">Swing Trading Mastery infographic 5</a></div>
-          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 5 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
-        </div>
-      </figure>
-      <figure class="stm-photo">
-        <div class="stm-photo-frame">
-          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779751/">Swing Trading Mastery infographic 6</a></div>
-          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 6 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
-        </div>
-      </figure>
-      <figure class="stm-photo">
-        <div class="stm-photo-frame">
-          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779753/">Swing Trading Mastery infographic 7</a></div>
-          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 7 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
-        </div>
-      </figure>
-      <figure class="stm-photo">
-        <div class="stm-photo-frame">
-          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779756/">Swing Trading Mastery infographic 8</a></div>
-          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 8 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
-        </div>
-      </figure>
-      <figure class="stm-photo">
-        <div class="stm-photo-frame">
-          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779758/">Swing Trading Mastery infographic 9</a></div>
-          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 9 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
-        </div>
-      </figure>
-      <figure class="stm-photo">
-        <div class="stm-photo-frame">
-          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779761/">Swing Trading Mastery infographic 10</a></div>
-          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 10 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
-        </div>
-      </figure>
-      <figure class="stm-photo">
-        <div class="stm-photo-frame">
-          <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779767/">Swing Trading Mastery infographic 11</a></div>
-          <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="SWING TRADING MASTERY by Faramarz Kowsari — buy or preview the book on Google Books (visual 11 of 11)" title="View SWING TRADING MASTERY on Google Books"></a>
-        </div>
-      </figure>
+      <figure class="stm-photo" data-stm-pin="729512839687779734"><div class="stm-photo-frame">
+        <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779734/">Infographic 1</a></div>
+        <span class="stm-pin-mask" aria-hidden="true"></span>
+        <img class="stm-plain-image" alt="Book cover of SWING TRADING MASTERY by Faramarz Kowsari" loading="lazy" decoding="async" data-pin-nopin="true">
+        <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View SWING TRADING MASTERY on Google Books, visual 1 of 11" title="SWING TRADING MASTERY — Google Books"></a>
+      </div></figure>
+      <figure class="stm-photo" data-stm-pin="729512839687779741"><div class="stm-photo-frame">
+        <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779741/">Infographic 2</a></div>
+        <span class="stm-pin-mask" aria-hidden="true"></span>
+        <img class="stm-plain-image" alt="Swing Trading Mastery: price action, market structure, risk and systematic execution" loading="lazy" decoding="async" data-pin-nopin="true">
+        <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View SWING TRADING MASTERY on Google Books, visual 2 of 11" title="SWING TRADING MASTERY — Google Books"></a>
+      </div></figure>
+      <figure class="stm-photo" data-stm-pin="729512839687779744"><div class="stm-photo-frame">
+        <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779744/">Infographic 3</a></div>
+        <span class="stm-pin-mask" aria-hidden="true"></span>
+        <img class="stm-plain-image" alt="Seven repeatable swing setups including breakouts, pullbacks and reversals" loading="lazy" decoding="async" data-pin-nopin="true">
+        <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View SWING TRADING MASTERY on Google Books, visual 3 of 11" title="SWING TRADING MASTERY — Google Books"></a>
+      </div></figure>
+      <figure class="stm-photo" data-stm-pin="729512839687779747"><div class="stm-photo-frame">
+        <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779747/">Infographic 4</a></div>
+        <span class="stm-pin-mask" aria-hidden="true"></span>
+        <img class="stm-plain-image" alt="Risk-first trading: stops, position sizing, portfolio heat and gap risk" loading="lazy" decoding="async" data-pin-nopin="true">
+        <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View SWING TRADING MASTERY on Google Books, visual 4 of 11" title="SWING TRADING MASTERY — Google Books"></a>
+      </div></figure>
+      <figure class="stm-photo" data-stm-pin="729512839687779748"><div class="stm-photo-frame">
+        <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779748/">Infographic 5</a></div>
+        <span class="stm-pin-mask" aria-hidden="true"></span>
+        <img class="stm-plain-image" alt="Price action and market structure: trend, support, resistance, ATR and volume" loading="lazy" decoding="async" data-pin-nopin="true">
+        <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View SWING TRADING MASTERY on Google Books, visual 5 of 11" title="SWING TRADING MASTERY — Google Books"></a>
+      </div></figure>
+      <figure class="stm-photo" data-stm-pin="729512839687779751"><div class="stm-photo-frame">
+        <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779751/">Infographic 6</a></div>
+        <span class="stm-pin-mask" aria-hidden="true"></span>
+        <img class="stm-plain-image" alt="Honest backtesting: slippage, look-ahead bias, walk-forward validation" loading="lazy" decoding="async" data-pin-nopin="true">
+        <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View SWING TRADING MASTERY on Google Books, visual 6 of 11" title="SWING TRADING MASTERY — Google Books"></a>
+      </div></figure>
+      <figure class="stm-photo" data-stm-pin="729512839687779753"><div class="stm-photo-frame">
+        <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779753/">Infographic 7</a></div>
+        <span class="stm-pin-mask" aria-hidden="true"></span>
+        <img class="stm-plain-image" alt="Six-step swing trading workflow: scan, filter, plan, size, execute, review" loading="lazy" decoding="async" data-pin-nopin="true">
+        <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View SWING TRADING MASTERY on Google Books, visual 7 of 11" title="SWING TRADING MASTERY — Google Books"></a>
+      </div></figure>
+      <figure class="stm-photo" data-stm-pin="729512839687779756"><div class="stm-photo-frame">
+        <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779756/">Infographic 8</a></div>
+        <span class="stm-pin-mask" aria-hidden="true"></span>
+        <img class="stm-plain-image" alt="Trading discipline with checklists, journaling and rule-based decisions" loading="lazy" decoding="async" data-pin-nopin="true">
+        <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View SWING TRADING MASTERY on Google Books, visual 8 of 11" title="SWING TRADING MASTERY — Google Books"></a>
+      </div></figure>
+      <figure class="stm-photo" data-stm-pin="729512839687779758"><div class="stm-photo-frame">
+        <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779758/">Infographic 9</a></div>
+        <span class="stm-pin-mask" aria-hidden="true"></span>
+        <img class="stm-plain-image" alt="AI-assisted swing trading with verified data and human approval" loading="lazy" decoding="async" data-pin-nopin="true">
+        <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View SWING TRADING MASTERY on Google Books, visual 9 of 11" title="SWING TRADING MASTERY — Google Books"></a>
+      </div></figure>
+      <figure class="stm-photo" data-stm-pin="729512839687779761"><div class="stm-photo-frame">
+        <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779761/">Infographic 10</a></div>
+        <span class="stm-pin-mask" aria-hidden="true"></span>
+        <img class="stm-plain-image" alt="Twelve-week swing trading practice plan and trading playbook" loading="lazy" decoding="async" data-pin-nopin="true">
+        <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View SWING TRADING MASTERY on Google Books, visual 10 of 11" title="SWING TRADING MASTERY — Google Books"></a>
+      </div></figure>
+      <figure class="stm-photo" data-stm-pin="729512839687779767"><div class="stm-photo-frame">
+        <div class="stm-pin-source" aria-hidden="true"><a data-pin-do="embedPin" tabindex="-1" href="https://www.pinterest.com/pin/729512839687779767/">Infographic 11</a></div>
+        <span class="stm-pin-mask" aria-hidden="true"></span>
+        <img class="stm-plain-image" alt="Why read SWING TRADING MASTERY: 42 chapters, seven setups and backtesting" loading="lazy" decoding="async" data-pin-nopin="true">
+        <a class="stm-photo-booklink" href="https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View SWING TRADING MASTERY on Google Books, visual 11 of 11" title="SWING TRADING MASTERY — Google Books"></a>
+      </div></figure>
     </div>
   </section>
+  <script>
+  /* Prefer direct Pinterest image CDN files without Pinterest controls.
+     No images are stored in GitHub; every click goes to Google Books. */
+  (function () {
+    var pinIds=["729512839687779734","729512839687779741","729512839687779744","729512839687779747","729512839687779748","729512839687779751","729512839687779753","729512839687779756","729512839687779758","729512839687779761","729512839687779767"];
+    var valid = /^https:\/\/i\.pinimg\.com\//i;
+    function applyPins(list) {
+      if (!Array.isArray(list)) return;
+      list.forEach(function(pin) {
+        var id=String(pin.id || pin.pin_id || "");
+        var node=document.querySelector('[data-stm-pin="'+id+'"] .stm-photo-frame');
+        if (!node || !pin.images) return;
+        var imgs=pin.images;
+        var candidate=imgs['736x'] || imgs['564x'] || imgs['600x'] || imgs['originals'] || imgs['orig'] || imgs['237x'];
+        var src=typeof candidate==='string'?candidate:(candidate && candidate.url);
+        if (typeof src!=='string' || !valid.test(src)) return;
+        var photo=node.querySelector('.stm-plain-image');
+        photo.onload=function(){node.classList.add('stm-loaded');};
+        photo.onerror=function(){node.classList.remove('stm-loaded');};
+        photo.src=src;
+      });
+    }
+    window.__stmPinterestImages=function(response){
+      var data=response && response.data;
+      var arr=Array.isArray(data)?data:(data && (data.pins || data.items));
+      applyPins(arr);
+    };
+    var api='https://widgets.pinterest.com/v3/pidgets/pins/info/?pin_ids='+pinIds.join(',');
+    var script=document.createElement('script');
+    script.async=true;
+    script.referrerPolicy='no-referrer';
+    script.src=api+'&callback=__stmPinterestImages';
+    document.head.appendChild(script);
+    if (window.fetch) {
+      fetch(api).then(function(resp){return resp.ok?resp.json():null;})
+        .then(function(data){if(data)window.__stmPinterestImages(data);})
+        .catch(function(){});
+    }
+  }());
+  </script>
   <!-- pinterest-swing-gallery:end -->
 
   <section class="section"><h2>About this book</h2>
