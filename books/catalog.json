@@ -9,7 +9,7 @@
   "canonical": "https://faramarzkowsari.github.io/books/",
   "text_index": "https://faramarzkowsari.github.io/books/all-books/",
   "sitemap": "https://faramarzkowsari.github.io/books/sitemap.xml",
-  "book_count": 169,
+  "book_count": 170,
   "books": [
     {
       "slug": "depremde-hayatta-kalma",
@@ -64437,6 +64437,453 @@
       "google_books_url": "https://play.google.com/store/books/details?id=mc78EQAAQBAJ",
       "preview_url": "https://play.google.com/books/reader?id=mc78EQAAQBAJ&hl=en",
       "cover_url": "https://books.google.com/books/content?id=mc78EQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "published_date": "2026",
+      "isbn": "",
+      "doi": ""
+    },
+    {
+      "slug": "swing-trading-mastery",
+      "title": "SWING TRADING MASTERY",
+      "subtitle": "A Practical Guide to Price Action, Market Structure, Trading Setups, Risk Management, Backtesting, and Systematic Execution",
+      "author": "Faramarz Kowsari",
+      "language": "English",
+      "category": "Trading",
+      "summary": "SWING TRADING MASTERY is a practical, evidence-conscious guide to building a swing-trading process that can survive beyond an attractive chart. It begins by treating swing trading as a decision discipline: define the instruments you can actually monitor, understand how orders reach the market, read price without hindsight distortion, and build a weekly and daily workflow that fits the trader’s time, data and risk constraints. Trend, swing structure, support and resistance, multiple-timeframe analysis, volatility, ATR, volume, market regimes, breadth and intermarket context are developed as complementary layers rather than isolated indicators.\n\nThe opportunity-selection section turns broad market scanning into a repeatable research process. Screeners, relative strength, sector leadership, candlestick evidence, moving averages, momentum, RSI, MACD, fundamentals, IPO and corporate-action considerations, earnings and catalysts are used to qualify candidates before a trade is planned. The emphasis is on context and falsifiability: a setup is useful only when the trader can state what would invalidate it, where the loss is controlled, and which market condition makes the idea plausible.\n\nSeven repeatable swing structures form the tactical center of the book: trend pullback and continuation; breakout, acceptance and retest; volatility contraction and expansion; base formation and reversal; range trading and mean reversion; post-event or earnings-gap continuation; and failed breakouts with short-side opportunities. Each setup is connected to location, volatility, execution, invalidation and trade management so that chart recognition does not become a substitute for a complete trading plan.\n\nRisk management is treated as the architecture that determines whether a strategy can remain usable over many trades. Dedicated chapters cover entry triggers, order choice, stop placement, adverse price movement, position sizing, profit targets, trailing exits, portfolio heat, correlation, concentration, overnight gaps, drawdowns and contingency rules. Expectancy and R-multiples are then used to separate the economics of a strategy from the emotional impact of individual winners and losers.\n\nThe testing section addresses one of the central problems in trading education: a visually convincing historical chart is not the same thing as a validated edge. Historical backtesting, realistic costs, out-of-sample testing, walk-forward validation, trade journals, robustness checks and system improvement are presented as ways to challenge a trading claim rather than decorate it. The book’s evidence note also distinguishes sourced historical OHLCV examples from original analytical illustrations and explicitly warns that the historical sample is educational evidence, not exchange-certified proof of strategy performance.\n\nThe final chapters adapt the framework across stocks and ETFs, forex and futures, and crypto, then address trading psychology, attention, decision hygiene, rules-based workflows and the careful use of tools and AI. A capstone converts the material into a complete swing-trading playbook and a 12-week practice plan. Appendices provide a one-page trade-planning record, operational strategy cards, a reproducible backtest specification, financial calculations, worked decision dossiers, research-replication guidance and source-audit notes. The result is a book about execution discipline as much as entries: scan, establish context, define risk, place the order, review the evidence, and improve only what the data can actually support.",
+      "seo_description": "A 418-page practical swing trading guide covering price action, market structure, seven repeatable setups, risk management, backtesting, walk-forward validation, psychology and systematic execution.",
+      "seo": {
+        "cluster": "trading-markets",
+        "cluster_label": "Trading & Financial Markets",
+        "entities": [
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis",
+          "Volatility and ATR",
+          "Volume and participation",
+          "Market regimes",
+          "Market breadth",
+          "Intermarket context",
+          "Swing-trading screeners",
+          "Relative strength",
+          "Sector leadership and rotation",
+          "Candlestick evidence",
+          "Moving averages",
+          "Momentum",
+          "RSI",
+          "MACD",
+          "Divergence"
+        ],
+        "localized": {
+          "ar": {
+            "category_phrase": "التداول والأسواق المالية",
+            "long_tail_queries": [
+              "ما هو Swing trading",
+              "دليل عملي عن Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY كتاب",
+              "كتاب عن التداول والأسواق المالية",
+              "دليل Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "bn": {
+            "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
+            "long_tail_queries": [
+              "Swing trading কীভাবে কাজ করে",
+              "Swing trading ব্যবহারিক গাইড",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY বই",
+              "ট্রেডিং ও আর্থিক বাজার বই",
+              "Swing trading গাইড",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "de": {
+            "category_phrase": "Trading und Finanzmärkte",
+            "long_tail_queries": [
+              "wie funktioniert Swing trading",
+              "praktischer Leitfaden zu Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY Buch",
+              "Trading und Finanzmärkte Buch",
+              "Swing trading Leitfaden",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "en": {
+            "category_phrase": "trading and financial markets",
+            "long_tail_queries": [
+              "how Swing trading works",
+              "practical guide to Swing trading",
+              "SWING TRADING MASTERY by Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY book",
+              "trading and financial markets book",
+              "Swing trading guide",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "es": {
+            "category_phrase": "trading y mercados financieros",
+            "long_tail_queries": [
+              "cómo funciona Swing trading",
+              "guía práctica de Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY libro",
+              "libro de trading y mercados financieros",
+              "guía de Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "fa": {
+            "category_phrase": "معامله‌گری و بازارهای مالی",
+            "long_tail_queries": [
+              "Swing trading چیست",
+              "راهنما کاربردی Swing trading",
+              "SWING TRADING MASTERY فرامرز کوثری"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY کتاب",
+              "کتاب معامله‌گری و بازارهای مالی",
+              "راهنما Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "fil": {
+            "category_phrase": "trading at financial markets",
+            "long_tail_queries": [
+              "paano gumagana ang Swing trading",
+              "praktikal na gabay sa Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY aklat",
+              "aklat tungkol sa trading at financial markets",
+              "gabay sa Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "fr": {
+            "category_phrase": "trading et marchés financiers",
+            "long_tail_queries": [
+              "comment fonctionne Swing trading",
+              "guide pratique de Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY livre",
+              "livre sur trading et marchés financiers",
+              "guide Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "id": {
+            "category_phrase": "trading dan pasar keuangan",
+            "long_tail_queries": [
+              "cara kerja Swing trading",
+              "panduan praktis Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY buku",
+              "buku trading dan pasar keuangan",
+              "panduan Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "pt-BR": {
+            "category_phrase": "trading e mercados financeiros",
+            "long_tail_queries": [
+              "como funciona Swing trading",
+              "guia prático de Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY livro",
+              "livro sobre trading e mercados financeiros",
+              "guia de Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "ro": {
+            "category_phrase": "trading și piețe financiare",
+            "long_tail_queries": [
+              "cum funcționează Swing trading",
+              "ghid practic pentru Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY carte",
+              "carte despre trading și piețe financiare",
+              "ghid Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "ru": {
+            "category_phrase": "трейдинг и финансовые рынки",
+            "long_tail_queries": [
+              "как работает Swing trading",
+              "практическое руководство по Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY книга",
+              "книга о трейдинг и финансовые рынки",
+              "руководство по Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "th": {
+            "category_phrase": "การเทรดและตลาดการเงิน",
+            "long_tail_queries": [
+              "Swing trading ทำงานอย่างไร",
+              "คู่มือ Swing trading แบบปฏิบัติ",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY หนังสือ",
+              "หนังสือ การเทรดและตลาดการเงิน",
+              "คู่มือ Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "tr": {
+            "category_phrase": "trading ve finansal piyasalar",
+            "long_tail_queries": [
+              "Swing trading nasıl çalışır",
+              "Swing trading için uygulamalı rehberi",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY kitap",
+              "trading ve finansal piyasalar kitap",
+              "Swing trading rehberi",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "vi": {
+            "category_phrase": "giao dịch và thị trường tài chính",
+            "long_tail_queries": [
+              "Swing trading hoạt động như thế nào",
+              "hướng dẫn thực hành Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY sách",
+              "sách về giao dịch và thị trường tài chính",
+              "hướng dẫn Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          }
+        },
+        "long_tail_queries": [
+          "SWING TRADING MASTERY by Faramarz Kowsari",
+          "practical guide to swing trading",
+          "how to build a swing trading system",
+          "swing trading price action market structure risk management backtesting"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "related_slugs": [
+          "market-structure-trading",
+          "multi-timeframe-analysis",
+          "confluence-trading",
+          "candlestick-patterns-from-zero",
+          "volume-profile-trading"
+        ],
+        "secondary_queries": [
+          "SWING TRADING MASTERY book",
+          "A Practical Guide to Price Action, Market Structure, Trading Setups, Risk Management, Backtesting, and Systematic Execution",
+          "Trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Multiple-timeframe analysis",
+          "Risk management",
+          "Backtesting",
+          "Walk-forward validation",
+          "Swing trading guide"
+        ]
+      },
+      "key_topics": [
+        "Swing trading",
+        "Price action",
+        "Market structure",
+        "Trend and swing identification",
+        "Support and resistance zones",
+        "Multiple-timeframe analysis",
+        "Volatility and ATR",
+        "Volume and participation",
+        "Market regimes",
+        "Market breadth",
+        "Intermarket context",
+        "Swing-trading screeners",
+        "Relative strength",
+        "Sector leadership and rotation",
+        "Candlestick evidence",
+        "Moving averages",
+        "Momentum",
+        "RSI",
+        "MACD",
+        "Divergence",
+        "Fundamental filters",
+        "IPOs and corporate actions",
+        "Earnings and catalysts",
+        "Trend pullback continuation",
+        "Breakout acceptance and retest",
+        "Volatility contraction and expansion",
+        "Base formation and reversal",
+        "Range trading and mean reversion",
+        "Post-event gap continuation",
+        "Failed breakouts",
+        "Short-side swing trading",
+        "Entry triggers",
+        "Order choice",
+        "Stops and invalidation",
+        "Position sizing",
+        "Profit targets",
+        "Trailing exits",
+        "Trade management",
+        "Portfolio heat",
+        "Correlation and concentration",
+        "Overnight gaps",
+        "Drawdowns",
+        "Contingency rules",
+        "Expectancy",
+        "R-multiples",
+        "Trading statistics",
+        "Historical backtesting",
+        "Transaction costs and slippage",
+        "Out-of-sample testing",
+        "Walk-forward validation",
+        "Trade journals",
+        "Robustness checks",
+        "System improvement",
+        "Stocks and ETFs",
+        "Forex and futures",
+        "Crypto swing trading",
+        "Trading psychology",
+        "Decision hygiene",
+        "Rules-based workflows",
+        "AI-assisted trading workflow",
+        "Trading playbook",
+        "12-week practice plan",
+        "Reproducible backtesting",
+        "Research replication",
+        "Source audit and evidence limits"
+      ],
+      "learning": [
+        "Define a realistic swing-trading operating mandate based on available time, instruments, monitoring capacity and loss limits.",
+        "Read trend, swing structure, support and resistance as market context rather than as isolated chart labels.",
+        "Use multiple timeframes without allowing a lower-timeframe signal to contradict the higher-timeframe trade thesis.",
+        "Use ATR, volatility and participation data to judge whether a setup’s stop, target and expected movement are geometrically realistic.",
+        "Build screeners and candidate lists using relative strength, sector leadership, momentum, fundamentals and event context.",
+        "Interpret candlesticks, moving averages, RSI, MACD and divergence as conditional evidence instead of automatic buy or sell signals.",
+        "Plan and distinguish seven repeatable swing setups, including pullbacks, breakouts, volatility expansions, reversals, ranges, post-event continuations and failed breakouts.",
+        "Write invalidation before entry so that stop placement follows the trade thesis rather than the trader’s discomfort.",
+        "Size positions from a defined risk budget and stop distance rather than from conviction or account cash alone.",
+        "Manage targets, trailing exits and open risk while keeping portfolio heat, concentration and correlation visible.",
+        "Prepare for overnight gaps, event risk and drawdowns with contingency rules written before the position becomes stressful.",
+        "Use expectancy, R-multiples and trading statistics to evaluate a process across many trades rather than judging it from a short winning or losing streak.",
+        "Backtest without look-ahead bias, unrealistic fills or selective examples, and include trading costs and execution assumptions.",
+        "Separate development data from out-of-sample evidence and use walk-forward validation to test whether rules remain stable through time.",
+        "Maintain a trade journal that records decisions, skipped trades, execution quality, errors and rule adherence instead of only profit and loss.",
+        "Run robustness checks before changing a system and distinguish genuine improvement from parameter fitting.",
+        "Adapt the same decision framework to stocks and ETFs, forex and futures, and crypto while respecting different sessions, leverage and liquidity conditions.",
+        "Use psychology, attention controls, tools and AI as support for a rules-based workflow rather than as substitutes for risk management or evidence.",
+        "Build a complete swing-trading playbook and follow a 12-week practice plan before treating a strategy as operational."
+      ],
+      "target_audience": "For beginner and intermediate swing traders, self-directed investors, technical-analysis learners, part-time traders, and systematic-minded market participants who want a complete process spanning price action, market structure, setups, execution, portfolio risk, backtesting and disciplined review across stocks, ETFs, futures, forex and crypto.",
+      "url": "https://faramarzkowsari.github.io/books/swing-trading-mastery/",
+      "google_books_id": "Vl0iEgAAQBAJ",
+      "google_books_url": "https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=Vl0iEgAAQBAJ&hl=en",
+      "cover_url": "https://books.google.com/books/content?id=Vl0iEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "published_date": "2026",
       "isbn": "",
       "doi": ""
