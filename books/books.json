@@ -66923,5 +66923,456 @@
     "source_review_status": "complete",
     "source_scope": "Library source SWING_TRADING_MASTERY_Faramarz_Kowsari.pdf reviewed from title and publication/evidence notice through the complete 42-chapter contents, seven named swing setups, risk and portfolio chapters, backtesting and validation chapters, cross-market application, rules-based workflow, 12-week capstone plan, appendices, selected references and source disclosure. The reviewed PDF contains 418 file pages; the printed contents place About the Author at page 413. Public-page enrichment is limited to concepts and structure supported by the source. The book explicitly distinguishes sourced historical OHLCV examples from original analytical illustrations and does not present the historical sample as independently exchange-certified strategy performance.",
     "source_reviewed": true
+  },
+  {
+    "status": "active",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Artificial Intelligence & Creativity",
+    "translation_group": "",
+    "subtitle": "A Systematic Framework for Breakthrough Thinking, Original Innovation, and Real-World Value Creation",
+    "description": "",
+    "summary": "ENGINEERING CREATIVITY WITH AI treats creativity as an engineered search-and-validation process rather than a mysterious gift or a one-prompt trick. The book begins by separating novelty from usefulness and by asking what generative AI can actually contribute to creative work. Early chapters examine the cognitive architecture of creative thinking, the strengths and limits of generative models, the division of responsibility between human judgment and machine generation, and the habits required to escape entrenched patterns without mistaking novelty for evidence.\n\nAt the center of the book is AI-CE9, a proposed nine-stage creativity-engineering workflow. The sequence moves from discovering the real opportunity and mapping the existing solution space to reframing the problem, generating functionally diverse candidates, transferring ideas across domains, evaluating alternatives, building a minimum viable prototype, validating originality and real-world value, and iterating from evidence. AI-CE9 is presented as an integrative method to be tested, not as a scientifically proven universal law or a guarantee of breakthrough innovation.\n\nThe middle chapters expand the creative toolbox beyond ordinary brainstorming. TRIZ, SCAMPER, Systematic Inventive Thinking, morphological analysis, analogical reasoning, inversion, paradox, systems thinking and transformational creativity are used to manipulate problem structure deliberately. These methods are connected to prompt engineering, controlled divergence, multi-agent creative collaboration and constructive dissent so that AI output becomes a structured exploration space rather than a stream of plausible but unexamined suggestions.\n\nResearch-grounded creativity receives its own engineering treatment. The book explains how retrieval-augmented generation and search can support source-aware ideation, how multimodal systems can accelerate prototyping, and how experiment design can help distinguish a persuasive concept from a candidate that survives testing. Throughout the manuscript, observed evidence, inference, proposals, validation and unresolved questions are treated as different epistemic states. Illustrative cases are not presented as completed scientific experiments or commercial deployments.\n\nApplication chapters carry the framework into product and consumer innovation, literature and media, software and technology invention, scientific hypothesis engineering, and educational and social innovation. The focus is not on automating the creator out of the process. Instead, AI is positioned as a controllable instrument for widening search, exposing alternatives, generating prototypes and criticizing assumptions while humans remain responsible for problem definition, evidence quality, ethics, context and final judgment.\n\nThe final part connects creative output to real-world value. It examines economic opportunity, commercialization models, intellectual property, authorship, AI-assisted inventions, responsible innovation and the limits of AI creativity. The book closes by helping readers build a personal AI creativity laboratory and complete a 30-day creativity-engineering challenge. Appendices provide a nine-stage field record, pre-publication review checklist, worked AI-CE9 dossier, empirical evaluation design, creative-engineering prompt patterns and a publishing/reproducibility record. The result is a practical framework for turning AI-assisted ideation into a more disciplined cycle of search, prototype, evidence and revision.",
+    "key_topics": [
+      "AI-assisted creativity",
+      "Creativity engineering",
+      "Human-AI creative partnership",
+      "Creative cognition",
+      "Generative AI and novelty",
+      "AI-CE9 framework",
+      "Opportunity discovery",
+      "Solution-space mapping",
+      "Problem reframing",
+      "Divergent idea generation",
+      "Cross-domain synthesis",
+      "Creative candidate evaluation",
+      "Minimum viable prototypes",
+      "Originality validation",
+      "Real-world value validation",
+      "TRIZ",
+      "SCAMPER",
+      "Systematic Inventive Thinking (SIT)",
+      "Morphological analysis",
+      "Analogical reasoning",
+      "Inversion and paradox",
+      "Systems thinking",
+      "Transformational creativity",
+      "Prompt engineering for creativity",
+      "Controlled divergence",
+      "Output diversity",
+      "Multi-agent collaboration",
+      "Constructive dissent",
+      "Retrieval-augmented generation (RAG)",
+      "Research-grounded creativity",
+      "Multimodal prototyping",
+      "Creativity evaluation",
+      "Experiment design",
+      "Creative products",
+      "Consumer innovation",
+      "Literature and media creativity",
+      "AI-assisted software invention",
+      "Scientific hypothesis engineering",
+      "Educational innovation",
+      "Social innovation",
+      "Economic opportunity",
+      "Innovation commercialization",
+      "Intellectual property",
+      "AI authorship",
+      "AI-assisted inventions",
+      "Responsible innovation",
+      "Limits of AI creativity",
+      "Personal AI creativity laboratory",
+      "30-day creativity challenge",
+      "Reproducibility"
+    ],
+    "target_audience": "For researchers, inventors, software engineers, designers, artists, educators, entrepreneurs, students and curious professionals who want a structured way to use AI for original thinking, prototyping and innovation while preserving human judgment, evidence standards, intellectual-property awareness and responsible decision-making.",
+    "publisher": "Faramarz Kowsari",
+    "published_date": "2026",
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered",
+    "google_books_id": "gF0iEgAAQBAJ",
+    "title": "ENGINEERING CREATIVITY WITH AI",
+    "slug": "engineering-creativity-with-ai",
+    "google_books_url": "https://play.google.com/store/books/details?id=gF0iEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=gF0iEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "language_code": "en",
+    "sequence": 171,
+    "seo": {
+      "cluster": "artificial-intelligence",
+      "cluster_label": "Artificial Intelligence",
+      "entities": [
+        "AI-assisted creativity",
+        "Creativity engineering",
+        "Human-AI creative partnership",
+        "Creative cognition",
+        "Generative AI and novelty",
+        "AI-CE9 framework",
+        "Opportunity discovery",
+        "Solution-space mapping",
+        "Problem reframing",
+        "Divergent idea generation",
+        "Cross-domain synthesis",
+        "Creative candidate evaluation",
+        "Minimum viable prototypes",
+        "Originality validation",
+        "Real-world value validation",
+        "TRIZ",
+        "SCAMPER",
+        "Systematic Inventive Thinking (SIT)",
+        "Morphological analysis",
+        "Analogical reasoning"
+      ],
+      "localized": {
+        "ar": {
+          "category_phrase": "الذكاء الاصطناعي",
+          "long_tail_queries": [
+            "ما هو AI creativity engineering",
+            "دليل عملي عن AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI كتاب",
+            "كتاب عن الذكاء الاصطناعي",
+            "دليل AI creativity engineering",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "bn": {
+          "category_phrase": "কৃত্রিম বুদ্ধিমত্তা",
+          "long_tail_queries": [
+            "AI creativity engineering কীভাবে কাজ করে",
+            "AI creativity engineering ব্যবহারিক গাইড",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI বই",
+            "কৃত্রিম বুদ্ধিমত্তা বই",
+            "AI creativity engineering গাইড",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "de": {
+          "category_phrase": "Künstliche Intelligenz",
+          "long_tail_queries": [
+            "wie funktioniert AI creativity engineering",
+            "praktischer Leitfaden zu AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI Buch",
+            "Künstliche Intelligenz Buch",
+            "AI creativity engineering Leitfaden",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "en": {
+          "category_phrase": "artificial intelligence",
+          "long_tail_queries": [
+            "how AI creativity engineering works",
+            "practical guide to AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI by Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI book",
+            "artificial intelligence book",
+            "AI creativity engineering guide",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "es": {
+          "category_phrase": "inteligencia artificial",
+          "long_tail_queries": [
+            "cómo funciona AI creativity engineering",
+            "guía práctica de AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI libro",
+            "libro de inteligencia artificial",
+            "guía de AI creativity engineering",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "fa": {
+          "category_phrase": "هوش مصنوعی",
+          "long_tail_queries": [
+            "AI creativity engineering چیست",
+            "راهنما کاربردی AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI فرامرز کوثری"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI کتاب",
+            "کتاب هوش مصنوعی",
+            "راهنما AI creativity engineering",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "fil": {
+          "category_phrase": "artificial intelligence",
+          "long_tail_queries": [
+            "paano gumagana ang AI creativity engineering",
+            "praktikal na gabay sa AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI aklat",
+            "aklat tungkol sa artificial intelligence",
+            "gabay sa AI creativity engineering",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "fr": {
+          "category_phrase": "intelligence artificielle",
+          "long_tail_queries": [
+            "comment fonctionne AI creativity engineering",
+            "guide pratique de AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI livre",
+            "livre sur intelligence artificielle",
+            "guide AI creativity engineering",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "id": {
+          "category_phrase": "kecerdasan buatan",
+          "long_tail_queries": [
+            "cara kerja AI creativity engineering",
+            "panduan praktis AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI buku",
+            "buku kecerdasan buatan",
+            "panduan AI creativity engineering",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "pt-BR": {
+          "category_phrase": "inteligência artificial",
+          "long_tail_queries": [
+            "como funciona AI creativity engineering",
+            "guia prático de AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI livro",
+            "livro sobre inteligência artificial",
+            "guia de AI creativity engineering",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "ro": {
+          "category_phrase": "inteligență artificială",
+          "long_tail_queries": [
+            "cum funcționează AI creativity engineering",
+            "ghid practic pentru AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI carte",
+            "carte despre inteligență artificială",
+            "ghid AI creativity engineering",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "ru": {
+          "category_phrase": "искусственный интеллект",
+          "long_tail_queries": [
+            "как работает AI creativity engineering",
+            "практическое руководство по AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI книга",
+            "книга о искусственный интеллект",
+            "руководство по AI creativity engineering",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "th": {
+          "category_phrase": "ปัญญาประดิษฐ์",
+          "long_tail_queries": [
+            "AI creativity engineering ทำงานอย่างไร",
+            "คู่มือ AI creativity engineering แบบปฏิบัติ",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI หนังสือ",
+            "หนังสือ ปัญญาประดิษฐ์",
+            "คู่มือ AI creativity engineering",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "tr": {
+          "category_phrase": "yapay zekâ",
+          "long_tail_queries": [
+            "AI creativity engineering nasıl çalışır",
+            "AI creativity engineering için uygulamalı rehberi",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI kitap",
+            "yapay zekâ kitap",
+            "AI creativity engineering rehberi",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        },
+        "vi": {
+          "category_phrase": "trí tuệ nhân tạo",
+          "long_tail_queries": [
+            "AI creativity engineering hoạt động như thế nào",
+            "hướng dẫn thực hành AI creativity engineering",
+            "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+          ],
+          "primary_query": "ENGINEERING CREATIVITY WITH AI",
+          "secondary_queries": [
+            "ENGINEERING CREATIVITY WITH AI sách",
+            "sách về trí tuệ nhân tạo",
+            "hướng dẫn AI creativity engineering",
+            "AI creativity engineering",
+            "AI-CE9 framework",
+            "TRIZ",
+            "SCAMPER",
+            "Human-AI creativity"
+          ]
+        }
+      },
+      "long_tail_queries": [
+        "ENGINEERING CREATIVITY WITH AI by Faramarz Kowsari",
+        "AI creativity engineering practical guide",
+        "AI-CE9 creativity framework",
+        "how to use AI for creative problem solving and innovation"
+      ],
+      "primary_query": "ENGINEERING CREATIVITY WITH AI",
+      "related_slugs": [
+        "rag-engineering",
+        "claude-agent-skills-playbook",
+        "ai-apis-in-practice",
+        "context-engineering-with-claude",
+        "chatgpt-6-astra"
+      ],
+      "secondary_queries": [
+        "ENGINEERING CREATIVITY WITH AI book",
+        "A Systematic Framework for Breakthrough Thinking, Original Innovation, and Real-World Value Creation",
+        "Artificial Intelligence",
+        "AI-assisted creativity",
+        "Creativity engineering",
+        "AI-CE9",
+        "TRIZ",
+        "SCAMPER",
+        "multi-agent creativity",
+        "RAG for creativity",
+        "multimodal prototyping",
+        "responsible innovation"
+      ]
+    },
+    "seo_description": "A 227-page, 42-chapter guide to AI-assisted creativity engineering covering the AI-CE9 framework, TRIZ, SCAMPER, SIT, cross-domain synthesis, multi-agent ideation, RAG, multimodal prototyping, evaluation, intellectual property and responsible innovation.",
+    "page_count": 227,
+    "learning": [
+      "Distinguish novelty, usefulness, validation and commercial success instead of treating them as interchangeable measures of creativity.",
+      "Use generative AI as a search and prototyping instrument while keeping human judgment responsible for evidence, ethics and final decisions.",
+      "Apply the nine stages of AI-CE9 from opportunity discovery through iteration without presenting the framework as a guaranteed recipe for invention.",
+      "Map an existing solution space before generating alternatives so an unfamiliar idea is not automatically mistaken for an original one.",
+      "Reframe problems and constraints deliberately to expose hidden assumptions and new solution directions.",
+      "Generate functionally diverse candidates through controlled divergence rather than accepting near-duplicate model outputs.",
+      "Use cross-domain analogy and transformation to transfer useful structures without copying surface features.",
+      "Evaluate candidate ideas with explicit criteria before investing in prototyping or commercialization.",
+      "Build minimum viable prototypes whose purpose is to test a claim rather than merely make an idea look convincing.",
+      "Separate proposed concepts from observed evidence and define what would count as validation for a specific claim.",
+      "Use TRIZ, SCAMPER, SIT and morphological analysis as structured mechanisms for changing a problem or design.",
+      "Apply inversion, paradox, systems thinking and transformational creativity to explore conceptual spaces beyond ordinary brainstorming.",
+      "Write prompts that support original thinking while recognizing that prompt sophistication does not prove originality or value.",
+      "Use multi-agent collaboration and constructive dissent to expose hidden assumptions and compare competing hypotheses.",
+      "Ground creative research with search and RAG while preserving source provenance and distinguishing retrieved evidence from generated interpretation.",
+      "Use multimodal AI to accelerate sketches, diagrams, interfaces and other prototypes without confusing visual plausibility with feasibility.",
+      "Design experiments and evaluation criteria that can challenge a creative claim instead of merely confirming it.",
+      "Adapt the framework to products, media, software, scientific hypotheses, education and social innovation.",
+      "Consider commercialization, intellectual property, authorship and responsible innovation before scaling a promising concept.",
+      "Build a personal AI creativity laboratory and complete a 30-day practice sequence that converts creative work into inspectable records and repeatable experiments."
+    ],
+    "related_ids": [
+      "OekhEgAAQBAJ",
+      "UXTxEQAAQBAJ",
+      "SnEJEgAAQBAJ"
+    ],
+    "source_review_status": "complete",
+    "source_scope": "Library source ENGINEERING_CREATIVITY_WITH_AI__FARAMARZ_KOWSARI(1).pdf reviewed from title/front matter, publication-status notice, complete 42-chapter contents, preface and appendices. The reviewed PDF contains 227 file pages and presents AI-CE9 as a proposed integrative creativity-engineering method whose effectiveness requires independent testing. Public-page enrichment is limited to concepts supported by the source, including creative cognition, human-AI collaboration, the nine AI-CE9 stages, TRIZ, SCAMPER, SIT, morphological analysis, analogy, systems thinking, prompt engineering, multi-agent collaboration, RAG/search, multimodal prototyping, creativity evaluation, application domains, commercialization, intellectual property, responsible innovation, the personal AI creativity laboratory and the 30-day challenge.",
+    "source_reviewed": true
   }
 ]
