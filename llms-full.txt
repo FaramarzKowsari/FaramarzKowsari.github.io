@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (169)
+## Books (171)
 
 ### Depremde Hayatta Kalma
 
@@ -4047,6 +4047,105 @@ What readers learn:
 - Doksan günlük plan ve uygulama ekleriyle öğrenmeyi dış dünyada ölçülebilir kanıta çevirmek.
 
 Audience: Deneyimli profesyoneller, emekliler, kariyer değiştirenler, danışmanlar, yöneticiler, eğitmenler ve 50 yaş üstünde yılların deneyimini yapay zekâ araçlarıyla gerçekçi ve kanıta dayalı bir ikinci gelir sistemine dönüştürmek isteyen okurlar için.
+
+## SWING TRADING MASTERY
+
+- Canonical page: https://faramarzkowsari.github.io/books/swing-trading-mastery/
+- Google Books: https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ
+- Author: Faramarz Kowsari
+- Language: English
+- Category: Trading
+- Published: 2026
+- Pages: 418
+
+Subtitle: A Practical Guide to Price Action, Market Structure, Trading Setups, Risk Management, Backtesting, and Systematic Execution
+
+SWING TRADING MASTERY is a practical, evidence-conscious guide to building a swing-trading process that can survive beyond an attractive chart. It begins by treating swing trading as a decision discipline: define the instruments you can actually monitor, understand how orders reach the market, read price without hindsight distortion, and build a weekly and daily workflow that fits the trader’s time, data and risk constraints. Trend, swing structure, support and resistance, multiple-timeframe analysis, volatility, ATR, volume, market regimes, breadth and intermarket context are developed as complementary layers rather than isolated indicators.
+
+The opportunity-selection section turns broad market scanning into a repeatable research process. Screeners, relative strength, sector leadership, candlestick evidence, moving averages, momentum, RSI, MACD, fundamentals, IPO and corporate-action considerations, earnings and catalysts are used to qualify candidates before a trade is planned. The emphasis is on context and falsifiability: a setup is useful only when the trader can state what would invalidate it, where the loss is controlled, and which market condition makes the idea plausible.
+
+Seven repeatable swing structures form the tactical center of the book: trend pullback and continuation; breakout, acceptance and retest; volatility contraction and expansion; base formation and reversal; range trading and mean reversion; post-event or earnings-gap continuation; and failed breakouts with short-side opportunities. Each setup is connected to location, volatility, execution, invalidation and trade management so that chart recognition does not become a substitute for a complete trading plan.
+
+Risk management is treated as the architecture that determines whether a strategy can remain usable over many trades. Dedicated chapters cover entry triggers, order choice, stop placement, adverse price movement, position sizing, profit targets, trailing exits, portfolio heat, correlation, concentration, overnight gaps, drawdowns and contingency rules. Expectancy and R-multiples are then used to separate the economics of a strategy from the emotional impact of individual winners and losers.
+
+The testing section addresses one of the central problems in trading education: a visually convincing historical chart is not the same thing as a validated edge. Historical backtesting, realistic costs, out-of-sample testing, walk-forward validation, trade journals, robustness checks and system improvement are presented as ways to challenge a trading claim rather than decorate it. The book’s evidence note also distinguishes sourced historical OHLCV examples from original analytical illustrations and explicitly warns that the historical sample is educational evidence, not exchange-certified proof of strategy performance.
+
+The final chapters adapt the framework across stocks and ETFs, forex and futures, and crypto, then address trading psychology, attention, decision hygiene, rules-based workflows and the careful use of tools and AI. A capstone converts the material into a complete swing-trading playbook and a 12-week practice plan. Appendices provide a one-page trade-planning record, operational strategy cards, a reproducible backtest specification, financial calculations, worked decision dossiers, research-replication guidance and source-audit notes. The result is a book about execution discipline as much as entries: scan, establish context, define risk, place the order, review the evidence, and improve only what the data can actually support.
+
+Key topics: Swing trading; Price action; Market structure; Trend and swing identification; Support and resistance zones; Multiple-timeframe analysis; Volatility and ATR; Volume and participation; Market regimes; Market breadth; Intermarket context; Swing-trading screeners; Relative strength; Sector leadership and rotation; Candlestick evidence; Moving averages; Momentum; RSI; MACD; Divergence; Fundamental filters; IPOs and corporate actions; Earnings and catalysts; Trend pullback continuation; Breakout acceptance and retest; Volatility contraction and expansion; Base formation and reversal; Range trading and mean reversion; Post-event gap continuation; Failed breakouts; Short-side swing trading; Entry triggers; Order choice; Stops and invalidation; Position sizing; Profit targets; Trailing exits; Trade management; Portfolio heat; Correlation and concentration; Overnight gaps; Drawdowns; Contingency rules; Expectancy; R-multiples; Trading statistics; Historical backtesting; Transaction costs and slippage; Out-of-sample testing; Walk-forward validation; Trade journals; Robustness checks; System improvement; Stocks and ETFs; Forex and futures; Crypto swing trading; Trading psychology; Decision hygiene; Rules-based workflows; AI-assisted trading workflow; Trading playbook; 12-week practice plan; Reproducible backtesting; Research replication; Source audit and evidence limits
+
+What readers learn:
+- Define a realistic swing-trading operating mandate based on available time, instruments, monitoring capacity and loss limits.
+- Read trend, swing structure, support and resistance as market context rather than as isolated chart labels.
+- Use multiple timeframes without allowing a lower-timeframe signal to contradict the higher-timeframe trade thesis.
+- Use ATR, volatility and participation data to judge whether a setup’s stop, target and expected movement are geometrically realistic.
+- Build screeners and candidate lists using relative strength, sector leadership, momentum, fundamentals and event context.
+- Interpret candlesticks, moving averages, RSI, MACD and divergence as conditional evidence instead of automatic buy or sell signals.
+- Plan and distinguish seven repeatable swing setups, including pullbacks, breakouts, volatility expansions, reversals, ranges, post-event continuations and failed breakouts.
+- Write invalidation before entry so that stop placement follows the trade thesis rather than the trader’s discomfort.
+- Size positions from a defined risk budget and stop distance rather than from conviction or account cash alone.
+- Manage targets, trailing exits and open risk while keeping portfolio heat, concentration and correlation visible.
+- Prepare for overnight gaps, event risk and drawdowns with contingency rules written before the position becomes stressful.
+- Use expectancy, R-multiples and trading statistics to evaluate a process across many trades rather than judging it from a short winning or losing streak.
+- Backtest without look-ahead bias, unrealistic fills or selective examples, and include trading costs and execution assumptions.
+- Separate development data from out-of-sample evidence and use walk-forward validation to test whether rules remain stable through time.
+- Maintain a trade journal that records decisions, skipped trades, execution quality, errors and rule adherence instead of only profit and loss.
+- Run robustness checks before changing a system and distinguish genuine improvement from parameter fitting.
+- Adapt the same decision framework to stocks and ETFs, forex and futures, and crypto while respecting different sessions, leverage and liquidity conditions.
+- Use psychology, attention controls, tools and AI as support for a rules-based workflow rather than as substitutes for risk management or evidence.
+- Build a complete swing-trading playbook and follow a 12-week practice plan before treating a strategy as operational.
+
+Audience: For beginner and intermediate swing traders, self-directed investors, technical-analysis learners, part-time traders, and systematic-minded market participants who want a complete process spanning price action, market structure, setups, execution, portfolio risk, backtesting and disciplined review across stocks, ETFs, futures, forex and crypto.
+
+## ENGINEERING CREATIVITY WITH AI
+
+- Canonical page: https://faramarzkowsari.github.io/books/engineering-creativity-with-ai/
+- Google Books: https://play.google.com/store/books/details?id=gF0iEgAAQBAJ
+- Author: Faramarz Kowsari
+- Language: English
+- Category: Artificial Intelligence & Creativity
+- Published: 2026
+- Pages: 227
+
+Subtitle: A Systematic Framework for Breakthrough Thinking, Original Innovation, and Real-World Value Creation
+
+ENGINEERING CREATIVITY WITH AI treats creativity as an engineered search-and-validation process rather than a mysterious gift or a one-prompt trick. The book begins by separating novelty from usefulness and by asking what generative AI can actually contribute to creative work. Early chapters examine the cognitive architecture of creative thinking, the strengths and limits of generative models, the division of responsibility between human judgment and machine generation, and the habits required to escape entrenched patterns without mistaking novelty for evidence.
+
+At the center of the book is AI-CE9, a proposed nine-stage creativity-engineering workflow. The sequence moves from discovering the real opportunity and mapping the existing solution space to reframing the problem, generating functionally diverse candidates, transferring ideas across domains, evaluating alternatives, building a minimum viable prototype, validating originality and real-world value, and iterating from evidence. AI-CE9 is presented as an integrative method to be tested, not as a scientifically proven universal law or a guarantee of breakthrough innovation.
+
+The middle chapters expand the creative toolbox beyond ordinary brainstorming. TRIZ, SCAMPER, Systematic Inventive Thinking, morphological analysis, analogical reasoning, inversion, paradox, systems thinking and transformational creativity are used to manipulate problem structure deliberately. These methods are connected to prompt engineering, controlled divergence, multi-agent creative collaboration and constructive dissent so that AI output becomes a structured exploration space rather than a stream of plausible but unexamined suggestions.
+
+Research-grounded creativity receives its own engineering treatment. The book explains how retrieval-augmented generation and search can support source-aware ideation, how multimodal systems can accelerate prototyping, and how experiment design can help distinguish a persuasive concept from a candidate that survives testing. Throughout the manuscript, observed evidence, inference, proposals, validation and unresolved questions are treated as different epistemic states. Illustrative cases are not presented as completed scientific experiments or commercial deployments.
+
+Application chapters carry the framework into product and consumer innovation, literature and media, software and technology invention, scientific hypothesis engineering, and educational and social innovation. The focus is not on automating the creator out of the process. Instead, AI is positioned as a controllable instrument for widening search, exposing alternatives, generating prototypes and criticizing assumptions while humans remain responsible for problem definition, evidence quality, ethics, context and final judgment.
+
+The final part connects creative output to real-world value. It examines economic opportunity, commercialization models, intellectual property, authorship, AI-assisted inventions, responsible innovation and the limits of AI creativity. The book closes by helping readers build a personal AI creativity laboratory and complete a 30-day creativity-engineering challenge. Appendices provide a nine-stage field record, pre-publication review checklist, worked AI-CE9 dossier, empirical evaluation design, creative-engineering prompt patterns and a publishing/reproducibility record. The result is a practical framework for turning AI-assisted ideation into a more disciplined cycle of search, prototype, evidence and revision.
+
+Key topics: AI-assisted creativity; Creativity engineering; Human-AI creative partnership; Creative cognition; Generative AI and novelty; AI-CE9 framework; Opportunity discovery; Solution-space mapping; Problem reframing; Divergent idea generation; Cross-domain synthesis; Creative candidate evaluation; Minimum viable prototypes; Originality validation; Real-world value validation; TRIZ; SCAMPER; Systematic Inventive Thinking (SIT); Morphological analysis; Analogical reasoning; Inversion and paradox; Systems thinking; Transformational creativity; Prompt engineering for creativity; Controlled divergence; Output diversity; Multi-agent collaboration; Constructive dissent; Retrieval-augmented generation (RAG); Research-grounded creativity; Multimodal prototyping; Creativity evaluation; Experiment design; Creative products; Consumer innovation; Literature and media creativity; AI-assisted software invention; Scientific hypothesis engineering; Educational innovation; Social innovation; Economic opportunity; Innovation commercialization; Intellectual property; AI authorship; AI-assisted inventions; Responsible innovation; Limits of AI creativity; Personal AI creativity laboratory; 30-day creativity challenge; Reproducibility
+
+What readers learn:
+- Distinguish novelty, usefulness, validation and commercial success instead of treating them as interchangeable measures of creativity.
+- Use generative AI as a search and prototyping instrument while keeping human judgment responsible for evidence, ethics and final decisions.
+- Apply the nine stages of AI-CE9 from opportunity discovery through iteration without presenting the framework as a guaranteed recipe for invention.
+- Map an existing solution space before generating alternatives so an unfamiliar idea is not automatically mistaken for an original one.
+- Reframe problems and constraints deliberately to expose hidden assumptions and new solution directions.
+- Generate functionally diverse candidates through controlled divergence rather than accepting near-duplicate model outputs.
+- Use cross-domain analogy and transformation to transfer useful structures without copying surface features.
+- Evaluate candidate ideas with explicit criteria before investing in prototyping or commercialization.
+- Build minimum viable prototypes whose purpose is to test a claim rather than merely make an idea look convincing.
+- Separate proposed concepts from observed evidence and define what would count as validation for a specific claim.
+- Use TRIZ, SCAMPER, SIT and morphological analysis as structured mechanisms for changing a problem or design.
+- Apply inversion, paradox, systems thinking and transformational creativity to explore conceptual spaces beyond ordinary brainstorming.
+- Write prompts that support original thinking while recognizing that prompt sophistication does not prove originality or value.
+- Use multi-agent collaboration and constructive dissent to expose hidden assumptions and compare competing hypotheses.
+- Ground creative research with search and RAG while preserving source provenance and distinguishing retrieved evidence from generated interpretation.
+- Use multimodal AI to accelerate sketches, diagrams, interfaces and other prototypes without confusing visual plausibility with feasibility.
+- Design experiments and evaluation criteria that can challenge a creative claim instead of merely confirming it.
+- Adapt the framework to products, media, software, scientific hypotheses, education and social innovation.
+- Consider commercialization, intellectual property, authorship and responsible innovation before scaling a promising concept.
+- Build a personal AI creativity laboratory and complete a 30-day practice sequence that converts creative work into inspectable records and repeatable experiments.
+
+Audience: For researchers, inventors, software engineers, designers, artists, educators, entrepreneurs, students and curious professionals who want a structured way to use AI for original thinking, prototyping and innovation while preserving human judgment, evidence standards, intellectual-property awareness and responsible decision-making.
 
 ## Discovery policy
 
