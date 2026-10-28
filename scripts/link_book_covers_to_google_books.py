@@ -43,16 +43,20 @@ def link_cover_on_landing(page: Path, title: str, google_url: str) -> bool:
     ):
         return False
 
-    anchor = (
-        f'$1<a class="book-cover-link" href="{esc_attr(google_url)}" '
-        f'target="_blank" rel="noopener noreferrer" '
-        f'aria-label="View {esc_attr(title)} on Google Books">$2</a>'
-    )
+    def replacement(match: re.Match[str]) -> str:
+        return (
+            match.group(1)
+            + f'<a class="book-cover-link" href="{esc_attr(google_url)}" '
+              f'target="_blank" rel="noopener noreferrer" '
+              f'aria-label="View {esc_attr(title)} on Google Books">'
+            + match.group(2)
+            + '</a>'
+        )
 
     if LINKED_COVER_RE.search(section):
-        new_section = LINKED_COVER_RE.sub(anchor, section, count=1)
+        new_section = LINKED_COVER_RE.sub(replacement, section, count=1)
     elif DIRECT_COVER_RE.search(section):
-        new_section = DIRECT_COVER_RE.sub(anchor, section, count=1)
+        new_section = DIRECT_COVER_RE.sub(replacement, section, count=1)
     else:
         return False
 
@@ -67,10 +71,13 @@ def link_main_index_cover(text: str, slug: str, google_url: str) -> tuple[str, b
         rf'(<img class=["\']cover["\'])',
         re.I,
     )
-    replacement = (
-        f'<a href="{esc_attr(google_url)}" target="_blank" '
-        f'rel="noopener noreferrer"$1>$2'
-    )
+    def replacement(match: re.Match[str]) -> str:
+        return (
+            f'<a href="{esc_attr(google_url)}" target="_blank" '
+            f'rel="noopener noreferrer"{match.group(1)}>'
+            + match.group(2)
+        )
+
     updated, count = pattern.subn(replacement, text, count=1)
     return updated, bool(count)
 
