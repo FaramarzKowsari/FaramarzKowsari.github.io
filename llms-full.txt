@@ -3388,17 +3388,6 @@ What readers learn:
 
 Audience: For beginner and intermediate price-action traders who want a visual, practical method for reading support and resistance without assuming every touch must reverse.
 
-### MICRO E-MINI FUTURES TRADING
-
-- Canonical page: https://faramarzkowsari.github.io/books/micro-e-mini-futures-trading/
-- Language: English
-- Category: Trading
-- Subtitle: A Practical Guide to MES & MNQ Futures, Market Structure, Intraday Strategies, Execution, and Risk
-- Google Books: https://play.google.com/store/books/details?id=9j8jEgAAQBAJ
-- Summary: A practical, evidence-conscious guide to MES and MNQ Micro E-mini futures covering contract mechanics, market structure, liquidity, volatility, order-flow tools, intraday playbooks, execution, risk, backtesting and a 30-session training roadmap.
-- Core topics: MES, MNQ, contract mechanics, tick math, Globex, rollover, market structure, liquidity, volatility, Volume Profile, VWAP, DOM, footprint, opening-range trading, execution, position sizing, costs, drawdown, margin, psychology, backtesting, expectancy and deliberate practice.
-
-
 ### Multi-Timeframe Analysis
 
 - Canonical page: https://faramarzkowsari.github.io/books/multi-timeframe-analysis/
