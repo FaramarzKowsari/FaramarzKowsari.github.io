@@ -46,6 +46,7 @@ on:
       - "scripts/add_ielts_sos_visual_companion.py"
       - "scripts/image_seo_books.py"
       - "scripts/enforce_google_books_alt.py"
+      - "scripts/link_book_covers_to_google_books.py"
       - "scripts/seo_sitemaps.py"
       - ".github/workflows/build-source-reviewed-books.yml"
 
@@ -95,6 +96,7 @@ jobs:
           python scripts/apply_google_books_covers.py
           python scripts/image_seo_books.py
           python scripts/enforce_google_books_alt.py
+          python scripts/link_book_covers_to_google_books.py
           python scripts/author_entity_layer.py
           python scripts/add_related_articles.py
           python scripts/add_book_image_galleries.py
