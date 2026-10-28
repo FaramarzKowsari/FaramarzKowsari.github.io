@@ -19,7 +19,7 @@ input{flex:1;min-width:260px}
 .count{color:var(--muted);margin:8px 0 18px}
 .book-page{max-width:1040px;margin:auto;padding:42px 22px 80px}
 .book-top{display:grid;grid-template-columns:minmax(220px,320px) 1fr;gap:34px;align-items:start}
-.book-top img{width:100%;border-radius:16px;border:1px solid var(--line);background:#eee}
+.book-top img{width:100%;border-radius:16px;border:1px solid var(--line);background:#eee}\n.book-cover-link{display:block;line-height:0;border-radius:16px}.book-cover-link img{display:block}.book-cover-link:focus-visible{outline:3px solid var(--accent);outline-offset:4px}.book-cover-link:hover img{filter:brightness(.97)}
 .book-top h1{font-size:clamp(32px,5vw,56px);letter-spacing:-.04em;margin:0 0 10px}
 .subtitle{font-size:19px;color:var(--muted);line-height:1.5}
 .actions{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}
