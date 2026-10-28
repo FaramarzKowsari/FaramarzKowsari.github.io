@@ -65,17 +65,20 @@ def link_cover_on_landing(page: Path, title: str, google_url: str) -> bool:
     return True
 
 
-def link_main_index_cover(text: str, slug: str, google_url: str) -> tuple[str, bool]:
+def link_main_index_cover(text: str, slug: str, title: str, google_url: str) -> tuple[str, bool]:
+    destinations = rf'(?:\./{re.escape(slug)}/|{re.escape(google_url)})'
     pattern = re.compile(
-        rf'<a href=["\']\./{re.escape(slug)}/["\']([^>]*)>'
-        rf'(<img class=["\']cover["\'])',
+        rf'<a\b[^>]*href=["\']{destinations}["\'][^>]*>'
+        rf'(\s*<img class=["\']cover["\'])',
         re.I,
     )
+
     def replacement(match: re.Match[str]) -> str:
         return (
             f'<a href="{esc_attr(google_url)}" target="_blank" '
-            f'rel="noopener noreferrer"{match.group(1)}>'
-            + match.group(2)
+            f'rel="noopener noreferrer" '
+            f'aria-label="View {esc_attr(title)} on Google Books">'
+            + match.group(1)
         )
 
     updated, count = pattern.subn(replacement, text, count=1)
@@ -111,7 +114,7 @@ def main() -> None:
                 if link_cover_on_landing(page, title, google_url):
                     localized_changes += 1
 
-        index_text, changed = link_main_index_cover(index_text, slug, google_url)
+        index_text, changed = link_main_index_cover(index_text, slug, title, google_url)
         if changed:
             index_changes += 1
 
