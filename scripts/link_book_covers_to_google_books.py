@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Ensure book cover images link directly to the matching Google Books page."""\n\n# Idempotent: safe to run after every site regeneration.
+"""Ensure book cover images link directly to the matching Google Books page."""
+
+# Idempotent: safe to run after every site regeneration.
 
 from __future__ import annotations
 
