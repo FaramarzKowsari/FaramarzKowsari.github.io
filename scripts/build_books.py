@@ -205,7 +205,7 @@ def render_page(book):
         media_html = "<p>YouTube videos, podcast episodes, slide decks and DOI information can be added here later without changing this page URL.</p>"
 
     subtitle_html = f'      <p class="subtitle">{esc(subtitle)}</p>\n' if subtitle else ""
-    cover_html = f'    <img src="{esc(cover)}" alt="{esc(title)} book cover">\n' if cover else ""
+    cover_html = (f'    <a class="book-cover-link" href="{esc(google_url)}" target="_blank" rel="noopener noreferrer" aria-label="View {esc(title)} on Google Books"><img src="{esc(cover)}" alt="{esc(title)} book cover"></a>\n' if cover and google_url else (f'    <img src="{esc(cover)}" alt="{esc(title)} book cover">\n' if cover else ""))
     learning = book.get("learning") or []
     topics = book.get("key_topics") or []
 
