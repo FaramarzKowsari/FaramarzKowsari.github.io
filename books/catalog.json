@@ -9,7 +9,7 @@
   "canonical": "https://faramarzkowsari.github.io/books/",
   "text_index": "https://faramarzkowsari.github.io/books/all-books/",
   "sitemap": "https://faramarzkowsari.github.io/books/sitemap.xml",
-  "book_count": 172,
+  "book_count": 173,
   "books": [
     {
       "slug": "depremde-hayatta-kalma",
@@ -43842,7 +43842,7 @@
           "prop-firm-funded-account-trading",
           "xauusd-scalping",
           "premium-and-discount-zones",
-          "swing-trading-mastery"
+          "micro-e-mini-futures-trading"
         ]
       },
       "key_topics": [
@@ -46967,7 +46967,7 @@
           "smart-money-concepts",
           "market-structure-trading",
           "swing-trading-mastery",
-          "mastering-renko-trading"
+          "micro-e-mini-futures-trading"
         ]
       },
       "key_topics": [
@@ -54550,6 +54550,316 @@
       "preview_url": "https://play.google.com/books/reader?id=C1PsEQAAQBAJ&hl=en",
       "cover_url": "https://books.google.com/books/content?id=C1PsEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "published_date": "",
+      "isbn": "",
+      "doi": ""
+    },
+    {
+      "slug": "micro-e-mini-futures-trading",
+      "title": "MICRO E-MINI FUTURES TRADING",
+      "subtitle": "A Practical Guide to MES & MNQ Futures, Market Structure, Intraday Strategies, Execution, and Risk",
+      "author": "Faramarz Kowsari",
+      "language": "English",
+      "category": "Trading",
+      "summary": "",
+      "seo_description": "MICRO E-MINI FUTURES TRADING: A Practical Guide to MES & MNQ Futures, Market Structure, Intraday Strategies, Execution, and Risk. A practical book by Faramarz Kowsari.",
+      "seo": {
+        "primary_query": "MICRO E-MINI FUTURES TRADING",
+        "secondary_queries": [
+          "MICRO E-MINI FUTURES TRADING book",
+          "A Practical Guide to MES & MNQ Futures, Market Structure, Intraday Strategies, Execution, and Risk",
+          "Trading",
+          "Market Structure",
+          "Intraday Strategies",
+          "and Risk",
+          "Market Structure guide"
+        ],
+        "long_tail_queries": [
+          "MICRO E-MINI FUTURES TRADING by Faramarz Kowsari",
+          "practical guide to Market Structure",
+          "how Market Structure works",
+          "Market Structure Intraday Strategies"
+        ],
+        "entities": [
+          "Market Structure",
+          "Intraday Strategies",
+          "and Risk"
+        ],
+        "cluster": "trading-markets",
+        "cluster_label": "Trading & Financial Markets",
+        "localized": {
+          "en": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING book",
+              "trading and financial markets book",
+              "Market Structure guide",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "how Market Structure works",
+              "practical guide to Market Structure",
+              "MICRO E-MINI FUTURES TRADING by Faramarz Kowsari"
+            ],
+            "category_phrase": "trading and financial markets"
+          },
+          "tr": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING kitap",
+              "trading ve finansal piyasalar kitap",
+              "Market Structure rehberi",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "Market Structure nasıl çalışır",
+              "Market Structure için uygulamalı rehberi",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading ve finansal piyasalar"
+          },
+          "ru": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING книга",
+              "книга о трейдинг и финансовые рынки",
+              "руководство по Market Structure",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "как работает Market Structure",
+              "практическое руководство по Market Structure",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "трейдинг и финансовые рынки"
+          },
+          "de": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING Buch",
+              "Trading und Finanzmärkte Buch",
+              "Market Structure Leitfaden",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "wie funktioniert Market Structure",
+              "praktischer Leitfaden zu Market Structure",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "Trading und Finanzmärkte"
+          },
+          "es": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING libro",
+              "libro de trading y mercados financieros",
+              "guía de Market Structure",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "cómo funciona Market Structure",
+              "guía práctica de Market Structure",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading y mercados financieros"
+          },
+          "fr": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING livre",
+              "livre sur trading et marchés financiers",
+              "guide Market Structure",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "comment fonctionne Market Structure",
+              "guide pratique de Market Structure",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading et marchés financiers"
+          },
+          "pt-BR": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING livro",
+              "livro sobre trading e mercados financeiros",
+              "guia de Market Structure",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "como funciona Market Structure",
+              "guia prático de Market Structure",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading e mercados financeiros"
+          },
+          "fa": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING کتاب",
+              "کتاب معامله‌گری و بازارهای مالی",
+              "راهنما Market Structure",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "Market Structure چیست",
+              "راهنما کاربردی Market Structure",
+              "MICRO E-MINI FUTURES TRADING فرامرز کوثری"
+            ],
+            "category_phrase": "معامله‌گری و بازارهای مالی"
+          },
+          "ar": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING كتاب",
+              "كتاب عن التداول والأسواق المالية",
+              "دليل Market Structure",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "ما هو Market Structure",
+              "دليل عملي عن Market Structure",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "التداول والأسواق المالية"
+          },
+          "id": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING buku",
+              "buku trading dan pasar keuangan",
+              "panduan Market Structure",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "cara kerja Market Structure",
+              "panduan praktis Market Structure",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading dan pasar keuangan"
+          },
+          "vi": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING sách",
+              "sách về giao dịch và thị trường tài chính",
+              "hướng dẫn Market Structure",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "Market Structure hoạt động như thế nào",
+              "hướng dẫn thực hành Market Structure",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "giao dịch và thị trường tài chính"
+          },
+          "th": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING หนังสือ",
+              "หนังสือ การเทรดและตลาดการเงิน",
+              "คู่มือ Market Structure",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "Market Structure ทำงานอย่างไร",
+              "คู่มือ Market Structure แบบปฏิบัติ",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "การเทรดและตลาดการเงิน"
+          },
+          "bn": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING বই",
+              "ট্রেডিং ও আর্থিক বাজার বই",
+              "Market Structure গাইড",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "Market Structure কীভাবে কাজ করে",
+              "Market Structure ব্যবহারিক গাইড",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "ট্রেডিং ও আর্থিক বাজার"
+          },
+          "ro": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING carte",
+              "carte despre trading și piețe financiare",
+              "ghid Market Structure",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "cum funcționează Market Structure",
+              "ghid practic pentru Market Structure",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading și piețe financiare"
+          },
+          "fil": {
+            "primary_query": "MICRO E-MINI FUTURES TRADING",
+            "secondary_queries": [
+              "MICRO E-MINI FUTURES TRADING aklat",
+              "aklat tungkol sa trading at financial markets",
+              "gabay sa Market Structure",
+              "Market Structure",
+              "Intraday Strategies",
+              "and Risk"
+            ],
+            "long_tail_queries": [
+              "paano gumagana ang Market Structure",
+              "praktikal na gabay sa Market Structure",
+              "MICRO E-MINI FUTURES TRADING Faramarz Kowsari"
+            ],
+            "category_phrase": "trading at financial markets"
+          }
+        },
+        "related_slugs": [
+          "confluence-trading",
+          "0dte-options",
+          "swing-trading-mastery",
+          "liquidity-sweep",
+          "premium-and-discount-zones"
+        ]
+      },
+      "key_topics": [],
+      "learning": [],
+      "target_audience": "",
+      "url": "https://faramarzkowsari.github.io/books/micro-e-mini-futures-trading/",
+      "google_books_id": "9j8jEgAAQBAJ",
+      "google_books_url": "https://play.google.com/store/books/details?id=9j8jEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=9j8jEgAAQBAJ&hl=en",
+      "cover_url": "https://books.google.com/books/content?id=9j8jEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "published_date": "2026",
       "isbn": "",
       "doi": ""
     },

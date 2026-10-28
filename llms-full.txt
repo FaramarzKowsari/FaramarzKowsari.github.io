@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (172)
+## Books (173)
 
 ### Depremde Hayatta Kalma
 
@@ -3387,6 +3387,17 @@ What readers learn:
 - Use visual checklists and chart examples to build a repeatable support-and-resistance process.
 
 Audience: For beginner and intermediate price-action traders who want a visual, practical method for reading support and resistance without assuming every touch must reverse.
+
+### MICRO E-MINI FUTURES TRADING
+
+- Canonical page: https://faramarzkowsari.github.io/books/micro-e-mini-futures-trading/
+- Language: English
+- Category: Trading
+- Subtitle: A Practical Guide to MES & MNQ Futures, Market Structure, Intraday Strategies, Execution, and Risk
+- Google Books: https://play.google.com/store/books/details?id=9j8jEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=9j8jEgAAQBAJ&hl=en
+
+MICRO E-MINI FUTURES TRADING: A Practical Guide to MES & MNQ Futures, Market Structure, Intraday Strategies, Execution, and Risk. A practical book by Faramarz Kowsari.
 
 ### Multi-Timeframe Analysis
 
