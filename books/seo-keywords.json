@@ -35381,7 +35381,7 @@
       "kotu-gun-disiplini",
       "sen-daha-az-icin-fazla-degerlisin",
       "let-them-leave-but-do-not-leave-yourself",
-      "antes-de-que-tu-mente-le-ponga-nombre"
+      "the-narcissism-survival-guide"
     ],
     "secondary_queries": [
       "Micro Cheating book",
@@ -44311,7 +44311,7 @@
       "let-karma-handle-it",
       "the-discipline-of-bad-days",
       "money-follows-money",
-      "the-narcissism-survival-guide"
+      "you-can-t-control-life-but-you-can-train-your-response"
     ],
     "secondary_queries": [
       "Stop Explaining Yourself book",
@@ -47813,7 +47813,7 @@
       "claude-agent-skills-playbook",
       "yuksek-cozunurluklu-zihin",
       "before-your-mind-names-it",
-      "antes-de-que-tu-mente-le-ponga-nombre"
+      "the-narcissism-survival-guide"
     ],
     "secondary_queries": [
       "The High-Resolution Mind book",
@@ -49131,8 +49131,8 @@
     ]
   },
   "the-narcissism-survival-guide": {
-    "cluster": "business-marketing",
-    "cluster_label": "Business, Marketing & Entrepreneurship",
+    "cluster": "psychology-personal-growth",
+    "cluster_label": "Psychology, Mindfulness & Personal Growth",
     "entities": [
       "Narcissistic patterns",
       "Narcissistic traits and narcissistic personality disorder",
@@ -49468,13 +49468,13 @@
       "the-power-of-deletion",
       "micro-cheating",
       "the-monster-in-the-mirror",
-      "stop-explaining-yourself",
-      "claude-ai-for-small-business"
+      "wealth-begins-where-you-stop-selling-yourself-cheap",
+      "let-them-leave-but-do-not-leave-yourself"
     ],
     "secondary_queries": [
       "THE NARCISSISM SURVIVAL GUIDE book",
       "Recognize Narcissistic Patterns, Set Effective Boundaries, and Protect Yourself at Home, at Work, and in Everyday Life",
-      "Psychology, Relationships & Personal Boundaries",
+      "Psychology, Relationships, Personal Growth & Boundaries",
       "Narcissistic patterns",
       "Narcissistic traits and narcissistic personality disorder",
       "Behavior-focused assessment",

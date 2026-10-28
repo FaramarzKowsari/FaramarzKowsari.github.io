@@ -67380,7 +67380,7 @@
     "status": "active",
     "content_status": "complete",
     "language": "English",
-    "category": "Psychology, Relationships & Personal Boundaries",
+    "category": "Psychology, Relationships, Personal Growth & Boundaries",
     "translation_group": "",
     "subtitle": "Recognize Narcissistic Patterns, Set Effective Boundaries, and Protect Yourself at Home, at Work, and in Everyday Life",
     "description": "",
@@ -67472,27 +67472,8 @@
     "source_review_status": "complete",
     "source_scope": "Library source THE_NARCISSISM_SURVIVAL_GUIDE_Faramarz_Kowsari.pdf reviewed from the title and copyright/reader-information pages, scope-and-safety section, complete 37-chapter contents, family/relationship/workplace/institutional sections, boundary and response chapters, documentation/privacy/digital-security material, decision matrix, low-cost exit and safety planning, recovery and self-accountability chapters, and Appendices A-D. Public-page enrichment is limited to concepts, cautions and practical framing supported by the reviewed manuscript. The source explicitly presents the book as educational rather than diagnostic, psychotherapeutic, legal or individualized safety advice.",
     "seo": {
-      "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-      "secondary_queries": [
-        "THE NARCISSISM SURVIVAL GUIDE book",
-        "Recognize Narcissistic Patterns, Set Effective Boundaries, and Protect Yourself at Home, at Work, and in Everyday Life",
-        "Psychology, Relationships & Personal Boundaries",
-        "Narcissistic patterns",
-        "Narcissistic traits and narcissistic personality disorder",
-        "Behavior-focused assessment",
-        "Grandiose and vulnerable presentations",
-        "Power imbalance",
-        "Entitlement and double standards",
-        "Exploitation",
-        "Image management",
-        "Conditional approval"
-      ],
-      "long_tail_queries": [
-        "THE NARCISSISM SURVIVAL GUIDE by Faramarz Kowsari",
-        "practical guide to Narcissistic patterns",
-        "how Narcissistic patterns works",
-        "Narcissistic patterns Narcissistic traits and narcissistic personality disorder"
-      ],
+      "cluster": "business-marketing",
+      "cluster_label": "Business, Marketing & Entrepreneurship",
       "entities": [
         "Narcissistic patterns",
         "Narcissistic traits and narcissistic personality disorder",
@@ -67515,170 +67496,14 @@
         "Adult children and intrusive parents",
         "Siblings and family alliances"
       ],
-      "cluster": "business-marketing",
-      "cluster_label": "Business, Marketing & Entrepreneurship",
       "localized": {
-        "en": {
-          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-          "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE book",
-            "psychology and personal growth book",
-            "Narcissistic patterns guide",
-            "Narcissistic patterns",
-            "Narcissistic traits and narcissistic personality disorder",
-            "Behavior-focused assessment",
-            "Grandiose and vulnerable presentations",
-            "Power imbalance",
-            "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "how Narcissistic patterns works",
-            "practical guide to Narcissistic patterns",
-            "THE NARCISSISM SURVIVAL GUIDE by Faramarz Kowsari"
-          ],
-          "category_phrase": "psychology and personal growth"
-        },
-        "tr": {
-          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-          "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE kitap",
-            "psikoloji ve kişisel gelişim kitap",
-            "Narcissistic patterns rehberi",
-            "Narcissistic patterns",
-            "Narcissistic traits and narcissistic personality disorder",
-            "Behavior-focused assessment",
-            "Grandiose and vulnerable presentations",
-            "Power imbalance",
-            "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "Narcissistic patterns nasıl çalışır",
-            "Narcissistic patterns için uygulamalı rehberi",
-            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
-          ],
-          "category_phrase": "psikoloji ve kişisel gelişim"
-        },
-        "ru": {
-          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-          "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE книга",
-            "книга о психология и личное развитие",
-            "руководство по Narcissistic patterns",
-            "Narcissistic patterns",
-            "Narcissistic traits and narcissistic personality disorder",
-            "Behavior-focused assessment",
-            "Grandiose and vulnerable presentations",
-            "Power imbalance",
-            "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "как работает Narcissistic patterns",
-            "практическое руководство по Narcissistic patterns",
-            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
-          ],
-          "category_phrase": "психология и личное развитие"
-        },
-        "de": {
-          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-          "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE Buch",
-            "Psychologie und persönliche Entwicklung Buch",
-            "Narcissistic patterns Leitfaden",
-            "Narcissistic patterns",
-            "Narcissistic traits and narcissistic personality disorder",
-            "Behavior-focused assessment",
-            "Grandiose and vulnerable presentations",
-            "Power imbalance",
-            "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "wie funktioniert Narcissistic patterns",
-            "praktischer Leitfaden zu Narcissistic patterns",
-            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
-          ],
-          "category_phrase": "Psychologie und persönliche Entwicklung"
-        },
-        "es": {
-          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-          "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE libro",
-            "libro de psicología y desarrollo personal",
-            "guía de Narcissistic patterns",
-            "Narcissistic patterns",
-            "Narcissistic traits and narcissistic personality disorder",
-            "Behavior-focused assessment",
-            "Grandiose and vulnerable presentations",
-            "Power imbalance",
-            "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "cómo funciona Narcissistic patterns",
-            "guía práctica de Narcissistic patterns",
-            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
-          ],
-          "category_phrase": "psicología y desarrollo personal"
-        },
-        "fr": {
-          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-          "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE livre",
-            "livre sur psychologie et développement personnel",
-            "guide Narcissistic patterns",
-            "Narcissistic patterns",
-            "Narcissistic traits and narcissistic personality disorder",
-            "Behavior-focused assessment",
-            "Grandiose and vulnerable presentations",
-            "Power imbalance",
-            "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "comment fonctionne Narcissistic patterns",
-            "guide pratique de Narcissistic patterns",
-            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
-          ],
-          "category_phrase": "psychologie et développement personnel"
-        },
-        "pt-BR": {
-          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-          "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE livro",
-            "livro sobre psicologia e desenvolvimento pessoal",
-            "guia de Narcissistic patterns",
-            "Narcissistic patterns",
-            "Narcissistic traits and narcissistic personality disorder",
-            "Behavior-focused assessment",
-            "Grandiose and vulnerable presentations",
-            "Power imbalance",
-            "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "como funciona Narcissistic patterns",
-            "guia prático de Narcissistic patterns",
-            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
-          ],
-          "category_phrase": "psicologia e desenvolvimento pessoal"
-        },
-        "fa": {
-          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-          "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE کتاب",
-            "کتاب روان‌شناسی و رشد فردی",
-            "راهنما Narcissistic patterns",
-            "Narcissistic patterns",
-            "Narcissistic traits and narcissistic personality disorder",
-            "Behavior-focused assessment",
-            "Grandiose and vulnerable presentations",
-            "Power imbalance",
-            "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "Narcissistic patterns چیست",
-            "راهنما کاربردی Narcissistic patterns",
-            "THE NARCISSISM SURVIVAL GUIDE فرامرز کوثری"
-          ],
-          "category_phrase": "روان‌شناسی و رشد فردی"
-        },
         "ar": {
+          "category_phrase": "علم النفس والتنمية الشخصية",
+          "long_tail_queries": [
+            "ما هو Narcissistic patterns",
+            "دليل عملي عن Narcissistic patterns",
+            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+          ],
           "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
           "secondary_queries": [
             "THE NARCISSISM SURVIVAL GUIDE كتاب",
@@ -67690,75 +67515,15 @@
             "Grandiose and vulnerable presentations",
             "Power imbalance",
             "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "ما هو Narcissistic patterns",
-            "دليل عملي عن Narcissistic patterns",
-            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
-          ],
-          "category_phrase": "علم النفس والتنمية الشخصية"
-        },
-        "id": {
-          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-          "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE buku",
-            "buku psikologi dan pengembangan diri",
-            "panduan Narcissistic patterns",
-            "Narcissistic patterns",
-            "Narcissistic traits and narcissistic personality disorder",
-            "Behavior-focused assessment",
-            "Grandiose and vulnerable presentations",
-            "Power imbalance",
-            "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "cara kerja Narcissistic patterns",
-            "panduan praktis Narcissistic patterns",
-            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
-          ],
-          "category_phrase": "psikologi dan pengembangan diri"
-        },
-        "vi": {
-          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-          "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE sách",
-            "sách về tâm lý học và phát triển bản thân",
-            "hướng dẫn Narcissistic patterns",
-            "Narcissistic patterns",
-            "Narcissistic traits and narcissistic personality disorder",
-            "Behavior-focused assessment",
-            "Grandiose and vulnerable presentations",
-            "Power imbalance",
-            "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "Narcissistic patterns hoạt động như thế nào",
-            "hướng dẫn thực hành Narcissistic patterns",
-            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
-          ],
-          "category_phrase": "tâm lý học và phát triển bản thân"
-        },
-        "th": {
-          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
-          "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE หนังสือ",
-            "หนังสือ จิตวิทยาและการพัฒนาตนเอง",
-            "คู่มือ Narcissistic patterns",
-            "Narcissistic patterns",
-            "Narcissistic traits and narcissistic personality disorder",
-            "Behavior-focused assessment",
-            "Grandiose and vulnerable presentations",
-            "Power imbalance",
-            "Entitlement and double standards"
-          ],
-          "long_tail_queries": [
-            "Narcissistic patterns ทำงานอย่างไร",
-            "คู่มือ Narcissistic patterns แบบปฏิบัติ",
-            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
-          ],
-          "category_phrase": "จิตวิทยาและการพัฒนาตนเอง"
+          ]
         },
         "bn": {
+          "category_phrase": "মনোবিজ্ঞান ও ব্যক্তিগত উন্নয়ন",
+          "long_tail_queries": [
+            "Narcissistic patterns কীভাবে কাজ করে",
+            "Narcissistic patterns ব্যবহারিক গাইড",
+            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+          ],
           "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
           "secondary_queries": [
             "THE NARCISSISM SURVIVAL GUIDE বই",
@@ -67770,35 +67535,95 @@
             "Grandiose and vulnerable presentations",
             "Power imbalance",
             "Entitlement and double standards"
-          ],
+          ]
+        },
+        "de": {
+          "category_phrase": "Psychologie und persönliche Entwicklung",
           "long_tail_queries": [
-            "Narcissistic patterns কীভাবে কাজ করে",
-            "Narcissistic patterns ব্যবহারিক গাইড",
+            "wie funktioniert Narcissistic patterns",
+            "praktischer Leitfaden zu Narcissistic patterns",
             "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
           ],
-          "category_phrase": "মনোবিজ্ঞান ও ব্যক্তিগত উন্নয়ন"
-        },
-        "ro": {
           "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
           "secondary_queries": [
-            "THE NARCISSISM SURVIVAL GUIDE carte",
-            "carte despre psihologie și dezvoltare personală",
-            "ghid Narcissistic patterns",
+            "THE NARCISSISM SURVIVAL GUIDE Buch",
+            "Psychologie und persönliche Entwicklung Buch",
+            "Narcissistic patterns Leitfaden",
             "Narcissistic patterns",
             "Narcissistic traits and narcissistic personality disorder",
             "Behavior-focused assessment",
             "Grandiose and vulnerable presentations",
             "Power imbalance",
             "Entitlement and double standards"
-          ],
+          ]
+        },
+        "en": {
+          "category_phrase": "psychology and personal growth",
           "long_tail_queries": [
-            "cum funcționează Narcissistic patterns",
-            "ghid practic pentru Narcissistic patterns",
+            "how Narcissistic patterns works",
+            "practical guide to Narcissistic patterns",
+            "THE NARCISSISM SURVIVAL GUIDE by Faramarz Kowsari"
+          ],
+          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+          "secondary_queries": [
+            "THE NARCISSISM SURVIVAL GUIDE book",
+            "psychology and personal growth book",
+            "Narcissistic patterns guide",
+            "Narcissistic patterns",
+            "Narcissistic traits and narcissistic personality disorder",
+            "Behavior-focused assessment",
+            "Grandiose and vulnerable presentations",
+            "Power imbalance",
+            "Entitlement and double standards"
+          ]
+        },
+        "es": {
+          "category_phrase": "psicología y desarrollo personal",
+          "long_tail_queries": [
+            "cómo funciona Narcissistic patterns",
+            "guía práctica de Narcissistic patterns",
             "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
           ],
-          "category_phrase": "psihologie și dezvoltare personală"
+          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+          "secondary_queries": [
+            "THE NARCISSISM SURVIVAL GUIDE libro",
+            "libro de psicología y desarrollo personal",
+            "guía de Narcissistic patterns",
+            "Narcissistic patterns",
+            "Narcissistic traits and narcissistic personality disorder",
+            "Behavior-focused assessment",
+            "Grandiose and vulnerable presentations",
+            "Power imbalance",
+            "Entitlement and double standards"
+          ]
+        },
+        "fa": {
+          "category_phrase": "روان‌شناسی و رشد فردی",
+          "long_tail_queries": [
+            "Narcissistic patterns چیست",
+            "راهنما کاربردی Narcissistic patterns",
+            "THE NARCISSISM SURVIVAL GUIDE فرامرز کوثری"
+          ],
+          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+          "secondary_queries": [
+            "THE NARCISSISM SURVIVAL GUIDE کتاب",
+            "کتاب روان‌شناسی و رشد فردی",
+            "راهنما Narcissistic patterns",
+            "Narcissistic patterns",
+            "Narcissistic traits and narcissistic personality disorder",
+            "Behavior-focused assessment",
+            "Grandiose and vulnerable presentations",
+            "Power imbalance",
+            "Entitlement and double standards"
+          ]
         },
         "fil": {
+          "category_phrase": "sikolohiya at personal growth",
+          "long_tail_queries": [
+            "paano gumagana ang Narcissistic patterns",
+            "praktikal na gabay sa Narcissistic patterns",
+            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+          ],
           "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
           "secondary_queries": [
             "THE NARCISSISM SURVIVAL GUIDE aklat",
@@ -67810,21 +67635,196 @@
             "Grandiose and vulnerable presentations",
             "Power imbalance",
             "Entitlement and double standards"
-          ],
+          ]
+        },
+        "fr": {
+          "category_phrase": "psychologie et développement personnel",
           "long_tail_queries": [
-            "paano gumagana ang Narcissistic patterns",
-            "praktikal na gabay sa Narcissistic patterns",
+            "comment fonctionne Narcissistic patterns",
+            "guide pratique de Narcissistic patterns",
             "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
           ],
-          "category_phrase": "sikolohiya at personal growth"
+          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+          "secondary_queries": [
+            "THE NARCISSISM SURVIVAL GUIDE livre",
+            "livre sur psychologie et développement personnel",
+            "guide Narcissistic patterns",
+            "Narcissistic patterns",
+            "Narcissistic traits and narcissistic personality disorder",
+            "Behavior-focused assessment",
+            "Grandiose and vulnerable presentations",
+            "Power imbalance",
+            "Entitlement and double standards"
+          ]
+        },
+        "id": {
+          "category_phrase": "psikologi dan pengembangan diri",
+          "long_tail_queries": [
+            "cara kerja Narcissistic patterns",
+            "panduan praktis Narcissistic patterns",
+            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+          ],
+          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+          "secondary_queries": [
+            "THE NARCISSISM SURVIVAL GUIDE buku",
+            "buku psikologi dan pengembangan diri",
+            "panduan Narcissistic patterns",
+            "Narcissistic patterns",
+            "Narcissistic traits and narcissistic personality disorder",
+            "Behavior-focused assessment",
+            "Grandiose and vulnerable presentations",
+            "Power imbalance",
+            "Entitlement and double standards"
+          ]
+        },
+        "pt-BR": {
+          "category_phrase": "psicologia e desenvolvimento pessoal",
+          "long_tail_queries": [
+            "como funciona Narcissistic patterns",
+            "guia prático de Narcissistic patterns",
+            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+          ],
+          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+          "secondary_queries": [
+            "THE NARCISSISM SURVIVAL GUIDE livro",
+            "livro sobre psicologia e desenvolvimento pessoal",
+            "guia de Narcissistic patterns",
+            "Narcissistic patterns",
+            "Narcissistic traits and narcissistic personality disorder",
+            "Behavior-focused assessment",
+            "Grandiose and vulnerable presentations",
+            "Power imbalance",
+            "Entitlement and double standards"
+          ]
+        },
+        "ro": {
+          "category_phrase": "psihologie și dezvoltare personală",
+          "long_tail_queries": [
+            "cum funcționează Narcissistic patterns",
+            "ghid practic pentru Narcissistic patterns",
+            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+          ],
+          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+          "secondary_queries": [
+            "THE NARCISSISM SURVIVAL GUIDE carte",
+            "carte despre psihologie și dezvoltare personală",
+            "ghid Narcissistic patterns",
+            "Narcissistic patterns",
+            "Narcissistic traits and narcissistic personality disorder",
+            "Behavior-focused assessment",
+            "Grandiose and vulnerable presentations",
+            "Power imbalance",
+            "Entitlement and double standards"
+          ]
+        },
+        "ru": {
+          "category_phrase": "психология и личное развитие",
+          "long_tail_queries": [
+            "как работает Narcissistic patterns",
+            "практическое руководство по Narcissistic patterns",
+            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+          ],
+          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+          "secondary_queries": [
+            "THE NARCISSISM SURVIVAL GUIDE книга",
+            "книга о психология и личное развитие",
+            "руководство по Narcissistic patterns",
+            "Narcissistic patterns",
+            "Narcissistic traits and narcissistic personality disorder",
+            "Behavior-focused assessment",
+            "Grandiose and vulnerable presentations",
+            "Power imbalance",
+            "Entitlement and double standards"
+          ]
+        },
+        "th": {
+          "category_phrase": "จิตวิทยาและการพัฒนาตนเอง",
+          "long_tail_queries": [
+            "Narcissistic patterns ทำงานอย่างไร",
+            "คู่มือ Narcissistic patterns แบบปฏิบัติ",
+            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+          ],
+          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+          "secondary_queries": [
+            "THE NARCISSISM SURVIVAL GUIDE หนังสือ",
+            "หนังสือ จิตวิทยาและการพัฒนาตนเอง",
+            "คู่มือ Narcissistic patterns",
+            "Narcissistic patterns",
+            "Narcissistic traits and narcissistic personality disorder",
+            "Behavior-focused assessment",
+            "Grandiose and vulnerable presentations",
+            "Power imbalance",
+            "Entitlement and double standards"
+          ]
+        },
+        "tr": {
+          "category_phrase": "psikoloji ve kişisel gelişim",
+          "long_tail_queries": [
+            "Narcissistic patterns nasıl çalışır",
+            "Narcissistic patterns için uygulamalı rehberi",
+            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+          ],
+          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+          "secondary_queries": [
+            "THE NARCISSISM SURVIVAL GUIDE kitap",
+            "psikoloji ve kişisel gelişim kitap",
+            "Narcissistic patterns rehberi",
+            "Narcissistic patterns",
+            "Narcissistic traits and narcissistic personality disorder",
+            "Behavior-focused assessment",
+            "Grandiose and vulnerable presentations",
+            "Power imbalance",
+            "Entitlement and double standards"
+          ]
+        },
+        "vi": {
+          "category_phrase": "tâm lý học và phát triển bản thân",
+          "long_tail_queries": [
+            "Narcissistic patterns hoạt động như thế nào",
+            "hướng dẫn thực hành Narcissistic patterns",
+            "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+          ],
+          "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+          "secondary_queries": [
+            "THE NARCISSISM SURVIVAL GUIDE sách",
+            "sách về tâm lý học và phát triển bản thân",
+            "hướng dẫn Narcissistic patterns",
+            "Narcissistic patterns",
+            "Narcissistic traits and narcissistic personality disorder",
+            "Behavior-focused assessment",
+            "Grandiose and vulnerable presentations",
+            "Power imbalance",
+            "Entitlement and double standards"
+          ]
         }
       },
+      "long_tail_queries": [
+        "THE NARCISSISM SURVIVAL GUIDE by Faramarz Kowsari",
+        "practical guide to Narcissistic patterns",
+        "how Narcissistic patterns works",
+        "Narcissistic patterns Narcissistic traits and narcissistic personality disorder"
+      ],
+      "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
       "related_slugs": [
         "the-power-of-deletion",
         "micro-cheating",
         "the-monster-in-the-mirror",
         "stop-explaining-yourself",
         "claude-ai-for-small-business"
+      ],
+      "secondary_queries": [
+        "THE NARCISSISM SURVIVAL GUIDE book",
+        "Recognize Narcissistic Patterns, Set Effective Boundaries, and Protect Yourself at Home, at Work, and in Everyday Life",
+        "Psychology, Relationships & Personal Boundaries",
+        "Narcissistic patterns",
+        "Narcissistic traits and narcissistic personality disorder",
+        "Behavior-focused assessment",
+        "Grandiose and vulnerable presentations",
+        "Power imbalance",
+        "Entitlement and double standards",
+        "Exploitation",
+        "Image management",
+        "Conditional approval"
       ]
     },
     "source_reviewed": true
