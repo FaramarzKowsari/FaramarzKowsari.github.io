@@ -434,6 +434,11 @@
     "variant": "catalog",
     "source": "catalog_google_books"
   },
+  "Vl0iEgAAQBAJ": {
+    "url": "https://books.google.com/books/content?id=Vl0iEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "variant": "catalog",
+    "source": "catalog_google_books"
+  },
   "WScOEgAAQBAJ": {
     "url": "https://books.google.com/books/content?id=WScOEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "variant": "catalog",
@@ -554,6 +559,11 @@
     "variant": "catalog",
     "source": "catalog_google_books"
   },
+  "cSQjEgAAQBAJ": {
+    "url": "https://books.google.com/books/content?id=cSQjEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "variant": "catalog",
+    "source": "catalog_google_books"
+  },
   "d-khEgAAQBAJ": {
     "url": "https://books.google.com/books/content?id=d-khEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "variant": "catalog",
@@ -591,6 +601,11 @@
   },
   "gDkLEgAAQBAJ": {
     "url": "https://books.google.com/books/content?id=gDkLEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "variant": "catalog",
+    "source": "catalog_google_books"
+  },
+  "gF0iEgAAQBAJ": {
+    "url": "https://books.google.com/books/content?id=gF0iEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
     "variant": "catalog",
     "source": "catalog_google_books"
   },

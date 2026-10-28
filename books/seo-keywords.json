@@ -330,7 +330,7 @@
       "prop-firm-funded-account-trading",
       "xauusd-scalping",
       "premium-and-discount-zones",
-      "false-breakouts-fakeouts"
+      "swing-trading-mastery"
     ],
     "secondary_queries": [
       "0DTE Options: Trading the Same-Day Market book",
@@ -12971,8 +12971,8 @@
       "beyond-the-single-candle",
       "smart-money-concepts",
       "market-structure-trading",
-      "mastering-renko-trading",
-      "premium-and-discount-zones"
+      "swing-trading-mastery",
+      "mastering-renko-trading"
     ],
     "secondary_queries": [
       "Confluence Trading book",
@@ -18410,6 +18410,362 @@
       "Escalera de productos"
     ]
   },
+  "engineering-creativity-with-ai": {
+    "cluster": "artificial-intelligence",
+    "cluster_label": "Artificial Intelligence",
+    "entities": [
+      "AI-assisted creativity",
+      "Creativity engineering",
+      "Human-AI creative partnership",
+      "Creative cognition",
+      "Generative AI and novelty",
+      "AI-CE9 framework",
+      "Opportunity discovery",
+      "Solution-space mapping",
+      "Problem reframing",
+      "Divergent idea generation",
+      "Cross-domain synthesis",
+      "Creative candidate evaluation",
+      "Minimum viable prototypes",
+      "Originality validation",
+      "Real-world value validation",
+      "TRIZ",
+      "SCAMPER",
+      "Systematic Inventive Thinking (SIT)",
+      "Morphological analysis",
+      "Analogical reasoning"
+    ],
+    "localized": {
+      "ar": {
+        "category_phrase": "الذكاء الاصطناعي",
+        "long_tail_queries": [
+          "ما هو AI-assisted creativity",
+          "دليل عملي عن AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI كتاب",
+          "كتاب عن الذكاء الاصطناعي",
+          "دليل AI-assisted creativity",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "bn": {
+        "category_phrase": "কৃত্রিম বুদ্ধিমত্তা",
+        "long_tail_queries": [
+          "AI-assisted creativity কীভাবে কাজ করে",
+          "AI-assisted creativity ব্যবহারিক গাইড",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI বই",
+          "কৃত্রিম বুদ্ধিমত্তা বই",
+          "AI-assisted creativity গাইড",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "de": {
+        "category_phrase": "Künstliche Intelligenz",
+        "long_tail_queries": [
+          "wie funktioniert AI-assisted creativity",
+          "praktischer Leitfaden zu AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI Buch",
+          "Künstliche Intelligenz Buch",
+          "AI-assisted creativity Leitfaden",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "en": {
+        "category_phrase": "artificial intelligence",
+        "long_tail_queries": [
+          "how AI-assisted creativity works",
+          "practical guide to AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI by Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI book",
+          "artificial intelligence book",
+          "AI-assisted creativity guide",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "es": {
+        "category_phrase": "inteligencia artificial",
+        "long_tail_queries": [
+          "cómo funciona AI-assisted creativity",
+          "guía práctica de AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI libro",
+          "libro de inteligencia artificial",
+          "guía de AI-assisted creativity",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "fa": {
+        "category_phrase": "هوش مصنوعی",
+        "long_tail_queries": [
+          "AI-assisted creativity چیست",
+          "راهنما کاربردی AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI فرامرز کوثری"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI کتاب",
+          "کتاب هوش مصنوعی",
+          "راهنما AI-assisted creativity",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "fil": {
+        "category_phrase": "artificial intelligence",
+        "long_tail_queries": [
+          "paano gumagana ang AI-assisted creativity",
+          "praktikal na gabay sa AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI aklat",
+          "aklat tungkol sa artificial intelligence",
+          "gabay sa AI-assisted creativity",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "fr": {
+        "category_phrase": "intelligence artificielle",
+        "long_tail_queries": [
+          "comment fonctionne AI-assisted creativity",
+          "guide pratique de AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI livre",
+          "livre sur intelligence artificielle",
+          "guide AI-assisted creativity",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "id": {
+        "category_phrase": "kecerdasan buatan",
+        "long_tail_queries": [
+          "cara kerja AI-assisted creativity",
+          "panduan praktis AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI buku",
+          "buku kecerdasan buatan",
+          "panduan AI-assisted creativity",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "pt-BR": {
+        "category_phrase": "inteligência artificial",
+        "long_tail_queries": [
+          "como funciona AI-assisted creativity",
+          "guia prático de AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI livro",
+          "livro sobre inteligência artificial",
+          "guia de AI-assisted creativity",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "ro": {
+        "category_phrase": "inteligență artificială",
+        "long_tail_queries": [
+          "cum funcționează AI-assisted creativity",
+          "ghid practic pentru AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI carte",
+          "carte despre inteligență artificială",
+          "ghid AI-assisted creativity",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "ru": {
+        "category_phrase": "искусственный интеллект",
+        "long_tail_queries": [
+          "как работает AI-assisted creativity",
+          "практическое руководство по AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI книга",
+          "книга о искусственный интеллект",
+          "руководство по AI-assisted creativity",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "th": {
+        "category_phrase": "ปัญญาประดิษฐ์",
+        "long_tail_queries": [
+          "AI-assisted creativity ทำงานอย่างไร",
+          "คู่มือ AI-assisted creativity แบบปฏิบัติ",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI หนังสือ",
+          "หนังสือ ปัญญาประดิษฐ์",
+          "คู่มือ AI-assisted creativity",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "tr": {
+        "category_phrase": "yapay zekâ",
+        "long_tail_queries": [
+          "AI-assisted creativity nasıl çalışır",
+          "AI-assisted creativity için uygulamalı rehberi",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI kitap",
+          "yapay zekâ kitap",
+          "AI-assisted creativity rehberi",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      },
+      "vi": {
+        "category_phrase": "trí tuệ nhân tạo",
+        "long_tail_queries": [
+          "AI-assisted creativity hoạt động như thế nào",
+          "hướng dẫn thực hành AI-assisted creativity",
+          "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI sách",
+          "sách về trí tuệ nhân tạo",
+          "hướng dẫn AI-assisted creativity",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework"
+        ]
+      }
+    },
+    "long_tail_queries": [
+      "ENGINEERING CREATIVITY WITH AI by Faramarz Kowsari",
+      "practical guide to AI-assisted creativity",
+      "how AI-assisted creativity works",
+      "AI-assisted creativity Creativity engineering"
+    ],
+    "primary_query": "ENGINEERING CREATIVITY WITH AI",
+    "related_slugs": [
+      "rag-engineering",
+      "chatgpt-6-astra",
+      "claude-agent-skills-playbook",
+      "ai-apis-in-practice",
+      "claude-fable-5-1-and-mythos-5-1"
+    ],
+    "secondary_queries": [
+      "ENGINEERING CREATIVITY WITH AI book",
+      "A Systematic Framework for Breakthrough Thinking, Original Innovation, and Real-World Value Creation",
+      "Artificial Intelligence & Creativity",
+      "AI-assisted creativity",
+      "Creativity engineering",
+      "Human-AI creative partnership",
+      "Creative cognition",
+      "Generative AI and novelty",
+      "AI-CE9 framework",
+      "Opportunity discovery",
+      "Solution-space mapping",
+      "Problem reframing"
+    ]
+  },
   "engineering-turkey": {
     "cluster": "software-technology",
     "cluster_label": "Software, APIs & Technology",
@@ -18654,7 +19010,7 @@
       "ai-apis-in-practice",
       "claude-fable-5-1-and-mythos-5-1",
       "context-engineering-with-claude",
-      "rag-engineering"
+      "engineering-creativity-with-ai"
     ],
     "secondary_queries": [
       "Engineering Turkey book",
@@ -37024,8 +37380,8 @@
       "0dte-options",
       "options-flow-trading",
       "gamma-exposure-trading",
-      "confluence-trading",
-      "crypto-liquidation-heatmaps"
+      "swing-trading-mastery",
+      "confluence-trading"
     ],
     "secondary_queries": [
       "NIFTY 50 OPTIONS TRADING book",
@@ -38091,7 +38447,7 @@
     "related_slugs": [
       "nifty-50-options-trading",
       "0dte-options",
-      "silver-trading",
+      "swing-trading-mastery",
       "gamma-exposure-trading",
       "options-flow-trading"
     ],
@@ -43955,7 +44311,7 @@
       "let-karma-handle-it",
       "the-discipline-of-bad-days",
       "money-follows-money",
-      "you-can-t-control-life-but-you-can-train-your-response"
+      "the-narcissism-survival-guide"
     ],
     "secondary_queries": [
       "Stop Explaining Yourself book",
@@ -44318,6 +44674,362 @@
       "Liquidity",
       "Multi-timeframe mapping",
       "Entry models"
+    ]
+  },
+  "swing-trading-mastery": {
+    "cluster": "trading-markets",
+    "cluster_label": "Trading & Financial Markets",
+    "entities": [
+      "Swing trading",
+      "Price action",
+      "Market structure",
+      "Trend and swing identification",
+      "Support and resistance zones",
+      "Multiple-timeframe analysis",
+      "Volatility and ATR",
+      "Volume and participation",
+      "Market regimes",
+      "Market breadth",
+      "Intermarket context",
+      "Swing-trading screeners",
+      "Relative strength",
+      "Sector leadership and rotation",
+      "Candlestick evidence",
+      "Moving averages",
+      "Momentum",
+      "RSI",
+      "MACD",
+      "Divergence"
+    ],
+    "localized": {
+      "ar": {
+        "category_phrase": "التداول والأسواق المالية",
+        "long_tail_queries": [
+          "ما هو Swing trading",
+          "دليل عملي عن Swing trading",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY كتاب",
+          "كتاب عن التداول والأسواق المالية",
+          "دليل Swing trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "bn": {
+        "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
+        "long_tail_queries": [
+          "Swing trading কীভাবে কাজ করে",
+          "Swing trading ব্যবহারিক গাইড",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY বই",
+          "ট্রেডিং ও আর্থিক বাজার বই",
+          "Swing trading গাইড",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "de": {
+        "category_phrase": "Trading und Finanzmärkte",
+        "long_tail_queries": [
+          "wie funktioniert Swing trading",
+          "praktischer Leitfaden zu Swing trading",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY Buch",
+          "Trading und Finanzmärkte Buch",
+          "Swing trading Leitfaden",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "en": {
+        "category_phrase": "trading and financial markets",
+        "long_tail_queries": [
+          "how Swing trading works",
+          "practical guide to Swing trading",
+          "SWING TRADING MASTERY by Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY book",
+          "trading and financial markets book",
+          "Swing trading guide",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "es": {
+        "category_phrase": "trading y mercados financieros",
+        "long_tail_queries": [
+          "cómo funciona Swing trading",
+          "guía práctica de Swing trading",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY libro",
+          "libro de trading y mercados financieros",
+          "guía de Swing trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "fa": {
+        "category_phrase": "معامله‌گری و بازارهای مالی",
+        "long_tail_queries": [
+          "Swing trading چیست",
+          "راهنما کاربردی Swing trading",
+          "SWING TRADING MASTERY فرامرز کوثری"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY کتاب",
+          "کتاب معامله‌گری و بازارهای مالی",
+          "راهنما Swing trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "fil": {
+        "category_phrase": "trading at financial markets",
+        "long_tail_queries": [
+          "paano gumagana ang Swing trading",
+          "praktikal na gabay sa Swing trading",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY aklat",
+          "aklat tungkol sa trading at financial markets",
+          "gabay sa Swing trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "fr": {
+        "category_phrase": "trading et marchés financiers",
+        "long_tail_queries": [
+          "comment fonctionne Swing trading",
+          "guide pratique de Swing trading",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY livre",
+          "livre sur trading et marchés financiers",
+          "guide Swing trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "id": {
+        "category_phrase": "trading dan pasar keuangan",
+        "long_tail_queries": [
+          "cara kerja Swing trading",
+          "panduan praktis Swing trading",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY buku",
+          "buku trading dan pasar keuangan",
+          "panduan Swing trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "pt-BR": {
+        "category_phrase": "trading e mercados financeiros",
+        "long_tail_queries": [
+          "como funciona Swing trading",
+          "guia prático de Swing trading",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY livro",
+          "livro sobre trading e mercados financeiros",
+          "guia de Swing trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "ro": {
+        "category_phrase": "trading și piețe financiare",
+        "long_tail_queries": [
+          "cum funcționează Swing trading",
+          "ghid practic pentru Swing trading",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY carte",
+          "carte despre trading și piețe financiare",
+          "ghid Swing trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "ru": {
+        "category_phrase": "трейдинг и финансовые рынки",
+        "long_tail_queries": [
+          "как работает Swing trading",
+          "практическое руководство по Swing trading",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY книга",
+          "книга о трейдинг и финансовые рынки",
+          "руководство по Swing trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "th": {
+        "category_phrase": "การเทรดและตลาดการเงิน",
+        "long_tail_queries": [
+          "Swing trading ทำงานอย่างไร",
+          "คู่มือ Swing trading แบบปฏิบัติ",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY หนังสือ",
+          "หนังสือ การเทรดและตลาดการเงิน",
+          "คู่มือ Swing trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "tr": {
+        "category_phrase": "trading ve finansal piyasalar",
+        "long_tail_queries": [
+          "Swing trading nasıl çalışır",
+          "Swing trading için uygulamalı rehberi",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY kitap",
+          "trading ve finansal piyasalar kitap",
+          "Swing trading rehberi",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      },
+      "vi": {
+        "category_phrase": "giao dịch và thị trường tài chính",
+        "long_tail_queries": [
+          "Swing trading hoạt động như thế nào",
+          "hướng dẫn thực hành Swing trading",
+          "SWING TRADING MASTERY Faramarz Kowsari"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "secondary_queries": [
+          "SWING TRADING MASTERY sách",
+          "sách về giao dịch và thị trường tài chính",
+          "hướng dẫn Swing trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis"
+        ]
+      }
+    },
+    "long_tail_queries": [
+      "SWING TRADING MASTERY by Faramarz Kowsari",
+      "practical guide to Swing trading",
+      "how Swing trading works",
+      "Swing trading Price action"
+    ],
+    "primary_query": "SWING TRADING MASTERY",
+    "related_slugs": [
+      "confluence-trading",
+      "multi-timeframe-analysis",
+      "market-structure-trading",
+      "0dte-options",
+      "liquidity-sweep"
+    ],
+    "secondary_queries": [
+      "SWING TRADING MASTERY book",
+      "A Practical Guide to Price Action, Market Structure, Trading Setups, Risk Management, Backtesting, and Systematic Execution",
+      "Trading",
+      "Swing trading",
+      "Price action",
+      "Market structure",
+      "Trend and swing identification",
+      "Support and resistance zones",
+      "Multiple-timeframe analysis",
+      "Volatility and ATR",
+      "Volume and participation",
+      "Market regimes"
     ]
   },
   "taksit-tuzagi": {
@@ -48055,8 +48767,8 @@
       "confluence-trading",
       "beyond-the-single-candle",
       "mastering-support-and-resistance",
-      "0dte-options",
-      "ai-assisted-crypto-futures"
+      "swing-trading-mastery",
+      "0dte-options"
     ],
     "secondary_queries": [
       "The Mathematical Anatomy of Moving Averages: book",
@@ -48416,6 +49128,362 @@
       "Shadow work",
       "21-day mirror practice",
       "How Fear Turns Other People Into Shadows"
+    ]
+  },
+  "the-narcissism-survival-guide": {
+    "cluster": "business-marketing",
+    "cluster_label": "Business, Marketing & Entrepreneurship",
+    "entities": [
+      "Narcissistic patterns",
+      "Narcissistic traits and narcissistic personality disorder",
+      "Behavior-focused assessment",
+      "Grandiose and vulnerable presentations",
+      "Power imbalance",
+      "Entitlement and double standards",
+      "Exploitation",
+      "Image management",
+      "Conditional approval",
+      "Gaslighting",
+      "Denial and blame-shifting",
+      "Humiliation and contempt",
+      "Devaluation",
+      "Punitive silence",
+      "Guilt and third-party pressure",
+      "Threats and retaliation",
+      "Coercive control",
+      "Controlling parents",
+      "Adult children and intrusive parents",
+      "Siblings and family alliances"
+    ],
+    "localized": {
+      "ar": {
+        "category_phrase": "علم النفس والتنمية الشخصية",
+        "long_tail_queries": [
+          "ما هو Narcissistic patterns",
+          "دليل عملي عن Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE كتاب",
+          "كتاب عن علم النفس والتنمية الشخصية",
+          "دليل Narcissistic patterns",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "bn": {
+        "category_phrase": "মনোবিজ্ঞান ও ব্যক্তিগত উন্নয়ন",
+        "long_tail_queries": [
+          "Narcissistic patterns কীভাবে কাজ করে",
+          "Narcissistic patterns ব্যবহারিক গাইড",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE বই",
+          "মনোবিজ্ঞান ও ব্যক্তিগত উন্নয়ন বই",
+          "Narcissistic patterns গাইড",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "de": {
+        "category_phrase": "Psychologie und persönliche Entwicklung",
+        "long_tail_queries": [
+          "wie funktioniert Narcissistic patterns",
+          "praktischer Leitfaden zu Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE Buch",
+          "Psychologie und persönliche Entwicklung Buch",
+          "Narcissistic patterns Leitfaden",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "en": {
+        "category_phrase": "psychology and personal growth",
+        "long_tail_queries": [
+          "how Narcissistic patterns works",
+          "practical guide to Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE by Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE book",
+          "psychology and personal growth book",
+          "Narcissistic patterns guide",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "es": {
+        "category_phrase": "psicología y desarrollo personal",
+        "long_tail_queries": [
+          "cómo funciona Narcissistic patterns",
+          "guía práctica de Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE libro",
+          "libro de psicología y desarrollo personal",
+          "guía de Narcissistic patterns",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "fa": {
+        "category_phrase": "روان‌شناسی و رشد فردی",
+        "long_tail_queries": [
+          "Narcissistic patterns چیست",
+          "راهنما کاربردی Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE فرامرز کوثری"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE کتاب",
+          "کتاب روان‌شناسی و رشد فردی",
+          "راهنما Narcissistic patterns",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "fil": {
+        "category_phrase": "sikolohiya at personal growth",
+        "long_tail_queries": [
+          "paano gumagana ang Narcissistic patterns",
+          "praktikal na gabay sa Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE aklat",
+          "aklat tungkol sa sikolohiya at personal growth",
+          "gabay sa Narcissistic patterns",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "fr": {
+        "category_phrase": "psychologie et développement personnel",
+        "long_tail_queries": [
+          "comment fonctionne Narcissistic patterns",
+          "guide pratique de Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE livre",
+          "livre sur psychologie et développement personnel",
+          "guide Narcissistic patterns",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "id": {
+        "category_phrase": "psikologi dan pengembangan diri",
+        "long_tail_queries": [
+          "cara kerja Narcissistic patterns",
+          "panduan praktis Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE buku",
+          "buku psikologi dan pengembangan diri",
+          "panduan Narcissistic patterns",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "pt-BR": {
+        "category_phrase": "psicologia e desenvolvimento pessoal",
+        "long_tail_queries": [
+          "como funciona Narcissistic patterns",
+          "guia prático de Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE livro",
+          "livro sobre psicologia e desenvolvimento pessoal",
+          "guia de Narcissistic patterns",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "ro": {
+        "category_phrase": "psihologie și dezvoltare personală",
+        "long_tail_queries": [
+          "cum funcționează Narcissistic patterns",
+          "ghid practic pentru Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE carte",
+          "carte despre psihologie și dezvoltare personală",
+          "ghid Narcissistic patterns",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "ru": {
+        "category_phrase": "психология и личное развитие",
+        "long_tail_queries": [
+          "как работает Narcissistic patterns",
+          "практическое руководство по Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE книга",
+          "книга о психология и личное развитие",
+          "руководство по Narcissistic patterns",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "th": {
+        "category_phrase": "จิตวิทยาและการพัฒนาตนเอง",
+        "long_tail_queries": [
+          "Narcissistic patterns ทำงานอย่างไร",
+          "คู่มือ Narcissistic patterns แบบปฏิบัติ",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE หนังสือ",
+          "หนังสือ จิตวิทยาและการพัฒนาตนเอง",
+          "คู่มือ Narcissistic patterns",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "tr": {
+        "category_phrase": "psikoloji ve kişisel gelişim",
+        "long_tail_queries": [
+          "Narcissistic patterns nasıl çalışır",
+          "Narcissistic patterns için uygulamalı rehberi",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE kitap",
+          "psikoloji ve kişisel gelişim kitap",
+          "Narcissistic patterns rehberi",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      },
+      "vi": {
+        "category_phrase": "tâm lý học và phát triển bản thân",
+        "long_tail_queries": [
+          "Narcissistic patterns hoạt động như thế nào",
+          "hướng dẫn thực hành Narcissistic patterns",
+          "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+        ],
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE sách",
+          "sách về tâm lý học và phát triển bản thân",
+          "hướng dẫn Narcissistic patterns",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards"
+        ]
+      }
+    },
+    "long_tail_queries": [
+      "THE NARCISSISM SURVIVAL GUIDE by Faramarz Kowsari",
+      "practical guide to Narcissistic patterns",
+      "how Narcissistic patterns works",
+      "Narcissistic patterns Narcissistic traits and narcissistic personality disorder"
+    ],
+    "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+    "related_slugs": [
+      "the-power-of-deletion",
+      "micro-cheating",
+      "the-monster-in-the-mirror",
+      "stop-explaining-yourself",
+      "claude-ai-for-small-business"
+    ],
+    "secondary_queries": [
+      "THE NARCISSISM SURVIVAL GUIDE book",
+      "Recognize Narcissistic Patterns, Set Effective Boundaries, and Protect Yourself at Home, at Work, and in Everyday Life",
+      "Psychology, Relationships & Personal Boundaries",
+      "Narcissistic patterns",
+      "Narcissistic traits and narcissistic personality disorder",
+      "Behavior-focused assessment",
+      "Grandiose and vulnerable presentations",
+      "Power imbalance",
+      "Entitlement and double standards",
+      "Exploitation",
+      "Image management",
+      "Conditional approval"
     ]
   },
   "the-power-of-deletion": {
@@ -53587,7 +54655,8 @@
     "primary_query": "Weather, Air Quality and Extreme Heat at Home",
     "related_slugs": [
       "espana-ante-el-calor",
-      "earthquake-survival-in-california"
+      "earthquake-survival-in-california",
+      "the-narcissism-survival-guide"
     ],
     "secondary_queries": [
       "Weather, Air Quality and Extreme Heat at Home book",

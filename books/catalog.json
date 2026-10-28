@@ -9,7 +9,7 @@
   "canonical": "https://faramarzkowsari.github.io/books/",
   "text_index": "https://faramarzkowsari.github.io/books/all-books/",
   "sitemap": "https://faramarzkowsari.github.io/books/sitemap.xml",
-  "book_count": 171,
+  "book_count": 172,
   "books": [
     {
       "slug": "depremde-hayatta-kalma",
@@ -10671,6 +10671,440 @@
       "doi": ""
     },
     {
+      "slug": "engineering-creativity-with-ai",
+      "title": "ENGINEERING CREATIVITY WITH AI",
+      "subtitle": "A Systematic Framework for Breakthrough Thinking, Original Innovation, and Real-World Value Creation",
+      "author": "Faramarz Kowsari",
+      "language": "English",
+      "category": "Artificial Intelligence & Creativity",
+      "summary": "ENGINEERING CREATIVITY WITH AI treats creativity as an engineered search-and-validation process rather than a mysterious gift or a one-prompt trick. The book begins by separating novelty from usefulness and by asking what generative AI can actually contribute to creative work. Early chapters examine the cognitive architecture of creative thinking, the strengths and limits of generative models, the division of responsibility between human judgment and machine generation, and the habits required to escape entrenched patterns without mistaking novelty for evidence.\n\nAt the center of the book is AI-CE9, a proposed nine-stage creativity-engineering workflow. The sequence moves from discovering the real opportunity and mapping the existing solution space to reframing the problem, generating functionally diverse candidates, transferring ideas across domains, evaluating alternatives, building a minimum viable prototype, validating originality and real-world value, and iterating from evidence. AI-CE9 is presented as an integrative method to be tested, not as a scientifically proven universal law or a guarantee of breakthrough innovation.\n\nThe middle chapters expand the creative toolbox beyond ordinary brainstorming. TRIZ, SCAMPER, Systematic Inventive Thinking, morphological analysis, analogical reasoning, inversion, paradox, systems thinking and transformational creativity are used to manipulate problem structure deliberately. These methods are connected to prompt engineering, controlled divergence, multi-agent creative collaboration and constructive dissent so that AI output becomes a structured exploration space rather than a stream of plausible but unexamined suggestions.\n\nResearch-grounded creativity receives its own engineering treatment. The book explains how retrieval-augmented generation and search can support source-aware ideation, how multimodal systems can accelerate prototyping, and how experiment design can help distinguish a persuasive concept from a candidate that survives testing. Throughout the manuscript, observed evidence, inference, proposals, validation and unresolved questions are treated as different epistemic states. Illustrative cases are not presented as completed scientific experiments or commercial deployments.\n\nApplication chapters carry the framework into product and consumer innovation, literature and media, software and technology invention, scientific hypothesis engineering, and educational and social innovation. The focus is not on automating the creator out of the process. Instead, AI is positioned as a controllable instrument for widening search, exposing alternatives, generating prototypes and criticizing assumptions while humans remain responsible for problem definition, evidence quality, ethics, context and final judgment.\n\nThe final part connects creative output to real-world value. It examines economic opportunity, commercialization models, intellectual property, authorship, AI-assisted inventions, responsible innovation and the limits of AI creativity. The book closes by helping readers build a personal AI creativity laboratory and complete a 30-day creativity-engineering challenge. Appendices provide a nine-stage field record, pre-publication review checklist, worked AI-CE9 dossier, empirical evaluation design, creative-engineering prompt patterns and a publishing/reproducibility record. The result is a practical framework for turning AI-assisted ideation into a more disciplined cycle of search, prototype, evidence and revision.",
+      "seo_description": "A 227-page, 42-chapter guide to AI-assisted creativity engineering covering the AI-CE9 framework, TRIZ, SCAMPER, SIT, cross-domain synthesis, multi-agent ideation, RAG, multimodal prototyping, evaluation, intellectual property and responsible innovation.",
+      "seo": {
+        "cluster": "artificial-intelligence",
+        "cluster_label": "Artificial Intelligence",
+        "entities": [
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "Human-AI creative partnership",
+          "Creative cognition",
+          "Generative AI and novelty",
+          "AI-CE9 framework",
+          "Opportunity discovery",
+          "Solution-space mapping",
+          "Problem reframing",
+          "Divergent idea generation",
+          "Cross-domain synthesis",
+          "Creative candidate evaluation",
+          "Minimum viable prototypes",
+          "Originality validation",
+          "Real-world value validation",
+          "TRIZ",
+          "SCAMPER",
+          "Systematic Inventive Thinking (SIT)",
+          "Morphological analysis",
+          "Analogical reasoning"
+        ],
+        "localized": {
+          "ar": {
+            "category_phrase": "الذكاء الاصطناعي",
+            "long_tail_queries": [
+              "ما هو AI creativity engineering",
+              "دليل عملي عن AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI كتاب",
+              "كتاب عن الذكاء الاصطناعي",
+              "دليل AI creativity engineering",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "bn": {
+            "category_phrase": "কৃত্রিম বুদ্ধিমত্তা",
+            "long_tail_queries": [
+              "AI creativity engineering কীভাবে কাজ করে",
+              "AI creativity engineering ব্যবহারিক গাইড",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI বই",
+              "কৃত্রিম বুদ্ধিমত্তা বই",
+              "AI creativity engineering গাইড",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "de": {
+            "category_phrase": "Künstliche Intelligenz",
+            "long_tail_queries": [
+              "wie funktioniert AI creativity engineering",
+              "praktischer Leitfaden zu AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI Buch",
+              "Künstliche Intelligenz Buch",
+              "AI creativity engineering Leitfaden",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "en": {
+            "category_phrase": "artificial intelligence",
+            "long_tail_queries": [
+              "how AI creativity engineering works",
+              "practical guide to AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI by Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI book",
+              "artificial intelligence book",
+              "AI creativity engineering guide",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "es": {
+            "category_phrase": "inteligencia artificial",
+            "long_tail_queries": [
+              "cómo funciona AI creativity engineering",
+              "guía práctica de AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI libro",
+              "libro de inteligencia artificial",
+              "guía de AI creativity engineering",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "fa": {
+            "category_phrase": "هوش مصنوعی",
+            "long_tail_queries": [
+              "AI creativity engineering چیست",
+              "راهنما کاربردی AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI فرامرز کوثری"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI کتاب",
+              "کتاب هوش مصنوعی",
+              "راهنما AI creativity engineering",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "fil": {
+            "category_phrase": "artificial intelligence",
+            "long_tail_queries": [
+              "paano gumagana ang AI creativity engineering",
+              "praktikal na gabay sa AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI aklat",
+              "aklat tungkol sa artificial intelligence",
+              "gabay sa AI creativity engineering",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "fr": {
+            "category_phrase": "intelligence artificielle",
+            "long_tail_queries": [
+              "comment fonctionne AI creativity engineering",
+              "guide pratique de AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI livre",
+              "livre sur intelligence artificielle",
+              "guide AI creativity engineering",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "id": {
+            "category_phrase": "kecerdasan buatan",
+            "long_tail_queries": [
+              "cara kerja AI creativity engineering",
+              "panduan praktis AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI buku",
+              "buku kecerdasan buatan",
+              "panduan AI creativity engineering",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "pt-BR": {
+            "category_phrase": "inteligência artificial",
+            "long_tail_queries": [
+              "como funciona AI creativity engineering",
+              "guia prático de AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI livro",
+              "livro sobre inteligência artificial",
+              "guia de AI creativity engineering",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "ro": {
+            "category_phrase": "inteligență artificială",
+            "long_tail_queries": [
+              "cum funcționează AI creativity engineering",
+              "ghid practic pentru AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI carte",
+              "carte despre inteligență artificială",
+              "ghid AI creativity engineering",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "ru": {
+            "category_phrase": "искусственный интеллект",
+            "long_tail_queries": [
+              "как работает AI creativity engineering",
+              "практическое руководство по AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI книга",
+              "книга о искусственный интеллект",
+              "руководство по AI creativity engineering",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "th": {
+            "category_phrase": "ปัญญาประดิษฐ์",
+            "long_tail_queries": [
+              "AI creativity engineering ทำงานอย่างไร",
+              "คู่มือ AI creativity engineering แบบปฏิบัติ",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI หนังสือ",
+              "หนังสือ ปัญญาประดิษฐ์",
+              "คู่มือ AI creativity engineering",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "tr": {
+            "category_phrase": "yapay zekâ",
+            "long_tail_queries": [
+              "AI creativity engineering nasıl çalışır",
+              "AI creativity engineering için uygulamalı rehberi",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI kitap",
+              "yapay zekâ kitap",
+              "AI creativity engineering rehberi",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          },
+          "vi": {
+            "category_phrase": "trí tuệ nhân tạo",
+            "long_tail_queries": [
+              "AI creativity engineering hoạt động như thế nào",
+              "hướng dẫn thực hành AI creativity engineering",
+              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
+            ],
+            "primary_query": "ENGINEERING CREATIVITY WITH AI",
+            "secondary_queries": [
+              "ENGINEERING CREATIVITY WITH AI sách",
+              "sách về trí tuệ nhân tạo",
+              "hướng dẫn AI creativity engineering",
+              "AI creativity engineering",
+              "AI-CE9 framework",
+              "TRIZ",
+              "SCAMPER",
+              "Human-AI creativity"
+            ]
+          }
+        },
+        "long_tail_queries": [
+          "ENGINEERING CREATIVITY WITH AI by Faramarz Kowsari",
+          "AI creativity engineering practical guide",
+          "AI-CE9 creativity framework",
+          "how to use AI for creative problem solving and innovation"
+        ],
+        "primary_query": "ENGINEERING CREATIVITY WITH AI",
+        "related_slugs": [
+          "rag-engineering",
+          "claude-agent-skills-playbook",
+          "ai-apis-in-practice",
+          "context-engineering-with-claude",
+          "chatgpt-6-astra"
+        ],
+        "secondary_queries": [
+          "ENGINEERING CREATIVITY WITH AI book",
+          "A Systematic Framework for Breakthrough Thinking, Original Innovation, and Real-World Value Creation",
+          "Artificial Intelligence",
+          "AI-assisted creativity",
+          "Creativity engineering",
+          "AI-CE9",
+          "TRIZ",
+          "SCAMPER",
+          "multi-agent creativity",
+          "RAG for creativity",
+          "multimodal prototyping",
+          "responsible innovation"
+        ]
+      },
+      "key_topics": [
+        "AI-assisted creativity",
+        "Creativity engineering",
+        "Human-AI creative partnership",
+        "Creative cognition",
+        "Generative AI and novelty",
+        "AI-CE9 framework",
+        "Opportunity discovery",
+        "Solution-space mapping",
+        "Problem reframing",
+        "Divergent idea generation",
+        "Cross-domain synthesis",
+        "Creative candidate evaluation",
+        "Minimum viable prototypes",
+        "Originality validation",
+        "Real-world value validation",
+        "TRIZ",
+        "SCAMPER",
+        "Systematic Inventive Thinking (SIT)",
+        "Morphological analysis",
+        "Analogical reasoning",
+        "Inversion and paradox",
+        "Systems thinking",
+        "Transformational creativity",
+        "Prompt engineering for creativity",
+        "Controlled divergence",
+        "Output diversity",
+        "Multi-agent collaboration",
+        "Constructive dissent",
+        "Retrieval-augmented generation (RAG)",
+        "Research-grounded creativity",
+        "Multimodal prototyping",
+        "Creativity evaluation",
+        "Experiment design",
+        "Creative products",
+        "Consumer innovation",
+        "Literature and media creativity",
+        "AI-assisted software invention",
+        "Scientific hypothesis engineering",
+        "Educational innovation",
+        "Social innovation",
+        "Economic opportunity",
+        "Innovation commercialization",
+        "Intellectual property",
+        "AI authorship",
+        "AI-assisted inventions",
+        "Responsible innovation",
+        "Limits of AI creativity",
+        "Personal AI creativity laboratory",
+        "30-day creativity challenge",
+        "Reproducibility"
+      ],
+      "learning": [
+        "Distinguish novelty, usefulness, validation and commercial success instead of treating them as interchangeable measures of creativity.",
+        "Use generative AI as a search and prototyping instrument while keeping human judgment responsible for evidence, ethics and final decisions.",
+        "Apply the nine stages of AI-CE9 from opportunity discovery through iteration without presenting the framework as a guaranteed recipe for invention.",
+        "Map an existing solution space before generating alternatives so an unfamiliar idea is not automatically mistaken for an original one.",
+        "Reframe problems and constraints deliberately to expose hidden assumptions and new solution directions.",
+        "Generate functionally diverse candidates through controlled divergence rather than accepting near-duplicate model outputs.",
+        "Use cross-domain analogy and transformation to transfer useful structures without copying surface features.",
+        "Evaluate candidate ideas with explicit criteria before investing in prototyping or commercialization.",
+        "Build minimum viable prototypes whose purpose is to test a claim rather than merely make an idea look convincing.",
+        "Separate proposed concepts from observed evidence and define what would count as validation for a specific claim.",
+        "Use TRIZ, SCAMPER, SIT and morphological analysis as structured mechanisms for changing a problem or design.",
+        "Apply inversion, paradox, systems thinking and transformational creativity to explore conceptual spaces beyond ordinary brainstorming.",
+        "Write prompts that support original thinking while recognizing that prompt sophistication does not prove originality or value.",
+        "Use multi-agent collaboration and constructive dissent to expose hidden assumptions and compare competing hypotheses.",
+        "Ground creative research with search and RAG while preserving source provenance and distinguishing retrieved evidence from generated interpretation.",
+        "Use multimodal AI to accelerate sketches, diagrams, interfaces and other prototypes without confusing visual plausibility with feasibility.",
+        "Design experiments and evaluation criteria that can challenge a creative claim instead of merely confirming it.",
+        "Adapt the framework to products, media, software, scientific hypotheses, education and social innovation.",
+        "Consider commercialization, intellectual property, authorship and responsible innovation before scaling a promising concept.",
+        "Build a personal AI creativity laboratory and complete a 30-day practice sequence that converts creative work into inspectable records and repeatable experiments."
+      ],
+      "target_audience": "For researchers, inventors, software engineers, designers, artists, educators, entrepreneurs, students and curious professionals who want a structured way to use AI for original thinking, prototyping and innovation while preserving human judgment, evidence standards, intellectual-property awareness and responsible decision-making.",
+      "url": "https://faramarzkowsari.github.io/books/engineering-creativity-with-ai/",
+      "google_books_id": "gF0iEgAAQBAJ",
+      "google_books_url": "https://play.google.com/store/books/details?id=gF0iEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=gF0iEgAAQBAJ&hl=en",
+      "cover_url": "https://books.google.com/books/content?id=gF0iEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "published_date": "2026",
+      "isbn": "",
+      "doi": ""
+    },
+    {
       "slug": "artificial-intelligence-and-machine-learning-for-cybersecurity",
       "title": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY",
       "subtitle": "Foundations, Intelligent Threat Detection, Adversarial Machine Learning, Privacy, Generative AI, and Secure Autonomous Systems",
@@ -13491,7 +13925,7 @@
           "ai-apis-in-practice",
           "claude-fable-5-1-and-mythos-5-1",
           "context-engineering-with-claude",
-          "rag-engineering"
+          "engineering-creativity-with-ai"
         ]
       },
       "key_topics": [],
@@ -23315,7 +23749,8 @@
         },
         "related_slugs": [
           "espana-ante-el-calor",
-          "earthquake-survival-in-california"
+          "earthquake-survival-in-california",
+          "the-narcissism-survival-guide"
         ]
       },
       "key_topics": [
@@ -40589,6 +41024,443 @@
       "doi": ""
     },
     {
+      "slug": "the-narcissism-survival-guide",
+      "title": "THE NARCISSISM SURVIVAL GUIDE",
+      "subtitle": "Recognize Narcissistic Patterns, Set Effective Boundaries, and Protect Yourself at Home, at Work, and in Everyday Life",
+      "author": "Faramarz Kowsari",
+      "language": "English",
+      "category": "Psychology, Relationships & Personal Boundaries",
+      "summary": "THE NARCISSISM SURVIVAL GUIDE is a practical guide to recognizing difficult narcissistic patterns without turning popular psychology labels into amateur diagnosis. It begins by separating narcissistic traits, presentations, interpersonal behavior and narcissistic personality disorder, then shifts the reader's attention toward what can actually be observed: entitlement, double standards, exploitation, image management, blame-shifting, gaslighting, humiliation, punitive silence, third-party pressure, threats, coercion and retaliation. The central question is not simply “What kind of person is this?” but “What is happening, what power does this person hold, what are the consequences, and what can I safely control?”\n\nThe family chapters examine controlling parents, adult children and intrusive parents, siblings and in-laws, financial pressure, family alliances, aging, caregiving and vulnerability. The relationship chapters move from early dating signals and safer commitment decisions to living with a controlling partner, money and housing dependence, intimacy, digital control, children between parents, separation, divorce and post-breakup safety. Throughout these situations, the book treats dependency and power as practical variables rather than assuming that the same communication technique is safe in every relationship.\n\nA substantial workplace and institutional section extends the framework beyond romantic or family relationships. It covers humiliating bosses, manipulative coworkers, difficult employees, clients and business partners, evidence and HR procedures, teachers and mentors, banks and government offices, landlords, healthcare and essential services. The emphasis is on concrete conduct, documented decisions, available oversight and the remedy being sought. This makes the book useful in situations where a reader may face disrespect, intimidation or manipulation but cannot simply walk away without considering income, housing, education, care or another form of dependency.\n\nThe later chapters turn recognition into action. Readers learn how to build boundaries around their own choices and consequences, use short context-sensitive responses when speaking is safe, stop over-explaining when a conversation has become circular, and preserve records without creating new privacy or digital-security risks. A decision matrix compares immediate danger, dependency, institutional power, reversibility and trustworthy support before choosing whether to respond, escalate, seek help or leave. The book also develops a low-cost exit and safety-planning approach for situations in which abrupt confrontation may be unrealistic or dangerous.\n\nRecovery is treated as more than simply ending contact. The book discusses rebuilding confidence in one's observations, making ordinary low-stakes decisions again, reconnecting with supportive relationships without replacing one controller with another, and seeking qualified care when distress substantially interferes with daily functioning. The final chapter turns the lens inward and asks whether the reader may be contributing to a harmful pattern. Instead of self-labeling, it emphasizes observable behavior, accountability, meaningful apology and sustained change.\n\nFour appendices make the material easier to use under pressure: a situation finder, quick response cards, worksheets and checklists, and a glossary with selected references and further support. The book is explicitly educational rather than diagnostic, psychotherapeutic or legal advice. It also distinguishes ordinary conflict from threats, stalking, violence and coercive control, where individualized safety planning, qualified professional help or emergency assistance may be more appropriate than a communication script. The result is a behavior-focused survival guide designed to help readers make clearer, safer and more defensible decisions at home, at work and in everyday life.",
+      "seo_description": "A 37-chapter practical guide to narcissistic patterns, gaslighting, coercive control, family and workplace dynamics, boundaries, response scripts, documentation, digital safety, decision-making, exit planning and recovery—without encouraging amateur diagnosis.",
+      "seo": {
+        "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+        "secondary_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE book",
+          "Recognize Narcissistic Patterns, Set Effective Boundaries, and Protect Yourself at Home, at Work, and in Everyday Life",
+          "Psychology, Relationships & Personal Boundaries",
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards",
+          "Exploitation",
+          "Image management",
+          "Conditional approval"
+        ],
+        "long_tail_queries": [
+          "THE NARCISSISM SURVIVAL GUIDE by Faramarz Kowsari",
+          "practical guide to Narcissistic patterns",
+          "how Narcissistic patterns works",
+          "Narcissistic patterns Narcissistic traits and narcissistic personality disorder"
+        ],
+        "entities": [
+          "Narcissistic patterns",
+          "Narcissistic traits and narcissistic personality disorder",
+          "Behavior-focused assessment",
+          "Grandiose and vulnerable presentations",
+          "Power imbalance",
+          "Entitlement and double standards",
+          "Exploitation",
+          "Image management",
+          "Conditional approval",
+          "Gaslighting",
+          "Denial and blame-shifting",
+          "Humiliation and contempt",
+          "Devaluation",
+          "Punitive silence",
+          "Guilt and third-party pressure",
+          "Threats and retaliation",
+          "Coercive control",
+          "Controlling parents",
+          "Adult children and intrusive parents",
+          "Siblings and family alliances"
+        ],
+        "cluster": "business-marketing",
+        "cluster_label": "Business, Marketing & Entrepreneurship",
+        "localized": {
+          "en": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE book",
+              "psychology and personal growth book",
+              "Narcissistic patterns guide",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "how Narcissistic patterns works",
+              "practical guide to Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE by Faramarz Kowsari"
+            ],
+            "category_phrase": "psychology and personal growth"
+          },
+          "tr": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE kitap",
+              "psikoloji ve kişisel gelişim kitap",
+              "Narcissistic patterns rehberi",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "Narcissistic patterns nasıl çalışır",
+              "Narcissistic patterns için uygulamalı rehberi",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "psikoloji ve kişisel gelişim"
+          },
+          "ru": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE книга",
+              "книга о психология и личное развитие",
+              "руководство по Narcissistic patterns",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "как работает Narcissistic patterns",
+              "практическое руководство по Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "психология и личное развитие"
+          },
+          "de": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE Buch",
+              "Psychologie und persönliche Entwicklung Buch",
+              "Narcissistic patterns Leitfaden",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "wie funktioniert Narcissistic patterns",
+              "praktischer Leitfaden zu Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "Psychologie und persönliche Entwicklung"
+          },
+          "es": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE libro",
+              "libro de psicología y desarrollo personal",
+              "guía de Narcissistic patterns",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "cómo funciona Narcissistic patterns",
+              "guía práctica de Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "psicología y desarrollo personal"
+          },
+          "fr": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE livre",
+              "livre sur psychologie et développement personnel",
+              "guide Narcissistic patterns",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "comment fonctionne Narcissistic patterns",
+              "guide pratique de Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "psychologie et développement personnel"
+          },
+          "pt-BR": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE livro",
+              "livro sobre psicologia e desenvolvimento pessoal",
+              "guia de Narcissistic patterns",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "como funciona Narcissistic patterns",
+              "guia prático de Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "psicologia e desenvolvimento pessoal"
+          },
+          "fa": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE کتاب",
+              "کتاب روان‌شناسی و رشد فردی",
+              "راهنما Narcissistic patterns",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "Narcissistic patterns چیست",
+              "راهنما کاربردی Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE فرامرز کوثری"
+            ],
+            "category_phrase": "روان‌شناسی و رشد فردی"
+          },
+          "ar": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE كتاب",
+              "كتاب عن علم النفس والتنمية الشخصية",
+              "دليل Narcissistic patterns",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "ما هو Narcissistic patterns",
+              "دليل عملي عن Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "علم النفس والتنمية الشخصية"
+          },
+          "id": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE buku",
+              "buku psikologi dan pengembangan diri",
+              "panduan Narcissistic patterns",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "cara kerja Narcissistic patterns",
+              "panduan praktis Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "psikologi dan pengembangan diri"
+          },
+          "vi": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE sách",
+              "sách về tâm lý học và phát triển bản thân",
+              "hướng dẫn Narcissistic patterns",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "Narcissistic patterns hoạt động như thế nào",
+              "hướng dẫn thực hành Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "tâm lý học và phát triển bản thân"
+          },
+          "th": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE หนังสือ",
+              "หนังสือ จิตวิทยาและการพัฒนาตนเอง",
+              "คู่มือ Narcissistic patterns",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "Narcissistic patterns ทำงานอย่างไร",
+              "คู่มือ Narcissistic patterns แบบปฏิบัติ",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "จิตวิทยาและการพัฒนาตนเอง"
+          },
+          "bn": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE বই",
+              "মনোবিজ্ঞান ও ব্যক্তিগত উন্নয়ন বই",
+              "Narcissistic patterns গাইড",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "Narcissistic patterns কীভাবে কাজ করে",
+              "Narcissistic patterns ব্যবহারিক গাইড",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "মনোবিজ্ঞান ও ব্যক্তিগত উন্নয়ন"
+          },
+          "ro": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE carte",
+              "carte despre psihologie și dezvoltare personală",
+              "ghid Narcissistic patterns",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "cum funcționează Narcissistic patterns",
+              "ghid practic pentru Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "psihologie și dezvoltare personală"
+          },
+          "fil": {
+            "primary_query": "THE NARCISSISM SURVIVAL GUIDE",
+            "secondary_queries": [
+              "THE NARCISSISM SURVIVAL GUIDE aklat",
+              "aklat tungkol sa sikolohiya at personal growth",
+              "gabay sa Narcissistic patterns",
+              "Narcissistic patterns",
+              "Narcissistic traits and narcissistic personality disorder",
+              "Behavior-focused assessment",
+              "Grandiose and vulnerable presentations",
+              "Power imbalance",
+              "Entitlement and double standards"
+            ],
+            "long_tail_queries": [
+              "paano gumagana ang Narcissistic patterns",
+              "praktikal na gabay sa Narcissistic patterns",
+              "THE NARCISSISM SURVIVAL GUIDE Faramarz Kowsari"
+            ],
+            "category_phrase": "sikolohiya at personal growth"
+          }
+        },
+        "related_slugs": [
+          "the-power-of-deletion",
+          "micro-cheating",
+          "the-monster-in-the-mirror",
+          "stop-explaining-yourself",
+          "claude-ai-for-small-business"
+        ]
+      },
+      "key_topics": [
+        "Narcissistic patterns",
+        "Narcissistic traits and narcissistic personality disorder",
+        "Behavior-focused assessment",
+        "Grandiose and vulnerable presentations",
+        "Power imbalance",
+        "Entitlement and double standards",
+        "Exploitation",
+        "Image management",
+        "Conditional approval",
+        "Gaslighting",
+        "Denial and blame-shifting",
+        "Humiliation and contempt",
+        "Devaluation",
+        "Punitive silence",
+        "Guilt and third-party pressure",
+        "Threats and retaliation",
+        "Coercive control",
+        "Controlling parents",
+        "Adult children and intrusive parents",
+        "Siblings and family alliances",
+        "Aging and caregiving",
+        "Dating warning signs",
+        "Controlling partners",
+        "Financial and housing control",
+        "Digital control",
+        "Children between parents",
+        "Separation and post-breakup safety",
+        "Workplace bullying and humiliation",
+        "Manipulative coworkers",
+        "HR documentation",
+        "Teachers, mentors and gatekeepers",
+        "Banks and public authority",
+        "Landlords and healthcare",
+        "Social groups and neighbors",
+        "Social media harassment",
+        "Personal boundaries",
+        "Context-sensitive response scripts",
+        "Stopping over-explanation",
+        "Evidence and documentation",
+        "Privacy and digital security",
+        "Decision matrix",
+        "Exit and safety planning",
+        "Recovery and rebuilding confidence",
+        "Self-accountability"
+      ],
+      "learning": [
+        "Distinguish narcissistic traits and harmful interpersonal patterns from a clinical diagnosis of narcissistic personality disorder.",
+        "Replace subtype labels and mind-reading with a behavior map based on observable conduct, context, power, duration and consequences.",
+        "Recognize entitlement, double standards, gaslighting, blame-shifting, contempt, punitive silence, coercion and retaliation without treating any single behavior as diagnostic proof.",
+        "Assess how money, housing, employment, education, caregiving, immigration status, children and institutional authority can change the practical options available in a conflict.",
+        "Adapt boundaries to family, dating, partnership, workplace, education, business, public-service and social-media contexts instead of using one universal script.",
+        "State boundaries in terms of one's own decisions and consequences rather than attempts to control another person's personality.",
+        "Use brief, context-sensitive responses when speaking is safe and identify when further explanation is no longer productive.",
+        "Document incidents accurately by separating observable facts from interpretation and by defining the practical remedy or review being sought.",
+        "Protect evidence, accounts and devices while respecting privacy, employment, recording and jurisdiction-specific legal constraints.",
+        "Use danger, dependency, institutional power, reversibility and trustworthy support to compare whether to respond, escalate, seek help or leave.",
+        "Build lower-cost and more realistic exit plans that account for finances, housing, medication, disability access, children and continuing safety needs.",
+        "Rebuild confidence after repeated criticism or control through low-stakes decisions, trustworthy support and professional care when needed.",
+        "Examine one's own harmful behavior through specific observations, accountability and sustained change rather than self-diagnosis or shame.",
+        "Recognize when threats, stalking, violence or coercive control require specialist safety planning or emergency assistance rather than a conversational technique."
+      ],
+      "target_audience": "For adults dealing with confusing, controlling, exploitative or chronically unequal relationships in families, dating and partnerships, workplaces, education, business, housing, healthcare, public services or online spaces; and for readers who want practical boundaries, documentation and decision tools without reducing every difficult person to a psychiatric label.",
+      "url": "https://faramarzkowsari.github.io/books/the-narcissism-survival-guide/",
+      "google_books_id": "cSQjEgAAQBAJ",
+      "google_books_url": "https://play.google.com/store/books/details?id=cSQjEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=cSQjEgAAQBAJ&hl=en",
+      "cover_url": "https://books.google.com/books/content?id=cSQjEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "published_date": "2026",
+      "isbn": "",
+      "doi": ""
+    },
+    {
       "slug": "microinfidelidad",
       "title": "Microinfidelidad",
       "subtitle": "Pequeñas traiciones que erosionan la confianza en las relaciones modernas",
@@ -42970,7 +43842,7 @@
           "prop-firm-funded-account-trading",
           "xauusd-scalping",
           "premium-and-discount-zones",
-          "false-breakouts-fakeouts"
+          "swing-trading-mastery"
         ]
       },
       "key_topics": [
@@ -46094,8 +46966,8 @@
           "beyond-the-single-candle",
           "smart-money-concepts",
           "market-structure-trading",
-          "mastering-renko-trading",
-          "premium-and-discount-zones"
+          "swing-trading-mastery",
+          "mastering-renko-trading"
         ]
       },
       "key_topics": [
@@ -58190,6 +59062,453 @@
       "doi": ""
     },
     {
+      "slug": "swing-trading-mastery",
+      "title": "SWING TRADING MASTERY",
+      "subtitle": "A Practical Guide to Price Action, Market Structure, Trading Setups, Risk Management, Backtesting, and Systematic Execution",
+      "author": "Faramarz Kowsari",
+      "language": "English",
+      "category": "Trading",
+      "summary": "SWING TRADING MASTERY is a practical, evidence-conscious guide to building a swing-trading process that can survive beyond an attractive chart. It begins by treating swing trading as a decision discipline: define the instruments you can actually monitor, understand how orders reach the market, read price without hindsight distortion, and build a weekly and daily workflow that fits the trader’s time, data and risk constraints. Trend, swing structure, support and resistance, multiple-timeframe analysis, volatility, ATR, volume, market regimes, breadth and intermarket context are developed as complementary layers rather than isolated indicators.\n\nThe opportunity-selection section turns broad market scanning into a repeatable research process. Screeners, relative strength, sector leadership, candlestick evidence, moving averages, momentum, RSI, MACD, fundamentals, IPO and corporate-action considerations, earnings and catalysts are used to qualify candidates before a trade is planned. The emphasis is on context and falsifiability: a setup is useful only when the trader can state what would invalidate it, where the loss is controlled, and which market condition makes the idea plausible.\n\nSeven repeatable swing structures form the tactical center of the book: trend pullback and continuation; breakout, acceptance and retest; volatility contraction and expansion; base formation and reversal; range trading and mean reversion; post-event or earnings-gap continuation; and failed breakouts with short-side opportunities. Each setup is connected to location, volatility, execution, invalidation and trade management so that chart recognition does not become a substitute for a complete trading plan.\n\nRisk management is treated as the architecture that determines whether a strategy can remain usable over many trades. Dedicated chapters cover entry triggers, order choice, stop placement, adverse price movement, position sizing, profit targets, trailing exits, portfolio heat, correlation, concentration, overnight gaps, drawdowns and contingency rules. Expectancy and R-multiples are then used to separate the economics of a strategy from the emotional impact of individual winners and losers.\n\nThe testing section addresses one of the central problems in trading education: a visually convincing historical chart is not the same thing as a validated edge. Historical backtesting, realistic costs, out-of-sample testing, walk-forward validation, trade journals, robustness checks and system improvement are presented as ways to challenge a trading claim rather than decorate it. The book’s evidence note also distinguishes sourced historical OHLCV examples from original analytical illustrations and explicitly warns that the historical sample is educational evidence, not exchange-certified proof of strategy performance.\n\nThe final chapters adapt the framework across stocks and ETFs, forex and futures, and crypto, then address trading psychology, attention, decision hygiene, rules-based workflows and the careful use of tools and AI. A capstone converts the material into a complete swing-trading playbook and a 12-week practice plan. Appendices provide a one-page trade-planning record, operational strategy cards, a reproducible backtest specification, financial calculations, worked decision dossiers, research-replication guidance and source-audit notes. The result is a book about execution discipline as much as entries: scan, establish context, define risk, place the order, review the evidence, and improve only what the data can actually support.",
+      "seo_description": "A 418-page practical swing trading guide covering price action, market structure, seven repeatable setups, risk management, backtesting, walk-forward validation, psychology and systematic execution.",
+      "seo": {
+        "cluster": "trading-markets",
+        "cluster_label": "Trading & Financial Markets",
+        "entities": [
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Trend and swing identification",
+          "Support and resistance zones",
+          "Multiple-timeframe analysis",
+          "Volatility and ATR",
+          "Volume and participation",
+          "Market regimes",
+          "Market breadth",
+          "Intermarket context",
+          "Swing-trading screeners",
+          "Relative strength",
+          "Sector leadership and rotation",
+          "Candlestick evidence",
+          "Moving averages",
+          "Momentum",
+          "RSI",
+          "MACD",
+          "Divergence"
+        ],
+        "localized": {
+          "ar": {
+            "category_phrase": "التداول والأسواق المالية",
+            "long_tail_queries": [
+              "ما هو Swing trading",
+              "دليل عملي عن Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY كتاب",
+              "كتاب عن التداول والأسواق المالية",
+              "دليل Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "bn": {
+            "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
+            "long_tail_queries": [
+              "Swing trading কীভাবে কাজ করে",
+              "Swing trading ব্যবহারিক গাইড",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY বই",
+              "ট্রেডিং ও আর্থিক বাজার বই",
+              "Swing trading গাইড",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "de": {
+            "category_phrase": "Trading und Finanzmärkte",
+            "long_tail_queries": [
+              "wie funktioniert Swing trading",
+              "praktischer Leitfaden zu Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY Buch",
+              "Trading und Finanzmärkte Buch",
+              "Swing trading Leitfaden",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "en": {
+            "category_phrase": "trading and financial markets",
+            "long_tail_queries": [
+              "how Swing trading works",
+              "practical guide to Swing trading",
+              "SWING TRADING MASTERY by Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY book",
+              "trading and financial markets book",
+              "Swing trading guide",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "es": {
+            "category_phrase": "trading y mercados financieros",
+            "long_tail_queries": [
+              "cómo funciona Swing trading",
+              "guía práctica de Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY libro",
+              "libro de trading y mercados financieros",
+              "guía de Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "fa": {
+            "category_phrase": "معامله‌گری و بازارهای مالی",
+            "long_tail_queries": [
+              "Swing trading چیست",
+              "راهنما کاربردی Swing trading",
+              "SWING TRADING MASTERY فرامرز کوثری"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY کتاب",
+              "کتاب معامله‌گری و بازارهای مالی",
+              "راهنما Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "fil": {
+            "category_phrase": "trading at financial markets",
+            "long_tail_queries": [
+              "paano gumagana ang Swing trading",
+              "praktikal na gabay sa Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY aklat",
+              "aklat tungkol sa trading at financial markets",
+              "gabay sa Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "fr": {
+            "category_phrase": "trading et marchés financiers",
+            "long_tail_queries": [
+              "comment fonctionne Swing trading",
+              "guide pratique de Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY livre",
+              "livre sur trading et marchés financiers",
+              "guide Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "id": {
+            "category_phrase": "trading dan pasar keuangan",
+            "long_tail_queries": [
+              "cara kerja Swing trading",
+              "panduan praktis Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY buku",
+              "buku trading dan pasar keuangan",
+              "panduan Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "pt-BR": {
+            "category_phrase": "trading e mercados financeiros",
+            "long_tail_queries": [
+              "como funciona Swing trading",
+              "guia prático de Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY livro",
+              "livro sobre trading e mercados financeiros",
+              "guia de Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "ro": {
+            "category_phrase": "trading și piețe financiare",
+            "long_tail_queries": [
+              "cum funcționează Swing trading",
+              "ghid practic pentru Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY carte",
+              "carte despre trading și piețe financiare",
+              "ghid Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "ru": {
+            "category_phrase": "трейдинг и финансовые рынки",
+            "long_tail_queries": [
+              "как работает Swing trading",
+              "практическое руководство по Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY книга",
+              "книга о трейдинг и финансовые рынки",
+              "руководство по Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "th": {
+            "category_phrase": "การเทรดและตลาดการเงิน",
+            "long_tail_queries": [
+              "Swing trading ทำงานอย่างไร",
+              "คู่มือ Swing trading แบบปฏิบัติ",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY หนังสือ",
+              "หนังสือ การเทรดและตลาดการเงิน",
+              "คู่มือ Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "tr": {
+            "category_phrase": "trading ve finansal piyasalar",
+            "long_tail_queries": [
+              "Swing trading nasıl çalışır",
+              "Swing trading için uygulamalı rehberi",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY kitap",
+              "trading ve finansal piyasalar kitap",
+              "Swing trading rehberi",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          },
+          "vi": {
+            "category_phrase": "giao dịch và thị trường tài chính",
+            "long_tail_queries": [
+              "Swing trading hoạt động như thế nào",
+              "hướng dẫn thực hành Swing trading",
+              "SWING TRADING MASTERY Faramarz Kowsari"
+            ],
+            "primary_query": "SWING TRADING MASTERY",
+            "secondary_queries": [
+              "SWING TRADING MASTERY sách",
+              "sách về giao dịch và thị trường tài chính",
+              "hướng dẫn Swing trading",
+              "Swing trading",
+              "Price action",
+              "Market structure",
+              "Risk management",
+              "Backtesting"
+            ]
+          }
+        },
+        "long_tail_queries": [
+          "SWING TRADING MASTERY by Faramarz Kowsari",
+          "practical guide to swing trading",
+          "how to build a swing trading system",
+          "swing trading price action market structure risk management backtesting"
+        ],
+        "primary_query": "SWING TRADING MASTERY",
+        "related_slugs": [
+          "market-structure-trading",
+          "multi-timeframe-analysis",
+          "confluence-trading",
+          "candlestick-patterns-from-zero",
+          "volume-profile-trading"
+        ],
+        "secondary_queries": [
+          "SWING TRADING MASTERY book",
+          "A Practical Guide to Price Action, Market Structure, Trading Setups, Risk Management, Backtesting, and Systematic Execution",
+          "Trading",
+          "Swing trading",
+          "Price action",
+          "Market structure",
+          "Multiple-timeframe analysis",
+          "Risk management",
+          "Backtesting",
+          "Walk-forward validation",
+          "Swing trading guide"
+        ]
+      },
+      "key_topics": [
+        "Swing trading",
+        "Price action",
+        "Market structure",
+        "Trend and swing identification",
+        "Support and resistance zones",
+        "Multiple-timeframe analysis",
+        "Volatility and ATR",
+        "Volume and participation",
+        "Market regimes",
+        "Market breadth",
+        "Intermarket context",
+        "Swing-trading screeners",
+        "Relative strength",
+        "Sector leadership and rotation",
+        "Candlestick evidence",
+        "Moving averages",
+        "Momentum",
+        "RSI",
+        "MACD",
+        "Divergence",
+        "Fundamental filters",
+        "IPOs and corporate actions",
+        "Earnings and catalysts",
+        "Trend pullback continuation",
+        "Breakout acceptance and retest",
+        "Volatility contraction and expansion",
+        "Base formation and reversal",
+        "Range trading and mean reversion",
+        "Post-event gap continuation",
+        "Failed breakouts",
+        "Short-side swing trading",
+        "Entry triggers",
+        "Order choice",
+        "Stops and invalidation",
+        "Position sizing",
+        "Profit targets",
+        "Trailing exits",
+        "Trade management",
+        "Portfolio heat",
+        "Correlation and concentration",
+        "Overnight gaps",
+        "Drawdowns",
+        "Contingency rules",
+        "Expectancy",
+        "R-multiples",
+        "Trading statistics",
+        "Historical backtesting",
+        "Transaction costs and slippage",
+        "Out-of-sample testing",
+        "Walk-forward validation",
+        "Trade journals",
+        "Robustness checks",
+        "System improvement",
+        "Stocks and ETFs",
+        "Forex and futures",
+        "Crypto swing trading",
+        "Trading psychology",
+        "Decision hygiene",
+        "Rules-based workflows",
+        "AI-assisted trading workflow",
+        "Trading playbook",
+        "12-week practice plan",
+        "Reproducible backtesting",
+        "Research replication",
+        "Source audit and evidence limits"
+      ],
+      "learning": [
+        "Define a realistic swing-trading operating mandate based on available time, instruments, monitoring capacity and loss limits.",
+        "Read trend, swing structure, support and resistance as market context rather than as isolated chart labels.",
+        "Use multiple timeframes without allowing a lower-timeframe signal to contradict the higher-timeframe trade thesis.",
+        "Use ATR, volatility and participation data to judge whether a setup’s stop, target and expected movement are geometrically realistic.",
+        "Build screeners and candidate lists using relative strength, sector leadership, momentum, fundamentals and event context.",
+        "Interpret candlesticks, moving averages, RSI, MACD and divergence as conditional evidence instead of automatic buy or sell signals.",
+        "Plan and distinguish seven repeatable swing setups, including pullbacks, breakouts, volatility expansions, reversals, ranges, post-event continuations and failed breakouts.",
+        "Write invalidation before entry so that stop placement follows the trade thesis rather than the trader’s discomfort.",
+        "Size positions from a defined risk budget and stop distance rather than from conviction or account cash alone.",
+        "Manage targets, trailing exits and open risk while keeping portfolio heat, concentration and correlation visible.",
+        "Prepare for overnight gaps, event risk and drawdowns with contingency rules written before the position becomes stressful.",
+        "Use expectancy, R-multiples and trading statistics to evaluate a process across many trades rather than judging it from a short winning or losing streak.",
+        "Backtest without look-ahead bias, unrealistic fills or selective examples, and include trading costs and execution assumptions.",
+        "Separate development data from out-of-sample evidence and use walk-forward validation to test whether rules remain stable through time.",
+        "Maintain a trade journal that records decisions, skipped trades, execution quality, errors and rule adherence instead of only profit and loss.",
+        "Run robustness checks before changing a system and distinguish genuine improvement from parameter fitting.",
+        "Adapt the same decision framework to stocks and ETFs, forex and futures, and crypto while respecting different sessions, leverage and liquidity conditions.",
+        "Use psychology, attention controls, tools and AI as support for a rules-based workflow rather than as substitutes for risk management or evidence.",
+        "Build a complete swing-trading playbook and follow a 12-week practice plan before treating a strategy as operational."
+      ],
+      "target_audience": "For beginner and intermediate swing traders, self-directed investors, technical-analysis learners, part-time traders, and systematic-minded market participants who want a complete process spanning price action, market structure, setups, execution, portfolio risk, backtesting and disciplined review across stocks, ETFs, futures, forex and crypto.",
+      "url": "https://faramarzkowsari.github.io/books/swing-trading-mastery/",
+      "google_books_id": "Vl0iEgAAQBAJ",
+      "google_books_url": "https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=Vl0iEgAAQBAJ&hl=en",
+      "cover_url": "https://books.google.com/books/content?id=Vl0iEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "published_date": "2026",
+      "isbn": "",
+      "doi": ""
+    },
+    {
       "slug": "the-1-minute-and-5-minute-scalping-playbook",
       "title": "The 1-Minute & 5-Minute Scalping Playbook",
       "subtitle": "A Practical Guide to Market Structure, Precision Entries, Fast Trade Management, and Risk Control",
@@ -64437,887 +65756,6 @@
       "google_books_url": "https://play.google.com/store/books/details?id=mc78EQAAQBAJ",
       "preview_url": "https://play.google.com/books/reader?id=mc78EQAAQBAJ&hl=en",
       "cover_url": "https://books.google.com/books/content?id=mc78EQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
-      "published_date": "2026",
-      "isbn": "",
-      "doi": ""
-    },
-    {
-      "slug": "swing-trading-mastery",
-      "title": "SWING TRADING MASTERY",
-      "subtitle": "A Practical Guide to Price Action, Market Structure, Trading Setups, Risk Management, Backtesting, and Systematic Execution",
-      "author": "Faramarz Kowsari",
-      "language": "English",
-      "category": "Trading",
-      "summary": "SWING TRADING MASTERY is a practical, evidence-conscious guide to building a swing-trading process that can survive beyond an attractive chart. It begins by treating swing trading as a decision discipline: define the instruments you can actually monitor, understand how orders reach the market, read price without hindsight distortion, and build a weekly and daily workflow that fits the trader’s time, data and risk constraints. Trend, swing structure, support and resistance, multiple-timeframe analysis, volatility, ATR, volume, market regimes, breadth and intermarket context are developed as complementary layers rather than isolated indicators.\n\nThe opportunity-selection section turns broad market scanning into a repeatable research process. Screeners, relative strength, sector leadership, candlestick evidence, moving averages, momentum, RSI, MACD, fundamentals, IPO and corporate-action considerations, earnings and catalysts are used to qualify candidates before a trade is planned. The emphasis is on context and falsifiability: a setup is useful only when the trader can state what would invalidate it, where the loss is controlled, and which market condition makes the idea plausible.\n\nSeven repeatable swing structures form the tactical center of the book: trend pullback and continuation; breakout, acceptance and retest; volatility contraction and expansion; base formation and reversal; range trading and mean reversion; post-event or earnings-gap continuation; and failed breakouts with short-side opportunities. Each setup is connected to location, volatility, execution, invalidation and trade management so that chart recognition does not become a substitute for a complete trading plan.\n\nRisk management is treated as the architecture that determines whether a strategy can remain usable over many trades. Dedicated chapters cover entry triggers, order choice, stop placement, adverse price movement, position sizing, profit targets, trailing exits, portfolio heat, correlation, concentration, overnight gaps, drawdowns and contingency rules. Expectancy and R-multiples are then used to separate the economics of a strategy from the emotional impact of individual winners and losers.\n\nThe testing section addresses one of the central problems in trading education: a visually convincing historical chart is not the same thing as a validated edge. Historical backtesting, realistic costs, out-of-sample testing, walk-forward validation, trade journals, robustness checks and system improvement are presented as ways to challenge a trading claim rather than decorate it. The book’s evidence note also distinguishes sourced historical OHLCV examples from original analytical illustrations and explicitly warns that the historical sample is educational evidence, not exchange-certified proof of strategy performance.\n\nThe final chapters adapt the framework across stocks and ETFs, forex and futures, and crypto, then address trading psychology, attention, decision hygiene, rules-based workflows and the careful use of tools and AI. A capstone converts the material into a complete swing-trading playbook and a 12-week practice plan. Appendices provide a one-page trade-planning record, operational strategy cards, a reproducible backtest specification, financial calculations, worked decision dossiers, research-replication guidance and source-audit notes. The result is a book about execution discipline as much as entries: scan, establish context, define risk, place the order, review the evidence, and improve only what the data can actually support.",
-      "seo_description": "A 418-page practical swing trading guide covering price action, market structure, seven repeatable setups, risk management, backtesting, walk-forward validation, psychology and systematic execution.",
-      "seo": {
-        "cluster": "trading-markets",
-        "cluster_label": "Trading & Financial Markets",
-        "entities": [
-          "Swing trading",
-          "Price action",
-          "Market structure",
-          "Trend and swing identification",
-          "Support and resistance zones",
-          "Multiple-timeframe analysis",
-          "Volatility and ATR",
-          "Volume and participation",
-          "Market regimes",
-          "Market breadth",
-          "Intermarket context",
-          "Swing-trading screeners",
-          "Relative strength",
-          "Sector leadership and rotation",
-          "Candlestick evidence",
-          "Moving averages",
-          "Momentum",
-          "RSI",
-          "MACD",
-          "Divergence"
-        ],
-        "localized": {
-          "ar": {
-            "category_phrase": "التداول والأسواق المالية",
-            "long_tail_queries": [
-              "ما هو Swing trading",
-              "دليل عملي عن Swing trading",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY كتاب",
-              "كتاب عن التداول والأسواق المالية",
-              "دليل Swing trading",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "bn": {
-            "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
-            "long_tail_queries": [
-              "Swing trading কীভাবে কাজ করে",
-              "Swing trading ব্যবহারিক গাইড",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY বই",
-              "ট্রেডিং ও আর্থিক বাজার বই",
-              "Swing trading গাইড",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "de": {
-            "category_phrase": "Trading und Finanzmärkte",
-            "long_tail_queries": [
-              "wie funktioniert Swing trading",
-              "praktischer Leitfaden zu Swing trading",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY Buch",
-              "Trading und Finanzmärkte Buch",
-              "Swing trading Leitfaden",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "en": {
-            "category_phrase": "trading and financial markets",
-            "long_tail_queries": [
-              "how Swing trading works",
-              "practical guide to Swing trading",
-              "SWING TRADING MASTERY by Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY book",
-              "trading and financial markets book",
-              "Swing trading guide",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "es": {
-            "category_phrase": "trading y mercados financieros",
-            "long_tail_queries": [
-              "cómo funciona Swing trading",
-              "guía práctica de Swing trading",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY libro",
-              "libro de trading y mercados financieros",
-              "guía de Swing trading",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "fa": {
-            "category_phrase": "معامله‌گری و بازارهای مالی",
-            "long_tail_queries": [
-              "Swing trading چیست",
-              "راهنما کاربردی Swing trading",
-              "SWING TRADING MASTERY فرامرز کوثری"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY کتاب",
-              "کتاب معامله‌گری و بازارهای مالی",
-              "راهنما Swing trading",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "fil": {
-            "category_phrase": "trading at financial markets",
-            "long_tail_queries": [
-              "paano gumagana ang Swing trading",
-              "praktikal na gabay sa Swing trading",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY aklat",
-              "aklat tungkol sa trading at financial markets",
-              "gabay sa Swing trading",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "fr": {
-            "category_phrase": "trading et marchés financiers",
-            "long_tail_queries": [
-              "comment fonctionne Swing trading",
-              "guide pratique de Swing trading",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY livre",
-              "livre sur trading et marchés financiers",
-              "guide Swing trading",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "id": {
-            "category_phrase": "trading dan pasar keuangan",
-            "long_tail_queries": [
-              "cara kerja Swing trading",
-              "panduan praktis Swing trading",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY buku",
-              "buku trading dan pasar keuangan",
-              "panduan Swing trading",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "pt-BR": {
-            "category_phrase": "trading e mercados financeiros",
-            "long_tail_queries": [
-              "como funciona Swing trading",
-              "guia prático de Swing trading",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY livro",
-              "livro sobre trading e mercados financeiros",
-              "guia de Swing trading",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "ro": {
-            "category_phrase": "trading și piețe financiare",
-            "long_tail_queries": [
-              "cum funcționează Swing trading",
-              "ghid practic pentru Swing trading",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY carte",
-              "carte despre trading și piețe financiare",
-              "ghid Swing trading",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "ru": {
-            "category_phrase": "трейдинг и финансовые рынки",
-            "long_tail_queries": [
-              "как работает Swing trading",
-              "практическое руководство по Swing trading",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY книга",
-              "книга о трейдинг и финансовые рынки",
-              "руководство по Swing trading",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "th": {
-            "category_phrase": "การเทรดและตลาดการเงิน",
-            "long_tail_queries": [
-              "Swing trading ทำงานอย่างไร",
-              "คู่มือ Swing trading แบบปฏิบัติ",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY หนังสือ",
-              "หนังสือ การเทรดและตลาดการเงิน",
-              "คู่มือ Swing trading",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "tr": {
-            "category_phrase": "trading ve finansal piyasalar",
-            "long_tail_queries": [
-              "Swing trading nasıl çalışır",
-              "Swing trading için uygulamalı rehberi",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY kitap",
-              "trading ve finansal piyasalar kitap",
-              "Swing trading rehberi",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          },
-          "vi": {
-            "category_phrase": "giao dịch và thị trường tài chính",
-            "long_tail_queries": [
-              "Swing trading hoạt động như thế nào",
-              "hướng dẫn thực hành Swing trading",
-              "SWING TRADING MASTERY Faramarz Kowsari"
-            ],
-            "primary_query": "SWING TRADING MASTERY",
-            "secondary_queries": [
-              "SWING TRADING MASTERY sách",
-              "sách về giao dịch và thị trường tài chính",
-              "hướng dẫn Swing trading",
-              "Swing trading",
-              "Price action",
-              "Market structure",
-              "Risk management",
-              "Backtesting"
-            ]
-          }
-        },
-        "long_tail_queries": [
-          "SWING TRADING MASTERY by Faramarz Kowsari",
-          "practical guide to swing trading",
-          "how to build a swing trading system",
-          "swing trading price action market structure risk management backtesting"
-        ],
-        "primary_query": "SWING TRADING MASTERY",
-        "related_slugs": [
-          "market-structure-trading",
-          "multi-timeframe-analysis",
-          "confluence-trading",
-          "candlestick-patterns-from-zero",
-          "volume-profile-trading"
-        ],
-        "secondary_queries": [
-          "SWING TRADING MASTERY book",
-          "A Practical Guide to Price Action, Market Structure, Trading Setups, Risk Management, Backtesting, and Systematic Execution",
-          "Trading",
-          "Swing trading",
-          "Price action",
-          "Market structure",
-          "Multiple-timeframe analysis",
-          "Risk management",
-          "Backtesting",
-          "Walk-forward validation",
-          "Swing trading guide"
-        ]
-      },
-      "key_topics": [
-        "Swing trading",
-        "Price action",
-        "Market structure",
-        "Trend and swing identification",
-        "Support and resistance zones",
-        "Multiple-timeframe analysis",
-        "Volatility and ATR",
-        "Volume and participation",
-        "Market regimes",
-        "Market breadth",
-        "Intermarket context",
-        "Swing-trading screeners",
-        "Relative strength",
-        "Sector leadership and rotation",
-        "Candlestick evidence",
-        "Moving averages",
-        "Momentum",
-        "RSI",
-        "MACD",
-        "Divergence",
-        "Fundamental filters",
-        "IPOs and corporate actions",
-        "Earnings and catalysts",
-        "Trend pullback continuation",
-        "Breakout acceptance and retest",
-        "Volatility contraction and expansion",
-        "Base formation and reversal",
-        "Range trading and mean reversion",
-        "Post-event gap continuation",
-        "Failed breakouts",
-        "Short-side swing trading",
-        "Entry triggers",
-        "Order choice",
-        "Stops and invalidation",
-        "Position sizing",
-        "Profit targets",
-        "Trailing exits",
-        "Trade management",
-        "Portfolio heat",
-        "Correlation and concentration",
-        "Overnight gaps",
-        "Drawdowns",
-        "Contingency rules",
-        "Expectancy",
-        "R-multiples",
-        "Trading statistics",
-        "Historical backtesting",
-        "Transaction costs and slippage",
-        "Out-of-sample testing",
-        "Walk-forward validation",
-        "Trade journals",
-        "Robustness checks",
-        "System improvement",
-        "Stocks and ETFs",
-        "Forex and futures",
-        "Crypto swing trading",
-        "Trading psychology",
-        "Decision hygiene",
-        "Rules-based workflows",
-        "AI-assisted trading workflow",
-        "Trading playbook",
-        "12-week practice plan",
-        "Reproducible backtesting",
-        "Research replication",
-        "Source audit and evidence limits"
-      ],
-      "learning": [
-        "Define a realistic swing-trading operating mandate based on available time, instruments, monitoring capacity and loss limits.",
-        "Read trend, swing structure, support and resistance as market context rather than as isolated chart labels.",
-        "Use multiple timeframes without allowing a lower-timeframe signal to contradict the higher-timeframe trade thesis.",
-        "Use ATR, volatility and participation data to judge whether a setup’s stop, target and expected movement are geometrically realistic.",
-        "Build screeners and candidate lists using relative strength, sector leadership, momentum, fundamentals and event context.",
-        "Interpret candlesticks, moving averages, RSI, MACD and divergence as conditional evidence instead of automatic buy or sell signals.",
-        "Plan and distinguish seven repeatable swing setups, including pullbacks, breakouts, volatility expansions, reversals, ranges, post-event continuations and failed breakouts.",
-        "Write invalidation before entry so that stop placement follows the trade thesis rather than the trader’s discomfort.",
-        "Size positions from a defined risk budget and stop distance rather than from conviction or account cash alone.",
-        "Manage targets, trailing exits and open risk while keeping portfolio heat, concentration and correlation visible.",
-        "Prepare for overnight gaps, event risk and drawdowns with contingency rules written before the position becomes stressful.",
-        "Use expectancy, R-multiples and trading statistics to evaluate a process across many trades rather than judging it from a short winning or losing streak.",
-        "Backtest without look-ahead bias, unrealistic fills or selective examples, and include trading costs and execution assumptions.",
-        "Separate development data from out-of-sample evidence and use walk-forward validation to test whether rules remain stable through time.",
-        "Maintain a trade journal that records decisions, skipped trades, execution quality, errors and rule adherence instead of only profit and loss.",
-        "Run robustness checks before changing a system and distinguish genuine improvement from parameter fitting.",
-        "Adapt the same decision framework to stocks and ETFs, forex and futures, and crypto while respecting different sessions, leverage and liquidity conditions.",
-        "Use psychology, attention controls, tools and AI as support for a rules-based workflow rather than as substitutes for risk management or evidence.",
-        "Build a complete swing-trading playbook and follow a 12-week practice plan before treating a strategy as operational."
-      ],
-      "target_audience": "For beginner and intermediate swing traders, self-directed investors, technical-analysis learners, part-time traders, and systematic-minded market participants who want a complete process spanning price action, market structure, setups, execution, portfolio risk, backtesting and disciplined review across stocks, ETFs, futures, forex and crypto.",
-      "url": "https://faramarzkowsari.github.io/books/swing-trading-mastery/",
-      "google_books_id": "Vl0iEgAAQBAJ",
-      "google_books_url": "https://play.google.com/store/books/details?id=Vl0iEgAAQBAJ",
-      "preview_url": "https://play.google.com/books/reader?id=Vl0iEgAAQBAJ&hl=en",
-      "cover_url": "https://books.google.com/books/content?id=Vl0iEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
-      "published_date": "2026",
-      "isbn": "",
-      "doi": ""
-    },
-    {
-      "slug": "engineering-creativity-with-ai",
-      "title": "ENGINEERING CREATIVITY WITH AI",
-      "subtitle": "A Systematic Framework for Breakthrough Thinking, Original Innovation, and Real-World Value Creation",
-      "author": "Faramarz Kowsari",
-      "language": "English",
-      "category": "Artificial Intelligence & Creativity",
-      "summary": "ENGINEERING CREATIVITY WITH AI treats creativity as an engineered search-and-validation process rather than a mysterious gift or a one-prompt trick. The book begins by separating novelty from usefulness and by asking what generative AI can actually contribute to creative work. Early chapters examine the cognitive architecture of creative thinking, the strengths and limits of generative models, the division of responsibility between human judgment and machine generation, and the habits required to escape entrenched patterns without mistaking novelty for evidence.\n\nAt the center of the book is AI-CE9, a proposed nine-stage creativity-engineering workflow. The sequence moves from discovering the real opportunity and mapping the existing solution space to reframing the problem, generating functionally diverse candidates, transferring ideas across domains, evaluating alternatives, building a minimum viable prototype, validating originality and real-world value, and iterating from evidence. AI-CE9 is presented as an integrative method to be tested, not as a scientifically proven universal law or a guarantee of breakthrough innovation.\n\nThe middle chapters expand the creative toolbox beyond ordinary brainstorming. TRIZ, SCAMPER, Systematic Inventive Thinking, morphological analysis, analogical reasoning, inversion, paradox, systems thinking and transformational creativity are used to manipulate problem structure deliberately. These methods are connected to prompt engineering, controlled divergence, multi-agent creative collaboration and constructive dissent so that AI output becomes a structured exploration space rather than a stream of plausible but unexamined suggestions.\n\nResearch-grounded creativity receives its own engineering treatment. The book explains how retrieval-augmented generation and search can support source-aware ideation, how multimodal systems can accelerate prototyping, and how experiment design can help distinguish a persuasive concept from a candidate that survives testing. Throughout the manuscript, observed evidence, inference, proposals, validation and unresolved questions are treated as different epistemic states. Illustrative cases are not presented as completed scientific experiments or commercial deployments.\n\nApplication chapters carry the framework into product and consumer innovation, literature and media, software and technology invention, scientific hypothesis engineering, and educational and social innovation. The focus is not on automating the creator out of the process. Instead, AI is positioned as a controllable instrument for widening search, exposing alternatives, generating prototypes and criticizing assumptions while humans remain responsible for problem definition, evidence quality, ethics, context and final judgment.\n\nThe final part connects creative output to real-world value. It examines economic opportunity, commercialization models, intellectual property, authorship, AI-assisted inventions, responsible innovation and the limits of AI creativity. The book closes by helping readers build a personal AI creativity laboratory and complete a 30-day creativity-engineering challenge. Appendices provide a nine-stage field record, pre-publication review checklist, worked AI-CE9 dossier, empirical evaluation design, creative-engineering prompt patterns and a publishing/reproducibility record. The result is a practical framework for turning AI-assisted ideation into a more disciplined cycle of search, prototype, evidence and revision.",
-      "seo_description": "A 227-page, 42-chapter guide to AI-assisted creativity engineering covering the AI-CE9 framework, TRIZ, SCAMPER, SIT, cross-domain synthesis, multi-agent ideation, RAG, multimodal prototyping, evaluation, intellectual property and responsible innovation.",
-      "seo": {
-        "cluster": "artificial-intelligence",
-        "cluster_label": "Artificial Intelligence",
-        "entities": [
-          "AI-assisted creativity",
-          "Creativity engineering",
-          "Human-AI creative partnership",
-          "Creative cognition",
-          "Generative AI and novelty",
-          "AI-CE9 framework",
-          "Opportunity discovery",
-          "Solution-space mapping",
-          "Problem reframing",
-          "Divergent idea generation",
-          "Cross-domain synthesis",
-          "Creative candidate evaluation",
-          "Minimum viable prototypes",
-          "Originality validation",
-          "Real-world value validation",
-          "TRIZ",
-          "SCAMPER",
-          "Systematic Inventive Thinking (SIT)",
-          "Morphological analysis",
-          "Analogical reasoning"
-        ],
-        "localized": {
-          "ar": {
-            "category_phrase": "الذكاء الاصطناعي",
-            "long_tail_queries": [
-              "ما هو AI creativity engineering",
-              "دليل عملي عن AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI كتاب",
-              "كتاب عن الذكاء الاصطناعي",
-              "دليل AI creativity engineering",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "bn": {
-            "category_phrase": "কৃত্রিম বুদ্ধিমত্তা",
-            "long_tail_queries": [
-              "AI creativity engineering কীভাবে কাজ করে",
-              "AI creativity engineering ব্যবহারিক গাইড",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI বই",
-              "কৃত্রিম বুদ্ধিমত্তা বই",
-              "AI creativity engineering গাইড",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "de": {
-            "category_phrase": "Künstliche Intelligenz",
-            "long_tail_queries": [
-              "wie funktioniert AI creativity engineering",
-              "praktischer Leitfaden zu AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI Buch",
-              "Künstliche Intelligenz Buch",
-              "AI creativity engineering Leitfaden",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "en": {
-            "category_phrase": "artificial intelligence",
-            "long_tail_queries": [
-              "how AI creativity engineering works",
-              "practical guide to AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI by Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI book",
-              "artificial intelligence book",
-              "AI creativity engineering guide",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "es": {
-            "category_phrase": "inteligencia artificial",
-            "long_tail_queries": [
-              "cómo funciona AI creativity engineering",
-              "guía práctica de AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI libro",
-              "libro de inteligencia artificial",
-              "guía de AI creativity engineering",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "fa": {
-            "category_phrase": "هوش مصنوعی",
-            "long_tail_queries": [
-              "AI creativity engineering چیست",
-              "راهنما کاربردی AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI فرامرز کوثری"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI کتاب",
-              "کتاب هوش مصنوعی",
-              "راهنما AI creativity engineering",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "fil": {
-            "category_phrase": "artificial intelligence",
-            "long_tail_queries": [
-              "paano gumagana ang AI creativity engineering",
-              "praktikal na gabay sa AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI aklat",
-              "aklat tungkol sa artificial intelligence",
-              "gabay sa AI creativity engineering",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "fr": {
-            "category_phrase": "intelligence artificielle",
-            "long_tail_queries": [
-              "comment fonctionne AI creativity engineering",
-              "guide pratique de AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI livre",
-              "livre sur intelligence artificielle",
-              "guide AI creativity engineering",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "id": {
-            "category_phrase": "kecerdasan buatan",
-            "long_tail_queries": [
-              "cara kerja AI creativity engineering",
-              "panduan praktis AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI buku",
-              "buku kecerdasan buatan",
-              "panduan AI creativity engineering",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "pt-BR": {
-            "category_phrase": "inteligência artificial",
-            "long_tail_queries": [
-              "como funciona AI creativity engineering",
-              "guia prático de AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI livro",
-              "livro sobre inteligência artificial",
-              "guia de AI creativity engineering",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "ro": {
-            "category_phrase": "inteligență artificială",
-            "long_tail_queries": [
-              "cum funcționează AI creativity engineering",
-              "ghid practic pentru AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI carte",
-              "carte despre inteligență artificială",
-              "ghid AI creativity engineering",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "ru": {
-            "category_phrase": "искусственный интеллект",
-            "long_tail_queries": [
-              "как работает AI creativity engineering",
-              "практическое руководство по AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI книга",
-              "книга о искусственный интеллект",
-              "руководство по AI creativity engineering",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "th": {
-            "category_phrase": "ปัญญาประดิษฐ์",
-            "long_tail_queries": [
-              "AI creativity engineering ทำงานอย่างไร",
-              "คู่มือ AI creativity engineering แบบปฏิบัติ",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI หนังสือ",
-              "หนังสือ ปัญญาประดิษฐ์",
-              "คู่มือ AI creativity engineering",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "tr": {
-            "category_phrase": "yapay zekâ",
-            "long_tail_queries": [
-              "AI creativity engineering nasıl çalışır",
-              "AI creativity engineering için uygulamalı rehberi",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI kitap",
-              "yapay zekâ kitap",
-              "AI creativity engineering rehberi",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          },
-          "vi": {
-            "category_phrase": "trí tuệ nhân tạo",
-            "long_tail_queries": [
-              "AI creativity engineering hoạt động như thế nào",
-              "hướng dẫn thực hành AI creativity engineering",
-              "ENGINEERING CREATIVITY WITH AI Faramarz Kowsari"
-            ],
-            "primary_query": "ENGINEERING CREATIVITY WITH AI",
-            "secondary_queries": [
-              "ENGINEERING CREATIVITY WITH AI sách",
-              "sách về trí tuệ nhân tạo",
-              "hướng dẫn AI creativity engineering",
-              "AI creativity engineering",
-              "AI-CE9 framework",
-              "TRIZ",
-              "SCAMPER",
-              "Human-AI creativity"
-            ]
-          }
-        },
-        "long_tail_queries": [
-          "ENGINEERING CREATIVITY WITH AI by Faramarz Kowsari",
-          "AI creativity engineering practical guide",
-          "AI-CE9 creativity framework",
-          "how to use AI for creative problem solving and innovation"
-        ],
-        "primary_query": "ENGINEERING CREATIVITY WITH AI",
-        "related_slugs": [
-          "rag-engineering",
-          "claude-agent-skills-playbook",
-          "ai-apis-in-practice",
-          "context-engineering-with-claude",
-          "chatgpt-6-astra"
-        ],
-        "secondary_queries": [
-          "ENGINEERING CREATIVITY WITH AI book",
-          "A Systematic Framework for Breakthrough Thinking, Original Innovation, and Real-World Value Creation",
-          "Artificial Intelligence",
-          "AI-assisted creativity",
-          "Creativity engineering",
-          "AI-CE9",
-          "TRIZ",
-          "SCAMPER",
-          "multi-agent creativity",
-          "RAG for creativity",
-          "multimodal prototyping",
-          "responsible innovation"
-        ]
-      },
-      "key_topics": [
-        "AI-assisted creativity",
-        "Creativity engineering",
-        "Human-AI creative partnership",
-        "Creative cognition",
-        "Generative AI and novelty",
-        "AI-CE9 framework",
-        "Opportunity discovery",
-        "Solution-space mapping",
-        "Problem reframing",
-        "Divergent idea generation",
-        "Cross-domain synthesis",
-        "Creative candidate evaluation",
-        "Minimum viable prototypes",
-        "Originality validation",
-        "Real-world value validation",
-        "TRIZ",
-        "SCAMPER",
-        "Systematic Inventive Thinking (SIT)",
-        "Morphological analysis",
-        "Analogical reasoning",
-        "Inversion and paradox",
-        "Systems thinking",
-        "Transformational creativity",
-        "Prompt engineering for creativity",
-        "Controlled divergence",
-        "Output diversity",
-        "Multi-agent collaboration",
-        "Constructive dissent",
-        "Retrieval-augmented generation (RAG)",
-        "Research-grounded creativity",
-        "Multimodal prototyping",
-        "Creativity evaluation",
-        "Experiment design",
-        "Creative products",
-        "Consumer innovation",
-        "Literature and media creativity",
-        "AI-assisted software invention",
-        "Scientific hypothesis engineering",
-        "Educational innovation",
-        "Social innovation",
-        "Economic opportunity",
-        "Innovation commercialization",
-        "Intellectual property",
-        "AI authorship",
-        "AI-assisted inventions",
-        "Responsible innovation",
-        "Limits of AI creativity",
-        "Personal AI creativity laboratory",
-        "30-day creativity challenge",
-        "Reproducibility"
-      ],
-      "learning": [
-        "Distinguish novelty, usefulness, validation and commercial success instead of treating them as interchangeable measures of creativity.",
-        "Use generative AI as a search and prototyping instrument while keeping human judgment responsible for evidence, ethics and final decisions.",
-        "Apply the nine stages of AI-CE9 from opportunity discovery through iteration without presenting the framework as a guaranteed recipe for invention.",
-        "Map an existing solution space before generating alternatives so an unfamiliar idea is not automatically mistaken for an original one.",
-        "Reframe problems and constraints deliberately to expose hidden assumptions and new solution directions.",
-        "Generate functionally diverse candidates through controlled divergence rather than accepting near-duplicate model outputs.",
-        "Use cross-domain analogy and transformation to transfer useful structures without copying surface features.",
-        "Evaluate candidate ideas with explicit criteria before investing in prototyping or commercialization.",
-        "Build minimum viable prototypes whose purpose is to test a claim rather than merely make an idea look convincing.",
-        "Separate proposed concepts from observed evidence and define what would count as validation for a specific claim.",
-        "Use TRIZ, SCAMPER, SIT and morphological analysis as structured mechanisms for changing a problem or design.",
-        "Apply inversion, paradox, systems thinking and transformational creativity to explore conceptual spaces beyond ordinary brainstorming.",
-        "Write prompts that support original thinking while recognizing that prompt sophistication does not prove originality or value.",
-        "Use multi-agent collaboration and constructive dissent to expose hidden assumptions and compare competing hypotheses.",
-        "Ground creative research with search and RAG while preserving source provenance and distinguishing retrieved evidence from generated interpretation.",
-        "Use multimodal AI to accelerate sketches, diagrams, interfaces and other prototypes without confusing visual plausibility with feasibility.",
-        "Design experiments and evaluation criteria that can challenge a creative claim instead of merely confirming it.",
-        "Adapt the framework to products, media, software, scientific hypotheses, education and social innovation.",
-        "Consider commercialization, intellectual property, authorship and responsible innovation before scaling a promising concept.",
-        "Build a personal AI creativity laboratory and complete a 30-day practice sequence that converts creative work into inspectable records and repeatable experiments."
-      ],
-      "target_audience": "For researchers, inventors, software engineers, designers, artists, educators, entrepreneurs, students and curious professionals who want a structured way to use AI for original thinking, prototyping and innovation while preserving human judgment, evidence standards, intellectual-property awareness and responsible decision-making.",
-      "url": "https://faramarzkowsari.github.io/books/engineering-creativity-with-ai/",
-      "google_books_id": "gF0iEgAAQBAJ",
-      "google_books_url": "https://play.google.com/store/books/details?id=gF0iEgAAQBAJ",
-      "preview_url": "https://play.google.com/books/reader?id=gF0iEgAAQBAJ&hl=en",
-      "cover_url": "https://books.google.com/books/content?id=gF0iEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "published_date": "2026",
       "isbn": "",
       "doi": ""
