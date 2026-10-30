@@ -69,6 +69,10 @@ input{flex:1;min-width:260px}
 .topic-index-cta h2{margin:0 0 6px;font-size:24px}.topic-index-cta p{margin:0;color:#4b5563}.topic-index-cta .actions{margin:14px 0 0}
 .topic-index-icon{width:64px;height:64px;display:flex;align-items:center;justify-content:center;border-radius:18px;background:#fff;color:#1d4ed8;border:1px solid #bfdbfe;box-shadow:0 8px 18px rgba(29,78,216,.1)}
 .topic-index-icon svg{width:44px;height:44px;display:block}
+/* Keep Topic Index CTA readable even on legacy/custom pages that omit the icon column. */
+.topic-index-cta > :only-child{grid-column:1/-1;min-width:0}
+.topic-index-cta > *{min-width:0}
+
 .topics-page{max-width:1180px}
 .topics-hero{padding:14px 0 24px}.topics-hero h1{font-size:clamp(38px,6vw,68px);letter-spacing:-.045em;margin:4px 0 12px}.topics-hero>p{max-width:780px;font-size:19px;line-height:1.65;color:#4b5563}
 .topic-search-panel{margin:12px 0 20px;padding:18px;border:1px solid var(--line);border-radius:16px;background:#fff}.topic-search-panel label{display:block;font-weight:750;margin:0 0 9px}.topic-search-panel input{width:100%;min-width:0}
