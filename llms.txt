@@ -213,3 +213,4 @@
 - Machine-readable books catalog: https://faramarzkowsari.github.io/books/catalog.json
 - Text-first HTML catalog: https://faramarzkowsari.github.io/books/all-books/
 - Search/AI crawler policy: https://faramarzkowsari.github.io/robots.txt
+- [FUTURES TRADING FROM ZERO](https://faramarzkowsari.github.io/books/futures-trading-from-zero/) — English; Trading. A comprehensive 70-lesson practical guide to Micro E-mini, E-mini and E-Nano futures covering contract mechanics, margin, fair value, expiration, price action, VWAP, Volume Profile, Level 2, DOM, Time & Sales, footprint, delta, execution, risk management, backtesting and professional practice. Primary search concept: Futures Trading From Zero. Related search concepts: futures trading book; Micro E-mini futures; E-mini futures; E-Nano futures; futures margin; order flow; futures backtesting; professional execution.
