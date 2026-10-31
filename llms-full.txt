@@ -4292,3 +4292,33 @@ Audience: Deneyimli profesyoneller, emekliler, kariyer değiştirenler, danışm
 - Canonical HTML pages, robots.txt and XML sitemaps are authoritative.
 - This file is an additional convenience surface for systems that consume plain-text discovery indexes.
 - Crawlers with published user-agent tokens are explicitly allowed in robots.txt where useful; other standards-compliant crawlers are covered by the general User-agent: * Allow: / policy.
+
+### FUTURES TRADING FROM ZERO
+
+- Canonical page: https://faramarzkowsari.github.io/books/futures-trading-from-zero/
+- Language: English
+- Category: Trading
+- Subtitle: The Complete Practical Guide to Micro E-mini, E-mini & E-Nano Futures, Contract Mechanics, Margin, Risk Management, Price Action, Order Flow, Backtesting, and Professional Execution
+- Google Books: https://play.google.com/store/books/details?id=C_skEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=C_skEgAAQBAJ&hl=en
+
+FUTURES TRADING FROM ZERO is a seventy-lesson practical guide that begins with the futures contract itself and develops toward professional execution. It covers exchange and clearing structure, contract specifications, ES/MES/NES and NQ/MNQ/NNQ families, Russell and Dow futures, notional exposure, fair value, basis, hedging, initial and maintenance margin, daily settlement, variation margin, trading costs, sessions, expiration, rolling and continuous-contract limitations.
+
+The analytical sections move through price action, market structure, auction logic, VWAP, Volume Profile, Level 2, DOM, Time & Sales, footprint charts, delta, cumulative delta, absorption, exhaustion and iceberg behavior. Execution chapters connect order types, queues, partial fills, slippage, latency, stops, targets and scaling to invalidation and position size. Risk chapters address stop-based sizing, correlated exposure, portfolio heat, volatility targeting, drawdown, loss limits, expectancy and R-multiples.
+
+The research section turns trading ideas into falsifiable rules and reproducible Python workflows, including realistic execution assumptions, out-of-sample and walk-forward testing, sensitivity to costs and contract choice, Monte Carlo analysis, stress testing and forward observation. The book closes with decision sheets, case studies, journaling, process review, broker/platform/data selection and a ninety-day practice path.
+
+Key topics: Futures trading; Micro E-mini futures; E-mini futures; E-Nano futures; ES; MES; NES; NQ; MNQ; NNQ; Margin; Fair value; Basis; Price action; Market structure; VWAP; Volume Profile; Level 2; DOM; Time & Sales; Footprint charts; Delta; CVD; Execution; Risk management; Backtesting; Python; Walk-forward testing; Monte Carlo
+
+What readers learn:
+- Decode futures contract specifications and translate price movement into dollar exposure.
+- Separate notional exposure, account equity and margin requirements.
+- Understand expiration, rollover, settlement and continuous-contract limitations.
+- Use price action, VWAP, profile and order-flow tools without treating them as deterministic signals.
+- Integrate execution costs, queue behavior and slippage into trade design and testing.
+- Size positions from invalidation and risk budget, including correlated portfolio exposure.
+- Build reproducible backtests and evaluate robustness with out-of-sample, walk-forward, sensitivity and Monte Carlo methods.
+- Develop a professional journal, review process and ninety-day practice routine.
+
+Audience: For beginner and intermediate futures traders, active index-futures traders, order-flow learners and systematic-minded readers who want a structured path from contract mechanics through risk, execution and reproducible testing.
+
