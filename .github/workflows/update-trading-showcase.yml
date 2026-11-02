@@ -1,0 +1,36 @@
+name: Update Trading Books Showcase
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "books/**/index.html"
+      - "tools/build_trading_showcase.py"
+      - "trading-books/template.html"
+      - ".github/workflows/update-trading-showcase.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-showcase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build trading showcase
+        run: python tools/build_trading_showcase.py
+
+      - name: Commit generated showcase
+        run: |
+          if git diff --quiet -- trading-books/index.html trading-books/data/trading-books.json; then
+            echo "Trading showcase is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add trading-books/index.html trading-books/data/trading-books.json
+          git commit -m "Auto-update trading books showcase"
+          git push
