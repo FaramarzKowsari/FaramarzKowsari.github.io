@@ -195,6 +195,23 @@ def category_for(book: dict) -> str:
         return "Trading Risk, Execution & Professional Practice"
     return "Start Here & Core Technical Analysis"
 
+def promotional_fallback(title: str, category: str) -> str:
+    if "multiple timeframe" in title.lower() or "multi-timeframe" in title.lower():
+        return "A focused trading guide to multiple timeframe analysis for readers who want to connect higher-timeframe market context with lower-timeframe structure and execution. It belongs in the trader’s toolkit for reducing tunnel vision, comparing trend and structure across chart horizons, and making more coherent decisions instead of treating each timeframe as an isolated market."
+    by_category = {
+        "Futures & Index Trading": "A practical futures trading title focused on turning contract knowledge, market structure, execution and risk into a clearer decision process for active traders.",
+        "Options & Volatility": "A practical options and volatility trading title designed to help traders connect market mechanics, structure, execution and risk rather than relying on isolated signals.",
+        "Order Flow, Volume & Market Microstructure": "A market-microstructure trading title for readers who want to read volume, liquidity and execution behavior with greater precision and less guesswork.",
+        "Smart Money, Liquidity & Market Structure": "A focused trading guide to liquidity and market structure, built for traders who want clearer rules around context, entries, invalidation and execution.",
+        "Swing, Trend & Indicator Trading": "A practical trend and indicator trading guide for readers who want to connect chart context, confirmation, execution and risk without turning indicators into prediction machines.",
+        "Gold, Silver, Forex & Crypto": "A market-specific trading guide for readers who want to understand price behavior, volatility, execution and risk in fast-moving global markets.",
+        "AI, Algorithmic & Systematic Trading": "A systematic trading title focused on turning trading ideas into structured, testable and repeatable workflows with disciplined risk control.",
+        "Scalping & Day Trading": "A practical intraday trading title for readers who want sharper session context, faster decision structure and disciplined execution under short time horizons.",
+        "Trading Risk, Execution & Professional Practice": "A professional trading guide centered on risk, execution discipline and the practical realities that separate a trading idea from a survivable process.",
+        "Start Here & Core Technical Analysis": "A practical technical-analysis guide for traders who want clearer chart reading, more structured decisions and a stronger connection between setup logic, invalidation and risk."
+    }
+    return by_category.get(category, "A practical trading guide designed to help traders build clearer, more structured and risk-aware decisions.")
+
 def shorten(text: str, limit=700) -> str:
     text = clean_text(text)
     if len(text) <= limit:
@@ -265,6 +282,16 @@ def parse_book(path: Path):
     if not is_trading_book(book):
         return None
     book["category"] = category_for(book)
+    placeholder_markers = [
+        "pending source-book review",
+        "full editorial description will be added",
+        "editorial summary pending",
+        "to be completed",
+        "structurally ready"
+    ]
+    if len(book["description"]) < 80 or any(x in book["description"].lower() for x in placeholder_markers):
+        book["description"] = promotional_fallback(book["title"], book["category"])
+        book["search_blob"] = " ".join([book["title"], book["subtitle"], book["genre"], book["description"], " ".join(book["tags"])])
     return book
 
 def esc(value):
