@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (174)
+## Books (175)
 
 ### Depremde Hayatta Kalma
 
@@ -4321,4 +4321,34 @@ What readers learn:
 - Develop a professional journal, review process and ninety-day practice routine.
 
 Audience: For beginner and intermediate futures traders, active index-futures traders, order-flow learners and systematic-minded readers who want a structured path from contract mechanics through risk, execution and reproducible testing.
+
+### ICHIMOKU CLOUD TRADING FROM ZERO
+
+- Canonical page: https://faramarzkowsari.github.io/books/ichimoku-cloud-trading-from-zero/
+- Language: English
+- Category: Trading & Technical Analysis
+- Subtitle: A Complete Visual Guide to Trend Analysis, Cloud Breakouts, Trading Strategies, Risk Management, and Real-World Applications
+- Google Books: https://play.google.com/store/books/details?id=qmUlEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=qmUlEgAAQBAJ&hl=en
+
+ICHIMOKU CLOUD TRADING FROM ZERO is a visual, beginner-to-advanced study of Ichimoku Kinko Hyo built around the distinction between observable chart data, interpretation and executable decisions. The opening chapters begin before the indicator itself, explaining candles, trends, swings, support, chart conventions and risk. The Ichimoku system is then developed component by component through Tenkan-sen, Kijun-sen, Senkou Span A, Senkou Span B and Chikou Span before the reader combines them into Kumo regimes, Tenkan–Kijun crosses, cloud breakouts, false-breakout analysis, Kijun pullbacks, cloud edges, flat levels and Kumo twists.
+
+The trading sections connect signals to invalidation, stop-loss placement, position sizing, exit logic and explicit no-trade conditions. Separate applications examine gold (XAUUSD), foreign exchange, Bitcoin and crypto, stocks and ETFs, and futures including Micro E-minis, emphasizing that sessions, gaps, spreads, volatility, contract mechanics and execution constraints change how the same visual framework behaves. Multi-timeframe analysis is used to separate context from trigger rather than to multiply confirmation indiscriminately.
+
+The advanced chapters introduce Hosoda time counts, Ichimoku wave concepts, N/V/E/NT price objectives, regime change, parameter sensitivity and confluence as hypotheses to examine rather than deterministic forecasts. The final research sequence asks the reader to write reproducible rules, implement Ichimoku logic in Pine Script v6, account for trading costs, use backtesting and walk-forward testing, and complete a twenty-chart decision lab. Appendices extend the material with calculation references, audit worksheets, bar-by-bar reproduction, risk arithmetic, Python checks, evidence registers, test protocols, a thirty-day practice curriculum, validation questions, order-simulation cases and portfolio-risk material.
+
+Key topics: Ichimoku Kinko Hyo; Tenkan-sen; Kijun-sen; Senkou Span A; Senkou Span B; Chikou Span; Kumo cloud; Tenkan–Kijun crosses; Cloud breakouts; False breakouts; Kijun pullbacks; Kumo twists; Multi-timeframe analysis; Hosoda time theory; Ichimoku wave theory; N/V/E/NT objectives; XAUUSD; Forex; Crypto; Stocks; ETFs; Futures; Micro E-minis; Risk management; Pine Script v6; Backtesting; Walk-forward testing; Trading costs; Reproducible strategy rules
+
+What readers learn:
+- Read chart data without confusing completed observations with future information.
+- Calculate and interpret the five principal Ichimoku components.
+- Classify price relative to the Kumo and evaluate crosses, breakouts and pullbacks in context.
+- Build stop, size, exit, invalidation and no-trade rules around a setup.
+- Adapt Ichimoku reasoning to gold, forex, crypto, equities and futures.
+- Use multi-timeframe context without creating uncontrolled indicator overload.
+- Treat classical Ichimoku time, wave and objective concepts as testable analytical hypotheses.
+- Translate discretionary ideas into reproducible Pine Script and research rules.
+- Evaluate strategies with costs, backtesting, walk-forward testing and structured decision review.
+
+Audience: Beginner and intermediate traders, technical-analysis students, multi-asset traders and systematic-minded readers who want a complete visual path from Ichimoku foundations to risk-controlled and testable trading workflows.
 
