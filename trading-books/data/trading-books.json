@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T15:55:00Z",
-  "count": 60,
+  "generated_at": "2026-11-02T15:40:30.731588+00:00",
+  "count": 59,
   "categories": {
     "Start Here & Core Technical Analysis": 8,
     "Smart Money, Liquidity & Market Structure": 16,
@@ -8,7 +8,7 @@
     "Futures & Index Trading": 2,
     "Options & Volatility": 5,
     "Scalping & Day Trading": 6,
-    "Swing, Trend & Indicator Trading": 8,
+    "Swing, Trend & Indicator Trading": 7,
     "Gold, Silver, Forex & Crypto": 2,
     "AI, Algorithmic & Systematic Trading": 3,
     "Trading Risk, Execution & Professional Practice": 2
@@ -160,14 +160,14 @@
       "cover": "https://books.google.com/books/content?id=snsIEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "medium_url": "",
       "source_page": "https://faramarzkowsari.github.io/books/mastering-fibonacci-trading/",
-      "description": "Editorial summary pending source-book review.",
+      "description": "A practical technical-analysis guide for traders who want clearer chart reading, more structured decisions and a stronger connection between setup logic, invalidation and risk.",
       "tags": [
         "Mastering Fibonacci Trading",
         "Mastering Fibonacci Trading book",
         "trading and financial markets book",
         "Mastering Fibonacci Trading guide"
       ],
-      "search_blob": "Mastering Fibonacci Trading   Editorial summary pending source-book review. Mastering Fibonacci Trading Mastering Fibonacci Trading book trading and financial markets book Mastering Fibonacci Trading guide",
+      "search_blob": "Mastering Fibonacci Trading   A practical technical-analysis guide for traders who want clearer chart reading, more structured decisions and a stronger connection between setup logic, invalidation and risk. Mastering Fibonacci Trading Mastering Fibonacci Trading book trading and financial markets book Mastering Fibonacci Trading guide",
       "category": "Start Here & Core Technical Analysis"
     },
     {
@@ -1068,14 +1068,14 @@
       "cover": "https://books.google.com/books/content?id=8uIGEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "medium_url": "",
       "source_page": "https://faramarzkowsari.github.io/books/day-trading/",
-      "description": "Editorial summary pending source-book review.",
+      "description": "A practical intraday trading title for readers who want sharper session context, faster decision structure and disciplined execution under short time horizons.",
       "tags": [
         "Day Trading",
         "Day Trading book",
         "trading and financial markets book",
         "Day Trading guide"
       ],
-      "search_blob": "Day Trading   Editorial summary pending source-book review. Day Trading Day Trading book trading and financial markets book Day Trading guide",
+      "search_blob": "Day Trading   A practical intraday trading title for readers who want sharper session context, faster decision structure and disciplined execution under short time horizons. Day Trading Day Trading book trading and financial markets book Day Trading guide",
       "category": "Scalping & Day Trading"
     },
     {
@@ -1322,28 +1322,6 @@
       "category": "Swing, Trend & Indicator Trading"
     },
     {
-      "title": "Multiple Timeframe Analysis",
-      "subtitle": "",
-      "genre": "Trading",
-      "language": "en",
-      "google_id": "zBgFEgAAQBAJ",
-      "google_url": "https://play.google.com/store/books/details?id=zBgFEgAAQBAJ",
-      "preview_url": "https://play.google.com/books/reader?id=zBgFEgAAQBAJ&hl=en",
-      "cover": "https://books.google.com/books/content?id=zBgFEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
-      "medium_url": "",
-      "source_page": "https://faramarzkowsari.github.io/books/multiple-timeframe-analysis/",
-      "description": "A focused trading guide to multiple timeframe analysis for readers who want to connect higher-timeframe market context with lower-timeframe structure and execution. The book belongs in the trader’s toolkit for reducing tunnel vision, comparing trend and structure across chart horizons, and making more coherent decisions instead of treating each timeframe as an isolated market.",
-      "tags": [
-        "Multiple Timeframe Analysis",
-        "Trading",
-        "Market context",
-        "Trend analysis",
-        "Execution"
-      ],
-      "search_blob": "Multiple Timeframe Analysis trading market context higher timeframe lower timeframe trend execution",
-      "category": "Swing, Trend & Indicator Trading"
-    },
-    {
       "title": "SWING TRADING MASTERY",
       "subtitle": "A Practical Guide to Price Action, Market Structure, Trading Setups, Risk Management, Backtesting, and Systematic Execution",
       "genre": "Trading",
@@ -1516,14 +1494,14 @@
       "cover": "https://books.google.com/books/content?id=lorZEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "medium_url": "",
       "source_page": "https://faramarzkowsari.github.io/books/ai-trading-with-chatbots/",
-      "description": "Editorial summary pending source-book review.",
+      "description": "A systematic trading title focused on turning trading ideas into structured, testable and repeatable workflows with disciplined risk control.",
       "tags": [
         "AI Trading with Chatbots",
         "AI Trading with Chatbots book",
         "trading and financial markets book",
         "AI Trading with Chatbots guide"
       ],
-      "search_blob": "AI Trading with Chatbots   Editorial summary pending source-book review. AI Trading with Chatbots AI Trading with Chatbots book trading and financial markets book AI Trading with Chatbots guide",
+      "search_blob": "AI Trading with Chatbots   A systematic trading title focused on turning trading ideas into structured, testable and repeatable workflows with disciplined risk control. AI Trading with Chatbots AI Trading with Chatbots book trading and financial markets book AI Trading with Chatbots guide",
       "category": "AI, Algorithmic & Systematic Trading"
     },
     {
