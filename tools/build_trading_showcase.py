@@ -51,6 +51,7 @@ TRADING_PHRASES = [
     "support and resistance", "prop firm", "0dte", "gamma exposure", "dom trading",
     "level 2", "cumulative volume delta", "cvd", "micro e-mini", "e-mini",
     "price action", "breakout", "market microstructure", "volatility trading",
+    "multiple timeframe", "multi-timeframe", "fibonacci", "wyckoff", "candlestick",
 ]
 
 def clean_text(value: str) -> str:
@@ -168,6 +169,8 @@ def category_for(book: dict) -> str:
         return "Scalping & Day Trading"
     if any(x in title for x in ["swing trading", "ichimoku", "renko", "heikin ashi", "macd", "moving average", "multi-timeframe", "multiple timeframe"]):
         return "Swing, Trend & Indicator Trading"
+    if any(x in title for x in ["candlestick", "confluence trading", "fibonacci", "support & resistance", "support and resistance", "wyckoff", "false breakout", "beyond the single candle", "breakout & retest", "breakout and retest"]):
+        return "Start Here & Core Technical Analysis"
     if any(x in title for x in ["prop firm", "funded account", "hedge fund"]):
         return "Trading Risk, Execution & Professional Practice"
 
