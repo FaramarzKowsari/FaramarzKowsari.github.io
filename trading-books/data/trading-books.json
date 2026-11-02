@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-02T15:45:00Z",
+  "generated_at": "2026-11-02T15:39:09.279038+00:00",
   "count": 59,
   "categories": {
-    "Start Here & Core Technical Analysis": 5,
+    "Start Here & Core Technical Analysis": 8,
     "Smart Money, Liquidity & Market Structure": 16,
     "Order Flow, Volume & Market Microstructure": 8,
     "Futures & Index Trading": 2,
-    "Options & Volatility": 6,
+    "Options & Volatility": 5,
     "Scalping & Day Trading": 6,
-    "Swing, Trend & Indicator Trading": 8,
+    "Swing, Trend & Indicator Trading": 7,
     "Gold, Silver, Forex & Crypto": 2,
     "AI, Algorithmic & Systematic Trading": 3,
-    "Trading Risk, Execution & Professional Practice": 3
+    "Trading Risk, Execution & Professional Practice": 2
   },
   "books": [
     {
@@ -39,6 +39,87 @@
         "Trading playbook"
       ],
       "search_blob": "Beyond the Single Candle A Visual Field Guide to Inside Bars, Engulfing Patterns, and Two-Candle Price Action Trading Beyond the Single Candle moves away from memorizing isolated candlestick names and studies what changes from Candle 1 to Candle 2. Range, body and close location are kept as separate dimensions so an Inside Bar, body engulfing pattern or Outside Bar has a mechanical definition before context is interpreted. Compression is treated as an observable condition, not a directional prediction. Two-candle price action Inside Bars Engulfing patterns Outside Bars Compression Mother-bar breakout False breakouts Close location Invalidation Trading playbook A Visual Field Guide to Inside Bars and Two-Candle Price Action",
+      "category": "Start Here & Core Technical Analysis"
+    },
+    {
+      "title": "BREAKOUT & RETEST TRADING",
+      "subtitle": "Breakout and Retest: A Rules-Based Trading Strategy",
+      "genre": "Trading",
+      "language": "en",
+      "google_id": "SycOEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=SycOEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=SycOEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=SycOEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/breakout-and-retest-trading/",
+      "description": "Breakout & Retest Trading organizes the strategy into a fixed chain: context, level, break, acceptance, retest, trigger, invalidation, target space, risk and execution. The book begins by defining meaningful levels and distinguishing a real break from a brief penetration, then studies closes, acceptance, follow-through, volume, overextension and the quality of the return to the broken area.",
+      "tags": [
+        "Breakouts",
+        "Retests",
+        "Acceptance",
+        "Role reversal",
+        "Entry triggers",
+        "False breakouts",
+        "Volume",
+        "Session context",
+        "Risk management",
+        "Backtesting"
+      ],
+      "search_blob": "BREAKOUT & RETEST TRADING Breakout and Retest: A Rules-Based Trading Strategy Trading Breakout & Retest Trading organizes the strategy into a fixed chain: context, level, break, acceptance, retest, trigger, invalidation, target space, risk and execution. The book begins by defining meaningful levels and distinguishing a real break from a brief penetration, then studies closes, acceptance, follow-through, volume, overextension and the quality of the return to the broken area. Breakouts Retests Acceptance Role reversal Entry triggers False breakouts Volume Session context Risk management Backtesting Breakout and Retest A Rules-Based Trading Strategy",
+      "category": "Start Here & Core Technical Analysis"
+    },
+    {
+      "title": "Candlestick Patterns From Zero",
+      "subtitle": "A Visual Trading Course for Beginners",
+      "genre": "Trading",
+      "language": "en",
+      "google_id": "_3_jEQAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=_3_jEQAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=_3_jEQAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=_3_jEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/candlestick-patterns-from-zero/",
+      "description": "Candlestick Patterns From Zero is a 100-page visual course that teaches candlestick reading from basic OHLC anatomy through pattern recognition, market context, confirmation and risk-aware execution. The book treats candle patterns as clues rather than guarantees: readers learn to interpret bodies and wicks, bullish and bearish candles, doji structures, hammers, shooting stars, engulfing patterns, harami patterns, morning and evening stars, multi-candle formations and gaps while checking trend, support and resistance, volume, volatility and higher-level context.",
+      "tags": [
+        "Candlestick anatomy",
+        "OHLC",
+        "Body and wick psychology",
+        "Doji",
+        "Hammer and inverted hammer",
+        "Shooting star and hanging man",
+        "Engulfing patterns",
+        "Harami patterns",
+        "Morning and evening stars",
+        "Multi-candle patterns"
+      ],
+      "search_blob": "Candlestick Patterns From Zero A Visual Trading Course for Beginners Trading Candlestick Patterns From Zero is a 100-page visual course that teaches candlestick reading from basic OHLC anatomy through pattern recognition, market context, confirmation and risk-aware execution. The book treats candle patterns as clues rather than guarantees: readers learn to interpret bodies and wicks, bullish and bearish candles, doji structures, hammers, shooting stars, engulfing patterns, harami patterns, morning and evening stars, multi-candle formations and gaps while checking trend, support and resistance, volume, volatility and higher-level context. Candlestick anatomy OHLC Body and wick psychology Doji Hammer and inverted hammer Shooting star and hanging man Engulfing patterns Harami patterns Morning and evening stars Multi-candle patterns Market context Confirmation Entry triggers Stop-loss placement Targets",
+      "category": "Start Here & Core Technical Analysis"
+    },
+    {
+      "title": "Confluence Trading",
+      "subtitle": "A Visual Practical Guide to Combining Price Action, Market Structure, Key Levels, Multiple Timeframes, and Risk",
+      "genre": "Trading",
+      "language": "en",
+      "google_id": "RS0LEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=RS0LEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=RS0LEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=RS0LEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/confluence-trading/",
+      "description": "Confluence Trading treats confluence as a way to organize evidence, not a score that makes uncertainty disappear. The early chapters distinguish independent evidence from duplicate evidence and put market structure and location before indicators. Key levels, price action, support and resistance, Fibonacci, moving averages, momentum, volume and multiple timeframes are evaluated according to what new information they add rather than how many boxes they allow the trader to tick.",
+      "tags": [
+        "Confluence trading",
+        "Independent evidence",
+        "Market structure",
+        "Key levels",
+        "Price action",
+        "Multiple timeframes",
+        "Fibonacci",
+        "Moving averages",
+        "Invalidation",
+        "Risk management"
+      ],
+      "search_blob": "Confluence Trading A Visual Practical Guide to Combining Price Action, Market Structure, Key Levels, Multiple Timeframes, and Risk Trading Confluence Trading treats confluence as a way to organize evidence, not a score that makes uncertainty disappear. The early chapters distinguish independent evidence from duplicate evidence and put market structure and location before indicators. Key levels, price action, support and resistance, Fibonacci, moving averages, momentum, volume and multiple timeframes are evaluated according to what new information they add rather than how many boxes they allow the trader to tick. Confluence trading Independent evidence Market structure Key levels Price action Multiple timeframes Fibonacci Moving averages Invalidation Risk management and Risk",
       "category": "Start Here & Core Technical Analysis"
     },
     {
@@ -869,33 +950,6 @@
       "category": "Options & Volatility"
     },
     {
-      "title": "Candlestick Patterns From Zero",
-      "subtitle": "A Visual Trading Course for Beginners",
-      "genre": "Trading",
-      "language": "en",
-      "google_id": "_3_jEQAAQBAJ",
-      "google_url": "https://play.google.com/store/books/details?id=_3_jEQAAQBAJ",
-      "preview_url": "https://play.google.com/books/reader?id=_3_jEQAAQBAJ&hl=en",
-      "cover": "https://books.google.com/books/content?id=_3_jEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
-      "medium_url": "",
-      "source_page": "https://faramarzkowsari.github.io/books/candlestick-patterns-from-zero/",
-      "description": "Candlestick Patterns From Zero is a 100-page visual course that teaches candlestick reading from basic OHLC anatomy through pattern recognition, market context, confirmation and risk-aware execution. The book treats candle patterns as clues rather than guarantees: readers learn to interpret bodies and wicks, bullish and bearish candles, doji structures, hammers, shooting stars, engulfing patterns, harami patterns, morning and evening stars, multi-candle formations and gaps while checking trend, support and resistance, volume, volatility and higher-level context.",
-      "tags": [
-        "Candlestick anatomy",
-        "OHLC",
-        "Body and wick psychology",
-        "Doji",
-        "Hammer and inverted hammer",
-        "Shooting star and hanging man",
-        "Engulfing patterns",
-        "Harami patterns",
-        "Morning and evening stars",
-        "Multi-candle patterns"
-      ],
-      "search_blob": "Candlestick Patterns From Zero A Visual Trading Course for Beginners Trading Candlestick Patterns From Zero is a 100-page visual course that teaches candlestick reading from basic OHLC anatomy through pattern recognition, market context, confirmation and risk-aware execution. The book treats candle patterns as clues rather than guarantees: readers learn to interpret bodies and wicks, bullish and bearish candles, doji structures, hammers, shooting stars, engulfing patterns, harami patterns, morning and evening stars, multi-candle formations and gaps while checking trend, support and resistance, volume, volatility and higher-level context. Candlestick anatomy OHLC Body and wick psychology Doji Hammer and inverted hammer Shooting star and hanging man Engulfing patterns Harami patterns Morning and evening stars Multi-candle patterns Market context Confirmation Entry triggers Stop-loss placement Targets",
-      "category": "Options & Volatility"
-    },
-    {
       "title": "Gamma Exposure Trading",
       "subtitle": "GEX, Dealer Positioning, Gamma Flip, Call Walls, Put Walls, 0DTE Options, and Intraday Market Structure",
       "genre": "Trading",
@@ -1158,33 +1212,6 @@
       ],
       "search_blob": "Turtle Soup Strategy The Turtle Soup Trading Strategy Trading Turtle Soup Strategy separates the historical failed-breakout idea from the modern vocabulary often layered on top of it. The classic architecture begins with a prior 20-period extreme, a fresh break beyond that boundary and a reclaim; a fresh break without reclaim is not the setup. The book also makes clear that Turtle Soup is not simply the original Turtle trend-following system run in reverse. Turtle Soup Failed breakouts 20-period highs and lows Reclaim Bullish Turtle Soup Bearish Turtle Soup Timeframe adaptation Liquidity sweeps Risk management Backtesting The Turtle Soup Trading Strategy",
       "category": "Scalping & Day Trading"
-    },
-    {
-      "title": "Confluence Trading",
-      "subtitle": "A Visual Practical Guide to Combining Price Action, Market Structure, Key Levels, Multiple Timeframes, and Risk",
-      "genre": "Trading",
-      "language": "en",
-      "google_id": "RS0LEgAAQBAJ",
-      "google_url": "https://play.google.com/store/books/details?id=RS0LEgAAQBAJ",
-      "preview_url": "https://play.google.com/books/reader?id=RS0LEgAAQBAJ&hl=en",
-      "cover": "https://books.google.com/books/content?id=RS0LEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
-      "medium_url": "",
-      "source_page": "https://faramarzkowsari.github.io/books/confluence-trading/",
-      "description": "Confluence Trading treats confluence as a way to organize evidence, not a score that makes uncertainty disappear. The early chapters distinguish independent evidence from duplicate evidence and put market structure and location before indicators. Key levels, price action, support and resistance, Fibonacci, moving averages, momentum, volume and multiple timeframes are evaluated according to what new information they add rather than how many boxes they allow the trader to tick.",
-      "tags": [
-        "Confluence trading",
-        "Independent evidence",
-        "Market structure",
-        "Key levels",
-        "Price action",
-        "Multiple timeframes",
-        "Fibonacci",
-        "Moving averages",
-        "Invalidation",
-        "Risk management"
-      ],
-      "search_blob": "Confluence Trading A Visual Practical Guide to Combining Price Action, Market Structure, Key Levels, Multiple Timeframes, and Risk Trading Confluence Trading treats confluence as a way to organize evidence, not a score that makes uncertainty disappear. The early chapters distinguish independent evidence from duplicate evidence and put market structure and location before indicators. Key levels, price action, support and resistance, Fibonacci, moving averages, momentum, volume and multiple timeframes are evaluated according to what new information they add rather than how many boxes they allow the trader to tick. Confluence trading Independent evidence Market structure Key levels Price action Multiple timeframes Fibonacci Moving averages Invalidation Risk management and Risk",
-      "category": "Swing, Trend & Indicator Trading"
     },
     {
       "title": "ICHIMOKU CLOUD TRADING FROM ZERO",
@@ -1503,33 +1530,6 @@
       ],
       "search_blob": "AI-Assisted Crypto Futures The Smart Three-Screenshot Method for Multi-Timeframe Futures Trading Trading AI-Assisted Crypto Futures builds a disciplined workflow around three clean screenshots: 1H for direction, 15M for the working zone and 5M for timing. Screenshots are treated as evidence rather than decoration, so each one must show the timeframe, recent swing points, active price area and enough history for the AI assistant to evaluate whether price is extended, balanced or structurally unclear. The prompt must ask for visible evidence, invalidation, risk and a reason to stand aside. Crypto futures Three-screenshot method Multi-timeframe analysis Market structure Liquidity and FVGs Prompt engineering Position sizing and leverage Execution and no-trade rules AI-Assisted Crypto Futures book trading and financial markets book",
       "category": "AI, Algorithmic & Systematic Trading"
-    },
-    {
-      "title": "BREAKOUT & RETEST TRADING",
-      "subtitle": "Breakout and Retest: A Rules-Based Trading Strategy",
-      "genre": "Trading",
-      "language": "en",
-      "google_id": "SycOEgAAQBAJ",
-      "google_url": "https://play.google.com/store/books/details?id=SycOEgAAQBAJ",
-      "preview_url": "https://play.google.com/books/reader?id=SycOEgAAQBAJ&hl=en",
-      "cover": "https://books.google.com/books/content?id=SycOEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
-      "medium_url": "",
-      "source_page": "https://faramarzkowsari.github.io/books/breakout-and-retest-trading/",
-      "description": "Breakout & Retest Trading organizes the strategy into a fixed chain: context, level, break, acceptance, retest, trigger, invalidation, target space, risk and execution. The book begins by defining meaningful levels and distinguishing a real break from a brief penetration, then studies closes, acceptance, follow-through, volume, overextension and the quality of the return to the broken area.",
-      "tags": [
-        "Breakouts",
-        "Retests",
-        "Acceptance",
-        "Role reversal",
-        "Entry triggers",
-        "False breakouts",
-        "Volume",
-        "Session context",
-        "Risk management",
-        "Backtesting"
-      ],
-      "search_blob": "BREAKOUT & RETEST TRADING Breakout and Retest: A Rules-Based Trading Strategy Trading Breakout & Retest Trading organizes the strategy into a fixed chain: context, level, break, acceptance, retest, trigger, invalidation, target space, risk and execution. The book begins by defining meaningful levels and distinguishing a real break from a brief penetration, then studies closes, acceptance, follow-through, volume, overextension and the quality of the return to the broken area. Breakouts Retests Acceptance Role reversal Entry triggers False breakouts Volume Session context Risk management Backtesting Breakout and Retest A Rules-Based Trading Strategy",
-      "category": "Trading Risk, Execution & Professional Practice"
     },
     {
       "title": "Prop Firm / Funded Account Trading",
