@@ -48,6 +48,22 @@ button,input{font:inherit}
 .hero-stats dt{font-weight:900;font-size:1.15rem}
 .hero-stats dd{margin:2px 0 0;color:var(--muted);font-size:.88rem}
 main{width:min(1180px,calc(100% - 34px));margin:auto}
+.showcase-social-preview{
+  margin:42px 0 0;
+  border:1px solid var(--line);
+  border-radius:24px;
+  overflow:hidden;
+  background:#0b1524;
+  box-shadow:var(--shadow);
+}
+.showcase-social-preview img{
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:1200/630;
+  object-fit:cover;
+}
+
 .intro-shell{display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;padding:76px 0 58px}
 .intro-shell h2,.seo-guide h2,.faq h2,.share-strip h2{margin:0;font-size:clamp(2rem,4vw,3.4rem);line-height:1.04;letter-spacing:-.035em}
 .intro-copy{color:#c6d0dd;font-size:1.05rem}
