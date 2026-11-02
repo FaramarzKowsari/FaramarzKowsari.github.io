@@ -147,20 +147,42 @@ def is_trading_book(book: dict) -> bool:
     return score >= 2
 
 def category_for(book: dict) -> str:
-    t = book["search_blob"].lower()
     title = book["title"].lower()
+    t = book["search_blob"].lower()
 
-    if any(x in t for x in ["ai trading", "algorithmic trading", "trading bot", "trading agent", "chatbot"]) or "algorithmic" in title:
+    # Title-first classification keeps the book's primary promise ahead of
+    # secondary keywords that naturally appear in broad trading descriptions.
+    if any(x in title for x in ["ai trading", "ai-assisted", "trading bot", "trading agent", "chatbot"]):
         return "AI, Algorithmic & Systematic Trading"
-    if any(x in t for x in ["0dte", "options", "gamma exposure", "option flow", "volatility"]) and "futures" not in title:
+    if any(x in title for x in ["xauusd", "xagusd", "silver trading", "forex", "crypto trading"]):
+        return "Gold, Silver, Forex & Crypto"
+    if any(x in title for x in ["0dte", "options", "gamma exposure", "options flow"]):
         return "Options & Volatility"
-    if any(x in t for x in ["footprint", "order flow", "market microstructure", "level 2", "dom trading", "cumulative volume delta", "cvd", "volume profile", "volume bubbles", "vwap", "liquidation heatmap"]):
+    if any(x in title for x in ["futures", "micro e-mini", "e-mini", "e-nano"]):
+        return "Futures & Index Trading"
+    if any(x in title for x in ["footprint", "dom trading", "level 2", "cvd trading", "volume profile", "volume bubbles", "vwap", "liquidation heatmap"]):
         return "Order Flow, Volume & Market Microstructure"
-    if any(x in t for x in ["smart money", "fair value gap", "order block", "liquidity sweep", "breaker block", "inducement", "premium & discount", "premium and discount", "ict ", "choch", "bos", "balanced price range", "market structure shift", "algorithmic time & price"]):
+    if any(x in title for x in ["smart money", "fair value gap", "order block", "liquidity sweep", "breaker block", "inducement", "premium & discount", "premium and discount", "ict ", "choch", "bos", "balanced price range", "market structure shift", "market structure trading", "supply and demand", "algorithmic time & price"]):
+        return "Smart Money, Liquidity & Market Structure"
+    if any(x in title for x in ["scalping", "day trading", "opening range", "first hour dealing range", "turtle soup"]):
+        return "Scalping & Day Trading"
+    if any(x in title for x in ["swing trading", "ichimoku", "renko", "heikin ashi", "macd", "moving average", "multi-timeframe", "multiple timeframe"]):
+        return "Swing, Trend & Indicator Trading"
+    if any(x in title for x in ["prop firm", "funded account", "hedge fund"]):
+        return "Trading Risk, Execution & Professional Practice"
+
+    # Fallbacks for future titles whose names are less explicit.
+    if any(x in t for x in ["ai trading", "algorithmic trading", "trading bot", "trading agent", "chatbot"]):
+        return "AI, Algorithmic & Systematic Trading"
+    if any(x in t for x in ["0dte", "options", "gamma exposure", "options flow", "volatility"]) and "futures" not in title:
+        return "Options & Volatility"
+    if any(x in t for x in ["footprint", "order flow", "market microstructure", "level 2", "dom trading", "cumulative volume delta", "cvd", "volume profile", "volume bubbles", "vwap"]):
+        return "Order Flow, Volume & Market Microstructure"
+    if any(x in t for x in ["smart money", "fair value gap", "order block", "liquidity sweep", "breaker block", "inducement", "premium & discount", "premium and discount", "ict ", "choch", "bos", "balanced price range", "market structure shift"]):
         return "Smart Money, Liquidity & Market Structure"
     if any(x in t for x in ["futures", "micro e-mini", "e-mini", "e-nano"]):
         return "Futures & Index Trading"
-    if any(x in t for x in ["xauusd", "xagusd", "silver trading", "forex", "crypto"]) and "options" not in t:
+    if any(x in t for x in ["xauusd", "xagusd", "silver trading", "forex", "crypto"]):
         return "Gold, Silver, Forex & Crypto"
     if any(x in t for x in ["scalping", "day trading", "opening range", "first hour dealing range"]):
         return "Scalping & Day Trading"
