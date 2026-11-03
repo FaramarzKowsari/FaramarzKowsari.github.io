@@ -367,6 +367,7 @@ def render_card(book: dict) -> str:
     <div class="card-actions">
       <a class="buy" href="{esc(book["google_url"])}" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a>
       <a class="preview" href="{esc(book["preview_url"])}" target="_blank" rel="noopener noreferrer">Read the Free Preview on Google Books</a>
+      <a class="details" href="{esc(book["source_page"])}">Book details &amp; full description</a>
       {medium_link}
     </div>
   </div>
@@ -423,6 +424,7 @@ def render_category_page(category: str, books: list[dict], updated: str) -> str:
 <title>{esc(title)} | Faramarz Kowsari</title>
 <meta name="description" content="{esc(shorten(description, 250))}">
 <link rel="canonical" href="{canonical}">
+<link rel="sitemap" type="application/xml" href="../sitemap.xml">
 <link rel="author" href="https://faramarzkowsari.github.io/books/author/">
 <meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(shorten(description, 240))}">
@@ -433,6 +435,8 @@ def render_category_page(category: str, books: list[dict], updated: str) -> str:
 <meta name="twitter:description" content="{esc(shorten(description, 200))}">
 <meta name="twitter:image" content="https://i.pinimg.com/736x/c7/ae/da/c7aeda0a3132f7d85ebd6af24e02cdc2.jpg">
 <link rel="stylesheet" href="../styles.css?v=20261102-4">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B8XLF16YDW"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-B8XLF16YDW');</script>
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(",", ":"))}</script>
 </head><body>
 <main class="category-landing">
@@ -498,13 +502,21 @@ def build():
         "@context": "https://schema.org",
         "@type": "CollectionPage",
         "@id": "https://faramarzkowsari.github.io/trading-books/#collection",
-        "name": "Trading Books by Faramarz Kowsari",
+        "name": "Trading Books for Beginners & Active Traders",
         "url": "https://faramarzkowsari.github.io/trading-books/",
         "description": "A dedicated trading-book showcase covering futures, options, order flow, Smart Money Concepts, technical analysis, price action, scalping, swing trading, gold, forex, crypto, risk management and algorithmic trading.",
         "author": {"@type": "Person", "@id": "https://faramarzkowsari.github.io/#person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/books/author/", "sameAs": ["https://orcid.org/0000-0003-1692-0453", "https://github.com/FaramarzKowsari", "https://www.linkedin.com/in/faramarzkowsari"]},
         "about": [{"@type": "Thing", "name": x} for x in ["Trading", "Technical Analysis", "Futures Trading", "Options Trading", "Order Flow", "Smart Money Concepts", "Price Action", "Risk Management", "Algorithmic Trading"]],
         "hasPart": [{"@type": "CollectionPage", "name": CATEGORY_SEARCH_TITLES[c], "url": f"https://faramarzkowsari.github.io/trading-books/{CATEGORY_PAGE_SLUGS[c]}/"} for c in CATEGORY_ORDER if grouped.get(c)],
         "mainEntity": {"@type": "ItemList", "numberOfItems": len(books), "itemListElement": item_list}
+    }
+    breadcrumb = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://faramarzkowsari.github.io/"},
+            {"@type": "ListItem", "position": 2, "name": "Trading Books", "item": "https://faramarzkowsari.github.io/trading-books/"}
+        ]
     }
     faq = {
         "@context":"https://schema.org",
@@ -515,7 +527,7 @@ def build():
             {"@type":"Question","name":"Where can I buy the books?","acceptedAnswer":{"@type":"Answer","text":"Book covers and purchase buttons link directly to the corresponding title on Google Books."}}
         ]
     }
-    jsonld_html = '<script type="application/ld+json">' + json.dumps(jsonld, ensure_ascii=False, separators=(",", ":")) + '</script>\n' + '<script type="application/ld+json">' + json.dumps(faq, ensure_ascii=False, separators=(",", ":")) + '</script>'
+    jsonld_html = '<script type="application/ld+json">' + json.dumps(jsonld, ensure_ascii=False, separators=(",", ":")) + '</script>\n' + '<script type="application/ld+json">' + json.dumps(breadcrumb, ensure_ascii=False, separators=(",", ":")) + '</script>\n' + '<script type="application/ld+json">' + json.dumps(faq, ensure_ascii=False, separators=(",", ":")) + '</script>'
 
     template = TEMPLATE.read_text(encoding="utf-8")
     updated = datetime.now(timezone.utc).date().isoformat()
