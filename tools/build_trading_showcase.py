@@ -42,6 +42,45 @@ CATEGORY_BLURBS = {
     "Trading Risk, Execution & Professional Practice": "Risk, funded accounts, institutional-vs-retail realities, process design, execution discipline and professional trading practice.",
 }
 
+CATEGORY_PAGE_SLUGS = {
+    "Start Here & Core Technical Analysis": "technical-analysis-books",
+    "Smart Money, Liquidity & Market Structure": "smart-money-trading-books",
+    "Order Flow, Volume & Market Microstructure": "order-flow-trading-books",
+    "Futures & Index Trading": "futures-trading-books",
+    "Options & Volatility": "options-trading-books",
+    "Scalping & Day Trading": "scalping-day-trading-books",
+    "Swing, Trend & Indicator Trading": "swing-trading-books",
+    "Gold, Silver, Forex & Crypto": "gold-forex-crypto-trading-books",
+    "AI, Algorithmic & Systematic Trading": "algorithmic-ai-trading-books",
+    "Trading Risk, Execution & Professional Practice": "trading-risk-execution-books",
+}
+
+CATEGORY_SEARCH_TITLES = {
+    "Start Here & Core Technical Analysis": "Technical Analysis & Price Action Trading Books",
+    "Smart Money, Liquidity & Market Structure": "Smart Money Concepts & Liquidity Trading Books",
+    "Order Flow, Volume & Market Microstructure": "Order Flow Trading Books: Footprint, DOM, CVD & Volume",
+    "Futures & Index Trading": "Futures Trading Books: Micro E-mini, Index Futures & Execution",
+    "Options & Volatility": "Options Trading Books: 0DTE, Gamma, Flow & Volatility",
+    "Scalping & Day Trading": "Scalping & Day Trading Books",
+    "Swing, Trend & Indicator Trading": "Swing Trading & Trend Analysis Books",
+    "Gold, Silver, Forex & Crypto": "Gold, Forex, Silver & Crypto Trading Books",
+    "AI, Algorithmic & Systematic Trading": "Algorithmic, AI & Systematic Trading Books",
+    "Trading Risk, Execution & Professional Practice": "Trading Risk, Execution & Prop Firm Books",
+}
+
+CATEGORY_LONG_INTROS = {
+    "Start Here & Core Technical Analysis": "Technical analysis becomes useful when it gives a trader a repeatable language for describing what price has already done and what would invalidate a current idea. This collection focuses on price action, candlesticks, support and resistance, breakouts, Wyckoff structure, Fibonacci, confluence and related chart-reading skills. It is designed for readers who want a stronger foundation before moving into specialized tools such as order flow, options or algorithmic systems. The emphasis is on reading structure clearly, separating observation from prediction, and connecting every setup to risk and invalidation.",
+    "Smart Money, Liquidity & Market Structure": "This collection focuses on the vocabulary and decision frameworks commonly grouped under Smart Money Concepts: market structure, liquidity, displacement, Fair Value Gaps, order blocks, CHoCH, BOS, premium and discount, inducement, breaker blocks and ICT-style timing ideas. The books are organized around a simple requirement: a concept should be defined clearly enough to recognize, reject and test. That matters because liquidity-based chart language can become retrospective if every move is explained only after the fact. These titles emphasize context, invalidation and evidence rather than treating institutional-sounding terminology as a guarantee.",
+    "Order Flow, Volume & Market Microstructure": "Order-flow trading asks what happened inside and around the candle rather than relying only on the finished bar. This collection covers footprint charts, cumulative volume delta, DOM, Level 2 market data, volume profile, VWAP, liquidation heatmaps and related microstructure tools. Each view answers a different question: traded volume, aggressive flow, displayed liquidity, value by price, or the relationship between price and volume-weighted reference levels. The purpose of this collection is to help traders choose the correct layer of market information for the decision they are actually making.",
+    "Futures & Index Trading": "Futures trading combines chart analysis with contract mechanics that directly affect risk and execution. These books cover Micro E-mini and index futures, contract specifications, tick value, margin, session structure, order flow, VWAP, volume profile, slippage, backtesting and professional execution. They are intended for traders who want to understand not only where a setup appears on the chart, but also what instrument is being traded, how the contract behaves, and how sizing and execution translate an idea into real account exposure.",
+    "Options & Volatility": "Options introduce dimensions that do not exist in a simple directional trade: expiration, strike selection, implied volatility, liquidity and the Greeks. This collection ranges from calls, puts and option chains to 0DTE trading, gamma exposure and options flow. It is built for readers who want to understand why being correct about direction is not always enough, how time and volatility reshape a position, and how dealer positioning or unusual activity should be interpreted within the mechanics of the option itself.",
+    "Scalping & Day Trading": "Short-horizon trading compresses the time available for analysis while making execution costs and discipline more important. This collection covers scalping, day trading, opening ranges, first-hour structure, failed breakouts and intraday trade management. The books emphasize session context, precise invalidation, realistic spreads and slippage, and the ability to stand aside when conditions do not justify a trade. The goal is not more activity; it is clearer decisions under faster conditions.",
+    "Swing, Trend & Indicator Trading": "Swing and trend trading require a different relationship with time. These books cover Ichimoku, MACD, Renko, Heikin Ashi, moving averages, multi-timeframe analysis and broader swing-trading frameworks. Indicators are treated as transformations of price and market state rather than prediction machines. The collection is designed for readers who want to combine trend context, confirmation, entries, exits and risk without stacking indicators until every chart appears to agree.",
+    "Gold, Silver, Forex & Crypto": "Different markets impose different execution environments. Gold and silver can react sharply to macroeconomic information and liquidity windows; forex is shaped by currency sessions and pair structure; crypto trades continuously and carries its own leverage and liquidation dynamics. This collection focuses on market-specific behavior in XAUUSD, XAGUSD and crypto-related trading, while keeping risk, liquidity, volatility and instrument mechanics at the center of the decision.",
+    "AI, Algorithmic & Systematic Trading": "Systematic and AI-assisted trading moves discretion into rules, data definitions, models, testing assumptions and production controls. These books cover AI trading agents, trading bots, chatbot-assisted workflows, multi-timeframe evidence, strategy specification and controlled automation. The central standard is reproducibility: an idea should be clear enough to test, costs should be included, leakage and overfitting should be challenged, and automation should never bypass independent risk controls.",
+    "Trading Risk, Execution & Professional Practice": "Trading performance is constrained by survival. This collection focuses on drawdown, funded-account rules, execution, institutional-versus-retail differences, leverage and the operational realities that sit around a strategy. It is for traders who want to understand why a valid market idea can still fail when sizing, liquidity, account constraints or execution are ignored. The books emphasize process, failure boundaries and the practical architecture of risk.",
+}
+
 TRADING_PHRASES = [
     "trading", "trader", "futures", "options", "forex", "xauusd", "xagusd",
     "ichimoku", "candlestick", "order flow", "footprint", "market structure",
@@ -142,7 +181,7 @@ def is_trading_book(book: dict) -> bool:
     blob = book["search_blob"].lower()
     if "trading" in genre or "financial markets" in genre or "algorithmic trading" in genre:
         return True
-    if any(x in title for x in ["trading", "futures", "options", "forex", "xauusd", "xagusd", "ichimoku"]):
+    if any(x in title for x in ["trading", "futures", "options", "forex", "xauusd", "xagusd", "ichimoku", "multiple timeframe", "multi-timeframe"]):
         return True
     score = sum(1 for phrase in TRADING_PHRASES if phrase in blob)
     return score >= 2
@@ -333,6 +372,79 @@ def render_card(book: dict) -> str:
   </div>
 </article>'''
 
+def render_category_page(category: str, books: list[dict], updated: str) -> str:
+    slug = CATEGORY_PAGE_SLUGS[category]
+    title = CATEGORY_SEARCH_TITLES[category]
+    canonical = f"https://faramarzkowsari.github.io/trading-books/{slug}/"
+    description = CATEGORY_LONG_INTROS[category]
+    cards = "\n".join(render_card(b) for b in books)
+    other_links = "\n".join(
+        f'<a href="../{CATEGORY_PAGE_SLUGS[c]}/">{esc(CATEGORY_SEARCH_TITLES[c])}</a>'
+        for c in CATEGORY_ORDER if c != category
+    )
+    items = [{
+        "@type": "ListItem",
+        "position": i,
+        "item": {
+            "@type": "Book",
+            "name": b["title"],
+            "author": {"@type": "Person", "name": "Faramarz Kowsari"},
+            "url": b["google_url"],
+            "image": b["cover"],
+        }
+    } for i, b in enumerate(books, 1)]
+    schema = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "CollectionPage",
+                "@id": canonical + "#collection",
+                "name": title,
+                "url": canonical,
+                "description": description,
+                "inLanguage": "en",
+                "author": {"@type": "Person", "@id": "https://faramarzkowsari.github.io/#person", "name": "Faramarz Kowsari"},
+                "isPartOf": {"@id": "https://faramarzkowsari.github.io/trading-books/#collection"},
+                "mainEntity": {"@type": "ItemList", "numberOfItems": len(books), "itemListElement": items},
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": 1, "name": "Trading Books", "item": "https://faramarzkowsari.github.io/trading-books/"},
+                    {"@type": "ListItem", "position": 2, "name": title, "item": canonical},
+                ],
+            },
+        ],
+    }
+    return f'''<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<title>{esc(title)} | Faramarz Kowsari</title>
+<meta name="description" content="{esc(shorten(description, 250))}">
+<link rel="canonical" href="{canonical}">
+<link rel="author" href="https://faramarzkowsari.github.io/books/author/">
+<meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(shorten(description, 240))}">
+<meta property="og:url" content="{canonical}">
+<meta property="og:image" content="https://i.pinimg.com/736x/c7/ae/da/c7aeda0a3132f7d85ebd6af24e02cdc2.jpg">
+<meta property="og:image:width" content="736"><meta property="og:image:height" content="386"><meta property="og:image:type" content="image/jpeg">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(shorten(description, 200))}">
+<meta name="twitter:image" content="https://i.pinimg.com/736x/c7/ae/da/c7aeda0a3132f7d85ebd6af24e02cdc2.jpg">
+<link rel="stylesheet" href="../styles.css?v=20261102-4">
+<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(",", ":"))}</script>
+</head><body>
+<main class="category-landing">
+<nav class="landing-crumbs"><a href="../">Trading Books</a> › <span>{esc(title)}</span></nav>
+<header class="category-hero"><p class="section-kicker">FARAMARZ KOWSARI · TRADING BOOKS</p><h1>{esc(title)}</h1><p>{esc(description)}</p><p><strong>{len(books)} books in this collection.</strong> Every cover links directly to Google Books, and each title includes a free-preview link when available.</p></header>
+<section class="book-section"><div class="book-grid">{cards}</div></section>
+<section class="category-context"><h2>Where this category fits in a trading education</h2><p>{esc(CATEGORY_BLURBS[category])} Use this page when this subject matches a real weakness in your process; use the complete library when you need to compare several approaches before choosing what to study next.</p><p><a class="button button-primary" href="../">Explore all trading books</a></p></section>
+<nav class="related-category-links" aria-label="Other trading book categories"><h2>Explore related trading-book collections</h2><div class="seo-category-grid">{other_links}</div></nav>
+</main>
+<footer><p><strong>Faramarz Kowsari Trading Books</strong> · Category updated {updated}</p><p class="disclaimer">Educational material only. Trading and investing involve risk.</p></footer>
+</body></html>'''
+
 def build():
     books = []
     for path in sorted(BOOKS.glob("*/index.html")):
@@ -346,6 +458,7 @@ def build():
         grouped[book["category"]].append(book)
 
     category_nav = []
+    category_links = []
     sections = []
     for category in CATEGORY_ORDER:
         items = grouped.get(category, [])
@@ -353,6 +466,7 @@ def build():
             continue
         sid = slugify(category)
         category_nav.append(f'<button class="category-filter" type="button" data-filter="{esc(sid)}">{esc(category)} <span>{len(items)}</span></button>')
+        category_links.append(f'<a class="seo-category-card" href="./{CATEGORY_PAGE_SLUGS[category]}/"><strong>{esc(CATEGORY_SEARCH_TITLES[category])}</strong><span>{len(items)} books</span><small>{esc(CATEGORY_BLURBS[category])}</small></a>')
         cards = "\n".join(render_card(b) for b in items)
         sections.append(f'''<section class="book-section" id="{esc(sid)}" data-category-section="{esc(sid)}">
   <div class="section-heading">
@@ -387,7 +501,9 @@ def build():
         "name": "Trading Books by Faramarz Kowsari",
         "url": "https://faramarzkowsari.github.io/trading-books/",
         "description": "A dedicated trading-book showcase covering futures, options, order flow, Smart Money Concepts, technical analysis, price action, scalping, swing trading, gold, forex, crypto, risk management and algorithmic trading.",
-        "author": {"@type": "Person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/"},
+        "author": {"@type": "Person", "@id": "https://faramarzkowsari.github.io/#person", "name": "Faramarz Kowsari", "url": "https://faramarzkowsari.github.io/books/author/", "sameAs": ["https://orcid.org/0000-0003-1692-0453", "https://github.com/FaramarzKowsari", "https://www.linkedin.com/in/faramarzkowsari"]},
+        "about": [{"@type": "Thing", "name": x} for x in ["Trading", "Technical Analysis", "Futures Trading", "Options Trading", "Order Flow", "Smart Money Concepts", "Price Action", "Risk Management", "Algorithmic Trading"]],
+        "hasPart": [{"@type": "CollectionPage", "name": CATEGORY_SEARCH_TITLES[c], "url": f"https://faramarzkowsari.github.io/trading-books/{CATEGORY_PAGE_SLUGS[c]}/"} for c in CATEGORY_ORDER if grouped.get(c)],
         "mainEntity": {"@type": "ItemList", "numberOfItems": len(books), "itemListElement": item_list}
     }
     faq = {
@@ -409,12 +525,31 @@ def build():
         .replace("{{UPDATED_DATE}}", updated)
         .replace("<!-- GENERATED:JSONLD -->", jsonld_html)
         .replace("<!-- GENERATED:CATEGORY_NAV -->", "\n".join(category_nav))
+        .replace("<!-- GENERATED:CATEGORY_LINKS -->", "\n".join(category_links))
         .replace("<!-- GENERATED:BOOK_SECTIONS -->", "\n".join(sections))
     )
 
     SHOWCASE.mkdir(parents=True, exist_ok=True)
     DATA.parent.mkdir(parents=True, exist_ok=True)
     INDEX.write_text(rendered, encoding="utf-8")
+
+    generated_urls = ["https://faramarzkowsari.github.io/trading-books/"]
+    for category in CATEGORY_ORDER:
+        items = grouped.get(category, [])
+        if not items:
+            continue
+        slug = CATEGORY_PAGE_SLUGS[category]
+        out_dir = SHOWCASE / slug
+        out_dir.mkdir(parents=True, exist_ok=True)
+        (out_dir / "index.html").write_text(render_category_page(category, items, updated), encoding="utf-8")
+        generated_urls.append(f"https://faramarzkowsari.github.io/trading-books/{slug}/")
+
+    sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for url in generated_urls:
+        sitemap.append(f'  <url><loc>{url}</loc><lastmod>{updated}</lastmod></url>')
+    sitemap.append('</urlset>')
+    (SHOWCASE / "sitemap.xml").write_text("\n".join(sitemap) + "\n", encoding="utf-8")
+
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(books),
