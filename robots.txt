@@ -121,3 +121,4 @@ Sitemap: https://faramarzkowsari.github.io/books/sitemap-es.xml
 Sitemap: https://faramarzkowsari.github.io/books/sitemap-fr.xml
 Sitemap: https://faramarzkowsari.github.io/books/sitemap-pt-br.xml
 Sitemap: https://faramarzkowsari.github.io/turkiye-disaster-intelligence-digital-twin/sitemap.xml
+Sitemap: https://faramarzkowsari.github.io/trading-books/sitemap.xml
