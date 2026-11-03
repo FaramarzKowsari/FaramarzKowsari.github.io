@@ -143,3 +143,23 @@ footer strong{color:var(--text)}
   .card-topline{justify-content:center}
   .section-heading{align-items:flex-start;flex-direction:column}
 }
+
+.hero-tagline{margin:18px 0 0;color:var(--gold);font-size:clamp(1.15rem,2.2vw,1.55rem);font-weight:800;letter-spacing:.01em}
+.seo-category-links,.choice-guide,.category-context,.related-category-links{padding:58px 0;border-top:1px solid var(--line)}
+.category-links-intro,.choice-copy,.category-context{max-width:980px;color:#c9d3df}
+.seo-category-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:24px}
+.seo-category-card,.related-category-links .seo-category-grid>a{display:block;padding:18px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.035);text-decoration:none;transition:transform .2s ease,border-color .2s ease,background .2s ease}
+.seo-category-card:hover,.related-category-links .seo-category-grid>a:hover{transform:translateY(-2px);border-color:rgba(87,227,163,.42);background:rgba(87,227,163,.055)}
+.seo-category-card strong{display:block;font-size:1.04rem;color:var(--text)}
+.seo-category-card span{display:inline-block;margin-top:7px;color:var(--accent);font-weight:800;font-size:.8rem}
+.seo-category-card small{display:block;margin-top:8px;color:var(--muted);line-height:1.5}
+.choice-copy{font-size:1.02rem}
+.choice-copy h3{margin:30px 0 8px;color:var(--text);font-size:1.28rem}
+.choice-copy p{margin:0 0 16px}
+.category-landing{width:min(1180px,calc(100% - 34px));margin:auto;padding:34px 0 68px}
+.landing-crumbs{margin:0 0 28px;color:var(--muted)}
+.category-hero{padding:42px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,rgba(87,227,163,.06),rgba(114,167,255,.05));box-shadow:var(--shadow)}
+.category-hero h1{margin:.15em 0 .35em;font-size:clamp(2.3rem,5vw,4.5rem);line-height:1.02;letter-spacing:-.04em}
+.category-hero p{max-width:940px;color:#cbd5e1}
+.related-category-links .seo-category-grid>a{color:#dfe8f5;font-weight:750}
+@media(max-width:760px){.seo-category-grid{grid-template-columns:1fr}.category-hero{padding:26px 20px}}
