@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T07:24:07.692867+00:00",
-  "count": 59,
+  "generated_at": "2026-11-03T07:35:00Z",
+  "count": 60,
   "categories": {
     "Start Here & Core Technical Analysis": 8,
     "Smart Money, Liquidity & Market Structure": 16,
@@ -8,7 +8,7 @@
     "Futures & Index Trading": 2,
     "Options & Volatility": 5,
     "Scalping & Day Trading": 6,
-    "Swing, Trend & Indicator Trading": 7,
+    "Swing, Trend & Indicator Trading": 8,
     "Gold, Silver, Forex & Crypto": 2,
     "AI, Algorithmic & Systematic Trading": 3,
     "Trading Risk, Execution & Professional Practice": 2
@@ -1319,6 +1319,28 @@
         "Swing trading"
       ],
       "search_blob": "Multi-Timeframe Analysis Multi-Timeframe Trading: From Bias to Entry Trading Multi-Timeframe Analysis treats top-down trading as a decision architecture rather than a ritual of opening several charts. Its deliberate sequence is regime, context, bias, location, setup, trigger, invalidation, target and management. Each timeframe is assigned a job so contradictory information can be described rather than resolved by simply choosing the chart that supports the desired trade. Multi-timeframe analysis Market regime Directional bias Location Setup and trigger Invalidation Trade management Scalping Intraday trading Swing trading Multi-Timeframe Trading From Bias to Entry",
+      "category": "Swing, Trend & Indicator Trading"
+    },
+    {
+      "title": "Multiple Timeframe Analysis",
+      "subtitle": "",
+      "genre": "Trading",
+      "language": "en",
+      "google_id": "zBgFEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=zBgFEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=zBgFEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=zBgFEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/multiple-timeframe-analysis/",
+      "description": "A focused trading guide to multiple timeframe analysis for readers who want to connect higher-timeframe market context with lower-timeframe structure and execution. It belongs in the trader’s toolkit for reducing tunnel vision, comparing trend and structure across chart horizons, and making more coherent decisions instead of treating each timeframe as an isolated market.",
+      "tags": [
+        "Multiple Timeframe Analysis",
+        "Trading",
+        "Market context",
+        "Trend analysis",
+        "Execution"
+      ],
+      "search_blob": "Multiple Timeframe Analysis trading market context higher timeframe lower timeframe trend execution",
       "category": "Swing, Trend & Indicator Trading"
     },
     {
