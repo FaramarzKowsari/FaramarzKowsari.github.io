@@ -4352,3 +4352,19 @@ What readers learn:
 
 Audience: Beginner and intermediate traders, technical-analysis students, multi-asset traders and systematic-minded readers who want a complete visual path from Ichimoku foundations to risk-controlled and testable trading workflows.
 
+## Trading Books for Beginners & Active Traders
+Canonical hub: https://faramarzkowsari.github.io/trading-books/
+
+This independent trading-book discovery hub organizes Faramarz Kowsari's trading titles by the decision problems traders actually face. It includes technical analysis and price action, Smart Money Concepts and liquidity, order flow and market microstructure, futures and index trading, options and volatility, scalping and day trading, swing and trend analysis, gold/silver/forex/crypto, AI and algorithmic trading, and trading risk/execution. The hub contains direct Google Books purchase links, free-preview links, book-cover imagery, concise subject descriptions, companion Medium links where available, and permanent crawlable category pages.
+
+Category landing pages:
+- Technical Analysis & Price Action Trading Books: https://faramarzkowsari.github.io/trading-books/technical-analysis-books/
+- Smart Money Concepts & Liquidity Trading Books: https://faramarzkowsari.github.io/trading-books/smart-money-trading-books/
+- Order Flow Trading Books: https://faramarzkowsari.github.io/trading-books/order-flow-trading-books/
+- Futures Trading Books: https://faramarzkowsari.github.io/trading-books/futures-trading-books/
+- Options Trading Books: https://faramarzkowsari.github.io/trading-books/options-trading-books/
+- Scalping & Day Trading Books: https://faramarzkowsari.github.io/trading-books/scalping-day-trading-books/
+- Swing Trading & Trend Analysis Books: https://faramarzkowsari.github.io/trading-books/swing-trading-books/
+- Gold, Forex, Silver & Crypto Trading Books: https://faramarzkowsari.github.io/trading-books/gold-forex-crypto-trading-books/
+- Algorithmic, AI & Systematic Trading Books: https://faramarzkowsari.github.io/trading-books/algorithmic-ai-trading-books/
+- Trading Risk, Execution & Prop Firm Books: https://faramarzkowsari.github.io/trading-books/trading-risk-execution-books/
