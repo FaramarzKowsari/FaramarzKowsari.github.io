@@ -62,5 +62,23 @@
     });
   });
 
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a');
+    if (!link) return;
+    const href = link.getAttribute('href') || '';
+    if (typeof window.gtag === 'function' && href.includes('play.google.com')) {
+      window.gtag('event', 'google_books_click', {
+        link_url: href,
+        link_text: (link.textContent || '').trim()
+      });
+    }
+    if (typeof window.gtag === 'function' && href.includes('medium.com')) {
+      window.gtag('event', 'medium_article_click', {
+        link_url: href,
+        link_text: (link.textContent || '').trim()
+      });
+    }
+  });
+
   applyFilters();
 })();
