@@ -163,3 +163,5 @@ footer strong{color:var(--text)}
 .category-hero p{max-width:940px;color:#cbd5e1}
 .related-category-links .seo-category-grid>a{color:#dfe8f5;font-weight:750}
 @media(max-width:760px){.seo-category-grid{grid-template-columns:1fr}.category-hero{padding:26px 20px}}
+
+.card-actions .details{background:rgba(255,212,121,.08);border-color:rgba(255,212,121,.22);color:#ffe6ad}
