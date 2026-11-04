@@ -17353,6 +17353,362 @@
       "fscjEgAAQBAJ",
       "gF0iEgAAQBAJ"
     ],
+    "seo": {
+      "cluster": "other-books",
+      "cluster_label": "Other Books",
+      "entities": [
+        "Patrones narcisistas y conducta observable",
+        "Rasgos narcisistas frente a diagnóstico clínico",
+        "Grandiosidad y vulnerabilidad",
+        "Desigualdad de poder",
+        "Sentido de privilegio y dobles raseros",
+        "Explotación y aprobación condicionada",
+        "Gaslighting, negación y traslado de la culpa",
+        "Humillación, desprecio y desvalorización",
+        "Silencio punitivo y presión de terceros",
+        "Amenazas, coacción y represalias",
+        "Progenitores controladores",
+        "Hijos adultos y padres invasivos",
+        "Hermanos, familia política y alianzas familiares",
+        "Envejecimiento, cuidados y vulnerabilidad",
+        "Primeras citas y señales tempranas",
+        "Parejas controladoras",
+        "Dinero, vivienda, intimidad y control digital",
+        "Hijos entre dos progenitores",
+        "Separación, divorcio y seguridad posterior",
+        "Jefes que humillan"
+      ],
+      "localized": {
+        "ar": {
+          "category_phrase": "كتب عملية",
+          "long_tail_queries": [
+            "ما هو Patrones narcisistas y conducta observable",
+            "دليل عملي عن Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO كتاب",
+            "كتاب عن كتب عملية",
+            "دليل Patrones narcisistas y conducta observable",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "bn": {
+          "category_phrase": "ব্যবহারিক বই",
+          "long_tail_queries": [
+            "Patrones narcisistas y conducta observable কীভাবে কাজ করে",
+            "Patrones narcisistas y conducta observable ব্যবহারিক গাইড",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO বই",
+            "ব্যবহারিক বই বই",
+            "Patrones narcisistas y conducta observable গাইড",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "de": {
+          "category_phrase": "Praxisbücher",
+          "long_tail_queries": [
+            "wie funktioniert Patrones narcisistas y conducta observable",
+            "praktischer Leitfaden zu Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Buch",
+            "Praxisbücher Buch",
+            "Patrones narcisistas y conducta observable Leitfaden",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "en": {
+          "category_phrase": "practical nonfiction",
+          "long_tail_queries": [
+            "how Patrones narcisistas y conducta observable works",
+            "practical guide to Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO by Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO book",
+            "practical nonfiction book",
+            "Patrones narcisistas y conducta observable guide",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "es": {
+          "category_phrase": "libros prácticos",
+          "long_tail_queries": [
+            "cómo funciona Patrones narcisistas y conducta observable",
+            "guía práctica de Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO libro",
+            "libro de libros prácticos",
+            "guía de Patrones narcisistas y conducta observable",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "fa": {
+          "category_phrase": "کتاب‌های کاربردی",
+          "long_tail_queries": [
+            "Patrones narcisistas y conducta observable چیست",
+            "راهنما کاربردی Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO فرامرز کوثری"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO کتاب",
+            "کتاب کتاب‌های کاربردی",
+            "راهنما Patrones narcisistas y conducta observable",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "fil": {
+          "category_phrase": "praktikal na aklat",
+          "long_tail_queries": [
+            "paano gumagana ang Patrones narcisistas y conducta observable",
+            "praktikal na gabay sa Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO aklat",
+            "aklat tungkol sa praktikal na aklat",
+            "gabay sa Patrones narcisistas y conducta observable",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "fr": {
+          "category_phrase": "livres pratiques",
+          "long_tail_queries": [
+            "comment fonctionne Patrones narcisistas y conducta observable",
+            "guide pratique de Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO livre",
+            "livre sur livres pratiques",
+            "guide Patrones narcisistas y conducta observable",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "id": {
+          "category_phrase": "buku praktis",
+          "long_tail_queries": [
+            "cara kerja Patrones narcisistas y conducta observable",
+            "panduan praktis Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO buku",
+            "buku buku praktis",
+            "panduan Patrones narcisistas y conducta observable",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "pt-BR": {
+          "category_phrase": "livros práticos",
+          "long_tail_queries": [
+            "como funciona Patrones narcisistas y conducta observable",
+            "guia prático de Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO livro",
+            "livro sobre livros práticos",
+            "guia de Patrones narcisistas y conducta observable",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "ro": {
+          "category_phrase": "cărți practice",
+          "long_tail_queries": [
+            "cum funcționează Patrones narcisistas y conducta observable",
+            "ghid practic pentru Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO carte",
+            "carte despre cărți practice",
+            "ghid Patrones narcisistas y conducta observable",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "ru": {
+          "category_phrase": "практические книги",
+          "long_tail_queries": [
+            "как работает Patrones narcisistas y conducta observable",
+            "практическое руководство по Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO книга",
+            "книга о практические книги",
+            "руководство по Patrones narcisistas y conducta observable",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "th": {
+          "category_phrase": "หนังสือเชิงปฏิบัติ",
+          "long_tail_queries": [
+            "Patrones narcisistas y conducta observable ทำงานอย่างไร",
+            "คู่มือ Patrones narcisistas y conducta observable แบบปฏิบัติ",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO หนังสือ",
+            "หนังสือ หนังสือเชิงปฏิบัติ",
+            "คู่มือ Patrones narcisistas y conducta observable",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "tr": {
+          "category_phrase": "uygulamalı kitaplar",
+          "long_tail_queries": [
+            "Patrones narcisistas y conducta observable nasıl çalışır",
+            "Patrones narcisistas y conducta observable için uygulamalı rehberi",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO kitap",
+            "uygulamalı kitaplar kitap",
+            "Patrones narcisistas y conducta observable rehberi",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        },
+        "vi": {
+          "category_phrase": "sách thực hành",
+          "long_tail_queries": [
+            "Patrones narcisistas y conducta observable hoạt động như thế nào",
+            "hướng dẫn thực hành Patrones narcisistas y conducta observable",
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO Faramarz Kowsari"
+          ],
+          "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+          "secondary_queries": [
+            "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO sách",
+            "sách về sách thực hành",
+            "hướng dẫn Patrones narcisistas y conducta observable",
+            "Patrones narcisistas y conducta observable",
+            "Rasgos narcisistas frente a diagnóstico clínico",
+            "Grandiosidad y vulnerabilidad",
+            "Desigualdad de poder",
+            "Sentido de privilegio y dobles raseros",
+            "Explotación y aprobación condicionada"
+          ]
+        }
+      },
+      "long_tail_queries": [
+        "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO by Faramarz Kowsari",
+        "practical guide to Patrones narcisistas y conducta observable",
+        "how Patrones narcisistas y conducta observable works",
+        "Patrones narcisistas y conducta observable Rasgos narcisistas frente a diagnóstico clínico"
+      ],
+      "primary_query": "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO",
+      "related_slugs": [
+        "narsisizmle-bas-etme-rehberi",
+        "the-narcissism-survival-guide",
+        "engineering-creativity-with-ai",
+        "cuando-el-dinero-no-alcanza",
+        "deja-de-explicarte"
+      ],
+      "secondary_queries": [
+        "GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO book",
+        "Reconocer los patrones narcisistas, establecer límites eficaces y protegerse en el hogar, en el trabajo y en la vida cotidiana",
+        "Psicología, Relaciones, Crecimiento personal y límites",
+        "Patrones narcisistas y conducta observable",
+        "Rasgos narcisistas frente a diagnóstico clínico",
+        "Grandiosidad y vulnerabilidad",
+        "Desigualdad de poder",
+        "Sentido de privilegio y dobles raseros",
+        "Explotación y aprobación condicionada",
+        "Gaslighting, negación y traslado de la culpa",
+        "Humillación, desprecio y desvalorización",
+        "Silencio punitivo y presión de terceros"
+      ]
+    },
     "seo_description": "Guía práctica en español de 37 capítulos sobre patrones narcisistas, límites eficaces, relaciones familiares y laborales, documentación, seguridad digital, toma de decisiones, salida segura y recuperación.",
     "source_review_status": "complete",
     "source_reviewed": true,
