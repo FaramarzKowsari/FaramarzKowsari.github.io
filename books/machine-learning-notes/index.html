@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<title>MACHINE LEARNING NOTES: From Classical ML to Responsible AI | Faramarz Kowsari</title>
+<meta name="description" content="A 128-page illustrated, two-volume visual study companion by Faramarz Kowsari: classical machine learning, honest evaluation, deep learning, transformers, MLOps, and responsible AI.">
+<meta name="author" content="Faramarz Kowsari">
+<meta name="keywords" content="machine learning notes, visual machine learning book, classical machine learning, deep learning notes, responsible AI, ML model evaluation, transformers, MLOps, machine learning study guide">
+<link rel="canonical" href="https://faramarzkowsari.github.io/books/machine-learning-notes/">
+<link rel="sitemap" type="application/xml" href="../sitemap.xml">
+<link rel="author" href="https://faramarzkowsari.github.io/books/author/">
+<link rel="alternate" type="text/plain" href="https://faramarzkowsari.github.io/llms.txt" title="LLM-readable site index">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Faramarz Kowsari Books">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="MACHINE LEARNING NOTES | From Classical ML to Responsible AI">
+<meta property="og:description" content="A 128-page illustrated, two-volume visual study companion by Faramarz Kowsari: classical machine learning, honest evaluation, deep learning, transformers, MLOps, and responsible AI.">
+<meta property="og:url" content="https://faramarzkowsari.github.io/books/machine-learning-notes/">
+<meta property="og:image" content="https://books.google.com/books/content?id=hn8mEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<meta property="og:image:alt" content="Cover of MACHINE LEARNING NOTES by Faramarz Kowsari">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MACHINE LEARNING NOTES | Faramarz Kowsari">
+<meta name="twitter:description" content="A 128-page illustrated, two-volume visual study companion by Faramarz Kowsari: classical machine learning, honest evaluation, deep learning, transformers, MLOps, and responsible AI.">
+<meta name="twitter:image" content="https://books.google.com/books/content?id=hn8mEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<meta name="twitter:image:alt" content="Illustrated cover of MACHINE LEARNING NOTES by Faramarz Kowsari">
+<meta property="book:author" content="Faramarz Kowsari">
+<meta property="book:tag" content="Machine Learning">
+<meta property="book:tag" content="Deep Learning">
+<meta property="book:tag" content="Responsible AI">
+<link rel="stylesheet" href="../styles.css">
+<style>
+.ml-notes .book-top{align-items:start}
+.ml-notes .book-top .subtitle{font-size:clamp(20px,2.6vw,29px);line-height:1.28}
+.ml-notes .lead{font-size:1.13rem;line-height:1.85;color:#2c3648}
+.ml-notes .eyebrow{text-transform:uppercase;letter-spacing:.1em;font-size:.78rem;font-weight:800;color:#4164a6}
+.ml-notes .promise{border:1px solid #cddaf4;border-left:5px solid #3b6ccf;border-radius:14px;background:linear-gradient(120deg,#f1f6ff,#fffdf7);padding:24px;margin:23px 0}
+.ml-notes .promise strong{color:#172b56}
+.ml-notes .stat-row{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+.ml-notes .stat-row span{background:#f0f5ff;color:#243c68;border:1px solid #dce5f6;border-radius:999px;padding:8px 12px;font-size:.9rem;font-weight:650}
+.ml-notes .arc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.ml-notes .arc{background:#fff;border:1px solid #dfe7f1;border-radius:16px;padding:24px;box-shadow:0 6px 20px rgba(18,37,69,.04)}
+.ml-notes .arc h3{margin:6px 0 12px;font-size:1.37rem}
+.ml-notes .arc li,.ml-notes .detail li{margin-bottom:9px}
+.ml-notes .arc .eyebrow{display:block}
+.ml-notes .arc-one{border-top:5px solid #278c85}
+.ml-notes .arc-two{border-top:5px solid #8658bd}
+.ml-notes .detail{background:#fff;border:1px solid #e3e7f0;border-radius:14px;padding:22px;margin:18px 0}
+.ml-notes .detail h3{margin:0 0 9px}
+.ml-notes .detail p{line-height:1.8}
+.ml-notes .example{border-left:4px solid #f0ba3a;background:#fff9eb;padding:17px 20px;border-radius:0 12px 12px 0;margin:16px 0}
+.ml-notes .method-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.ml-notes .method-grid article{background:#f8fafc;border:1px solid #e1e7f0;border-radius:13px;padding:19px}
+.ml-notes .method-grid h3{font-size:1.04rem;margin:0 0 8px}
+.ml-notes .method-grid p{margin:0;font-size:.96rem;line-height:1.65}
+.ml-notes .faq details{background:#fff;border:1px solid #e0e5ed;border-radius:12px;padding:16px 19px;margin:10px 0}
+.ml-notes .faq summary{font-weight:750;cursor:pointer}
+.ml-notes .faq details p{line-height:1.7}
+.ml-notes .author-card{background:#f3f6fb;border-radius:16px;padding:24px}
+.ml-notes .related-books li{margin:9px 0}
+.ml-notes .center-cta{text-align:center;padding:28px 20px;background:linear-gradient(125deg,#eef5ff,#fdf7ff);border:1px solid #dce6f3;border-radius:17px}
+.ml-notes .center-cta .actions{justify-content:center}
+.ml-notes .smallprint{font-size:.92rem;color:#526071}
+@media(max-width:740px){.ml-notes .arc-grid,.ml-notes .method-grid{grid-template-columns:1fr}.ml-notes .arc{padding:20px}.ml-notes .detail{padding:18px}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Book","@id":"https://faramarzkowsari.github.io/books/machine-learning-notes/#book","name":"MACHINE LEARNING NOTES","alternateName":"MACHINE LEARNING NOTES: From Classical ML to Responsible AI","description":"A complete two-volume collection of 128 illustrated, handwritten-style study pages tracing machine learning from fundamental concepts, classical algorithms and model evaluation to deep learning, transformers, generative models, MLOps and responsible AI.","author":{"@type":"Person","@id":"https://faramarzkowsari.github.io/#person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/"},"inLanguage":"en","bookFormat":"https://schema.org/EBook","url":"https://play.google.com/store/books/details?id=hn8mEgAAQBAJ","image":"https://books.google.com/books/content?id=hn8mEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","publisher":{"@type":"Person","name":"Faramarz Kowsari"},"genre":["Machine Learning","Artificial Intelligence","Data Science","Computer Science Education"],"keywords":["machine learning notes","classical machine learning","deep learning","visual machine learning","model evaluation","responsible AI","transformers","MLOps","illustrated study notes"],"identifier":{"@type":"PropertyValue","propertyID":"Google Books ID","value":"hn8mEgAAQBAJ"},"mainEntityOfPage":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-notes/#webpage"}},{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/books/machine-learning-notes/#webpage","url":"https://faramarzkowsari.github.io/books/machine-learning-notes/","name":"MACHINE LEARNING NOTES: From Classical ML to Responsible AI | Faramarz Kowsari","description":"A 128-page illustrated, two-volume visual study companion by Faramarz Kowsari: classical machine learning, honest evaluation, deep learning, transformers, MLOps, and responsible AI.","inLanguage":"en","isPartOf":{"@id":"https://faramarzkowsari.github.io/books/#collection"},"primaryImageOfPage":"https://books.google.com/books/content?id=hn8mEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","mainEntity":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-notes/#book"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://faramarzkowsari.github.io/"},{"@type":"ListItem","position":2,"name":"Books","item":"https://faramarzkowsari.github.io/books/"},{"@type":"ListItem","position":3,"name":"MACHINE LEARNING NOTES","item":"https://faramarzkowsari.github.io/books/machine-learning-notes/"}]}]}</script>
+</head>
+<body>
+<main class="book-page ml-notes">
+<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>›</span><a href="../">Books</a><span>›</span><span aria-current="page">MACHINE LEARNING NOTES</span></nav>
+<p><a href="../">← All books</a></p>
+<section class="book-top">
+  <a class="book-cover-link" href="https://play.google.com/store/books/details?id=hn8mEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View MACHINE LEARNING NOTES on Google Books">
+    <img src="https://books.google.com/books/content?id=hn8mEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api" alt="MACHINE LEARNING NOTES cover: the complete two-volume collection by Faramarz Kowsari" loading="eager" decoding="async" fetchpriority="high" width="512" height="724">
+  </a>
+  <div>
+    <p class="eyebrow">Illustrated machine learning study companion</p>
+    <h1>MACHINE LEARNING NOTES</h1>
+    <p class="meta author-byline">By <a rel="author" href="../author/">Faramarz Kowsari</a></p>
+    <p class="subtitle">From Classical ML to Responsible AI</p>
+    <p class="meta">The complete two-volume collection · English · 128 illustrated study pages</p>
+    <div class="stat-row"><span>Classical ML</span><span>Deep Learning</span><span>Generative AI</span><span>MLOps</span><span>Responsible AI</span></div>
+    <div class="actions">
+      <a class="action primary" href="https://play.google.com/store/books/details?id=hn8mEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a>
+      <a class="action" href="https://play.google.com/books/reader?id=hn8mEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Open Google Books reader</a>
+    </div>
+    <p class="smallprint">Available through Google Play Books. Preview availability and purchase options are determined by Google Books for your region.</p>
+  </div>
+</section>
+
+<section class="section">
+  <p class="eyebrow">The idea behind this book</p>
+  <h2>Learn to see how machine learning works</h2>
+  <p class="lead">A machine learning model can produce an impressive score while answering the wrong question. A neural network can fit its training data and still fail on the next dataset. A sophisticated architecture can hide a remarkably simple mistake: information from the future leaked into the training set, an unsuitable metric, or a decision threshold chosen after looking at the test results. The most useful machine learning education teaches you to recognize these problems, not just memorize algorithm names.</p>
+  <p><strong>MACHINE LEARNING NOTES: From Classical ML to Responsible AI</strong> turns that learning journey into a visual, connected reference. Across two complementary volumes, 128 illustrated study pages move from the basic question of what a model learns to the deeper questions of how it generalizes, how it should be evaluated, how modern deep-learning systems are built, and how their behavior can be monitored and audited. Instead of long walls of prose, the material uses handwritten-style explanations, clearly labeled diagrams, color-coded mathematical ideas, small worked examples, and compact warnings about where intuition can mislead.</p>
+  <p>This is a book to <em>study with a pencil nearby</em>. Read a note, trace the arrows, check the equation, test the example in your own code, and return to the page whenever a concept becomes fuzzy.</p>
+  <div class="promise"><strong>One learning journey, two connected volumes.</strong> The first develops the conceptual and mathematical foundations of classical machine learning and honest model selection. The second extends that discipline to learning theory, neural networks, transformers, generative systems, reinforcement learning, production pipelines, and responsible AI. The bridge between them is deliberate: advanced models still need defensible data, evaluation, and judgment.</div>
+</section>
+
+<section class="section" id="inside">
+  <h2>Inside the complete two-volume collection</h2>
+  <div class="arc-grid">
+    <article class="arc arc-one">
+      <span class="eyebrow">Volume One · Classical Machine Learning</span>
+      <h3>From the first dataset to a defensible model</h3>
+      <p>Start with the language of learning and finish with a reproducible evaluation workflow. The emphasis is on the reasoning that makes a model trustworthy enough to compare.</p>
+      <ul>
+        <li><strong>Learning tasks and foundations:</strong> supervised, unsupervised and reinforcement learning; features, targets, baselines, vectors, matrices, gradients, probability and Bayes' theorem.</li>
+        <li><strong>Real data workflows:</strong> NumPy and pandas concepts, data quality, missing values, scaling, encoding, feature construction, train/validation/test splits and leakage-resistant pipelines.</li>
+        <li><strong>Regression:</strong> least squares, nonlinear fits, overfitting, ridge, lasso and elastic net regularization.</li>
+        <li><strong>Classification:</strong> logistic regression, class probabilities, decision boundaries, Naive Bayes, Gaussian discriminant models, nearest neighbors, support vector machines and kernels.</li>
+        <li><strong>Trees and ensembles:</strong> decision trees, bagging, random forests, boosting and disciplined model combinations.</li>
+        <li><strong>Evaluation and reproducibility:</strong> confusion matrices, precision and recall, class imbalance, thresholds, cross-validation, regression errors, tuning, calibration and transparent reporting.</li>
+      </ul>
+      <p><strong>The lasting lesson:</strong> fitting a model is only part of learning; proving what its score means is the harder part.</p>
+    </article>
+    <article class="arc arc-two">
+      <span class="eyebrow">Volume Two · Advanced &amp; Responsible ML</span>
+      <h3>From generalization to real-world AI systems</h3>
+      <p>Move into advanced methods without losing sight of their assumptions, limitations and operational consequences.</p>
+      <ul>
+        <li><strong>Learning theory:</strong> empirical versus population risk, generalization gaps, bias–variance, model capacity, optimization, momentum, Adam and predictive uncertainty.</li>
+        <li><strong>Unsupervised learning:</strong> k-means, hierarchical clustering, DBSCAN, Gaussian mixtures, expectation-maximization, anomaly detection, PCA, SVD and visualization cautions.</li>
+        <li><strong>Deep learning:</strong> perceptrons, nonlinear activations, neural losses, computation graphs, backpropagation, automatic differentiation, training stability and regularization.</li>
+        <li><strong>Images and sequences:</strong> convolutional networks, transfer learning, sequence models, gated recurrence, temporal evaluation, attention and transformers.</li>
+        <li><strong>Modern AI:</strong> embeddings, foundation-model adaptation, self-supervised learning, latent-variable and adversarial models, diffusion, reinforcement-learning values and policies.</li>
+        <li><strong>Deployment and responsibility:</strong> experiment tracking, model serving, monitoring, explainability, fairness, privacy, security, independent auditing and system limitations.</li>
+      </ul>
+      <p><strong>The lasting lesson:</strong> model quality is a continuing responsibility, from the training objective to the decisions made after deployment.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Five concrete ways the notes make difficult ideas clearer</h2>
+  <div class="detail">
+    <h3>1. Understand a learning task before choosing an algorithm</h3>
+    <p>The opening visual lessons contrast handwritten rules with patterns learned from labeled examples. A simple fruit-classification illustration becomes a vehicle for explaining what the inputs are, what labels mean, and why testing on unseen observations matters. That leads naturally to baselines, appropriate targets, and the distinction between prediction and causal explanation.</p>
+  </div>
+  <div class="detail">
+    <h3>2. See the mathematics rather than reciting it</h3>
+    <p>Regression lines, sigmoid curves, feature vectors, gradient arrows, loss functions and probability relationships are annotated in context. The purpose is to connect an equation to the object it describes: a boundary, a probability, an optimization step, or a source of error. This is particularly helpful when moving from familiar plots to matrix-based notation and neural-network computation graphs.</p>
+  </div>
+  <div class="detail">
+    <h3>3. Learn why evaluation can be misleading</h3>
+    <p>Model performance is more than accuracy. The collection treats class imbalance, confusion matrices, error costs, precision and recall, cross-validation, leakage, tuning bias and probability calibration as choices with consequences. In the advanced volume, diagrams distinguish empirical training risk from the population risk we actually care about. A small validation sample can fluctuate; searching many settings on one validation set can make an estimate look better than it is.</p>
+    <div class="example"><strong>One of the book's recurring questions:</strong> Did the model learn a useful pattern, or did the experimental setup make it appear more reliable than it really is?</div>
+  </div>
+  <div class="detail">
+    <h3>4. Connect classical intuition with deep learning</h3>
+    <p>The second volume introduces neurons and nonlinear activations before backpropagation, automatic differentiation and optimization. It then links spatial filters to convolutional networks, time-ordered data to sequence models, and query–key–value attention to transformer architectures. These topics are presented as extensions of earlier ideas about representation, loss and generalization, so the technical vocabulary accumulates with a purpose.</p>
+  </div>
+  <div class="detail">
+    <h3>5. Follow a model beyond its training notebook</h3>
+    <p>The final stretch asks what changes when a model becomes a system: data and model versions, serving, monitoring, changing distributions, fairness assessments, privacy and security trade-offs, and the need to document known limits. Responsible AI is integrated into the engineering story, not treated as a decorative final slogan.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Designed for active visual study</h2>
+  <p>The notes use a handwritten-student-notebook aesthetic, but the visual devices have instructional jobs. Colored annotations separate definitions from exceptions. Diagrams reveal dependencies. Worked examples slow down a calculation just enough to show where each term comes from. Caution labels point out common conceptual traps before they become habits.</p>
+  <div class="method-grid">
+    <article><h3>Concept maps</h3><p>Locate an idea within the larger learning workflow: data, model, objective, prediction, evaluation and decision.</p></article>
+    <article><h3>Equation anatomy</h3><p>Read symbols alongside the plots and small numerical cases that give them meaning.</p></article>
+    <article><h3>Visual comparisons</h3><p>Contrast methods such as underfitting versus overfitting, classification versus regression, and different clustering behaviors.</p></article>
+    <article><h3>Worked micro-examples</h3><p>Trace a small calculation or update step before attempting a larger implementation.</p></article>
+    <article><h3>Failure warnings</h3><p>Notice data leakage, unsuitable metrics, optimistic validation and other errors that polished demos often conceal.</p></article>
+    <article><h3>Quick revision pages</h3><p>Return to compact explanations when preparing for class, interviews or a new engineering task.</p></article>
+  </div>
+</section>
+
+<section class="section center-cta" aria-label="Google Books purchase">
+  <h2>Keep the full visual learning map at hand</h2>
+  <p>The collection is built to be revisited: when a formula stops making sense, when you need to choose an evaluation metric, or when a modern AI concept needs to be traced back to its foundations.</p>
+  <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=hn8mEgAAQBAJ" target="_blank" rel="noopener noreferrer">Explore the book on Google Books</a><a class="action" href="https://play.google.com/books/reader?id=hn8mEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Check the available preview</a></div>
+</section>
+
+<section class="section">
+  <h2>Who will benefit most?</h2>
+  <ul>
+    <li><strong>Computer science and data science students</strong> who want a connected visual companion from introductory machine learning through advanced concepts.</li>
+    <li><strong>Self-directed learners</strong> who know some Python or mathematics but want to make abstract ideas tangible through diagrams and worked illustrations.</li>
+    <li><strong>Data analysts and developers moving toward ML</strong> who need a compact reference for data preparation, models, validation and operational thinking.</li>
+    <li><strong>Graduate students and interview candidates</strong> revisiting foundations such as bias–variance, optimization, metrics, ensembles, attention and model reliability.</li>
+    <li><strong>Teachers and mentors</strong> looking for clear visual ways to introduce concepts and spark better technical questions.</li>
+  </ul>
+  <p>The book moves from accessible foundations to mathematically and technically demanding material. Beginners can follow the first volume progressively; readers with prior experience can use both volumes as a structured review. It is a <strong>visual study companion</strong>, not a substitute for implementing models, reading primary research, or running rigorous experiments of your own.</p>
+</section>
+
+<section class="section">
+  <h2>A practical way to use the book</h2>
+  <ol>
+    <li><strong>Begin with the question.</strong> Before reading a note, say what problem the method or metric is meant to solve.</li>
+    <li><strong>Trace the visual explanation.</strong> Follow each arrow, label and mathematical relationship rather than memorizing the final diagram.</li>
+    <li><strong>Recreate one small example.</strong> Calculate by hand or implement a tiny test in Python to see whether your intuition matches the result.</li>
+    <li><strong>Ask what could fail.</strong> Identify a broken assumption, a leakage path, a poor metric or an out-of-distribution case.</li>
+    <li><strong>Review across volumes.</strong> Connect advanced topics back to the fundamentals of data, loss, optimization and validation.</li>
+  </ol>
+  <p>That habit turns the notes into a durable reference: useful before an exam, during a project, and after an apparently successful model gives a surprising answer.</p>
+</section>
+
+<section class="section faq" id="faq">
+  <h2>Questions readers often ask</h2>
+  <details><summary>Is this one book or two?</summary><p>This edition is the <strong>complete two-volume collection</strong> in one reading journey: classical machine learning in the first part and advanced, deep-learning and responsible-AI material in the second. Together the volumes comprise 128 illustrated study pages.</p></details>
+  <details><summary>Does it start from the beginning?</summary><p>Yes. The first volume introduces the learning problem, features, labels, baselines and mathematical essentials before regression, classification and model evaluation. The second volume assumes that foundation and moves into more advanced ideas.</p></details>
+  <details><summary>Is it focused on code or on understanding?</summary><p>Its distinctive format is visual lecture notes: annotated diagrams, explanations, formulas, comparisons and small examples. It complements hands-on coding rather than pretending that reading notes alone replaces practical experience.</p></details>
+  <details><summary>Does the book include modern AI topics?</summary><p>Yes. The advanced volume covers neural networks, convolutional and sequence models, attention and transformers, foundation-model ideas, generative models, reinforcement learning, MLOps and responsible AI.</p></details>
+  <details><summary>Can I preview it before buying?</summary><p>Use the Google Books links on this page to check the reading sample and purchasing options available for your account and region.</p></details>
+</section>
+
+<section class="section related-books">
+  <h2>Explore related books by Faramarz Kowsari</h2>
+  <ul>
+    <li><a href="../artificial-intelligence-and-machine-learning-for-cybersecurity/">Artificial Intelligence and Machine Learning for Cybersecurity</a> — for readers who want to apply ML ideas to security problems.</li>
+    <li><a href="../rag-engineering/">RAG Engineering</a> — for readers exploring evidence-grounded AI applications, evaluation and production systems.</li>
+    <li><a href="../topics/artificial-intelligence/">Browse the Artificial Intelligence topic hub</a> — discover more books in the same field.</li>
+  </ul>
+</section>
+
+<section class="section author-card">
+  <h2>About the author</h2>
+  <p><strong>Faramarz Kowsari</strong> is an Istanbul-based author and researcher working at the intersection of technology, education and personal growth. He has published over 160 digital titles on international platforms. His areas of interest include artificial intelligence, prompt engineering, modern trading strategies, classical literature and mindfulness. In addition to writing, he develops web-based educational tools and creates specialized instructional video content.</p>
+  <p>Official profiles: <a href="https://faramarzkowsari.github.io/">Official Website</a> · <a href="../">Published Books</a> · <a href="../author/">Author Profile</a> · <a href="https://github.com/FaramarzKowsari" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://orcid.org/0000-0003-1692-0453" target="_blank" rel="noopener noreferrer">ORCID</a>.</p>
+</section>
+
+<section class="section center-cta">
+  <h2>Ready to make the ideas connect?</h2>
+  <p><strong>MACHINE LEARNING NOTES: From Classical ML to Responsible AI</strong> brings the foundations, modern methods and responsible use of ML into one illustrated study collection.</p>
+  <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=hn8mEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a><a class="action" href="../">Browse all published books</a></div>
+  <p class="smallprint">Book title: MACHINE LEARNING NOTES · Subtitle: From Classical ML to Responsible AI · Author: Faramarz Kowsari · Language: English · Google Books ID: hn8mEgAAQBAJ</p>
+</section>
+</main>
+</body>
+</html>
