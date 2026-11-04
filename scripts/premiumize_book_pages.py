@@ -30,6 +30,7 @@ HEADING_RE = re.compile(
 BOOK_TOP_RE = re.compile(r'(<section\b[^>]*class="[^"]*\bbook-top\b[^"]*"[^>]*>.*?</section>)', re.I | re.S)
 LINK_RE = re.compile(r'\b(?:href|src)="([^"]+)"', re.I)
 AUTHOR_LINE_RE = re.compile(r'(<p\b[^>]*class="[^"]*\bauthor-byline\b[^"]*"[^>]*>.*?</p>)', re.I | re.S)
+JSONLD_RE = re.compile(r'(<script\b[^>]*type="application/ld\+json"[^>]*>)(.*?)(</script>)', re.I | re.S)
 
 SECTION_LABELS = {
     "about": ("About this book", "Kitap hakkında", "Sobre este libro", "À propos de ce livre", "Über dieses Buch", "О книге"),
@@ -171,6 +172,27 @@ def previously_published(path: Path) -> str | None:
     return result.stdout if result.returncode == 0 else None
 
 
+def keep_canonical_author_portrait(source: str, portrait: str) -> str:
+    """Restore mandatory Book.author identity fields after retaining old copy."""
+    def update_jsonld(match: re.Match) -> str:
+        try:
+            data = json.loads(match.group(2))
+        except json.JSONDecodeError:
+            return match.group(0)
+        nodes = [data] + data.get("@graph", []) if isinstance(data, dict) else []
+        modified = False
+        for node in nodes:
+            if node.get("@type") == "Book" and isinstance(node.get("author"), dict):
+                if node["author"].get("image") != portrait:
+                    node["author"]["image"] = portrait
+                    modified = True
+        if not modified:
+            return match.group(0)
+        return match.group(1) + json.dumps(data, ensure_ascii=False, separators=(",", ":")) + match.group(3)
+
+    return JSONLD_RE.sub(update_jsonld, source)
+
+
 def classification(slug: str, record: dict, page: str) -> str:
     title = record.get("title", "")
     category = record.get("category", "")
@@ -292,6 +314,8 @@ def main() -> None:
     args = parser.parse_args()
     completed_path = BOOKS / "completed.json"
     records = json.loads(completed_path.read_text(encoding="utf-8")) if completed_path.exists() else {}
+    entity = json.loads((BOOKS / "author" / "entity.json").read_text(encoding="utf-8"))
+    portrait = entity["image"]
     report = Counter()
     for page in sorted(BOOKS.glob("*/index.html")):
         slug = page.parent.name
@@ -307,6 +331,7 @@ def main() -> None:
                 )
                 report["protected_from_content_loss"] += 1
         revised, details = premiumize(original, slug, records.get(slug) or {})
+        revised = keep_canonical_author_portrait(revised, portrait)
         if revised == page.read_text(encoding="utf-8"):
             report["unchanged"] += 1
             continue
