@@ -23,7 +23,9 @@
 - Use catalog.json for structured discovery and the all-books text index for a crawlable human-readable overview.
 - The repository/site DOI identifies the evolving website and books-library project; it is not a DOI for every individual book.
 
-## Books (175)
+## Books (176)
+- [MACHINE LEARNING NOTES: From Classical ML to Responsible AI](https://faramarzkowsari.github.io/books/machine-learning-notes/) — English; Artificial Intelligence / Machine Learning. The complete two-volume collection of 128 illustrated handwritten-style learning pages. Volume One covers ML foundations, data workflows, regression, classification, ensembles, cross-validation and honest model evaluation. Volume Two develops learning theory, clustering, deep learning, transformers, generative AI, reinforcement learning, MLOps and responsible AI. Primary search concept: visual machine learning notes. Related search concepts: classical ML study guide; deep learning visual notes; model validation; responsible AI; Faramarz Kowsari.
+
 
 - [0DTE Options: Trading the Same-Day Market](https://faramarzkowsari.github.io/books/0dte-options/) — English; Trading. A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools. Primary search concept: 0DTE Options: Trading the Same-Day Market. Related search concepts: 0DTE Options: Trading the Same-Day Market book; A Practical Guide to Same-Day Options, Greeks, Market Structure, Execution, Risk Control, and High-Speed Decision-Making; Trading; 0DTE options; Same-day expiration.
 - [AI APIs in Practice](https://faramarzkowsari.github.io/books/ai-apis-in-practice/) — English; Artificial Intelligence. A visual engineering guide to AI APIs, multimodal systems, agents, RAG, secure authentication, payload design, evaluation, observability, and governance. Primary search concept: AI APIs in Practice. Related search concepts: AI APIs in Practice book; A Visual Engineering Guide to Multimodal AI, Agents, RAG, Evaluation, Governance, and Real-World Products; Artificial Intelligence; AI APIs; Multimodal AI.
