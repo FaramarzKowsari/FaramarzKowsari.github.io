@@ -21,7 +21,23 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (175)
+## Books (176)
+
+### MACHINE LEARNING NOTES: From Classical ML to Responsible AI
+
+- Canonical page: https://faramarzkowsari.github.io/books/machine-learning-notes/
+- Language: English
+- Category: Artificial Intelligence / Machine Learning
+- Format: Complete two-volume collection; 128 illustrated study pages
+- Author: Faramarz Kowsari
+- Google Books: https://play.google.com/store/books/details?id=hn8mEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=hn8mEgAAQBAJ&hl=en
+
+MACHINE LEARNING NOTES is a visual, handwritten-style study companion that connects classical machine learning to advanced and responsible AI. The first 64 educational pages establish learning tasks, elementary mathematics, reproducible data workflows, regression and classification, k-nearest neighbors, kernel methods, decision trees, ensemble models, model metrics, cross-validation and calibration. The next 64 pages move from generalization and optimization to clustering, PCA and representation learning, deep neural networks, convolutional and recurrent networks, attention and transformers, foundation and generative models, reinforcement learning, ML systems and responsible AI.
+
+The collection is designed for focused study and repeated revision. The illustrated notes use annotated equations, causal cautions, training diagrams, visual comparisons, worked micro-examples and highlighted failure cases. Readers can trace ideas from a simple labeled-learning problem to questions of data leakage, train/validation/test separation, generalization, uncertainty, monitoring, fairness and system auditing. It is a companion for learners, students, teachers and engineers, and should be supplemented by coding practice and primary sources for technical depth.
+
+
 
 ### Depremde Hayatta Kalma
 
