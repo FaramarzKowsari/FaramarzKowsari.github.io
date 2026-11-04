@@ -29,6 +29,7 @@ HEADING_RE = re.compile(
 )
 BOOK_TOP_RE = re.compile(r'(<section\b[^>]*class="[^"]*\bbook-top\b[^"]*"[^>]*>.*?</section>)', re.I | re.S)
 LINK_RE = re.compile(r'\b(?:href|src)="([^"]+)"', re.I)
+AUTHOR_LINE_RE = re.compile(r'(<p\b[^>]*class="[^"]*\bauthor-byline\b[^"]*"[^>]*>.*?</p>)', re.I | re.S)
 
 SECTION_LABELS = {
     "about": ("About this book", "Kitap hakkında", "Sobre este libro", "À propos de ce livre", "Über dieses Buch", "О книге"),
@@ -71,6 +72,30 @@ AUTHOR_BIOS = {
         "Faramarz Kowsari — автор и исследователь из Стамбула. Его работы посвящены технологиям, образованию и личностному развитию; на международных платформах опубликовано более 160 его цифровых книг. Среди его тем — искусственный интеллект, промпт-инжиниринг, современные торговые стратегии, классическая литература и осознанность. Он также создаёт учебные веб-инструменты и специализированные видеоматериалы.",
     ),
 }
+
+
+def preserve_custom_spanish_edition(published: str, generated: str) -> str:
+    """Retain the long human-edited Spanish landing page and fresh SEO metadata.
+
+    Its original reader-safety guidance and multilingual cross-links must not
+    disappear, but the generator also supplies a required keyword-rich Book
+    schema and semantic related-book block. Both editorial sources are needed.
+    """
+    new_head = re.search(r"<head\b[^>]*>.*?</head>", generated, re.I | re.S)
+    if new_head:
+        published = re.sub(
+            r"<head\b[^>]*>.*?</head>", lambda _: new_head.group(0),
+            published, count=1, flags=re.I | re.S,
+        )
+    marker = "<!-- semantic-related-books:start -->"
+    if marker not in published:
+        related = re.search(
+            r"<!-- semantic-related-books:start -->.*?<!-- semantic-related-books:end -->",
+            generated, re.I | re.S,
+        )
+        if related:
+            published = published.replace("</main>", related.group(0) + "\n</main>", 1)
+    return published
 
 
 class MainParagraphReader(HTMLParser):
@@ -177,6 +202,13 @@ def author_card(lang: str) -> str:
 
 
 def premiumize(source: str, slug: str, record: dict) -> tuple[str, dict]:
+    # The image/author SEO gate relies on explicit comment boundaries. Custom
+    # editorial pages can already have a correct visible byline without them.
+    if '<!-- author-visible:start -->' not in source:
+        source = AUTHOR_LINE_RE.sub(
+            r'<!-- author-visible:start -->\n\1\n<!-- author-visible:end -->',
+            source, count=1,
+        )
     if 'data-premium-version=' in source or slug == "machine-learning-notes":
         return source, {"skipped": "already styled or reference page"}
     main = MAIN_RE.search(source)
@@ -259,7 +291,10 @@ def main() -> None:
         if not args.no_preserve_published:
             published = previously_published(page)
             if published and is_missing_published_content(published, original):
-                original = published
+                original = (
+                    preserve_custom_spanish_edition(published, original)
+                    if slug == "guia-de-supervivencia-ante-el-narcisismo" else published
+                )
                 report["protected_from_content_loss"] += 1
         revised, details = premiumize(original, slug, records.get(slug) or {})
         if revised == page.read_text(encoding="utf-8"):
@@ -273,9 +308,10 @@ def main() -> None:
         if not args.check:
             page.write_text(revised, encoding="utf-8")
         report["updated"] += 1
-        report[f"theme_{details['theme']}"] += 1
-        report["with_navigation"] += bool(details["nav"])
-        report["with_focus_chips"] += bool(details["chips"])
+        if "theme" in details:
+            report[f"theme_{details['theme']}"] += 1
+            report["with_navigation"] += bool(details["nav"])
+            report["with_focus_chips"] += bool(details["chips"])
     print(json.dumps(dict(report), sort_keys=True, indent=2))
 
 
