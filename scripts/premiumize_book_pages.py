@@ -87,6 +87,16 @@ def preserve_custom_spanish_edition(published: str, generated: str) -> str:
             r"<head\b[^>]*>.*?</head>", lambda _: new_head.group(0),
             published, count=1, flags=re.I | re.S,
         )
+    # The old hreflang head included links to two separately published language
+    # editions. Keep their destinations in the visible cross-edition list even
+    # while newer locale-specific hreflang metadata takes precedence.
+    published = published.replace(
+        'href="../the-narcissism-survival-guide/"',
+        'href="https://faramarzkowsari.github.io/books/the-narcissism-survival-guide/"',
+    ).replace(
+        'href="../narsisizmle-bas-etme-rehberi/"',
+        'href="https://faramarzkowsari.github.io/books/narsisizmle-bas-etme-rehberi/"',
+    )
     marker = "<!-- semantic-related-books:start -->"
     if marker not in published:
         related = re.search(
