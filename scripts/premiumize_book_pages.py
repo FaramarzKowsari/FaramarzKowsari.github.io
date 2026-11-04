@@ -11,9 +11,11 @@ from __future__ import annotations
 import argparse
 from collections import Counter
 from html import escape, unescape
+from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
+import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 BOOKS = ROOT / "books"
@@ -69,6 +71,69 @@ AUTHOR_BIOS = {
         "Faramarz Kowsari — автор и исследователь из Стамбула. Его работы посвящены технологиям, образованию и личностному развитию; на международных платформах опубликовано более 160 его цифровых книг. Среди его тем — искусственный интеллект, промпт-инжиниринг, современные торговые стратегии, классическая литература и осознанность. Он также создаёт учебные веб-инструменты и специализированные видеоматериалы.",
     ),
 }
+
+
+class MainParagraphReader(HTMLParser):
+    """Read substantive paragraphs from <main> without third-party dependencies."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.inside_main = 0
+        self.inside_p = 0
+        self.current: list[str] = []
+        self.paragraphs: list[str] = []
+        self.main_text: list[str] = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "main":
+            self.inside_main += 1
+        if self.inside_main and tag == "p":
+            self.inside_p += 1
+            if self.inside_p == 1:
+                self.current = []
+
+    def handle_endtag(self, tag):
+        if tag == "p" and self.inside_p:
+            self.inside_p -= 1
+            if self.inside_p == 0:
+                paragraph = " ".join(" ".join(self.current).split())
+                if len(paragraph) >= 95:
+                    self.paragraphs.append(paragraph)
+        if tag == "main" and self.inside_main:
+            self.inside_main -= 1
+
+    def handle_data(self, data):
+        if self.inside_main:
+            self.main_text.append(data)
+            if self.inside_p:
+                self.current.append(data)
+
+
+def is_missing_published_content(published: str, generated: str) -> bool:
+    """Never silently replace a published paragraph, CTA, or image with less.
+
+    The older site generator rebuilds canonical pages from an incomplete source
+    catalog. Until the catalog is fully migrated, the already-published HTML is
+    an important editorial source. Preserve it if a rebuild would discard copy.
+    """
+    old_refs = Counter(LINK_RE.findall(published))
+    new_refs = Counter(LINK_RE.findall(generated))
+    if any(new_refs[ref] < count for ref, count in old_refs.items()):
+        return True
+    old, new = MainParagraphReader(), MainParagraphReader()
+    old.feed(published)
+    new.feed(generated)
+    normalized_new = " ".join(" ".join(new.main_text).split()).casefold()
+    return any(paragraph.casefold() not in normalized_new for paragraph in old.paragraphs)
+
+
+def previously_published(path: Path) -> str | None:
+    relative_path = path.relative_to(ROOT).as_posix()
+    result = subprocess.run(
+        ["git", "show", f"HEAD:{relative_path}"],
+        cwd=ROOT, check=False, capture_output=True, text=True, encoding="utf-8",
+    )
+    return result.stdout if result.returncode == 0 else None
 
 
 def classification(slug: str, record: dict, page: str) -> str:
@@ -181,6 +246,7 @@ def premiumize(source: str, slug: str, record: dict) -> tuple[str, dict]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true", help="Audit without writing files")
+    parser.add_argument("--no-preserve-published", action="store_true", help="Allow a rebuild to replace the existing public page")
     args = parser.parse_args()
     completed_path = BOOKS / "completed.json"
     records = json.loads(completed_path.read_text(encoding="utf-8")) if completed_path.exists() else {}
@@ -190,8 +256,13 @@ def main() -> None:
         if slug in SKIP:
             continue
         original = page.read_text(encoding="utf-8")
+        if not args.no_preserve_published:
+            published = previously_published(page)
+            if published and is_missing_published_content(published, original):
+                original = published
+                report["protected_from_content_loss"] += 1
         revised, details = premiumize(original, slug, records.get(slug) or {})
-        if revised == original:
+        if revised == page.read_text(encoding="utf-8"):
             report["unchanged"] += 1
             continue
         before_links, after_links = Counter(LINK_RE.findall(original)), Counter(LINK_RE.findall(revised))
