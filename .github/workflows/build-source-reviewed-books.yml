@@ -24,6 +24,7 @@ on:
       - "scripts/build_google_books_cover_gallery.py"
       - "scripts/image_seo_quality_gate.py"
       - "scripts/seo_quality_gate.py"
+      - "scripts/premiumize_book_pages.py"
       - "scripts/author_entity_layer.py"
       - "scripts/apply_library_source_enrichment.py"
       - "scripts/build_books.py"
@@ -102,6 +103,7 @@ jobs:
           python scripts/add_book_image_galleries.py
           python scripts/pinterest_outbound_quality_gate.py
           python scripts/build_google_books_cover_gallery.py
+          python scripts/premiumize_book_pages.py
           python scripts/seo_sitemaps.py
           python scripts/image_seo_quality_gate.py
           python scripts/seo_quality_gate.py
