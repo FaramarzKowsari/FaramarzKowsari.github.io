@@ -21,23 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (176)
-
-### MACHINE LEARNING NOTES: From Classical ML to Responsible AI
-
-- Canonical page: https://faramarzkowsari.github.io/books/machine-learning-notes/
-- Language: English
-- Category: Artificial Intelligence / Machine Learning
-- Format: Complete two-volume collection; 128 illustrated study pages
-- Author: Faramarz Kowsari
-- Google Books: https://play.google.com/store/books/details?id=hn8mEgAAQBAJ
-- Preview: https://play.google.com/books/reader?id=hn8mEgAAQBAJ&hl=en
-
-MACHINE LEARNING NOTES is a visual, handwritten-style study companion that connects classical machine learning to advanced and responsible AI. The first 64 educational pages establish learning tasks, elementary mathematics, reproducible data workflows, regression and classification, k-nearest neighbors, kernel methods, decision trees, ensemble models, model metrics, cross-validation and calibration. The next 64 pages move from generalization and optimization to clustering, PCA and representation learning, deep neural networks, convolutional and recurrent networks, attention and transformers, foundation and generative models, reinforcement learning, ML systems and responsible AI.
-
-The collection is designed for focused study and repeated revision. The illustrated notes use annotated equations, causal cautions, training diagrams, visual comparisons, worked micro-examples and highlighted failure cases. Readers can trace ideas from a simple labeled-learning problem to questions of data leakage, train/validation/test separation, generalization, uncertainty, monitoring, fairness and system auditing. It is a companion for learners, students, teachers and engineers, and should be supplemented by coding practice and primary sources for technical depth.
-
-
+## Books (175)
 
 ### Depremde Hayatta Kalma
 
@@ -2416,6 +2400,46 @@ What readers learn:
 
 Audience: For freelancers, professionals, creators, business owners, and readers who repeatedly underprice their work, overgive time or emotional labor, struggle to state boundaries, or want a more ethical and evidence-based relationship with personal value.
 
+### GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO
+
+- Canonical page: https://faramarzkowsari.github.io/books/guia-de-supervivencia-ante-el-narcisismo/
+- Language: Español
+- Category: Psicología, Relaciones, Crecimiento personal y límites
+- Subtitle: Reconocer los patrones narcisistas, establecer límites eficaces y protegerse en el hogar, en el trabajo y en la vida cotidiana
+- Google Books: https://play.google.com/store/books/details?id=XPAkEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=XPAkEgAAQBAJ&hl=en
+
+GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO es una guía práctica de 37 capítulos para comprender relaciones difíciles sin convertir las etiquetas de la psicología popular en diagnósticos improvisados. El libro distingue entre rasgos narcisistas, patrones interpersonales dañinos y el trastorno narcisista de la personalidad, y desplaza la atención hacia lo que puede observarse y evaluarse con mayor claridad: privilegio, dobles raseros, explotación, manejo de la imagen, aprobación condicionada, gaslighting, negación, traslado de la culpa, humillación, silencio punitivo, presión de terceros, amenazas, coacción y represalias.
+
+La obra examina cómo cambian las opciones cuando existe una diferencia real de poder. Los capítulos familiares y de pareja abordan progenitores controladores, hijos adultos y padres invasivos, hermanos y alianzas familiares, envejecimiento y cuidados, primeras citas, convivencia con una pareja controladora, dinero, vivienda, intimidad, control digital, hijos entre dos progenitores, separación, divorcio y seguridad después de la ruptura. La premisa es sencilla pero exigente: una técnica de comunicación que sirve en un conflicto cotidiano puede ser inútil o incluso peligrosa cuando hay dependencia, intimidación, acoso o control coercitivo.
+
+El libro también traslada el análisis al trabajo y a las instituciones. Dedica capítulos a jefes que humillan, compañeros manipuladores, empleados, clientes y socios comerciales difíciles, recursos humanos, docentes y mentores, bancos, oficinas públicas, arrendadores, atención sanitaria, servicios esenciales, amistades, vecinos y redes sociales. En lugar de pedir al lector que adivine intenciones, propone separar hechos observables de interpretaciones, identificar quién tiene autoridad real, documentar lo necesario y definir qué solución concreta se busca.
+
+Los últimos capítulos convierten el reconocimiento en decisiones. Explican cómo formular límites que dependan de las propias acciones, cuándo dejar de justificarse, cómo responder de forma breve si hacerlo es seguro, qué conviene documentar, cómo proteger la privacidad y la seguridad digital y cómo usar una matriz de decisiones para comparar responder, elevar un caso, buscar apoyo o alejarse. El plan de salida se diseña alrededor de restricciones reales —dinero, vivienda, medicamentos, transporte, hijos, documentos, acceso digital y apoyo— en lugar de asumir que todas las personas disponen de los mismos recursos.
+
+La recuperación no se presenta como un gesto dramático ni como una obligación de cortar todo contacto. El libro trabaja la recuperación de la confianza en la propia percepción, la identidad, los vínculos de apoyo y la capacidad de tomar decisiones de bajo riesgo. También incluye una revisión incómoda pero necesaria de la propia conducta: observar errores, asumir responsabilidad, reparar cuando corresponde y distinguir el cambio sostenido de la culpa estéril o el autoetiquetado.
+
+Cuatro apéndices convierten el volumen en una herramienta de consulta: un localizador de situaciones, fichas de respuestas rápidas, hojas de trabajo y listas de verificación, además de un glosario, referencias seleccionadas y recursos de apoyo. El texto mantiene un criterio de seguridad internacional: no sustituye un diagnóstico clínico, psicoterapia, asesoramiento jurídico ni un plan de seguridad individual; cuando hay amenazas, violencia, acoso persistente o control coercitivo, la prioridad es la protección y el apoyo profesional adecuado a la jurisdicción y a la situación concreta.
+
+Key topics: Patrones narcisistas y conducta observable; Rasgos narcisistas frente a diagnóstico clínico; Grandiosidad y vulnerabilidad; Desigualdad de poder; Sentido de privilegio y dobles raseros; Explotación y aprobación condicionada; Gaslighting, negación y traslado de la culpa; Humillación, desprecio y desvalorización; Silencio punitivo y presión de terceros; Amenazas, coacción y represalias; Progenitores controladores; Hijos adultos y padres invasivos; Hermanos, familia política y alianzas familiares; Envejecimiento, cuidados y vulnerabilidad; Primeras citas y señales tempranas; Parejas controladoras; Dinero, vivienda, intimidad y control digital; Hijos entre dos progenitores; Separación, divorcio y seguridad posterior; Jefes que humillan; Compañeros de trabajo manipuladores; Empleados, clientes y socios difíciles; Pruebas, recursos humanos y protección profesional; Docentes, mentores y figuras de autoridad; Bancos, oficinas públicas y ejercicio de autoridad; Arrendadores, atención sanitaria y servicios esenciales; Amistades, vecinos y grupos sociales; Redes sociales, acoso y reputación; Límites eficaces en la vida real; Respuestas adaptadas a cada situación; Cuándo dejar de dar explicaciones; Documentación, privacidad y seguridad digital; Matriz de decisiones; Plan de salida seguro y de bajo costo; Recuperar confianza, identidad y vínculos; Responsabilidad personal y cambio sostenido
+
+What readers learn:
+- Distinguir entre rasgos narcisistas, patrones perjudiciales y un diagnóstico clínico de trastorno narcisista de la personalidad.
+- Observar conducta, contexto, poder, duración y consecuencias en lugar de depender de etiquetas o de intentar leer la mente de otra persona.
+- Reconocer gaslighting, dobles raseros, traslado de la culpa, desprecio, silencio punitivo, coacción, amenazas y represalias sin considerar que una sola conducta demuestra un diagnóstico.
+- Evaluar cómo el dinero, la vivienda, el empleo, la educación, los cuidados, los hijos, la situación migratoria y la autoridad institucional modifican las opciones disponibles.
+- Construir límites basados en decisiones propias y consecuencias realistas, no en intentar controlar la personalidad ajena.
+- Usar respuestas breves y ajustadas al contexto cuando hablar sea seguro, y detectar cuándo seguir explicando ya no produce ningún resultado útil.
+- Documentar incidentes separando hechos observables de interpretaciones y definiendo el remedio o revisión que se solicita.
+- Proteger la privacidad, los dispositivos, las cuentas y los registros sin convertir la recopilación de pruebas en una nueva fuente de riesgo.
+- Comparar opciones mediante seguridad, dependencia, poder real, apoyo fiable y reversibilidad.
+- Planificar una salida de trabajo, vivienda, sociedad comercial o relación íntima de acuerdo con restricciones reales y recursos disponibles.
+- Reconstruir la confianza en la propia percepción y en las decisiones cotidianas después de una exposición prolongada a crítica, control o manipulación.
+- Examinar la propia conducta mediante responsabilidad, reparación y cambio sostenido, sin recurrir a la vergüenza ni al autodiagnóstico.
+- Reconocer cuándo una situación requiere apoyo especializado o de emergencia en lugar de una técnica de comunicación.
+
+Audience: Personas adultas que afrontan relaciones confusas, controladoras, explotadoras o crónicamente desiguales en la familia, la pareja, el trabajo, la educación, los negocios, la vivienda, la atención sanitaria, los servicios públicos o los entornos digitales; y lectores que buscan límites, documentación, criterios de decisión y opciones de alejamiento seguro sin reducir a toda persona difícil a una etiqueta psiquiátrica.
+
 ### Aynadaki Canavar
 
 - Canonical page: https://faramarzkowsari.github.io/books/aynadaki-canavar/
@@ -2500,59 +2524,6 @@ What readers learn:
 - Tehdit, takip, şiddet veya zorlayıcı kontrol durumlarında iletişim tekniği yerine uzman güvenlik planı ve acil destek gerektirebilecek koşulları tanımak.
 
 Audience: Ailede, romantik ilişkilerde, işyerinde, eğitimde, ticari ilişkilerde, konutta, sağlık ve kamu hizmetlerinde ya da çevrimiçi ortamlarda kontrolcü, sömürücü, manipülatif veya kronik biçimde eşitsiz ilişki örüntüleriyle karşılaşan yetişkinler; aynı zamanda her zor insanı psikiyatrik bir etiketle tanımlamadan sınır, belgeleme, karar verme ve güvenli uzaklaşma araçları arayan okurlar için.
-
-### GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO
-
-- Canonical page: https://faramarzkowsari.github.io/books/guia-de-supervivencia-ante-el-narcisismo/
-- Language: Español
-- Category: Psicología, Relaciones, Crecimiento personal y límites
-- Subtitle: Reconocer los patrones narcisistas, establecer límites eficaces y protegerse en el hogar, en el trabajo y en la vida cotidiana
-- Google Books: https://play.google.com/store/books/details?id=XPAkEgAAQBAJ
-- Preview: https://play.google.com/books/reader?id=XPAkEgAAQBAJ&hl=es
-
-GUÍA DE SUPERVIVENCIA ANTE EL NARCISISMO es una guía práctica de 37 capítulos para comprender relaciones difíciles sin convertir las etiquetas de la psicología popular en diagnósticos improvisados. El libro distingue entre rasgos narcisistas, patrones interpersonales dañinos y el trastorno narcisista de la personalidad, y desplaza la atención hacia lo que puede observarse y evaluarse con mayor claridad: privilegio, dobles raseros, explotación, manejo de la imagen, aprobación condicionada, gaslighting, negación, traslado de la culpa, humillación, silencio punitivo, presión de terceros, amenazas, coacción y represalias.
-
-La obra examina cómo cambian las opciones cuando existe una diferencia real de poder. Los capítulos familiares y de pareja abordan progenitores controladores, hijos adultos y padres invasivos, hermanos y alianzas familiares, envejecimiento y cuidados, primeras citas, convivencia con una pareja controladora, dinero, vivienda, intimidad, control digital, hijos entre dos progenitores, separación, divorcio y seguridad después de la ruptura. La premisa es sencilla pero exigente: una técnica de comunicación que sirve en un conflicto cotidiano puede ser inútil o incluso peligrosa cuando hay dependencia, intimidación, acoso o control coercitivo.
-
-El libro también traslada el análisis al trabajo y a las instituciones. Dedica capítulos a jefes que humillan, compañeros manipuladores, empleados, clientes y socios comerciales difíciles, recursos humanos, docentes y mentores, bancos, oficinas públicas, arrendadores, atención sanitaria, servicios esenciales, amistades, vecinos y redes sociales. En lugar de pedir al lector que adivine intenciones, propone separar hechos observables de interpretaciones, identificar quién tiene autoridad real, documentar lo necesario y definir qué solución concreta se busca.
-
-Los últimos capítulos convierten el reconocimiento en decisiones. Explican cómo formular límites que dependan de las propias acciones, cuándo dejar de justificarse, cómo responder de forma breve si hacerlo es seguro, qué conviene documentar, cómo proteger la privacidad y la seguridad digital y cómo usar una matriz de decisiones para comparar responder, elevar un caso, buscar apoyo o alejarse. El plan de salida se diseña alrededor de restricciones reales —dinero, vivienda, medicamentos, transporte, hijos, documentos, acceso digital y apoyo— en lugar de asumir que todas las personas disponen de los mismos recursos.
-
-La recuperación no se presenta como un gesto dramático ni como una obligación de cortar todo contacto. El libro trabaja la recuperación de la confianza en la propia percepción, la identidad, los vínculos de apoyo y la capacidad de tomar decisiones de bajo riesgo. También incluye una revisión incómoda pero necesaria de la propia conducta: observar errores, asumir responsabilidad, reparar cuando corresponde y distinguir el cambio sostenido de la culpa estéril o el autoetiquetado.
-
-Cuatro apéndices convierten el volumen en una herramienta de consulta: un localizador de situaciones, fichas de respuestas rápidas, hojas de trabajo y listas de verificación, además de un glosario, referencias seleccionadas y recursos de apoyo. El texto mantiene un criterio de seguridad internacional: no sustituye un diagnóstico clínico, psicoterapia, asesoramiento jurídico ni un plan de seguridad individual; cuando hay amenazas, violencia, acoso persistente o control coercitivo, la prioridad es la protección y el apoyo profesional adecuado a la jurisdicción y a la situación concreta.
-
-Key topics:
-- Patrones narcisistas y conducta observable
-- Rasgos narcisistas frente a diagnóstico clínico
-- Grandiosidad y vulnerabilidad
-- Desigualdad de poder
-- Sentido de privilegio y dobles raseros
-- Explotación y aprobación condicionada
-- Gaslighting, negación y traslado de la culpa
-- Humillación, desprecio y desvalorización
-- Silencio punitivo y presión de terceros
-- Amenazas, coacción y represalias
-- Progenitores controladores
-- Hijos adultos y padres invasivos
-- Hermanos, familia política y alianzas familiares
-- Envejecimiento, cuidados y vulnerabilidad
-- Primeras citas y señales tempranas
-- Parejas controladoras
-
-Learning goals:
-- Distinguir entre rasgos narcisistas, patrones perjudiciales y un diagnóstico clínico de trastorno narcisista de la personalidad.
-- Observar conducta, contexto, poder, duración y consecuencias en lugar de depender de etiquetas o de intentar leer la mente de otra persona.
-- Reconocer gaslighting, dobles raseros, traslado de la culpa, desprecio, silencio punitivo, coacción, amenazas y represalias sin considerar que una sola conducta demuestra un diagnóstico.
-- Evaluar cómo el dinero, la vivienda, el empleo, la educación, los cuidados, los hijos, la situación migratoria y la autoridad institucional modifican las opciones disponibles.
-- Construir límites basados en decisiones propias y consecuencias realistas, no en intentar controlar la personalidad ajena.
-- Usar respuestas breves y ajustadas al contexto cuando hablar sea seguro, y detectar cuándo seguir explicando ya no produce ningún resultado útil.
-- Documentar incidentes separando hechos observables de interpretaciones y definiendo el remedio o revisión que se solicita.
-- Proteger la privacidad, los dispositivos, las cuentas y los registros sin convertir la recopilación de pruebas en una nueva fuente de riesgo.
-- Comparar opciones mediante seguridad, dependencia, poder real, apoyo fiable y reversibilidad.
-- Planificar una salida de trabajo, vivienda, sociedad comercial o relación íntima de acuerdo con restricciones reales y recursos disponibles.
-
-Audience: Personas adultas que afrontan relaciones confusas, controladoras, explotadoras o crónicamente desiguales en la familia, la pareja, el trabajo, la educación, los negocios, la vivienda, la atención sanitaria, los servicios públicos o los entornos digitales; y lectores que buscan límites, documentación, criterios de decisión y opciones de alejamiento seguro sin reducir a toda persona difícil a una etiqueta psiquiátrica.
 
 ### The High-Resolution Mind
 
@@ -4308,79 +4279,3 @@ Audience: Deneyimli profesyoneller, emekliler, kariyer değiştirenler, danışm
 - Canonical HTML pages, robots.txt and XML sitemaps are authoritative.
 - This file is an additional convenience surface for systems that consume plain-text discovery indexes.
 - Crawlers with published user-agent tokens are explicitly allowed in robots.txt where useful; other standards-compliant crawlers are covered by the general User-agent: * Allow: / policy.
-
-### FUTURES TRADING FROM ZERO
-
-- Canonical page: https://faramarzkowsari.github.io/books/futures-trading-from-zero/
-- Language: English
-- Category: Trading
-- Subtitle: The Complete Practical Guide to Micro E-mini, E-mini & E-Nano Futures, Contract Mechanics, Margin, Risk Management, Price Action, Order Flow, Backtesting, and Professional Execution
-- Google Books: https://play.google.com/store/books/details?id=C_skEgAAQBAJ
-- Preview: https://play.google.com/books/reader?id=C_skEgAAQBAJ&hl=en
-
-FUTURES TRADING FROM ZERO is a seventy-lesson practical guide that begins with the futures contract itself and develops toward professional execution. It covers exchange and clearing structure, contract specifications, ES/MES/NES and NQ/MNQ/NNQ families, Russell and Dow futures, notional exposure, fair value, basis, hedging, initial and maintenance margin, daily settlement, variation margin, trading costs, sessions, expiration, rolling and continuous-contract limitations.
-
-The analytical sections move through price action, market structure, auction logic, VWAP, Volume Profile, Level 2, DOM, Time & Sales, footprint charts, delta, cumulative delta, absorption, exhaustion and iceberg behavior. Execution chapters connect order types, queues, partial fills, slippage, latency, stops, targets and scaling to invalidation and position size. Risk chapters address stop-based sizing, correlated exposure, portfolio heat, volatility targeting, drawdown, loss limits, expectancy and R-multiples.
-
-The research section turns trading ideas into falsifiable rules and reproducible Python workflows, including realistic execution assumptions, out-of-sample and walk-forward testing, sensitivity to costs and contract choice, Monte Carlo analysis, stress testing and forward observation. The book closes with decision sheets, case studies, journaling, process review, broker/platform/data selection and a ninety-day practice path.
-
-Key topics: Futures trading; Micro E-mini futures; E-mini futures; E-Nano futures; ES; MES; NES; NQ; MNQ; NNQ; Margin; Fair value; Basis; Price action; Market structure; VWAP; Volume Profile; Level 2; DOM; Time & Sales; Footprint charts; Delta; CVD; Execution; Risk management; Backtesting; Python; Walk-forward testing; Monte Carlo
-
-What readers learn:
-- Decode futures contract specifications and translate price movement into dollar exposure.
-- Separate notional exposure, account equity and margin requirements.
-- Understand expiration, rollover, settlement and continuous-contract limitations.
-- Use price action, VWAP, profile and order-flow tools without treating them as deterministic signals.
-- Integrate execution costs, queue behavior and slippage into trade design and testing.
-- Size positions from invalidation and risk budget, including correlated portfolio exposure.
-- Build reproducible backtests and evaluate robustness with out-of-sample, walk-forward, sensitivity and Monte Carlo methods.
-- Develop a professional journal, review process and ninety-day practice routine.
-
-Audience: For beginner and intermediate futures traders, active index-futures traders, order-flow learners and systematic-minded readers who want a structured path from contract mechanics through risk, execution and reproducible testing.
-
-### ICHIMOKU CLOUD TRADING FROM ZERO
-
-- Canonical page: https://faramarzkowsari.github.io/books/ichimoku-cloud-trading-from-zero/
-- Language: English
-- Category: Trading & Technical Analysis
-- Subtitle: A Complete Visual Guide to Trend Analysis, Cloud Breakouts, Trading Strategies, Risk Management, and Real-World Applications
-- Google Books: https://play.google.com/store/books/details?id=qmUlEgAAQBAJ
-- Preview: https://play.google.com/books/reader?id=qmUlEgAAQBAJ&hl=en
-
-ICHIMOKU CLOUD TRADING FROM ZERO is a visual, beginner-to-advanced study of Ichimoku Kinko Hyo built around the distinction between observable chart data, interpretation and executable decisions. The opening chapters begin before the indicator itself, explaining candles, trends, swings, support, chart conventions and risk. The Ichimoku system is then developed component by component through Tenkan-sen, Kijun-sen, Senkou Span A, Senkou Span B and Chikou Span before the reader combines them into Kumo regimes, Tenkan–Kijun crosses, cloud breakouts, false-breakout analysis, Kijun pullbacks, cloud edges, flat levels and Kumo twists.
-
-The trading sections connect signals to invalidation, stop-loss placement, position sizing, exit logic and explicit no-trade conditions. Separate applications examine gold (XAUUSD), foreign exchange, Bitcoin and crypto, stocks and ETFs, and futures including Micro E-minis, emphasizing that sessions, gaps, spreads, volatility, contract mechanics and execution constraints change how the same visual framework behaves. Multi-timeframe analysis is used to separate context from trigger rather than to multiply confirmation indiscriminately.
-
-The advanced chapters introduce Hosoda time counts, Ichimoku wave concepts, N/V/E/NT price objectives, regime change, parameter sensitivity and confluence as hypotheses to examine rather than deterministic forecasts. The final research sequence asks the reader to write reproducible rules, implement Ichimoku logic in Pine Script v6, account for trading costs, use backtesting and walk-forward testing, and complete a twenty-chart decision lab. Appendices extend the material with calculation references, audit worksheets, bar-by-bar reproduction, risk arithmetic, Python checks, evidence registers, test protocols, a thirty-day practice curriculum, validation questions, order-simulation cases and portfolio-risk material.
-
-Key topics: Ichimoku Kinko Hyo; Tenkan-sen; Kijun-sen; Senkou Span A; Senkou Span B; Chikou Span; Kumo cloud; Tenkan–Kijun crosses; Cloud breakouts; False breakouts; Kijun pullbacks; Kumo twists; Multi-timeframe analysis; Hosoda time theory; Ichimoku wave theory; N/V/E/NT objectives; XAUUSD; Forex; Crypto; Stocks; ETFs; Futures; Micro E-minis; Risk management; Pine Script v6; Backtesting; Walk-forward testing; Trading costs; Reproducible strategy rules
-
-What readers learn:
-- Read chart data without confusing completed observations with future information.
-- Calculate and interpret the five principal Ichimoku components.
-- Classify price relative to the Kumo and evaluate crosses, breakouts and pullbacks in context.
-- Build stop, size, exit, invalidation and no-trade rules around a setup.
-- Adapt Ichimoku reasoning to gold, forex, crypto, equities and futures.
-- Use multi-timeframe context without creating uncontrolled indicator overload.
-- Treat classical Ichimoku time, wave and objective concepts as testable analytical hypotheses.
-- Translate discretionary ideas into reproducible Pine Script and research rules.
-- Evaluate strategies with costs, backtesting, walk-forward testing and structured decision review.
-
-Audience: Beginner and intermediate traders, technical-analysis students, multi-asset traders and systematic-minded readers who want a complete visual path from Ichimoku foundations to risk-controlled and testable trading workflows.
-
-## Trading Books for Beginners & Active Traders
-Canonical hub: https://faramarzkowsari.github.io/trading-books/
-
-This independent trading-book discovery hub organizes Faramarz Kowsari's trading titles by the decision problems traders actually face. It includes technical analysis and price action, Smart Money Concepts and liquidity, order flow and market microstructure, futures and index trading, options and volatility, scalping and day trading, swing and trend analysis, gold/silver/forex/crypto, AI and algorithmic trading, and trading risk/execution. The hub contains direct Google Books purchase links, free-preview links, book-cover imagery, concise subject descriptions, companion Medium links where available, and permanent crawlable category pages.
-
-Category landing pages:
-- Technical Analysis & Price Action Trading Books: https://faramarzkowsari.github.io/trading-books/technical-analysis-books/
-- Smart Money Concepts & Liquidity Trading Books: https://faramarzkowsari.github.io/trading-books/smart-money-trading-books/
-- Order Flow Trading Books: https://faramarzkowsari.github.io/trading-books/order-flow-trading-books/
-- Futures Trading Books: https://faramarzkowsari.github.io/trading-books/futures-trading-books/
-- Options Trading Books: https://faramarzkowsari.github.io/trading-books/options-trading-books/
-- Scalping & Day Trading Books: https://faramarzkowsari.github.io/trading-books/scalping-day-trading-books/
-- Swing Trading & Trend Analysis Books: https://faramarzkowsari.github.io/trading-books/swing-trading-books/
-- Gold, Forex, Silver & Crypto Trading Books: https://faramarzkowsari.github.io/trading-books/gold-forex-crypto-trading-books/
-- Algorithmic, AI & Systematic Trading Books: https://faramarzkowsari.github.io/trading-books/algorithmic-ai-trading-books/
-- Trading Risk, Execution & Prop Firm Books: https://faramarzkowsari.github.io/trading-books/trading-risk-execution-books/

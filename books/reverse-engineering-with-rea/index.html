@@ -61,7 +61,7 @@
 <!-- author-entity:end -->
 </head>
 <body>
-<main class="book-page">
+<main class="book-page premium-book-page theme-growth" data-premium-version="2026-11">
   <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>›</span><a href="../">Books</a><span>›</span><span aria-current="page">REVERSE ENGINEERING WITH REA</span></nav>
 <p><a href="../">← All books</a></p>
   <section class="book-top">
@@ -77,6 +77,9 @@
       <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=XnUhEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a></div>
     </div>
   </section>
+<nav class="premium-toc" aria-label="Book sections"><strong>In this book</strong><a href="#premium-about">Overview</a><a href="#premium-learning">What you&#x27;ll learn</a><a href="#premium-topics">Topics</a><a href="#premium-audience">Readers</a><a href="#premium-related">Related</a></nav>
+<ul class="premium-focus" aria-label="Core themes"><li>REA reverse engineering</li><li>AI-assisted software analysis</li><li>Responsible reverse engineering</li><li>Evidence-based reconstruction</li><li>Software investigation</li></ul>
+
 <!-- google-books-preview:start -->
 <section class="section google-books-preview" aria-label="Google Books preview">
   <div class="preview-icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><rect x="3" y="3" width="42" height="42" rx="12" fill="currentColor" opacity=".08"/><path d="M10.5 14.5c4.8-1.8 9-1.3 13.5 1.4v20.8c-4.5-2.7-8.7-3.2-13.5-1.4V14.5Zm27 0c-4.8-1.8-9-1.3-13.5 1.4v20.8c4.5-2.7 8.7-3.2 13.5-1.4V14.5Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="32" cy="26.5" r="5.2" fill="white" stroke="currentColor" stroke-width="2"/><path d="m35.8 30.3 4.2 4.2" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></div>
@@ -87,7 +90,7 @@
 <!-- google-books-preview:end -->
 
 
-  <section class="section"><h2>About this book</h2>
+  <section class="section premium-about" id="premium-about"><h2>About this book</h2>
     <p>REVERSE ENGINEERING WITH REA is an evidence-centered guide to using AI-assisted tooling for authorized software investigation without confusing fluent explanations, decompiler output, or reconstructed code with proof. The book treats REA as evidence-access infrastructure that can connect an AI agent to bounded analysis operations, while keeping the analyst responsible for scope, authorization, interpretation, uncertainty and publication. It begins by distinguishing what REA can actually observe from what an agent merely infers, then establishes professional boundaries for lawful possession, inspection, runtime experimentation, evidence retention, independent implementation and public release. The recurring principle is simple: technical capability does not itself create permission, and a strong reverse-engineering conclusion must be traceable to authentic evidence rather than to a plausible narrative.</p>
     <p>The workstation and tooling chapters turn setup into part of the experiment. Instead of assuming that a successful installer means the analysis stack is ready, the book separates runtime compatibility, agent registration, provider readiness and a genuine evidence-producing response. It covers reproducible host records, package and provider versions, hashes, least-privilege working directories, read-only originals, REA CLI and MCP concepts, and the need to distinguish a workflow skill from a live analysis provider. The text emphasizes that failures and blocked capabilities belong in the research record: an unavailable provider, incompatible runtime or missing capture must be documented as an unavailable lane rather than replaced by invented output.</p>
     <p>The investigation methodology moves from question framing and artifact triage into native binaries, assembly, linking, disassembly, decompilation, data flow and structure recovery. Decompiler output is treated explicitly as a hypothesis constrained by architecture, inferred types and incomplete information—not as recovered source code. Readers are taught to cross-check pseudocode against lower-level evidence, use boundary tests to resolve ambiguities, preserve uncertainty when multiple interpretations fit the same bytes, and reconstruct behavior from tested contracts rather than from cosmetic resemblance to decompiled expressions. Native examples are complemented by JavaScript application graphs, Electron process boundaries, browser behavior, network and HAR evidence, Android APK analysis with JADX, .NET assemblies, managed and hybrid boundaries, saved captures, firmware, WebAssembly and packaged-program metadata.</p>
@@ -96,7 +99,7 @@
     <p>The final chapters assemble the method into a complete professional REA investigation project. A capstone begins with a bounded research question, explicit authority, immutable artifact identity and a reproducible environment; it proceeds through evidence collection, claim-to-evidence mapping, a behavior contract, an independently written implementation and a declared differential test suite. The deliverable is not merely a working clone or demo video but an auditable package containing permission records, hashes, workstation and toolchain details, raw captures, hypotheses, verified figures, tests, contradictions, limitations, redaction decisions and publication rights. The resulting workflow makes reverse engineering useful for education, debugging, interoperability and responsible software research while keeping evidence quality, reproducibility and professional restraint at the center.</p>
   </section>
 
-  <section class="section"><h2>What you will learn</h2><ul>
+  <section class="section premium-learning" id="premium-learning"><h2>What you will learn</h2><ul>
       <li>Distinguish evidence produced by an analysis tool from an AI agent&#x27;s interpretation so that fluent output is never mistaken for proof.</li>
       <li>Define authorization separately for inspection, execution, capture, retention, reconstruction and publication before beginning a reverse-engineering investigation.</li>
       <li>Build a reproducible REA workstation by recording runtime, operating system, package, provider, permission and artifact versions rather than relying on the word latest.</li>
@@ -118,7 +121,7 @@
       <li>Evaluate success by evidence coverage, reproducibility, functional testing and restraint rather than by whether the final reconstruction merely looks convincing.</li>
     </ul></section>
 
-  <section class="section"><h2>Key topics</h2><ul>
+  <section class="section premium-topics" id="premium-topics"><h2>Key topics</h2><ul>
       <li>REA reverse engineering</li>
       <li>AI-assisted software analysis</li>
       <li>Responsible reverse engineering</li>
@@ -183,7 +186,7 @@
       <li>Professional portfolio</li>
     </ul></section>
 
-  <section class="section"><h2>Who this book is for</h2><p>For software engineers, reverse engineers, AI-assisted development practitioners, security and interoperability researchers, technical investigators, students of binary analysis, and developers who want to use REA-style agent workflows while maintaining clear authorization, evidence provenance, reproducibility, independent validation and responsible publication practices.</p></section>
+  <section class="section premium-audience" id="premium-audience"><h2>Who this book is for</h2><p>For software engineers, reverse engineers, AI-assisted development practitioners, security and interoperability researchers, technical investigators, students of binary analysis, and developers who want to use REA-style agent workflows while maintaining clear authorization, evidence provenance, reproducibility, independent validation and responsible publication practices.</p></section>
 
   <section class="section"><div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=XnUhEgAAQBAJ" target="_blank" rel="noopener noreferrer">Read / Buy on Google Books</a><a class="action" href="../">Browse all books</a></div></section>
 
@@ -201,7 +204,7 @@
 <!-- topic-index-link:end -->
 
 <!-- semantic-related-books:start -->
-<section class="section semantic-related-books" aria-label="Related books"><h2>Related books</h2><p>Explore closely related titles in the same subject area.</p><ul><li><a href="https://faramarzkowsari.github.io/books/claude-code-mastery/">Claude Code Mastery</a></li><li><a href="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/">JEV AND SYSTEM ONE AI</a></li><li><a href="https://faramarzkowsari.github.io/books/artificial-intelligence-and-machine-learning-for-cybersecurity/">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY</a></li><li><a href="https://faramarzkowsari.github.io/books/engineering-turkey/">Engineering Turkey</a></li><li><a href="https://faramarzkowsari.github.io/books/ai-apis-in-practice/">AI APIs in Practice</a></li></ul><p><a href="https://faramarzkowsari.github.io/books/topics/software-technology/">Explore the topic hub →</a></p></section>
+<section class="section semantic-related-books premium-related" aria-label="Related books" id="premium-related"><h2>Related books</h2><p>Explore closely related titles in the same subject area.</p><ul><li><a href="https://faramarzkowsari.github.io/books/claude-code-mastery/">Claude Code Mastery</a></li><li><a href="https://faramarzkowsari.github.io/books/jev-and-system-one-ai/">JEV AND SYSTEM ONE AI</a></li><li><a href="https://faramarzkowsari.github.io/books/artificial-intelligence-and-machine-learning-for-cybersecurity/">ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING FOR CYBERSECURITY</a></li><li><a href="https://faramarzkowsari.github.io/books/engineering-turkey/">Engineering Turkey</a></li><li><a href="https://faramarzkowsari.github.io/books/ai-apis-in-practice/">AI APIs in Practice</a></li></ul><p><a href="https://faramarzkowsari.github.io/books/topics/software-technology/">Explore the topic hub →</a></p></section>
 <!-- semantic-related-books:end -->
 <!-- book-image-gallery:start -->
 <section class="book-image-gallery" aria-label="Reverse Engineering With Rea visual gallery">
@@ -247,6 +250,8 @@
   </div>
 </section>
 <!-- book-image-gallery:end -->
+
+<section class="section premium-author" id="premium-author" aria-label="Author profile"><h2>About the author</h2><p>Faramarz Kowsari is an Istanbul-based author and researcher working at the intersection of technology, education and personal growth. He has published over 160 digital titles on international platforms. His interests include artificial intelligence, prompt engineering, modern trading strategies, classical literature and mindfulness. He also develops web-based educational tools and specialized instructional videos.</p><p class="author-links"><a href="https://faramarzkowsari.github.io/">Official Website</a><a href="https://faramarzkowsari.github.io/books/">Published Books</a><a href="https://faramarzkowsari.github.io/books/author/">Author Profile</a><a href="https://github.com/FaramarzKowsari" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://orcid.org/0000-0003-1692-0453" target="_blank" rel="noopener noreferrer">ORCID</a></p></section>
 </main>
 </body>
 </html>
