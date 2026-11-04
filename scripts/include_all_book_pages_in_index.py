@@ -75,7 +75,7 @@ def add_schema_entries(document: str, additions: list[dict]) -> str:
 
 def main() -> None:
     document = INDEX.read_text(encoding="utf-8")
-    document = re.sub(re.escape(START) + r".*?" + re.escape(END), "", document, flags=re.S)
+    document = re.sub(r"\n*" + re.escape(START) + r".*?" + re.escape(END) + r"\n*", "", document, flags=re.S)
     known = set(re.findall(r'<h2><a href="\./([^/]+)/">', document))
     additions = []
     for path in sorted(BOOKS.glob("*/index.html")):
