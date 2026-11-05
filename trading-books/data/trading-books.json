@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T21:40:30.145364+00:00",
+  "generated_at": "2026-11-05T21:49:04.624866+00:00",
   "count": 62,
   "categories": {
     "Start Here & Core Technical Analysis": 8,
@@ -985,7 +985,7 @@
       "google_url": "https://play.google.com/store/books/details?id=7l4WEgAAQBAJ",
       "preview_url": "https://play.google.com/books/reader?id=7l4WEgAAQBAJ&hl=en",
       "cover": "https://books.google.com/books/content?id=7l4WEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
-      "medium_url": "",
+      "medium_url": "https://medium.com/@faramarz.kowsari/gamma-exposure-trading-the-hidden-market-forces-your-candlestick-charts-cannot-show-ec1d960ab74c?postPublishedType=repub",
       "source_page": "https://faramarzkowsari.github.io/books/gamma-exposure-trading/",
       "description": "Gamma Exposure Trading explains the options-market layer that can influence intraday behavior in indexes, ETFs and futures without presenting GEX as a crystal ball. It starts with the minimum options knowledge needed to understand Delta, Gamma and position-scaled Gamma Exposure, then separates observed option-chain data from inferred dealer positioning. Open interest, static versus intraday estimates, vendor methodology and sign conventions are treated as model inputs with limitations rather than direct observations of every dealer book. The central discipline is conditional: build a map, wait for price to reach a relevant area, then let live market behavior confirm or reject the hypothesis.",
       "tags": [
