@@ -436,7 +436,7 @@ def render_category_page(category: str, books: list[dict], updated: str) -> str:
 <meta name="twitter:image" content="https://i.pinimg.com/736x/c7/ae/da/c7aeda0a3132f7d85ebd6af24e02cdc2.jpg">
 <link rel="stylesheet" href="../styles.css?v=20261102-4">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8XLF16YDW"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-B8XLF16YDW');</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-B8XLF16YDW');</script>
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False, separators=(",", ":"))}</script>
 </head><body>
 <main class="category-landing">
