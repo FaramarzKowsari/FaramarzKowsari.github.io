@@ -5908,10 +5908,10 @@
       },
       "related_slugs": [
         "premium-and-discount-zones",
+        "supply-and-demand-trading",
         "confluence-trading",
         "0dte-options",
-        "ai-assisted-crypto-futures",
-        "crypto-liquidation-heatmaps"
+        "ai-assisted-crypto-futures"
       ]
     }
   },
@@ -14305,7 +14305,7 @@
         "confluence-trading",
         "market-structure-trading",
         "options-trading-from-zero",
-        "gamma-exposure-trading"
+        "volatility-trading-from-zero"
       ]
     }
   },
@@ -68679,7 +68679,7 @@
     "related_ids": [
       "cSQjEgAAQBAJ",
       "fscjEgAAQBAJ",
-      "gF0iEgAAQBAJ"
+      "O4kmEgAAQBAJ"
     ],
     "source_review_status": "complete",
     "source_scope": "Library source GUIA_DE_SUPERVIVENCIA_ANTE_EL_NARCISISMO.pdf reviewed from title/copyright and safety pages, complete contents covering 37 chapters and four appendices, representative family/relationship/workplace chapters, documentation/privacy/digital-security material, decision matrix, safe low-cost exit planning, recovery, self-accountability, and author information. The reviewed Spanish edition contains 306 PDF pages and explicitly presents itself as educational rather than individualized clinical diagnosis, psychotherapy, legal advice or a personal safety plan. Public-page enrichment is limited to concepts, cautions and practical framing supported by the reviewed manuscript.",
@@ -69037,6 +69037,899 @@
         "Gaslighting, negación y traslado de la culpa",
         "Humillación, desprecio y desvalorización",
         "Silencio punitivo y presión de terceros"
+      ]
+    },
+    "source_reviewed": true
+  },
+  {
+    "status": "active",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
+    "translation_group": "",
+    "subtitle": "The Complete Guide to Price Zones, Market Structure, Entry Strategies, Risk Management, and Evidence-Based Trading",
+    "description": "",
+    "summary": "A familiar chart pattern creates a tempting story: price leaves a narrow base, returns days later, and appears ready to bounce from the same rectangle. But what, precisely, does that rectangle prove? SUPPLY AND DEMAND TRADING begins at the point where many zone-trading explanations stop. It treats a price zone as a testable trading hypothesis, not as evidence that unseen institutions have committed to defend a level. The book's opening chapters distinguish the economic idea of supply and demand from supply-and-demand zones on a candlestick chart, then introduce the bid-ask spread, the order book, price discovery, auction mechanics, volatility and the conditions under which historical prices can become useful references. The result is a sharper question than 'Does this look like demand?': 'What can the data establish, and what must the next trade prove?'\n\nThe 42-chapter progression builds from market mechanics to zone construction. Readers learn to define bases and departures, compare common departure structures, set boundaries before the future becomes visible, and document freshness, retests, aging, nested zones, opposing zones and objective invalidation. The next layer adds swing structure, market regimes, the multi-timeframe map, available space to targets, trend versus range context, and scheduled economic events. Rather than placing a trade because a rectangle has been drawn, the reader develops a reason to prefer one setup over another, or to reject an attractive-looking setup entirely. This is where the book distinguishes zone location from trade execution: a meaningful price reference is not automatically a filled order, and a strong reaction on a chart is not automatically a profitable trade.\n\nSix distinct trading propositions receive their own decision rules: a first-return limit order, lower-timeframe confirmation, continuation after an impulsive departure, a range-boundary reversal, a breakout and retest, and a setup constructed around a failed zone. Each carries different timing, cancellation, invalidation and fill assumptions. Execution chapters put the stop, target, position size, contract or share quantity, trading friction and portfolio exposure into the same calculation. Market and limit orders are compared as operational choices rather than visual preferences. The discussion also asks what happens when a trade is missed, spreads widen, a stop slips, or several nominally separate positions concentrate the same risk.\n\nThe scope extends beyond one chart or market. Later chapters connect zone analysis with candlesticks, volume profile, volume-weighted prices, Depth of Market, footprint displays, delta and Smart Money Concepts terminology, always asking whether additional information truly changes a decision. Separate adaptations address equities and ETFs, centralized index futures, broker-dependent spot forex and CFDs, gold and silver, and crypto spot and perpetual contracts. These differences matter: a zone inferred from candles is not the same kind of information as a displayed futures order book, and one cannot simply transfer execution assumptions from one venue to another.\n\nThe book ends where a serious trading method begins: with a rulebook another trader could follow, a record of decisions made before outcomes were known, replay and data-quality controls, backtest design, statistical validation, forward testing, failure review and an annotated casebook. Practical appendices include a market-and-zone glossary, zone-marking worksheet, trade-planning and position-size sheets, research-data schema and reference register. Readers looking for an infallible zone will not find one. Readers who want to turn chart intuition into definitions, executable orders, bounded risk and falsifiable evidence will find a substantial working framework.",
+    "key_topics": [
+      "Supply and demand trading",
+      "Economic supply and demand versus chart zones",
+      "Bid-ask spread and price discovery",
+      "Order book and auction mechanics",
+      "Supply zone and demand zone definitions",
+      "Base and departure structures",
+      "Zone boundaries without hindsight",
+      "Fresh and retested zones",
+      "Nested and opposing zones",
+      "Zone ranking and invalidation",
+      "Swing structure and market regimes",
+      "Multi-timeframe mapping",
+      "Trend versus range context",
+      "Economic catalysts and event risk",
+      "First-return limit orders",
+      "Lower-timeframe confirmation",
+      "Continuation after departure",
+      "Range-boundary reversal",
+      "Breakout and retest",
+      "Failed-zone setups",
+      "No-trade decisions",
+      "Stops, targets and reward-to-risk R",
+      "Position sizing",
+      "Order types, fills and slippage",
+      "Spreads, commissions and execution records",
+      "Portfolio risk and drawdowns",
+      "Candlestick and price-action evidence",
+      "Volume Profile and VWAP",
+      "Depth of Market, footprint and delta",
+      "Supply and demand versus Smart Money Concepts",
+      "Stocks, ETFs and futures",
+      "Spot forex, CFDs, gold and silver",
+      "Crypto spot and perpetual contracts",
+      "Trading rulebook and decision journal",
+      "Backtesting and statistical validation",
+      "Forward testing and failure review",
+      "Practical worksheets and research schema"
+    ],
+    "target_audience": "For discretionary price-action traders, Smart Money Concepts readers, forex and CFD traders, futures and equity traders, crypto-market participants, and systematic researchers who want a rigorous bridge from drawing price zones to making reproducible trading decisions. The book is especially useful for readers familiar with support/resistance who now want to understand zone formation, distinguish multiple entry models, calculate realistic execution risk and test whether their rules survive evidence rather than relying on screenshots of winning trades. It is educational material, not a promise of trading returns.",
+    "publisher": "Faramarz Kowsari",
+    "published_date": "2026",
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered",
+    "google_books_id": "O4kmEgAAQBAJ",
+    "title": "SUPPLY AND DEMAND TRADING",
+    "slug": "supply-and-demand-trading",
+    "google_books_url": "https://play.google.com/store/books/details?id=O4kmEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=O4kmEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "language_code": "en",
+    "sequence": 176,
+    "seo_description": "A complete, evidence-based guide to supply and demand zones, price discovery, six entry setups, market structure, execution, risk, backtesting and forward testing.",
+    "learning": [
+      "Explain what candles and exchange data actually reveal, and why a zone cannot prove invisible institutional orders are waiting.",
+      "Define and mark supply and demand zones with reproducible boundaries before seeing the outcome.",
+      "Assess departure structure, zone freshness, retests, nested areas, opposing zones and invalidation without hindsight.",
+      "Read zones inside swing structure, multi-timeframe context, market regime, available target space and scheduled-event risk.",
+      "Differentiate six setup families and write their entry, cancellation, stop and failure rules before submitting an order.",
+      "Recognize when a zone is a reference rather than a complete trade, and why a missed limit fill must not be reported as a winner.",
+      "Calculate trade risk in account currency using instrument units, quantity, stop distance, spreads, slippage and fees.",
+      "Compare market and limit execution, understand partial fills and keep portfolio-level concentration visible.",
+      "Use candlestick behavior, volume profile, VWAP, footprint, DOM and delta only when they provide measurable additional evidence.",
+      "Adapt analysis to stocks, exchange-traded futures, OTC forex, commodities and crypto without assuming identical data or fill mechanics.",
+      "Document a rulebook, decision journal and annotated cases so another trader can reproduce the method.",
+      "Design backtests with all eligible candidates, realistic execution assumptions, no future-data leakage and honest negative results.",
+      "Use forward testing, failure review and no-trade rules to improve process rather than chasing attractive historical examples."
+    ],
+    "related_ids": [
+      "aScOEgAAQBAJ",
+      "StMLEgAAQBAJ",
+      "9UILEgAAQBAJ"
+    ],
+    "source_review_status": "complete",
+    "source_pages_reviewed": 317,
+    "source_scope": "Complete 317-page Library Word manuscript SUPPLY_AND_DEMAND_TRADING_Faramarz_Kowsari_FINAL_A5_EN.docx, including 42 chapters and appendices, checked for the public description",
+    "seo": {
+      "primary_query": "SUPPLY AND DEMAND TRADING",
+      "secondary_queries": [
+        "SUPPLY AND DEMAND TRADING book",
+        "The Complete Guide to Price Zones, Market Structure, Entry Strategies, Risk Management, and Evidence-Based Trading",
+        "Trading",
+        "Supply and demand trading",
+        "Economic supply and demand versus chart zones",
+        "Bid-ask spread and price discovery",
+        "Order book and auction mechanics",
+        "Supply zone and demand zone definitions",
+        "Base and departure structures",
+        "Zone boundaries without hindsight",
+        "Fresh and retested zones",
+        "Nested and opposing zones"
+      ],
+      "long_tail_queries": [
+        "SUPPLY AND DEMAND TRADING by Faramarz Kowsari",
+        "practical guide to Supply and demand trading",
+        "how Supply and demand trading works",
+        "Supply and demand trading Economic supply and demand versus chart zones"
+      ],
+      "entities": [
+        "Supply and demand trading",
+        "Economic supply and demand versus chart zones",
+        "Bid-ask spread and price discovery",
+        "Order book and auction mechanics",
+        "Supply zone and demand zone definitions",
+        "Base and departure structures",
+        "Zone boundaries without hindsight",
+        "Fresh and retested zones",
+        "Nested and opposing zones",
+        "Zone ranking and invalidation",
+        "Swing structure and market regimes",
+        "Multi-timeframe mapping",
+        "Trend versus range context",
+        "Economic catalysts and event risk",
+        "First-return limit orders",
+        "Lower-timeframe confirmation",
+        "Continuation after departure",
+        "Range-boundary reversal",
+        "Breakout and retest",
+        "Failed-zone setups"
+      ],
+      "cluster": "trading-markets",
+      "cluster_label": "Trading & Financial Markets",
+      "localized": {
+        "en": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING book",
+            "trading and financial markets book",
+            "Supply and demand trading guide",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "how Supply and demand trading works",
+            "practical guide to Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING by Faramarz Kowsari"
+          ],
+          "category_phrase": "trading and financial markets"
+        },
+        "tr": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING kitap",
+            "trading ve finansal piyasalar kitap",
+            "Supply and demand trading rehberi",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "Supply and demand trading nasıl çalışır",
+            "Supply and demand trading için uygulamalı rehberi",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "trading ve finansal piyasalar"
+        },
+        "ru": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING книга",
+            "книга о трейдинг и финансовые рынки",
+            "руководство по Supply and demand trading",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "как работает Supply and demand trading",
+            "практическое руководство по Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "трейдинг и финансовые рынки"
+        },
+        "de": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING Buch",
+            "Trading und Finanzmärkte Buch",
+            "Supply and demand trading Leitfaden",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "wie funktioniert Supply and demand trading",
+            "praktischer Leitfaden zu Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "Trading und Finanzmärkte"
+        },
+        "es": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING libro",
+            "libro de trading y mercados financieros",
+            "guía de Supply and demand trading",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "cómo funciona Supply and demand trading",
+            "guía práctica de Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "trading y mercados financieros"
+        },
+        "fr": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING livre",
+            "livre sur trading et marchés financiers",
+            "guide Supply and demand trading",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "comment fonctionne Supply and demand trading",
+            "guide pratique de Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "trading et marchés financiers"
+        },
+        "pt-BR": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING livro",
+            "livro sobre trading e mercados financeiros",
+            "guia de Supply and demand trading",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "como funciona Supply and demand trading",
+            "guia prático de Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "trading e mercados financeiros"
+        },
+        "fa": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING کتاب",
+            "کتاب معامله‌گری و بازارهای مالی",
+            "راهنما Supply and demand trading",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "Supply and demand trading چیست",
+            "راهنما کاربردی Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING فرامرز کوثری"
+          ],
+          "category_phrase": "معامله‌گری و بازارهای مالی"
+        },
+        "ar": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING كتاب",
+            "كتاب عن التداول والأسواق المالية",
+            "دليل Supply and demand trading",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "ما هو Supply and demand trading",
+            "دليل عملي عن Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "التداول والأسواق المالية"
+        },
+        "id": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING buku",
+            "buku trading dan pasar keuangan",
+            "panduan Supply and demand trading",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "cara kerja Supply and demand trading",
+            "panduan praktis Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "trading dan pasar keuangan"
+        },
+        "vi": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING sách",
+            "sách về giao dịch và thị trường tài chính",
+            "hướng dẫn Supply and demand trading",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "Supply and demand trading hoạt động như thế nào",
+            "hướng dẫn thực hành Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "giao dịch và thị trường tài chính"
+        },
+        "th": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING หนังสือ",
+            "หนังสือ การเทรดและตลาดการเงิน",
+            "คู่มือ Supply and demand trading",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "Supply and demand trading ทำงานอย่างไร",
+            "คู่มือ Supply and demand trading แบบปฏิบัติ",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "การเทรดและตลาดการเงิน"
+        },
+        "bn": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING বই",
+            "ট্রেডিং ও আর্থিক বাজার বই",
+            "Supply and demand trading গাইড",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "Supply and demand trading কীভাবে কাজ করে",
+            "Supply and demand trading ব্যবহারিক গাইড",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "ট্রেডিং ও আর্থিক বাজার"
+        },
+        "ro": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING carte",
+            "carte despre trading și piețe financiare",
+            "ghid Supply and demand trading",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "cum funcționează Supply and demand trading",
+            "ghid practic pentru Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "trading și piețe financiare"
+        },
+        "fil": {
+          "primary_query": "SUPPLY AND DEMAND TRADING",
+          "secondary_queries": [
+            "SUPPLY AND DEMAND TRADING aklat",
+            "aklat tungkol sa trading at financial markets",
+            "gabay sa Supply and demand trading",
+            "Supply and demand trading",
+            "Economic supply and demand versus chart zones",
+            "Bid-ask spread and price discovery",
+            "Order book and auction mechanics",
+            "Supply zone and demand zone definitions",
+            "Base and departure structures"
+          ],
+          "long_tail_queries": [
+            "paano gumagana ang Supply and demand trading",
+            "praktikal na gabay sa Supply and demand trading",
+            "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+          ],
+          "category_phrase": "trading at financial markets"
+        }
+      },
+      "related_slugs": [
+        "supply-and-demand-zones",
+        "market-structure-trading",
+        "order-blocks-trading",
+        "the-1-minute-and-5-minute-scalping-playbook",
+        "swing-trading-mastery"
+      ]
+    },
+    "source_reviewed": true
+  },
+  {
+    "status": "active",
+    "content_status": "complete",
+    "language": "English",
+    "category": "Trading",
+    "translation_group": "",
+    "subtitle": "Understanding VIX, Implied Volatility, Skew, Term Structure, Volatility Risk Premium, and Trading Strategies",
+    "description": "",
+    "summary": "A trader can forecast a large market move and still lose money on a purchased option. A trader can correctly expect a rise in the VIX and still misunderstand the instrument held. VOLATILITY TRADING FROM ZERO begins with this uncomfortable but essential distinction: volatility is about the magnitude and distribution of returns, not simply whether prices rise or fall. The opening chapters build the mathematics of realized volatility, return measurement and time scaling, then connect option premium to implied volatility and the Greeks. This foundation explains why market direction, option price, the passage of time and changes in volatility expectations can disagree with one another. The objective is to understand what a position actually owns before predicting what an index might do.\n\nAcross 44 chapters, the book opens up the VIX family with care. It explains what the VIX measures, the logic of its calculation, why arbitrary 'high' or 'low' VIX thresholds can mislead, and how VIX1D, VIX9D and VIX3M refer to different horizons. Implied volatility is developed as a model-based price convention rather than a literal forecast or guaranteed probability. The reader then encounters expected moves, IV Rank and Percentile, scheduled catalysts, post-event volatility crush, and the way surprises affect position P&L. The treatment of skew and volatility surfaces goes beyond noticing a smile: different strikes can imply different volatility, and the relative pricing of wings, crash protection and tails changes what a proposed strategy costs.\n\nThe next layer separates two curves that are often confused: the term structure of option-implied volatility and the futures curve of the VIX. Their shapes carry different meanings and cannot be traded as if they were interchangeable. Chapters on contango, backwardation, basis, roll mechanics, settlement and the Special Opening Quotation explain why owning a volatility-linked product is not the same as owning the spot VIX level on a chart. The volatility risk premium is defined with attention to realized-versus-implied comparisons and the compensation sought by sellers of insurance-like exposures. Short-volatility carry can look attractive in ordinary conditions while concentrating losses in the left tail; the book examines when that tradeoff deteriorates and why path dependence matters for volatility exchange-traded products.\n\nReaders then move through the actual instruments and expressions of a volatility view: SPX and XSP options, standard and mini VIX futures, VIX index options versus options on VIX futures, and exchange-traded volatility products. Strategy chapters investigate long straddles and strangles, defined-risk short-volatility structures, calendars and diagonals, delta-hedged gamma scalping, VIX-futures curve spreads, tail hedges, and event or 0DTE volatility decisions. Each strategy is framed as an investigation of payoff, exposure, costs, liquidity, execution and what would make the premise invalid. There is particular attention to contracts, expiry and settlement because similar-looking symbols can represent materially different exposures.\n\nThe final chapters ask how much volatility risk a portfolio can absorb, how to backtest without looking into the future and how to write a decision playbook that permits a defensible no-trade outcome. Hypothetical calculations are identified as illustrations, not invented performance records. Rather than offering a signal to buy whenever the VIX crosses a number, the book teaches readers to ask whether uncertainty is already expensive, which horizon matters, what the instrument tracks, how the position may fail, and whether the evidence justifies risking capital. That is the practical meaning of learning volatility trading from zero.",
+    "key_topics": [
+      "Volatility versus market direction",
+      "Returns, dispersion and time scaling",
+      "Realized volatility measurement",
+      "Option premium and the Greeks",
+      "VIX calculation and interpretation",
+      "VIX1D, VIX9D and VIX3M",
+      "Implied volatility models",
+      "Expected moves and probability errors",
+      "IV Rank and IV Percentile",
+      "Event volatility and IV crush",
+      "Volatility skew",
+      "Put skew and crash protection",
+      "Smile, butterflies and tail pricing",
+      "Volatility surface",
+      "Skew relative-value questions",
+      "Option-implied term structure",
+      "VIX futures curve",
+      "Contango, backwardation and basis",
+      "Roll yield and path dependence",
+      "Expiry, settlement and SOQ",
+      "Volatility risk premium (VRP)",
+      "Insurance selling and left-tail exposure",
+      "Short-volatility carry and regime shifts",
+      "SPX and XSP options",
+      "VIX and mini VIX futures",
+      "VIX options and futures options differences",
+      "Volatility exchange-traded products",
+      "Liquidity and execution costs",
+      "Long straddles and strangles",
+      "Defined-risk short-volatility structures",
+      "Calendar and diagonal spreads",
+      "Delta-hedged gamma scalping",
+      "VIX futures spreads",
+      "Tail hedges with VIX and SPX options",
+      "0DTE and event volatility",
+      "Portfolio volatility-risk sizing",
+      "Backtesting without look-ahead bias",
+      "Volatility trader decision playbook"
+    ],
+    "target_audience": "For curious beginners who understand basic market terminology, options students, index traders, futures traders, systematic researchers and experienced directional traders who want to understand why volatility exposure behaves differently from owning the underlying asset. The sequence is useful for readers progressing from basic returns and option pricing toward VIX products, volatility structures, portfolio hedging and defensible research. Some chapters require comfort with options, probabilities and derivatives mechanics; the early chapters establish the necessary language. All strategies involve risk and are discussed for education, not as individualized investment advice.",
+    "publisher": "Faramarz Kowsari",
+    "published_date": "2026",
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered",
+    "google_books_id": "AKAmEgAAQBAJ",
+    "title": "VOLATILITY TRADING FROM ZERO",
+    "slug": "volatility-trading-from-zero",
+    "google_books_url": "https://play.google.com/store/books/details?id=AKAmEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=AKAmEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "language_code": "en",
+    "sequence": 177,
+    "seo_description": "Learn volatility trading from first principles: realized and implied volatility, VIX, skew, term structure, VRP, VIX futures, options strategies and risk controls.",
+    "learning": [
+      "Separate a directional market forecast from a forecast about the size and distribution of returns.",
+      "Measure realized volatility and explain how time horizon and annualization affect comparisons.",
+      "Understand why option prices can lose value despite an accurate move forecast, using implied volatility, theta, delta, gamma and vega.",
+      "Interpret the VIX family as horizon-specific measures rather than market-direction forecasts or universal buy/sell thresholds.",
+      "Compare IV Rank, IV Percentile, expected moves and scheduled-event pricing without treating model conventions as guarantees.",
+      "Read volatility skew, put wings, tail pricing and the surface as relative prices of different strike-and-expiry risks.",
+      "Distinguish an options volatility term structure from the VIX futures curve, including basis and settlement effects.",
+      "Explain volatility risk premium, short-volatility carry, left-tail risk and the conditions under which carry breaks down.",
+      "Select an appropriate instrument among SPX/XSP options, VIX futures, VIX options and volatility ETPs while respecting their different mechanics.",
+      "Evaluate straddles, strangles, spreads, calendars, gamma scalping, curve trades and tail hedges through their actual exposures.",
+      "Account for liquidity, order execution, position size, portfolio concentration, roll mechanics and path dependence.",
+      "Design a backtest without look-ahead data, label illustrative numbers correctly and document failure cases alongside profitable trades.",
+      "Build a decision playbook that explicitly includes abstention when the instrument, price or risk budget does not justify a trade."
+    ],
+    "related_ids": [
+      "d-khEgAAQBAJ",
+      "7l4WEgAAQBAJ",
+      "QJ0MEgAAQBAJ"
+    ],
+    "source_review_status": "complete",
+    "source_pages_reviewed": 286,
+    "source_scope": "Complete 286-page Library Word manuscript VOLATILITY_TRADING_FROM_ZERO_Faramarz_Kowsari_FINAL_A5.docx, including 44 chapters, checked for the public description",
+    "seo": {
+      "primary_query": "VOLATILITY TRADING FROM ZERO",
+      "secondary_queries": [
+        "VOLATILITY TRADING FROM ZERO book",
+        "Understanding VIX, Implied Volatility, Skew, Term Structure, Volatility Risk Premium, and Trading Strategies",
+        "Trading",
+        "Volatility versus market direction",
+        "Returns, dispersion and time scaling",
+        "Realized volatility measurement",
+        "Option premium and the Greeks",
+        "VIX calculation and interpretation",
+        "VIX1D, VIX9D and VIX3M",
+        "Implied volatility models",
+        "Expected moves and probability errors",
+        "IV Rank and IV Percentile"
+      ],
+      "long_tail_queries": [
+        "VOLATILITY TRADING FROM ZERO by Faramarz Kowsari",
+        "practical guide to Volatility versus market direction",
+        "how Volatility versus market direction works",
+        "Volatility versus market direction Returns, dispersion and time scaling"
+      ],
+      "entities": [
+        "Volatility versus market direction",
+        "Returns, dispersion and time scaling",
+        "Realized volatility measurement",
+        "Option premium and the Greeks",
+        "VIX calculation and interpretation",
+        "VIX1D, VIX9D and VIX3M",
+        "Implied volatility models",
+        "Expected moves and probability errors",
+        "IV Rank and IV Percentile",
+        "Event volatility and IV crush",
+        "Volatility skew",
+        "Put skew and crash protection",
+        "Smile, butterflies and tail pricing",
+        "Volatility surface",
+        "Skew relative-value questions",
+        "Option-implied term structure",
+        "VIX futures curve",
+        "Contango, backwardation and basis",
+        "Roll yield and path dependence",
+        "Expiry, settlement and SOQ"
+      ],
+      "cluster": "options-volatility-trading",
+      "cluster_label": "Options, Gamma & Volatility Trading",
+      "localized": {
+        "en": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO book",
+            "trading and financial markets book",
+            "Volatility versus market direction guide",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "how Volatility versus market direction works",
+            "practical guide to Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO by Faramarz Kowsari"
+          ],
+          "category_phrase": "trading and financial markets"
+        },
+        "tr": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO kitap",
+            "trading ve finansal piyasalar kitap",
+            "Volatility versus market direction rehberi",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "Volatility versus market direction nasıl çalışır",
+            "Volatility versus market direction için uygulamalı rehberi",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading ve finansal piyasalar"
+        },
+        "ru": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO книга",
+            "книга о трейдинг и финансовые рынки",
+            "руководство по Volatility versus market direction",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "как работает Volatility versus market direction",
+            "практическое руководство по Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "трейдинг и финансовые рынки"
+        },
+        "de": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO Buch",
+            "Trading und Finanzmärkte Buch",
+            "Volatility versus market direction Leitfaden",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "wie funktioniert Volatility versus market direction",
+            "praktischer Leitfaden zu Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "Trading und Finanzmärkte"
+        },
+        "es": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO libro",
+            "libro de trading y mercados financieros",
+            "guía de Volatility versus market direction",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "cómo funciona Volatility versus market direction",
+            "guía práctica de Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading y mercados financieros"
+        },
+        "fr": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO livre",
+            "livre sur trading et marchés financiers",
+            "guide Volatility versus market direction",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "comment fonctionne Volatility versus market direction",
+            "guide pratique de Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading et marchés financiers"
+        },
+        "pt-BR": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO livro",
+            "livro sobre trading e mercados financeiros",
+            "guia de Volatility versus market direction",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "como funciona Volatility versus market direction",
+            "guia prático de Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading e mercados financeiros"
+        },
+        "fa": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO کتاب",
+            "کتاب معامله‌گری و بازارهای مالی",
+            "راهنما Volatility versus market direction",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "Volatility versus market direction چیست",
+            "راهنما کاربردی Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO فرامرز کوثری"
+          ],
+          "category_phrase": "معامله‌گری و بازارهای مالی"
+        },
+        "ar": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO كتاب",
+            "كتاب عن التداول والأسواق المالية",
+            "دليل Volatility versus market direction",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "ما هو Volatility versus market direction",
+            "دليل عملي عن Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "التداول والأسواق المالية"
+        },
+        "id": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO buku",
+            "buku trading dan pasar keuangan",
+            "panduan Volatility versus market direction",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "cara kerja Volatility versus market direction",
+            "panduan praktis Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading dan pasar keuangan"
+        },
+        "vi": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO sách",
+            "sách về giao dịch và thị trường tài chính",
+            "hướng dẫn Volatility versus market direction",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "Volatility versus market direction hoạt động như thế nào",
+            "hướng dẫn thực hành Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "giao dịch và thị trường tài chính"
+        },
+        "th": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO หนังสือ",
+            "หนังสือ การเทรดและตลาดการเงิน",
+            "คู่มือ Volatility versus market direction",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "Volatility versus market direction ทำงานอย่างไร",
+            "คู่มือ Volatility versus market direction แบบปฏิบัติ",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "การเทรดและตลาดการเงิน"
+        },
+        "bn": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO বই",
+            "ট্রেডিং ও আর্থিক বাজার বই",
+            "Volatility versus market direction গাইড",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "Volatility versus market direction কীভাবে কাজ করে",
+            "Volatility versus market direction ব্যবহারিক গাইড",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "ট্রেডিং ও আর্থিক বাজার"
+        },
+        "ro": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO carte",
+            "carte despre trading și piețe financiare",
+            "ghid Volatility versus market direction",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "cum funcționează Volatility versus market direction",
+            "ghid practic pentru Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading și piețe financiare"
+        },
+        "fil": {
+          "primary_query": "VOLATILITY TRADING FROM ZERO",
+          "secondary_queries": [
+            "VOLATILITY TRADING FROM ZERO aklat",
+            "aklat tungkol sa trading at financial markets",
+            "gabay sa Volatility versus market direction",
+            "Volatility versus market direction",
+            "Returns, dispersion and time scaling",
+            "Realized volatility measurement",
+            "Option premium and the Greeks",
+            "VIX calculation and interpretation",
+            "VIX1D, VIX9D and VIX3M"
+          ],
+          "long_tail_queries": [
+            "paano gumagana ang Volatility versus market direction",
+            "praktikal na gabay sa Volatility versus market direction",
+            "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+          ],
+          "category_phrase": "trading at financial markets"
+        }
+      },
+      "related_slugs": [
+        "options-trading-from-zero",
+        "gamma-exposure-trading",
+        "0dte-options",
+        "options-flow-trading",
+        "the-heikin-ashi-trading-strategy"
       ]
     },
     "source_reviewed": true

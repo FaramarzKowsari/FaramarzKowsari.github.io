@@ -23232,7 +23232,7 @@
     "related_slugs": [
       "narsisizmle-bas-etme-rehberi",
       "the-narcissism-survival-guide",
-      "engineering-creativity-with-ai",
+      "supply-and-demand-trading",
       "cuando-el-dinero-no-alcanza",
       "deja-de-explicarte"
     ],
@@ -39094,7 +39094,7 @@
       "0dte-options",
       "cvd-trading",
       "options-trading-from-zero",
-      "the-heikin-ashi-trading-strategy"
+      "volatility-trading-from-zero"
     ],
     "secondary_queries": [
       "Options Flow Trading book",
@@ -39449,8 +39449,8 @@
       "nifty-50-options-trading",
       "0dte-options",
       "swing-trading-mastery",
-      "gamma-exposure-trading",
-      "options-flow-trading"
+      "volatility-trading-from-zero",
+      "gamma-exposure-trading"
     ],
     "secondary_queries": [
       "OPTIONS TRADING FROM ZERO book",
@@ -45329,6 +45329,362 @@
       "Over-explaining guide"
     ]
   },
+  "supply-and-demand-trading": {
+    "cluster": "trading-markets",
+    "cluster_label": "Trading & Financial Markets",
+    "entities": [
+      "Supply and demand trading",
+      "Economic supply and demand versus chart zones",
+      "Bid-ask spread and price discovery",
+      "Order book and auction mechanics",
+      "Supply zone and demand zone definitions",
+      "Base and departure structures",
+      "Zone boundaries without hindsight",
+      "Fresh and retested zones",
+      "Nested and opposing zones",
+      "Zone ranking and invalidation",
+      "Swing structure and market regimes",
+      "Multi-timeframe mapping",
+      "Trend versus range context",
+      "Economic catalysts and event risk",
+      "First-return limit orders",
+      "Lower-timeframe confirmation",
+      "Continuation after departure",
+      "Range-boundary reversal",
+      "Breakout and retest",
+      "Failed-zone setups"
+    ],
+    "localized": {
+      "ar": {
+        "category_phrase": "التداول والأسواق المالية",
+        "long_tail_queries": [
+          "ما هو Supply and demand trading",
+          "دليل عملي عن Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING كتاب",
+          "كتاب عن التداول والأسواق المالية",
+          "دليل Supply and demand trading",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "bn": {
+        "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
+        "long_tail_queries": [
+          "Supply and demand trading কীভাবে কাজ করে",
+          "Supply and demand trading ব্যবহারিক গাইড",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING বই",
+          "ট্রেডিং ও আর্থিক বাজার বই",
+          "Supply and demand trading গাইড",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "de": {
+        "category_phrase": "Trading und Finanzmärkte",
+        "long_tail_queries": [
+          "wie funktioniert Supply and demand trading",
+          "praktischer Leitfaden zu Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING Buch",
+          "Trading und Finanzmärkte Buch",
+          "Supply and demand trading Leitfaden",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "en": {
+        "category_phrase": "trading and financial markets",
+        "long_tail_queries": [
+          "how Supply and demand trading works",
+          "practical guide to Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING by Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING book",
+          "trading and financial markets book",
+          "Supply and demand trading guide",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "es": {
+        "category_phrase": "trading y mercados financieros",
+        "long_tail_queries": [
+          "cómo funciona Supply and demand trading",
+          "guía práctica de Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING libro",
+          "libro de trading y mercados financieros",
+          "guía de Supply and demand trading",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "fa": {
+        "category_phrase": "معامله‌گری و بازارهای مالی",
+        "long_tail_queries": [
+          "Supply and demand trading چیست",
+          "راهنما کاربردی Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING فرامرز کوثری"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING کتاب",
+          "کتاب معامله‌گری و بازارهای مالی",
+          "راهنما Supply and demand trading",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "fil": {
+        "category_phrase": "trading at financial markets",
+        "long_tail_queries": [
+          "paano gumagana ang Supply and demand trading",
+          "praktikal na gabay sa Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING aklat",
+          "aklat tungkol sa trading at financial markets",
+          "gabay sa Supply and demand trading",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "fr": {
+        "category_phrase": "trading et marchés financiers",
+        "long_tail_queries": [
+          "comment fonctionne Supply and demand trading",
+          "guide pratique de Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING livre",
+          "livre sur trading et marchés financiers",
+          "guide Supply and demand trading",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "id": {
+        "category_phrase": "trading dan pasar keuangan",
+        "long_tail_queries": [
+          "cara kerja Supply and demand trading",
+          "panduan praktis Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING buku",
+          "buku trading dan pasar keuangan",
+          "panduan Supply and demand trading",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "pt-BR": {
+        "category_phrase": "trading e mercados financeiros",
+        "long_tail_queries": [
+          "como funciona Supply and demand trading",
+          "guia prático de Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING livro",
+          "livro sobre trading e mercados financeiros",
+          "guia de Supply and demand trading",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "ro": {
+        "category_phrase": "trading și piețe financiare",
+        "long_tail_queries": [
+          "cum funcționează Supply and demand trading",
+          "ghid practic pentru Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING carte",
+          "carte despre trading și piețe financiare",
+          "ghid Supply and demand trading",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "ru": {
+        "category_phrase": "трейдинг и финансовые рынки",
+        "long_tail_queries": [
+          "как работает Supply and demand trading",
+          "практическое руководство по Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING книга",
+          "книга о трейдинг и финансовые рынки",
+          "руководство по Supply and demand trading",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "th": {
+        "category_phrase": "การเทรดและตลาดการเงิน",
+        "long_tail_queries": [
+          "Supply and demand trading ทำงานอย่างไร",
+          "คู่มือ Supply and demand trading แบบปฏิบัติ",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING หนังสือ",
+          "หนังสือ การเทรดและตลาดการเงิน",
+          "คู่มือ Supply and demand trading",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "tr": {
+        "category_phrase": "trading ve finansal piyasalar",
+        "long_tail_queries": [
+          "Supply and demand trading nasıl çalışır",
+          "Supply and demand trading için uygulamalı rehberi",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING kitap",
+          "trading ve finansal piyasalar kitap",
+          "Supply and demand trading rehberi",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      },
+      "vi": {
+        "category_phrase": "giao dịch và thị trường tài chính",
+        "long_tail_queries": [
+          "Supply and demand trading hoạt động như thế nào",
+          "hướng dẫn thực hành Supply and demand trading",
+          "SUPPLY AND DEMAND TRADING Faramarz Kowsari"
+        ],
+        "primary_query": "SUPPLY AND DEMAND TRADING",
+        "secondary_queries": [
+          "SUPPLY AND DEMAND TRADING sách",
+          "sách về giao dịch và thị trường tài chính",
+          "hướng dẫn Supply and demand trading",
+          "Supply and demand trading",
+          "Economic supply and demand versus chart zones",
+          "Bid-ask spread and price discovery",
+          "Order book and auction mechanics",
+          "Supply zone and demand zone definitions",
+          "Base and departure structures"
+        ]
+      }
+    },
+    "long_tail_queries": [
+      "SUPPLY AND DEMAND TRADING by Faramarz Kowsari",
+      "practical guide to Supply and demand trading",
+      "how Supply and demand trading works",
+      "Supply and demand trading Economic supply and demand versus chart zones"
+    ],
+    "primary_query": "SUPPLY AND DEMAND TRADING",
+    "related_slugs": [
+      "supply-and-demand-zones",
+      "market-structure-trading",
+      "order-blocks-trading",
+      "the-1-minute-and-5-minute-scalping-playbook",
+      "swing-trading-mastery"
+    ],
+    "secondary_queries": [
+      "SUPPLY AND DEMAND TRADING book",
+      "The Complete Guide to Price Zones, Market Structure, Entry Strategies, Risk Management, and Evidence-Based Trading",
+      "Trading",
+      "Supply and demand trading",
+      "Economic supply and demand versus chart zones",
+      "Bid-ask spread and price discovery",
+      "Order book and auction mechanics",
+      "Supply zone and demand zone definitions",
+      "Base and departure structures",
+      "Zone boundaries without hindsight",
+      "Fresh and retested zones",
+      "Nested and opposing zones"
+    ]
+  },
   "supply-and-demand-zones": {
     "cluster": "trading-markets",
     "cluster_label": "Trading & Financial Markets",
@@ -45657,10 +46013,10 @@
     "primary_query": "SUPPLY AND DEMAND ZONES",
     "related_slugs": [
       "premium-and-discount-zones",
+      "supply-and-demand-trading",
       "confluence-trading",
       "0dte-options",
-      "ai-assisted-crypto-futures",
-      "crypto-liquidation-heatmaps"
+      "ai-assisted-crypto-futures"
     ],
     "secondary_queries": [
       "SUPPLY AND DEMAND ZONES book",
@@ -46718,8 +47074,8 @@
       "prop-firm-funded-account-trading",
       "smart-money-concepts",
       "fair-value-gaps",
-      "0dte-options",
-      "mastering-support-and-resistance"
+      "supply-and-demand-trading",
+      "0dte-options"
     ],
     "secondary_queries": [
       "The 1-Minute & 5-Minute Scalping Playbook book",
@@ -48113,7 +48469,7 @@
       "confluence-trading",
       "market-structure-trading",
       "options-trading-from-zero",
-      "gamma-exposure-trading"
+      "volatility-trading-from-zero"
     ],
     "secondary_queries": [
       "The Heikin Ashi Trading Strategy book",
@@ -53906,6 +54262,362 @@
       "Mission and disciplined output",
       "Solitude and deep work",
       "Emotional intelligence"
+    ]
+  },
+  "volatility-trading-from-zero": {
+    "cluster": "options-volatility-trading",
+    "cluster_label": "Options, Gamma & Volatility Trading",
+    "entities": [
+      "Volatility versus market direction",
+      "Returns, dispersion and time scaling",
+      "Realized volatility measurement",
+      "Option premium and the Greeks",
+      "VIX calculation and interpretation",
+      "VIX1D, VIX9D and VIX3M",
+      "Implied volatility models",
+      "Expected moves and probability errors",
+      "IV Rank and IV Percentile",
+      "Event volatility and IV crush",
+      "Volatility skew",
+      "Put skew and crash protection",
+      "Smile, butterflies and tail pricing",
+      "Volatility surface",
+      "Skew relative-value questions",
+      "Option-implied term structure",
+      "VIX futures curve",
+      "Contango, backwardation and basis",
+      "Roll yield and path dependence",
+      "Expiry, settlement and SOQ"
+    ],
+    "localized": {
+      "ar": {
+        "category_phrase": "التداول والأسواق المالية",
+        "long_tail_queries": [
+          "ما هو Volatility versus market direction",
+          "دليل عملي عن Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO كتاب",
+          "كتاب عن التداول والأسواق المالية",
+          "دليل Volatility versus market direction",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "bn": {
+        "category_phrase": "ট্রেডিং ও আর্থিক বাজার",
+        "long_tail_queries": [
+          "Volatility versus market direction কীভাবে কাজ করে",
+          "Volatility versus market direction ব্যবহারিক গাইড",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO বই",
+          "ট্রেডিং ও আর্থিক বাজার বই",
+          "Volatility versus market direction গাইড",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "de": {
+        "category_phrase": "Trading und Finanzmärkte",
+        "long_tail_queries": [
+          "wie funktioniert Volatility versus market direction",
+          "praktischer Leitfaden zu Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO Buch",
+          "Trading und Finanzmärkte Buch",
+          "Volatility versus market direction Leitfaden",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "en": {
+        "category_phrase": "trading and financial markets",
+        "long_tail_queries": [
+          "how Volatility versus market direction works",
+          "practical guide to Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO by Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO book",
+          "trading and financial markets book",
+          "Volatility versus market direction guide",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "es": {
+        "category_phrase": "trading y mercados financieros",
+        "long_tail_queries": [
+          "cómo funciona Volatility versus market direction",
+          "guía práctica de Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO libro",
+          "libro de trading y mercados financieros",
+          "guía de Volatility versus market direction",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "fa": {
+        "category_phrase": "معامله‌گری و بازارهای مالی",
+        "long_tail_queries": [
+          "Volatility versus market direction چیست",
+          "راهنما کاربردی Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO فرامرز کوثری"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO کتاب",
+          "کتاب معامله‌گری و بازارهای مالی",
+          "راهنما Volatility versus market direction",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "fil": {
+        "category_phrase": "trading at financial markets",
+        "long_tail_queries": [
+          "paano gumagana ang Volatility versus market direction",
+          "praktikal na gabay sa Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO aklat",
+          "aklat tungkol sa trading at financial markets",
+          "gabay sa Volatility versus market direction",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "fr": {
+        "category_phrase": "trading et marchés financiers",
+        "long_tail_queries": [
+          "comment fonctionne Volatility versus market direction",
+          "guide pratique de Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO livre",
+          "livre sur trading et marchés financiers",
+          "guide Volatility versus market direction",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "id": {
+        "category_phrase": "trading dan pasar keuangan",
+        "long_tail_queries": [
+          "cara kerja Volatility versus market direction",
+          "panduan praktis Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO buku",
+          "buku trading dan pasar keuangan",
+          "panduan Volatility versus market direction",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "pt-BR": {
+        "category_phrase": "trading e mercados financeiros",
+        "long_tail_queries": [
+          "como funciona Volatility versus market direction",
+          "guia prático de Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO livro",
+          "livro sobre trading e mercados financeiros",
+          "guia de Volatility versus market direction",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "ro": {
+        "category_phrase": "trading și piețe financiare",
+        "long_tail_queries": [
+          "cum funcționează Volatility versus market direction",
+          "ghid practic pentru Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO carte",
+          "carte despre trading și piețe financiare",
+          "ghid Volatility versus market direction",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "ru": {
+        "category_phrase": "трейдинг и финансовые рынки",
+        "long_tail_queries": [
+          "как работает Volatility versus market direction",
+          "практическое руководство по Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO книга",
+          "книга о трейдинг и финансовые рынки",
+          "руководство по Volatility versus market direction",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "th": {
+        "category_phrase": "การเทรดและตลาดการเงิน",
+        "long_tail_queries": [
+          "Volatility versus market direction ทำงานอย่างไร",
+          "คู่มือ Volatility versus market direction แบบปฏิบัติ",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO หนังสือ",
+          "หนังสือ การเทรดและตลาดการเงิน",
+          "คู่มือ Volatility versus market direction",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "tr": {
+        "category_phrase": "trading ve finansal piyasalar",
+        "long_tail_queries": [
+          "Volatility versus market direction nasıl çalışır",
+          "Volatility versus market direction için uygulamalı rehberi",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO kitap",
+          "trading ve finansal piyasalar kitap",
+          "Volatility versus market direction rehberi",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      },
+      "vi": {
+        "category_phrase": "giao dịch và thị trường tài chính",
+        "long_tail_queries": [
+          "Volatility versus market direction hoạt động như thế nào",
+          "hướng dẫn thực hành Volatility versus market direction",
+          "VOLATILITY TRADING FROM ZERO Faramarz Kowsari"
+        ],
+        "primary_query": "VOLATILITY TRADING FROM ZERO",
+        "secondary_queries": [
+          "VOLATILITY TRADING FROM ZERO sách",
+          "sách về giao dịch và thị trường tài chính",
+          "hướng dẫn Volatility versus market direction",
+          "Volatility versus market direction",
+          "Returns, dispersion and time scaling",
+          "Realized volatility measurement",
+          "Option premium and the Greeks",
+          "VIX calculation and interpretation",
+          "VIX1D, VIX9D and VIX3M"
+        ]
+      }
+    },
+    "long_tail_queries": [
+      "VOLATILITY TRADING FROM ZERO by Faramarz Kowsari",
+      "practical guide to Volatility versus market direction",
+      "how Volatility versus market direction works",
+      "Volatility versus market direction Returns, dispersion and time scaling"
+    ],
+    "primary_query": "VOLATILITY TRADING FROM ZERO",
+    "related_slugs": [
+      "options-trading-from-zero",
+      "gamma-exposure-trading",
+      "0dte-options",
+      "options-flow-trading",
+      "the-heikin-ashi-trading-strategy"
+    ],
+    "secondary_queries": [
+      "VOLATILITY TRADING FROM ZERO book",
+      "Understanding VIX, Implied Volatility, Skew, Term Structure, Volatility Risk Premium, and Trading Strategies",
+      "Trading",
+      "Volatility versus market direction",
+      "Returns, dispersion and time scaling",
+      "Realized volatility measurement",
+      "Option premium and the Greeks",
+      "VIX calculation and interpretation",
+      "VIX1D, VIX9D and VIX3M",
+      "Implied volatility models",
+      "Expected moves and probability errors",
+      "IV Rank and IV Percentile"
     ]
   },
   "volume-bubbles-trading": {
