@@ -1,0 +1,32 @@
+[
+  {
+    "google_books_id": "O4kmEgAAQBAJ",
+    "title": "SUPPLY AND DEMAND TRADING",
+    "subtitle": "The Complete Guide to Price Zones, Market Structure, Entry Strategies, Risk Management, and Evidence-Based Trading",
+    "slug": "supply-and-demand-trading",
+    "google_books_url": "https://play.google.com/store/books/details?id=O4kmEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=O4kmEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "status": "active",
+    "content_status": "complete",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading",
+    "published_date": "2026",
+    "publisher": "Faramarz Kowsari"
+  },
+  {
+    "google_books_id": "AKAmEgAAQBAJ",
+    "title": "VOLATILITY TRADING FROM ZERO",
+    "subtitle": "Understanding VIX, Implied Volatility, Skew, Term Structure, Volatility Risk Premium, and Trading Strategies",
+    "slug": "volatility-trading-from-zero",
+    "google_books_url": "https://play.google.com/store/books/details?id=AKAmEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=AKAmEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "status": "active",
+    "content_status": "complete",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading",
+    "published_date": "2026",
+    "publisher": "Faramarz Kowsari"
+  }
+]
