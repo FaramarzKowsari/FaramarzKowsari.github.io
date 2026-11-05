@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-03T07:28:18.514836+00:00",
-  "count": 60,
+  "generated_at": "2026-11-05T10:07:31.905351+00:00",
+  "count": 62,
   "categories": {
     "Start Here & Core Technical Analysis": 8,
-    "Smart Money, Liquidity & Market Structure": 16,
+    "Smart Money, Liquidity & Market Structure": 17,
     "Order Flow, Volume & Market Microstructure": 8,
     "Futures & Index Trading": 2,
-    "Options & Volatility": 5,
+    "Options & Volatility": 6,
     "Scalping & Day Trading": 6,
     "Swing, Trend & Indicator Trading": 8,
     "Gold, Silver, Forex & Crypto": 2,
@@ -630,6 +630,33 @@
       "category": "Smart Money, Liquidity & Market Structure"
     },
     {
+      "title": "SUPPLY AND DEMAND TRADING",
+      "subtitle": "The Complete Guide to Price Zones, Market Structure, Entry Strategies, Risk Management, and Evidence-Based Trading",
+      "genre": "Trading",
+      "language": "en",
+      "google_id": "O4kmEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=O4kmEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=O4kmEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=O4kmEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/supply-and-demand-trading/",
+      "description": "A familiar chart pattern creates a tempting story: price leaves a narrow base, returns days later, and appears ready to bounce from the same rectangle. But what, precisely, does that rectangle prove? SUPPLY AND DEMAND TRADING begins at the point where many zone-trading explanations stop. It treats a price zone as a testable trading hypothesis, not as evidence that unseen institutions have committed to defend a level.",
+      "tags": [
+        "Supply and demand trading",
+        "Economic supply and demand versus chart zones",
+        "Bid-ask spread and price discovery",
+        "Order book and auction mechanics",
+        "Supply zone and demand zone definitions",
+        "Base and departure structures",
+        "Zone boundaries without hindsight",
+        "Fresh and retested zones",
+        "Nested and opposing zones",
+        "Zone ranking and invalidation"
+      ],
+      "search_blob": "SUPPLY AND DEMAND TRADING The Complete Guide to Price Zones, Market Structure, Entry Strategies, Risk Management, and Evidence-Based Trading Trading A familiar chart pattern creates a tempting story: price leaves a narrow base, returns days later, and appears ready to bounce from the same rectangle. But what, precisely, does that rectangle prove? SUPPLY AND DEMAND TRADING begins at the point where many zone-trading explanations stop. It treats a price zone as a testable trading hypothesis, not as evidence that unseen institutions have committed to defend a level. Supply and demand trading Economic supply and demand versus chart zones Bid-ask spread and price discovery Order book and auction mechanics Supply zone and demand zone definitions Base and departure structures Zone boundaries without hindsight Fresh and retested zones Nested and opposing zones Zone ranking and invalidation Swing structure and market regimes Multi-timeframe mapping Trend versus range context Economic catalysts and event risk First-return limit orders",
+      "category": "Smart Money, Liquidity & Market Structure"
+    },
+    {
       "title": "SUPPLY AND DEMAND ZONES",
       "subtitle": "Supply & Demand Trading: A Visual Guide",
       "genre": "Trading",
@@ -1055,6 +1082,33 @@
         "Option contract specifications"
       ],
       "search_blob": "OPTIONS TRADING FROM ZERO The Complete Beginner’s Guide to Calls, Puts, Option Chains, Trading Strategies, the Greeks, and Risk Management Trading OPTIONS TRADING FROM ZERO is a structured beginner-to-intermediate guide that teaches options from the contract upward rather than from strategy names downward. The book begins with stocks, ETFs, calls, puts, rights and obligations, then builds the four basic option positions carefully so a new trader can distinguish buying from writing, directional exposure from contractual obligation, and limited-loss structures from positions that can carry much larger risk. Options trading for beginners Calls and puts Option contracts Rights and obligations Long calls Long puts Short calls Short puts Stocks and ETFs Option contract specifications Contract multiplier Option premium Moneyness Intrinsic value Extrinsic value",
+      "category": "Options & Volatility"
+    },
+    {
+      "title": "VOLATILITY TRADING FROM ZERO",
+      "subtitle": "Understanding VIX, Implied Volatility, Skew, Term Structure, Volatility Risk Premium, and Trading Strategies",
+      "genre": "Trading",
+      "language": "en",
+      "google_id": "AKAmEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=AKAmEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=AKAmEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=AKAmEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/volatility-trading-from-zero/",
+      "description": "A trader can forecast a large market move and still lose money on a purchased option. A trader can correctly expect a rise in the VIX and still misunderstand the instrument held. VOLATILITY TRADING FROM ZERO begins with this uncomfortable but essential distinction: volatility is about the magnitude and distribution of returns, not simply whether prices rise or fall. The opening chapters build the mathematics of realized volatility, return measurement and time scaling, then connect option premium to implied volatility and the Greeks. This foundation explains why market direction, option price, the passage of time and changes in volatility expectations can disagree with one another.",
+      "tags": [
+        "Volatility versus market direction",
+        "Returns, dispersion and time scaling",
+        "Realized volatility measurement",
+        "Option premium and the Greeks",
+        "VIX calculation and interpretation",
+        "VIX1D, VIX9D and VIX3M",
+        "Implied volatility models",
+        "Expected moves and probability errors",
+        "IV Rank and IV Percentile",
+        "Event volatility and IV crush"
+      ],
+      "search_blob": "VOLATILITY TRADING FROM ZERO Understanding VIX, Implied Volatility, Skew, Term Structure, Volatility Risk Premium, and Trading Strategies Trading A trader can forecast a large market move and still lose money on a purchased option. A trader can correctly expect a rise in the VIX and still misunderstand the instrument held. VOLATILITY TRADING FROM ZERO begins with this uncomfortable but essential distinction: volatility is about the magnitude and distribution of returns, not simply whether prices rise or fall. The opening chapters build the mathematics of realized volatility, return measurement and time scaling, then connect option premium to implied volatility and the Greeks. This foundation explains why market direction, option price, the passage of time and changes in volatility expectations can disagree with one another. Volatility versus market direction Returns, dispersion and time scaling Realized volatility measurement Option premium and the Greeks VIX calculation and interpretation VIX1D, VIX9D and VIX3M Implied volatility models Expected moves and probability errors IV Rank and IV Percentile Event volatility and IV crush Volatility skew Put skew and crash protection Smile, butterflies and tail pricing Volatility surface Skew relative-value questions",
       "category": "Options & Volatility"
     },
     {
