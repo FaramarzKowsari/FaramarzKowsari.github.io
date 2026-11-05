@@ -70,6 +70,18 @@
 <link rel="alternate" type="application/json" href="https://faramarzkowsari.github.io/books/catalog.json" title="Machine-readable books catalog">
 <link rel="author" href="https://faramarzkowsari.github.io/books/author/" title="Faramarz Kowsari author profile">
 <!-- ai-visibility:end -->
+<style id="gamma-image-showcase-css">
+/* Contextual illustrations hosted on Pinterest; click-throughs lead to Google Play Books. */
+.gamma-infographic{max-width:740px;margin:28px auto 34px}
+.gamma-infographic.gamma-portrait{max-width:495px}
+.gamma-infographic>a{display:block;overflow:hidden;border-radius:16px;background:#f1f5f9;border:1px solid #dce5f0;box-shadow:0 10px 28px rgba(20,39,70,.12);transition:transform .2s ease,box-shadow .2s ease}
+.gamma-infographic>a:hover,.gamma-infographic>a:focus-visible{transform:translateY(-3px);box-shadow:0 15px 36px rgba(20,39,70,.20)}
+.gamma-infographic img{display:block;width:100%;height:auto}
+.gamma-infographic figcaption{font-size:.95rem;line-height:1.65;color:#4c5a6a;margin:12px auto 0;max-width:740px}
+.gamma-infographic figcaption strong{color:#193d60}
+.gamma-infographic .gamma-image-cta{display:block;margin-top:4px;font-size:.87em;color:#356ca3}
+@media(max-width:740px){.gamma-infographic,.gamma-infographic.gamma-portrait{max-width:100%;margin:22px auto 30px}.gamma-infographic figcaption{font-size:.92rem}}
+</style>
 </head>
 <body>
 <main class="book-page premium-book-page theme-trading" data-premium-version="2026-11">
@@ -103,8 +115,26 @@
 
   <section class="section premium-about" id="premium-about"><h2>About this book</h2>
     <p>Gamma Exposure Trading explains the options-market layer that can influence intraday behavior in indexes, ETFs and futures without presenting GEX as a crystal ball. It starts with the minimum options knowledge needed to understand Delta, Gamma and position-scaled Gamma Exposure, then separates observed option-chain data from inferred dealer positioning. Open interest, static versus intraday estimates, vendor methodology and sign conventions are treated as model inputs with limitations rather than direct observations of every dealer book. The central discipline is conditional: build a map, wait for price to reach a relevant area, then let live market behavior confirm or reject the hypothesis.</p>
+<figure class="gamma-infographic gamma-wide" id="gamma-regimes-infographic">
+  <a href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View Gamma Exposure Trading by Faramarz Kowsari on Google Play Books">
+    <img src="https://i.pinimg.com/736x/4d/a0/85/4da085346020a00f7ead28434596980e.jpg" alt="Handwritten Gamma Exposure Trading infographic by Faramarz Kowsari comparing illustrative positive and negative Gamma regimes, possible range rotation, and price expansion." loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>Positive vs. Negative Gamma.</strong> A visual comparison of the two modeled regimes and their possible relationship to intraday rotation or expansion. These are context hypotheses, not directional guarantees. <span class="gamma-image-cta">Select the image to explore the complete book on Google Play Books.</span></figcaption>
+</figure>
     <p>The book develops the practical meaning of positive and negative Gamma regimes, Gamma Flip or Zero Gamma, Call Walls, Put Walls, high-Gamma nodes, low-Gamma regions and exposure gradients. It explains why 0DTE activity, expiration, OPEX, Vanna and Charm can change the map, and why a morning snapshot can become stale as short-dated positioning migrates intraday. A 15-minute pre-market routine combines spot location, the modeled regime, flip, nearby option-derived zones, overnight structure and Expected Move. During the open, those references are tested against acceptance, rejection, market structure, order flow, VWAP and Volume Profile so that the live auction remains more important than the model.</p>
+<figure class="gamma-infographic gamma-wide" id="gamma-flip-walls-infographic">
+  <a href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View Gamma Exposure Trading by Faramarz Kowsari on Google Play Books">
+    <img src="https://i.pinimg.com/736x/05/ab/4e/05ab4ed1ab827672a2c212ab68ea4813.jpg" alt="Handwritten university-style infographic from Gamma Exposure Trading by Faramarz Kowsari illustrating Gamma Flip, modeled Call Wall and Put Wall zones, an options chain, and alternative price reactions." loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>Gamma Flip, Call Walls and Put Walls.</strong> Learn how option-derived levels become reference zones, then examine whether live price action rejects them or accepts a break. <span class="gamma-image-cta">Select the image to explore the complete book on Google Play Books.</span></figcaption>
+</figure>
     <p>Execution chapters turn the framework into four conditional setups: positive-Gamma rotation, negative-Gamma expansion, Gamma Flip reclaim, and wall break with repricing. Targets, invalidation and position sizing are tied to environment and market velocity rather than dashboard color. The research sections address failure modes, confirmation bias, stale maps, GEX journaling, backtesting and comparison between data providers, followed by case studies including compression, expansion, regime transition, 0DTE wall migration and situations where the tape directly disagrees with the GEX map. Formula guidance, a practical glossary, daily worksheet, decision tree and visual review material complete a process designed to make Gamma context testable, revisable and subordinate to observed price behavior.</p>
+<figure class="gamma-infographic gamma-wide" id="gamma-premarket-infographic">
+  <a href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View Gamma Exposure Trading by Faramarz Kowsari on Google Play Books">
+    <img src="https://i.pinimg.com/736x/8d/7b/48/8d7b48dcfc4e7f8df4f42c9338301595.jpg" alt="Five-step pre-market Gamma Exposure Trading notes infographic by Faramarz Kowsari showing spot location, modeled regime and Gamma Flip, option walls, expected move, overnight structure, and opening-auction confirmation." loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>The 15-minute pre-market GEX routine.</strong> Connect spot location, modeled Gamma levels, Expected Move and overnight structure before letting the opening auction confirm or challenge the plan. <span class="gamma-image-cta">Select the image to explore the complete book on Google Play Books.</span></figcaption>
+</figure>
   </section>
 
   <section class="section premium-learning" id="premium-learning"><h2>What you will learn</h2><ul>
@@ -120,7 +150,14 @@
       <li>Apply conditional positive-Gamma rotation, negative-Gamma expansion, Gamma Flip reclaim and wall-break frameworks with explicit invalidation.</li>
       <li>Size positions from account risk, structural stop distance, instrument value and market velocity instead of confidence in a Gamma dashboard.</li>
       <li>Journal, backtest and compare GEX methodologies while giving live market evidence priority whenever the tape disagrees with the model.</li>
-    </ul></section>
+    </ul>
+<figure class="gamma-infographic gamma-portrait" id="gamma-setups-infographic">
+  <a href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View Gamma Exposure Trading by Faramarz Kowsari on Google Play Books">
+    <img src="https://i.pinimg.com/736x/5b/47/55/5b4755e6b89b8b4a470c2c11ace3cbd8.jpg" alt="Portrait illustrated infographic for Gamma Exposure Trading by Faramarz Kowsari depicting four conditional intraday setups: positive-Gamma rotation, negative-Gamma expansion, Gamma Flip reclaim, and wall break with repricing." loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>Four conditional Gamma trading setups.</strong> Compare positive-Gamma rotation, negative-Gamma expansion, Gamma Flip reclaim and wall-break repricing, each requiring its own confirmation and invalidation. <span class="gamma-image-cta">Select the image to explore the complete book on Google Play Books.</span></figcaption>
+</figure>
+</section>
 
   <section class="section premium-topics" id="premium-topics"><h2>Key topics</h2><ul>
       <li>Gamma Exposure (GEX)</li>
@@ -169,7 +206,14 @@
       <li>GEX formula conventions</li>
       <li>Daily Gamma worksheet</li>
       <li>Daily decision tree</li>
-    </ul></section>
+    </ul>
+<figure class="gamma-infographic gamma-portrait" id="gamma-0dte-infographic">
+  <a href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View Gamma Exposure Trading by Faramarz Kowsari on Google Play Books">
+    <img src="https://i.pinimg.com/736x/b7/7d/56/b77d5618bdf18a56f0d7cf2babb094f1.jpg" alt="Portrait educational infographic for Gamma Exposure Trading by Faramarz Kowsari comparing changing modeled Gamma profiles and explaining 0DTE, Vanna, Charm, open interest, and VWAP-based price confirmation." loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>0DTE, Vanna, Charm and changing Gamma maps.</strong> Intraday activity can change modeled exposure estimates. Recheck assumptions, distinguish open interest from trading volume and give the live tape priority. <span class="gamma-image-cta">Select the image to explore the complete book on Google Play Books.</span></figcaption>
+</figure>
+</section>
 
   <section class="section premium-audience" id="premium-audience"><h2>Who this book is for</h2><p>For index, ETF, futures and options traders who want to understand how option-derived Gamma context may interact with intraday market structure. It is particularly suited to traders using SPX/SPY/ES or NDX/QQQ/NQ-style workflows, including futures traders who do not directly trade options but want to use GEX, 0DTE positioning, VWAP and live price behavior as a conditional market-context framework rather than a deterministic signal.</p></section>
 
