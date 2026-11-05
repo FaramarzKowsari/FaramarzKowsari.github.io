@@ -82,6 +82,18 @@
 .gamma-infographic .gamma-image-cta{display:block;margin-top:4px;font-size:.87em;color:#356ca3}
 @media(max-width:740px){.gamma-infographic,.gamma-infographic.gamma-portrait{max-width:100%;margin:22px auto 30px}.gamma-infographic figcaption{font-size:.92rem}}
 </style>
+
+<style id="gamma-medium-feature-style">
+.gamma-medium-feature{background:linear-gradient(140deg,#f1f7ff 0%,#f8fbff 55%,#f6f2fc 100%);border:1px solid #d9e4f2;border-left:5px solid #2c70a9;border-radius:17px;padding:clamp(20px,4vw,36px);box-shadow:0 8px 30px rgba(25,52,90,.07)}
+.gamma-medium-feature .gamma-medium-kicker{margin:0 0 9px;color:#236b9e;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;font-weight:750}
+.gamma-medium-feature h2{margin-top:0;color:#143a64;line-height:1.22}
+.gamma-medium-feature .gamma-medium-intro{font-size:1.11rem;line-height:1.68;color:#27465c}
+.gamma-medium-feature .gamma-medium-highlights{background:#fff;border:1px solid #dce7f2;border-radius:13px;padding:17px 21px;margin:20px 0}
+.gamma-medium-feature .gamma-medium-highlights h3{margin:0 0 11px;font-size:1.09rem;color:#244361}
+.gamma-medium-feature .gamma-medium-highlights li{margin:8px 0}
+.gamma-medium-feature .gamma-medium-actions{flex-wrap:wrap;gap:12px;margin-top:21px}
+@media(max-width:650px){.gamma-medium-feature .gamma-medium-intro{font-size:1.02rem}.gamma-medium-feature .gamma-medium-highlights{padding:15px}}
+</style>
 </head>
 <body>
 <main class="book-page premium-book-page theme-trading" data-premium-version="2026-11">
@@ -97,10 +109,10 @@
 
       <p class="subtitle">GEX, Dealer Positioning, Gamma Flip, Call Walls, Put Walls, 0DTE Options, and Intraday Market Structure</p>
       <p class="meta">Faramarz Kowsari · English · Trading · 2026</p>
-      <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a></div>
+      <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a><a class="action" href="https://medium.com/@faramarz.kowsari/gamma-exposure-trading-the-hidden-market-forces-your-candlestick-charts-cannot-show-ec1d960ab74c?postPublishedType=repub" target="_blank" rel="noopener noreferrer">Read the Gamma Exposure article on Medium</a></div>
     </div>
   </section>
-<nav class="premium-toc" aria-label="Book sections"><strong>In this book</strong><a href="#premium-about">Overview</a><a href="#premium-learning">What you&#x27;ll learn</a><a href="#premium-topics">Topics</a><a href="#premium-audience">Readers</a><a href="#premium-related">Related</a></nav>
+<nav class="premium-toc" aria-label="Book sections"><strong>In this book</strong><a href="#premium-about">Overview</a><a href="#premium-learning">What you&#x27;ll learn</a><a href="#premium-topics">Topics</a><a href="#premium-audience">Readers</a><a href="#gamma-medium-article">Medium article</a><a href="#premium-related">Related</a></nav>
 <ul class="premium-focus" aria-label="Core themes"><li>Gamma Exposure (GEX)</li><li>Delta and Gamma</li><li>Dealer positioning models</li><li>Observed data versus inferred positioning</li><li>Open interest limitations</li></ul>
 
 <!-- google-books-preview:start -->
@@ -216,6 +228,30 @@
 </section>
 
   <section class="section premium-audience" id="premium-audience"><h2>Who this book is for</h2><p>For index, ETF, futures and options traders who want to understand how option-derived Gamma context may interact with intraday market structure. It is particularly suited to traders using SPX/SPY/ES or NDX/QQQ/NQ-style workflows, including futures traders who do not directly trade options but want to use GEX, 0DTE positioning, VWAP and live price behavior as a conditional market-context framework rather than a deterministic signal.</p></section>
+
+<!-- gamma-medium-article:start -->
+<section class="section gamma-medium-feature" id="gamma-medium-article" aria-label="Featured Medium article about Gamma Exposure Trading">
+  <p class="gamma-medium-kicker">Further reading · Medium article by Faramarz Kowsari</p>
+  <h2>Gamma Exposure Trading: The Hidden Market Forces Your Candlestick Charts Cannot Show</h2>
+  <p class="gamma-medium-intro">Two sessions can produce remarkably similar candlestick patterns yet behave very differently when price approaches a key level. Price charts show where transactions occurred; they cannot, by themselves, reveal the option-position sensitivities that may influence hedging decisions behind the scenes.</p>
+  <p>In this companion Medium article, <strong>Faramarz Kowsari</strong> brings attention to the less visible options-market context behind <em>Gamma Exposure (GEX)</em>. The central question is useful to every serious trader: when a breakout stalls, a range persists or volatility expands, could changing hedging requirements be one part of the explanation? The article is an invitation to think beyond the candle without treating a Gamma dashboard as a prediction machine.</p>
+  <div class="gamma-medium-highlights">
+    <h3>Questions worth exploring alongside the article</h3>
+    <ul>
+      <li><strong>Market regime:</strong> How could different modeled positive- or negative-Gamma environments alter the character of intraday price movement?</li>
+      <li><strong>Reference levels:</strong> What can Gamma Flip, Call Walls and Put Walls tell us, and what remains uncertain until the market actually tests them?</li>
+      <li><strong>Changing information:</strong> Why might 0DTE activity, expiration and shifts in option positioning weaken an earlier GEX snapshot?</li>
+      <li><strong>Execution discipline:</strong> How can VWAP, structure, order flow and explicit invalidation help test a positioning hypothesis?</li>
+    </ul>
+  </div>
+  <p>The <strong>complete book</strong> develops these questions into a practical study framework: estimating and interpreting Gamma context, preparing a pre-market map, evaluating four conditional setups, and comparing the model with what the live market actually does. The Medium feature offers an accessible entry point before the deeper examples, decision trees and risk controls in the full edition.</p>
+  <div class="actions gamma-medium-actions">
+    <a class="action primary" href="https://medium.com/@faramarz.kowsari/gamma-exposure-trading-the-hidden-market-forces-your-candlestick-charts-cannot-show-ec1d960ab74c?postPublishedType=repub" target="_blank" rel="noopener noreferrer">Read the full feature article on Medium</a>
+    <a class="action" href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer">Explore the complete book on Google Play Books</a>
+  </div>
+</section>
+<!-- gamma-medium-article:end -->
+
 
   <section class="section"><div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer">Read / Buy on Google Books</a><a class="action" href="../">Browse all books</a></div></section>
 
