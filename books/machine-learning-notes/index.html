@@ -63,6 +63,17 @@
 .ml-notes .center-cta .actions{justify-content:center}
 .ml-notes .smallprint{font-size:.92rem;color:#526071}
 @media(max-width:740px){.ml-notes .arc-grid,.ml-notes .method-grid{grid-template-columns:1fr}.ml-notes .arc{padding:20px}.ml-notes .detail{padding:18px}}
+
+/* Contextual illustrated notes: each Pinterest image links directly to the book. */
+.ml-notes .book-visual{margin:26px auto;max-width:1050px}
+.ml-notes .book-visual>a{display:block;overflow:hidden;border-radius:15px;background:#f0f4fa;border:1px solid #dce5ef;box-shadow:0 8px 24px rgba(25,44,75,.12);transition:transform .2s ease,box-shadow .2s ease}
+.ml-notes .book-visual>a:hover,.ml-notes .book-visual>a:focus-visible{transform:translateY(-3px);box-shadow:0 14px 32px rgba(25,44,75,.19)}
+.ml-notes .book-visual img{display:block;width:100%;height:auto}
+.ml-notes .book-visual figcaption{max-width:860px;margin:10px auto 0;color:#526071;font-size:.94rem;line-height:1.65}
+.ml-notes .book-visual figcaption strong{color:#173a5e}
+.ml-notes .book-visual.portrait{max-width:480px;margin:24px auto 6px}
+.ml-notes .arc .book-visual figcaption{font-size:.91rem}
+@media(max-width:740px){.ml-notes .book-visual{margin:20px auto}.ml-notes .book-visual.portrait{max-width:100%}}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Book","@id":"https://faramarzkowsari.github.io/books/machine-learning-notes/#book","name":"MACHINE LEARNING NOTES","alternateName":"MACHINE LEARNING NOTES: From Classical ML to Responsible AI","description":"A complete two-volume collection of 128 illustrated, handwritten-style study pages tracing machine learning from fundamental concepts, classical algorithms and model evaluation to deep learning, transformers, generative models, MLOps and responsible AI.","author":{"@type":"Person","@id":"https://faramarzkowsari.github.io/#person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/","image":"https://github.com/FaramarzKowsari.png?size=640"},"inLanguage":"en","bookFormat":"https://schema.org/EBook","url":"https://play.google.com/store/books/details?id=hn8mEgAAQBAJ","image":{"@type":"ImageObject","@id":"https://faramarzkowsari.github.io/books/machine-learning-notes/#primaryimage","contentUrl":"https://books.google.com/books/content?id=hn8mEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","url":"https://books.google.com/books/content?id=hn8mEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","name":"Book cover of MACHINE LEARNING NOTES by Faramarz Kowsari","caption":"MACHINE LEARNING NOTES — book cover, by Faramarz Kowsari","representativeOfPage":true},"publisher":{"@type":"Person","name":"Faramarz Kowsari"},"genre":["Machine Learning","Artificial Intelligence","Data Science","Computer Science Education"],"keywords":["machine learning notes","classical machine learning","deep learning","visual machine learning","model evaluation","responsible AI","transformers","MLOps","illustrated study notes"],"identifier":{"@type":"PropertyValue","propertyID":"Google Books ID","value":"hn8mEgAAQBAJ"},"mainEntityOfPage":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-notes/#webpage","@type":"WebPage","primaryImageOfPage":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-notes/#primaryimage"}}},{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/books/machine-learning-notes/#webpage","url":"https://faramarzkowsari.github.io/books/machine-learning-notes/","name":"MACHINE LEARNING NOTES: From Classical ML to Responsible AI | Faramarz Kowsari","description":"A 128-page illustrated, two-volume visual study companion by Faramarz Kowsari: classical machine learning, honest evaluation, deep learning, transformers, MLOps, and responsible AI.","inLanguage":"en","isPartOf":{"@id":"https://faramarzkowsari.github.io/books/#collection"},"primaryImageOfPage":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-notes/#primaryimage"},"mainEntity":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-notes/#book"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://faramarzkowsari.github.io/"},{"@type":"ListItem","position":2,"name":"Books","item":"https://faramarzkowsari.github.io/books/"},{"@type":"ListItem","position":3,"name":"MACHINE LEARNING NOTES","item":"https://faramarzkowsari.github.io/books/machine-learning-notes/"}]}]}</script>
 
@@ -128,6 +139,13 @@
   <div class="promise"><strong>One learning journey, two connected volumes.</strong> The first develops the conceptual and mathematical foundations of classical machine learning and honest model selection. The second extends that discipline to learning theory, neural networks, transformers, generative systems, reinforcement learning, production pipelines, and responsible AI. The bridge between them is deliberate: advanced models still need defensible data, evaluation, and judgment.</div>
 </section>
 
+<figure class="book-visual wide" id="visual-model-workflow">
+  <a href="https://play.google.com/store/books/details?id=hn8mEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Explore MACHINE LEARNING NOTES by Faramarz Kowsari on Google Play Books">
+    <img src="https://i.pinimg.com/736x/c4/6a/97/c46a9708f8badcdf7622123d3ff8a295.jpg" alt="MACHINE LEARNING NOTES by Faramarz Kowsari: handwritten-style infographic showing a trustworthy machine learning workflow from data and features through model training, validation, and decisions." loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>Build a model you can trust.</strong> The visual learning journey begins with a simple but essential idea: reliable ML depends on the entire workflow, not the algorithm alone.</figcaption>
+</figure>
+
 <section class="section" id="inside">
   <h2>Inside the complete two-volume collection</h2>
   <div class="arc-grid">
@@ -144,6 +162,12 @@
         <li><strong>Evaluation and reproducibility:</strong> confusion matrices, precision and recall, class imbalance, thresholds, cross-validation, regression errors, tuning, calibration and transparent reporting.</li>
       </ul>
       <p><strong>The lasting lesson:</strong> fitting a model is only part of learning; proving what its score means is the harder part.</p>
+<figure class="book-visual portrait" id="visual-classical-machine-learning">
+  <a href="https://play.google.com/store/books/details?id=hn8mEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Explore MACHINE LEARNING NOTES by Faramarz Kowsari on Google Play Books">
+    <img src="https://i.pinimg.com/736x/30/7d/e3/307de35491d7aa4b181b3967f54b13c9.jpg" alt="MACHINE LEARNING NOTES by Faramarz Kowsari: colorful handwritten university-notes infographic on classical machine learning, regression, classification, decision trees, cross-validation, and data leakage." loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>Inside Volume One: Classical Machine Learning.</strong> Explore familiar algorithms through visual explanations, then examine the validation mistakes that can undermine their results.</figcaption>
+</figure>
     </article>
     <article class="arc arc-two">
       <span class="eyebrow">Volume Two · Advanced &amp; Responsible ML</span>
@@ -158,8 +182,20 @@
         <li><strong>Deployment and responsibility:</strong> experiment tracking, model serving, monitoring, explainability, fairness, privacy, security, independent auditing and system limitations.</li>
       </ul>
       <p><strong>The lasting lesson:</strong> model quality is a continuing responsibility, from the training objective to the decisions made after deployment.</p>
+<figure class="book-visual portrait" id="visual-modern-responsible-ai">
+  <a href="https://play.google.com/store/books/details?id=hn8mEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Explore MACHINE LEARNING NOTES by Faramarz Kowsari on Google Play Books">
+    <img src="https://i.pinimg.com/736x/cf/87/b3/cf87b370ae0287a77f394fddbc0054cf.jpg" alt="MACHINE LEARNING NOTES by Faramarz Kowsari: handwritten-style infographic connecting neural networks, attention and transformers, generative AI, MLOps, and responsible AI." loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>Inside Volume Two: Modern &amp; Responsible AI.</strong> See how deep-learning architectures connect to deployment, monitoring, explainability, fairness and security.</figcaption>
+</figure>
     </article>
   </div>
+<figure class="book-visual wide" id="visual-two-volume-journey">
+  <a href="https://play.google.com/store/books/details?id=hn8mEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Explore MACHINE LEARNING NOTES by Faramarz Kowsari on Google Play Books">
+    <img src="https://i.pinimg.com/736x/e4/23/a6/e423a6a8a8de7e17b77d78090adf30b4.jpg" alt="MACHINE LEARNING NOTES by Faramarz Kowsari: visual comparison of the two-volume, 128-page learning journey from classical machine learning to modern and responsible AI." loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>Two volumes, one connected learning journey.</strong> Follow the progression from classical algorithms and rigorous evaluation to neural networks, transformers, MLOps and responsible AI.</figcaption>
+</figure>
 </section>
 
 <section class="section">
@@ -176,6 +212,12 @@
     <h3>3. Learn why evaluation can be misleading</h3>
     <p>Model performance is more than accuracy. The collection treats class imbalance, confusion matrices, error costs, precision and recall, cross-validation, leakage, tuning bias and probability calibration as choices with consequences. In the advanced volume, diagrams distinguish empirical training risk from the population risk we actually care about. A small validation sample can fluctuate; searching many settings on one validation set can make an estimate look better than it is.</p>
     <div class="example"><strong>One of the book's recurring questions:</strong> Did the model learn a useful pattern, or did the experimental setup make it appear more reliable than it really is?</div>
+<figure class="book-visual wide" id="visual-accuracy-trap">
+  <a href="https://play.google.com/store/books/details?id=hn8mEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Explore MACHINE LEARNING NOTES by Faramarz Kowsari on Google Play Books">
+    <img src="https://i.pinimg.com/736x/1d/9f/f1/1d9ff13545289a4920683d8ce4d36771.jpg" alt="MACHINE LEARNING NOTES by Faramarz Kowsari: 99 percent accuracy trap infographic illustrating a hypothetical fraud classifier with high overall accuracy but zero recall for fraud cases." loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>The 99% accuracy trap.</strong> In this illustrative imbalanced-data example, a model that predicts every transaction as legitimate appears accurate while detecting none of the fraud. Why precision, recall and the confusion matrix matter.</figcaption>
+</figure>
   </div>
   <div class="detail">
     <h3>4. Connect classical intuition with deep learning</h3>
