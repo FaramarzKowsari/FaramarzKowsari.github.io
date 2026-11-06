@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T18:56:21.343569+00:00",
+  "generated_at": "2026-11-06T19:56:08.782114+00:00",
   "count": 62,
   "categories": {
     "Start Here & Core Technical Analysis": 8,
@@ -692,7 +692,7 @@
       "google_url": "https://play.google.com/store/books/details?id=eScOEgAAQBAJ",
       "preview_url": "https://play.google.com/books/reader?id=eScOEgAAQBAJ&hl=en",
       "cover": "https://books.google.com/books/content?id=eScOEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
-      "medium_url": "https://medium.com/@faramarz.kowsari/the-markets-most-dangerous-moment-is-when-traders-lose-the-right-to-choose-b22fc34df4d7",
+      "medium_url": "https://medium.com/@faramarz.kowsari/the-heatmap-moved-bitcoin-didnt-so-what-actually-changed-9c18059a0889?postPublishedType=repub",
       "source_page": "https://faramarzkowsari.github.io/books/crypto-liquidation-heatmaps/",
       "description": "Crypto Liquidation Heatmaps explains what a liquidation heatmap can and cannot tell a trader. It separates realized liquidations from model-projected liquidation levels and from ordinary order-book liquidity, then examines how heatmap providers construct estimates from leverage assumptions, price paths and incomplete public information. Bright clusters are treated as conditional stress zones rather than guaranteed magnets or future price targets.",
       "tags": [
