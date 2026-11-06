@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T15:32:05.091266+00:00",
+  "generated_at": "2026-11-06T16:00:42.014149+00:00",
   "count": 62,
   "categories": {
     "Start Here & Core Technical Analysis": 8,
@@ -719,7 +719,7 @@
       "google_url": "https://play.google.com/store/books/details?id=HRMXEgAAQBAJ",
       "preview_url": "https://play.google.com/books/reader?id=HRMXEgAAQBAJ&hl=en",
       "cover": "https://books.google.com/books/content?id=HRMXEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
-      "medium_url": "",
+      "medium_url": "https://medium.com/@faramarz.kowsari/cvd-trading-by-faramarz-kowsari-the-markets-black-box-comes-with-a-warning-label-4d779e81b98a",
       "source_page": "https://faramarzkowsari.github.io/books/cvd-trading/",
       "description": "CVD TRADING treats Cumulative Volume Delta as evidence about classified aggressive execution, not as a stand-alone prediction line. The book begins with the mechanics behind the indicator: volume versus delta, how trades are classified, how a cumulative curve is built, why session resets and anchors matter, and why two platforms can show different CVD histories. Price and CVD are then read together so the reader can distinguish confirmation from disagreement and ask the more useful question: what happened to price when aggressive buying or selling actually appeared?",
       "tags": [
