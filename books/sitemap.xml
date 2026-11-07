@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://faramarzkowsari.github.io/books/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-07</lastmod>
   </url>
   <url>
     <loc>https://faramarzkowsari.github.io/books/0dte-options/</loc>
@@ -765,5 +765,9 @@
   <url>
     <loc>https://faramarzkowsari.github.io/books/zihnin-ona-ad-vermeden-once/</loc>
     <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/</loc>
+    <lastmod>2026-11-07</lastmod>
   </url>
 </urlset>
