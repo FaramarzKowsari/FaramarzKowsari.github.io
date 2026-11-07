@@ -1889,6 +1889,9 @@ Audience: Zihinsel yoğunluğu, hassasiyeti veya bilişsel kapasitesi yüksek ol
 ### MACHINE LEARNING EVALUATION & VALIDATION NOTES
 
 - Canonical page: https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/
+- Google Books: https://play.google.com/store/books/details?id=jQYoEgAAQBAJ
+- Preview: https://play.google.com/books/reader?id=jQYoEgAAQBAJ&hl=en
+- Google Books ID: jQYoEgAAQBAJ
 - Language: English
 - Category: Machine Learning & Technical Interviews
 - Subtitle: A Handwritten Graduate Guide to Metrics, Statistical Testing, Calibration, Robustness, and Reliable Model Decisions
