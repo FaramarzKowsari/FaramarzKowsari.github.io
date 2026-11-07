@@ -9,7 +9,7 @@
   "canonical": "https://faramarzkowsari.github.io/books/",
   "text_index": "https://faramarzkowsari.github.io/books/all-books/",
   "sitemap": "https://faramarzkowsari.github.io/books/sitemap.xml",
-  "book_count": 177,
+  "book_count": 178,
   "books": [
     {
       "slug": "depremde-hayatta-kalma",
@@ -31272,6 +31272,87 @@
       "preview_url": "https://play.google.com/books/reader?id=QMHcEQAAQBAJ&hl=en",
       "cover_url": "https://books.google.com/books/content?id=QMHcEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "published_date": "2026",
+      "isbn": "",
+      "doi": ""
+    },
+    {
+      "slug": "machine-learning-evaluation-and-validation-notes",
+      "title": "MACHINE LEARNING EVALUATION & VALIDATION NOTES",
+      "subtitle": "A Handwritten Graduate Guide to Metrics, Statistical Testing, Calibration, Robustness, and Reliable Model Decisions",
+      "author": "Faramarz Kowsari",
+      "language": "English",
+      "category": "Machine Learning & Technical Interviews",
+      "summary": "A handwritten graduate-level study guide to evaluating predictive models with greater care. It connects performance metrics, statistical testing, validation design, probability calibration, robustness and decision-making. It examines why strong benchmark scores can still hide problems with class imbalance, data leakage, multiple model comparisons, unreliable probability estimates, population shift and misaligned operating thresholds.\n\nThe central concern is whether the evidence supporting a model is independent, relevant, statistically interpretable and robust enough to justify the decision the model will inform.",
+      "seo_description": "Machine Learning Evaluation & Validation Notes by Faramarz Kowsari: a graduate guide to model metrics, hypothesis tests, cross-validation, calibration, robustness, and reliable ML decisions.",
+      "seo": {
+        "cluster": "machine-learning-data",
+        "cluster_label": "Machine Learning & Data",
+        "entities": [
+          "Machine learning evaluation",
+          "Model validation",
+          "Classification and regression metrics",
+          "Statistical tests",
+          "Confidence intervals",
+          "Probability calibration",
+          "Brier score",
+          "Cross-validation",
+          "Data leakage",
+          "Robustness testing",
+          "Distribution shift",
+          "Model threshold decisions"
+        ],
+        "primary_query": "Machine Learning Evaluation & Validation Notes Faramarz Kowsari",
+        "secondary_queries": [
+          "machine learning evaluation book",
+          "machine learning model validation guide",
+          "calibration and reliability diagrams",
+          "statistical testing ML models",
+          "robust machine learning evaluation"
+        ],
+        "long_tail_queries": [
+          "Machine Learning Evaluation & Validation Notes by Faramarz Kowsari",
+          "graduate guide to model calibration and statistical testing",
+          "handwritten machine learning evaluation notes"
+        ],
+        "related_slugs": [
+          "machine-learning-notes",
+          "machine-learning-interviews-visually-explained",
+          "artificial-intelligence-and-machine-learning-for-cybersecurity"
+        ]
+      },
+      "key_topics": [
+        "Classification metrics",
+        "Regression metrics",
+        "Confusion matrices",
+        "Precision and recall",
+        "Model selection",
+        "Cross-validation",
+        "Data leakage",
+        "Confidence intervals",
+        "Hypothesis testing",
+        "Model comparison",
+        "Calibration",
+        "Probability scoring",
+        "Decision thresholds",
+        "Robustness and distribution shift",
+        "Subgroup evaluation",
+        "Reliable model decisions"
+      ],
+      "learning": [
+        "Choose evaluation metrics that match the real decision problem and class prevalence.",
+        "Design validation strategies that preserve independent evidence.",
+        "Interpret statistical uncertainty when comparing models.",
+        "Distinguish calibration from ranking performance.",
+        "Assess threshold trade-offs and operational costs.",
+        "Identify model fragility under shift and subgroup changes."
+      ],
+      "target_audience": "Graduate students of artificial intelligence, machine learning and data science, researchers, ML engineers and practitioners working with predictive model evaluation and validation.",
+      "url": "https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/",
+      "google_books_id": "",
+      "google_books_url": "",
+      "preview_url": "",
+      "cover_url": "",
+      "published_date": "",
       "isbn": "",
       "doi": ""
     },
