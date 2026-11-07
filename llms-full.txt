@@ -21,7 +21,7 @@
 - Instagram: https://www.instagram.com/faramarzkowsari/
 - Zenodo project DOI: https://doi.org/10.5281/zenodo.23046366
 
-## Books (177)
+## Books (178)
 
 ### Depremde Hayatta Kalma
 
@@ -1885,6 +1885,21 @@ What readers learn:
 - Şefkati korurken dikkat, iş, erişim ve iç yaşam üzerindeki sahipliği güçlendiren sınırlar kurmak.
 
 Audience: Zihinsel yoğunluğu, hassasiyeti veya bilişsel kapasitesi yüksek olduğu için ilişkilerde, işte ya da sosyal ortamlarda kendini aşırı açıklayan, fazla veren veya yanlış yere derinlik taşıyan okurlar; aynı zamanda üstünlük duygusuna kapılmadan daha güçlü sınırlar kurmak isteyen herkes için.
+
+### MACHINE LEARNING EVALUATION & VALIDATION NOTES
+
+- Canonical page: https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/
+- Language: English
+- Category: Machine Learning & Technical Interviews
+- Subtitle: A Handwritten Graduate Guide to Metrics, Statistical Testing, Calibration, Robustness, and Reliable Model Decisions
+
+MACHINE LEARNING EVALUATION & VALIDATION NOTES is a graduate-oriented visual study guide to the evidence needed before a predictive model can be trusted. It connects classification and regression metrics, validation design, statistical testing, probability calibration, robustness testing and model decision-making.
+
+The guide distinguishes ranking performance from probability reliability and real-world utility. It considers confusion matrices, precision and recall, threshold trade-offs, class imbalance, cross-validation, grouped and temporal splits, data leakage, paired comparisons, confidence intervals, and multiple testing. It also examines how data shifts, subgroup differences and fragile evaluation methods undermine apparently strong benchmarks.
+
+Its guiding question is practical: not merely whether a model scored well, but whether the metric, experiment and available evidence justify a decision under the intended operating conditions.
+
+- Topics: Model Evaluation; Statistical Validation; Calibration; Metrics; Distribution Shift; Robustness; Reliable Model Decisions
 
 ### Machine Learning Interviews, Visually Explained
 
