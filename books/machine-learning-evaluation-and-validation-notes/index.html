@@ -74,8 +74,9 @@
 .eval-page .ml-media-category{font-size:.75rem;letter-spacing:.08em;font-weight:750;text-transform:uppercase;color:var(--vaccent);margin:0 0 7px}
 .eval-page .ml-media-caption h2{font-size:clamp(1.3rem,2.4vw,1.75rem);line-height:1.32;color:#172d3c;margin:0 0 12px}
 .eval-page .ml-media-caption p:not(.ml-media-category){max-width:74ch;line-height:1.75;color:#324759;margin:0 0 12px}
-.eval-page .ml-media-caption .ml-media-credit{font-size:.88rem;margin-bottom:0;color:#536273}
-.eval-page .ml-media-credit a{font-weight:700;color:#135477;text-underline-offset:3px}
+/* Hide any legacy credit lines that could remain in rendered or generated markup. */
+.eval-page .ml-media-credit{display:none!important}
+
 @media(max-width:700px){.eval-page .ml-media-card{padding:14px;border-radius:15px}.eval-page .ml-media-topline{margin-bottom:12px}.eval-page .ml-media-caption{margin-top:15px}}
 @media(prefers-reduced-motion:reduce){.eval-page .ml-media-image-link{transition:none}.eval-page .ml-media-image-link:hover{transform:none}}
 
