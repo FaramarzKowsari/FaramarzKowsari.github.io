@@ -54,8 +54,33 @@
 .eval-page .author-box{padding:24px;border:1px solid #d9e5ec;border-radius:16px;background:#fff}
 .eval-page .note{font-size:.92rem;color:#536779}
 @media(max-width:700px){.eval-page .feature-grid{grid-template-columns:1fr}.eval-page .typographic-cover{max-width:320px;min-height:400px}.eval-page .book-top{align-items:start}}
+
+/* Five Pinterest-hosted visual learning panels. */
+.eval-page .ml-illustration-section{margin-top:42px;padding-top:0;border-top:0}
+.eval-page .ml-media-card{--vline:#c7e1ec;--vaccent:#205b74;--vbg1:#edf8ff;--vbg2:#f9fcfe;margin:0;padding:clamp(17px,3vw,30px);border:1px solid var(--vline);border-radius:22px;background:linear-gradient(135deg,var(--vbg1),var(--vbg2));box-shadow:0 10px 30px rgba(23,50,80,.08)}
+.eval-page .ml-media-card--lavender{--vline:#d9cdeb;--vaccent:#654b83;--vbg1:#f4f0fd;--vbg2:#fcfaff}
+.eval-page .ml-media-card--peach{--vline:#edd0c3;--vaccent:#86503e;--vbg1:#fff1e9;--vbg2:#fffaf6}
+.eval-page .ml-media-card--mint{--vline:#c9e4d8;--vaccent:#2a6858;--vbg1:#ecfaf4;--vbg2:#fafefa}
+.eval-page .ml-media-card--rose{--vline:#ead0e0;--vaccent:#89556e;--vbg1:#fdf0f7;--vbg2:#fffbfd}
+.eval-page .ml-media-topline{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
+.eval-page .ml-media-kicker{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;font-weight:750;color:var(--vaccent)}
+.eval-page .ml-media-index{font-size:.72rem;letter-spacing:.07em;font-weight:800;color:var(--vaccent);border:1px solid var(--vline);background:rgba(255,255,255,.8);border-radius:99px;padding:5px 10px}
+.eval-page .ml-media-image-link{display:block;max-width:780px;margin:0 auto;overflow:hidden;border-radius:14px;line-height:0;background:#fff;border:1px solid rgba(18,43,65,.12);box-shadow:0 8px 26px rgba(20,42,63,.12);transition:transform .2s ease,box-shadow .2s ease}
+.eval-page .ml-media-image-link:hover{transform:translateY(-2px);box-shadow:0 12px 34px rgba(20,42,63,.17)}
+.eval-page .ml-media-image-link:focus-visible{outline:3px solid #215cc5;outline-offset:4px}
+.eval-page .ml-media-image-link img{width:100%;height:auto;display:block;object-fit:contain;background:#fff}
+.eval-page .ml-media-card--mint .ml-media-image-link,.eval-page .ml-media-card--rose .ml-media-image-link{max-width:590px}
+.eval-page .ml-media-caption{max-width:780px;margin:20px auto 0}
+.eval-page .ml-media-category{font-size:.75rem;letter-spacing:.08em;font-weight:750;text-transform:uppercase;color:var(--vaccent);margin:0 0 7px}
+.eval-page .ml-media-caption h2{font-size:clamp(1.3rem,2.4vw,1.75rem);line-height:1.32;color:#172d3c;margin:0 0 12px}
+.eval-page .ml-media-caption p:not(.ml-media-category){max-width:74ch;line-height:1.75;color:#324759;margin:0 0 12px}
+.eval-page .ml-media-caption .ml-media-credit{font-size:.88rem;margin-bottom:0;color:#536273}
+.eval-page .ml-media-credit a{font-weight:700;color:#135477;text-underline-offset:3px}
+@media(max-width:700px){.eval-page .ml-media-card{padding:14px;border-radius:15px}.eval-page .ml-media-topline{margin-bottom:12px}.eval-page .ml-media-caption{margin-top:15px}}
+@media(prefers-reduced-motion:reduce){.eval-page .ml-media-image-link{transition:none}.eval-page .ml-media-image-link:hover{transform:none}}
+
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Book","@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#book","name":"MACHINE LEARNING EVALUATION & VALIDATION NOTES","alternateName":"MACHINE LEARNING EVALUATION & VALIDATION NOTES: A Handwritten Graduate Guide to Metrics, Statistical Testing, Calibration, Robustness, and Reliable Model Decisions","description":"A graduate-level, handwritten-style guide to evaluating machine learning models: performance metrics, statistical testing, validation design, probability calibration, robustness, and reliable decision-making.","author":{"@type":"Person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/"},"inLanguage":"en","genre":["Machine Learning","Data Science","Statistical Learning","Computer Science Education"],"keywords":["model evaluation","validation strategies","statistical testing","calibration","robustness","machine learning metrics","model selection","uncertainty","reliable model decisions"],"url":"https://play.google.com/store/books/details?id=jQYoEgAAQBAJ","mainEntityOfPage":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/","sameAs":["https://play.google.com/store/books/details?id=jQYoEgAAQBAJ"],"image":{"@type":"ImageObject","contentUrl":"https://books.google.com/books/content?id=jQYoEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","url":"https://books.google.com/books/content?id=jQYoEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","caption":"Official Google Books cover of MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari"},"identifier":{"@type":"PropertyValue","propertyID":"Google Books ID","value":"jQYoEgAAQBAJ"}},{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#webpage","url":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/","name":"MACHINE LEARNING EVALUATION & VALIDATION NOTES | Faramarz Kowsari","description":"A graduate-level, handwritten-style guide to evaluating machine learning models: performance metrics, statistical testing, validation design, probability calibration, robustness, and reliable decision-making.","mainEntity":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#book"},"primaryImageOfPage":{"@type":"ImageObject","contentUrl":"https://books.google.com/books/content?id=jQYoEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Book","@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#book","name":"MACHINE LEARNING EVALUATION & VALIDATION NOTES","alternateName":"MACHINE LEARNING EVALUATION & VALIDATION NOTES: A Handwritten Graduate Guide to Metrics, Statistical Testing, Calibration, Robustness, and Reliable Model Decisions","description":"A graduate-level, handwritten-style guide to evaluating machine learning models: performance metrics, statistical testing, validation design, probability calibration, robustness, and reliable decision-making.","author":{"@type":"Person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/"},"inLanguage":"en","genre":["Machine Learning","Data Science","Statistical Learning","Computer Science Education"],"keywords":["model evaluation","validation strategies","statistical testing","calibration","robustness","machine learning metrics","model selection","uncertainty","reliable model decisions"],"url":"https://play.google.com/store/books/details?id=jQYoEgAAQBAJ","mainEntityOfPage":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/","sameAs":["https://play.google.com/store/books/details?id=jQYoEgAAQBAJ"],"image":{"@type":"ImageObject","contentUrl":"https://books.google.com/books/content?id=jQYoEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","url":"https://books.google.com/books/content?id=jQYoEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","caption":"Official Google Books cover of MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari"},"identifier":{"@type":"PropertyValue","propertyID":"Google Books ID","value":"jQYoEgAAQBAJ"}},{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#webpage","url":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/","name":"MACHINE LEARNING EVALUATION & VALIDATION NOTES | Faramarz Kowsari","description":"A graduate-level, handwritten-style guide to evaluating machine learning models: performance metrics, statistical testing, validation design, probability calibration, robustness, and reliable decision-making.","mainEntity":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#book"},"primaryImageOfPage":{"@type":"ImageObject","contentUrl":"https://books.google.com/books/content?id=jQYoEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api"},"hasPart":[{"@type":"ImageObject","@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#ml-visual-overview","name":"From model scores to trustworthy evidence","caption":"Visual guide at a glance: MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari","description":"When a model scores well, how do we know whether the result deserves our trust? An annotated visual overview of performance metrics, statistical testing, calibration and reliable machine learning decisions.","contentUrl":"https://i.pinimg.com/736x/27/49/83/2749834709317aa456c53b2584746e38.jpg","about":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#book"},"potentialAction":{"@type":"ViewAction","target":"https://play.google.com/store/books/details?id=jQYoEgAAQBAJ"}},{"@type":"ImageObject","@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#ml-learning-map","name":"A visual map of the graduate guide","caption":"What you will learn: MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari","description":"A six-panel roadmap with classification metrics, train-validation-test splits, residual plots, calibration diagrams and cross-validation for machine learning students.","contentUrl":"https://i.pinimg.com/736x/aa/68/0f/aa680f048a68bfadf5457763c43a842c.jpg","about":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#book"},"potentialAction":{"@type":"ViewAction","target":"https://play.google.com/store/books/details?id=jQYoEgAAQBAJ"}},{"@type":"ImageObject","@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#ml-common-errors","name":"What high scores can conceal","caption":"Failure modes and better methods: MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari","description":"A contrasting graphic showing accuracy traps, data leakage, test-set peeking, miscalibration and overconfidence beside safer machine learning evaluation practices.","contentUrl":"https://i.pinimg.com/736x/de/24/11/de2411c85f0bcf54d5fffbdbaa101a35.jpg","about":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#book"},"potentialAction":{"@type":"ViewAction","target":"https://play.google.com/store/books/details?id=jQYoEgAAQBAJ"}},{"@type":"ImageObject","@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#ml-why-read","name":"Why study evaluation beyond the formulas?","caption":"Five practical reasons: MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari","description":"Vertical university-sketch infographic explaining metrics, leakage detection, statistical comparison, probability calibration and reliable model decisions.","contentUrl":"https://i.pinimg.com/736x/3f/ae/58/3fae581e635c47f56998aa13b12ac8ad.jpg","about":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#book"},"potentialAction":{"@type":"ViewAction","target":"https://play.google.com/store/books/details?id=jQYoEgAAQBAJ"}},{"@type":"ImageObject","@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#ml-inside-guide","name":"From accuracy to robustness, one decision at a time","caption":"A connected technical journey: MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari","description":"Vertical technical learning roadmap illustrating metrics, validation design, calibration, uncertainty, K-fold cross-validation and distribution shift.","contentUrl":"https://i.pinimg.com/736x/8d/b5/7a/8db57a94bd7d145aeb6155e8b0548b9c.jpg","about":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#book"},"potentialAction":{"@type":"ViewAction","target":"https://play.google.com/store/books/details?id=jQYoEgAAQBAJ"}}]}]}</script>
 </head>
 <body>
 <main class="book-page eval-page" id="main-content">
@@ -81,12 +106,40 @@
   <p>Explore the sample pages available through Google Play Books. Preview availability may vary by country and publishing settings.</p>
   <div class="actions"><a class="action primary" href="https://play.google.com/books/reader?id=jQYoEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Read the Free Preview on Google Books</a><a class="action" href="https://play.google.com/store/books/details?id=jQYoEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy the Full Book</a></div>
 </section>
+<section class="section ml-illustration-section" id="ml-visual-overview" aria-labelledby="ml-visual-overview-title">
+  <figure class="ml-media-card ml-media-card--sky">
+    <div class="ml-media-topline"><span class="ml-media-kicker">Illustrated learning guide</span><span class="ml-media-index">IMAGE 01 / 05</span></div>
+    <a class="ml-media-image-link" href="https://play.google.com/store/books/details?id=jQYoEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari on Google Books — image 1" title="View the complete book on Google Books">
+      <img src="https://i.pinimg.com/736x/27/49/83/2749834709317aa456c53b2584746e38.jpg" alt="Illustrated When a model scores well, how do we know whether the result deserves our trust? An annotated visual overview of performance metrics, statistical testing, calibration and reliable machine learning decisions. For MACHINE LEARNING EVALUATION &amp; VALIDATION NOTES by Faramarz Kowsari; view the complete book on Google Books." width="736" height="414" loading="lazy" decoding="async">
+    </a>
+    <figcaption class="ml-media-caption">
+      <p class="ml-media-category">Visual guide at a glance</p>
+      <h2 id="ml-visual-overview-title">From model scores to trustworthy evidence</h2>
+      <p>This panoramic sketchnote introduces the central argument of the book: impressive metrics are meaningful only when supported by a well-designed evaluation. Confusion matrices, discrimination curves, probability calibration, uncertainty and robustness checks come together as parts of a defensible model decision.</p>
+      <p class="ml-media-credit">An illustrated guide to <cite>MACHINE LEARNING EVALUATION & VALIDATION NOTES</cite> by Faramarz Kowsari. <a href="https://play.google.com/store/books/details?id=jQYoEgAAQBAJ" target="_blank" rel="noopener noreferrer">View the full book on Google Books</a>.</p>
+    </figcaption>
+  </figure>
+</section>
 <section class="section">
   <p class="eyebrow">Why evaluation matters</p>
   <h2>When a metric looks convincing but the decision is wrong</h2>
   <p class="lead">Machine learning experiments often end with a number: accuracy, F1, AUROC, root mean squared error, or a cross-validation mean. But a number on its own cannot tell us whether the right population was evaluated, whether the operating threshold matches the cost of errors, or whether the test set was used so often that it quietly became part of development. This guide puts the design of the evaluation ahead of the celebration of the score.</p>
   <p><em>MACHINE LEARNING EVALUATION &amp; VALIDATION NOTES</em> approaches model assessment as an interconnected discipline rather than a collection of isolated formulas. Its focus is the reasoning that connects measurement to evidence, and evidence to a decision that can be defended when the model is deployed.</p>
   <div class="example"><strong>A thought experiment.</strong> Suppose only 1% of cases are positive. A classifier that always predicts “negative” has 99% accuracy, yet identifies none of the positive cases. A more useful evaluation begins with prevalence, the confusion matrix, recall, precision, false-positive burden, and the action that follows each prediction. The appropriate metric depends on the decision, not on which figure looks largest.</div>
+</section>
+<section class="section ml-illustration-section" id="ml-learning-map" aria-labelledby="ml-learning-map-title">
+  <figure class="ml-media-card ml-media-card--lavender">
+    <div class="ml-media-topline"><span class="ml-media-kicker">Illustrated learning guide</span><span class="ml-media-index">IMAGE 02 / 05</span></div>
+    <a class="ml-media-image-link" href="https://play.google.com/store/books/details?id=jQYoEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari on Google Books — image 2" title="View the complete book on Google Books">
+      <img src="https://i.pinimg.com/736x/aa/68/0f/aa680f048a68bfadf5457763c43a842c.jpg" alt="Illustrated A six-panel roadmap with classification metrics, train-validation-test splits, residual plots, calibration diagrams and cross-validation for machine learning students. For MACHINE LEARNING EVALUATION &amp; VALIDATION NOTES by Faramarz Kowsari; view the complete book on Google Books." width="736" height="414" loading="lazy" decoding="async">
+    </a>
+    <figcaption class="ml-media-caption">
+      <p class="ml-media-category">What you will learn</p>
+      <h2 id="ml-learning-map-title">A visual map of the graduate guide</h2>
+      <p>Six study-note panels chart the progression from evaluation foundations and leakage-aware data splitting to classification thresholds, regression residuals, calibration, uncertainty and cross-validation. The diagrams clarify how each concept contributes to an evaluation plan that matches the intended use of a model.</p>
+      <p class="ml-media-credit">An illustrated guide to <cite>MACHINE LEARNING EVALUATION & VALIDATION NOTES</cite> by Faramarz Kowsari. <a href="https://play.google.com/store/books/details?id=jQYoEgAAQBAJ" target="_blank" rel="noopener noreferrer">View the full book on Google Books</a>.</p>
+    </figcaption>
+  </figure>
 </section>
 <section class="section">
   <p class="eyebrow">The learning map</p>
@@ -99,6 +152,20 @@
     <article class="feature"><h3>5. Robustness and decisions beyond the benchmark</h3><p>Consider distribution shift, subgroup performance, sensitivity analysis, data-quality changes, model drift, stress testing, and monitoring. A result should remain intelligible when the operating environment no longer resembles the original experiment.</p></article>
     <article class="feature"><h3>How the pieces fit together</h3><p>Turn experiments into decisions through a repeatable evaluation plan: specify the use case, define the unit of analysis, choose metrics, preserve independent evidence, quantify uncertainty, test realistic failures, and document limitations.</p></article>
   </div>
+</section>
+<section class="section ml-illustration-section" id="ml-common-errors" aria-labelledby="ml-common-errors-title">
+  <figure class="ml-media-card ml-media-card--peach">
+    <div class="ml-media-topline"><span class="ml-media-kicker">Illustrated learning guide</span><span class="ml-media-index">IMAGE 03 / 05</span></div>
+    <a class="ml-media-image-link" href="https://play.google.com/store/books/details?id=jQYoEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari on Google Books — image 3" title="View the complete book on Google Books">
+      <img src="https://i.pinimg.com/736x/de/24/11/de2411c85f0bcf54d5fffbdbaa101a35.jpg" alt="Illustrated A contrasting graphic showing accuracy traps, data leakage, test-set peeking, miscalibration and overconfidence beside safer machine learning evaluation practices. For MACHINE LEARNING EVALUATION &amp; VALIDATION NOTES by Faramarz Kowsari; view the complete book on Google Books." width="736" height="414" loading="lazy" decoding="async">
+    </a>
+    <figcaption class="ml-media-caption">
+      <p class="ml-media-category">Failure modes and better methods</p>
+      <h2 id="ml-common-errors-title">What high scores can conceal</h2>
+      <p>Accuracy can obscure failures on rare classes. Repeated test-set inspection can bias selection, while well-ranked predictions may still be poorly calibrated. This illustrated comparison puts those common mistakes beside stronger practices: use relevant metrics, preserve test independence, quantify uncertainty and check robustness under changing conditions.</p>
+      <p class="ml-media-credit">An illustrated guide to <cite>MACHINE LEARNING EVALUATION & VALIDATION NOTES</cite> by Faramarz Kowsari. <a href="https://play.google.com/store/books/details?id=jQYoEgAAQBAJ" target="_blank" rel="noopener noreferrer">View the full book on Google Books</a>.</p>
+    </figcaption>
+  </figure>
 </section>
 <section class="section">
   <p class="eyebrow">A technical distinction worth remembering</p>
@@ -119,10 +186,38 @@
     <li><strong>What evidence would change the decision?</strong> Specify monitoring, retraining, and acceptance criteria before launch.</li>
   </ol>
 </section>
+<section class="section ml-illustration-section" id="ml-why-read" aria-labelledby="ml-why-read-title">
+  <figure class="ml-media-card ml-media-card--mint">
+    <div class="ml-media-topline"><span class="ml-media-kicker">Illustrated learning guide</span><span class="ml-media-index">IMAGE 04 / 05</span></div>
+    <a class="ml-media-image-link" href="https://play.google.com/store/books/details?id=jQYoEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari on Google Books — image 4" title="View the complete book on Google Books">
+      <img src="https://i.pinimg.com/736x/3f/ae/58/3fae581e635c47f56998aa13b12ac8ad.jpg" alt="Illustrated Vertical university-sketch infographic explaining metrics, leakage detection, statistical comparison, probability calibration and reliable model decisions. For MACHINE LEARNING EVALUATION &amp; VALIDATION NOTES by Faramarz Kowsari; view the complete book on Google Books." width="736" height="1104" loading="lazy" decoding="async">
+    </a>
+    <figcaption class="ml-media-caption">
+      <p class="ml-media-category">Five practical reasons</p>
+      <h2 id="ml-why-read-title">Why study evaluation beyond the formulas?</h2>
+      <p>This vertical visual summarizes five skills that matter in academic research and professional machine learning: selecting suitable metrics, preventing data leakage, comparing models using appropriate statistical evidence, interpreting calibrated probabilities and translating results into reliable decisions. A useful reading map for students, researchers and engineers.</p>
+      <p class="ml-media-credit">An illustrated guide to <cite>MACHINE LEARNING EVALUATION & VALIDATION NOTES</cite> by Faramarz Kowsari. <a href="https://play.google.com/store/books/details?id=jQYoEgAAQBAJ" target="_blank" rel="noopener noreferrer">View the full book on Google Books</a>.</p>
+    </figcaption>
+  </figure>
+</section>
 <section class="section">
   <h2>Who this guide is for</h2>
   <p>Designed for master's-level students in machine learning, artificial intelligence, data science, and statistics; researchers who need clearer evidence for model comparisons; and engineers or analysts responsible for selecting, validating, and monitoring predictive systems. It is especially relevant to readers who know how to train a model but want to understand what its evaluation results actually establish.</p>
   <p>The handwritten-notes approach emphasizes formulas where they clarify a decision, diagrams where relationships are difficult to see in prose, and worked reasoning that makes assumptions visible. The aim is to support careful judgment rather than memorization of metric definitions.</p>
+</section>
+<section class="section ml-illustration-section" id="ml-inside-guide" aria-labelledby="ml-inside-guide-title">
+  <figure class="ml-media-card ml-media-card--rose">
+    <div class="ml-media-topline"><span class="ml-media-kicker">Illustrated learning guide</span><span class="ml-media-index">IMAGE 05 / 05</span></div>
+    <a class="ml-media-image-link" href="https://play.google.com/store/books/details?id=jQYoEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View MACHINE LEARNING EVALUATION & VALIDATION NOTES by Faramarz Kowsari on Google Books — image 5" title="View the complete book on Google Books">
+      <img src="https://i.pinimg.com/736x/8d/b5/7a/8db57a94bd7d145aeb6155e8b0548b9c.jpg" alt="Illustrated Vertical technical learning roadmap illustrating metrics, validation design, calibration, uncertainty, K-fold cross-validation and distribution shift. For MACHINE LEARNING EVALUATION &amp; VALIDATION NOTES by Faramarz Kowsari; view the complete book on Google Books." width="736" height="1104" loading="lazy" decoding="async">
+    </a>
+    <figcaption class="ml-media-caption">
+      <p class="ml-media-category">A connected technical journey</p>
+      <h2 id="ml-inside-guide-title">From accuracy to robustness, one decision at a time</h2>
+      <p>This illustrated sequence follows the questions behind a rigorous evaluation: What should be measured? Is validation leakage-free? Do probability estimates reflect risk? What uncertainty remains? Does performance survive cross-validation, subgroup comparisons and distribution shift? Each step links mathematical evidence to the decision the model is meant to support.</p>
+      <p class="ml-media-credit">An illustrated guide to <cite>MACHINE LEARNING EVALUATION & VALIDATION NOTES</cite> by Faramarz Kowsari. <a href="https://play.google.com/store/books/details?id=jQYoEgAAQBAJ" target="_blank" rel="noopener noreferrer">View the full book on Google Books</a>.</p>
+    </figcaption>
+  </figure>
 </section>
 <section class="section">
   <h2>Related books by Faramarz Kowsari</h2>
