@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="author" content="Faramarz Kowsari">
+<title>MACHINE LEARNING EVALUATION & VALIDATION NOTES: A Handwritten Graduate Guide to Metrics, Statistical Testing, Calibration, Robustness, and Reliable Model Decisions | Faramarz Kowsari</title>
+<meta name="description" content="A graduate-level, handwritten-style guide to evaluating machine learning models: performance metrics, statistical testing, validation design, probability calibration, robustness, and reliable decision-making.">
+<meta name="keywords" content="machine learning evaluation, model validation, model performance metrics, calibration, statistical hypothesis testing, cross-validation, robustness testing, data leakage, reliable machine learning, handwritten machine learning notes, Faramarz Kowsari">
+<link rel="canonical" href="https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/">
+<link rel="sitemap" type="application/xml" href="../sitemap.xml">
+<link rel="author" href="../author/">
+<link rel="alternate" type="application/json" href="../catalog.json" title="Machine-readable book catalog">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Faramarz Kowsari Books">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="MACHINE LEARNING EVALUATION & VALIDATION NOTES">
+<meta property="og:description" content="A graduate-level, handwritten-style guide to evaluating machine learning models: performance metrics, statistical testing, validation design, probability calibration, robustness, and reliable decision-making.">
+<meta property="og:url" content="https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/">
+<meta property="og:image" content="https://faramarzkowsari.github.io/books/images/Social%20Preview.jpg">
+<meta property="og:image:alt" content="Faramarz Kowsari official books library graphic">
+<meta property="book:author" content="Faramarz Kowsari">
+<meta property="book:tag" content="Machine Learning">
+<meta property="book:tag" content="Model Evaluation">
+<meta property="book:tag" content="Statistical Validation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MACHINE LEARNING EVALUATION & VALIDATION NOTES | Faramarz Kowsari">
+<meta name="twitter:description" content="A graduate-level, handwritten-style guide to evaluating machine learning models: performance metrics, statistical testing, validation design, probability calibration, robustness, and reliable decision-making.">
+<meta name="twitter:image" content="https://faramarzkowsari.github.io/books/images/Social%20Preview.jpg">
+<link rel="stylesheet" href="../styles.css">
+<style>
+.eval-page{--ink:#13273e;--blue:#205b83;--mint:#d9f1ec;--gold:#f8e3b6}
+.eval-page .eyebrow{font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;font-weight:850;color:#315b75}
+.eval-page .lead{font-size:1.12rem;line-height:1.87;color:#27384c}
+.eval-page p{line-height:1.78}
+.eval-page .book-top{align-items:center}
+.eval-page .typographic-cover{aspect-ratio:2/3;min-height:360px;display:flex;flex-direction:column;justify-content:space-between;gap:28px;padding:30px 24px;background:linear-gradient(150deg,#0b1f32,#183f57 65%,#116b6f);color:#fff;border-radius:15px;box-shadow:0 16px 35px rgba(12,39,61,.18);overflow-wrap:anywhere}
+.eval-page .typographic-cover .cover-series{text-transform:uppercase;font-size:.83rem;letter-spacing:.17em;color:#bce6e5}
+.eval-page .typographic-cover strong{display:block;font-size:clamp(1.65rem,3.1vw,2.2rem);line-height:1.17;letter-spacing:-.035em}
+.eval-page .typographic-cover .cover-subtitle{font-size:.95rem;line-height:1.55;color:#d0e8f2}
+.eval-page .typographic-cover .cover-author{font-size:1rem;font-weight:800;letter-spacing:.04em}
+.eval-page .pills{display:flex;gap:8px;flex-wrap:wrap;margin:17px 0}
+.eval-page .pills span{border:1px solid #d5e6ea;border-radius:100px;padding:7px 11px;background:#f3fbfa;font-size:.88rem;color:#24506a}
+.eval-page .feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.eval-page .feature{padding:22px;background:#fff;border:1px solid #dbe4ec;border-radius:14px}
+.eval-page .feature h3{margin:0 0 10px;color:#17384f;font-size:1.13rem}
+.eval-page .feature p{margin:0}
+.eval-page .example{background:#f3f8fa;border-left:4px solid #1b7f83;padding:18px 22px;border-radius:0 11px 11px 0;margin:22px 0}
+.eval-page .decision-list li{padding-bottom:10px;line-height:1.65}
+.eval-page .related{display:flex;flex-wrap:wrap;gap:12px}
+.eval-page .related a{display:inline-block;padding:12px 15px;border-radius:10px;border:1px solid #bfd4de;background:#f7fbfd;text-decoration:none;font-weight:700}
+.eval-page .author-box{padding:24px;border:1px solid #d9e5ec;border-radius:16px;background:#fff}
+.eval-page .note{font-size:.92rem;color:#536779}
+@media(max-width:700px){.eval-page .feature-grid{grid-template-columns:1fr}.eval-page .typographic-cover{max-width:320px;min-height:400px}.eval-page .book-top{align-items:start}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Book","@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#book","name":"MACHINE LEARNING EVALUATION & VALIDATION NOTES","alternateName":"MACHINE LEARNING EVALUATION & VALIDATION NOTES: A Handwritten Graduate Guide to Metrics, Statistical Testing, Calibration, Robustness, and Reliable Model Decisions","description":"A graduate-level, handwritten-style guide to evaluating machine learning models: performance metrics, statistical testing, validation design, probability calibration, robustness, and reliable decision-making.","author":{"@type":"Person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/"},"inLanguage":"en","genre":["Machine Learning","Data Science","Statistical Learning","Computer Science Education"],"keywords":["model evaluation","validation strategies","statistical testing","calibration","robustness","machine learning metrics","model selection","uncertainty","reliable model decisions"],"url":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/","mainEntityOfPage":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/"},{"@type":"WebPage","@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#webpage","url":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/","name":"MACHINE LEARNING EVALUATION & VALIDATION NOTES | Faramarz Kowsari","description":"A graduate-level, handwritten-style guide to evaluating machine learning models: performance metrics, statistical testing, validation design, probability calibration, robustness, and reliable decision-making.","mainEntity":{"@id":"https://faramarzkowsari.github.io/books/machine-learning-evaluation-and-validation-notes/#book"}}]}</script>
+</head>
+<body>
+<main class="book-page eval-page" id="main-content">
+<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../">Home</a><span>›</span><a href="../">Books</a><span>›</span><span aria-current="page">Machine Learning Evaluation &amp; Validation Notes</span></nav>
+<nav class="book-tabs" aria-label="Book navigation"><a class="book-tab author-tab" href="../author/">About the Author: Faramarz Kowsari</a></nav>
+<section class="book-top" aria-label="Book overview">
+  <div class="typographic-cover" role="img" aria-label="Typographic book title panel for Machine Learning Evaluation and Validation Notes by Faramarz Kowsari; not an official book cover">
+    <div class="cover-series">Handwritten Graduate Notes</div>
+    <div><strong>MACHINE LEARNING<br>EVALUATION &amp;<br>VALIDATION NOTES</strong><p class="cover-subtitle">A Handwritten Graduate Guide to Metrics, Statistical Testing, Calibration, Robustness, and Reliable Model Decisions</p></div>
+    <div class="cover-author">Faramarz Kowsari</div>
+  </div>
+  <div>
+    <p class="eyebrow">Graduate-level machine learning · Visual study guide</p>
+    <h1>MACHINE LEARNING EVALUATION & VALIDATION NOTES</h1>
+    <p class="meta author-byline">By <a rel="author" href="../author/">Faramarz Kowsari</a></p>
+    <p class="subtitle">A Handwritten Graduate Guide to Metrics, Statistical Testing, Calibration, Robustness, and Reliable Model Decisions</p>
+    <p class="lead"><strong>A high score is not the same as a trustworthy model.</strong> Models earn confidence through the questions asked of them: Was the data split correctly? Is the reported improvement distinguishable from noise? Are predicted probabilities meaningful? Would the result survive a change in population, threshold, or operating conditions?</p>
+    <div class="pills"><span>Metrics</span><span>Statistical testing</span><span>Calibration</span><span>Robustness</span><span>Model decisions</span></div>
+    <div class="actions"><a class="action primary" href="../topics/machine-learning-data/">Explore Machine Learning &amp; Data Books</a><a class="action" href="../machine-learning-notes/">Explore Machine Learning Notes</a></div>
+    <p class="note">A verified direct Google Books listing and official cover have not yet been linked on this page.</p>
+  </div>
+</section>
+<section class="section">
+  <p class="eyebrow">Why evaluation matters</p>
+  <h2>When a metric looks convincing but the decision is wrong</h2>
+  <p class="lead">Machine learning experiments often end with a number: accuracy, F1, AUROC, root mean squared error, or a cross-validation mean. But a number on its own cannot tell us whether the right population was evaluated, whether the operating threshold matches the cost of errors, or whether the test set was used so often that it quietly became part of development. This guide puts the design of the evaluation ahead of the celebration of the score.</p>
+  <p><em>MACHINE LEARNING EVALUATION &amp; VALIDATION NOTES</em> approaches model assessment as an interconnected discipline rather than a collection of isolated formulas. Its focus is the reasoning that connects measurement to evidence, and evidence to a decision that can be defended when the model is deployed.</p>
+  <div class="example"><strong>A thought experiment.</strong> Suppose only 1% of cases are positive. A classifier that always predicts “negative” has 99% accuracy, yet identifies none of the positive cases. A more useful evaluation begins with prevalence, the confusion matrix, recall, precision, false-positive burden, and the action that follows each prediction. The appropriate metric depends on the decision, not on which figure looks largest.</div>
+</section>
+<section class="section">
+  <p class="eyebrow">The learning map</p>
+  <h2>Five connected dimensions of reliable evaluation</h2>
+  <div class="feature-grid">
+    <article class="feature"><h3>1. Metrics that match the question</h3><p>Learn to interpret classification and regression results in context: confusion-matrix rates, precision and recall, F-scores, ROC and precision–recall analysis, error measures, class imbalance, threshold sensitivity, and the consequences of choosing an unsuitable summary statistic.</p></article>
+    <article class="feature"><h3>2. Validation without hidden optimism</h3><p>Understand training, validation, and test separation; cross-validation; stratification; temporal and grouped splits; leakage pathways; nested model selection; and why an apparently independent test can stop being independent after repeated inspection.</p></article>
+    <article class="feature"><h3>3. Statistical evidence and uncertainty</h3><p>Connect confidence intervals, resampling, hypothesis tests, paired comparisons, multiple testing, effect sizes, and uncertainty reporting to the practical question of whether an observed performance difference is stable enough to matter.</p></article>
+    <article class="feature"><h3>4. Calibration and probability quality</h3><p>Distinguish ranking ability from the quality of predicted probabilities. Examine reliability diagrams, Brier score, log loss, calibration methods, decision thresholds, and why a well-ranked model can still communicate unreliable risk.</p></article>
+    <article class="feature"><h3>5. Robustness and decisions beyond the benchmark</h3><p>Consider distribution shift, subgroup performance, sensitivity analysis, data-quality changes, model drift, stress testing, and monitoring. A result should remain intelligible when the operating environment no longer resembles the original experiment.</p></article>
+    <article class="feature"><h3>How the pieces fit together</h3><p>Turn experiments into decisions through a repeatable evaluation plan: specify the use case, define the unit of analysis, choose metrics, preserve independent evidence, quantify uncertainty, test realistic failures, and document limitations.</p></article>
+  </div>
+</section>
+<section class="section">
+  <p class="eyebrow">A technical distinction worth remembering</p>
+  <h2>Discrimination, calibration, and usefulness answer different questions</h2>
+  <p>A classifier may rank high-risk observations above low-risk ones and therefore achieve a strong AUROC, while still assigning probabilities that are too large or too small. Calibration asks whether predictions expressed as probabilities agree with observed frequencies under the evaluated conditions. Decision usefulness asks a separate question: what follows from acting on those probabilities, given costs, capacity, and operational limits?</p>
+  <p>These distinctions become consequential in medicine, financial risk, fraud screening, reliability engineering, and any workflow where a model changes the allocation of scarce attention. A compelling benchmark is merely one part of the argument for responsible use.</p>
+</section>
+<section class="section">
+  <p class="eyebrow">A practical evaluation habit</p>
+  <h2>Questions to ask before trusting a reported improvement</h2>
+  <ol class="decision-list">
+    <li><strong>What is the prediction used for?</strong> Define the target, decision point, evaluation population, and consequences of different errors.</li>
+    <li><strong>What was held out?</strong> Verify independence across individuals, groups, time, and preprocessing decisions.</li>
+    <li><strong>Which metric represents the actual objective?</strong> Report more than one when trade-offs matter, and include base rates.</li>
+    <li><strong>How uncertain is the difference?</strong> Prefer paired comparisons where appropriate; show intervals and meaningful effect sizes.</li>
+    <li><strong>Are scores interpretable as probabilities?</strong> Check calibration on relevant data and reassess after shifts.</li>
+    <li><strong>Where could performance collapse?</strong> Test meaningful subgroups, realistic perturbations, and future operating conditions.</li>
+    <li><strong>What evidence would change the decision?</strong> Specify monitoring, retraining, and acceptance criteria before launch.</li>
+  </ol>
+</section>
+<section class="section">
+  <h2>Who this guide is for</h2>
+  <p>Designed for master's-level students in machine learning, artificial intelligence, data science, and statistics; researchers who need clearer evidence for model comparisons; and engineers or analysts responsible for selecting, validating, and monitoring predictive systems. It is especially relevant to readers who know how to train a model but want to understand what its evaluation results actually establish.</p>
+  <p>The handwritten-notes approach emphasizes formulas where they clarify a decision, diagrams where relationships are difficult to see in prose, and worked reasoning that makes assumptions visible. The aim is to support careful judgment rather than memorization of metric definitions.</p>
+</section>
+<section class="section">
+  <h2>Related books by Faramarz Kowsari</h2>
+  <div class="related"><a href="../machine-learning-notes/">Machine Learning Notes: From Classical ML to Responsible AI</a><a href="../artificial-intelligence-and-machine-learning-for-cybersecurity/">Artificial Intelligence and Machine Learning for Cybersecurity</a><a href="../machine-learning-interviews-visually-explained/">Machine Learning Interviews, Visually Explained</a><a href="../topics/machine-learning-data/">Machine Learning &amp; Data Collection</a></div>
+</section>
+<section class="section author-box">
+  <h2>About Faramarz Kowsari</h2>
+  <p>Faramarz Kowsari is an author and researcher based in Istanbul. Focusing on the intersection of technology, education, and personal growth, he has published over 160 digital titles on international platforms. His areas of expertise span artificial intelligence, prompt engineering, modern trading strategies, classical literature, and mindfulness. He also develops web-based educational tools and creates specialized instructional video content.</p>
+  <p><a href="https://faramarzkowsari.github.io/">Official Website</a> · <a href="https://faramarzkowsari.github.io/books/">Published Books Index</a> · <a href="https://play.google.com/store/search?q=Faramarz%20Kowsari&amp;c=books" target="_blank" rel="noopener noreferrer">Google Play Books Author Search</a> · <a href="https://www.linkedin.com/in/faramarzkowsari" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://github.com/FaramarzKowsari" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://orcid.org/0000-0003-1692-0453" target="_blank" rel="noopener noreferrer">ORCID</a></p>
+</section>
+<section class="section"><div class="actions"><a class="action primary" href="../">Browse all books</a><a class="action" href="../topics/">Browse books by topic</a></div></section>
+</main>
+</body>
+</html>
