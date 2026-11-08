@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-08T15:19:59.556480+00:00",
-  "count": 62,
+  "generated_at": "2026-11-08T20:26:47.092177+00:00",
+  "count": 63,
   "categories": {
     "Start Here & Core Technical Analysis": 8,
     "Smart Money, Liquidity & Market Structure": 17,
     "Order Flow, Volume & Market Microstructure": 8,
-    "Futures & Index Trading": 2,
+    "Futures & Index Trading": 3,
     "Options & Volatility": 6,
     "Scalping & Day Trading": 6,
     "Swing, Trend & Indicator Trading": 8,
@@ -924,6 +924,31 @@
         "Volume Profile"
       ],
       "search_blob": "FUTURES TRADING FROM ZERO The Complete Practical Guide to Micro E-mini, E-mini & E-Nano Futures, Contract Mechanics, Margin, Risk Management, Price Action, Order Flow, Backtesting, and Professional Execution Trading & Financial Markets FUTURES TRADING FROM ZERO is built around a simple premise: futures trading becomes dangerous when a trader learns patterns before learning the contract. This book therefore starts below the chart. It explains what a futures contract is, how an exchange, clearinghouse, broker and data feed divide responsibilities, how a buy order becomes an open position, and why the same market move can represent radically different dollar risk depending on the contract family being traded. Futures trading Micro E-mini futures E-mini futures E-Nano futures Contract mechanics Margin Price action Market structure VWAP Volume Profile Order flow Footprint charts Risk management Backtesting Trade execution",
+      "category": "Futures & Index Trading"
+    },
+    {
+      "title": "GOLD FUTURES: BEYOND PRICE ACTION",
+      "subtitle": "COMEX GC & MGC Order Flow, Market Replay, Liquidity Shifts, and Precision Trade Execution",
+      "genre": "['Finance', 'Futures trading', 'Gold trading']",
+      "language": "en",
+      "google_id": "A28pEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=A28pEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=A28pEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=A28pEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/gold-futures-beyond-price-action/",
+      "description": "A specialist guide to COMEX GC and MGC gold futures: order-book liquidity, MBO/MBP data, footprint and delta, market replay, realistic fills and disciplined execution.",
+      "tags": [
+        "COMEX GC gold futures",
+        "Micro Gold futures (MGC)",
+        "Market by Order (MBO)",
+        "Market by Price (MBP)",
+        "Order flow",
+        "Order book liquidity",
+        "Market replay",
+        "Precision trade execution"
+      ],
+      "search_blob": "GOLD FUTURES: BEYOND PRICE ACTION COMEX GC & MGC Order Flow, Market Replay, Liquidity Shifts, and Precision Trade Execution ['Finance', 'Futures trading', 'Gold trading'] A specialist guide to COMEX GC and MGC gold futures: order-book liquidity, MBO/MBP data, footprint and delta, market replay, realistic fills and disciplined execution. COMEX GC gold futures Micro Gold futures (MGC) Market by Order (MBO) Market by Price (MBP) Order flow Order book liquidity Market replay Precision trade execution",
       "category": "Futures & Index Trading"
     },
     {
