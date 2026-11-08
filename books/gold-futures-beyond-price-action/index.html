@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<title>Gold Futures: Beyond Price Action | GC &amp; MGC Order Flow | Faramarz Kowsari</title>
+<meta name="description" content="A specialist guide to COMEX GC and MGC gold futures: order-book liquidity, MBO/MBP data, footprint and delta, market replay, realistic fills and disciplined execution.">
+<meta name="author" content="Faramarz Kowsari">
+<link rel="canonical" href="https://faramarzkowsari.github.io/books/gold-futures-beyond-price-action/">
+<link rel="author" href="https://faramarzkowsari.github.io/books/author/">
+<link rel="sitemap" type="application/xml" href="../sitemap.xml">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="Faramarz Kowsari Books">
+<meta property="og:title" content="Gold Futures: Beyond Price Action — Faramarz Kowsari">
+<meta property="og:description" content="A specialist guide to COMEX GC and MGC gold futures: order-book liquidity, MBO/MBP data, footprint and delta, market replay, realistic fills and disciplined execution.">
+<meta property="og:url" content="https://faramarzkowsari.github.io/books/gold-futures-beyond-price-action/">
+<meta property="og:image" content="https://books.google.com/books/content?id=A28pEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<meta property="og:image:alt" content="Cover of GOLD FUTURES: BEYOND PRICE ACTION by Faramarz Kowsari">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GOLD FUTURES: BEYOND PRICE ACTION | Faramarz Kowsari">
+<meta name="twitter:description" content="A specialist guide to COMEX GC and MGC gold futures: order-book liquidity, MBO/MBP data, footprint and delta, market replay, realistic fills and disciplined execution.">
+<meta name="twitter:image" content="https://books.google.com/books/content?id=A28pEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api">
+<meta name="theme-color" content="#0c1728">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Book","@id":"https://faramarzkowsari.github.io/books/gold-futures-beyond-price-action/#book","name":"GOLD FUTURES: BEYOND PRICE ACTION","alternateName":"COMEX GC & MGC Order Flow, Market Replay, Liquidity Shifts, and Precision Trade Execution","author":{"@type":"Person","@id":"https://faramarzkowsari.github.io/#person","name":"Faramarz Kowsari","url":"https://faramarzkowsari.github.io/books/author/"},"inLanguage":"en","url":"https://faramarzkowsari.github.io/books/gold-futures-beyond-price-action/","sameAs":"https://play.google.com/store/books/details?id=A28pEgAAQBAJ","image":{"@type":"ImageObject","url":"https://books.google.com/books/content?id=A28pEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api","caption":"GOLD FUTURES: BEYOND PRICE ACTION by Faramarz Kowsari"},"description":"A specialist guide to COMEX GC and MGC gold futures: order-book liquidity, MBO/MBP data, footprint and delta, market replay, realistic fills and disciplined execution.","genre":["Finance","Futures trading","Gold trading"],"about":[{"@type":"Thing","name":"COMEX GC gold futures"},{"@type":"Thing","name":"Micro Gold futures (MGC)"},{"@type":"Thing","name":"Market by Order (MBO)"},{"@type":"Thing","name":"Market by Price (MBP)"},{"@type":"Thing","name":"Order flow"},{"@type":"Thing","name":"Order book liquidity"},{"@type":"Thing","name":"Market replay"},{"@type":"Thing","name":"Precision trade execution"}],"audience":{"@type":"Audience","audienceType":"Intermediate and advanced gold futures traders, market microstructure students and systematic researchers"},"isPartOf":{"@type":"CollectionPage","@id":"https://faramarzkowsari.github.io/books/#collection"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://faramarzkowsari.github.io/"},{"@type":"ListItem","position":2,"name":"Books","item":"https://faramarzkowsari.github.io/books/"},{"@type":"ListItem","position":3,"name":"Gold Futures: Beyond Price Action","item":"https://faramarzkowsari.github.io/books/gold-futures-beyond-price-action/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is this book about gold spot charts or COMEX futures?","acceptedAnswer":{"@type":"Answer","text":"The book centers on COMEX GC and MGC futures contracts and the evidence available from futures trades, quotes and order-book activity. It distinguishes those contracts from spot gold, CFDs and other gold products."}},{"@type":"Question","name":"Can I use GC order-flow observations to execute with MGC?","acceptedAnswer":{"@type":"Answer","text":"The book examines this workflow, including the need to verify the executable MGC market, spread, depth, tick value, order type, position size and slippage rather than assuming that a GC signal can be copied without adjustment."}},{"@type":"Question","name":"Does the book include market replay and practice exercises?","acceptedAnswer":{"@type":"Answer","text":"Yes. Dedicated chapters address historical-data selection, event-by-event order-book reconstruction, blind replay, realistic fill simulation, audit logs and a structured 30-session replay program."}},{"@type":"Question","name":"Does order flow reveal exactly what institutional traders are doing?","acceptedAnswer":{"@type":"Answer","text":"No. Market by Order can convey anonymous displayed order-level information, not participant identities, hidden motives or every form of liquidity. The book emphasizes data provenance, alternative explanations and uncertainty."}},{"@type":"Question","name":"Does it promise a profitable gold futures strategy?","acceptedAnswer":{"@type":"Answer","text":"No. It develops testable execution hypotheses and research routines, including no-trade decisions, cost accounting and operational risk. Futures trading can produce substantial losses."}}]}]}</script>
+<style>
+.gf-book{--gf-ink:#172d48;--gf-muted:#52677f;--gf-line:#d8e4ef;--gf-gold:#d4a74a;--gf-dark:#0c1728;font-family:inherit;color:var(--gf-ink);line-height:1.7}
+.gf-book *{box-sizing:border-box}
+.gf-book .gf-breadcrumb{padding:15px 0;color:#64748b;font-size:.9rem}
+.gf-book .gf-breadcrumb a{color:#315f94}
+.gf-book .gf-hero{background:linear-gradient(125deg,#0b182d 4%,#172d49 55%,#263c4c 100%);border-radius:19px;padding:clamp(22px,4vw,46px);color:#eff5ff;display:grid;grid-template-columns:minmax(185px,.78fr) minmax(0,1.55fr);gap:clamp(22px,4vw,46px);align-items:center;box-shadow:0 18px 50px rgba(12,30,52,.13)}
+.gf-book .gf-cover-link{max-width:345px;display:block;margin:auto;width:100%;border-radius:12px;overflow:hidden;box-shadow:0 18px 35px rgba(0,0,0,.35);border:1px solid #647991}
+.gf-book .gf-cover-link img{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:contain;background:#121e32}
+.gf-book .gf-eyebrow{font-size:.81rem;color:#f4cc78;letter-spacing:.14em;font-weight:800;text-transform:uppercase}
+.gf-book .gf-hero h1{color:#fff;font-size:clamp(1.7rem,3.45vw,3.15rem);line-height:1.17;margin:14px 0}
+.gf-book .gf-hero .gf-subtitle{font-size:clamp(1rem,1.65vw,1.28rem);color:#e1eafa;line-height:1.45}
+.gf-book .gf-byline{color:#f2c76f;font-weight:700;margin-top:10px}
+.gf-book .gf-hero-copy{color:#d3e0ed;max-width:770px;font-size:1.02rem}
+.gf-book .gf-cta-row{display:flex;gap:11px;flex-wrap:wrap;margin-top:22px}
+.gf-book .gf-button{display:inline-block;text-decoration:none;font-weight:800;border-radius:9px;padding:12px 19px;line-height:1.4}
+.gf-book .gf-primary{background:#f3c775;color:#172336}
+.gf-book .gf-secondary{background:transparent;border:1px solid #b7cfe7;color:#fff}
+.gf-book .gf-section{margin:30px auto;padding:26px clamp(15px,3.1vw,33px);border-radius:15px;background:#fff;border:1px solid var(--gf-line)}
+.gf-book .gf-section h2{font-size:clamp(1.3rem,2.2vw,1.7rem);margin:0 0 14px;color:#173858}
+.gf-book .gf-section h3{color:#234b6f}
+.gf-book .gf-section p,.gf-book .gf-section li{color:#374d62}
+.gf-book .gf-nav{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.gf-book .gf-nav a{font-size:.89rem;padding:7px 12px;background:#edf4fc;border:1px solid #d7e4f1;color:#234d78;border-radius:20px;text-decoration:none;font-weight:700}
+.gf-book .gf-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.gf-book .gf-mini{background:#f3f7fb;border:1px solid #dde6f1;border-radius:13px;padding:17px}
+.gf-book .gf-mini h3{font-size:1.04rem;line-height:1.35;margin:0 0 9px}
+.gf-book .gf-mini p{margin:0;font-size:.95rem}
+.gf-book .gf-chapter-group{border:1px solid #d8e3ec;border-radius:11px;margin:12px 0;background:#f9fbfe;overflow:hidden}
+.gf-book .gf-chapter-group summary{cursor:pointer;padding:15px;display:flex;align-items:center;gap:12px;list-style:none}
+.gf-book .gf-chapter-group summary::-webkit-details-marker{display:none}
+.gf-book .gf-chapter-group summary:after{content:"+";font-size:1.35rem;color:#306c9e;margin-left:auto}
+.gf-book .gf-chapter-group[open] summary:after{content:"–"}
+.gf-book .gf-part-number{font-size:.7rem;letter-spacing:.05em;background:#143958;color:#f8e1a1;border-radius:5px;white-space:nowrap;padding:4px 8px}
+.gf-book .gf-chapter-count{font-size:.78rem;color:#637992;margin-left:auto;white-space:nowrap}
+.gf-book .gf-chapter-group ol{margin:0;padding:10px 24px 18px 54px;background:#fff;border-top:1px solid #dde5ef}
+.gf-book .gf-chapter-group li{padding:2px 0}
+.gf-book .gf-faq details{border-top:1px solid #dce5ef;padding:14px 2px}
+.gf-book .gf-faq summary{cursor:pointer;font-weight:750;color:#193b59}
+.gf-book .gf-faq p{margin-bottom:0}
+.gf-book .gf-callout{background:#eef5fc;border-left:4px solid #ca9d43;padding:16px 20px;border-radius:8px}
+.gf-book .gf-related{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.gf-book .gf-related a{display:block;padding:13px;border:1px solid #d4e2ed;border-radius:11px;background:#f7fafc;color:#245b8a;text-decoration:none;font-weight:750}
+.gf-book .gf-small{font-size:.9rem;color:var(--gf-muted)}
+@media(max-width:730px){.gf-book .gf-hero{grid-template-columns:1fr;text-align:left}.gf-book .gf-cover-link{max-width:225px}.gf-book .gf-grid,.gf-book .gf-related{grid-template-columns:1fr}.gf-book .gf-chapter-group summary{flex-wrap:wrap}.gf-book .gf-chapter-count{margin-left:0}.gf-book .gf-chapter-group summary:after{margin-left:auto}.gf-book .gf-section{padding:18px 15px}}
+</style>
+</head>
+<body>
+<main class="book-page premium-book-page theme-trading gf-book" id="top">
+<nav class="gf-breadcrumb" aria-label="Breadcrumb"><a href="../../">Home</a> › <a href="../">Books</a> › <span aria-current="page">Gold Futures: Beyond Price Action</span></nav>
+<header class="gf-hero">
+  <a class="gf-cover-link" href="https://play.google.com/store/books/details?id=A28pEgAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="View Gold Futures: Beyond Price Action on Google Play Books"><img src="https://books.google.com/books/content?id=A28pEgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=2&amp;source=gbs_api" alt="Official Google Books cover of GOLD FUTURES: BEYOND PRICE ACTION by Faramarz Kowsari" loading="eager" decoding="async"></a>
+  <div>
+   <p class="gf-eyebrow">Faramarz Kowsari · Specialist Trading Book · English</p>
+   <h1>GOLD FUTURES:<br>BEYOND PRICE ACTION</h1>
+   <p class="gf-subtitle">COMEX GC &amp; MGC Order Flow, Market Replay, Liquidity Shifts, and Precision Trade Execution</p>
+   <p class="gf-byline">By <a href="https://faramarzkowsari.github.io/books/author/" rel="author" style="color:inherit">Faramarz Kowsari</a></p>
+   <p class="gf-hero-copy">The chart shows the result. This book studies the auction beneath it: displayed liquidity, queue priority, market-data limitations and the execution decisions that separate a convincing gold setup from a trade that can actually be filled, measured and challenged.</p>
+   <div class="gf-cta-row">
+     <a class="gf-button gf-primary" href="https://play.google.com/store/books/details?id=A28pEgAAQBAJ" target="_blank" rel="noopener noreferrer">Explore / Buy on Google Books</a>
+     <a class="gf-button gf-secondary" href="https://play.google.com/books/reader?id=A28pEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Read the Free Preview</a>
+   </div>
+  </div>
+</header>
+<nav class="gf-nav" aria-label="Sections of this book page">
+<a href="#overview">About the Book</a><a href="#difference">What Makes It Different</a><a href="#learning">What You Will Learn</a><a href="#contents">All 50 Chapters</a><a href="#playbooks">GC/MGC Playbooks</a><a href="#replay">Market Replay</a><a href="#contracts">GC vs MGC</a><a href="#faq">FAQ</a><a href="#author">Author</a>
+</nav>
+<section class="gf-section" id="overview">
+<h2>About the Book: What Happens Beyond a Gold Candlestick?</h2>
+<p>A gold futures breakout can look decisive on a chart while the order book tells a less comfortable story. The bid–ask spread may be widening. Visible depth may have vanished as the market approaches the level. Aggressive trades may be consuming liquidity without generating the expected continuation. Or a resting order that looked attractive in hindsight may never have been filled.</p>
+<p><strong>GOLD FUTURES: BEYOND PRICE ACTION</strong> is built for readers who already understand the basics of futures and chart reading and want to investigate <strong>COMEX Gold Futures (GC) and Micro Gold Futures (MGC)</strong> at the level where market evidence meets real execution. Rather than retelling general technical analysis, it connects CME Globex auction mechanics, order-flow observations, market microstructure and disciplined replay research to a practical decision process.</p>
+<p>The progression is deliberate. First, the reader learns what the data actually represent: trades versus quotes, Market by Price (MBP) versus Market by Order (MBO), aggressor-side classification and the limits of anonymous order-level information. Then come the harder questions: when does displayed depth survive a test, what counts as absorption rather than coincidence, why does a sweep sometimes fail, and how should a trader react when delta, footprint, price, VWAP and auction structure disagree?</p>
+<p>From there, the book moves into the distinctive timing and contract mechanics of gold: Asian, London and New York sessions; US macroeconomic releases; contract rolls; the distinction between futures and spot gold; and shifting liquidity conditions. It closes the loop with order types, queue priority, adverse selection, MGC execution, realistic slippage accounting, historical market replay, five conditional trading playbooks and an auditable 30-session practice plan.</p>
+<div class="gf-callout"><strong>The operating principle:</strong> Observe the evidence available at the decision time. Separate observation from inference. Test more than one explanation. Choose an executable order—or make a documented decision not to trade.</div>
+</section>
+<section class="gf-section" id="difference">
+<h2>Why This Is Not Another Generic Price-Action Book</h2>
+<div class="gf-grid">
+<div class="gf-mini"><h3>Contract-specific, not chart-generic</h3><p>GC and MGC differ in contract size, tick value and execution environment. The book treats the actual instrument—not a gold-looking line on a screen—as the starting point for risk.</p></div>
+<div class="gf-mini"><h3>Evidence instead of institutional mythology</h3><p>Anonymous order IDs are not trader identities. Pulling, stacking, replenishment and suspected icebergs remain hypotheses with alternative explanations, not guaranteed windows into hidden intentions.</p></div>
+<div class="gf-mini"><h3>Execution is part of the strategy</h3><p>Spread, queue position, order type, fill probability, slippage and adverse selection appear before any claim that a setup is tradable.</p></div>
+<div class="gf-mini"><h3>Historical testing without invented fills</h3><p>Market replay is framed as reconstruction, blind decision-making and a traceable research record—not a slideshow of profitable hindsight examples.</p></div>
+</div>
+</section>
+<section class="gf-section" id="learning">
+<h2>What You Will Learn</h2>
+<ul>
+<li>Distinguish COMEX GC and MGC contracts, ticks, contract months, rollover and delivery-related risks.</li>
+<li>Read CME Globex trade and quote evidence while accounting for feed integrity, timestamps and incomplete or reordered data.</li>
+<li>Interpret <strong>MBP, MBO, Time &amp; Sales, footprint, delta and cumulative delta</strong> without mistaking estimates for privileged insight.</li>
+<li>Examine pulling, stacking, absorption, replenishment, sweeps, thin liquidity, queue priority and the cost of immediate execution.</li>
+<li>Combine order-flow evidence with <strong>VWAP, Volume Profile, auction location</strong> and acceptance or rejection at a price zone.</li>
+<li>Recognize why US economic releases, the dollar, yields, spot–futures relationships and contract rolls can change the quality of gold-market signals.</li>
+<li>Build entries with explicit invalidation, order-type selection, position risk, realistic fill assumptions and no-trade conditions.</li>
+<li>Reconstruct historical events, perform blind market replay and maintain decision records that another reviewer could audit.</li>
+<li>Evaluate net expectancy, overfitting, cross-session robustness and operational stress before relying on a method.</li>
+</ul>
+</section>
+<section class="gf-section" id="contents">
+<h2>Inside the Book: The Complete 50-Chapter Structure</h2>
+<p>The book is organized into ten distinct parts. Expand each part to inspect its chapter titles.</p>
+<details class="gf-chapter-group" open><summary><span class="gf-part-number">PART 01</span><strong>The Market Behind the Gold Price</strong><span class="gf-chapter-count">4 chapters</span></summary><ol start="1"><li>Price Is the Outcome, Not the Whole Auction</li><li>GC and MGC: Two Contracts, Two Liquidity Environments</li><li>Contract Months, Liquidity Migration, and Delivery Risk</li><li>The Global Gold Trading Clock</li></ol></details>
+<details class="gf-chapter-group"><summary><span class="gf-part-number">PART 02</span><strong>The Evidence: Trades, Quotes, and Data Quality</strong><span class="gf-chapter-count">5 chapters</span></summary><ol start="1"><li>How the CME Globex Auction Produces Market Data</li><li>Market by Price, Market by Order, and Time &amp; Sales</li><li>Trade Classification and the Reliability of Delta</li><li>Data Integrity Before Interpretation</li><li>What Market Data Cannot Reveal</li></ol></details>
+<details class="gf-chapter-group"><summary><span class="gf-part-number">PART 03</span><strong>Liquidity Mechanics Inside the Gold Order Book</strong><span class="gf-chapter-count">6 chapters</span></summary><ol start="1"><li>The Cost of Immediate Liquidity</li><li>Queue Priority and the Probability of a Fill</li><li>Pulling, Stacking, and Order-Book Resilience</li><li>Sweeps, Market Impact, and Liquidity Vacuums</li><li>Absorption, Replenishment, and Exhaustion</li><li>Icebergs, Spoofing Indicators, and False Certainty</li></ol></details>
+<details class="gf-chapter-group"><summary><span class="gf-part-number">PART 04</span><strong>Integrating Footprint, Delta, and Auction Context</strong><span class="gf-chapter-count">4 chapters</span></summary><ol start="1"><li>Footprint Charts as a Diagnostic Instrument</li><li>Cumulative Delta and Price Divergence in Gold</li><li>Volume Profile, VWAP, and Auction Location</li><li>When Market Signals Disagree</li></ol></details>
+<details class="gf-chapter-group"><summary><span class="gf-part-number">PART 05</span><strong>Gold-Specific Conditions and Cross-Market Context</strong><span class="gf-chapter-count">5 chapters</span></summary><ol start="1"><li>Liquidity Across Asian, London, and New York Sessions</li><li>The Order Book Before and After Major US Releases</li><li>Gold, Treasury Yields, the Dollar, and Risk Sentiment</li><li>COMEX Futures, Spot Gold, and Cross-Market Dislocations</li><li>Roll, Settlement, and Contract-Specific Distortions</li></ol></details>
+<details class="gf-chapter-group"><summary><span class="gf-part-number">PART 06</span><strong>Recognizing Liquidity Regime Shifts</strong><span class="gf-chapter-count">5 chapters</span></summary><ol start="1"><li>From Balanced Auction to Directional Initiative</li><li>Breakout Acceptance: Evidence Beyond the Candle</li><li>Failed Auctions and Liquidity Reversal</li><li>Stop Runs Without the Mythology</li><li>Thin Books, Volatility Shocks, and Regime Breakdown</li></ol></details>
+<details class="gf-chapter-group"><summary><span class="gf-part-number">PART 07</span><strong>Precision Execution in GC and MGC</strong><span class="gf-chapter-count">6 chapters</span></summary><ol start="1"><li>Building an Evidence-Based Entry</li><li>Choosing the Order Type</li><li>Passive Orders and Adverse Selection</li><li>Executing a GC Signal with an MGC Position</li><li>Stops, Slippage, and Position Risk</li><li>Managing the Trade After the Fill</li></ol></details>
+<details class="gf-chapter-group"><summary><span class="gf-part-number">PART 08</span><strong>The Gold Futures Market Replay Laboratory</strong><span class="gf-chapter-count">5 chapters</span></summary><ol start="1"><li>Selecting and Licensing Historical Data</li><li>Reconstructing the Order Book Event by Event</li><li>Blind Replay and the Elimination of Hindsight</li><li>Realistic Fill and Slippage Simulation</li><li>The Replay Research Log</li></ol></details>
+<details class="gf-chapter-group"><summary><span class="gf-part-number">PART 09</span><strong>Five GC/MGC Execution Playbooks</strong><span class="gf-chapter-count">5 chapters</span></summary><ol start="1"><li>The New York Opening Drive</li><li>The Absorption Reversal</li><li>The Failed Breakout and Return to Value</li><li>The Order-Flow Trend Pullback</li><li>Post-News Repricing and the Patience Entry</li></ol></details>
+<details class="gf-chapter-group"><summary><span class="gf-part-number">PART 10</span><strong>Validation, Risk, and Professional Practice</strong><span class="gf-chapter-count">5 chapters</span></summary><ol start="1"><li>Expectancy After the Costs That Matter</li><li>Avoiding Overfitting and False Discovery</li><li>Robustness Across Sessions, Contracts, and Regimes</li><li>Survival Under Market and Operational Stress</li><li>The 30-Session Gold Futures Replay Program</li></ol></details>
+<p class="gf-small">Additional material includes appendices on GC/MGC contract references, order-flow terminology, data provenance, replay diagnostics, execution worksheets, the 30-session replay workbook, research notes and a figure index.</p>
+</section>
+<section class="gf-section" id="playbooks">
+<h2>Five Gold Futures Execution Playbooks</h2>
+<p>These are conditional research and execution frameworks, not automatic buy or sell signals. Each requires available-at-time evidence, an alternative explanation, a practical order choice and a reason to stand aside when conditions are poor.</p>
+<div class="gf-grid">
+<div class="gf-mini"><h3>01 · New York Opening Drive</h3><p>Assess early-session initiative, liquidity and acceptance after the open rather than reacting to the first strong candle alone.</p></div>
+<div class="gf-mini"><h3>02 · Absorption Reversal</h3><p>Look for aggressive activity with limited progress, then demand structural confirmation before considering reversal execution.</p></div>
+<div class="gf-mini"><h3>03 · Failed Breakout and Return to Value</h3><p>Distinguish a failed auction from a brief pause and locate entry, invalidation and realistic fill constraints.</p></div>
+<div class="gf-mini"><h3>04 · Order-Flow Trend Pullback</h3><p>Consider whether a pullback preserves initiative and whether the proposed limit or market order makes economic sense.</p></div>
+<div class="gf-mini"><h3>05 · Post-News Repricing and Patience Entry</h3><p>Prioritize stabilized data, renewed liquidity and executable conditions after an event-driven price jump.</p></div>
+</div>
+</section>
+<section class="gf-section" id="replay">
+<h2>The Market Replay Laboratory: Practice Without Hindsight</h2>
+<p>One of the book's central features is a research-oriented replay workflow. Historical data must be selected and licensed appropriately; book events must be reconstructed consistently; gaps and anomalies must be flagged before interpreting a setup. In blind replay, the trader sees only information available up to the decision point and records the proposed action before inspecting what happened next.</p>
+<p>Fill assumptions deserve the same scrutiny as directional ideas. A touched limit price is not proof of execution. Queue priority, spread, cancellations, delayed updates and adverse selection may change the result substantially. The book consequently couples replay decisions with a research log and cost-aware evaluation.</p>
+<div class="gf-callout"><strong>30-session practice program:</strong> Contract familiarization, feed checks, blind replay, fill and slippage sensitivity, playbook rejection and final review. Success is measured by reproducible reasoning and risk discipline, including correct abstentions—not by a promised profit target.</div>
+</section>
+<section class="gf-section" id="contracts">
+<h2>GC vs MGC: The Contract Matters</h2>
+<div class="gf-grid">
+<div class="gf-mini"><h3>GC · Gold Futures</h3><p><strong>100 troy ounces per contract.</strong> With a $0.10/oz minimum price fluctuation, the standard tick is $10 per contract. Contract size, exposure and live market depth must be checked before placing orders.</p></div>
+<div class="gf-mini"><h3>MGC · Micro Gold Futures</h3><p><strong>10 troy ounces per contract.</strong> With a $0.10/oz minimum price fluctuation, the standard tick is $1 per contract. Smaller notional exposure does not eliminate execution friction, leverage or delivery-related considerations.</p></div>
+</div>
+<p class="gf-small">Specifications above reflect the contract reference in the book. Confirm the latest contract rules, tick conventions, margin, trading hours, delivery schedule and broker cutoffs with <a href="https://www.cmegroup.com/markets/metals/precious/gold.html" target="_blank" rel="noopener noreferrer">CME Group</a> before trading.</p>
+</section>
+<section class="gf-section" id="audience">
+<h2>Who Should Read Gold Futures: Beyond Price Action?</h2>
+<p>Best suited to <strong>intermediate and advanced gold futures traders</strong>, discretionary day traders who want stronger order-flow evidence, GC analysts interested in MGC execution, market microstructure students, and systematic researchers designing replay studies. Readers entirely new to futures may benefit from learning contract basics, order types and risk calculations first.</p>
+<p>This book is especially relevant if you have ever asked why a convincing footprint divergence failed, why volume was large but price went nowhere, why a breakout looked clean but your fill was poor, or why a profitable replay deteriorated when realistic costs were included.</p>
+</section>
+<section class="gf-section gf-faq" id="faq">
+<h2>Frequently Asked Questions</h2>
+<details><summary>Is this book about gold spot charts or COMEX futures?</summary><p>The book centers on COMEX GC and MGC futures contracts and the evidence available from futures trades, quotes and order-book activity. It distinguishes those contracts from spot gold, CFDs and other gold products.</p></details>
+<details><summary>Can I use GC order-flow observations to execute with MGC?</summary><p>The book examines this workflow, including the need to verify the executable MGC market, spread, depth, tick value, order type, position size and slippage rather than assuming that a GC signal can be copied without adjustment.</p></details>
+<details><summary>Does the book include market replay and practice exercises?</summary><p>Yes. Dedicated chapters address historical-data selection, event-by-event order-book reconstruction, blind replay, realistic fill simulation, audit logs and a structured 30-session replay program.</p></details>
+<details><summary>Does order flow reveal exactly what institutional traders are doing?</summary><p>No. Market by Order can convey anonymous displayed order-level information, not participant identities, hidden motives or every form of liquidity. The book emphasizes data provenance, alternative explanations and uncertainty.</p></details>
+<details><summary>Does it promise a profitable gold futures strategy?</summary><p>No. It develops testable execution hypotheses and research routines, including no-trade decisions, cost accounting and operational risk. Futures trading can produce substantial losses.</p></details>
+</section>
+<section class="gf-section" id="preview">
+<h2>Read a Sample or Explore the Complete Book</h2>
+<p>Explore the Google Books listing and, where the platform makes it available, read a sample of the text before deciding whether the depth of its GC/MGC microstructure coverage matches your needs.</p>
+<div class="gf-cta-row"><a class="gf-button gf-primary" href="https://play.google.com/store/books/details?id=A28pEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Play Books</a><a class="gf-button" style="border:1px solid #577ca2;color:#214e78" href="https://play.google.com/books/reader?id=A28pEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Open the Google Books Reader</a></div>
+</section>
+<section class="gf-section" id="related">
+<h2>Related Trading Books by Faramarz Kowsari</h2>
+<p>Use these companion titles to explore adjacent subjects without treating futures, spot gold, DOM, or footprint trading as interchangeable instruments.</p>
+<div class="gf-related"><a href="../xauusd-scalping/">XAUUSD Scalping</a><a href="../futures-trading-from-zero/">Futures Trading from Zero</a><a href="../dom-trading/">DOM Trading</a><a href="../footprint-charts-trading/">Footprint Charts Trading</a><a href="../cvd-trading/">CVD Trading</a><a href="../level-2-market-data-explained/">Level 2 Market Data Explained</a><a href="https://faramarzkowsari.github.io/trading-books/futures-trading-books/">Futures Trading Books Collection</a><a href="https://faramarzkowsari.github.io/trading-books/gold-forex-crypto-trading-books/">Gold, Silver, Forex &amp; Crypto Collection</a></div>
+</section>
+<section class="gf-section" id="author">
+<h2>About the Author · Faramarz Kowsari</h2>
+<p><strong>Faramarz Kowsari</strong> is an author and researcher based in Istanbul. Focusing on the intersection of technology, education and personal growth, he has published over 160 digital titles on international platforms. His areas of interest include artificial intelligence, prompt engineering, modern trading strategies, classical literature and mindfulness. He also develops web-based educational tools and specialized instructional video content.</p>
+<p><a href="https://faramarzkowsari.github.io/">Official Website</a> · <a href="https://faramarzkowsari.github.io/books/">Books Library</a> · <a href="https://faramarzkowsari.github.io/books/author/">Author Profile</a> · <a href="https://orcid.org/0000-0003-1692-0453" target="_blank" rel="noopener noreferrer">ORCID</a></p>
+</section>
+<section class="gf-section">
+<p class="gf-small"><strong>Educational and risk notice:</strong> Futures trading involves leverage and substantial risk, including potential losses greater than funds initially committed. Market depth, order-book data, stop instructions and historical replay cannot guarantee an execution, a maximum loss or a future trading result. Numerical illustrations and example scenarios in this book are educational and should not be mistaken for documented live performance. Nothing on this page is individualized financial advice.</p>
+<p><a href="../../trading-books/">Explore all trading books</a> · <a href="../">Browse all books by Faramarz Kowsari</a></p>
+</section>
+</main>
+</body>
+</html>
