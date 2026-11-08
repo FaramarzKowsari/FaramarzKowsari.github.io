@@ -94,6 +94,26 @@
 .gamma-medium-feature .gamma-medium-actions{flex-wrap:wrap;gap:12px;margin-top:21px}
 @media(max-width:650px){.gamma-medium-feature .gamma-medium-intro{font-size:1.02rem}.gamma-medium-feature .gamma-medium-highlights{padding:15px}}
 </style>
+
+<style id="gamma-book-videos-style">
+/* Responsive, accessible YouTube embeds for Gamma Exposure Trading. */
+.gamma-book-videos{background:linear-gradient(145deg,#edf5ff 0%,#f8fbff 62%,#f4f7ff 100%);border:1px solid #d5e3f4;border-radius:18px;padding:clamp(18px,3.5vw,34px);box-shadow:0 8px 28px rgba(22,47,83,.07)}
+.gamma-book-videos h2{margin:0 0 12px;color:#143859;line-height:1.25}
+.gamma-book-videos .gamma-video-intro{max-width:850px;color:#314b67;line-height:1.7;margin:0 0 23px}
+.gamma-book-videos .gamma-video-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:20px;align-items:start}
+.gamma-book-videos .gamma-video-card{min-width:0;background:#fff;border:1px solid #d9e3f0;border-radius:15px;padding:18px;box-shadow:0 5px 18px rgba(22,47,83,.05)}
+.gamma-book-videos .gamma-video-kicker{font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;font-weight:800;color:#236e9b;margin:0 0 8px}
+.gamma-book-videos .gamma-video-card h3{color:#193d60;font-size:clamp(1.05rem,2vw,1.25rem);line-height:1.4;margin:0 0 14px}
+.gamma-book-videos .gamma-video-embed{width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:12px;background:#091321;border:1px solid #27405b}
+.gamma-book-videos .gamma-video-embed.is-short{aspect-ratio:9/16;width:min(100%,235px);margin-inline:auto}
+.gamma-book-videos .gamma-video-embed iframe{display:block;width:100%;height:100%;border:0}
+.gamma-book-videos .gamma-video-card figcaption{color:#52667e;font-size:.91rem;line-height:1.58;margin-top:11px}
+.gamma-book-videos .gamma-video-card p{line-height:1.7;color:#314b67}
+.gamma-book-videos .gamma-video-card .gamma-video-link{display:inline-block;margin-top:3px;font-weight:750;color:#175b91;text-decoration:underline;text-underline-offset:3px}
+.gamma-book-videos .gamma-video-next{margin-top:20px;padding-top:17px;border-top:1px solid #d6e3ef;color:#314b67;line-height:1.7}
+.gamma-book-videos .gamma-video-next a{color:#175b91;font-weight:750}
+@media(max-width:720px){.gamma-book-videos .gamma-video-grid{grid-template-columns:1fr}.gamma-book-videos .gamma-video-card{padding:14px}.gamma-book-videos .gamma-video-embed.is-short{width:min(100%,260px)}}
+</style>
 </head>
 <body>
 <main class="book-page premium-book-page theme-trading" data-premium-version="2026-11">
@@ -112,7 +132,7 @@
       <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer">View / Buy on Google Books</a><a class="action" href="https://medium.com/@faramarz.kowsari/gamma-exposure-trading-the-hidden-market-forces-your-candlestick-charts-cannot-show-ec1d960ab74c?postPublishedType=repub" target="_blank" rel="noopener noreferrer">Read the Gamma Exposure article on Medium</a></div>
     </div>
   </section>
-<nav class="premium-toc" aria-label="Book sections"><strong>In this book</strong><a href="#premium-about">Overview</a><a href="#premium-learning">What you&#x27;ll learn</a><a href="#premium-topics">Topics</a><a href="#premium-audience">Readers</a><a href="#gamma-medium-article">Medium article</a><a href="#premium-related">Related</a></nav>
+<nav class="premium-toc" aria-label="Book sections"><strong>In this book</strong><a href="#premium-about">Overview</a><a href="#premium-learning">What you&#x27;ll learn</a><a href="#premium-topics">Topics</a><a href="#premium-audience">Readers</a><a href="#gamma-book-videos">Book videos</a><a href="#gamma-medium-article">Medium article</a><a href="#premium-related">Related</a></nav>
 <ul class="premium-focus" aria-label="Core themes"><li>Gamma Exposure (GEX)</li><li>Delta and Gamma</li><li>Dealer positioning models</li><li>Observed data versus inferred positioning</li><li>Open interest limitations</li></ul>
 
 <!-- google-books-preview:start -->
@@ -228,6 +248,41 @@
 </section>
 
   <section class="section premium-audience" id="premium-audience"><h2>Who this book is for</h2><p>For index, ETF, futures and options traders who want to understand how option-derived Gamma context may interact with intraday market structure. It is particularly suited to traders using SPX/SPY/ES or NDX/QQQ/NQ-style workflows, including futures traders who do not directly trade options but want to use GEX, 0DTE positioning, VWAP and live price behavior as a conditional market-context framework rather than a deterministic signal.</p></section>
+
+
+<!-- gamma-book-videos:start -->
+<section class="section gamma-book-videos" id="gamma-book-videos" aria-label="Gamma Exposure Trading book videos on YouTube">
+  <h2>Watch Gamma Exposure Trading by Faramarz Kowsari on YouTube</h2>
+  <p class="gamma-video-intro">Discover <strong>Gamma Exposure Trading</strong> through two visual book presentations: a cinematic YouTube video and a vertical YouTube Short. Together they introduce the book's central subject: how options-market positioning, modeled dealer Gamma Exposure (GEX) and hedging dynamics can add context to candlestick charts without replacing confirmation from live price action.</p>
+  <div class="gamma-video-grid">
+    <article class="gamma-video-card" aria-labelledby="gamma-cinematic-title">
+      <p class="gamma-video-kicker">Cinematic book video · YouTube</p>
+      <h3 id="gamma-cinematic-title">Gamma Exposure Trading — A Cinematic Introduction to GEX and Dealer Hedging</h3>
+      <figure>
+        <div class="gamma-video-embed">
+          <iframe src="https://www.youtube-nocookie.com/embed/nr_DKR1KmaQ" title="Gamma Exposure Trading by Faramarz Kowsari — cinematic YouTube book video" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <figcaption><strong>Watch the cinematic book presentation.</strong> Explore the ideas behind Gamma Exposure (GEX), dealer hedging, Gamma Flip, Call Walls, Put Walls and the options-driven context of intraday markets in <em>Gamma Exposure Trading</em> by Faramarz Kowsari.</figcaption>
+      </figure>
+      <p>The book examines how modeled positive- and negative-Gamma environments may relate to price rotation or volatility expansion. It also explains the limits of open-interest-based estimates and why traders should test option-derived levels against live market structure, VWAP, order flow and explicit risk controls.</p>
+      <a class="gamma-video-link" href="https://www.youtube.com/watch?v=nr_DKR1KmaQ" target="_blank" rel="noopener noreferrer">Watch the full Gamma Exposure Trading video on YouTube →</a>
+    </article>
+    <article class="gamma-video-card" aria-labelledby="gamma-shorts-title">
+      <p class="gamma-video-kicker">Quick book introduction · YouTube Shorts</p>
+      <h3 id="gamma-shorts-title">Gamma Exposure Trading in a Short Video — 0DTE, GEX and Market Structure</h3>
+      <figure>
+        <div class="gamma-video-embed is-short">
+          <iframe src="https://www.youtube-nocookie.com/embed/bWRxyN_0T0o" title="Gamma Exposure Trading by Faramarz Kowsari — vertical YouTube Short" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <figcaption><strong>Watch the YouTube Short.</strong> A quick visual introduction to Faramarz Kowsari's <em>Gamma Exposure Trading</em> and the questions raised by 0DTE options, Gamma Flip levels and changing option-market positioning.</figcaption>
+      </figure>
+      <p>For readers curious about GEX, this shorter format points toward the book's broader message: Call Walls, Put Walls and inferred dealer exposure are conditional reference points, not guaranteed reversal levels or standalone directional trading signals.</p>
+      <a class="gamma-video-link" href="https://youtube.com/shorts/bWRxyN_0T0o" target="_blank" rel="noopener noreferrer">Watch the Gamma Exposure Trading YouTube Short →</a>
+    </article>
+  </div>
+  <p class="gamma-video-next">Want to go beyond the videos? <a href="https://play.google.com/books/reader?id=7l4WEgAAQBAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Read the free preview of Gamma Exposure Trading on Google Books</a>, or <a href="https://play.google.com/store/books/details?id=7l4WEgAAQBAJ" target="_blank" rel="noopener noreferrer">explore the complete book on Google Play Books</a>.</p>
+</section>
+<!-- gamma-book-videos:end -->
 
 <!-- gamma-medium-article:start -->
 <section class="section gamma-medium-feature" id="gamma-medium-article" aria-label="Featured Medium article about Gamma Exposure Trading">
