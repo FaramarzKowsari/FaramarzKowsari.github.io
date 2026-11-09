@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-08T20:29:51.170974+00:00",
-  "count": 63,
+  "generated_at": "2026-11-09T17:24:41.327369+00:00",
+  "count": 65,
   "categories": {
-    "Start Here & Core Technical Analysis": 8,
+    "Start Here & Core Technical Analysis": 9,
     "Smart Money, Liquidity & Market Structure": 17,
     "Order Flow, Volume & Market Microstructure": 8,
-    "Futures & Index Trading": 3,
+    "Futures & Index Trading": 4,
     "Options & Volatility": 6,
     "Scalping & Day Trading": 6,
     "Swing, Trend & Indicator Trading": 8,
@@ -222,6 +222,22 @@
         "and Market Structure"
       ],
       "search_blob": "The Wyckoff Method A Practical Guide to Accumulation, Distribution, Springs, Upthrusts, and Market Structure Trading The Wyckoff Method is a working manual for reading ranges and transitions through evidence rather than memorizing an ideal accumulation or distribution schematic. It develops wave comparison, trend health, price-volume relationships, accumulation, distribution, springs, upthrusts, UTADs, reaccumulation, redistribution, structural failure, entry and risk while emphasizing what the market has actually demonstrated and what would invalidate the current hypothesis. Wyckoff method Accumulation and distribution Springs and upthrusts Price and volume Market structure Reaccumulation and redistribution Entries and risk Case studies and checklists A Practical Guide to Accumulation and Market Structure",
+      "category": "Start Here & Core Technical Analysis"
+    },
+    {
+      "title": "TRADING SYSTEMS THAT SURVIVE FAILURE",
+      "subtitle": "Engineering Event-Driven Orders, Risk, and Deterministic Recovery",
+      "genre": "Trading Infrastructure · Event-Driven Engineering",
+      "language": "en",
+      "google_id": "7XYpEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=7XYpEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=7XYpEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=7XYpEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/trading-systems-that-survive-failure/",
+      "description": "A technical book on reliable event-driven trading systems: OMS/EMS, FIX, idempotency, message ordering, risk reservations, event sourcing, market data, deterministic replay and failure recovery.",
+      "tags": [],
+      "search_blob": "TRADING SYSTEMS THAT SURVIVE FAILURE Engineering Event-Driven Orders, Risk, and Deterministic Recovery Trading Infrastructure · Event-Driven Engineering A technical book on reliable event-driven trading systems: OMS/EMS, FIX, idempotency, message ordering, risk reservations, event sourcing, market data, deterministic replay and failure recovery. ",
       "category": "Start Here & Core Technical Analysis"
     },
     {
@@ -972,6 +988,22 @@
         "Market Structure guide"
       ],
       "search_blob": "MICRO E-MINI FUTURES TRADING A Practical Guide to MES & MNQ Futures, Market Structure, Intraday Strategies, Execution, and Risk Trading MICRO E-MINI FUTURES TRADING is a practical, evidence-conscious guide to trading the two Micro E-mini equity-index contracts most closely watched by active U.S. index traders: MES, which tracks the S&P 500, and MNQ, which tracks the Nasdaq-100. The book begins before strategy selection. It explains what a futures contract actually represents, how leverage and variation in price translate into dollars, why posted margin is not the same thing as maximum risk, and why a smaller contract can still create losses that are large relative to a small account. Market Structure Intraday Strategies and Risk MICRO E-MINI FUTURES TRADING book trading and financial markets book Market Structure guide",
+      "category": "Futures & Index Trading"
+    },
+    {
+      "title": "NASDAQ FUTURES SCALPING MASTERY",
+      "subtitle": "The NQ & MNQ Playbook for Price Action, Order Flow, Market Opens, Liquidity, Execution, and Risk",
+      "genre": "Nasdaq-100 Futures · Scalping & Day Trading",
+      "language": "en",
+      "google_id": "aYMpEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=aYMpEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=aYMpEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=aYMpEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/nasdaq-futures-scalping-mastery/",
+      "description": "Nasdaq futures scalping guide for NQ and MNQ: New York market opens, opening range, footprint, CVD, VWAP, order flow, liquidity sweeps, 10 setups, realistic fills, costs and risk.",
+      "tags": [],
+      "search_blob": "NASDAQ FUTURES SCALPING MASTERY The NQ & MNQ Playbook for Price Action, Order Flow, Market Opens, Liquidity, Execution, and Risk Nasdaq-100 Futures · Scalping & Day Trading Nasdaq futures scalping guide for NQ and MNQ: New York market opens, opening range, footprint, CVD, VWAP, order flow, liquidity sweeps, 10 setups, realistic fills, costs and risk. ",
       "category": "Futures & Index Trading"
     },
     {
