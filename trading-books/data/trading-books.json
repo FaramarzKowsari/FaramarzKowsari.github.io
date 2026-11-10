@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T16:48:46.598136+00:00",
+  "generated_at": "2026-11-10T20:57:40.295826+00:00",
   "count": 65,
   "categories": {
     "Start Here & Core Technical Analysis": 9,
@@ -322,8 +322,8 @@
       "category": "Smart Money, Liquidity & Market Structure"
     },
     {
-      "title": "CHoCH & BOS",
-      "subtitle": "Reading Market Structure Shifts",
+      "title": "CHoCH & BOS: Reading Market Structure Shifts",
+      "subtitle": "CHoCH & BOS",
       "genre": "Trading",
       "language": "en",
       "google_id": "7SIPEgAAQBAJ",
@@ -332,20 +332,20 @@
       "cover": "https://books.google.com/books/content?id=7SIPEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "medium_url": "",
       "source_page": "https://faramarzkowsari.github.io/books/choch-and-bos/",
-      "description": "CHoCH & BOS: Reading Market Structure Shifts turns two heavily used trading labels into observable, testable structural events. Rather than calling every opposite candle a Change of Character or every broken high a Break of Structure, the book begins with swing selection, pivot stability, candidate versus confirmed pivots, structural hierarchy, protected references, and the prior state that a continuation break is supposed to continue.",
+      "description": "Learn to distinguish CHoCH, BOS, and MSS through confirmed swings, protected levels, liquidity sweeps, multi-timeframe analysis, real historical charts, and rule-based review.",
       "tags": [
-        "CHoCH",
-        "BOS",
-        "Swing selection",
-        "Structural hierarchy",
-        "Protected swings",
-        "Transition states",
-        "Continuation",
-        "Invalidation",
-        "Context filters",
-        "Trading journal"
+        "Break of Structure (BOS)",
+        "Change of Character (CHoCH)",
+        "Market Structure Shift (MSS)",
+        "Market structure",
+        "Swing highs and swing lows",
+        "Protected highs and lows",
+        "Internal and external structure",
+        "Liquidity sweeps",
+        "False breakouts",
+        "Multi-timeframe analysis"
       ],
-      "search_blob": "CHoCH & BOS Reading Market Structure Shifts Trading CHoCH & BOS: Reading Market Structure Shifts turns two heavily used trading labels into observable, testable structural events. Rather than calling every opposite candle a Change of Character or every broken high a Break of Structure, the book begins with swing selection, pivot stability, candidate versus confirmed pivots, structural hierarchy, protected references, and the prior state that a continuation break is supposed to continue. CHoCH BOS Swing selection Structural hierarchy Protected swings Transition states Continuation Invalidation Context filters Trading journal Reading Market Structure Shifts",
+      "search_blob": "CHoCH & BOS: Reading Market Structure Shifts CHoCH & BOS Trading Learn to distinguish CHoCH, BOS, and MSS through confirmed swings, protected levels, liquidity sweeps, multi-timeframe analysis, real historical charts, and rule-based review. Break of Structure (BOS) Change of Character (CHoCH) Market Structure Shift (MSS) Market structure Swing highs and swing lows Protected highs and lows Internal and external structure Liquidity sweeps False breakouts Multi-timeframe analysis Look-ahead bias Algorithmic chart analysis Trade invalidation CHoCH BOS Swing selection Structural hierarchy Protected swings Transition states Continuation Invalidation Context filters Trading journal",
       "category": "Smart Money, Liquidity & Market Structure"
     },
     {
