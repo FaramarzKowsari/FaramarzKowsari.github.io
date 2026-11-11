@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:57:40.295826+00:00",
+  "generated_at": "2026-11-11T12:09:24.361847+00:00",
   "count": 65,
   "categories": {
     "Start Here & Core Technical Analysis": 9,
@@ -225,8 +225,8 @@
       "category": "Start Here & Core Technical Analysis"
     },
     {
-      "title": "TRADING SYSTEMS THAT SURVIVE FAILURE",
-      "subtitle": "Engineering Event-Driven Orders, Risk, and Deterministic Recovery",
+      "title": "TRADING SYSTEMS THAT SURVIVE FAILURE: Engineering Event-Driven Orders, Risk, and Deterministic Recovery",
+      "subtitle": "TRADING SYSTEMS THAT SURVIVE FAILURE",
       "genre": "Trading Infrastructure · Event-Driven Engineering",
       "language": "en",
       "google_id": "7XYpEgAAQBAJ",
@@ -235,9 +235,20 @@
       "cover": "https://books.google.com/books/content?id=7XYpEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "medium_url": "",
       "source_page": "https://faramarzkowsari.github.io/books/trading-systems-that-survive-failure/",
-      "description": "A technical book on reliable event-driven trading systems: OMS/EMS, FIX, idempotency, message ordering, risk reservations, event sourcing, market data, deterministic replay and failure recovery.",
-      "tags": [],
-      "search_blob": "TRADING SYSTEMS THAT SURVIVE FAILURE Engineering Event-Driven Orders, Risk, and Deterministic Recovery Trading Infrastructure · Event-Driven Engineering A technical book on reliable event-driven trading systems: OMS/EMS, FIX, idempotency, message ordering, risk reservations, event sourcing, market data, deterministic replay and failure recovery. ",
+      "description": "Explore Faramarz Kowsari's 50-chapter engineering guide to event-driven trading systems, reliable OMS/EMS, FIX, risk reservations, idempotency, reconciliation, failover and deterministic recovery.",
+      "tags": [
+        "Electronic trading infrastructure",
+        "Event-driven architecture",
+        "Order Management Systems (OMS)",
+        "Execution Management Systems (EMS)",
+        "Financial Information eXchange (FIX)",
+        "Idempotency",
+        "Exactly-once semantics",
+        "Pre-trade risk",
+        "Order lifecycle state machines",
+        "Execution reconciliation"
+      ],
+      "search_blob": "TRADING SYSTEMS THAT SURVIVE FAILURE: Engineering Event-Driven Orders, Risk, and Deterministic Recovery TRADING SYSTEMS THAT SURVIVE FAILURE Trading Infrastructure · Event-Driven Engineering Explore Faramarz Kowsari's 50-chapter engineering guide to event-driven trading systems, reliable OMS/EMS, FIX, risk reservations, idempotency, reconciliation, failover and deterministic recovery. Electronic trading infrastructure Event-driven architecture Order Management Systems (OMS) Execution Management Systems (EMS) Financial Information eXchange (FIX) Idempotency Exactly-once semantics Pre-trade risk Order lifecycle state machines Execution reconciliation Event sourcing Market data sequence gaps Deterministic replay Gateway fencing Split-brain prevention Disaster recovery Chaos testing Trading software engineering",
       "category": "Start Here & Core Technical Analysis"
     },
     {
