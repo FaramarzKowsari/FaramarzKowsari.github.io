@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:39:42.370521+00:00",
+  "generated_at": "2026-11-12T21:08:15.636898+00:00",
   "count": 65,
   "categories": {
     "Start Here & Core Technical Analysis": 9,
@@ -630,8 +630,8 @@
       "category": "Smart Money, Liquidity & Market Structure"
     },
     {
-      "title": "Smart Money Concepts",
-      "subtitle": "A Practical Guide to Market Structure, Liquidity, Order Blocks, Fair Value Gaps, and High-Probability Trade Setups",
+      "title": "Smart Money Concepts: A Practical Guide to Market Structure, Liquidity, Order Blocks, Fair Value Gaps, and High-Probability Trade Setups",
+      "subtitle": "Smart Money Concepts",
       "genre": "Trading",
       "language": "en",
       "google_id": "LNMLEgAAQBAJ",
@@ -640,20 +640,20 @@
       "cover": "https://books.google.com/books/content?id=LNMLEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "medium_url": "https://medium.com/@faramarz.kowsari/stop-chasing-candles-start-reading-the-market-f11943895f6d?postPublishedType=repub",
       "source_page": "https://faramarzkowsari.github.io/books/smart-money-concepts/",
-      "description": "Smart Money Concepts organizes market structure, liquidity, displacement, imbalance, Order Blocks, Fair Value Gaps, location and invalidation into an observable decision framework. The book deliberately separates what a candlestick chart can show from stories about hidden institutional intention: structure can be mapped, a high can be swept, displacement can be measured and a zone can fail, but the private motives of unseen participants are not directly visible from retail candles.",
+      "description": "Master market structure, liquidity sweeps, BOS, CHoCH, Fair Value Gaps, Order Blocks and disciplined risk planning with Faramarz Kowsari's 40-chapter SMC guide.",
       "tags": [
-        "Smart Money Concepts",
-        "Market structure",
-        "Liquidity",
-        "Displacement",
-        "Order Blocks",
-        "Fair Value Gaps",
-        "Premium and discount",
-        "Invalidation",
-        "Trade setups",
-        "Risk management"
+        "SMC trading",
+        "smart money concepts book",
+        "market structure trading",
+        "Break of Structure",
+        "BOS",
+        "Change of Character",
+        "CHoCH",
+        "Market Structure Shift",
+        "MSS",
+        "liquidity sweep"
       ],
-      "search_blob": "Smart Money Concepts A Practical Guide to Market Structure, Liquidity, Order Blocks, Fair Value Gaps, and High-Probability Trade Setups Trading Smart Money Concepts organizes market structure, liquidity, displacement, imbalance, Order Blocks, Fair Value Gaps, location and invalidation into an observable decision framework. The book deliberately separates what a candlestick chart can show from stories about hidden institutional intention: structure can be mapped, a high can be swept, displacement can be measured and a zone can fail, but the private motives of unseen participants are not directly visible from retail candles. Smart Money Concepts Market structure Liquidity Displacement Order Blocks Fair Value Gaps Premium and discount Invalidation Trade setups Risk management A Practical Guide to Market Structure and High-Probability Trade Setups",
+      "search_blob": "Smart Money Concepts: A Practical Guide to Market Structure, Liquidity, Order Blocks, Fair Value Gaps, and High-Probability Trade Setups Smart Money Concepts Trading Master market structure, liquidity sweeps, BOS, CHoCH, Fair Value Gaps, Order Blocks and disciplined risk planning with Faramarz Kowsari's 40-chapter SMC guide. SMC trading smart money concepts book market structure trading Break of Structure BOS Change of Character CHoCH Market Structure Shift MSS liquidity sweep buy-side liquidity sell-side liquidity order blocks fair value gaps FVG breaker blocks mitigation blocks displacement trading premium and discount top-down trading analysis trading risk management Smart Money Concepts Market structure Liquidity Displacement Invalidation Trade setups Risk management",
       "category": "Smart Money, Liquidity & Market Structure"
     },
     {
