@@ -207,7 +207,9 @@ def render_book(book, meta):
     }
     topics_html = "\n".join(f'<span class="topic" lang="en">{esc(t)}</span>' for t in topics) or '<span class="topic">Темы будут дополнены</span>'
     learn_html = "\n".join(f"<li>{esc(x)}</li>" for x in meta["learning_ru"])
-    cover_html = f'<img src="{esc(cover)}" alt="Обложка книги {esc(title)}" loading="eager">' if cover else ""
+    cover_html = f'<img src="{esc(cover)}" alt="Обложка книги {esc(title)}" loading="eager">' if cover and google else ""
+    if cover_html:
+        cover_html = f'<a class="book-cover-link" href="{esc(google)}" target="_blank" rel="noopener noreferrer" aria-label="View this book on Google Books">{cover_html}</a>'
     subtitle_html = f'<p class="subtitle" lang="{esc(meta["source_lang"])}">{esc(subtitle)}</p>' if subtitle else ""
     buy = f'<a class="btn primary" href="{esc(google)}" target="_blank" rel="noopener">Открыть в Google Books</a>' if google else ""
     prev = f'<a class="btn" href="{esc(preview)}" target="_blank" rel="noopener">Бесплатный просмотр</a>' if preview else ""
