@@ -13,24 +13,24 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 BANNER = re.compile(
-    r"<!-- library-social-preview:start -->.*?<!-- library-social-preview:end -->\\s*",
+    r"<!-- library-social-preview:start -->.*?<!-- library-social-preview:end -->\s*",
     flags=re.I | re.S,
 )
 STYLE = re.compile(
-    r'<style id="library-social-preview-style">.*?</style>\\s*',
+    r'<style id="library-social-preview-style">.*?</style>\s*',
     flags=re.I | re.S,
 )
 META = re.compile(
-    r'<meta\\b[^>]*(?:Social%20Preview\\.jpg)[^>]*>\\s*',
+    r'<meta\b[^>]*(?:Social%20Preview\.jpg)[^>]*>\s*',
     flags=re.I,
 )
 ALT = re.compile(
-    r'<meta\\s+(?:property="og:image:alt"|name="twitter:image:alt")'
-    r'\\s+content="Faramarz Kowsari Official Website and Multilingual Books Library[^"]*"[^>]*>\\s*',
+    r'<meta\s+(?:property="og:image:alt"|name="twitter:image:alt")'
+    r'\s+content="Faramarz Kowsari Official Website and Multilingual Books Library[^"]*"[^>]*>\s*',
     flags=re.I,
 )
 FAVICON = re.compile(
-    r'<link\\s+rel="icon"\\s+href="favicon\\.svg"[^>]*>\\s*',
+    r'<link\s+rel="icon"\s+href="favicon\.svg"[^>]*>\s*',
     flags=re.I,
 )
 
@@ -46,7 +46,7 @@ def clean_file(relative_path: str) -> bool:
     if relative_path == "index.html":
         updated = FAVICON.sub("", updated)
     # If no Open Graph image survives, do not advertise a large-image card.
-    if not re.search(r'<meta\\s+property="og:image"\\s+content="', updated, flags=re.I):
+    if not re.search(r'<meta\s+property="og:image"\s+content="', updated, flags=re.I):
         updated = updated.replace('content="summary_large_image"', 'content="summary"')
     if updated == original:
         return False
