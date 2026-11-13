@@ -385,7 +385,9 @@ def render_book(book, path_code, override):
         actions.append(f'<a class="btn" href="{esc(preview)}" rel="noopener">{esc(cfg["preview"])}</a>')
     actions.append(f'<a class="btn" href="{esc(original)}">{esc(cfg["original"])}</a>')
 
-    cover_html = f'<img src="{esc(cover)}" alt="{esc(title)}" loading="eager" decoding="async">' if cover else ""
+    cover_html = f'<img src="{esc(cover)}" alt="{esc(title)}" loading="eager" decoding="async">' if cover and google else ""
+    if cover_html:
+        cover_html = f'<a class="book-cover-link" href="{esc(google)}" target="_blank" rel="noopener noreferrer" aria-label="View this book on Google Books">{cover_html}</a>'
     subtitle_html = f'<p class="subtitle">{esc(subtitle)}</p>' if subtitle else ""
 
     return f'''<!doctype html>
