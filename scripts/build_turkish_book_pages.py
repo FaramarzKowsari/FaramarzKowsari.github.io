@@ -273,7 +273,10 @@ def render_catalog(items):
         title = book.get("title") or "Untitled"
         cover = book.get("cover_url") or ""
         source_is_tr = meta["source_lang"] == "tr"
-        img = f'<img src="{esc(cover)}" alt="{esc(title)} kitap kapağı" loading="lazy">' if cover else ""
+        google = book.get("google_books_url") or (f"https://play.google.com/store/books/details?id={book.get('google_books_id')}" if book.get("google_books_id") else "")
+        img = f'<img src="{esc(cover)}" alt="{esc(title)} kitap kapağı" loading="lazy">' if cover and google else ""
+        if img:
+            img = f'<a class="catalog-cover-link" href="{esc(google)}" target="_blank" rel="noopener noreferrer" aria-label="View book on Google Books">{img}</a>'
         note = "Kitap Türkçe yayımlanmıştır." if source_is_tr else f"Kitabın yayın dili: {esc(meta['source_lang_tr'])}."
         action = "Kitap sayfasına git →" if source_is_tr else "Türkçe tanıtımı aç →"
         cards.append(
