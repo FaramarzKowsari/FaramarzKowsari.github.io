@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:20:56.115573+00:00",
+  "generated_at": "2026-11-13T18:22:13.456208+00:00",
   "count": 66,
   "categories": {
     "Start Here & Core Technical Analysis": 9,
@@ -1453,7 +1453,7 @@
       "category": "Swing, Trend & Indicator Trading"
     },
     {
-      "title": "Multiple Timeframe Analysis",
+      "title": "Multiple Timeframe Analysis: A Visual Atlas of Market Structure, Context, Alignment & Execution",
       "subtitle": "",
       "genre": "Business & Economics / Investments & Securities / Analysis & Trading Strategies",
       "language": "en",
@@ -1463,17 +1463,18 @@
       "cover": "https://books.google.com/books/content?id=zBgFEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "medium_url": "",
       "source_page": "https://faramarzkowsari.github.io/books/multiple-timeframe-analysis/",
-      "description": "Multiple Timeframe Analysis by Faramarz Kowsari. A reader-oriented introduction to top-down chart reasoning, higher- and lower-timeframe context, conflicting signals and risk-aware trade questions. See the official preview for verified edition-specific content.",
+      "description": "A 200-page visual atlas of multiple timeframe analysis by Faramarz Kowsari: 112 illustrated lessons, 30 companion chapters in 10 parts, six synthetic cases and four practical appendices about context, decision, execution, alignment, risk and backtesting.",
       "tags": [
         "multiple timeframe analysis",
-        "top down chart analysis",
+        "multi timeframe trading",
+        "MTFA",
+        "top down trading analysis",
+        "market structure",
         "higher timeframe context",
         "lower timeframe execution",
-        "intraday trading charts",
-        "swing trading charts",
-        "market structure across timeframes"
+        "trading timeframes"
       ],
-      "search_blob": "Multiple Timeframe Analysis  Business & Economics / Investments & Securities / Analysis & Trading Strategies Multiple Timeframe Analysis by Faramarz Kowsari. A reader-oriented introduction to top-down chart reasoning, higher- and lower-timeframe context, conflicting signals and risk-aware trade questions. See the official preview for verified edition-specific content. multiple timeframe analysis top down chart analysis higher timeframe context lower timeframe execution intraday trading charts swing trading charts market structure across timeframes",
+      "search_blob": "Multiple Timeframe Analysis: A Visual Atlas of Market Structure, Context, Alignment & Execution  Business & Economics / Investments & Securities / Analysis & Trading Strategies A 200-page visual atlas of multiple timeframe analysis by Faramarz Kowsari: 112 illustrated lessons, 30 companion chapters in 10 parts, six synthetic cases and four practical appendices about context, decision, execution, alignment, risk and backtesting. multiple timeframe analysis multi timeframe trading MTFA top down trading analysis market structure higher timeframe context lower timeframe execution trading timeframes",
       "category": "Swing, Trend & Indicator Trading"
     },
     {
