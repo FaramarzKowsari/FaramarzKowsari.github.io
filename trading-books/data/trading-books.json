@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T21:08:15.636898+00:00",
-  "count": 65,
+  "generated_at": "2026-11-13T07:32:39.434761+00:00",
+  "count": 66,
   "categories": {
-    "Start Here & Core Technical Analysis": 9,
+    "Start Here & Core Technical Analysis": 10,
     "Smart Money, Liquidity & Market Structure": 17,
     "Order Flow, Volume & Market Microstructure": 8,
     "Futures & Index Trading": 4,
@@ -66,6 +66,22 @@
         "Backtesting"
       ],
       "search_blob": "BREAKOUT & RETEST TRADING Breakout and Retest: A Rules-Based Trading Strategy Trading Breakout & Retest Trading organizes the strategy into a fixed chain: context, level, break, acceptance, retest, trigger, invalidation, target space, risk and execution. The book begins by defining meaningful levels and distinguishing a real break from a brief penetration, then studies closes, acceptance, follow-through, volume, overextension and the quality of the return to the broken area. Breakouts Retests Acceptance Role reversal Entry triggers False breakouts Volume Session context Risk management Backtesting Breakout and Retest A Rules-Based Trading Strategy",
+      "category": "Start Here & Core Technical Analysis"
+    },
+    {
+      "title": "CANDLE SEQUENCE INTELLIGENCE",
+      "subtitle": "Decoding Hidden Momentum, Pressure, Exhaustion and Breakout Signals from Multi-Candle Price Action",
+      "genre": "['Trading', 'Technical Analysis', 'Financial Education']",
+      "language": "en",
+      "google_id": "wOoqEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=wOoqEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=wOoqEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=wOoqEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/candle-sequence-intelligence/",
+      "description": "Learn multi-candle price action, momentum, wick pressure, exhaustion, breakouts, six trading models and evidence-based testing with Python and Pine Script.",
+      "tags": [],
+      "search_blob": "CANDLE SEQUENCE INTELLIGENCE Decoding Hidden Momentum, Pressure, Exhaustion and Breakout Signals from Multi-Candle Price Action ['Trading', 'Technical Analysis', 'Financial Education'] Learn multi-candle price action, momentum, wick pressure, exhaustion, breakouts, six trading models and evidence-based testing with Python and Pine Script. ",
       "category": "Start Here & Core Technical Analysis"
     },
     {
