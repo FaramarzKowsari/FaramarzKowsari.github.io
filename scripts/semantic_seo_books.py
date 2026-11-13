@@ -479,9 +479,11 @@ def hub_html(cluster,books,profiles):
     slug=cluster["slug"];label=cluster["label"];canonical=f"{BOOKS_BASE}/topics/{slug}/";rows=[];itemlist=[]
     for idx,book in enumerate(sorted(books,key=lambda b:clean(b.get("title")).casefold()),start=1):
         title=clean(book.get("title"));bslug=clean(book.get("slug"));profile=profiles.get(bslug,{});cover=clean(book.get("cover_url"));desc=clean(book.get("seo_description")) or clean(book.get("subtitle"))
-        img=f'<img src="{esc(cover)}" alt="Book cover of {esc(title)} by Faramarz Kowsari" loading="lazy" decoding="async">' if cover else ""
+        google=clean(book.get("google_books_url")) or (f"https://play.google.com/store/books/details?id={clean(book.get('google_books_id'))}" if clean(book.get("google_books_id")) else "")
+        img=f'<img src="{esc(cover)}" alt="Book cover of {esc(title)} by Faramarz Kowsari" loading="lazy" decoding="async">' if cover and google else ""
+        cover_link=f'<a class="hub-cover-link" href="{esc(google)}" target="_blank" rel="noopener noreferrer" aria-label="View book on Google Books">{img}</a>' if img else ""
         entities=", ".join((profile.get("entities") or [])[:4])
-        rows.append(f'<article class="hub-card"><a href="../../{esc(bslug)}/">{img}<h2>{esc(title)}</h2></a>'+ (f'<p>{esc(desc)}</p>' if desc else "") + (f'<p class="small">{esc(entities)}</p>' if entities else "") + '</article>')
+        rows.append(f'<article class="hub-card">{cover_link}<h2><a href="../../{esc(bslug)}/">{esc(title)}</a></h2>'+ (f'<p>{esc(desc)}</p>' if desc else "") + (f'<p class="small">{esc(entities)}</p>' if entities else "") + '</article>')
         itemlist.append({"@type":"ListItem","position":idx,"name":title,"url":f"{BOOKS_BASE}/{bslug}/"})
     queries="".join(f"<li>{esc(x)}</li>" for x in cluster["query_examples"])
     schema={"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":canonical+"#collection","url":canonical,"name":label,"description":cluster["description"],"inLanguage":"en","author":{"@type":"Person","name":AUTHOR,"url":f"{BOOKS_BASE}/author/"},"mainEntity":{"@type":"ItemList","numberOfItems":len(itemlist),"itemListElement":itemlist}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Books","item":f"{BOOKS_BASE}/"},{"@type":"ListItem","position":2,"name":"Books by Topic","item":f"{BOOKS_BASE}/topics/"},{"@type":"ListItem","position":3,"name":label,"item":canonical}]}]}
