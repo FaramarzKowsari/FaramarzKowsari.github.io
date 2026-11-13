@@ -443,8 +443,12 @@ def render_catalog(books, path_code):
             url = f"{BOOKS_BASE}/{book['slug']}/"
         else:
             url = f"{BOOKS_BASE}/{book['slug']}/{path_code}/"
-        img = f'<img src="{esc(cover)}" alt="{esc(title)}" loading="lazy" decoding="async">' if cover else ""
-        cards.append(f'<article class="card"><a href="{esc(url)}">{img}<h2>{esc(title)}</h2></a><p class="small">{esc(cfg["language"])}: {esc(src_name)}</p></article>')
+        google = str(book.get("google_books_url") or "").strip()
+        if not google and book.get("google_books_id"):
+            google = f"https://play.google.com/store/books/details?id={book['google_books_id']}"
+        img = f'<img src="{esc(cover)}" alt="{esc(title)}" loading="lazy" decoding="async">' if cover and google else ""
+        cover_link = f'<a href="{esc(google)}" target="_blank" rel="noopener noreferrer" aria-label="Open book on Google Books">{img}</a>' if img else ""
+        cards.append(f'<article class="card">{cover_link}<h2><a href="{esc(url)}">{esc(title)}</a></h2><p class="small">{esc(cfg["language"])}: {esc(src_name)}</p></article>')
 
     canonical = f"{BOOKS_BASE}/{path_code}/"
     schema = {
