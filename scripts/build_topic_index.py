@@ -144,13 +144,15 @@ def book_card(book):
     title = book.get("title") or "Untitled"
     slug = book.get("slug") or ""
     cover = book.get("cover_url") or ""
+    google_url = book.get("google_books_url") or (f"https://play.google.com/store/books/details?id={book.get('google_books_id')}" if book.get("google_books_id") else "")
+    cover_href = google_url or f"../{slug}/"
     category = book.get("category") or "General"
     language = book.get("language") or ""
     search = " ".join(str(x or "") for x in (title, category, language, book.get("subtitle"))).lower()
-    cover_html = f'<img class="topic-book-cover" src="{esc(cover)}" alt="Book cover of {esc(title)} by Faramarz Kowsari" title="{esc(title)} — book cover by Faramarz Kowsari" loading="lazy" decoding="async">' if cover else '<div class="topic-book-cover topic-book-cover-placeholder" aria-hidden="true"></div>'
+    cover_html = f'<img class="topic-book-cover" src="{esc(cover)}" alt="Book cover of {esc(title)} by Faramarz Kowsari" title="{esc(title)} — book cover by Faramarz Kowsari" loading="lazy" decoding="async">' if cover and google_url else '<div class="topic-book-cover topic-book-cover-placeholder" aria-hidden="true"></div>'
     language_badge = f'<span class="topic-badge">{esc(language)}</span>' if language else ""
     return f'''<article class="topic-book-card" data-search="{esc(search)}">
-  <a class="topic-cover-link" href="../{esc(slug)}/" aria-label="Open {esc(title)}">{cover_html}</a>
+  <a class="topic-cover-link" href="{esc(cover_href)}" aria-label="View {esc(title)} on Google Books">{cover_html}</a>
   <div class="topic-book-body">
     <h3><a href="../{esc(slug)}/">{esc(title)}</a></h3>
     <div class="topic-badges"><span class="topic-badge">{esc(category)}</span>{language_badge}</div>
