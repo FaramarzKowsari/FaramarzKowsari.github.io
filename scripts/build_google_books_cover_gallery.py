@@ -101,7 +101,7 @@ def render_page(items, page_number: int, page_count: int, total: int) -> str:
     title = "Book Covers by Faramarz Kowsari" if page_number == 1 else f"Book Covers by Faramarz Kowsari — Page {page_number}"
     description = (
         f"Browse {total} Google Books cover images for books by Faramarz Kowsari. "
-        "Each cover links to its dedicated book page with structured metadata and Google Books access."
+        "Each cover opens its official Google Books listing; the title opens the detailed author book page."
     )
     first_cover = items[0]["cover"] if items else ""
     prev_link = f'<link rel="prev" href="{esc(page_url(page_number - 1))}">' if page_number > 1 else ""
@@ -119,7 +119,7 @@ def render_page(items, page_number: int, page_count: int, total: int) -> str:
         meta = " · ".join(meta_bits)
         cards.append(
             f'''<article class="cover-card">
-  <a class="cover-link" href="{esc(book_url)}" aria-label="Open {esc(item['title'])}">
+  <a class="cover-link" href="https://play.google.com/store/books/details?id={esc(item['gid'])}" target="_blank" rel="noopener noreferrer" aria-label="Open {esc(item['title'])} on Google Books">
     <img src="{esc(item['cover'])}" alt="{esc(alt)}" title="{esc(item['title'])} — book cover by {AUTHOR}" loading="lazy" decoding="async">
   </a>
   <div class="cover-body">
