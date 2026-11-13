@@ -214,7 +214,9 @@ def render_book(book, meta):
     alternate_ru = f'<link rel="alternate" hreflang="ru" href="{esc(ru_url)}">\n' if ru_url else ""
     topics_html = "\n".join(f'<span class="topic" lang="en">{esc(t)}</span>' for t in topics) or '<span class="topic">Konular daha sonra ayrıntılandırılacaktır</span>'
     learn_html = "\n".join(f"<li>{esc(x)}</li>" for x in meta["learning_tr"])
-    cover_html = f'<img src="{esc(cover)}" alt="{esc(title)} kitap kapağı" loading="eager">' if cover else ""
+    cover_html = f'<img src="{esc(cover)}" alt="{esc(title)} kitap kapağı" loading="eager">' if cover and google else ""
+    if cover_html:
+        cover_html = f'<a class="book-cover-link" href="{esc(google)}" target="_blank" rel="noopener noreferrer" aria-label="View this book on Google Books">{cover_html}</a>'
     subtitle_html = f'<p class="subtitle" lang="{esc(meta["source_lang"])}">{esc(subtitle)}</p>' if subtitle else ""
     buy = f'<a class="btn primary" href="{esc(google)}" target="_blank" rel="noopener">Google Books\'ta aç</a>' if google else ""
     prev = f'<a class="btn" href="{esc(preview)}" target="_blank" rel="noopener">Ücretsiz önizleme</a>' if preview else ""
