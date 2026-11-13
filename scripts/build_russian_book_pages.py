@@ -266,7 +266,10 @@ def render_catalog(items):
         slug = book["slug"]
         title = book.get("title") or "Untitled"
         cover = book.get("cover_url") or ""
-        img = f'<img src="{esc(cover)}" alt="Обложка книги {esc(title)}" loading="lazy">' if cover else ""
+        google = book.get("google_books_url") or (f"https://play.google.com/store/books/details?id={book.get('google_books_id')}" if book.get("google_books_id") else "")
+        img = f'<img src="{esc(cover)}" alt="Обложка книги {esc(title)}" loading="lazy">' if cover and google else ""
+        if img:
+            img = f'<a class="catalog-cover-link" href="{esc(google)}" target="_blank" rel="noopener noreferrer" aria-label="View book on Google Books">{img}</a>'
         cards.append(
             f'<article class="card">{img}<h2 lang="{esc(meta["source_lang"])}"><a href="../{esc(slug)}/ru/">{esc(title)}</a></h2>'
             f'<p><span class="badge">{esc(meta["category_ru"])}</span></p>'
