@@ -400,5 +400,43 @@
     "slides_url": "",
     "doi": "",
     "crossref_status": "not_registered"
+  },
+  {
+    "google_books_id": "wOoqEgAAQBAJ",
+    "title": "CANDLE SEQUENCE INTELLIGENCE",
+    "subtitle": "Decoding Hidden Momentum, Pressure, Exhaustion and Breakout Signals from Multi-Candle Price Action",
+    "slug": "candle-sequence-intelligence",
+    "google_books_url": "https://play.google.com/store/books/details?id=wOoqEgAAQBAJ",
+    "cover_url": "https://books.google.com/books/content?id=wOoqEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+    "status": "active",
+    "content_status": "complete",
+    "language": "English",
+    "language_code": "en",
+    "category": "Trading & Technical Analysis",
+    "source_review_status": "source_available",
+    "description": "A 34-chapter evidence-oriented guide to multi-candle price action, close-location values, wick geometry, overlap, momentum persistence, exhaustion, compression-to-expansion transitions, six trading model hypotheses, Pine Script scanning, Python research and robust backtesting.",
+    "summary": "A practical, measurement-first approach to reading consecutive candlesticks without mistaking price geometry for direct evidence of hidden order flow.",
+    "key_topics": [
+      "Multi-candle price action",
+      "Candlestick sequence analysis",
+      "Momentum and exhaustion",
+      "Close-location value",
+      "Price-path efficiency",
+      "Wick clusters",
+      "Range compression",
+      "Breakout validation",
+      "Pine Script",
+      "Python backtesting"
+    ],
+    "target_audience": "Discretionary candlestick traders, price-action learners and quantitative traders researching clearly defined multi-bar setups.",
+    "publisher": "Faramarz Kowsari",
+    "published_date": "2026-11",
+    "page_count": 256,
+    "isbn": "",
+    "youtube_url": "",
+    "podcast_url": "",
+    "slides_url": "",
+    "doi": "",
+    "crossref_status": "not_registered"
   }
 ]
