@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T18:08:22.420254+00:00",
+  "generated_at": "2026-11-13T18:10:41.558550+00:00",
   "count": 66,
   "categories": {
     "Start Here & Core Technical Analysis": 9,
@@ -1455,7 +1455,7 @@
     {
       "title": "Multiple Timeframe Analysis",
       "subtitle": "",
-      "genre": "",
+      "genre": "Business & Economics / Investments & Securities / Analysis & Trading Strategies",
       "language": "en",
       "google_id": "zBgFEgAAQBAJ",
       "google_url": "https://play.google.com/store/books/details?id=zBgFEgAAQBAJ",
@@ -1463,14 +1463,17 @@
       "cover": "https://books.google.com/books/content?id=zBgFEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "medium_url": "",
       "source_page": "https://faramarzkowsari.github.io/books/multiple-timeframe-analysis/",
-      "description": "A focused trading guide to multiple timeframe analysis for readers who want to connect higher-timeframe market context with lower-timeframe structure and execution. It belongs in the trader’s toolkit for reducing tunnel vision, comparing trend and structure across chart horizons, and making more coherent decisions instead of treating each timeframe as an isolated market.",
+      "description": "Multiple Timeframe Analysis by Faramarz Kowsari. A reader-oriented introduction to top-down chart reasoning, higher- and lower-timeframe context, conflicting signals and risk-aware trade questions. See the official preview for verified edition-specific content.",
       "tags": [
-        "Multiple Timeframe Analysis",
-        "Multiple Timeframe Analysis book",
-        "practical nonfiction book",
-        "Multiple Timeframe Analysis guide"
+        "multiple timeframe analysis",
+        "top down chart analysis",
+        "higher timeframe context",
+        "lower timeframe execution",
+        "intraday trading charts",
+        "swing trading charts",
+        "market structure across timeframes"
       ],
-      "search_blob": "Multiple Timeframe Analysis   A focused trading guide to multiple timeframe analysis for readers who want to connect higher-timeframe market context with lower-timeframe structure and execution. It belongs in the trader’s toolkit for reducing tunnel vision, comparing trend and structure across chart horizons, and making more coherent decisions instead of treating each timeframe as an isolated market. Multiple Timeframe Analysis Multiple Timeframe Analysis book practical nonfiction book Multiple Timeframe Analysis guide",
+      "search_blob": "Multiple Timeframe Analysis  Business & Economics / Investments & Securities / Analysis & Trading Strategies Multiple Timeframe Analysis by Faramarz Kowsari. A reader-oriented introduction to top-down chart reasoning, higher- and lower-timeframe context, conflicting signals and risk-aware trade questions. See the official preview for verified edition-specific content. multiple timeframe analysis top down chart analysis higher timeframe context lower timeframe execution intraday trading charts swing trading charts market structure across timeframes",
       "category": "Swing, Trend & Indicator Trading"
     },
     {
@@ -1660,9 +1663,9 @@
       "category": "AI, Algorithmic & Systematic Trading"
     },
     {
-      "title": "AI Trading with Chatbots",
+      "title": "AI Trading with Chatbots: A Practical Guide to Prompt-Driven Trading Research, Backtesting, Broker APIs, and Risk Management",
       "subtitle": "",
-      "genre": "",
+      "genre": "Business & Economics / Investments & Securities / Analysis & Trading Strategies",
       "language": "en",
       "google_id": "lorZEQAAQBAJ",
       "google_url": "https://play.google.com/store/books/details?id=lorZEQAAQBAJ",
@@ -1670,14 +1673,17 @@
       "cover": "https://books.google.com/books/content?id=lorZEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "medium_url": "",
       "source_page": "https://faramarzkowsari.github.io/books/ai-trading-with-chatbots/",
-      "description": "A systematic trading title focused on turning trading ideas into structured, testable and repeatable workflows with disciplined risk control.",
+      "description": "A 255-page practical guide to responsible AI-assisted trading research, structured prompts, strategy design, Pine Script, MQL5 and Python templates, backtesting, broker API architecture, JSON approvals, journaling and risk controls.",
       "tags": [
-        "AI Trading with Chatbots",
-        "AI Trading with Chatbots book",
-        "trading and financial markets book",
-        "AI Trading with Chatbots guide"
+        "AI trading with ChatGPT",
+        "AI trading chatbots",
+        "prompt-driven trading research",
+        "Python backtesting",
+        "TradingView Pine Script",
+        "MQL5 MetaTrader",
+        "broker API trading"
       ],
-      "search_blob": "AI Trading with Chatbots   A systematic trading title focused on turning trading ideas into structured, testable and repeatable workflows with disciplined risk control. AI Trading with Chatbots AI Trading with Chatbots book trading and financial markets book AI Trading with Chatbots guide",
+      "search_blob": "AI Trading with Chatbots: A Practical Guide to Prompt-Driven Trading Research, Backtesting, Broker APIs, and Risk Management  Business & Economics / Investments & Securities / Analysis & Trading Strategies A 255-page practical guide to responsible AI-assisted trading research, structured prompts, strategy design, Pine Script, MQL5 and Python templates, backtesting, broker API architecture, JSON approvals, journaling and risk controls. AI trading with ChatGPT AI trading chatbots prompt-driven trading research Python backtesting TradingView Pine Script MQL5 MetaTrader broker API trading",
       "category": "AI, Algorithmic & Systematic Trading"
     },
     {
