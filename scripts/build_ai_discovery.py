@@ -15,7 +15,6 @@ SITE = "https://faramarzkowsari.github.io"
 BOOKS_BASE = f"{SITE}/books"
 AUTHOR = "Faramarz Kowsari"
 AUTHOR_URL = f"{BOOKS_BASE}/author/"
-SOCIAL_IMAGE = f"{BOOKS_BASE}/images/Social%20Preview.jpg"
 
 def load_json(path, default):
     try:
@@ -173,8 +172,8 @@ h1{margin:.1em 0 .35em;font-size:clamp(2rem,5vw,3.4rem);line-height:1.05}h2{marg
 <link rel="alternate" type="text/plain" href="{SITE}/llms.txt" title="LLM-readable site index">
 <meta property="og:type" content="website"><meta property="og:title" content="All Books by Faramarz Kowsari">
 <meta property="og:description" content="Text-first index of the official multilingual books library.">
-<meta property="og:url" content="{BOOKS_BASE}/all-books/"><meta property="og:image" content="{SOCIAL_IMAGE}">
-<meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">{schema}</script><style>{css}</style></head>
+<meta property="og:url" content="{BOOKS_BASE}/all-books/">
+<meta name="twitter:card" content="summary"><script type="application/ld+json">{schema}</script><style>{css}</style></head>
 <body><main><header class="top"><p><strong>Official Books Library</strong></p><h1>All Books by Faramarz Kowsari</h1>
 <p>This text-first index exposes the public catalog in a simple, crawlable format for readers, search engines and answer engines. Each title links to its canonical landing page, and Google Books links are included where available.</p>
 <p class="count">{len(books)} public book pages in this index.</p>
