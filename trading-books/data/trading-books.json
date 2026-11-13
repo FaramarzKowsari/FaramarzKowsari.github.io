@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:35:38.201019+00:00",
+  "generated_at": "2026-11-13T07:36:58.784136+00:00",
   "count": 66,
   "categories": {
     "Start Here & Core Technical Analysis": 10,
@@ -71,7 +71,7 @@
     {
       "title": "CANDLE SEQUENCE INTELLIGENCE",
       "subtitle": "Decoding Hidden Momentum, Pressure, Exhaustion and Breakout Signals from Multi-Candle Price Action",
-      "genre": "['Trading', 'Technical Analysis', 'Financial Education']",
+      "genre": "Trading",
       "language": "en",
       "google_id": "wOoqEgAAQBAJ",
       "google_url": "https://play.google.com/store/books/details?id=wOoqEgAAQBAJ",
@@ -80,8 +80,19 @@
       "medium_url": "",
       "source_page": "https://faramarzkowsari.github.io/books/candle-sequence-intelligence/",
       "description": "Learn multi-candle price action, momentum, wick pressure, exhaustion, breakouts, six trading models and evidence-based testing with Python and Pine Script.",
-      "tags": [],
-      "search_blob": "CANDLE SEQUENCE INTELLIGENCE Decoding Hidden Momentum, Pressure, Exhaustion and Breakout Signals from Multi-Candle Price Action ['Trading', 'Technical Analysis', 'Financial Education'] Learn multi-candle price action, momentum, wick pressure, exhaustion, breakouts, six trading models and evidence-based testing with Python and Pine Script. ",
+      "tags": [
+        "Multi-candle price action",
+        "Candlestick sequence analysis",
+        "Momentum persistence and exhaustion",
+        "Body and wick geometry",
+        "Close-location value",
+        "Candle overlap",
+        "Price-path efficiency",
+        "Wick clusters",
+        "Compression and breakout",
+        "Pine Script sequence scanner"
+      ],
+      "search_blob": "CANDLE SEQUENCE INTELLIGENCE Decoding Hidden Momentum, Pressure, Exhaustion and Breakout Signals from Multi-Candle Price Action Trading Learn multi-candle price action, momentum, wick pressure, exhaustion, breakouts, six trading models and evidence-based testing with Python and Pine Script. Multi-candle price action Candlestick sequence analysis Momentum persistence and exhaustion Body and wick geometry Close-location value Candle overlap Price-path efficiency Wick clusters Compression and breakout Pine Script sequence scanner Python backtesting",
       "category": "Start Here & Core Technical Analysis"
     },
     {
