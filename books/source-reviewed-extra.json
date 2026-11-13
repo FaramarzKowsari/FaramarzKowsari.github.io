@@ -260,5 +260,53 @@
     ],
     "target_audience": "Ekonomik baskı altında gıda, barınma, ulaşım, sağlık, eğitim, borç ve günlük tüketim kararlarını yeniden düzenlemek isteyen genel okur için.",
     "crossref_status": "not_registered"
+  },
+  "the-action-based-millionaire-mindset": {
+    "title": "THE ACTION-BASED MILLIONAIRE MINDSET",
+    "subtitle": "Turn Wealth Ambitions into Real-World Experiments, Better Habits, and Smarter Decisions",
+    "language": "English",
+    "language_code": "en",
+    "category": "Personal Finance & Self-Development",
+    "content_status": "complete",
+    "source_reviewed": true,
+    "seo_description": "A 20-chapter evidence-based approach to wealth ambitions: run safe experiments, measure habits, test customer demand and build a 90-day learning portfolio.",
+    "summary": "A practical book about converting financial hopes into bounded experiments, with 20 chapters, decision criteria, customer evidence, ethical constraints and four working cards.",
+    "key_topics": [
+      "Wealth mindset",
+      "Real-world experiments",
+      "Capacity inventory",
+      "One-variable tests",
+      "Financial habits",
+      "Customer validation",
+      "Pricing",
+      "Opportunity costs",
+      "Evidence and feedback",
+      "90-day learning portfolio"
+    ],
+    "target_audience": "For readers interested in practical financial habits, business experiments, entrepreneurship and evidence-based personal growth."
+  },
+  "think-like-the-wealthy": {
+    "title": "THINK LIKE THE WEALTHY",
+    "subtitle": "20 Powerful Questions That Transform Your Money Mindset and Reveal New Opportunities",
+    "language": "English",
+    "language_code": "en",
+    "category": "Wealth Mindset & Financial Psychology",
+    "content_status": "complete",
+    "source_reviewed": true,
+    "seo_description": "Twenty practical questions for improving financial choices, recognizing assumptions, measuring costs, reviewing incentives and evaluating opportunities.",
+    "summary": "A source-based guide to sharper financial questioning, using fictional case studies, purchase decisions, evidence tests, a twenty-question field guide and a thirty-day practice.",
+    "key_topics": [
+      "Money mindset",
+      "Financial psychology",
+      "Critical thinking",
+      "Question reframing",
+      "Ownership costs",
+      "Opportunity costs",
+      "Incentives",
+      "Reversibility",
+      "Evidence-based decisions",
+      "30-day practice"
+    ],
+    "target_audience": "For readers seeking better questions before purchases, career commitments, business decisions or other financial choices."
   }
 }
