@@ -1,8 +1,9 @@
 async function loadBooks(){
-  const [booksResponse,completedResponse,extraResponse]=await Promise.all([
+  const [booksResponse,completedResponse,extraResponse,wealthResponse]=await Promise.all([
     fetch('./books.json'),
     fetch('./completed.json').catch(()=>null),
-    fetch('./source-reviewed-extra.json').catch(()=>null)
+    fetch('./source-reviewed-extra.json').catch(()=>null),
+    fetch('./catalog-additions-2026-11-13-wealth-mindset.json').catch(()=>null)
   ]);
   const completed=completedResponse&&completedResponse.ok?await completedResponse.json():{};
   const extra=extraResponse&&extraResponse.ok?await extraResponse.json():{};
@@ -11,7 +12,11 @@ async function loadBooks(){
     'turkish-a1-visual-grammar':'https://play.google.com/books/publisher/content/images/frontcover/5TjbEQAAQBAJ?fife=w480-h690',
     'turkish-a2-visual-grammar':'https://play.google.com/books/publisher/content/images/frontcover/F-TaEQAAQBAJ?fife=w480-h690'
   };
-  const all=(await booksResponse.json()).filter(b=>b.status==='active').map(b=>{
+  const currentBooks=await booksResponse.json();
+  const wealthAdditions=wealthResponse&&wealthResponse.ok?await wealthResponse.json():[];
+  const existingSlugs=new Set(currentBooks.map(b=>b.slug));
+  const mergedBooks=[...wealthAdditions.filter(b=>!existingSlugs.has(b.slug)),...currentBooks];
+  const all=mergedBooks.filter(b=>b.status==='active').map(b=>{
     const overlay=reviewed[b.slug]||{};
     return {...b,...overlay,cover_url:coverOverrides[b.slug]||overlay.cover_url||b.cover_url,source_reviewed:Boolean(reviewed[b.slug])};
   });
