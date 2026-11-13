@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-13T15:04:55.010812+00:00",
+  "generated_at": "2026-11-13T18:08:22.420254+00:00",
   "count": 66,
   "categories": {
-    "Start Here & Core Technical Analysis": 10,
+    "Start Here & Core Technical Analysis": 9,
     "Smart Money, Liquidity & Market Structure": 17,
     "Order Flow, Volume & Market Microstructure": 8,
     "Futures & Index Trading": 4,
     "Options & Volatility": 6,
     "Scalping & Day Trading": 6,
     "Swing, Trend & Indicator Trading": 8,
-    "Gold, Silver, Forex & Crypto": 2,
+    "Gold, Silver, Forex & Crypto": 3,
     "AI, Algorithmic & Systematic Trading": 3,
     "Trading Risk, Execution & Professional Practice": 2
   },
@@ -174,27 +174,6 @@
         "Backtesting"
       ],
       "search_blob": "FALSE BREAKOUTS / FAKEOUTS: Trading Fakeouts: How to Avoid the Trap Trading False Breakouts / Fakeouts turns the familiar idea of a failed breakout into an operational sequence that can be recorded before the result is known. The book distinguishes the reference boundary, penetration, acceptance outside the level, reclaim, confirmation and invalidation so a wick beyond support or resistance is not automatically labeled manipulation or reversal. False breakouts Fakeouts Liquidity traps Acceptance and rejection Reclaim Market structure Confirmation Invalidation Risk control Backtesting Trading Fakeouts How to Avoid the Trap",
-      "category": "Start Here & Core Technical Analysis"
-    },
-    {
-      "title": "Mastering Fibonacci Trading",
-      "subtitle": "",
-      "genre": "",
-      "language": "en",
-      "google_id": "snsIEgAAQBAJ",
-      "google_url": "https://play.google.com/store/books/details?id=snsIEgAAQBAJ",
-      "preview_url": "https://play.google.com/books/reader?id=snsIEgAAQBAJ&hl=en",
-      "cover": "https://books.google.com/books/content?id=snsIEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
-      "medium_url": "",
-      "source_page": "https://faramarzkowsari.github.io/books/mastering-fibonacci-trading/",
-      "description": "A practical technical-analysis guide for traders who want clearer chart reading, more structured decisions and a stronger connection between setup logic, invalidation and risk.",
-      "tags": [
-        "Mastering Fibonacci Trading",
-        "Mastering Fibonacci Trading book",
-        "trading and financial markets book",
-        "Mastering Fibonacci Trading guide"
-      ],
-      "search_blob": "Mastering Fibonacci Trading   A practical technical-analysis guide for traders who want clearer chart reading, more structured decisions and a stronger connection between setup logic, invalidation and risk. Mastering Fibonacci Trading Mastering Fibonacci Trading book trading and financial markets book Mastering Fibonacci Trading guide",
       "category": "Start Here & Core Technical Analysis"
     },
     {
@@ -1207,27 +1186,6 @@
       "category": "Options & Volatility"
     },
     {
-      "title": "Day Trading",
-      "subtitle": "",
-      "genre": "",
-      "language": "en",
-      "google_id": "8uIGEgAAQBAJ",
-      "google_url": "https://play.google.com/store/books/details?id=8uIGEgAAQBAJ",
-      "preview_url": "https://play.google.com/books/reader?id=8uIGEgAAQBAJ&hl=en",
-      "cover": "https://books.google.com/books/content?id=8uIGEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
-      "medium_url": "",
-      "source_page": "https://faramarzkowsari.github.io/books/day-trading/",
-      "description": "A practical intraday trading title for readers who want sharper session context, faster decision structure and disciplined execution under short time horizons.",
-      "tags": [
-        "Day Trading",
-        "Day Trading book",
-        "trading and financial markets book",
-        "Day Trading guide"
-      ],
-      "search_blob": "Day Trading   A practical intraday trading title for readers who want sharper session context, faster decision structure and disciplined execution under short time horizons. Day Trading Day Trading book trading and financial markets book Day Trading guide",
-      "category": "Scalping & Day Trading"
-    },
-    {
       "title": "Day Trading from Zero",
       "subtitle": "A Practical AI-Assisted Roadmap for Beginners",
       "genre": "Trading",
@@ -1252,6 +1210,30 @@
         "Day Trading from Zero book"
       ],
       "search_blob": "Day Trading from Zero A Practical AI-Assisted Roadmap for Beginners Trading Day Trading from Zero is a beginner roadmap built around essential market principles, risk discipline, chart reading, strategy testing and prompt engineering. It explicitly treats AI as a learning assistant, chart-review partner, journaling coach and structured-thinking tool—not as an oracle or permission to risk money. The book encourages simulation, journaling and evidence before live trading and repeatedly warns that leverage and day trading can produce rapid losses. Day trading basics Candlesticks and timeframes Market structure Support resistance and volume Liquidity and FVGs Risk and position sizing Leverage and margin AI-assisted review and journaling A Practical AI-Assisted Roadmap for Beginners Day Trading from Zero book",
+      "category": "Scalping & Day Trading"
+    },
+    {
+      "title": "Day Trading: The Visual Operating System: A Visual Decision Model for Intraday Trading",
+      "subtitle": "",
+      "genre": "Business & Economics / Investments & Securities / Analysis & Trading Strategies",
+      "language": "en",
+      "google_id": "8uIGEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=8uIGEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=8uIGEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=8uIGEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/day-trading/",
+      "description": "A 268-page visual trading guide to the complete intraday decision workflow, connecting market context, instrument choice, price structure, liquidity, VWAP, execution, stops, position sizing, journaling and a 30-session learning path.",
+      "tags": [
+        "day trading",
+        "intraday trading",
+        "visual decision model",
+        "market structure",
+        "VWAP trading",
+        "order execution",
+        "position sizing"
+      ],
+      "search_blob": "Day Trading: The Visual Operating System: A Visual Decision Model for Intraday Trading  Business & Economics / Investments & Securities / Analysis & Trading Strategies A 268-page visual trading guide to the complete intraday decision workflow, connecting market context, instrument choice, price structure, liquidity, VWAP, execution, stops, position sizing, journaling and a 30-session learning path. day trading intraday trading visual decision model market structure VWAP trading order execution position sizing",
       "category": "Scalping & Day Trading"
     },
     {
@@ -1571,6 +1553,30 @@
       ],
       "search_blob": "The Mathematical Anatomy of Moving Averages: Advanced Trading, Deep Quantitative Insight, and Professional Applications Trading The Mathematical Anatomy of Moving Averages treats a moving average as a model of market memory and a filter that estimates a slower market state rather than as a predictive line or guaranteed support level. Its 100-part architecture begins with foundations, then studies core moving averages, formulas, weights and failure modes before moving into advanced and adaptive smoothers, signal processing, statistical mathematics and parameter engineering. Moving averages Signal and noise Lag versus smoothness SMA EMA WMA HMA KAMA Convolution and weights Causal filters Look-ahead bias Repainting and real-time validity Advanced Trading Deep Quantitative Insight and Professional Applications",
       "category": "Swing, Trend & Indicator Trading"
+    },
+    {
+      "title": "Mastering Fibonacci Trading: The Visual Guide to Predicting the Next Price Move Across Forex, Stocks, Crypto, Commodities & Indices",
+      "subtitle": "",
+      "genre": "Business & Economics / Investments & Securities / Analysis & Trading Strategies",
+      "language": "en",
+      "google_id": "snsIEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=snsIEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=snsIEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=snsIEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/mastering-fibonacci-trading/",
+      "description": "A 322-page visual and practical guide to Fibonacci retracements, extensions, swing selection, multi-timeframe confluence, trade planning, risk, testing and journaling across forex, stocks, crypto, commodities and indices.",
+      "tags": [
+        "Fibonacci trading",
+        "Fibonacci retracements",
+        "Fibonacci extensions",
+        "Fibonacci confluence",
+        "swing high and swing low",
+        "technical analysis",
+        "trade invalidation"
+      ],
+      "search_blob": "Mastering Fibonacci Trading: The Visual Guide to Predicting the Next Price Move Across Forex, Stocks, Crypto, Commodities & Indices  Business & Economics / Investments & Securities / Analysis & Trading Strategies A 322-page visual and practical guide to Fibonacci retracements, extensions, swing selection, multi-timeframe confluence, trade planning, risk, testing and journaling across forex, stocks, crypto, commodities and indices. Fibonacci trading Fibonacci retracements Fibonacci extensions Fibonacci confluence swing high and swing low technical analysis trade invalidation",
+      "category": "Gold, Silver, Forex & Crypto"
     },
     {
       "title": "SILVER TRADING",
