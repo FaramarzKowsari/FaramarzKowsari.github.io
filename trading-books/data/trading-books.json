@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-14T11:27:44.753562+00:00",
-  "count": 66,
+  "generated_at": "2026-11-14T17:03:20.947266+00:00",
+  "count": 67,
   "categories": {
     "Start Here & Core Technical Analysis": 9,
     "Smart Money, Liquidity & Market Structure": 17,
     "Order Flow, Volume & Market Microstructure": 8,
     "Futures & Index Trading": 4,
-    "Options & Volatility": 6,
+    "Options & Volatility": 7,
     "Scalping & Day Trading": 6,
     "Swing, Trend & Indicator Trading": 8,
     "Gold, Silver, Forex & Crypto": 3,
@@ -1156,6 +1156,22 @@
         "Option contract specifications"
       ],
       "search_blob": "OPTIONS TRADING FROM ZERO The Complete Beginner’s Guide to Calls, Puts, Option Chains, Trading Strategies, the Greeks, and Risk Management Trading OPTIONS TRADING FROM ZERO is a structured beginner-to-intermediate guide that teaches options from the contract upward rather than from strategy names downward. The book begins with stocks, ETFs, calls, puts, rights and obligations, then builds the four basic option positions carefully so a new trader can distinguish buying from writing, directional exposure from contractual obligation, and limited-loss structures from positions that can carry much larger risk. Options trading for beginners Calls and puts Option contracts Rights and obligations Long calls Long puts Short calls Short puts Stocks and ETFs Option contract specifications Contract multiplier Option premium Moneyness Intrinsic value Extrinsic value",
+      "category": "Options & Volatility"
+    },
+    {
+      "title": "VANNA & CHARM EXPOSURE TRADING",
+      "subtitle": "How Volatility, Time Decay, Dealer Positioning, and Options Hedging Shape Market Behavior",
+      "genre": "['Options trading', 'Quantitative finance', 'Financial derivatives']",
+      "language": "en",
+      "google_id": "YMksEgAAQBAJ",
+      "google_url": "https://play.google.com/store/books/details?id=YMksEgAAQBAJ",
+      "preview_url": "https://play.google.com/books/reader?id=YMksEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=YMksEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://faramarzkowsari.github.io/books/vanna-charm-exposure-trading/",
+      "description": "Vanna & Charm Exposure Trading by Faramarz Kowsari: 26 chapters covering VEX and CEX, IV shocks, volatility skew, OPEX, 0DTE, Gamma, dealer hedging models, Python and backtesting.",
+      "tags": [],
+      "search_blob": "VANNA & CHARM EXPOSURE TRADING How Volatility, Time Decay, Dealer Positioning, and Options Hedging Shape Market Behavior ['Options trading', 'Quantitative finance', 'Financial derivatives'] Vanna & Charm Exposure Trading by Faramarz Kowsari: 26 chapters covering VEX and CEX, IV shocks, volatility skew, OPEX, 0DTE, Gamma, dealer hedging models, Python and backtesting. ",
       "category": "Options & Volatility"
     },
     {
