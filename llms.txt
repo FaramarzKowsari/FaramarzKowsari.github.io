@@ -23,7 +23,7 @@
 - Use catalog.json for structured discovery and the all-books text index for a crawlable human-readable overview.
 - The repository/site DOI identifies the evolving website and books-library project; it is not a DOI for every individual book.
 
-## Books (180)
+## Books (181)
 
 - [0DTE Options: Trading the Same-Day Market](https://faramarzkowsari.github.io/books/0dte-options/) — English; Trading. A practical 0DTE options guide covering same-day option mechanics, Greeks, structures, market context, execution, risk, evidence, behavior and reusable session tools. Primary search concept: 0DTE Options: Trading the Same-Day Market. Related search concepts: 0DTE Options: Trading the Same-Day Market book; A Practical Guide to Same-Day Options, Greeks, Market Structure, Execution, Risk Control, and High-Speed Decision-Making; Trading; 0DTE options; Same-day expiration.
 - [AI APIs in Practice](https://faramarzkowsari.github.io/books/ai-apis-in-practice/) — English; Artificial Intelligence. A visual engineering guide to AI APIs, multimodal systems, agents, RAG, secure authentication, payload design, evaluation, observability, and governance. Primary search concept: AI APIs in Practice. Related search concepts: AI APIs in Practice book; A Visual Engineering Guide to Multimodal AI, Agents, RAG, Evaluation, Governance, and Real-World Products; Artificial Intelligence; AI APIs; Multimodal AI.
@@ -207,6 +207,8 @@
 - [THINK RICH, THINK INDEPENDENT](https://faramarzkowsari.github.io/books/think-rich-think-independent/) — English; Wealth Mindset & Critical Thinking. Twenty chapters on independent judgment, conformity, fair dissent, tracing sources, examining incentives, competence boundaries, second-order consequences and a practical charter for deciding and revising. Google Books: https://play.google.com/store/books/details?id=0CcsEgAAQBAJ. Primary search concept: THINK RICH, THINK INDEPENDENT by Faramarz Kowsari. Related search concepts: independent thinking book; escape crowd mentality; critical thinking and money decisions; evidence-based judgment.
 
 - [BEYOND PROMPT ENGINEERING](https://faramarzkowsari.github.io/books/beyond-prompt-engineering/) — English; Artificial Intelligence & Prompt Engineering. 36 chapters in 8 parts covering reverse prompting, adaptive questions, context control, evidence-first answers, skeptical review, authorial voice, multilingual writing, counterfactual and Socratic prompting, prompt A/B testing and reusable prompt libraries. Official book listing: https://play.google.com/store/books/details?id=Az8sEgAAQBAJ. Primary search concept: BEYOND PROMPT ENGINEERING by Faramarz Kowsari. Related search concepts: 36 smarter ways to work with AI; reverse prompt engineering; evidence-first prompting; AI collaboration book.
+
+- [VANNA & CHARM EXPOSURE TRADING](https://faramarzkowsari.github.io/books/vanna-charm-exposure-trading/) — English; Options Trading and Quantitative Market Research. Faramarz Kowsari's 26-chapter guide to Vanna Exposure (VEX), Charm Exposure (CEX), Delta, Gamma, volatility surfaces, dealer hedging assumptions, 0DTE, OPEX, VIXpiration, SPX/NDX index futures, execution risk, Python calculations, unit tests and historically valid research. Google Books: https://play.google.com/store/books/details?id=YMksEgAAQBAJ. Search concepts: how volatility and time decay shape dealer hedging; Vanna Charm exposure trading; dealer positioning uncertainty; options Greek market behavior.
 
 ## Discovery notes
 
