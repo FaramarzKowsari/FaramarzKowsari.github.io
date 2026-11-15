@@ -78,6 +78,26 @@
 .calor-rich .calor-buy .calor-button{display:inline-flex;min-height:44px;align-items:center;justify-content:center;background:#f7d7a9;color:#1a4053;border-radius:10px;padding:.8rem 1.1rem;font-weight:800;text-decoration:none;text-align:center}
 .calor-rich .calor-buy .calor-button.alt{background:#fff}
 @media(max-width:650px){.calor-rich .calor-grid{grid-template-columns:1fr}.calor-rich .calor-buy{padding:1.1rem}}
+
+/* Pinterest-hosted editorial book infographics: never self-hosted. */
+.calor-rich .calor-pin-gallery{scroll-margin-top:2rem}
+.calor-rich .calor-pin-feature{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(1rem,3vw,2rem);align-items:center;margin:1.45rem 0;padding:clamp(1rem,2.5vw,1.65rem);background:#fff;border:1px solid #d5e4eb;border-radius:18px;box-shadow:0 7px 26px rgba(23,62,82,.06)}
+.calor-rich .calor-pin-feature:nth-of-type(even){background:#fbfdfd}
+.calor-rich .calor-pin-portrait{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}
+.calor-rich .calor-pin-figure{margin:0;min-width:0}
+.calor-rich .calor-pin-image-link{display:block;border-radius:12px;overflow:hidden;background:#f7f5ee;border:1px solid #d9e0e3;box-shadow:0 2px 10px rgba(25,60,79,.08)}
+.calor-rich .calor-pin-image-link img{display:block;width:100%;height:auto;max-width:100%;transition:transform .22s ease}
+.calor-rich .calor-pin-image-link:hover img{transform:scale(1.015)}
+.calor-rich .calor-pin-image-link:focus-visible,.calor-rich .calor-pin-cta:focus-visible{outline:3px solid #166b9a;outline-offset:3px}
+.calor-rich .calor-pin-figure figcaption{font-size:.88rem;color:#496272;line-height:1.65;margin:.65rem 0 0}
+.calor-rich .calor-pin-number{font-size:.75rem;letter-spacing:.045em;text-transform:uppercase;font-weight:800;color:#9e6738;margin:0 0 .4rem}
+.calor-rich .calor-pin-copy h3{font-size:clamp(1.15rem,2vw,1.4rem);color:#173f58;margin:0 0 .75rem;line-height:1.38}
+.calor-rich .calor-pin-copy>p:not(.calor-pin-number){line-height:1.85;margin:.4rem 0 1rem}
+.calor-rich .calor-pin-cta{display:inline-block;min-height:44px;box-sizing:border-box;padding:.75rem 1rem;border-radius:10px;background:#19516c;color:white;text-decoration:none;font-weight:750;line-height:1.45}
+.calor-rich .calor-pin-cta:hover{background:#123e55;color:white}
+.calor-rich .calor-pin-endnote{background:#fff6e8;border-left:4px solid #d69d54;padding:1.1rem 1.2rem;border-radius:0 12px 12px 0;line-height:1.85}
+@media(max-width:730px){.calor-rich .calor-pin-feature,.calor-rich .calor-pin-portrait{grid-template-columns:minmax(0,1fr)}.calor-rich .calor-pin-feature{padding:1rem;gap:1rem}}
+@media(prefers-reduced-motion:reduce){.calor-rich .calor-pin-image-link img{transition:none}.calor-rich .calor-pin-image-link:hover img{transform:none}}
 </style>
 <meta name="keywords" content="España ante el calor, vivienda fresca, guía visual, calor extremo, ola de calor, ático, pisos, sombra exterior, toldos, persianas, ventilación nocturna, aire acondicionado eficiente, humedad, calima, humo de incendios, PM2.5, purificador de aire, ahorro de energía, Faramarz Kowsari">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://faramarzkowsari.github.io/books/espana-ante-el-calor/#faq","mainEntity":[{"@type":"Question","name":"¿Sirve si vivo en un piso de alquiler?","acceptedAnswer":{"@type":"Answer","text":"Sí. Incluye soluciones reversibles, sombra, ventilación y equipos portátiles, además de un kit de observación para inquilinos."}},{"@type":"Question","name":"¿Cuándo conviene abrir o cerrar las ventanas?","acceptedAnswer":{"@type":"Answer","text":"La guía enseña a comparar temperatura, humedad, calidad del aire, viento, ruido, seguridad y horario antes de ventilar."}},{"@type":"Question","name":"¿Es útil para un ático o noches tropicales?","acceptedAnswer":{"@type":"Answer","text":"Sí. Contiene escenarios de un ático madrileño, una vivienda mediterránea con noches tropicales y una casa atlántica con humedad."}},{"@type":"Question","name":"¿Qué hacer con humo o calima?","acceptedAnswer":{"@type":"Answer","text":"Explica cómo evaluar la entrada de partículas, usar filtración y proteger una estancia prioritaria siguiendo avisos oficiales."}},{"@type":"Question","name":"¿Incluye herramientas prácticas?","acceptedAnswer":{"@type":"Answer","text":"Sí. Presenta un perfil térmico, un horario de ventilación, un estimador de consumo, un comparador interior-exterior y un registro de siete días."}},{"@type":"Question","name":"¿Explica el gasto de aire acondicionado?","acceptedAnswer":{"@type":"Answer","text":"Relaciona potencia, horas, kWh y precio introducido por el usuario para orientar estimaciones, sin prometer una factura concreta."}},{"@type":"Question","name":"¿Hay recomendaciones para personas vulnerables?","acceptedAnswer":{"@type":"Answer","text":"Sí. Incluye pautas de cuidado de niños, mayores, animales de compañía y respuesta ante cortes de luz."}},{"@type":"Question","name":"¿Es una auditoría de vivienda?","acceptedAnswer":{"@type":"Answer","text":"No. Se trata de orientación doméstica; problemas de seguridad, instalaciones y salud requieren avisos oficiales o valoración profesional."}}]}</script>
@@ -99,7 +119,7 @@
       <div class="actions"><a class="action primary" href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer">Ver / Comprar en Google Books</a></div>
     </div>
   </section>
-<nav class="premium-toc" aria-label="Secciones del libro"><strong>En esta guía</strong><a href="#premium-about">Resumen</a><a href="#calor-metodo">Método</a><a href="#calor-indice">100 láminas</a><a href="#calor-decisiones">Soluciones</a><a href="#calor-casos">Casos españoles</a><a href="#calor-herramientas">Herramientas</a><a href="#calor-faq">Preguntas</a><a href="#calor-comprar">Comprar</a></nav>
+<nav class="premium-toc" aria-label="Secciones del libro"><strong>En esta guía</strong><a href="#premium-about">Resumen</a><a href="#calor-infografias">Infografías</a><a href="#calor-metodo">Método</a><a href="#calor-indice">100 láminas</a><a href="#calor-decisiones">Soluciones</a><a href="#calor-casos">Casos españoles</a><a href="#calor-herramientas">Herramientas</a><a href="#calor-faq">Preguntas</a><a href="#calor-comprar">Comprar</a></nav>
 <ul class="premium-focus" aria-label="Core themes"><li>Calor extremo en casa</li><li>Confort térmico</li><li>Radiación solar</li><li>Conducción y convección</li><li>Inercia térmica</li></ul>
 
 <!-- google-books-preview:start -->
@@ -169,6 +189,87 @@
   <section class="section premium-audience" id="premium-audience"><h2>Para quién es este libro</h2><p>Para personas que viven en España —en pisos, áticos, viviendas interiores, casas costeras o viviendas en zonas de calor seco— y quieren comprender por qué se sobrecalienta su hogar, cómo combinar sombra, ventilación y refrigeración, y cómo proteger simultáneamente el confort, la calidad del aire y el consumo energético.</p></section>
 
   
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageGallery","@id":"https://faramarzkowsari.github.io/books/espana-ante-el-calor/#galeria-infografias","name":"Infografías de España ante el calor, de Faramarz Kowsari","description":"Cinco infografías sobre calor extremo en viviendas españolas, sombra, ventilación, calidad del aire y planes prácticos, vinculadas al libro España ante el calor de Faramarz Kowsari.","url":"https://faramarzkowsari.github.io/books/espana-ante-el-calor/#calor-infografias","isPartOf":{"@id":"https://faramarzkowsari.github.io/books/espana-ante-el-calor/#book"},"associatedMedia":[{"@type":"ImageObject","name":"Por qué tu casa acumula calor: entiende el problema antes de comprar soluciones","contentUrl":"https://i.pinimg.com/736x/06/58/76/0658761fb2c1abaf39864f30e073053b.jpg","caption":"España ante el calor, de Faramarz Kowsari: radiación, conducción y convección explicadas con una infografía visual para viviendas españolas.","description":"Infografía de España ante el calor, libro de Faramarz Kowsari, sobre radiación solar, conducción y convección en viviendas de España, con edificio en sección, áticos, pisos, patios, olas de calor y soluciones para una casa fresca.","about":{"@id":"https://faramarzkowsari.github.io/books/espana-ante-el-calor/#book"}},{"@type":"ImageObject","name":"La sombra empieza a enfriar antes de que el calor entre","contentUrl":"https://i.pinimg.com/736x/4f/a4/de/4fa4def5b0089f7b53c30af99ed8c359.jpg","caption":"Sombra inteligente, persianas y toldos: estrategias de protección solar del libro España ante el calor, de Faramarz Kowsari.","description":"Infografía del libro España ante el calor de Faramarz Kowsari que compara una fachada española antes y después de añadir sombra exterior, con toldos, persianas, cortinas térmicas, vegetación, recorrido solar y consejos de eficiencia energética.","about":{"@id":"https://faramarzkowsari.github.io/books/espana-ante-el-calor/#book"}},{"@type":"ImageObject","name":"¿Ventanas abiertas o cerradas? Una decisión que cambia con cada hora","contentUrl":"https://i.pinimg.com/736x/a8/c6/5d/a8c65dd2f428d902299feefd0b6d8aa5.jpg","caption":"Ventilación cruzada, ventilación nocturna y refrigeración eficiente en España ante el calor, la guía de Faramarz Kowsari.","description":"Infografía educativa España ante el calor de Faramarz Kowsari con plano de ventilación cruzada en un piso español, matriz para abrir o cerrar ventanas, ventilación nocturna, ventiladores, humedad y aire acondicionado eficiente.","about":{"@id":"https://faramarzkowsari.github.io/books/espana-ante-el-calor/#book"}},{"@type":"ImageObject","name":"Cuando refrescar y respirar bien parecen objetivos opuestos","contentUrl":"https://i.pinimg.com/736x/92/34/3b/92343bf066601328bf6df49a65583955.jpg","caption":"Calima, humo de incendios, PM2,5 y purificadores: calidad del aire interior en España ante el calor de Faramarz Kowsari.","description":"Infografía vertical del libro España ante el calor de Faramarz Kowsari sobre calima, humo de incendios forestales, partículas PM2,5 y PM10, purificadores con filtros HEPA, CO₂, ventilación y habitación de aire limpio.","about":{"@id":"https://faramarzkowsari.github.io/books/espana-ante-el-calor/#book"}},{"@type":"ImageObject","name":"Del ático al piso interior: soluciones distintas para hogares distintos","contentUrl":"https://i.pinimg.com/736x/55/c8/49/55c8497d532f875a7f6444d00107dd5e.jpg","caption":"Casos prácticos, ahorro de electricidad y planes frente a olas de calor del libro España ante el calor, de Faramarz Kowsari.","description":"Infografía vertical de España ante el calor, libro de Faramarz Kowsari, con casos de áticos calurosos, pisos interiores, viviendas de alquiler, familias, mascotas, teletrabajo, facturas eléctricas y preparación ante cortes de luz durante olas de calor.","about":{"@id":"https://faramarzkowsari.github.io/books/espana-ante-el-calor/#book"}}]}</script>
+<!-- pinterest-editorial-gallery:start -->
+<section class="section calor-pin-gallery" id="calor-infografias" aria-labelledby="calor-infografias-title">
+  <p class="calor-kicker">Una mirada dentro de la guía visual</p>
+  <h2 id="calor-infografias-title">Cinco infografías para descubrir «España ante el calor»</h2>
+  <p class="calor-intro">¿Qué hace que una vivienda se vuelva insoportable cuando aprieta el verano? Estas cinco láminas reúnen los grandes asuntos del libro <strong>España ante el calor</strong>, de <strong>Faramarz Kowsari</strong>: el movimiento del calor, la protección solar, la ventilación, el aire limpio y las decisiones que dependen de cada hogar. Las imágenes se muestran directamente desde Pinterest, sin almacenarse en este sitio. <strong>Pulsa cualquier infografía para conocer el libro completo en Google Play Books.</strong></p>
+  <article class="calor-pin-feature calor-pin-landscape" id="calor-infografia-1">
+    <figure class="calor-pin-figure">
+      <a class="calor-pin-image-link" href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Ver y comprar España ante el calor de Faramarz Kowsari en Google Play Books; infografía 1: Por qué tu casa acumula calor: entiende el problema antes de comprar soluciones">
+        <img src="https://i.pinimg.com/736x/06/58/76/0658761fb2c1abaf39864f30e073053b.jpg" width="736" height="414" loading="lazy" decoding="async" alt="Infografía de España ante el calor, libro de Faramarz Kowsari, sobre radiación solar, conducción y convección en viviendas de España, con edificio en sección, áticos, pisos, patios, olas de calor y soluciones para una casa fresca." title="España ante el calor, de Faramarz Kowsari: radiación, conducción y convección explicadas con una infografía visual para viviendas españolas.">
+      </a>
+      <figcaption>España ante el calor, de Faramarz Kowsari: radiación, conducción y convección explicadas con una infografía visual para viviendas españolas.</figcaption>
+    </figure>
+    <div class="calor-pin-copy">
+      <p class="calor-pin-number">Infografía 01 · Guía visual</p>
+      <h3>Por qué tu casa acumula calor: entiende el problema antes de comprar soluciones</h3>
+      <p>Hay viviendas que siguen ardiendo cuando la calle empieza a refrescar. No es una contradicción: el sol, la cubierta, las ventanas y los materiales almacenan y trasladan energía de maneras distintas. En España ante el calor, Faramarz Kowsari te enseña a reconocer esas rutas invisibles del calor con esquemas y casos cercanos a la vida en España. Si alguna vez has probado a ventilar, bajar persianas o encender el aire acondicionado sin saber por qué unas medidas funcionan y otras no, aquí encontrarás el criterio que te faltaba.</p>
+      <a class="calor-pin-cta" href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Descubrir España ante el calor de Faramarz Kowsari en Google Play Books">Descubre las 100 infografías del libro en Google Play Books</a>
+    </div>
+  </article>
+  <article class="calor-pin-feature calor-pin-landscape" id="calor-infografia-2">
+    <figure class="calor-pin-figure">
+      <a class="calor-pin-image-link" href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Ver y comprar España ante el calor de Faramarz Kowsari en Google Play Books; infografía 2: La sombra empieza a enfriar antes de que el calor entre">
+        <img src="https://i.pinimg.com/736x/4f/a4/de/4fa4def5b0089f7b53c30af99ed8c359.jpg" width="736" height="414" loading="lazy" decoding="async" alt="Infografía del libro España ante el calor de Faramarz Kowsari que compara una fachada española antes y después de añadir sombra exterior, con toldos, persianas, cortinas térmicas, vegetación, recorrido solar y consejos de eficiencia energética." title="Sombra inteligente, persianas y toldos: estrategias de protección solar del libro España ante el calor, de Faramarz Kowsari.">
+      </a>
+      <figcaption>Sombra inteligente, persianas y toldos: estrategias de protección solar del libro España ante el calor, de Faramarz Kowsari.</figcaption>
+    </figure>
+    <div class="calor-pin-copy">
+      <p class="calor-pin-number">Infografía 02 · Guía visual</p>
+      <h3>La sombra empieza a enfriar antes de que el calor entre</h3>
+      <p>Un balcón orientado al oeste, una ventana sin toldo o una cubierta expuesta pueden convertir cada tarde en una lucha contra el termómetro. ¿Y si el primer paso no fuera enfriar el aire, sino evitar que entre tanto calor? Esta parte de España ante el calor relaciona orientación, persianas, toldos, láminas solares y vegetación con decisiones prácticas para pisos, áticos y patios. Faramarz Kowsari invita a mirar primero la fachada: la solución más sensata puede empezar fuera de la habitación, antes de que aumente la factura eléctrica.</p>
+      <a class="calor-pin-cta" href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Descubrir España ante el calor de Faramarz Kowsari en Google Play Books">Descubre las 100 infografías del libro en Google Play Books</a>
+    </div>
+  </article>
+  <article class="calor-pin-feature calor-pin-landscape" id="calor-infografia-3">
+    <figure class="calor-pin-figure">
+      <a class="calor-pin-image-link" href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Ver y comprar España ante el calor de Faramarz Kowsari en Google Play Books; infografía 3: ¿Ventanas abiertas o cerradas? Una decisión que cambia con cada hora">
+        <img src="https://i.pinimg.com/736x/a8/c6/5d/a8c65dd2f428d902299feefd0b6d8aa5.jpg" width="736" height="414" loading="lazy" decoding="async" alt="Infografía educativa España ante el calor de Faramarz Kowsari con plano de ventilación cruzada en un piso español, matriz para abrir o cerrar ventanas, ventilación nocturna, ventiladores, humedad y aire acondicionado eficiente." title="Ventilación cruzada, ventilación nocturna y refrigeración eficiente en España ante el calor, la guía de Faramarz Kowsari.">
+      </a>
+      <figcaption>Ventilación cruzada, ventilación nocturna y refrigeración eficiente en España ante el calor, la guía de Faramarz Kowsari.</figcaption>
+    </figure>
+    <div class="calor-pin-copy">
+      <p class="calor-pin-number">Infografía 03 · Guía visual</p>
+      <h3>¿Ventanas abiertas o cerradas? Una decisión que cambia con cada hora</h3>
+      <p>Abrir las ventanas a mediodía no siempre refresca; cerrarlas toda la noche tampoco es una receta universal. Todo depende de la diferencia entre el aire exterior y el interior, la humedad, el viento y la calidad del aire. España ante el calor convierte esa incertidumbre en preguntas concretas y herramientas visuales: cuándo ventilar, cómo aprovechar dos fachadas, en qué ayuda un ventilador y cuándo conviene refrigerar solo una estancia. Con Faramarz Kowsari, el lector deja de perseguir trucos de verano y empieza a construir una rutina adaptada a su propia casa.</p>
+      <a class="calor-pin-cta" href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Descubrir España ante el calor de Faramarz Kowsari en Google Play Books">Descubre las 100 infografías del libro en Google Play Books</a>
+    </div>
+  </article>
+  <article class="calor-pin-feature calor-pin-portrait" id="calor-infografia-4">
+    <figure class="calor-pin-figure">
+      <a class="calor-pin-image-link" href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Ver y comprar España ante el calor de Faramarz Kowsari en Google Play Books; infografía 4: Cuando refrescar y respirar bien parecen objetivos opuestos">
+        <img src="https://i.pinimg.com/736x/92/34/3b/92343bf066601328bf6df49a65583955.jpg" width="736" height="1104" loading="lazy" decoding="async" alt="Infografía vertical del libro España ante el calor de Faramarz Kowsari sobre calima, humo de incendios forestales, partículas PM2,5 y PM10, purificadores con filtros HEPA, CO₂, ventilación y habitación de aire limpio." title="Calima, humo de incendios, PM2,5 y purificadores: calidad del aire interior en España ante el calor de Faramarz Kowsari.">
+      </a>
+      <figcaption>Calima, humo de incendios, PM2,5 y purificadores: calidad del aire interior en España ante el calor de Faramarz Kowsari.</figcaption>
+    </figure>
+    <div class="calor-pin-copy">
+      <p class="calor-pin-number">Infografía 04 · Casos y consejos visuales</p>
+      <h3>Cuando refrescar y respirar bien parecen objetivos opuestos</h3>
+      <p>Llega una noche sofocante y quieres abrirlo todo. Pero hay calima, partículas en suspensión o humo de un incendio cercano. ¿Qué decisión protege mejor a tu familia? En España ante el calor, Faramarz Kowsari aborda precisamente ese conflicto: reducir el calor sin perder de vista el aire que respiramos. La guía distingue ventilación de filtración, explica qué mirar al elegir un purificador y propone cómo priorizar una habitación durante episodios de contaminación. No ofrece una orden idéntica para todos los días, sino una forma de decidir cuando el tiempo cambia y las soluciones fáciles dejan de servir.</p>
+      <a class="calor-pin-cta" href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Descubrir España ante el calor de Faramarz Kowsari en Google Play Books">Descubre las 100 infografías del libro en Google Play Books</a>
+    </div>
+  </article>
+  <article class="calor-pin-feature calor-pin-portrait" id="calor-infografia-5">
+    <figure class="calor-pin-figure">
+      <a class="calor-pin-image-link" href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Ver y comprar España ante el calor de Faramarz Kowsari en Google Play Books; infografía 5: Del ático al piso interior: soluciones distintas para hogares distintos">
+        <img src="https://i.pinimg.com/736x/55/c8/49/55c8497d532f875a7f6444d00107dd5e.jpg" width="736" height="1104" loading="lazy" decoding="async" alt="Infografía vertical de España ante el calor, libro de Faramarz Kowsari, con casos de áticos calurosos, pisos interiores, viviendas de alquiler, familias, mascotas, teletrabajo, facturas eléctricas y preparación ante cortes de luz durante olas de calor." title="Casos prácticos, ahorro de electricidad y planes frente a olas de calor del libro España ante el calor, de Faramarz Kowsari.">
+      </a>
+      <figcaption>Casos prácticos, ahorro de electricidad y planes frente a olas de calor del libro España ante el calor, de Faramarz Kowsari.</figcaption>
+    </figure>
+    <div class="calor-pin-copy">
+      <p class="calor-pin-number">Infografía 05 · Casos y consejos visuales</p>
+      <h3>Del ático al piso interior: soluciones distintas para hogares distintos</h3>
+      <p>No afronta el verano igual quien vive bajo un tejado expuesto que quien alquila un piso interior, teletrabaja o cuida de una persona mayor. Por eso España ante el calor baja de la teoría a situaciones reconocibles: reformas posibles y medidas reversibles, protección de los espacios más utilizados, consumo eléctrico, planificación diaria y preparación ante cortes de suministro. Faramarz Kowsari reúne estas decisiones en una lectura que puedes trasladar a tu vivienda sin confundir una infografía orientativa con una promesa de resultados idénticos. El valor está en saber qué observar, qué priorizar y por dónde empezar.</p>
+      <a class="calor-pin-cta" href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer" aria-label="Descubrir España ante el calor de Faramarz Kowsari en Google Play Books">Descubre las 100 infografías del libro en Google Play Books</a>
+    </div>
+  </article>
+  <p class="calor-pin-endnote"><strong>¿Te reconoces en alguna de estas situaciones?</strong> Las imágenes son una introducción. El libro desarrolla la observación de tu vivienda, el clima de tu zona y las decisiones cotidianas con un método visual propio. <a href="https://play.google.com/store/books/details?id=Cpr6EQAAQBAJ" target="_blank" rel="noopener noreferrer">Consulta «España ante el calor», de Faramarz Kowsari, y su muestra disponible.</a></p>
+</section>
+<!-- pinterest-editorial-gallery:end -->
+
 <!-- source-100-plates:start -->
 <section class="section calor-long" id="calor-valor"><h2>Más que consejos de verano: una forma nueva de entender tu casa</h2>
 <p class="calor-intro">¿Por qué un dormitorio sigue caliente aunque haya refrescado la calle? ¿Cómo decidir si es mejor bajar una persiana, abrir dos ventanas, mover el aire o encender la climatización? ¿Y qué ocurre cuando la solución para expulsar calor entra en conflicto con el humo de incendios o la calima?</p>
