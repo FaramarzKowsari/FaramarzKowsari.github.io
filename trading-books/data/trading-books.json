@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T19:19:44.057862+00:00",
+  "generated_at": "2026-11-16T07:20:13.715466+00:00",
   "count": 67,
   "categories": {
     "Start Here & Core Technical Analysis": 9,
@@ -474,7 +474,7 @@
       "category": "Smart Money, Liquidity & Market Structure"
     },
     {
-      "title": "Inverse Fair Value Gaps (iFVG)",
+      "title": "Inverse Fair Value Gaps (iFVG): Inverse Fair Value Gap Trading",
       "subtitle": "Inverse Fair Value Gap Trading",
       "genre": "Trading",
       "language": "en",
@@ -497,7 +497,7 @@
         "Failure modes",
         "Backtesting"
       ],
-      "search_blob": "Inverse Fair Value Gaps (iFVG) Inverse Fair Value Gap Trading Trading Inverse Fair Value Gaps (iFVG) starts with ordinary Fair Value Gap geometry and asks what changes when the original imbalance loses its role and price establishes itself on the opposite side. The useful information is the failed expectation, not merely a rectangle changing color. The book defines bullish and bearish iFVGs, then connects inversion to market structure, liquidity sweeps, displacement, premium/discount and dealing-range location. Inverse Fair Value Gaps Fair Value Gap anatomy Market structure Liquidity sweeps Displacement Premium and discount Multi-timeframe analysis Entry models Failure modes Backtesting Inverse Fair Value Gap Trading",
+      "search_blob": "Inverse Fair Value Gaps (iFVG): Inverse Fair Value Gap Trading Inverse Fair Value Gap Trading Trading Inverse Fair Value Gaps (iFVG) starts with ordinary Fair Value Gap geometry and asks what changes when the original imbalance loses its role and price establishes itself on the opposite side. The useful information is the failed expectation, not merely a rectangle changing color. The book defines bullish and bearish iFVGs, then connects inversion to market structure, liquidity sweeps, displacement, premium/discount and dealing-range location. Inverse Fair Value Gaps Fair Value Gap anatomy Market structure Liquidity sweeps Displacement Premium and discount Multi-timeframe analysis Entry models Failure modes Backtesting Inverse Fair Value Gap Trading",
       "category": "Smart Money, Liquidity & Market Structure"
     },
     {
