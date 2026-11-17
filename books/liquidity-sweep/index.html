@@ -161,6 +161,112 @@
 @media(max-width:1000px){.book-page .ls-enhancement .ls-chart-grid{grid-template-columns:1fr 1fr}.book-page .ls-enhancement .ls-market-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.book-page .ls-enhancement .ls-chart-grid,.book-page .ls-enhancement .ls-flow,.book-page .ls-enhancement .ls-example-grid,.book-page .ls-enhancement .ls-beforeafter,.book-page .ls-enhancement .ls-chapter-grid,.book-page .ls-enhancement .ls-tools-grid{grid-template-columns:minmax(0,1fr)}.book-page .ls-enhancement .ls-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.book-page .ls-enhancement .ls-hero-links .ls-button,.book-page .ls-enhancement .ls-final-actions .ls-button{width:100%}}
 @media(max-width:440px){.book-page .ls-enhancement .ls-market-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* ls-readable-hero-v2:start */
+/* Light editorial treatment: readable even if shared site rules color strong/em/headings. */
+.book-page .ls-enhancement .ls-hero{
+  background:linear-gradient(125deg,#f9fbfd 0%,#edf6f8 58%,#e7f2f3 100%)!important;
+  border:1px solid #c8dae3;
+  color:#142e42!important;
+  box-shadow:0 8px 28px rgba(14,47,65,.08);
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+.book-page .ls-enhancement .ls-hero .ls-eyebrow{
+  color:#875a17!important;
+  font-size:clamp(.76rem,1.15vw,.88rem);
+  font-weight:800;
+  letter-spacing:.075em;
+  line-height:1.5;
+}
+.book-page .ls-enhancement .ls-hero h2,
+.book-page .ls-enhancement .ls-hero h2 strong{
+  color:#122f47!important;
+  font-size:clamp(1.8rem,3.5vw,2.85rem);
+  font-weight:800;
+  line-height:1.22;
+  letter-spacing:-.02em;
+  max-width:34ch;
+}
+.book-page .ls-enhancement .ls-hero h2 span{
+  color:#087568!important;
+  font-weight:800;
+}
+.book-page .ls-enhancement .ls-hero p,
+.book-page .ls-enhancement .ls-hero .ls-hero-lead{
+  color:#263e51!important;
+  line-height:1.75;
+  font-size:clamp(1rem,1.36vw,1.13rem);
+}
+.book-page .ls-enhancement .ls-hero p strong,
+.book-page .ls-enhancement .ls-hero p em,
+.book-page .ls-enhancement .ls-hero p b{
+  color:#102b41!important;
+}
+.book-page .ls-enhancement .ls-hero .ls-metrics>div{
+  background:#ffffff!important;
+  border:1px solid #bed5df!important;
+  box-shadow:0 2px 8px rgba(19,53,72,.035);
+  padding:1.05rem 1rem;
+}
+.book-page .ls-enhancement .ls-hero .ls-metrics strong{
+  color:#0b5671!important;
+  font-size:clamp(1.8rem,3.4vw,2.45rem);
+  font-weight:850;
+  line-height:1.2;
+}
+.book-page .ls-enhancement .ls-hero .ls-metrics span{
+  color:#264255!important;
+  font-size:.92rem;
+  font-weight:550;
+  line-height:1.45;
+}
+.book-page .ls-enhancement .ls-hero .ls-button{
+  background:#0f5270!important;
+  border-color:#0f5270!important;
+  color:#fff!important;
+  font-size:.97rem;
+  font-weight:750;
+  letter-spacing:0;
+  text-shadow:none;
+}
+.book-page .ls-enhancement .ls-hero .ls-button:hover{
+  background:#093e58!important;border-color:#093e58!important;color:#fff!important;
+}
+.book-page .ls-enhancement .ls-hero .ls-button.ls-outline{
+  background:#fff!important;border:1px solid #63869a!important;color:#173a50!important;
+}
+.book-page .ls-enhancement .ls-hero .ls-button.ls-outline:hover{
+  background:#e4f1f5!important;color:#102f45!important;
+}
+/* Matching high-contrast treatment for the closing purchase panel. */
+.book-page .ls-enhancement .ls-final{
+  background:linear-gradient(125deg,#f5fafb,#eaf3f6)!important;
+  border:1px solid #c5d9e2;
+  box-shadow:0 7px 20px rgba(14,47,65,.065);
+  color:#153247!important;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+.book-page .ls-enhancement .ls-final h2{color:#13334b!important;font-weight:800;line-height:1.25}
+.book-page .ls-enhancement .ls-final h2 em{color:#0b7167!important}
+.book-page .ls-enhancement .ls-final p,
+.book-page .ls-enhancement .ls-final p strong,
+.book-page .ls-enhancement .ls-final .ls-disclaimer{color:#28465a!important}
+.book-page .ls-enhancement .ls-final .ls-eyebrow{color:#885b1a!important}
+.book-page .ls-enhancement .ls-final .ls-button{
+  background:#0f5270!important;border-color:#0f5270!important;color:#fff!important
+}
+.book-page .ls-enhancement .ls-final .ls-button.ls-outline{
+  background:#fff!important;border:1px solid #63869a!important;color:#173a50!important
+}
+.book-page .ls-enhancement .ls-final .ls-button:hover{background:#093e58!important;color:#fff!important}
+.book-page .ls-enhancement .ls-final .ls-button.ls-outline:hover{background:#e4f1f5!important;color:#102f45!important}
+@media(max-width:700px){
+ .book-page .ls-enhancement .ls-hero{padding:1.35rem!important;border-radius:16px}
+ .book-page .ls-enhancement .ls-hero h2{font-size:clamp(1.7rem,6vw,2.3rem)}
+ .book-page .ls-enhancement .ls-hero .ls-metrics>div{padding:.88rem .8rem}
+ .book-page .ls-enhancement .ls-hero .ls-hero-lead{font-size:1rem}
+}
+/* ls-readable-hero-v2:end */
 </style><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","@id":"https://faramarzkowsari.github.io/books/liquidity-sweep/#ls-faq","mainEntity":[{"@type":"Question","name":"Does a liquidity sweep always mean a reversal?","acceptedAnswer":{"@type":"Answer","text":"No. The book separates a breach and reclaim from continued acceptance beyond the level. A sweep can precede a reversal, continuation or no actionable trade."}},{"@type":"Question","name":"What is the difference between a sweep and a breakout?","acceptedAnswer":{"@type":"Answer","text":"The decision depends on what happens after price breaches a pre-marked level: reclaim and rejection support one reading; sustained acceptance beyond the level supports another."}},{"@type":"Question","name":"Does the book cover XAUUSD and other markets?","acceptedAnswer":{"@type":"Answer","text":"Yes. It discusses Forex, gold/XAUUSD, stock indices and cryptocurrency markets, including differences in volatility, sessions, spreads and leverage."}},{"@type":"Question","name":"Does Liquidity Sweep include actual practice tools?","acceptedAnswer":{"@type":"Answer","text":"Yes. It includes a liquidity mapping worksheet, pre-trade decision sheet, sweep-versus-breakout diagnostic, risk sheet, journal, failed-trade review, backtesting record and 20-chart self-test."}},{"@type":"Question","name":"How many chapters does the book contain?","acceptedAnswer":{"@type":"Answer","text":"The 151-page edition's table of contents lists 41 numbered chapters, followed by a field manual, a 20-chart self-test and a ten-infographic visual atlas."}},{"@type":"Question","name":"Can a valid-looking sweep still lose?","acceptedAnswer":{"@type":"Answer","text":"Yes. The book studies beautiful-looking losers, false confirmation, failed sweeps, costly entries and no-trade decisions instead of filtering them out after the outcome."}},{"@type":"Question","name":"Is this a guaranteed trading strategy?","acceptedAnswer":{"@type":"Answer","text":"No. This is educational analysis, not financial advice. Historical patterns and diagrammed scenarios do not guarantee future returns; execution costs, leverage and risk matter."}}]}</script></head>
 <body>
 <main class="book-page premium-book-page theme-trading" data-premium-version="2026-11">
