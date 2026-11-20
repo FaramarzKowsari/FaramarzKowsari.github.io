@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T07:13:18.328328+00:00",
-  "count": 67,
+  "generated_at": "2026-11-20T10:40:22.698062+00:00",
+  "count": 68,
   "categories": {
     "Start Here & Core Technical Analysis": 9,
     "Smart Money, Liquidity & Market Structure": 17,
@@ -10,7 +10,7 @@
     "Scalping & Day Trading": 6,
     "Swing, Trend & Indicator Trading": 8,
     "Gold, Silver, Forex & Crypto": 3,
-    "AI, Algorithmic & Systematic Trading": 3,
+    "AI, Algorithmic & Systematic Trading": 4,
     "Trading Risk, Execution & Professional Practice": 2
   },
   "books": [
@@ -1728,6 +1728,22 @@
         "trading and financial markets book"
       ],
       "search_blob": "AI-Assisted Crypto Futures The Smart Three-Screenshot Method for Multi-Timeframe Futures Trading Trading AI-Assisted Crypto Futures builds a disciplined workflow around three clean screenshots: 1H for direction, 15M for the working zone and 5M for timing. Screenshots are treated as evidence rather than decoration, so each one must show the timeframe, recent swing points, active price area and enough history for the AI assistant to evaluate whether price is extended, balanced or structurally unclear. The prompt must ask for visible evidence, invalidation, risk and a reason to stand aside. Crypto futures Three-screenshot method Multi-timeframe analysis Market structure Liquidity and FVGs Prompt engineering Position sizing and leverage Execution and no-trade rules AI-Assisted Crypto Futures book trading and financial markets book",
+      "category": "AI, Algorithmic & Systematic Trading"
+    },
+    {
+      "title": "Alpha Generation Trading",
+      "subtitle": "ALPHA GENERATION TRADING",
+      "genre": "['Quantitative Finance', 'Algorithmic Trading', 'Financial Data Science']",
+      "language": "en",
+      "google_id": "lHEwEgAAQBAJ",
+      "google_url": "['https://play.google.com/store/books/details?id=lHEwEgAAQBAJ']",
+      "preview_url": "https://play.google.com/books/reader?id=lHEwEgAAQBAJ&hl=en",
+      "cover": "https://books.google.com/books/content?id=lHEwEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "medium_url": "",
+      "source_page": "https://play.google.com/store/books/details?id=lHEwEgAAQBAJ",
+      "description": "A 38-chapter research guide to alpha generation, factor attribution, point-in-time datasets, quantitative signal engineering, statistical validation, walk-forward backtesting, trading costs, portfolio construction and three reproducible research laboratories.",
+      "tags": [],
+      "search_blob": "Alpha Generation Trading ALPHA GENERATION TRADING ['Quantitative Finance', 'Algorithmic Trading', 'Financial Data Science'] A 38-chapter research guide to alpha generation, factor attribution, point-in-time datasets, quantitative signal engineering, statistical validation, walk-forward backtesting, trading costs, portfolio construction and three reproducible research laboratories. ",
       "category": "AI, Algorithmic & Systematic Trading"
     },
     {
