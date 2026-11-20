@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T10:44:02.562302+00:00",
+  "generated_at": "2026-11-20T10:45:55.276725+00:00",
   "count": 68,
   "categories": {
     "Start Here & Core Technical Analysis": 9,
@@ -1732,18 +1732,18 @@
     },
     {
       "title": "Alpha Generation Trading",
-      "subtitle": "ALPHA GENERATION TRADING",
-      "genre": "['Quantitative Finance', 'Algorithmic Trading', 'Financial Data Science']",
+      "subtitle": "Discovering, Testing, and Validating Quantitative Trading Signals",
+      "genre": "Quantitative Finance & Algorithmic Trading",
       "language": "en",
       "google_id": "lHEwEgAAQBAJ",
-      "google_url": "['https://play.google.com/store/books/details?id=lHEwEgAAQBAJ']",
+      "google_url": "https://play.google.com/store/books/details?id=lHEwEgAAQBAJ",
       "preview_url": "https://play.google.com/books/reader?id=lHEwEgAAQBAJ&hl=en",
       "cover": "https://books.google.com/books/content?id=lHEwEgAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
       "medium_url": "",
-      "source_page": "https://play.google.com/store/books/details?id=lHEwEgAAQBAJ",
+      "source_page": "https://faramarzkowsari.github.io/books/alpha-generation-trading/",
       "description": "A 38-chapter research guide to alpha generation, factor attribution, point-in-time datasets, quantitative signal engineering, statistical validation, walk-forward backtesting, trading costs, portfolio construction and three reproducible research laboratories.",
       "tags": [],
-      "search_blob": "Alpha Generation Trading ALPHA GENERATION TRADING ['Quantitative Finance', 'Algorithmic Trading', 'Financial Data Science'] A 38-chapter research guide to alpha generation, factor attribution, point-in-time datasets, quantitative signal engineering, statistical validation, walk-forward backtesting, trading costs, portfolio construction and three reproducible research laboratories. ",
+      "search_blob": "Alpha Generation Trading Discovering, Testing, and Validating Quantitative Trading Signals Quantitative Finance & Algorithmic Trading A 38-chapter research guide to alpha generation, factor attribution, point-in-time datasets, quantitative signal engineering, statistical validation, walk-forward backtesting, trading costs, portfolio construction and three reproducible research laboratories. ",
       "category": "AI, Algorithmic & Systematic Trading"
     },
     {
