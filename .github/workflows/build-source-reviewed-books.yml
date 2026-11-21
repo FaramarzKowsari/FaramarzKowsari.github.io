@@ -106,6 +106,7 @@ jobs:
           python scripts/build_google_books_cover_gallery.py
           python scripts/include_all_book_pages_in_index.py
           python scripts/premiumize_book_pages.py
+          python scripts/add_book_analytics.py
           python scripts/seo_sitemaps.py
           python scripts/image_seo_quality_gate.py
           python scripts/seo_quality_gate.py
